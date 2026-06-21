@@ -1,0 +1,9 @@
+{
+  "name": "worts-news-scripts",
+  "version": "1.0.0",
+  "description": "GitHub Actions scripts for Worts 3 news processing",
+  "main": "updateNews.js",
+  "dependencies": {
+    "fast-xml-parser": "^4.3.6"
+  }
+}
