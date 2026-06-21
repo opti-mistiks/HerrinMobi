@@ -1,6 +1,1447 @@
 {
-  "A1": [],
-  "A2": [],
-  "B1": [],
-  "updatedAt": null
+  "A1": [
+    {
+      "id": "5b116e92",
+      "originalTitle": "MTB: Weltcup in Lenzerheide – Blöchlinger (2.) feiert Podestpremiere im Cross Country",
+      "simplifiedText": "Die Schweizer Mountainbikerin ist Zweite. Sie feiert ihren zweiten Rang. Der Wettkampf ist in Lenzerheide. Sie ist eine Schweizer Mountainbikerin. Sie fährt ein Mountainbike.",
+      "vocabularyHints": [
+        "die Mountainbikerin, -nen — велосипедистка гірського класу",
+        "der Rang, -e — місце (у змаганнях)",
+        "der Wettkampf, -e — змагання",
+        "feiern — святкувати",
+        "jubeln — радіти"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:10:26.000Z",
+      "processedAt": "2026-06-21T19:45:03.503Z"
+    },
+    {
+      "id": "23b52e01",
+      "originalTitle": "«Der Sonntagsausflug» – Autofahren früher: Als der Stau am Gotthard noch ein Erlebnis war",
+      "simplifiedText": "Ich fahre mit dem Auto. Der Stau ist lang. Ich warte auf die Polizei. Die Polizei hilft uns. Wir fahren langsam.",
+      "vocabularyHints": [
+        "das Auto — автомобіль",
+        "der Stau, -s — затор",
+        "die Polizei — поліція",
+        "warten — чекати",
+        "helfen — допомагати"
+      ],
+      "category": "Verkehr",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:35:19.000Z",
+      "processedAt": "2026-06-21T19:44:55.626Z"
+    },
+    {
+      "id": "13906205",
+      "originalTitle": "Richtungsentscheid steht bevor – Kolumbien: Stichwahl um Präsidentenamt hat begonnen",
+      "simplifiedText": "Die Wahl ist wichtig für Kolumbien. Die Menschen wählen einen neuen Präsidenten. Es gibt zwei Kandidaten: einen von links und einen von rechts. Die Wahl ist entscheidend für das Land. Das Land hat viel Gewalt.",
+      "vocabularyHints": [
+        "die Gewalt — насильство",
+        "das Regierungslager — урядовий табір",
+        "der Herausforderer — виклик",
+        "die Weichen — напрямок",
+        "geprägt — позначений"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:46:46.000Z",
+      "processedAt": "2026-06-21T19:44:47.935Z"
+    },
+    {
+      "id": "30c66ac7",
+      "originalTitle": "Selena erhielt Niere – Natasha rettete mit ihren Organen 3 Leben",
+      "simplifiedText": "Selena Gomez braucht eine neue Niere. Sie bekommt Hilfe. Ein Arzt hilft ihr. Selena ist froh. Sie kann wieder gesund sein.",
+      "vocabularyHints": [
+        "die Niere, -n — нирка",
+        "der Arzt, Ärzte — лікар",
+        "die Hilfe, -n — допомога",
+        "froh — радісний",
+        "gesund — здоровий"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://media.20min.ch/6/image/2023/12/22/5bb439ee-8ee5-4308-8c93-610191970c93.jpeg?s=14f20661a28dd095221b5aeacddb13e3",
+      "publishedAt": "2026-06-21T13:52:03.000Z",
+      "processedAt": "2026-06-21T19:44:40.276Z"
+    },
+    {
+      "id": "7242554d",
+      "originalTitle": "Verdacht auf Reifenschaden: Swiss-Flug nach Mumbai muss umdrehen",
+      "simplifiedText": "Der Swiss-Flug kommt aus Zürich. Der Flug geht nach Mumbai. Der Flug muss umdrehen. Der Pilot denkt an einen Reifenschaden. Der Flug dreht über Bukarest um.",
+      "vocabularyHints": [
+        "der Schaden — збиток",
+        "umdrehen — розвернутись",
+        "der Reifen — шина",
+        "der Verdacht — підозра",
+        "der Pilot — пілот"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/06/21/240239ba-cd28-45c9-abb4-7ea24bcb7a26.jpg?s=5f7359bb1eb721611c68dde86edada86",
+      "publishedAt": "2026-06-21T13:53:31.000Z",
+      "processedAt": "2026-06-21T19:44:32.574Z"
+    },
+    {
+      "id": "5b724c44",
+      "originalTitle": "Schwierige Vergangenheit – Lou Blaas findet auf der Alp neue Kraft – seit über 30 Jahren",
+      "simplifiedText": "Lou Blaas hatte eine schwierige Jugend. Er trank Alkohol und prügelte sich. Eine Alp half ihm, neue Werte zu finden. Er lebt jetzt anders. Die Alp gibt ihm Kraft.",
+      "vocabularyHints": [
+        "die Alp, -en — гірська пасовисько",
+        "sich prägte — формувався",
+        "die Schlägerei, -en — бійка",
+        "die Werte — цінності",
+        "wiederzuentdecken — знову відкривати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:05:18.000Z",
+      "processedAt": "2026-06-21T19:44:24.731Z"
+    },
+    {
+      "id": "582a4d66",
+      "originalTitle": "Mitte und Westen des Landes – Hitze in Frankreich: Alkoholverbot und geschlossene Schulen",
+      "simplifiedText": "Frankreich kämpft mit der Hitze. Die Hitze ist sehr stark. Die Temperatur steigt auf 42 Grad. Die Schulen sind geschlossen. Es gibt ein Alkoholverbot.",
+      "vocabularyHints": [
+        "die Hitze — спека",
+        "kämpfen — боротися",
+        "geschlossen — закритий",
+        "Alkoholverbot — заборона на алкоголь",
+        "mancherorts — подекуди"
+      ],
+      "category": "Wetter",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:18:19.000Z",
+      "processedAt": "2026-06-21T19:44:17.179Z"
+    },
+    {
+      "id": "0c17ee4d",
+      "originalTitle": "– Polizei sucht nach Bootsunfall bei Mühlau AG nach 5-jährigem Bub",
+      "simplifiedText": "Das Boot fährt auf dem Fluss. Es kollidiert mit einem Baum. Das Boot kentert. Zwei Erwachsene und zwei Kinder sind im Boot. Die Polizei sucht nach einem Kind.",
+      "vocabularyHints": [
+        "das Boot, -e — човен",
+        "kollidieren — стикатися",
+        "kentern — перекидатися",
+        "die Polizei — поліція",
+        "suchen — шукати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:37:58.000Z",
+      "processedAt": "2026-06-21T19:44:08.935Z"
+    },
+    {
+      "id": "056e8a89",
+      "originalTitle": "Schlauchboot gekentert – Polizei sucht nach Bootsunfall bei Mühlau AG nach 5-jährigem Bub",
+      "simplifiedText": "Das Boot kentert im Fluss. Zwei Erwachsene und zwei Kinder sind im Boot. Das Boot stösst an einen Baum. Die Polizei sucht nach einem Kind. Die Eltern sind besorgt.",
+      "vocabularyHints": [
+        "das Boot, -e — човен",
+        "kentern — перекидатися",
+        "kollidieren — стикатися",
+        "der Baum, -e — дерево",
+        "die Polizei — поліція"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:37:58.000Z",
+      "processedAt": "2026-06-21T19:44:00.957Z"
+    },
+    {
+      "id": "7e0abe6c",
+      "originalTitle": "«Zu viel Insulin gespritzt»: Zverev ass über 300 Gramm Zucker",
+      "simplifiedText": "Alexander Zverev hat zu viel Insulin gespritzt. Sein Blutzuckersensor schlug Alarm. Er muss viel Zucker essen. Der Sensor hat falsch Alarm geschlagen. Zverev isst über 300 Gramm Zucker.",
+      "vocabularyHints": [
+        "das Insulin — інсулін",
+        "der Blutzuckersensor — датчик рівня цукру в крові",
+        "schlagen — бити",
+        "die Unmenge, -en — величезна кількість",
+        "spritzen — вводити ін'єкцією"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/06/21/7405cf41-130c-4757-9daf-24411aa08a40.jpg?s=c141ee3ce73c316be77872d43897d4d9",
+      "publishedAt": "2026-06-21T14:42:44.000Z",
+      "processedAt": "2026-06-21T19:43:53.186Z"
+    },
+    {
+      "id": "09e7a7ca",
+      "originalTitle": "Täglich 186 Stunden im Schnitt: Schweiz mit neuem Stau-Rekord",
+      "simplifiedText": "Die Staus auf Schweizer Strassen sind sehr lang. Die Staus dauern jeden Tag 186 Stunden. Die Zahl der Staustunden ist sehr hoch. Die Staus nehmen immer mehr zu. Die Strassen sind oft voll.",
+      "vocabularyHints": [
+        "die Staustunden — години заторів",
+        "die Strassen — дороги",
+        "die Zahl — кількість",
+        "steigen — збільшуватися",
+        "dauern — тривати"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/06/21/a99bacd5-3701-4713-a91a-bebf6a6346b4.jpg?s=1b26c020595acdc473253e43fd78e017",
+      "publishedAt": "2026-06-21T14:48:42.000Z",
+      "processedAt": "2026-06-21T19:43:45.453Z"
+    },
+    {
+      "id": "7aae338b",
+      "originalTitle": "Trotz Tour-de-Suisse-Sieg: «Bin noch nicht bei 100 Prozent»",
+      "simplifiedText": "Marlen Reusser gewinnt die Tour de Suisse. Sie ist 34 Jahre alt. Sie entwickelt sich weiter. Sie hatte viele Rückschläge. Sie ist noch nicht fit.",
+      "vocabularyHints": [
+        "die Tour de Suisse — Тур де Сюїс",
+        "sich entwickeln — розвиватися",
+        "der Rückschlag, -schläge — невдача",
+        "fit — готовий"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/21/22047177-3508-4899-bb7f-73ce1994feb7.jpg?s=4c225dc699e88d1984c602aa21fef892",
+      "publishedAt": "2026-06-21T15:00:04.000Z",
+      "processedAt": "2026-06-21T19:43:37.793Z"
+    },
+    {
+      "id": "329b8e28",
+      "originalTitle": "Fussball als Druckmittel – Argentinien: ohne Bezahlung der Alimente kein Stadionbesuch",
+      "simplifiedText": "In Argentinien spielt Fussball eine wichtige Rolle. Die Behörden nutzen Fussball als Druckmittel. Sie wollen, dass Väter Alimente bezahlen. Ohne Bezahlung kein Stadionbesuch. Die Behörden kontrollieren die Zahlung.",
+      "vocabularyHints": [
+        "das Aliment, -e — аліменти",
+        "der Hebel, - — важіль",
+        "sich ausbreiten — поширюватись",
+        "die Behörde, -n — установа",
+        "der Stadionbesuch, -e — відвідування стадіону"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:01:58.000Z",
+      "processedAt": "2026-06-21T19:43:29.921Z"
+    },
+    {
+      "id": "0d84e5ac",
+      "originalTitle": "Sein Vermögen in 1000er-Nötli – wie reich ist Elon Musk?",
+      "simplifiedText": "Elon Musk ist sehr reich. Er hat viel Geld. Musk kauft ein grosses Haus. Er fährt ein teures Auto. Musk ist jetzt sehr glücklich.",
+      "vocabularyHints": [
+        "das Vermögen — майно",
+        "reich — багатий",
+        "das Haus — будинок",
+        "teuer — дорогий",
+        "glücklich — щасливий"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://image.20min.ch/2026/06/19/a1df91a9-dae7-4e8c-95b4-3c434a041803.jpg?s=fc2c59014186a919e2f330dc1bfcc337",
+      "publishedAt": "2026-06-21T15:06:34.000Z",
+      "processedAt": "2026-06-21T19:43:22.092Z"
+    },
+    {
+      "id": "0f7abf89",
+      "originalTitle": "Kurzer Prozess im Schlussgang – Walther gewinnt erstmals den Schwarzsee-Schwinget",
+      "simplifiedText": "Adrian Walther ist ein Schwinger. Er kämpft im Schlussgang. Er gewinnt den Schwarzsee-Schwinget. Das ist sein zweiter Sieg. Er ist sehr froh.",
+      "vocabularyHints": [
+        "der Schwinger — гімнаст",
+        "der Schlussgang — заключний бій",
+        "gewinnt — перемагає",
+        "der Sieg — перемога",
+        "der Bergkranzfest — фестиваль гірських вінків"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:20:38.000Z",
+      "processedAt": "2026-06-21T19:43:14.460Z"
+    },
+    {
+      "id": "5de95c4e",
+      "originalTitle": "Weltcup in Lenzerheide – Martin triumphiert nach Boichis-Sturz – Schätti bester Schweizer",
+      "simplifiedText": "Luca Martin siegt beim Rennen. Er profitiert von einem Sturz. Sein Landsmann war voraus. Luca Martin ist froh. Er zeigt ein gutes Rennen.",
+      "vocabularyHints": [
+        "das Rennen — перегони",
+        "profitieren — отримувати вигоду",
+        "der Sturz — падіння",
+        "der Landsmann — співвітчизник",
+        "voraus — попереду"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:23:54.000Z",
+      "processedAt": "2026-06-21T19:43:06.623Z"
+    },
+    {
+      "id": "71413e1d",
+      "originalTitle": "Hohe Medikamentenpreise – Der Fall «Keytruda» und die Debatte über Preise und Gewinne",
+      "simplifiedText": "Das Medikament hilft gegen Krebs. Es ist sehr teuer. Die Preise bringen Diskussionen. Die Leute finden es ungerecht. Der Hersteller macht viel Gewinn.",
+      "vocabularyHints": [
+        "das Medikament — лікарський засіб",
+        "der Gewinn — прибуток",
+        "diskutieren — обговорювати",
+        "ungerecht — несправедливий",
+        "der Hersteller — виробник"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:59:15.000Z",
+      "processedAt": "2026-06-21T19:42:59.059Z"
+    },
+    {
+      "id": "0fb44417",
+      "originalTitle": "Auch die 5. Etappe gewinnt er – Pogacar überlegener Gesamtsieger der Tour de Suisse",
+      "simplifiedText": "Tadej Pogacar gewinnt die Etappe. Er ist sehr stark. Pogacar holt den Sieg. Er ist der Beste. Pogacar freut sich.",
+      "vocabularyHints": [
+        "die Etappe, -en — етап",
+        "überlegen — мати перевагу",
+        "der Gesamtsieg — загальна перемога",
+        "sich freuen — радіти"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T16:03:04.000Z",
+      "processedAt": "2026-06-21T19:42:51.301Z"
+    },
+    {
+      "id": "01e49f3c",
+      "originalTitle": "Reporter bringt Nati-Star mit kurioser WC-Frage zum Grinsen",
+      "simplifiedText": "Cedric Itten beantwortet Fragen vor der WM. Er ist WM-Debütant. Die Reporter fragen ihn aus. Cedric Itten spielt in der Nati. Die Nati hat noch Gruppenspiele.",
+      "vocabularyHints": [
+        "der Debütant, -en — новачок",
+        "die Medienschaffenden — працівники ЗМІ",
+        "der Reporter, - — репортер",
+        "ausfragen — розпитувати",
+        "der Auftakt, -e — початок"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/21/360ce776-d965-4968-85c5-e186a95f22d8.jpg?s=ff4b27093d7b40117c16f3238d94854d",
+      "publishedAt": "2026-06-21T16:13:17.000Z",
+      "processedAt": "2026-06-21T19:42:42.535Z"
+    },
+    {
+      "id": "7175d89b",
+      "originalTitle": "Diese WM-Sensationen wird die Fussball-Welt nie vergessen",
+      "simplifiedText": "Die WM schreibt unglaubliche Geschichten. Diese Überraschungen sorgen für Staunen. Die Fussball-Welt staunt über Sensationen. Die WM bringt immer wieder Überraschungen. Die Fussballer zeigen gute Leistungen.",
+      "vocabularyHints": [
+        "die Sensation, -en — сенсація",
+        "staunen — дивуватися",
+        "die Überraschung, -en — несподіванка",
+        "sorgen — турбуватися, дбати",
+        "die Leistung, -en — досягнення, результат"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/12/989c7722-0d1b-49b9-b5d2-4651e89f812c.jpg?s=89771b18a470ee9c793fc3cf38a7a50d",
+      "publishedAt": "2026-06-21T16:29:02.000Z",
+      "processedAt": "2026-06-21T19:42:34.568Z"
+    },
+    {
+      "id": "4dfb2c24",
+      "originalTitle": "Schlau und schnell – Greifvögel: 8 Fakten über die Könige der Lüfte",
+      "simplifiedText": "Greifvögel sind schlau. Sie sehen sehr gut. Sie fliegen schnell. Sie haben scharfe Krallen. Sie jagen Fische.",
+      "vocabularyHints": [
+        "scharfe Krallen — гострі кігті",
+        "jagen — полювати",
+        "Lüfte — повітря",
+        "Greifvögel — хижі птахи",
+        "Fische — риба"
+      ],
+      "category": "Wissenschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T16:32:55.000Z",
+      "processedAt": "2026-06-21T19:42:26.610Z"
+    },
+    {
+      "id": "68ffb669",
+      "originalTitle": "Beziehungen zur EU – Swiss Deal: Warum Grossbritannien die Schweiz als Vorbild sieht",
+      "simplifiedText": "Grossbritannien will der EU näher sein. Die Schweiz ist ein Vorbild. Grossbritannien will wie die Schweiz sein. Die Schweiz hat gute Beziehungen zur EU. Die Schweiz wählt ihre Partner selbst.",
+      "vocabularyHints": [
+        "an nähern — наближатися",
+        "das Vorbild, -er — приклад",
+        "die Beziehungen, -en — відносини",
+        "wählen — обирати",
+        "der Partner, - — партнер"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T17:17:29.000Z",
+      "processedAt": "2026-06-21T19:42:19.016Z"
+    },
+    {
+      "id": "64d65510",
+      "originalTitle": "Keir Starmer unter Druck – Tritt der britische Premier morgen zurück?",
+      "simplifiedText": "Keir Starmer ist Premierminister. Er steht unter Druck. Starmer könnte morgen zurücktreten. Der Premierminister hat viel Kritik. Die Leute sind unzufrieden.",
+      "vocabularyHints": [
+        "der Druck — тиск",
+        "zurücktreten — піти у відставку",
+        "die Kritik — критика",
+        "unzufrieden — незадоволений",
+        "der Premierminister — прем'єр-міністр"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:01:11.000Z",
+      "processedAt": "2026-06-21T19:42:11.308Z"
+    },
+    {
+      "id": "1fb62fdb",
+      "originalTitle": "Fifa WM 2026: Gruppe H – Reaktion geglückt: Spanien fertigt Saudi-Arabien mit 4:0 ab",
+      "simplifiedText": "Spanien spielt gut. Sie schlagen Saudi-Arabien mit 4:0. Das Team zeigt eine gute Reaktion. Sie hatten zuvor 0:0 gespielt. Die Spieler sind zufrieden.",
+      "vocabularyHints": [
+        "die Reaktion — реакція",
+        "eindrücklich — вражаючий",
+        "fertigen — перемагати",
+        "ab — геть",
+        "geglückt — вдалий"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:09:18.000Z",
+      "processedAt": "2026-06-21T19:42:03.690Z"
+    },
+    {
+      "id": "570f06f4",
+      "originalTitle": "Raffaela Zollo verrät: «Hatte seit 4 Jahren keinen Sex mehr»",
+      "simplifiedText": "Raffaela Zollo spricht über Liebe. Sie hatte lange keinen Freund. Blumen helfen nicht immer. Unpünktlichkeit ist ein Problem. Kommunikation ist wichtig.",
+      "vocabularyHints": [
+        "die Romanze — роман",
+        "die Unpünktlichkeit — непунктуальність",
+        "die Kommunikation — комунікація",
+        "der Freund — друг",
+        "die Blumen — квіти",
+        "geplatzt — зірваний",
+        "scheitern — зазнавати невдачі"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/06/21/966b6b35-51b0-4e0e-a59e-2240eed8f5ef.jpg?s=97710fc76364d2e0e6820d8a827606ec",
+      "publishedAt": "2026-06-21T18:21:38.000Z",
+      "processedAt": "2026-06-21T19:41:55.763Z"
+    },
+    {
+      "id": "0de58f13",
+      "originalTitle": "Sohn Bear (8) erbt Liam Paynes Millionen-Vermögen",
+      "simplifiedText": "Liam Payne stirbt. Er hinterlässt kein Testament. Sein Sohn Bear erbt sein Geld. Bear bekommt viel Geld. Er bekommt 23 Millionen Franken.",
+      "vocabularyHints": [
+        "das Testament — заповіт",
+        "erben — успадковувати",
+        "der Nachlass — спадщина",
+        "das Geld — гроші",
+        "erhalten — отримувати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2024/10/17/3298d9d7-2fe8-48bd-8b03-596137d848ab.png?s=b833055855226a6cf3f304b4fb01ba33",
+      "publishedAt": "2026-06-21T18:23:09.000Z",
+      "processedAt": "2026-06-21T19:41:47.700Z"
+    },
+    {
+      "id": "05f3cd6d",
+      "originalTitle": "Fantasy, Top-Buffet, Powernaps: Weltpolitik in Luxus-Geisterstadt",
+      "simplifiedText": "Die Verhandlungen haben begonnen. Die Gespräche laufen hinter Türen. Die Medienschaffenden warten lange. Die Verhandlungen sind wichtig. Die Länder sprechen zusammen.",
+      "vocabularyHints": [
+        "die Verhandlungen — переговори",
+        "hinter verschlossenen Türen — за зачиненими дверима",
+        "die Medienschaffenden — працівники медіа",
+        "warten — чекати",
+        "angesetzt — запланований"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://image.20min.ch/2026/06/21/aa4dc99d-9481-40e5-9a94-28a017f29696.jpg?s=d6eb33cec7b588aa520251a9363e8440",
+      "publishedAt": "2026-06-21T18:30:11.000Z",
+      "processedAt": "2026-06-21T19:41:39.800Z"
+    },
+    {
+      "id": "6393c6cc",
+      "originalTitle": "Schwindender Absatz – Chinesische Autohersteller in der Krise – die Hintergründe",
+      "simplifiedText": "Der Automarkt in China bricht ein. Die Hersteller spüren das. Die Krise betrifft auch Europa. Die Autos werden weniger verkauft. Die Hersteller sind betroffen.",
+      "vocabularyHints": [
+        "der Automarkt — ринок автомобілів",
+        "brechen — ламатися",
+        "betreffen — стосуватися",
+        "verkaufen — продавати",
+        "der Hersteller — виробник"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:58:52.000Z",
+      "processedAt": "2026-06-21T19:41:32.116Z"
+    },
+    {
+      "id": "3acc0cf0",
+      "originalTitle": "Krieg im Nahen Osten – Nach Trumps Drohungen: Iran pausiert Bürgenstock-Gespräche",
+      "simplifiedText": "Iran spricht mit den USA. Katar hilft dabei. Die Gespräche sind in der Schweiz. Iran und die USA wollen Frieden. Die Gespräche sind wichtig.",
+      "vocabularyHints": [
+        "die Verhandlungen — переговори",
+        "der Frieden — мир",
+        "die Vermittlung — посередництво",
+        "pausieren — призупинити",
+        "Bürgenstock — Бюргеншток"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T19:31:22.000Z",
+      "processedAt": "2026-06-21T19:41:24.524Z"
+    },
+    {
+      "id": "0f3901b8",
+      "originalTitle": "Krieg in der Ukraine – Ukrainer attackieren Krim mit Drohnen – Tote und Verletzte",
+      "simplifiedText": "Der Krieg ist in der Ukraine. Die Ukrainer greifen die Krim an. Sie benutzen Drohnen. Es gibt Tote und Verletzte.",
+      "vocabularyHints": [
+        "die Drohne, -n — безпілотник",
+        "angreifen — атакувати",
+        "die Verletzte, -n — постраждала"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T19:31:40.000Z",
+      "processedAt": "2026-06-21T19:41:16.869Z"
+    }
+  ],
+  "A2": [
+    {
+      "id": "1375a2af",
+      "originalTitle": "MTB: Weltcup in Lenzerheide – Blöchlinger (2.) feiert Podestpremiere im Cross Country",
+      "simplifiedText": "Die Schweizer Mountainbikerin ist am Heimweltcup in Lenzerheide Zweite geworden. Sie freut sich über ihren zweiten Rang. Das Wetter war gut, aber die Strecke war schwierig. Sie muss noch viel trainieren, um Erste zu werden. Sie geht oft in den Bergen fahren und macht auch im Winter Sport. Sie kauft neue Ausrüstung im Laden ein.",
+      "vocabularyHints": [
+        "die Strecke, -n — траса",
+        "zweit — другим",
+        "die Ausrüstung — обладнання",
+        "jubeln — радіти",
+        "die Schweizerin — швейцарка"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:10:26.000Z",
+      "processedAt": "2026-06-21T19:45:06.123Z"
+    },
+    {
+      "id": "1620493e",
+      "originalTitle": "«Der Sonntagsausflug» – Autofahren früher: Als der Stau am Gotthard noch ein Erlebnis war",
+      "simplifiedText": "Früher war ein Sonntagsausflug mit dem Auto ein besonderes Erlebnis. Ab den 1920er-Jahren konnten die Leute mit ihrem Auto Ausflüge machen. Der Stau am Gotthard war ein Teil davon. Manchmal war es voll, aber es hat nicht gestört. Die Leute haben sich auf den Ausflug gefreut und sind gerne gefahren. Das Auto hat viel verändert.",
+      "vocabularyHints": [
+        "der Ausflug, -e — прогулянка",
+        "das Erlebnis, -se — враження",
+        "sich freuen — радіти",
+        "der Stau, -s — затор",
+        "das Auto, -s — автомобіль"
+      ],
+      "category": "Verkehr",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:35:19.000Z",
+      "processedAt": "2026-06-21T19:44:58.232Z"
+    },
+    {
+      "id": "5931a4a4",
+      "originalTitle": "Richtungsentscheid steht bevor – Kolumbien: Stichwahl um Präsidentenamt hat begonnen",
+      "simplifiedText": "In Kolumbien steht eine wichtige Wahl bevor. Es geht um das Präsidentenamt. Ein linker Kandidat und ein rechter Kandidat treten gegeneinander an. Die Wahl ist wichtig für das Land, denn es ist von Gewalt geprägt. Der Wahlausgang wird zeigen, welche Richtung das Land einschlägt. Die Menschen in Kolumbien hoffen auf eine bessere Zukunft. Das Wetter ist gut, aber die politische Stimmung ist angespannt.",
+      "vocabularyHints": [
+        "das Präsidentenamt — посада президента",
+        "geprägt — характеризуватися",
+        "der Herausforderer — виклик, суперник",
+        "die Weichen — напрямок, орієнтир",
+        "einschlägt — обирає, приймає рішення"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:46:46.000Z",
+      "processedAt": "2026-06-21T19:44:50.597Z"
+    },
+    {
+      "id": "39691d58",
+      "originalTitle": "Selena erhielt Niere – Natasha rettete mit ihren Organen 3 Leben",
+      "simplifiedText": "Selena Gomez brauchte eine Niere. Sie bekam eine neue Niere und ist jetzt gesund. Eine Frau namens Natasha spendete ihre Organe und rettete drei Leben. Das war sehr nett von ihr. Die Ärzte waren froh, dass sie helfen konnten. Das Wetter war nicht gut, aber die Stimmung war gut.",
+      "vocabularyHints": [
+        "die Niere, -n — нирка",
+        "spendete — пожертвувала",
+        "rettete — врятувала",
+        "die Organe — органи",
+        "die Transplantation, -en — трансплантація",
+        "die Stimmung, -en — настрій"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://media.20min.ch/6/image/2023/12/22/5bb439ee-8ee5-4308-8c93-610191970c93.jpeg?s=14f20661a28dd095221b5aeacddb13e3",
+      "publishedAt": "2026-06-21T13:52:03.000Z",
+      "processedAt": "2026-06-21T19:44:42.858Z"
+    },
+    {
+      "id": "0812cd2e",
+      "originalTitle": "Verdacht auf Reifenschaden: Swiss-Flug nach Mumbai muss umdrehen",
+      "simplifiedText": "Der Swiss-Flug LX154 von Zürich nach Mumbai musste umdrehen. Es gab einen Verdacht auf Reifenschaden. Deshalb flog das Flugzeug über Bukarest zurück. Der Pilot wollte kein Risiko eingehen. Die Sicherheit der Passagiere war wichtig. Das Flugzeug wurde untersucht.",
+      "vocabularyHints": [
+        "der Reifenschaden — пошкодження шини",
+        "umdrehen — повернути назад",
+        "der Verdacht — підозра",
+        "untersuchen — досліджувати"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/06/21/240239ba-cd28-45c9-abb4-7ea24bcb7a26.jpg?s=5f7359bb1eb721611c68dde86edada86",
+      "publishedAt": "2026-06-21T13:53:31.000Z",
+      "processedAt": "2026-06-21T19:44:35.204Z"
+    },
+    {
+      "id": "6c9cd89d",
+      "originalTitle": "Schwierige Vergangenheit – Lou Blaas findet auf der Alp neue Kraft – seit über 30 Jahren",
+      "simplifiedText": "Lou Blaas hatte eine schwierige Jugend. Alkohol und Schlägereien bestimmten sein Leben. Doch dann fand er auf einer Alp im Kanton Graubünden eine neue Chance. Dort lernte er, andere Werte zu schätzen. Er arbeitet jetzt jeden Tag auf der Alp und fühlt sich frei. Das Wetter auf der Alp ist oft schlecht, aber er mag die Ruhe.",
+      "vocabularyHints": [
+        "die Alp, -en — гірська луговина",
+        "prägen — визначати",
+        "wiederentdecken — знову відкривати",
+        "schätzen — цінувати",
+        "die Werte — цінності"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:05:18.000Z",
+      "processedAt": "2026-06-21T19:44:27.230Z"
+    },
+    {
+      "id": "1e54d627",
+      "originalTitle": "Mitte und Westen des Landes – Hitze in Frankreich: Alkoholverbot und geschlossene Schulen",
+      "simplifiedText": "Frankreich kämpft mit der Hitze. Mancherorts werden bis zu 42 Grad erwartet. Die Regierung hat Massnahmen ergriffen. Es gibt ein Alkoholverbot und einige Schulen sind geschlossen. Die Hitze ist ein grosses Problem. Die Menschen müssen vorsichtig sein. Sie sollten viel Wasser trinken.",
+      "vocabularyHints": [
+        "die Massnahme, -n — захід",
+        "das Alkoholverbot — заборона на алкоголь",
+        "sich ergriffen — бути сприйнятим",
+        "die Hitze — спека",
+        "vorsichtig — обережний"
+      ],
+      "category": "Wetter",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:18:19.000Z",
+      "processedAt": "2026-06-21T19:44:19.655Z"
+    },
+    {
+      "id": "6fa9f1ee",
+      "originalTitle": "– Polizei sucht nach Bootsunfall bei Mühlau AG nach 5-jährigem Bub",
+      "simplifiedText": "Gestern ist ein Boot mit zwei Erwachsenen und zwei Kindern auf dem Fluss gekentert. Das Boot kollidierte mit einem Baum und ging unter. Ein 5-jähriger Bub wird noch vermisst. Die Polizei sucht nach ihm. Die Eltern und ein anderes Kind sind gerettet worden. Das Wetter war gut, aber der Fluss war voll Wasser.",
+      "vocabularyHints": [
+        "kollidierte — стикнувся",
+        "kentert — перекинувся",
+        "vermisst — той, що зник",
+        "gerettet — врятований",
+        "kenterte — перекидався"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:37:58.000Z",
+      "processedAt": "2026-06-21T19:44:12.034Z"
+    },
+    {
+      "id": "3f4401c8",
+      "originalTitle": "Schlauchboot gekentert – Polizei sucht nach Bootsunfall bei Mühlau AG nach 5-jährigem Bub",
+      "simplifiedText": "Ein Schlauchboot mit zwei Erwachsenen und zwei Kindern ist gekentert. Es kollidierte mit einem Baum im Fluss. Die Polizei sucht nach einem 5-jährigen Bub. Die Eltern und ein anderes Kind waren auch im Boot. Sie konnten sich retten, aber der 5-jährige Bub fehlt. Das Wetter war schön, aber die Strömung im Fluss ist stark. Die Polizei hofft, dass der Bub schnell gefunden wird.",
+      "vocabularyHints": [
+        "kentern — перекидатися",
+        "kollidieren — стикатися",
+        "Strömung, -en — течія",
+        "sich retten — рятуватися"
+      ],
+      "category": "Wetter",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:37:58.000Z",
+      "processedAt": "2026-06-21T19:44:03.476Z"
+    },
+    {
+      "id": "719a42ad",
+      "originalTitle": "«Zu viel Insulin gespritzt»: Zverev ass über 300 Gramm Zucker",
+      "simplifiedText": "Alexander Zverev hat vor einem Spiel zu viel Insulin gespritzt. Sein Blutzuckersensor hat falsch Alarm geschlagen. Danach musste er über 300 Gramm Zucker essen. Das war sehr viel, aber er musste es tun, um seinen Blutzuckerspiegel wieder normal zu machen. Er wollte unbedingt spielen, aber zuerst musste er seinen Körper wieder in Ordnung bringen.",
+      "vocabularyHints": [
+        "das Insulin — інсулін",
+        "der Blutzuckersensor — датчик рівня цукру в крові",
+        "fälschlicherweise — помилково",
+        "Unmengen — величезні кількості",
+        "der Blutzuckerspiegel — рівень цукру в крові"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/06/21/7405cf41-130c-4757-9daf-24411aa08a40.jpg?s=c141ee3ce73c316be77872d43897d4d9",
+      "publishedAt": "2026-06-21T14:42:44.000Z",
+      "processedAt": "2026-06-21T19:43:55.753Z"
+    },
+    {
+      "id": "0288d3f5",
+      "originalTitle": "Täglich 186 Stunden im Schnitt: Schweiz mit neuem Stau-Rekord",
+      "simplifiedText": "Die Staus auf Schweizer Strassen sind sehr schlimm. Sie haben 2025 einen neuen Rekord erreicht. Die Zahl der Staustunden stieg um 22 Prozent auf 68'040 Stunden. Das ist sehr viel. Die Leute müssen oft im Stau stehen. Sie fahren zur Arbeit oder zum Einkaufen. Das Wetter ist auch nicht immer gut.",
+      "vocabularyHints": [
+        "der Stau, -s — затор",
+        "die Staustunde, -n — година простою",
+        "die Jahresfrist — річний термін",
+        "steigen — підніматися",
+        "schlimm — поганий"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/06/21/a99bacd5-3701-4713-a91a-bebf6a6346b4.jpg?s=1b26c020595acdc473253e43fd78e017",
+      "publishedAt": "2026-06-21T14:48:42.000Z",
+      "processedAt": "2026-06-21T19:43:48.009Z"
+    },
+    {
+      "id": "3523d40c",
+      "originalTitle": "Trotz Tour-de-Suisse-Sieg: «Bin noch nicht bei 100 Prozent»",
+      "simplifiedText": "Marlen Reusser gewinnt die Tour de Suisse zum dritten Mal. Sie hatte in den letzten Monaten einige Rückschläge, aber sie ist wieder stark. Mit 34 Jahren arbeitet sie immer noch daran, besser zu werden. Sie ist froh, dass sie wieder auf ihrem Niveau ist, aber sie sagt, dass sie noch nicht bei 100 Prozent ist. Sie muss noch viel trainieren, um ihre Ziele zu erreichen. Das Wetter war auch nicht immer einfach, aber sie hat sich gut durchgekämpft.",
+      "vocabularyHints": [
+        "der Rückschlag, -schläge — невдача",
+        "sich weiterentwickeln — розвиватися далі",
+        "das Niveau — рівень",
+        "das Ziel, -e — мета"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/21/22047177-3508-4899-bb7f-73ce1994feb7.jpg?s=4c225dc699e88d1984c602aa21fef892",
+      "publishedAt": "2026-06-21T15:00:04.000Z",
+      "processedAt": "2026-06-21T19:43:40.423Z"
+    },
+    {
+      "id": "6b095af9",
+      "originalTitle": "Fussball als Druckmittel – Argentinien: ohne Bezahlung der Alimente kein Stadionbesuch",
+      "simplifiedText": "In Argentinien nutzen Behörden Fussball als Druckmittel. Sie wollen, dass Väter Alimente bezahlen. Wenn sie nicht bezahlen, dürfen sie kein Stadion besuchen. Das ist eine neue Idee, um Väter zum Bezahlen zu bringen. Viele Väter zahlen keine Alimente, aber sie lieben Fussball. Fussball ist sehr beliebt in Argentinien, aber jetzt müssen Väter erst ihre Schulden bezahlen.",
+      "vocabularyHints": [
+        "das Druckmittel — засіб тиску",
+        "die Alimente — аліменти",
+        "der Hebel — важіль",
+        "der Stadionbesuch — відвідування стадіону",
+        "die Behörden — органи влади"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:01:58.000Z",
+      "processedAt": "2026-06-21T19:43:32.446Z"
+    },
+    {
+      "id": "7f683173",
+      "originalTitle": "Sein Vermögen in 1000er-Nötli – wie reich ist Elon Musk?",
+      "simplifiedText": "Elon Musk ist über 1'000'000'000'000 Franken reich. Er ist einer der reichsten Menschen der Welt. Ich arbeite jeden Tag, aber ich werde nie so reich sein wie er. Das Wetter ist heute schön, ich könnte zum Shoppen gehen oder im Büro arbeiten. Vielleicht kaufe ich ein neues Auto, aber ich brauche es nicht wirklich, denn ich habe schon eines.",
+      "vocabularyHints": [
+        "das Vermögen — майно",
+        "reich — багатий",
+        "das BIP — ВВП",
+        "die Billion — трильйон",
+        "vorbei — повз",
+        "vorstellen — уявляти"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://image.20min.ch/2026/06/19/a1df91a9-dae7-4e8c-95b4-3c434a041803.jpg?s=fc2c59014186a919e2f330dc1bfcc337",
+      "publishedAt": "2026-06-21T15:06:34.000Z",
+      "processedAt": "2026-06-21T19:43:24.635Z"
+    },
+    {
+      "id": "490966b6",
+      "originalTitle": "Kurzer Prozess im Schlussgang – Walther gewinnt erstmals den Schwarzsee-Schwinget",
+      "simplifiedText": "Adrian Walther hat gestern den Schwarzsee-Schwinget gewonnen. Er hat zum zweiten Mal in seiner Karriere ein Bergkranzfest gewonnen. Walther arbeitet hart für seinen Erfolg. Er geht jeden Tag trainieren und isst gesund. Das Wetter war gut gestern, aber die Konkurrenz war stark. Walther muss sich noch für die nächste Prüfung vorbereiten.",
+      "vocabularyHints": [
+        "der Bergkranzfest — свято з нагородженням переможців у вигляді вінка",
+        "die Konkurrenz — суперництво",
+        "sich vorbereiten — готуватися",
+        "das Bergkranzfest, -e — свято з нагородженням переможців у вигляді вінка"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:20:38.000Z",
+      "processedAt": "2026-06-21T19:43:17.008Z"
+    },
+    {
+      "id": "68412c73",
+      "originalTitle": "Weltcup in Lenzerheide – Martin triumphiert nach Boichis-Sturz – Schätti bester Schweizer",
+      "simplifiedText": "Luca Martin gewinnt das Cross-Country-Rennen in Lenzerheide. Er profitiert von einem Sturz seines Landsmannes. Martin war schnell und sicher. Er siegt vor den Schweizern. Das Wetter war gut, aber die Strecke war schwierig. Luca Martin ist zufrieden mit seinem Sieg.",
+      "vocabularyHints": [
+        "das Cross-Country-Rennen — гонка крос-кантрі",
+        "profitieren — отримувати вигоду",
+        "der Sturz — падіння",
+        "der Landsmann — співвітчизник",
+        "die Strecke — траса"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:23:54.000Z",
+      "processedAt": "2026-06-21T19:43:09.229Z"
+    },
+    {
+      "id": "2037b0a2",
+      "originalTitle": "Hohe Medikamentenpreise – Der Fall «Keytruda» und die Debatte über Preise und Gewinne",
+      "simplifiedText": "Das Krebsmedikament Keytruda ist sehr teuer. Es hilft vielen Patienten, aber die Preise sind hoch. Einige Leute finden, dass die Preise zu hoch sind. Die Firma, die Keytruda herstellt, sagt, dass sie viel Geld in die Forschung investiert hat. Die Debatte über Medikamentenpreise ist wichtig, denn viele Menschen können sich die Medikamente nicht leisten. Wir müssen über die Preise und Gewinne sprechen.",
+      "vocabularyHints": [
+        "das Krebsmedikament — ліки від раку",
+        "die Debatte — дебати",
+        "die Gewinne — прибутки",
+        "investieren — інвестувати",
+        "sich leisten — дозволяти собі"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:59:15.000Z",
+      "processedAt": "2026-06-21T19:43:01.638Z"
+    },
+    {
+      "id": "385f4e68",
+      "originalTitle": "Auch die 5. Etappe gewinnt er – Pogacar überlegener Gesamtsieger der Tour de Suisse",
+      "simplifiedText": "Tadej Pogacar gewinnt die letzte Etappe der Tour de Suisse. Er wird Gesamtsieger. Pogacar war immer der Beste. Er fährt jeden Tag sehr schnell. Die anderen Fahrer sind müde, aber Pogacar ist frisch. Er freut sich über seinen Sieg.",
+      "vocabularyHints": [
+        "der Gesamtsieger — загальний переможець",
+        "überlegen — переважати",
+        "frisch — свіжий",
+        "die Etappe, -n — етап",
+        "müde — втомлений"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T16:03:04.000Z",
+      "processedAt": "2026-06-21T19:42:53.876Z"
+    },
+    {
+      "id": "476efebb",
+      "originalTitle": "Reporter bringt Nati-Star mit kurioser WC-Frage zum Grinsen",
+      "simplifiedText": "Cedric Itten ist ein Spieler von der Nati. Er hat bei der Pressekonferenz Fragen beantwortet. Ein Reporter hat ihn eine komische Frage gestellt. Die Frage war über die Toilette. Cedric Itten hat darüber gelacht. Die Nati spielt bald wieder. Das Wetter ist gut, aber die Spieler müssen sich konzentrieren.",
+      "vocabularyHints": [
+        "die Nati — національна збірна",
+        "der Auftakt — початок",
+        "der Medienschaffende — журналіст",
+        "die Pressekonferenz — прес-конференція",
+        "der Debütant — новачок"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/21/360ce776-d965-4968-85c5-e186a95f22d8.jpg?s=ff4b27093d7b40117c16f3238d94854d",
+      "publishedAt": "2026-06-21T16:13:17.000Z",
+      "processedAt": "2026-06-21T19:42:45.800Z"
+    },
+    {
+      "id": "60c00bda",
+      "originalTitle": "Diese WM-Sensationen wird die Fussball-Welt nie vergessen",
+      "simplifiedText": "Die Fussball-WM hat viele überraschende Geschichten geschrieben. Einige Teams haben besser gespielt als erwartet. Das Wetter war oft gut, aber manchmal auch regnerisch. Die Fans waren sehr aufgeregt und haben ihre Teams lautstark unterstützt. Einige Spieler haben sehr gut gespielt und sind bekannt geworden. Die WM ist ein grosses Ereignis und bringt viele Emotionen mit sich.",
+      "vocabularyHints": [
+        "die Sensation, -en — сенсація",
+        "unglaublich — неймовірний",
+        "das Staunen — подив",
+        "regnerisch — дощовий",
+        "lautstark — голосний"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/12/989c7722-0d1b-49b9-b5d2-4651e89f812c.jpg?s=89771b18a470ee9c793fc3cf38a7a50d",
+      "publishedAt": "2026-06-21T16:29:02.000Z",
+      "processedAt": "2026-06-21T19:42:37.215Z"
+    },
+    {
+      "id": "5ca99ca3",
+      "originalTitle": "Schlau und schnell – Greifvögel: 8 Fakten über die Könige der Lüfte",
+      "simplifiedText": "Greifvögel sind sehr schlau und schnell. Sie sehen auch sehr gut. Manche Greifvögel können bis zu 300 Kilometer pro Stunde fliegen. Sie haben starke Krallen und einen scharfen Schnabel. Greifvögel sind wichtig für die Natur, denn sie helfen, die Population von anderen Tieren zu kontrollieren. Ich gehe gerne spazieren, wenn das Wetter schön ist, und sehe dann Greifvögel am Himmel.",
+      "vocabularyHints": [
+        "die Krallen — кігті",
+        "scharf — гострий",
+        "die Population — популяція",
+        "kontrollieren — контролювати",
+        "die Lüfte — повітря",
+        "spazieren — прогулюватися"
+      ],
+      "category": "Wissenschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T16:32:55.000Z",
+      "processedAt": "2026-06-21T19:42:29.202Z"
+    },
+    {
+      "id": "515f06f8",
+      "originalTitle": "Beziehungen zur EU – Swiss Deal: Warum Grossbritannien die Schweiz als Vorbild sieht",
+      "simplifiedText": "Grossbritannien will sich der EU wieder annähern. Die Schweiz soll dabei ein Vorbild sein. 10 Jahre nach dem Brexit will Grossbritannien neue Wege gehen. Aber warum sieht es die Schweiz als Vorbild? Die Schweiz hat gute Beziehungen zur EU, obwohl sie nicht Mitglied ist. Sie hat viele Abkommen mit der EU. Das gefällt Grossbritannien.",
+      "vocabularyHints": [
+        "annähern — наближатися",
+        "Vorbild — приклад",
+        "Abkommen — угода",
+        "Beziehungen — відносини",
+        "annimmt — приймає"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T17:17:29.000Z",
+      "processedAt": "2026-06-21T19:42:21.504Z"
+    },
+    {
+      "id": "48020851",
+      "originalTitle": "Keir Starmer unter Druck – Tritt der britische Premier morgen zurück?",
+      "simplifiedText": "Keir Starmer ist Premierminister von England. Er steht unter Druck und könnte morgen zurücktreten. Die Leute fragen sich, ob er wirklich zurücktritt. Keir Starmer arbeitet viel, aber es gibt Probleme. Das Wetter ist momentan nicht schön, es ist Regen angesagt. Vielleicht geht er shoppen, wenn er Zeit hat.",
+      "vocabularyHints": [
+        "der Druck — тиск",
+        "der Rücktritt — відставка",
+        "der Premierminister — прем'єр-міністр",
+        "ansagen — повідомляти",
+        "der Überblick — огляд"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:01:11.000Z",
+      "processedAt": "2026-06-21T19:42:13.816Z"
+    },
+    {
+      "id": "6557727a",
+      "originalTitle": "Fifa WM 2026: Gruppe H – Reaktion geglückt: Spanien fertigt Saudi-Arabien mit 4:0 ab",
+      "simplifiedText": "Spanien hat ein gutes Spiel gemacht. Sie haben Saudi-Arabien mit 4:0 geschlagen. Das war wichtig, denn sie hatten vorher nur 0:0 gegen Kap Verde gespielt. Die Mannschaft hat gut zusammen gearbeitet und schöne Tore gemacht. Das Wetter war gut, ideal für ein Fussballspiel. Sie konnten gut trainieren und sind jetzt zufrieden.",
+      "vocabularyHints": [
+        "eindrückliche — вражаючий",
+        "geglückt — вдалий",
+        "fertigen — виготовляти",
+        "Reaktion — реакція",
+        "schlägt — завдає удару"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:09:18.000Z",
+      "processedAt": "2026-06-21T19:42:06.258Z"
+    },
+    {
+      "id": "14b2896d",
+      "originalTitle": "Raffaela Zollo verrät: «Hatte seit 4 Jahren keinen Sex mehr»",
+      "simplifiedText": "Raffaela Zollo spricht über ihre letzte Beziehung. Sie hatte seit vier Jahren keinen Sex mehr. Ihre letzte Beziehung endete, weil ihr Partner unpünktlich war und sie nicht genug miteinander sprachen. Sie wollte mehr Kommunikation und Gefühle. Blumen allein genügten nicht. Sie ist jetzt wieder solo und konzentriert sich auf ihre Arbeit.",
+      "vocabularyHints": [
+        "die Romanze — роман",
+        "unpünktlich — той, хто часто спізнюється",
+        "scheitern — зазнавати невдачі",
+        "die Kommunikation — спілкування",
+        "konzentrieren — зосереджуватися"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/06/21/966b6b35-51b0-4e0e-a59e-2240eed8f5ef.jpg?s=97710fc76364d2e0e6820d8a827606ec",
+      "publishedAt": "2026-06-21T18:21:38.000Z",
+      "processedAt": "2026-06-21T19:41:58.258Z"
+    },
+    {
+      "id": "5170acd4",
+      "originalTitle": "Sohn Bear (8) erbt Liam Paynes Millionen-Vermögen",
+      "simplifiedText": "Liam Payne ist tot. Er hat kein Testament gemacht. Deshalb geht sein Geld an seinen Sohn Bear. Bear bekommt fast 23 Millionen Franken. Liam Payne war ein berühmter Sänger. Er hat oft mit seiner Freundin Cheryl gesungen. Aber jetzt ist Liam tot und Bear erbt sein Geld. Bear ist noch klein, aber er wird bald ein reicher Mann sein.",
+      "vocabularyHints": [
+        "das Testament — заповіт",
+        "der Nachlass — спадщина",
+        "das Vermögen — майно",
+        "erben — успадковувати",
+        "umgerechnet — приблизно"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2024/10/17/3298d9d7-2fe8-48bd-8b03-596137d848ab.png?s=b833055855226a6cf3f304b4fb01ba33",
+      "publishedAt": "2026-06-21T18:23:09.000Z",
+      "processedAt": "2026-06-21T19:41:50.315Z"
+    },
+    {
+      "id": "2a3251ac",
+      "originalTitle": "Fantasy, Top-Buffet, Powernaps: Weltpolitik in Luxus-Geisterstadt",
+      "simplifiedText": "Die Verhandlungen zwischen den USA, Iran, Katar und Pakistan haben auf dem Bürgenstock begonnen. Die Gespräche finden hinter verschlossenen Türen statt. Die Medienschaffenden müssen warten. Das Wetter ist nicht wichtig für die Verhandlungen, aber es ist schön heute. Ich gehe nachher einkaufen oder mache einen Spaziergang.",
+      "vocabularyHints": [
+        "der Bürgenstock — гора Bürgenstock",
+        "verschlossen — закритий",
+        "Medienschaffende — працівники ЗМІ",
+        "stattfinden — відбуватися",
+        "einkaufen — робити покупки"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://image.20min.ch/2026/06/21/aa4dc99d-9481-40e5-9a94-28a017f29696.jpg?s=d6eb33cec7b588aa520251a9363e8440",
+      "publishedAt": "2026-06-21T18:30:11.000Z",
+      "processedAt": "2026-06-21T19:41:42.457Z"
+    },
+    {
+      "id": "6dbacf15",
+      "originalTitle": "Schwindender Absatz – Chinesische Autohersteller in der Krise – die Hintergründe",
+      "simplifiedText": "Der Automarkt in China bricht ein. Die chinesischen Hersteller spüren das, aber auch die Hersteller in Europa sind betroffen. Der Absatz schwindet täglich. Die Hersteller müssen sich anpassen oder schließen. Die Krise ist ein großes Problem für die Wirtschaft.",
+      "vocabularyHints": [
+        "der Absatz, -e — збут",
+        "schwindet — зменшується",
+        "sich anpassen — адаптуватися",
+        "schließen — закривати",
+        "die Krise, -n — криза"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:58:52.000Z",
+      "processedAt": "2026-06-21T19:41:34.701Z"
+    },
+    {
+      "id": "6cafccd1",
+      "originalTitle": "Krieg im Nahen Osten – Nach Trumps Drohungen: Iran pausiert Bürgenstock-Gespräche",
+      "simplifiedText": "Die Verhandlungen zwischen Iran und den USA haben begonnen. Sie sprechen über Frieden. Katar hilft dabei. Aber jetzt pausiert Iran die Gespräche. Der Grund sind Drohungen von Trump. Das Wetter ist momentan nicht wichtig. Ich gehe jeden Tag zur Arbeit und zum Einkaufen.",
+      "vocabularyHints": [
+        "die Verhandlungen — переговори",
+        "pausieren — призупиняти",
+        "Drohungen — погрози",
+        "vermitteln — посередничати",
+        "Einkaufen — робити покупки"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T19:31:22.000Z",
+      "processedAt": "2026-06-21T19:41:26.957Z"
+    },
+    {
+      "id": "67bd27f7",
+      "originalTitle": "Krieg in der Ukraine – Ukrainer attackieren Krim mit Drohnen – Tote und Verletzte",
+      "simplifiedText": "Der Krieg in der Ukraine dauert an. Gestern haben Ukrainer die Krim mit Drohnen angegriffen. Es gab vier Tote und viele Verletzte. Das Wetter war schlecht, aber die Drohnen konnten trotzdem fliegen. Die Ukrainer wollten die Krim beschädigen, aber es ist nicht klar, ob sie Erfolg hatten. Die Menschen in der Ukraine haben Angst vor dem Krieg und wollen Frieden.",
+      "vocabularyHints": [
+        "die Drohne, -en — безпілотний літальний апарат",
+        "beschädigen — пошкоджувати",
+        "das Wetter — погода",
+        "an dauern — тривати",
+        "die Angaben — дані, свідчення",
+        "die Verletzte, -n — постраждала, -і"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T19:31:40.000Z",
+      "processedAt": "2026-06-21T19:41:19.597Z"
+    }
+  ],
+  "B1": [
+    {
+      "id": "0749a84d",
+      "originalTitle": "MTB: Weltcup in Lenzerheide – Blöchlinger (2.) feiert Podestpremiere im Cross Country",
+      "simplifiedText": "Die Schweizer Mountainbikerin Blöchlinger wurde Zweite beim Heimweltcup in Lenzerheide. Sie feierte damit ihre erste Podestplatzierung im Cross Country. Bereits am Freitag hatte sie auch den zweiten Rang erreicht. Der Weltcup fand in ihrer Heimat statt. Sie zeigte eine gute Leistung und wurde von den Fans gefeiert. Blöchlinger ist froh über ihre Leistung, weil sie sich gut vorbereitet hat. Sie hofft, dass sie auch in Zukunft weiterhin gute Resultate erzielen kann.",
+      "vocabularyHints": [
+        "das Podest, -e — п'єдестал",
+        "die Platzierung, -en — розміщення",
+        "das Cross Country — крос-кантрі",
+        "feiern — святкувати",
+        "die Leistung, -en — досягнення"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:10:26.000Z",
+      "processedAt": "2026-06-21T19:45:09.287Z"
+    },
+    {
+      "id": "22dbbd60",
+      "originalTitle": "«Der Sonntagsausflug» – Autofahren früher: Als der Stau am Gotthard noch ein Erlebnis war",
+      "simplifiedText": "Ab den 1920er-Jahren ermöglichten Autos neue Möglichkeiten für Ausflüge. Die Leute freuten sich, wenn sie am Wochenende mit dem Auto wegfahren konnten. Der Gotthard-Pass war ein beliebtes Ziel, obwohl die Fahrt dorthin oft lang und beschwerlich war. Es gab noch nicht viele Autos auf der Straße, deshalb war es ein besonderes Erlebnis, im Stau zu stehen. Wenn man Glück hatte, konnte man sogar ein paar Stunden an der frischen Luft verbringen, während man auf die Weiterfahrt wartete. Die Wartezeit war nicht schlimm, weil die Landschaft um den Gotthard herum sehr schön ist. Manchmal wünschte man sich, dass die Fahrt schneller ginge, aber es war auch schön, die Natur zu genießen.",
+      "vocabularyHints": [
+        "der Ausflug, -e — екскурсія",
+        "das Erlebnis, -se — враження",
+        "der Stau, -s — затор",
+        "die Weiterfahrt, -en — продовження поїздки",
+        "die Landschaft, -en — пейзаж"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:35:19.000Z",
+      "processedAt": "2026-06-21T19:45:01.040Z"
+    },
+    {
+      "id": "7de88cba",
+      "originalTitle": "Richtungsentscheid steht bevor – Kolumbien: Stichwahl um Präsidentenamt hat begonnen",
+      "simplifiedText": "In Kolumbien steht ein Richtungsentscheid bevor. Es gibt eine Stichwahl um das Präsidentenamt. Der linke Kandidat aus dem Regierungslager tritt gegen den rechten Herausforderer an. Diese Wahl ist wichtig für die Zukunft des Landes, das oft von Gewalt geprägt ist. Der Wahlausgang wird zeigen, welche Richtung Kolumbien einschlagen wird. Die Bevölkerung hofft auf eine friedliche Zukunft. Es ist ungewiss, ob der linke oder der rechte Kandidat gewinnt, weil die Meinungen in der Bevölkerung geteilt sind.",
+      "vocabularyHints": [
+        "der Richtungsentscheid — вирішальне голосування",
+        "das Regierungslager — табір прихильників уряду",
+        "der Herausforderer — виклик, суперник",
+        "geprägt — позначений",
+        "die Weichen — напрямок руху, орієнтири"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T13:46:46.000Z",
+      "processedAt": "2026-06-21T19:44:53.229Z"
+    },
+    {
+      "id": "5504ef06",
+      "originalTitle": "Selena erhielt Niere – Natasha rettete mit ihren Organen 3 Leben",
+      "simplifiedText": "Selena Gomez bekam eine Niere gespendet. Die Spenderin hiess Natasha. Durch die Organe von Natasha konnten drei Leben gerettet werden. Es gibt viele Stars, die ein Organ gespendet haben oder selber eine Transplantation benötigten. Mette-Marit und Roland Kaiser sind zwei Beispiele dafür. Sie zeigten, dass es wichtig ist, Organe zu spenden, weil viele Menschen darauf angewiesen sind. Wenn mehr Menschen Organe spenden würden, könnten noch mehr Leben gerettet werden.",
+      "vocabularyHints": [
+        "die Niere, -n — нирка",
+        "die Spenderin, -nen — донорка",
+        "die Organe — органи",
+        "die Transplantation, -en — трансплантація",
+        "bedürfen — потребувати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2023/12/22/5bb439ee-8ee5-4308-8c93-610191970c93.jpeg?s=14f20661a28dd095221b5aeacddb13e3",
+      "publishedAt": "2026-06-21T13:52:03.000Z",
+      "processedAt": "2026-06-21T19:44:45.494Z"
+    },
+    {
+      "id": "697f2674",
+      "originalTitle": "Verdacht auf Reifenschaden: Swiss-Flug nach Mumbai muss umdrehen",
+      "simplifiedText": "Der Swiss-Flug LX154 von Zürich nach Mumbai musste umdrehen, weil es einen Verdacht auf Reifenschaden gab. Der Flug hatte bereits Bukarest erreicht, als die Piloten entschieden, dass es besser wäre, umzukehren. Es ist nicht das erste Mal, dass ein Swiss-Flug wegen eines technischen Problems umdrehen musste. Die Sicherheit der Passagiere hat für die Airline höchste Priorität. Deshalb wurde der Flug auch nicht fortgesetzt, obwohl es vielleicht möglich gewesen wäre, den Schaden zu ignorieren. Die Passagiere mussten in Zürich auf den nächsten Flug warten.",
+      "vocabularyHints": [
+        "der Reifenschaden, -schäden — пошкодження шини",
+        "umdrehen — повернути назад",
+        "die Priorität, -en — пріоритет",
+        "der Verdacht, -e — підозра",
+        "fortsetzen — продовжувати"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/06/21/240239ba-cd28-45c9-abb4-7ea24bcb7a26.jpg?s=5f7359bb1eb721611c68dde86edada86",
+      "publishedAt": "2026-06-21T13:53:31.000Z",
+      "processedAt": "2026-06-21T19:44:37.890Z"
+    },
+    {
+      "id": "219cd505",
+      "originalTitle": "Schwierige Vergangenheit – Lou Blaas findet auf der Alp neue Kraft – seit über 30 Jahren",
+      "simplifiedText": "Lou Blaas' Jugend war geprägt von Alkohol und Schlägereien. Doch eine Bündner Alp half ihm, andere Werte wiederzuentdecken. Er fand dort neue Kraft und konnte sich ändern. Seit über 30 Jahren lebt er nun auf der Alp und schätzt die Ruhe und die Natur. Er sagt, dass es ihm früher nicht leicht gefallen sei, auf Alkohol zu verzichten, aber es habe sich gelohnt. Obwohl es schwierig gewesen sei, habe er es geschafft, ein neues Leben zu beginnen. Wenn er zurückblickt, ist er dankbar für die Chance, die er auf der Alp bekommen hat.",
+      "vocabularyHints": [
+        "die Alp, -en — гірська лука",
+        "sich ändern — змінюватися",
+        "prägen — формувати",
+        "die Werte, -n — цінності",
+        "verzichten — відмовлятися"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:05:18.000Z",
+      "processedAt": "2026-06-21T19:44:30.145Z"
+    },
+    {
+      "id": "5750dcc5",
+      "originalTitle": "Mitte und Westen des Landes – Hitze in Frankreich: Alkoholverbot und geschlossene Schulen",
+      "simplifiedText": "Frankreich kämpft mit der Hitze. In einigen Gebieten werden Temperaturen von bis zu 42 Grad erwartet. Deshalb werden in manchen Regionen Schulen geschlossen. Es gibt auch ein Alkoholverbot auf öffentlichen Plätzen. Die Regierung will damit verhindern, dass Menschen bei der Hitze auf die Straße gehen. Die Hitze ist ein großes Problem für die Bevölkerung. Wenn die Temperaturen weiter steigen, könnten noch mehr Maßnahmen ergriffen werden. Weil die Hitze so gefährlich ist, sollen die Menschen viel Wasser trinken und sich in den Schatten aufhalten. Obwohl die Hitze ein Problem ist, gibt es auch Menschen, die sich auf die Wärme freuen.",
+      "vocabularyHints": [
+        "das Alkoholverbot — заборона на алкоголь",
+        "sich aufhalten — затримуватися",
+        "die Maßnahmen — заходи",
+        "die Bevölkerung — населення",
+        "ergriffen — вжиті"
+      ],
+      "category": "Wetter",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:18:19.000Z",
+      "processedAt": "2026-06-21T19:44:22.274Z"
+    },
+    {
+      "id": "1ac65ecc",
+      "originalTitle": "– Polizei sucht nach Bootsunfall bei Mühlau AG nach 5-jährigem Bub",
+      "simplifiedText": "Ein Boot mit zwei Erwachsenen und zwei Kindern ist bei Mühlau AG gegen einen Baum im Fluss gekollidiert und gekentert. Dabei ist ein 5-jähriger Bub verschwunden. Die Polizei sucht nach ihm. Sie hofft, dass jemand den Jungen findet, weil die Suche sehr schwierig ist. Wenn jemand den Bub sieht, soll er sofort die Polizei anrufen. Die Eltern des Jungen sind sehr besorgt, dass ihr Kind nicht gefunden wird. Die Polizei arbeitet intensiv daran, den Jungen zu finden.",
+      "vocabularyHints": [
+        "kentern — перекидатися",
+        "verschwunden — зник",
+        "kollidierte — зіштовхнувся",
+        "die Suche — пошук",
+        "besorgt — стурбований"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:37:58.000Z",
+      "processedAt": "2026-06-21T19:44:14.662Z"
+    },
+    {
+      "id": "0647fb2a",
+      "originalTitle": "Schlauchboot gekentert – Polizei sucht nach Bootsunfall bei Mühlau AG nach 5-jährigem Bub",
+      "simplifiedText": "Ein Schlauchboot mit zwei Erwachsenen und zwei Kindern ist bei Mühlau AG gekentert. Das Boot kollidierte mit einem Baum im Fluss. Die Polizei sucht nach einem 5-jährigen Bub, der seitdem vermisst wird. Die Suche ist im Gange, weil die Behörden befürchten, dass das Kind ertrunken sein könnte. Wenn die Polizei den Bub findet, wird sie ihn sofort zu seinen Eltern bringen. Obwohl die Suche schwierig ist, arbeiten die Rettungskräfte intensiv daran.",
+      "vocabularyHints": [
+        "kentern — перекидатися",
+        "kollidieren — стикатися",
+        "im Gange sein — тривати",
+        "befürchten — побоюватися",
+        "ertrunken — той, що потонув"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T14:37:58.000Z",
+      "processedAt": "2026-06-21T19:44:06.034Z"
+    },
+    {
+      "id": "03943db5",
+      "originalTitle": "«Zu viel Insulin gespritzt»: Zverev ass über 300 Gramm Zucker",
+      "simplifiedText": "Alexander Zverevs Blutzuckersensor hat vor einem Spiel falsch reagiert. Er hatte sich zu viel Insulin gespritzt und musste deshalb sehr viel Zucker essen. Er ass über 300 Gramm Zucker. Wenn er das nicht getan hätte, wäre sein Blutzuckerspiegel zu niedrig gesunken. Weil der Sensor falsch reagiert hatte, kam es zu diesem Problem. Zverev musste schnell handeln, um seinen Blutzuckerspiegel wieder zu erhöhen. Es war ein wichtiger Moment für ihn, weil er sonst nicht spielen konnte.",
+      "vocabularyHints": [
+        "der Blutzuckerspiegel — рівень цукру в крові",
+        "der Blutzuckersensor — датчик рівня цукру в крові",
+        "sich Insulin spritzen — робити ін'єкцію інсуліну",
+        "der Spiel — гра (змагання)",
+        "Unmengen an Zucker — велику кількість цукру"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/06/21/7405cf41-130c-4757-9daf-24411aa08a40.jpg?s=c141ee3ce73c316be77872d43897d4d9",
+      "publishedAt": "2026-06-21T14:42:44.000Z",
+      "processedAt": "2026-06-21T19:43:58.465Z"
+    },
+    {
+      "id": "77b75457",
+      "originalTitle": "Täglich 186 Stunden im Schnitt: Schweiz mit neuem Stau-Rekord",
+      "simplifiedText": "Die Staus auf Schweizer Strassen haben 2025 einen neuen Höchststand erreicht. Die Zahl der Staustunden stieg innert Jahresfrist um 22 Prozent auf 68'040 Stunden. Das bedeutet, dass es täglich im Schnitt 186 Stunden Stau gab. Dieser Rekord ist besorgniserregend, weil die Staus zu viel Zeitverlust und Frustration bei den Autofahrern führen. Wenn die Situation nicht verbessert wird, könnte es zu weiteren Verkehrsstörungen kommen. Die Schweizer Strassen sind wichtig für den Verkehr und die Wirtschaft, deshalb muss man Lösungen finden, um die Staus zu reduzieren. Obwohl es viele Baustellen gibt, muss man versuchen, die Verkehrsflüsse besser zu organisieren.",
+      "vocabularyHints": [
+        "die Staustunden — години пробок",
+        "innert Jahresfrist — протягом року",
+        "der Höchststand — найвищий рівень",
+        "die Staus — пробки",
+        "die Verkehrsstörungen — порушення руху"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/06/21/a99bacd5-3701-4713-a91a-bebf6a6346b4.jpg?s=1b26c020595acdc473253e43fd78e017",
+      "publishedAt": "2026-06-21T14:48:42.000Z",
+      "processedAt": "2026-06-21T19:43:50.691Z"
+    },
+    {
+      "id": "0eeca32a",
+      "originalTitle": "Trotz Tour-de-Suisse-Sieg: «Bin noch nicht bei 100 Prozent»",
+      "simplifiedText": "Marlen Reusser gewinnt die Tour de Suisse zum dritten Mal. Sie hatte in den letzten Monaten einige Rückschläge erlitten. Trotzdem zeigt sie, dass sie mit 34 Jahren immer noch auf höchstem Niveau ist. Sie sagt, dass sie noch nicht wieder bei 100 Prozent ist. Ihre Leistung ist beeindruckend, weil sie sich immer weiterentwickelt. Sie ist eine der besten Radfahrerinnen der Welt. Wenn sie gesund bleibt, kann sie auch in Zukunft Erfolge feiern. Obwohl sie schon so viele Rennen gefahren ist, gibt sie nie auf.",
+      "vocabularyHints": [
+        "der Rückschlag, -schläge — невдача",
+        "sich weiterentwickeln — розвиватися далі",
+        "auf höchstem Niveau — на найвищому рівні",
+        "beeindruckend — вражаючий",
+        "gesund bleiben — залишатися здоровою"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/21/22047177-3508-4899-bb7f-73ce1994feb7.jpg?s=4c225dc699e88d1984c602aa21fef892",
+      "publishedAt": "2026-06-21T15:00:04.000Z",
+      "processedAt": "2026-06-21T19:43:43.025Z"
+    },
+    {
+      "id": "1ba35329",
+      "originalTitle": "Fussball als Druckmittel – Argentinien: ohne Bezahlung der Alimente kein Stadionbesuch",
+      "simplifiedText": "In Argentinien nutzen die Behörden den Fussball als Druckmittel, um Väter zum Bezahlen von Alimenten zu bringen. Wenn ein Vater seine Alimente nicht bezahlt, dürfen seine Kinder nicht ins Stadion. Dieses System funktioniert, weil viele Väter Fussball lieben und ihre Kinder sehen wollen. Obwohl es Kritik an diesem System gibt, sagen viele, dass es wirksam ist. Seit Einführung des Systems haben mehr Väter ihre Alimente bezahlt. Die Behörden hoffen, dass dies ein Beispiel für andere Länder ist. Weil Fussball in Argentinien sehr beliebt ist, eignet er sich gut als Druckmittel.",
+      "vocabularyHints": [
+        "das Druckmittel — засіб тиску",
+        "die Alimente — аліменти",
+        "sich eignen — підходити",
+        "wirksam — ефективний",
+        "die Behörden — органи влади"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:01:58.000Z",
+      "processedAt": "2026-06-21T19:43:35.050Z"
+    },
+    {
+      "id": "0330e715",
+      "originalTitle": "Sein Vermögen in 1000er-Nötli – wie reich ist Elon Musk?",
+      "simplifiedText": "Elon Musk ist über 1'000'000'000'000 Franken reich. Wenn man sein Vermögen in 1000er-Nötli ausdrückt, wird es vielleicht besser verständlich. Es ist wichtig zu wissen, dass 1 Billion 1000 Milliarden sind. Obwohl das viel Geld ist, kann man es sich kaum vorstellen. Elon Musk ist nun der reichste Mensch der Welt. Sein Vermögen kommt hauptsächlich von seinen Firmen wie Tesla und SpaceX. Wenn man sein Vermögen mit dem Bruttoinlandsprodukt (BIP) der Schweiz vergleicht, ist es noch beeindruckender.",
+      "vocabularyHints": [
+        "das Vermögen, - — майно",
+        "das Nötli — копійка",
+        "das Bruttoinlandsprodukt, -e — валовий внутрішній продукт",
+        "sich vorstellen — уявляти",
+        "die Billion, -en — трильйон"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://image.20min.ch/2026/06/19/a1df91a9-dae7-4e8c-95b4-3c434a041803.jpg?s=fc2c59014186a919e2f330dc1bfcc337",
+      "publishedAt": "2026-06-21T15:06:34.000Z",
+      "processedAt": "2026-06-21T19:43:27.450Z"
+    },
+    {
+      "id": "577a1de8",
+      "originalTitle": "Kurzer Prozess im Schlussgang – Walther gewinnt erstmals den Schwarzsee-Schwinget",
+      "simplifiedText": "Adrian Walther hat zum zweiten Mal in seiner Karriere ein Bergkranzfest gewonnen. Diesmal war es beim Schwarzsee-Schwinget. Er hatte im Schlussgang einen kurzen Prozess. Walther ist erst zum ersten Mal Sieger dieses Schwingets. Der Schwarzsee-Schwinget ist ein wichtiges Ereignis im Schweizer Schwingen. Viele Schwinger nehmen daran teil, weil es ein prestigeträchtiger Wettkampf ist. Walther hat gezeigt, dass er einer der besten Schwinger ist.",
+      "vocabularyHints": [
+        "der Schlussgang — заключительный бой",
+        "der Bergkranzfest — фестиваль зі швейцарського боротьби на горах",
+        "das Schwingen — швейцарська боротьба",
+        "der Schwinger — учасник швейцарської боротьби",
+        "das Kranzfest — урочистість із нагородженням вінками"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:20:38.000Z",
+      "processedAt": "2026-06-21T19:43:19.721Z"
+    },
+    {
+      "id": "5ec2ccef",
+      "originalTitle": "Weltcup in Lenzerheide – Martin triumphiert nach Boichis-Sturz – Schätti bester Schweizer",
+      "simplifiedText": "Beim Cross-Country-Rennen in Lenzerheide hat Luca Martin gewonnen. Er profitierte davon, dass sein Landsmann Boichis gestürzt ist. Martin fuhr ein starkes Rennen und wurde deshalb Erster. Der Schweizer Schätti fuhr ein gutes Rennen und wurde bester Schweizer. Er zeigte eine gute Leistung, obwohl einige Fahrer schneller waren als er. Wenn Boichis nicht gestürzt wäre, hätte er vielleicht gewonnen. Es war ein spannendes Rennen mit vielen Wendungen.",
+      "vocabularyHints": [
+        "das Rennen, - — змагання",
+        "profitieren — отримувати вигоду",
+        "der Sturz, Stürze — падіння",
+        "sich ausbreiten reicht nicht, besser:  der Führende — лідер",
+        "das Cross-Country-Rennen — гонка на гірських велосипедах по пересіченій місцевості"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:23:54.000Z",
+      "processedAt": "2026-06-21T19:43:11.855Z"
+    },
+    {
+      "id": "2c63ab04",
+      "originalTitle": "Hohe Medikamentenpreise – Der Fall «Keytruda» und die Debatte über Preise und Gewinne",
+      "simplifiedText": "Das Krebsmedikament Keytruda ist sehr teuer. Es kostet in der Schweiz über 100'000 Franken pro Jahr. Weil es so teuer ist, gibt es eine grosse Debatte über Medikamentenpreise. Die Firma MSD hat viel Geld für die Forschung ausgegeben und möchte deshalb hohe Preise verlangen. Einige Leute finden, dass die Preise zu hoch sind und dass die Firmen zu viel verdienen. Sie sagen, dass die Preise so hoch sind, dass viele Leute das Medikament nicht kaufen können. Die Debatte über Medikamentenpreise ist wichtig, weil viele Leute Medikamente brauchen, um gesund zu werden.",
+      "vocabularyHints": [
+        "das Medikament, -e — лікарський засіб",
+        "die Debatte, -n — дебати",
+        "sich ausgeben — витрачати",
+        "der Gewinn, -e — прибуток",
+        "extrem — надзвичайний"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T15:59:15.000Z",
+      "processedAt": "2026-06-21T19:43:04.240Z"
+    },
+    {
+      "id": "555586b6",
+      "originalTitle": "Auch die 5. Etappe gewinnt er – Pogacar überlegener Gesamtsieger der Tour de Suisse",
+      "simplifiedText": "Tadej Pogacar gewinnt auch die fünfte Etappe der Tour de Suisse. Er wird überlegen Gesamtsieger. Pogacar war auf allen Etappen der stärkste Fahrer. Er gewann die Tour de Suisse mit einem grossen Vorsprung. Die Konkurrenz konnte ihm nicht folgen, weil er einfach zu stark war. Pogacar freut sich über seinen Sieg, dass er diese Tour de Suisse so überlegen gewinnen konnte.",
+      "vocabularyHints": [
+        "der Gesamtsieger, - — загальний переможець",
+        "überlegen — мати значну перевагу",
+        "die Konkurrenz, -en — конкуренція",
+        "der Vorsprung, -e — випередження",
+        "sich freuen — радіти"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T16:03:04.000Z",
+      "processedAt": "2026-06-21T19:42:56.519Z"
+    },
+    {
+      "id": "6da62f9d",
+      "originalTitle": "Reporter bringt Nati-Star mit kurioser WC-Frage zum Grinsen",
+      "simplifiedText": "Vor dem letzten Gruppenspiel der Nati beantwortete Cedric Itten, ein WM-Debütant, Fragen von Reportern. Während einer Pressekonferenz stellte ihm ein Reporter eine kuriose Frage über die Toilette, die Itten zum Grinsen brachte. Die Pressekonferenz fand vor dem Auftakt in die letzte Gruppenspiel-Woche statt. Itten nahm die Frage gelassen auf. Es war eine ungewöhnliche Frage für eine Pressekonferenz. Die Reporter wollten von Itten wissen, wie er sich auf das Spiel vorbereitet. Itten war gut vorbereitet und beantwortete alle Fragen.",
+      "vocabularyHints": [
+        "der WM-Debütant — новачок чемпіонату світу",
+        "die Pressekonferenz — прес-конференція",
+        "der Medienschaffende — працівник засобів масової інформації",
+        "das Gruppenspiel — груповий етап",
+        "der Auftakt — початок"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/21/360ce776-d965-4968-85c5-e186a95f22d8.jpg?s=ff4b27093d7b40117c16f3238d94854d",
+      "publishedAt": "2026-06-21T16:13:17.000Z",
+      "processedAt": "2026-06-21T19:42:48.922Z"
+    },
+    {
+      "id": "6b720d3c",
+      "originalTitle": "Diese WM-Sensationen wird die Fussball-Welt nie vergessen",
+      "simplifiedText": "Die Fussball-Weltmeisterschaft schrieb immer wieder unglaubliche Geschichten. Es gab viele Überraschungen, die weltweit für Staunen sorgten. Einige Teams spielten besser als erwartet, weil sie gut trainiert waren. Obwohl einige Favoriten nicht so gut spielten, konnten sie trotzdem weiterkommen. Wenn man an die grosse Überraschung denkt, fällt einem der Name des Trainers ein. Es war ein grosser Erfolg für die Mannschaft, dass sie so weit kam. Die Fans waren sehr stolz auf ihre Spieler.",
+      "vocabularyHints": [
+        "die Sensation, -en — сенсація",
+        "sich auszeichnen — виділятися",
+        "unglaublich — неймовірний",
+        "das Staunen — подив",
+        "der Favorit, -en — фаворит"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/06/12/989c7722-0d1b-49b9-b5d2-4651e89f812c.jpg?s=89771b18a470ee9c793fc3cf38a7a50d",
+      "publishedAt": "2026-06-21T16:29:02.000Z",
+      "processedAt": "2026-06-21T19:42:39.959Z"
+    },
+    {
+      "id": "151acb85",
+      "originalTitle": "Schlau und schnell – Greifvögel: 8 Fakten über die Könige der Lüfte",
+      "simplifiedText": "Greifvögel sind sehr intelligent und schnell. Sie haben eine ausgezeichnete Sicht und können deshalb gut jagen. Es gibt viele verschiedene Arten von Greifvögeln, wie zum Beispiel den Adler und den Bussard. Obwohl sie sehr gut fliegen können, haben sie auch starke Krallen, um ihre Beute zu fangen. Wenn sie auf der Suche nach Nahrung sind, können sie sehr hoch fliegen. Es ist interessant, dass einige Greifvögel auch sehr gute Nachahmer sind und menschliche Stimmen nachmachen können. Die meisten Greifvögel sind auch sehr gute Eltern und kümmern sich um ihre Jungen.",
+      "vocabularyHints": [
+        "die Nachahmer — імітатори",
+        "die Beute — здобич",
+        "die Krallen — кігті",
+        "sich kümmern — піклуватися",
+        "ausgezeichnete — виняткова"
+      ],
+      "category": "Wissenschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T16:32:55.000Z",
+      "processedAt": "2026-06-21T19:42:31.929Z"
+    },
+    {
+      "id": "28793856",
+      "originalTitle": "Beziehungen zur EU – Swiss Deal: Warum Grossbritannien die Schweiz als Vorbild sieht",
+      "simplifiedText": "Zehn Jahre nach der Brexit-Abstimmung versucht Grossbritannien, sich der EU wieder anzunähern. Die Schweiz soll dabei als Vorbild dienen. Grossbritannien möchte ein ähnliches Verhältnis zur EU wie die Schweiz haben. Die Schweizer haben ein komplexes System von Abkommen mit der EU. Obwohl die Schweiz nicht in der EU ist, hat sie Zugang zum europäischen Markt. Wenn Grossbritannien es schafft, ein ähnliches Verhältnis zu entwickeln, könnte es seine wirtschaftlichen Ziele erreichen. Die Schweizer Erfahrungen könnten für Grossbritannien sehr hilfreich sein, weil sie zeigen, dass es möglich ist, eng mit der EU zusammenzuarbeiten, ohne Teil von ihr zu sein. Es ist jedoch unklar, ob es Grossbritannien gelingen wird, ein solches Verhältnis aufzubauen.",
+      "vocabularyHints": [
+        "das Vorbild — приклад",
+        "sich annähern — наближатися",
+        "der Zugang — доступ",
+        "das Verhältnis — відносини",
+        "das Abkommen — угода"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T17:17:29.000Z",
+      "processedAt": "2026-06-21T19:42:24.173Z"
+    },
+    {
+      "id": "18def611",
+      "originalTitle": "Keir Starmer unter Druck – Tritt der britische Premier morgen zurück?",
+      "simplifiedText": "Keir Starmer, der britische Premierminister, steht unter Druck. Es gibt Gerüchte, dass er morgen seinen Rücktritt bekanntgeben könnte. Bisher gibt es keine offizielle Bestätigung dafür. Starmer hat bisher keine Stellungnahme abgegeben. Wenn er zurücktritt, wäre das eine Überraschung für viele. Seine Partei würde dann einen neuen Vorsitzenden wählen. Es ist unklar, ob Starmer wirklich zurücktreten wird. Die nächsten Tage werden zeigen, was passiert.",
+      "vocabularyHints": [
+        "der Rücktritt, -e — відставка",
+        "die Stellungnahme, -en — заява",
+        "der Vorsitzende, -n — голова",
+        "unter Druck stehen — бути під тиском",
+        "die Überraschung, -en — несподіванка"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:01:11.000Z",
+      "processedAt": "2026-06-21T19:42:16.413Z"
+    },
+    {
+      "id": "71c2bee4",
+      "originalTitle": "Fifa WM 2026: Gruppe H – Reaktion geglückt: Spanien fertigt Saudi-Arabien mit 4:0 ab",
+      "simplifiedText": "Spanien hat eine gute Reaktion auf das 0:0 gegen Kap Verde gezeigt. Sie haben Saudi-Arabien mit 4:0 besiegt. Das war ein wichtiger Sieg für Spanien. Sie wollten unbedingt gewinnen, weil sie in der letzten Partie nicht gewinnen konnten. Der Trainer war zufrieden mit der Leistung seiner Mannschaft. Die Spieler haben gut zusammen gearbeitet und ihre Chancen genutzt. Spanien hat jetzt gute Chancen, in die nächste Runde zu kommen.",
+      "vocabularyHints": [
+        "die Reaktion, -en — реакція",
+        "eindrücklich — вражаючий",
+        "fertigmachen — закінчувати",
+        "die Partie, -en — партія",
+        "die Leistung, -en — результат"
+      ],
+      "category": "Sport",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:09:18.000Z",
+      "processedAt": "2026-06-21T19:42:08.903Z"
+    },
+    {
+      "id": "4a9e8b35",
+      "originalTitle": "Raffaela Zollo verrät: «Hatte seit 4 Jahren keinen Sex mehr»",
+      "simplifiedText": "Raffaela Zollo erzählt über eine kürzliche gescheiterte Beziehung. Sie sagt, dass sie seit vier Jahren keinen Sex mehr hatte. Die Beziehung scheiterte trotz romantischer Gesten an Unpünktlichkeit und fehlender Kommunikation. Raffaela Zollo gibt an, dass es für sie wichtig ist, dass ihr Partner pünktlich ist. Wenn er das nicht ist, könne sie nicht mit ihm zusammen sein. Sie glaubt, dass Kommunikation der Schlüssel zu einer erfolgreichen Beziehung ist. Obwohl sie sich bemühte, funktionierte es einfach nicht.",
+      "vocabularyHints": [
+        "die Romanze, -en — роман",
+        "unpünktlich — неуважний до часу",
+        "die Kommunikation — комунікація",
+        "gescheitert — невдалий",
+        "die Gesten — жести"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/06/21/966b6b35-51b0-4e0e-a59e-2240eed8f5ef.jpg?s=97710fc76364d2e0e6820d8a827606ec",
+      "publishedAt": "2026-06-21T18:21:38.000Z",
+      "processedAt": "2026-06-21T19:42:01.059Z"
+    },
+    {
+      "id": "3bbe2972",
+      "originalTitle": "Sohn Bear (8) erbt Liam Paynes Millionen-Vermögen",
+      "simplifiedText": "Liam Payne hat kein Testament hinterlassen. Deshalb geht sein Vermögen nach britischem Recht an seinen Sohn Bear. Bear ist 8 Jahre alt und erhält umgerechnet knapp 23 Millionen Franken. Das Vermögen von Liam Payne wird unter den Erben aufgeteilt. Weil Bear noch minderjährig ist, wird ein Treuhänder sein Vermögen verwalten, bis er volljährig ist. Es ist möglich, dass Bear in Zukunft mehr über das Vermögen seines Vaters erfahren wird. Obwohl Liam Payne ein bekannter Sänger war, wird sein Privatleben nicht immer öffentlich diskutiert.",
+      "vocabularyHints": [
+        "das Testament, -e — заповіт",
+        "der Nachlass, -e — спадщина",
+        "der Treuhänder, — довірена особа",
+        "sich aufteilen — розділятись",
+        "minderjährig — неповнолітній"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2024/10/17/3298d9d7-2fe8-48bd-8b03-596137d848ab.png?s=b833055855226a6cf3f304b4fb01ba33",
+      "publishedAt": "2026-06-21T18:23:09.000Z",
+      "processedAt": "2026-06-21T19:41:52.994Z"
+    },
+    {
+      "id": "6985d10e",
+      "originalTitle": "Fantasy, Top-Buffet, Powernaps: Weltpolitik in Luxus-Geisterstadt",
+      "simplifiedText": "Auf dem Bürgenstock haben Verhandlungen zwischen den USA, Iran, Katar und Pakistan begonnen. Die Gespräche laufen hinter verschlossenen Türen. Die Medienschaffenden müssen warten, weil sie nicht an den Gesprächen teilnehmen dürfen. Es ist unklar, ob die Verhandlungen erfolgreich sein werden. Die Verhandlungen sind kurzfristig angesetzt worden. Die Stadt Bürgenstock ist fast leer, es gibt nur wenige Gäste. Die Verhandlungen sind wichtig für die weltpolitische Lage.",
+      "vocabularyHints": [
+        "der Bürgenstock — гора Bürgenstock",
+        "die Verhandlungen — переговори",
+        "hinter verschlossenen Türen — за зачиненими дверима",
+        "die Medienschaffenden — працівники ЗМІ",
+        "angesetzt — призначений"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://image.20min.ch/2026/06/21/aa4dc99d-9481-40e5-9a94-28a017f29696.jpg?s=d6eb33cec7b588aa520251a9363e8440",
+      "publishedAt": "2026-06-21T18:30:11.000Z",
+      "processedAt": "2026-06-21T19:41:45.041Z"
+    },
+    {
+      "id": "0b0fa08d",
+      "originalTitle": "Schwindender Absatz – Chinesische Autohersteller in der Krise – die Hintergründe",
+      "simplifiedText": "Der Automarkt in China bricht ein. Dieser Einbruch betrifft nicht nur die chinesischen Autohersteller, sondern auch jene in Europa. Die chinesischen Hersteller spüren den Absatzrückgang stark. Es gibt mehrere Gründe für diesen Einbruch. Einige Experten denken, dass die chinesische Regierung zu wenig unterstützt. Andere sagen, dass die Konkurrenz durch ausländische Hersteller zu stark ist. Wenn die chinesischen Hersteller nicht bald reagieren, könnte ihre Situation noch schwieriger werden. Sie sollten ihre Strategie ändern, damit sie wieder wettbewerbsfähig sind.",
+      "vocabularyHints": [
+        "der Absatz, -e — збут",
+        "einbrechen — різко знижуватися",
+        "der Hersteller, - — виробник",
+        "die Konkurrenz, -en — конкуренція",
+        "wettbewerbsfähig — конкурентоспроможний"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T18:58:52.000Z",
+      "processedAt": "2026-06-21T19:41:37.419Z"
+    },
+    {
+      "id": "0d33516f",
+      "originalTitle": "Krieg im Nahen Osten – Nach Trumps Drohungen: Iran pausiert Bürgenstock-Gespräche",
+      "simplifiedText": "Unter der Vermittlung von Katar haben die Verhandlungen über einen Frieden zwischen Iran und den USA begonnen. Weil der amerikanische Präsident Trump gedroht hat, sind die Gespräche jetzt vorerst aufgeschoben. Die Verhandlungen sollten auf dem Bürgenstock in der Schweiz stattfinden. Es ist unklar, ob sie wieder aufgenommen werden. Die USA und Iran haben seit langem Probleme. Es gibt viele Meinungen, dass ein Friedensvertrag wichtig wäre. Wenn die Gespräche nicht weitergehen, könnte es zu mehr Konflikten kommen. Obwohl es schwierig ist, hoffen viele auf eine friedliche Lösung.",
+      "vocabularyHints": [
+        "die Vermittlung, -en — посередництво",
+        "pausieren — призупиняти",
+        "der Friedensvertrag, -träge — договір про мир",
+        "die Probleme, - — проблеми",
+        "die Lösung, -en — рішення"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T19:31:22.000Z",
+      "processedAt": "2026-06-21T19:41:29.651Z"
+    },
+    {
+      "id": "38c65ca7",
+      "originalTitle": "Krieg in der Ukraine – Ukrainer attackieren Krim mit Drohnen – Tote und Verletzte",
+      "simplifiedText": "Es gibt Krieg in der Ukraine. Ukrainische Soldaten haben die Krim mit Drohnen angegriffen. Laut russischen Angaben gab es vier Tote und viele Verletzte. Der Angriff fand wahrscheinlich statt, weil die Ukrainer versuchen, ihre Gebiete zurückzugewinnen. Es ist möglich, dass es weitere Angriffe geben wird, wenn die Ukraine ihre Ziele nicht erreicht. Die Situation ist sehr gefährlich, obwohl viele Menschen versuchen, Frieden zu schaffen.",
+      "vocabularyHints": [
+        "die Drohne, -en — безпілотний літальний апарат",
+        "der Angriff, -e — напад",
+        "die Angaben, - — дані",
+        "versuchen — намагатися",
+        "die Gebiete, - — території"
+      ],
+      "category": "Politik",
+      "imageUrl": null,
+      "publishedAt": "2026-06-21T19:31:40.000Z",
+      "processedAt": "2026-06-21T19:41:22.141Z"
+    }
+  ],
+  "updatedAt": "2026-06-21T19:45:11.290Z"
 }
