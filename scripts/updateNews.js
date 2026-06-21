@@ -1,6 +1,6 @@
 const fs   = require("fs");
 const path = require("path");
-const { parseRSSFeeds }   = require("./rssParser");
+const { parseRSSFeeds, fetchOgImage } = require("./rssParser");
 const { simplifyArticle } = require("./groqService");
 
 const DB_PATH     = path.join(__dirname, "..", "data", "articles.json");
@@ -47,6 +47,22 @@ async function main() {
   // Тільки нові статті
   const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 30);
   console.log(`🆕 ${newArticles.length} new articles to process`);
+
+  // Фолбек на картинки: RSS дав imageUrl не для всіх статей (особливо SRF).
+  // Для решти заходимо на сторінку статті й беремо og:image/twitter:image.
+  // Best-effort — якщо сторінка не відповіла чи там немає og:image, просто
+  // лишаємо imageUrl = null, на обробку це не впливає.
+  let imagesFetched = 0;
+  for (const article of newArticles) {
+    if (!article.imageUrl && article.link) {
+      const og = await fetchOgImage(article.link);
+      if (og) {
+        article.imageUrl = og;
+        imagesFetched++;
+      }
+    }
+  }
+  console.log(`🖼️  Догенеровано og:image для ${imagesFetched} статей`);
 
   if (newArticles.length === 0) {
     console.log("✅ Nothing new. Done.");
