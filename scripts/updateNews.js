@@ -45,7 +45,7 @@ async function main() {
   });
 
   // Тільки нові статті
-  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title));
+  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 30);
   console.log(`🆕 ${newArticles.length} new articles to process`);
 
   if (newArticles.length === 0) {
