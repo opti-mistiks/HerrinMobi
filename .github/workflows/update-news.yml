@@ -2,9 +2,8 @@ name: Update News
 
 on:
   schedule:
-    # Кожні 12 годин: о 6:00 і 18:00 UTC
-    - cron: '0 6,18 * * *'
-  # Дозволяє запустити вручну з GitHub UI
+    # Щодня о 6:00 UTC (8:00 за Цюріхом взимку, 8:00 влітку)
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:

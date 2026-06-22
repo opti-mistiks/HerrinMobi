@@ -1,0 +1,25 @@
+name: Keepalive
+
+on:
+  schedule:
+    # 1-го числа кожного місяця о 5:00 UTC
+    # Не дає GitHub вимкнути scheduled workflows через "неактивність репо"
+    - cron: '0 5 1 * *'
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keep repo active
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Оновлюємо timestamp у файлі щоб був реальний коміт
+          echo "Last keepalive: $(date -u '+%Y-%m-%d %H:%M UTC')" > .keepalive
+          git add .keepalive
+          git commit -m "chore: keepalive $(date -u '+%Y-%m')"
+          git push
