@@ -1,481 +1,944 @@
 {
   "A1": [
     {
-      "id": "2666f754",
-      "originalTitle": "Wie fandest du den Auftritt der Nati? Bewerte das Team",
-      "simplifiedText": "Die Nati spielt gut. Das Team ist stark. Die Spieler trainieren viel. Der Trainer hilft ihnen. Sie machen Fortschritte.",
+      "id": "44bf4f8e",
+      "originalTitle": "Nach über 150 Jahren – Basler Traditionshaus Schiesser vor dem Aus",
+      "simplifiedText": "Die Confiserie Schiesser ist in Konkurs. Die Basler sind betroffen. Die Schiesser-Filialen sind geschlossen. Die Angestellten sind arbeitslos. Die Stadt Basel trauert.",
       "vocabularyHints": [
-        "die Nati — національна збірна",
-        "überzeugend — переконливий",
-        "der Auftritt — виступ",
-        "das Team — команда",
+        "der Konkurs — банкрутство",
+        "betroffen — зачеплений",
+        "die Filiale, -n — філія",
+        "die Angestellten — співробітники",
+        "trauern — сумувати"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/de26f4.webp",
+      "publishedAt": "2026-07-03T19:43:31.000Z",
+      "processedAt": "2026-07-04T08:29:32.480Z"
+    },
+    {
+      "id": "3bb27be2",
+      "originalTitle": "Wo ist Irene (23)? Polizei bittet um Hinweise",
+      "simplifiedText": "Irene Jelmini ist 23 Jahre alt. Sie ist seit Mittwochabend verschwunden. Die Polizei sucht nach ihr. Die Polizei bittet um Hinweise. Irene Jelmini wohnt in der Schweiz.",
+      "vocabularyHints": [
+        "verschwunden — зникла",
+        "Personenbeschreibung — опис зовнішності",
+        "bittet — просить",
+        "Hinweise — підказки",
+        "veröffentlicht — публікує"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/03/1761bf46-1fdd-44f9-a4f1-d75896591fe0.jpg?s=c3864f62bc8305ea11d4a26423ce5260",
+      "publishedAt": "2026-07-03T20:33:41.000Z",
+      "processedAt": "2026-07-04T08:29:24.215Z"
+    },
+    {
+      "id": "79c76eae",
+      "originalTitle": "Nach Bob-Rücktritt im März – Sandgrube statt Eiskanal: Hasler wechselt zum Weitsprung",
+      "simplifiedText": "Melanie Hasler will im Weitsprung erfolgreich sein. Sie trainiert jetzt auf einer Sandgrube. Früher trainierte sie im Eiskanal. Jetzt will sie an die Spitze kommen. Melanie ist eine gute Athletin.",
+      "vocabularyHints": [
+        "die Athletin — спортсменка",
+        "die Sandgrube — пісковина",
+        "der Eiskanal — крижаний канал",
+        "erfolgreich — успішний",
         "trainieren — тренуватися"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/a023f295-cef2-4e38-86b3-d262fb44fc9a.jpg?s=c3f0f64322b29916f0ec4420b7f2c68e",
-      "publishedAt": "2026-07-03T05:06:11.000Z",
-      "processedAt": "2026-07-03T08:53:59.286Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/fc7e61.webp",
+      "publishedAt": "2026-07-03T21:21:14.000Z",
+      "processedAt": "2026-07-04T08:29:15.908Z"
     },
     {
-      "id": "7df55353",
-      "originalTitle": "Krieg in der Ukraine – Nach Grossangriff auf Kiew: Zahl der Todesopfer steigt auf 30",
-      "simplifiedText": "Die Russen greifen die Ukraine an. Sie bombardieren Kiew. Viele Menschen sterben. Die Stadt ist in Gefahr. Die Menschen fliehen.",
+      "id": "2c74727c",
+      "originalTitle": "Hochzeit in New York City – Taylor Swift und Travis Kelce haben geheiratet",
+      "simplifiedText": "Taylor Swift heiratet Travis Kelce. Die Hochzeit ist im Madison Square Garden. Taylor Swift ist Popstar. Travis Kelce spielt in der NFL. Die Feier ist in Manhatten.",
       "vocabularyHints": [
-        "der Angriff, -e — напад",
-        "bombardieren — бомбардувати",
-        "das Opfer, - — жертва",
-        "fliehen — тікати",
-        "in Gefahr sein — бути в небезпеці"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4b1f2e.webp",
-      "publishedAt": "2026-07-03T05:08:56.000Z",
-      "processedAt": "2026-07-03T08:53:50.850Z"
-    },
-    {
-      "id": "08eb31bf",
-      "originalTitle": "Capri-Sonne und Visum-Theater – nach 2:0-Sieg scherzt Embolo",
-      "simplifiedText": "Breel Embolo spielt Fussball. Er ist sehr gut. Die Fans lieben ihn. Embolo dankt den Fans. Die Schweiz ist froh.",
-      "vocabularyHints": [
-        "der Achtelfinal, -e — восьмий фінал",
-        "sich bedanken — дякувати",
-        "der Fan, -s — вболівальник",
-        "feiern — святкувати",
-        "das Visum, die Visen — віза"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/59373120-632c-4cf3-bc0e-d15865173876.png?s=d5870f961fe221c8b419dd5e24234075",
-      "publishedAt": "2026-07-03T05:25:20.000Z",
-      "processedAt": "2026-07-03T08:53:42.223Z"
-    },
-    {
-      "id": "709b0cf3",
-      "originalTitle": "Medien berichten: Deutschland-Trainer Nagelsmann tritt zurück",
-      "simplifiedText": "Der Trainer von Deutschland ist unzufrieden. Die Spieler sind auch unzufrieden. Die WM war ein Debakel. Der Trainer tritt zurück. Die Zeit von Nagelsmann ist vorbei.",
-      "vocabularyHints": [
-        "der Trainer — тренер",
-        "unzufrieden — незадоволений",
-        "die WM — чемпіонат світу",
-        "das Debakel — поразка",
-        "tritt zurück — складає повноваження"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://image.20min.ch/2026/07/03/3a10a1af-06d6-4806-bc9b-45a601cdaec7.jpg?s=ef4b3d8900a404c18b4c43ccb7c2b516",
-      "publishedAt": "2026-07-03T05:27:06.000Z",
-      "processedAt": "2026-07-03T08:53:32.861Z"
-    },
-    {
-      "id": "4fcc8bf4",
-      "originalTitle": "– Wie mit neuem Job Tausende Franken bei der Rente verloren gehen",
-      "simplifiedText": "Wer die Stelle wechselt, verliert viel Geld. Die Pensionskasse ist wichtig. Wer wechseln will, soll aufpassen. Die Stelle wechseln bringt Risiken. Man soll die Pensionskasse prüfen.",
-      "vocabularyHints": [
-        "die Pensionskasse, -n — пенсійний фонд",
-        "wechseln — змінювати",
-        "das Geld — гроші",
-        "die Stelle, -n — робоче місце",
-        "verlieren — втрачати",
-        "das Risiko, -en — ризик"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/dcfa8d1.webp",
-      "publishedAt": "2026-07-03T05:39:08.000Z",
-      "processedAt": "2026-07-03T08:53:24.171Z"
-    },
-    {
-      "id": "3cbaf2b5",
-      "originalTitle": "Teurer Stellenwechsel – Wie mit neuem Job Tausende Franken bei der Rente verloren gehen",
-      "simplifiedText": "Wer die Stelle wechselt, verliert Renten-Geld. Die Pensionskasse ist wichtig. Viele Leute wechseln die Stelle. Der neue Job bringt weniger Renten-Geld. Die Leute müssen aufpassen.",
-      "vocabularyHints": [
-        "die Stelle, -n — робоче місце",
-        "wechseln — змінювати",
-        "die Pensionskasse, -n — пенсійний фонд",
-        "das Renten-Geld — пенсійні гроші",
-        "einbussen — втрачати"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/dcfa8d1.webp",
-      "publishedAt": "2026-07-03T05:39:08.000Z",
-      "processedAt": "2026-07-03T08:53:15.567Z"
-    },
-    {
-      "id": "588fbfc8",
-      "originalTitle": "WM-Programm in der Übersicht – Messi in Miami: Das läuft am Freitag und in der Nacht auf Samstag",
-      "simplifiedText": "Die WM-Sechzehntelfinals sind fast fertig. Zwei Teams aus Südamerika spielen noch. Messi spielt in Miami. Die Spiele sind am Freitag und in der Nacht auf Samstag.",
-      "vocabularyHints": [
-        "die Sechzehntelfinals — 1/16 фіналу",
-        "das Schwergewicht — важковаговик",
-        "in der Nacht auf — вночі на"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf14fb.webp",
-      "publishedAt": "2026-07-03T05:57:06.000Z",
-      "processedAt": "2026-07-03T08:53:07.605Z"
-    },
-    {
-      "id": "57677ef7",
-      "originalTitle": "Psychisch kranke Junge – Der Weg aus der IV zurück ins Berufsleben",
-      "simplifiedText": "Junge Menschen mit psychischen Krankheiten haben es schwer. Sie wollen arbeiten, aber es gelingt ihnen nicht. Der Weg zurück ist lang. Sie brauchen Hilfe. Die IV-Rente hilft ihnen.",
-      "vocabularyHints": [
-        "psychische Krankheit — психічне захворювання",
-        "IV-Rente — допомога по інвалідності",
-        "Berufsleben — трудове життя",
-        "steiniger Weg — тернистий шлях",
-        "erkrankt — захворів"
+        "der Popstar — поп-зірка",
+        "der NFL-Star — зірка НФЛ",
+        "heiraten — одружуватися",
+        "die Hochzeit — весілля",
+        "die Feier — свято"
       ],
       "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8d4e7d.webp",
-      "publishedAt": "2026-07-03T06:03:50.000Z",
-      "processedAt": "2026-07-03T08:52:59.196Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4d5be2.webp",
+      "publishedAt": "2026-07-04T00:45:26.000Z",
+      "processedAt": "2026-07-04T08:29:07.679Z"
     },
     {
-      "id": "0e1f11f0",
-      "originalTitle": "Nati-Noten: Zwei glänzen – Petkovic-Plan gegen Xhaka erfolglos",
-      "simplifiedText": "Die Schweizer Nati steht im WM-Achtelfinal. Trainer Murat Yakins Plan glückt. Er spielt mit Denis Zakaria. Die Schweiz spielt gegen Algerien. Der Trainer ist Murat Yakins.",
+      "id": "37fb7166",
+      "originalTitle": "– Australiens Goalietrick geht schief: Ägypten im Achtelfinal",
+      "simplifiedText": "Ägypten spielt erstmals ein K.o.-Spiel bei einer WM. Die Entscheidung fällt im Penaltyschiessen. Australien schoss schlecht. Ägypten ist im Achtelfinal. Das Team freut sich sehr.",
       "vocabularyHints": [
-        "der Achtelfinal — стадія плей-офф, що складається з восьми команд",
-        "glücken — вдаватися",
-        "der Rechtsverteidiger — правий захисник",
-        "der Plan — план дій"
+        "das K.o.-Spiel — гра на виліт",
+        "das Penaltyschiessen — серія пенальті",
+        "schlecht schiessen — погано стріляти",
+        "sich freuen — радіти",
+        "das Achtelfinal — 1/8 фіналу"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/fdd841d7-bcba-40f0-ad2f-bc0f3ea77388.jpg?s=5d2755e4882cb7e0c917cce8b35f2764",
-      "publishedAt": "2026-07-03T06:21:30.000Z",
-      "processedAt": "2026-07-03T08:52:50.626Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/603104.webp",
+      "publishedAt": "2026-07-04T00:55:31.000Z",
+      "processedAt": "2026-07-04T08:28:58.636Z"
     },
     {
-      "id": "26a74670",
-      "originalTitle": "Nach WM-Out gegen Paraguay – Laut Medienberichten: Nagelsmann tritt als Bundestrainer zurück",
-      "simplifiedText": "Der Trainer gibt auf. Er nimmt den Hut. Das Team spielt schlecht. Der Trainer ist weg. Die Medien berichten.",
+      "id": "2a4c35ca",
+      "originalTitle": "– Kap Verde verpasst die Sensation gegen Argentinien nur knapp",
+      "simplifiedText": "Kap Verde spielt gegen Argentinien. Kap Verde verliert das Spiel. Das Spiel ist hart. Kap Verde kämpft gut. Argentinien gewinnt.",
       "vocabularyHints": [
-        "der Hut — капелюх",
-        "aufgeben — здаватися",
-        "schlecht spielen — грати погано",
-        "der Medienbericht — повідомлення в ЗМІ",
-        "weg sein — бути відсутнім"
+        "der Kampf — боротьба",
+        "hart — жорсткий",
+        "verpassen — пропускати",
+        "die Sensation — сенсація",
+        "der Sechzehntelfinale — 1/16 фіналу"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4b9a73.webp",
-      "publishedAt": "2026-07-03T06:30:32.000Z",
-      "processedAt": "2026-07-03T08:52:40.745Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/768d7d.webp",
+      "publishedAt": "2026-07-04T01:09:03.000Z",
+      "processedAt": "2026-07-04T08:28:49.278Z"
     },
     {
-      "id": "2ba264ce",
-      "originalTitle": "Trump-Provokation? Parmelin bejubelt Natisieg mit Spezial-Cap",
-      "simplifiedText": "Guy Parmelin unterstützt die Schweizer Nati. Er trägt einen speziellen Hut. Der Hut ist von Trump. Parmelin sitzt neben einem Fan. Die Schweizer Nati spielt in der WM.",
+      "id": "4fde5be6",
+      "originalTitle": "WM 2026: 1/16-Final ARG-CPV – Kap Verde verpasst die Sensation gegen Argentinien nur knapp",
+      "simplifiedText": "Kap Verde spielt gegen Argentinien. Kap Verde verliert das Spiel. Das Spiel endet 2:3. Argentinien gewinnt nach Verlängerung. Kap Verde kämpft hart.",
       "vocabularyHints": [
-        "der Hut, -e — капелюх",
-        "bejubeln — вихваляти",
-        "der Sitznachbar — сусід по місцю",
-        "der Edelfan — шанувальник- аристократ",
-        "die Nati — збірна (Switzerland national team)"
+        "der Kampf — боротьба",
+        "verpassen — пропускати",
+        "die Sensation — сенсація",
+        "hart — важко",
+        "die Verlängerung — подовження"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/314eb6a2-f813-4351-8640-f7ece90839db.png?s=3cdf11f81ea0a4f96965059d08ae61da",
-      "publishedAt": "2026-07-03T06:30:59.000Z",
-      "processedAt": "2026-07-03T08:52:32.305Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/768d7d.webp",
+      "publishedAt": "2026-07-04T01:09:03.000Z",
+      "processedAt": "2026-07-04T08:28:39.790Z"
     },
     {
-      "id": "64110349",
-      "originalTitle": "Stillstand auf der Autobahn – Staustunden ohne Ende – so steht es um den Schweizer Verkehr",
-      "simplifiedText": "Die Strassen in der Schweiz sind oft voll. Das Netz der Nationalstrassen ist zu klein. Die Autos fahren schnell durch die Städte. Die Strassen sind wichtig für den Verkehr. Die Leute fahren jeden Tag zur Arbeit.",
+      "id": "482a5831",
+      "originalTitle": "Seemannsköpfler ist der Badi-Sprung des Sommers – und gefährlich",
+      "simplifiedText": "Wer springt, muss die Tiefe kennen. Sonst ist es gefährlich. Der Seemannsköpfler ist ein Sprung. Er ist im Sommer beliebt. Der Sprung kann weh tun.",
       "vocabularyHints": [
-        "die Kapazitätsgrenze, -n — гранична потужність",
-        "das Netz, -e — мережа",
-        "die Nationalstrasse, -n — національна траса",
-        "der Stillstand — застій",
-        "die Staustunden — години пробок"
+        "der Seemannsköpfler — стрибок головою вперед",
+        "die Wassertiefe — глибина води",
+        "schwere Verletzungen — важкі травми",
+        "die Querschnittslähmung — поперековий параліч",
+        "einschätzen — оцінювати"
       ],
-      "category": "Verkehr",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/424a9d.webp",
-      "publishedAt": "2026-07-03T06:46:41.000Z",
-      "processedAt": "2026-07-03T08:52:23.729Z"
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/07/03/2ff9c4b6-6b47-413b-b0b5-849d94e18f63.jpg?s=72718e1a1e27bd183bf1b79030a750b2",
+      "publishedAt": "2026-07-04T02:40:30.000Z",
+      "processedAt": "2026-07-04T08:28:30.677Z"
     },
     {
-      "id": "222cf773",
-      "originalTitle": "– WM-Achtelfinal kann kommen: Die Nati schlägt auch Algerien",
-      "simplifiedText": "Die Schweiz besiegt Algerien. Das Team spielt gut. Die Schweiz ist froh. Die Spieler trainieren viel. Der Trainer hilft.",
+      "id": "6a0184e3",
+      "originalTitle": "«Natürlich blond»-Prequel: Fashion-Ikone Elle Woods ist zurück",
+      "simplifiedText": "Elle Woods ist zurück. Sie erschien auf Amazon Prime. Die Show heisst «Elle». Elle Woods war vor Harvard. Reese Witherspoon ist Produzentin.",
       "vocabularyHints": [
-        "besiegen — перемагати",
-        "überstehen — витримувати",
-        "K.o.-Runde — раунд на вибування",
-        "Trainer — тренер"
+        "die Serie — серія",
+        "fungierte — виконував функції",
+        "ausführende — виконавчий",
+        "Prequel — попередня історія",
+        "Kultfilm — культовий фільм"
       ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5ff76c.webp",
-      "publishedAt": "2026-07-03T06:57:27.000Z",
-      "processedAt": "2026-07-03T08:52:14.428Z"
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/07/03/8c8e73b7-b638-4ade-9f21-3a69b6d64c5b.jpg?s=bfbd392a1799b6957c932fc4ca1788bc",
+      "publishedAt": "2026-07-04T02:41:41.000Z",
+      "processedAt": "2026-07-04T08:27:56.129Z"
     },
     {
-      "id": "20e058df",
-      "originalTitle": "WM 2026: 1/16-Final SUI-ALG – WM-Achtelfinal kann kommen: Die Nati schlägt auch Algerien",
-      "simplifiedText": "Die Schweiz besiegt Algerien. Das Team spielt gut. Die Schweiz ist froh. Die Fans jubeln laut. Die Schweiz gewinnt.",
+      "id": "22ed9a21",
+      "originalTitle": "– Kolumbien macht Achtelfinal-Duell mit der Schweiz perfekt",
+      "simplifiedText": "Kolumbien gewinnt gegen Ghana. Kolumbien trifft auf Schweiz. Das Spiel endete 1:0. Kolumbien ist froh. Die Schweiz spielt gut.",
       "vocabularyHints": [
-        "besiegen — перемагати",
-        "jubeln — радіти",
-        "überstehen — витримувати",
-        "der Fan, -s — вболівальник",
-        "laut — голосно"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5ff76c.webp",
-      "publishedAt": "2026-07-03T06:57:27.000Z",
-      "processedAt": "2026-07-03T08:52:06.364Z"
-    },
-    {
-      "id": "20e92d33",
-      "originalTitle": "Bodenroboter – Wie ukrainische Start-ups den Krieg automatisieren",
-      "simplifiedText": "Die Ukraine investiert in autonome Waffensysteme. Neue Bodenroboter entstehen schnell. Ein Start-up entwickelt Roboter für den Krieg. Die Roboter sollen autonom arbeiten. Sie helfen den Soldaten.",
-      "vocabularyHints": [
-        "autonome Waffensysteme — автономні системи озброєння",
-        "Bodenroboter — наземні роботи",
-        "entstehen — виникати",
-        "entwickeln — розробляти",
-        "Soldaten — солдати"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/799005.webp",
-      "publishedAt": "2026-07-03T07:01:22.000Z",
-      "processedAt": "2026-07-03T08:51:58.125Z"
-    },
-    {
-      "id": "14f375d3",
-      "originalTitle": "Bundesrat im WM-Fieber – Guy Parmelin sorgt mit roter Kappe für Aufsehen",
-      "simplifiedText": "Der Bundespräsident schaut das Spiel im Stadion an. Er trägt eine rote Kappe. Die Schweiz spielt gegen Algerien. Das Spiel ist wichtig. Der Präsident ist Fussballfan.",
-      "vocabularyHints": [
-        "der Bundespräsident — президент країни",
-        "das Spiel — гра",
-        "die Kappe, -n — шапка",
-        "Fussballfan — вболівальник футболу",
-        "das Sechzehntelfinale — 1/8 фіналу"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e19712.webp",
-      "publishedAt": "2026-07-03T07:11:47.000Z",
-      "processedAt": "2026-07-03T08:51:49.805Z"
-    },
-    {
-      "id": "733ee469",
-      "originalTitle": "Stimmen zum Achtelfinal-Einzug – Nati-Erfolgsrezept: Ehrlichkeit und Tore zum richtigen Zeitpunkt",
-      "simplifiedText": "Die Schweizer sind froh. Sie haben 2:0 gewonnen. Der Sieg gegen Algerien war wichtig. Die Schweizer Spieler sind erleichtert. Sie haben gut gespielt.",
-      "vocabularyHints": [
-        "die Freude — радість",
-        "erleichtert — полегшений",
-        "das Lager — табір",
-        "gegen — проти",
-        "gewonnen — виграли"
+        "das Spiel, -e — гра",
+        "gewinnt — виграє",
+        "trifft — зустрічається",
+        "endete — закінчилось",
+        "froh — радісний"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c185d6.webp",
-      "publishedAt": "2026-07-03T07:17:59.000Z",
-      "processedAt": "2026-07-03T08:51:41.407Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6f5dab.webp",
+      "publishedAt": "2026-07-04T03:53:16.000Z",
+      "processedAt": "2026-07-04T08:27:47.329Z"
     },
     {
-      "id": "4b3b6e69",
-      "originalTitle": "Deutscher Bundespräsident – Frank-Walter Steinmeier besucht die Schweiz – mit dem Velo",
-      "simplifiedText": "Der Bundespräsident besucht die Schweiz. Er fährt mit dem Velo. Steinmeier ist in Lörrach. Er kommt aus Deutschland. Der Präsident macht einen Abstecher nach Riehen.",
+      "id": "6982918e",
+      "originalTitle": "WM 2026: 1/16-Final COL-GHA – Kolumbien macht Achtelfinal-Duell mit der Schweiz perfekt",
+      "simplifiedText": "Kolumbien spielt gegen Ghana. Kolumbien gewinnt 1:0. Kolumbien trifft auf die Schweiz. Die Schweiz spielt im Achtelfinal. Ghana verliert.",
       "vocabularyHints": [
-        "der Abstecher — відхилення",
-        "das Velo — велосипед",
-        "mehrtätig — багатоденний",
-        "der Bundespräsident — президент Німеччини",
-        "der Besuch — візит"
+        "der Achtelfinal — 1/8 фіналу",
+        "gewinnt — виграє",
+        "trifft — зустрічається",
+        "das Duell — поєдинок",
+        "perfekt — готовий"
       ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/046740.webp",
-      "publishedAt": "2026-07-03T07:20:51.000Z",
-      "processedAt": "2026-07-03T08:51:32.578Z"
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6f5dab.webp",
+      "publishedAt": "2026-07-04T03:53:16.000Z",
+      "processedAt": "2026-07-04T08:27:37.054Z"
     },
     {
-      "id": "5055b0d9",
-      "originalTitle": "Finanzstabilität – Bankensektor ist gesund und robust – trotzdem warnt die SNB",
-      "simplifiedText": "Die Nationalbank sagt, dass die Banken stabil sind. Die Banken sind gesund und robust. Es gibt Gefahren im Ausland. Die SNB warnt vor diesen Gefahren. Die Schweizer Wirtschaft ist stark.",
+      "id": "0378c7a2",
+      "originalTitle": "«Ja, ich will»: Adam Sandler traute Taylor Swift und Travis Kelce",
+      "simplifiedText": "Taylor Swift heiratet Travis Kelce. Adam Sandler traut sie. Die Hochzeit ist im Madison Square Garden. Rund 1000 Gäste sind da. Alle sind froh.",
       "vocabularyHints": [
-        "die Nationalbank — Національний банк",
-        "gesund — здоровий",
-        "robust — міцний",
-        "Gefahren — небезпеки",
-        "warnt — попереджає"
+        "trauen — одружувати",
+        "Gäste — гості",
+        "Hochzeit — весілля",
+        "heiratet — одружується"
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/07/04/76ba3956-b1b1-4634-ad12-8657334cf210.jpg?s=fb2ee5e5e8044efbe10c59348d9fcc4d",
+      "publishedAt": "2026-07-04T04:09:08.000Z",
+      "processedAt": "2026-07-04T08:27:26.188Z"
+    },
+    {
+      "id": "12cf58f7",
+      "originalTitle": "Arbeitsmarkt Schweiz – 300'000 neue Stellen – Jobwunder nach Corona verblasst langsam",
+      "simplifiedText": "Die Schweizer Wirtschaft erholt sich rasch. Es gibt viele neue Stellen. Die Wirtschaft wächst schnell. Die Leute haben wieder Arbeit. Die Schweiz ist stark.",
+      "vocabularyHints": [
+        "die Pandemie — пандемія",
+        "sich erholt — відновилась",
+        "das Jobwunder — трудовий бум",
+        "verblasst — тьмяніє",
+        "rasch — швидко"
       ],
       "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d0fd92.webp",
-      "publishedAt": "2026-07-03T07:34:02.000Z",
-      "processedAt": "2026-07-03T08:51:23.717Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7db934.webp",
+      "publishedAt": "2026-07-04T04:46:18.000Z",
+      "processedAt": "2026-07-04T08:27:17.462Z"
     },
     {
-      "id": "64771e54",
-      "originalTitle": "Krieg im Nahen Osten – Iran empfängt ausländische Gäste zu Trauerfeier für Chamenei",
-      "simplifiedText": "Vertreter aus China sind in Teheran. Sie kommen zur Trauerfeier. Der Gastgeber ist Iran. Die Gäste sind auch aus Belarus, dem Irak und Turkmenistan. Sie trauern um Chamenei.",
+      "id": "6a3446af",
+      "originalTitle": "250 Jahre USA – «America 250»: Der Streit um die Deutung der US-Geschichte",
+      "simplifiedText": "Die USA feiern 250 Jahre Unabhängigkeit. Es gibt Streit über die Geschichte. Die Leute haben verschiedene Meinungen. Sie erinnern sich anders. Die Geschichte ist wichtig.",
       "vocabularyHints": [
-        "der Gastgeber — господар",
+        "die Unabhängigkeit — незалежність",
+        "der Streit — суперечка",
+        "die Sichtweise — точка зору",
+        "die Geschichte — історія",
+        "erinnern — пам'ятати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/2f3081.webp",
+      "publishedAt": "2026-07-04T05:00:29.000Z",
+      "processedAt": "2026-07-04T08:27:06.943Z"
+    },
+    {
+      "id": "1ceaf899",
+      "originalTitle": "7 Dinge, die du über den Achtelfinal-Gegner der Nati wissen musst",
+      "simplifiedText": "Die Nati spielt gegen Kolumbien. Das Spiel ist in Vancouver. Die Nati braucht viel Glück. Die Spieler sind gut vorbereitet. Sie wollen das Spiel gewinnen.",
+      "vocabularyHints": [
+        "die Nati — збірна",
+        "der Gegner — суперник",
+        "der Achterfinal — матч 1/8 фіналу",
+        "sich vorbereiten — готуватись",
+        "das Glück — удача"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/b98b7ff5-edce-464e-901f-17e712b209b3.jpg?s=13fe1cf17892c0edabb37284a1bbcc0b",
+      "publishedAt": "2026-07-04T05:14:43.000Z",
+      "processedAt": "2026-07-04T08:26:58.524Z"
+    },
+    {
+      "id": "722b46db",
+      "originalTitle": "«Gefährlich»: So reagiert die Nati auf die Kolumbien-Stars",
+      "simplifiedText": "Denis Zakaria traut der Nati den Sieg zu. Murat Yakin warnt vor dem Gegner. Die Nati spielt gegen Kolumbien. Denis Zakaria ist optimistisch. Murat Yakin ist vorsichtig.",
+      "vocabularyHints": [
+        "der Sieg — перемога",
+        "trauen — довіряти",
+        "warnen — попереджати",
+        "der Gegner — суперник",
+        "optimistisch — оптимістичний"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/6f519adc-bf9e-4fcb-b09e-0e23c7bda307.jpg?s=97c7273a28f33c625e14dbf903383fdc",
+      "publishedAt": "2026-07-04T05:20:38.000Z",
+      "processedAt": "2026-07-04T08:26:50.151Z"
+    },
+    {
+      "id": "5885f9aa",
+      "originalTitle": "Krieg im Nahen Osten – Tausende Anhänger des Ajatollahs strömen zu dessen Sarg",
+      "simplifiedText": "Die Trauerfeier ist in Teheran. Der Ajatollah ist tot. Viele Menschen kommen zum Sarg. Sie trauern um ihn. Die Feierlichkeiten haben begonnen.",
+      "vocabularyHints": [
+        "der Sarg, -e — труна",
         "die Trauerfeier, -en — жалобна церемонія",
-        "der Vertreter, - — представник",
-        "das Gastland, -länder — країна-господарка",
-        "die Gäste — гості"
+        "der Führer — лідер",
+        "öffentlich — публічний",
+        "beginnen — починатись"
       ],
       "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7f120d.webp",
-      "publishedAt": "2026-07-03T07:41:25.000Z",
-      "processedAt": "2026-07-03T08:51:14.936Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/99e0b5.webp",
+      "publishedAt": "2026-07-04T05:30:19.000Z",
+      "processedAt": "2026-07-04T08:26:42.383Z"
     },
     {
-      "id": "5ef4f765",
-      "originalTitle": "«Confessions II» von Madonna – Das Comeback der Queen of Pop steht auf wackeligen Beinen",
-      "simplifiedText": "Madonna macht Musik. Sie ist die Queen of Pop. Madonna will ein Comeback. Sie will auf den Thron. Die Fans hören ihre Musik.",
+      "id": "5fee0640",
+      "originalTitle": "WM 2026: Turnier im Endspurt – Noch 16 Spiele: Das ist der Fahrplan bis zum Showdown am 19. Juli",
+      "simplifiedText": "Die WM geht fast zu Ende. Es sind noch 16 Spiele übrig. Drei Spiele sind mitten in der Nacht. Die WM ist bald fertig. Die Spieler sind müde.",
       "vocabularyHints": [
-        "der Thron — трон",
-        "die Queen — королева",
-        "das Comeback — повернення",
-        "die Fans — вболівальники",
-        "die Musik — музика"
+        "die Partie, -en — матч",
+        "sich neigen — наближатися до кінця",
+        "der Endspurt — заключний етап",
+        "der Fahrplan, -pläne — розклад",
+        "der Showdown, -s — вирішальний момент"
       ],
-      "category": "Kultur",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d6c5c65.webp",
-      "publishedAt": "2026-07-03T07:51:51.000Z",
-      "processedAt": "2026-07-03T08:51:06.271Z"
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d268ae5.webp",
+      "publishedAt": "2026-07-04T05:49:16.000Z",
+      "processedAt": "2026-07-04T08:26:34.426Z"
     },
     {
-      "id": "68576d4d",
-      "originalTitle": "Schweizer Pensionskassen – Rekordhohe Verzinsung von Altersguthaben",
-      "simplifiedText": "Pensionskassen haben viel Geld. Sie brauchen gute Anlagen. Eine gute Anlage bringt viel Zinsen. Die Pensionskassen helfen den Leuten im Alter. Sie zahlen dann mehr Geld aus.",
+      "id": "785d9da0",
+      "originalTitle": "Im Schiesskeller – Ausflug in eine missverstandene Welt",
+      "simplifiedText": "Ich gehe in den Schiesskeller. Ich schiesse mit einer Pistole. Der Schiesskeller ist sicher. Ich trage eine Schutzbrille. Die Waffe ist nicht gefährlich.",
       "vocabularyHints": [
-        "die Pensionskasse, -n — пенсійний фонд",
-        "die Anlagestrategie, -n — стратегія інвестування",
-        "verzinsen — нараховувати відсотки",
-        "das Altersguthaben — пенсійні заощадження",
-        "die Branchenorganisation, -en — галузева організація"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d03385.webp",
-      "publishedAt": "2026-07-03T08:07:38.000Z",
-      "processedAt": "2026-07-03T08:50:57.617Z"
-    },
-    {
-      "id": "28939caa",
-      "originalTitle": "Untersuchung veröffentlicht – Tierschutzfall Ramiswil SO: Einschläfern aller Hunde war unnötig",
-      "simplifiedText": "Der Kanton Solothurn untersucht den Fall Ramiswil. Das Veterinäramt bekommt eine Bewertung. Die Hunde in Ramiswil sind krank. Der Kanton Solothurn hilft den Tieren. Die Tiere erhalten Futter und Wasser.",
-      "vocabularyHints": [
-        "das Veterinäramt — ветеринарна служба",
-        "untersuchen — досліджувати",
-        "die Bewertung — оцінка",
-        "das Futter — корм",
-        "krank — хворий"
+        "der Schiesskeller — тир",
+        "sich ausbreiten — поширюватись",
+        "die Pistole, -n — пістолет",
+        "die Schutzbrille, -n — захисні окуляри",
+        "die Waffe, -n — зброя"
       ],
       "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d4ee78.webp",
-      "publishedAt": "2026-07-03T08:08:09.000Z",
-      "processedAt": "2026-07-03T08:50:48.289Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/33262d.webp",
+      "publishedAt": "2026-07-04T06:20:12.000Z",
+      "processedAt": "2026-07-04T08:26:26.225Z"
     },
     {
-      "id": "5894f91c",
-      "originalTitle": "Swift und Kelce heiraten: Diese Stars waren beim Probeessen dabei",
-      "simplifiedText": "Taylor Swift heiratet Travis Kelce. Sie geben sich in New York das Jawort. Das Probeessen war am Donnerstag. Viele Stars waren beim Probeessen dabei. Gigi Hadid und Bradley Cooper waren auch da.",
+      "id": "060da366",
+      "originalTitle": "«WOOOOOW!»: Ist dieses Wundergoal das Tor der WM?",
+      "simplifiedText": "Kap Verde spielt gegen Argentinien. Kap Verde gleicht zweimal aus. Argentinien gewinnt 3:2. Sidny Lopes Cabral schiesst ein tolles Tor. Der Spieler ist sehr froh.",
       "vocabularyHints": [
-        "das Jawort geben — давати згоду на шлюб",
-        "das Probeessen — пробне харчування",
-        "der Staraufmarsch — зірковий парад"
+        "der Underdog — аутсайдер",
+        "das Wundergoal — неймовірний гол",
+        "der Schlenzer — обвідний удар",
+        "das Halten — стримування",
+        "die Blamage — приниження"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/7248bd2c-4c65-4802-bcf8-1d92a21b39c5.jpg?s=a7d340503f850819c9eea51b9dee8732",
+      "publishedAt": "2026-07-04T06:23:54.000Z",
+      "processedAt": "2026-07-04T08:26:17.903Z"
+    },
+    {
+      "id": "66d220ca",
+      "originalTitle": "Einsiedler Schwingertalent – Im Sägemehl ist Martin Schönbächler der Publikumsliebling",
+      "simplifiedText": "Martin Schönbächler ist 18 Jahre alt. Er hat einen Bergkranz gewonnen. Seine Eltern sind stolz auf ihn. Martin trainiert jeden Tag. Er ist ein gutes Schwingertalent.",
+      "vocabularyHints": [
+        "der Bergkranz, -kränze — знак відмінності на гірських змаганнях",
+        "stolz — гордий",
+        "trainieren — тренуватися",
+        "das Schwingertalent — талановитий гірськолижник",
+        "das Sägemehl — тирса"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d2ccde.webp",
+      "publishedAt": "2026-07-04T06:28:45.000Z",
+      "processedAt": "2026-07-04T08:26:09.981Z"
+    },
+    {
+      "id": "23bfa958",
+      "originalTitle": "Schweizer Gewässer und Hitze – So warm sind die Schweizer Seen aktuell",
+      "simplifiedText": "Die Seen sind warm. Die Temperaturen sind hoch. Die Hitzewelle war im Juni. Die Schweizer Seen sind sehr warm. Die Menschen schwimmen gern.",
+      "vocabularyHints": [
+        "die Hitzewelle — хвиля спеки",
+        "die Seetemperaturen — температура води в озерах",
+        "die Übersicht — огляд",
+        "die Rekordtemperaturen — рекордні температури",
+        "schwimmen — плавати"
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/b75f6c0.webp",
+      "publishedAt": "2026-07-04T07:00:24.000Z",
+      "processedAt": "2026-07-04T08:26:01.940Z"
+    },
+    {
+      "id": "029c4987",
+      "originalTitle": "Bezahlte Partnersuche – Matchmaking: Wenn das Liebesglück zum Business wird",
+      "simplifiedText": "Die Matchmakerin hilft bei der Partnersuche. Sie kostet viel Geld. Die Arbeit ist sehr persönlich. Die Klienten suchen eine Beziehung. Die Matchmakerin wählt passende Partner aus.",
+      "vocabularyHints": [
+        "die Matchmakerin, -nen — спеціаліст зі знайомств",
+        "die Partnersuche — пошук партнера",
+        "die Beziehung, -en — стосунки",
+        "der Klient, -en — клієнт",
+        "die Investition, -en — інвестиція"
       ],
       "category": "Gesellschaft",
-      "imageUrl": "https://image.20min.ch/2026/07/03/71e20e7e-24a7-4c68-bcdf-32f36d5f6898.jpg?s=a805838b699b28917eb651017172ad00",
-      "publishedAt": "2026-07-03T08:12:13.000Z",
-      "processedAt": "2026-07-03T08:50:39.180Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/b1b886b.webp",
+      "publishedAt": "2026-07-04T07:15:35.000Z",
+      "processedAt": "2026-07-04T08:25:51.951Z"
     },
     {
-      "id": "41abaef7",
-      "originalTitle": "«Schaffen ist für niemanden»: Nati-Fans feiern ihre Helden",
-      "simplifiedText": "Die Fans feiern ihre Helden. Sie stehen früh auf. Sie gehen feiern oder ins Bett. Einige müssen in die Schule. Sie sind optimistisch.",
+      "id": "1517a0e3",
+      "originalTitle": "WM-Programm in der Übersicht – Erste Achtelfinals mit Favorit Frankreich: Das läuft am Samstag",
+      "simplifiedText": "Am Samstag beginnt die Achtelfinal-Phase. Kanada spielt gegen Marokko. Paraguay spielt gegen Frankreich. Frankreich ist Favorit. Die Spiele sind am Samstag.",
       "vocabularyHints": [
-        "die Helden — герої",
-        "feiern — святкувати",
-        "optimistisch — оптимістично",
-        "das Spiel — гра",
-        "die Schule — школа"
+        "die Phase — період",
+        "lanciert — розпочинається",
+        "der Favorit — фаворит",
+        "das Achtelfinale — матч 1/8 фіналу",
+        "spielen gegen — грати проти"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/29a71110-b953-4b37-ac45-4b6f28573eab.jpg?s=b5217cf10a5ef4518fabc7becea78f98",
-      "publishedAt": "2026-07-03T08:12:54.000Z",
-      "processedAt": "2026-07-03T08:50:30.714Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4f21c1.webp",
+      "publishedAt": "2026-07-04T07:27:12.000Z",
+      "processedAt": "2026-07-04T08:25:42.332Z"
     },
     {
-      "id": "34f836e1",
-      "originalTitle": "Er stürzte im August schwer – Froome verkündet Rücktritt",
-      "simplifiedText": "Der Radfahrer stürzte schwer im August. Er hört auf. Der Mann war Radprofi. Er gewann vier Touren. Jetzt ist er fertig.",
+      "id": "46766039",
+      "originalTitle": "Schweizer Rad-Star droht an Tour de France eine Hitzeschlacht",
+      "simplifiedText": "Marc Hirschi fährt mit seinem Team in der Tour. Das Team will die erste Etappe gewinnen. Die Temperaturen sind sehr hoch. Der Fahrer ist jung und stark. Er will erfolgreich sein.",
       "vocabularyHints": [
-        "der Radfahrer — велосипедист",
-        "aufhören — зупинятися",
-        "der Profi — професіонал",
-        "gewinnen — вигравати",
-        "fertig — готовий"
+        "das Zugpferd — провідна сила",
+        "die Etappe, -n — етап",
+        "extrem — надзвичайний",
+        "das Team, -s — команда",
+        "der Fahrer, — водій"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d1a1458.webp",
-      "publishedAt": "2026-07-03T08:15:24.000Z",
-      "processedAt": "2026-07-03T08:50:22.274Z"
+      "imageUrl": "https://image.20min.ch/2026/07/04/173d4eed-e983-429e-9dd2-d180035e8999.jpg?s=46caeee06a8f55e7f5f395c886932fdc",
+      "publishedAt": "2026-07-04T07:32:27.000Z",
+      "processedAt": "2026-07-04T08:25:33.287Z"
     },
     {
-      "id": "7376a6c2",
-      "originalTitle": "Nach 88-jähriger Durststrecke – so geht es für die Nati weiter",
-      "simplifiedText": "Die Schweiz spielt am 7. Juli um 22 Uhr. Die Schweiz trifft auf Ghana oder Kolumbien. Die Schweiz ist froh. Die Spieler sind müde. Sie brauchen viel Ruhe.",
+      "id": "6a429520",
+      "originalTitle": "Super Puma im Einsatz – Grossfahndung nach Einbruch in Sittener Waffengeschäft",
+      "simplifiedText": "Die Polizei sucht nach Einbrechern. Sie sind mit einem Auto geflohen. Das Auto hat ein französisches Kennschild. Die Polizei will die Einbrecher finden. Sie sind im Kanton Wallis.",
       "vocabularyHints": [
-        "die Durststrecke — період невдач",
-        "die Nati — національна збірна",
-        "das K.-o.-Phasen-Spiel — гра на вибування",
-        "der Achtelfinal — матч 1/8 фіналу",
-        "die Schweizer Zeit — швейцарський час"
+        "der Einbrecher, - — злочинець",
+        "flüchten — тікати",
+        "das Kennschild — номерний знак",
+        "der Kanton — кантон",
+        "sucht — шукає"
       ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/3350bd6d-444e-471e-b9bd-9df00f1e2e48.jpg?s=52bce9c2a955e54088def4c62e73bc98",
-      "publishedAt": "2026-07-03T08:33:58.000Z",
-      "processedAt": "2026-07-03T08:50:13.169Z"
+      "category": "Polizei",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6682e0.webp",
+      "publishedAt": "2026-07-04T07:49:29.000Z",
+      "processedAt": "2026-07-04T08:25:24.129Z"
     },
     {
-      "id": "33372615",
-      "originalTitle": "«Leuchtet auf uns herab»: Emotionaler CR7 ehrt verstorbenen Jota",
-      "simplifiedText": "Die Portugiesen spielen im WM-Achtelfinal. Die Portugiesen ehren Diogo Jota. Diogo Jota war ein guter Fussballspieler. Er ist vor einem Jahr gestorben. Cristiano Ronaldo ehrt ihn.",
+      "id": "35bb4224",
+      "originalTitle": "Ihre Anfragen im Faktencheck – «Grooming Gangs» – das steckt dahinter",
+      "simplifiedText": "In Grossbritannien gibt es viele Missbrauchsopfer. Die Zahl ist sehr hoch. Experten sprechen von 250'000 Opfern. Diese Zahl ist eine Schätzung. Die Polizei untersucht die Fälle.",
       "vocabularyHints": [
-        "der Achterfinal — чвертьфінал",
-        "einen Spieler ehren — вшановувати гравця",
-        "der Flügelspieler — вінговий гравець",
-        "der Spielschluss — кінець гри",
-        "verstorben — померлий"
+        "das Opfer, -en — жертва",
+        "die Schätzung, -en — оцінка",
+        "untersuchen — розслідувати",
+        "die Experten — експерти",
+        "Missbrauchsopfer — жертви зловживань"
       ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/52533081-2802-49a6-9f5f-cc1e84c8ef2f.jpg?s=df84ac8c372ed93af8372ef299b67edd",
-      "publishedAt": "2026-07-03T08:43:21.000Z",
-      "processedAt": "2026-07-03T08:50:01.734Z"
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4ade59.webp",
+      "publishedAt": "2026-07-04T07:59:27.000Z",
+      "processedAt": "2026-07-04T08:25:14.908Z"
     },
     {
-      "id": "38d36c07",
-      "originalTitle": "Tour de France 2026 – Eine Besonderheit zum Auftakt und satte sieben Bergankünfte",
-      "simplifiedText": "Die Tour de France beginnt in Barcelona. Es gibt sieben Bergankünfte. Die Fahrer sind alle müde. Die Favoriten zeigen sich früh. Die Tour ist sehr lang.",
+      "id": "5d1544b3",
+      "originalTitle": "Nach Mega-Hochzeit: Taylor Swift soll künftig Kelce heissen",
+      "simplifiedText": "Taylor Swift heiratet Kelce. Sie heiraten im Madison Square Garden. Taylor Swift will privat den Namen Kelce tragen. Öffentlich bleibt sie Taylor Swift. Sie ist ein Superstar.",
       "vocabularyHints": [
-        "die Bergankunft, -en — підйом на вершину",
-        "der Favorit, -en — фаворит",
-        "sich zeigen — показуватися",
-        "müde — втомлений",
-        "die Fahrer — водії"
+        "der Insider — інсайдер",
+        "annehmen — прийняти",
+        "öffentlich — публічно",
+        "privat — приватно",
+        "das Superstar-Paar — пара зірок"
       ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/66cc9e.webp",
-      "publishedAt": "2026-07-03T08:44:44.000Z",
-      "processedAt": "2026-07-03T08:49:53.151Z"
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/02/7ee278a6-2e47-4a1f-b67f-b665557f0ca9.jpg?s=d995943ce4f5151906379c2abbc92fc7",
+      "publishedAt": "2026-07-04T08:07:58.000Z",
+      "processedAt": "2026-07-04T08:25:06.481Z"
     },
     {
-      "id": "2c45734e",
-      "originalTitle": "«Terminator»-Produzent Moritz Borman ist tot",
-      "simplifiedText": "Moritz Borman ist tot. Er war Filmproduzent. Borman arbeitete mit Oliver Stone. Er machte zwei Terminator-Filme. Borman starb in München.",
+      "id": "31c96759",
+      "originalTitle": "Krieg in der Ukraine – Selenski: Ukraine trifft russische Ölanlagen bei St. Petersburg",
+      "simplifiedText": "Der Gouverneur berichtet. Der Gouverneur schickt Drohnen. Die Drohnen fliegen. Die Drohnen sind feindlich. Der Gouverneur schießt Drohnen ab.",
       "vocabularyHints": [
-        "der Produzent — кінопродюсер",
-        "trauern — сумувати",
-        "arbeiten — працювати",
-        "der Film, -e — фільм"
+        "der Gouverneur — губернатор",
+        "feindlich — ворожій",
+        "Drohnen — безпілотники",
+        "abschießen — збивати",
+        "Umland — околиця"
       ],
-      "category": "Kultur",
-      "imageUrl": "https://image.20min.ch/2026/07/03/98b1f01d-b6d6-438c-8509-235661268d7a.jpg?s=78e93f457d3a98bbfb280224aa8b25af",
-      "publishedAt": "2026-07-03T08:48:57.000Z",
-      "processedAt": "2026-07-03T08:49:42.961Z"
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/242442.webp",
+      "publishedAt": "2026-07-04T08:09:45.000Z",
+      "processedAt": "2026-07-04T08:24:57.025Z"
+    },
+    {
+      "id": "3de5ae40",
+      "originalTitle": "Chilbi ist sein Leben: «Hier vergesse ich alle Sorgen»",
+      "simplifiedText": "Riccardo Senn führt den Familienbetrieb. Er ist 34 Jahre alt. Der Betrieb ist in sechster Generation. Riccardo kann sich kein anderes Leben vorstellen. Er lebt auf der Chilbi.",
+      "vocabularyHints": [
+        "die Chilbi, -en — ярмарок",
+        "sich vorstellen — уявляти",
+        "der Familienbetrieb, -e — сімейний бізнес",
+        "die Generation, -en — покоління",
+        "führen — керувати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/03/34db8a50-2c41-41bd-83ba-ff3dd4859753.jpg?s=60558401a60aa5474b38bd904ea6d626",
+      "publishedAt": "2026-07-04T08:11:23.000Z",
+      "processedAt": "2026-07-04T08:24:19.362Z"
     }
   ],
   "A2": [
+    {
+      "id": "1ed2b413",
+      "originalTitle": "Nach über 150 Jahren – Basler Traditionshaus Schiesser vor dem Aus",
+      "simplifiedText": "Die Confiserie Schiesser in Basel ist seit 150 Jahren bekannt. Jetzt ist das Unternehmen vorläufig in Konkurs gegangen. Viele Baslerinnen und Basler sind betroffen, denn sie kaufen dort gerne ein. Die Confiserie Schiesser macht seit 150 Jahren leckere Süssigkeiten. Sie ist ein wichtiger Teil der Stadt Basel. Aber jetzt ist das Wetter für die Firma schlecht, oder es gibt Probleme mit dem Verkauf.",
+      "vocabularyHints": [
+        "die Confiserie, -en — кондитерська",
+        "vorläufig — тимчасовий",
+        "betroffen — зачеплений",
+        "Süssigkeiten — солодощі",
+        "das Konkurs — банкрутство"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/de26f4.webp",
+      "publishedAt": "2026-07-03T19:43:31.000Z",
+      "processedAt": "2026-07-04T08:29:35.434Z"
+    },
+    {
+      "id": "39c7aa5f",
+      "originalTitle": "Wo ist Irene (23)? Polizei bittet um Hinweise",
+      "simplifiedText": "Irene Jelmini ist seit Mittwochabend verschwunden. Die Polizei sucht nach ihr. Sie ist 23 Jahre alt. Die Polizei bittet um Hinweise. Das Wetter ist momentan sehr schlecht, deshalb kann sie vielleicht nicht anrufen. Ihre Familie macht sich grosse Sorgen, aber die Polizei ist optimistisch, dass sie bald gefunden wird.",
+      "vocabularyHints": [
+        "verschwunden — зникла",
+        "Personenbeschreibung — опис зовнішності",
+        "Hinweise — підказки",
+        "sorgt sich — турбується"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/03/1761bf46-1fdd-44f9-a4f1-d75896591fe0.jpg?s=c3864f62bc8305ea11d4a26423ce5260",
+      "publishedAt": "2026-07-03T20:33:41.000Z",
+      "processedAt": "2026-07-04T08:29:27.281Z"
+    },
+    {
+      "id": "0b405d6d",
+      "originalTitle": "Nach Bob-Rücktritt im März – Sandgrube statt Eiskanal: Hasler wechselt zum Weitsprung",
+      "simplifiedText": "Melanie Hasler will im Weitsprung erfolgreich sein. Sie kommt aus dem Aargau und will es künftig an die Spitze schaffen. Bisher war sie im Eiskanal aktiv, aber jetzt trainiert sie in einer Sandgrube. Sie will ihre Fähigkeiten im Weitsprung unter Beweis stellen. Das ist ein grosses Ziel für sie, aber sie ist motiviert.",
+      "vocabularyHints": [
+        "die Sandgrube — пісковина",
+        "der Eiskanal — крижаний канал",
+        "das Geheimnis lüften — розкривати секрет",
+        "künftig — у майбутньому",
+        "an die Spitze schaffen — досягти вершини"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/fc7e61.webp",
+      "publishedAt": "2026-07-03T21:21:14.000Z",
+      "processedAt": "2026-07-04T08:29:18.713Z"
+    },
+    {
+      "id": "6e8b9fdb",
+      "originalTitle": "Hochzeit in New York City – Taylor Swift und Travis Kelce haben geheiratet",
+      "simplifiedText": "Taylor Swift ist eine berühmte Sängerin. Sie hat Travis Kelce, einen bekannten American-Football-Spieler, geheiratet. Die Hochzeit war im Madison Square Garden in Manhattan. Es war ein besonderer Tag für das Paar. Sie sind jetzt verheiratet und glücklich. Das Wetter war gut, also konnten sie draussen feiern.",
+      "vocabularyHints": [
+        "der Star, -s — зірка",
+        "heiraten — одружуватися",
+        "der Tag, -e — день",
+        "das Paar, -e — пара",
+        "verheiratet — одружений"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4d5be2.webp",
+      "publishedAt": "2026-07-04T00:45:26.000Z",
+      "processedAt": "2026-07-04T08:29:10.354Z"
+    },
+    {
+      "id": "2b8af5a7",
+      "originalTitle": "– Australiens Goalietrick geht schief: Ägypten im Achtelfinal",
+      "simplifiedText": "Ägypten ist zum ersten Mal in der Geschichte über ein K.o.-Spiel bei einer WM hinausgekommen. Die Entscheidung musste im Penaltyschiessen fallen. Australien hatte gehofft, dass sein Goalietrick funktionieren würde, aber es hat nicht geklappt. Ägypten kann jetzt im Achtelfinal spielen. Das Wetter war nicht schön, aber die Spieler waren gut vorbereitet. Sie mussten stark spielen, um zu gewinnen.",
+      "vocabularyHints": [
+        "das K.o.-Spiel — гра на вибування",
+        "das Penaltyschiessen — серія пенальті",
+        "der Goalietrick — трюк воротар",
+        "das Achtelfinal — 1/8 фіналу",
+        "der Spieler — гравець"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/603104.webp",
+      "publishedAt": "2026-07-04T00:55:31.000Z",
+      "processedAt": "2026-07-04T08:29:01.946Z"
+    },
+    {
+      "id": "5752c657",
+      "originalTitle": "– Kap Verde verpasst die Sensation gegen Argentinien nur knapp",
+      "simplifiedText": "Kap Verde spielt gegen Argentinien. Sie kämpfen sehr, aber verlieren 2:3 nach Verlängerung. Das Spiel ist ein WM-Sechzehntelfinal. Kap Verde will gewinnen, aber es klappt nicht. Sie sind traurig, aber stolz auf ihren Kampf. Argentinien ist stärker, aber Kap Verde zeigt viel Einsatz.",
+      "vocabularyHints": [
+        "der WM-Sechzehntelfinal — 1/16 фіналу чемпіонату світу",
+        "hart — важкий",
+        "die Verlängerung — додатковий час",
+        "klappen — вдаватися",
+        "der Einsatz — зусилля"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/768d7d.webp",
+      "publishedAt": "2026-07-04T01:09:03.000Z",
+      "processedAt": "2026-07-04T08:28:52.868Z"
+    },
+    {
+      "id": "50b7cc87",
+      "originalTitle": "WM 2026: 1/16-Final ARG-CPV – Kap Verde verpasst die Sensation gegen Argentinien nur knapp",
+      "simplifiedText": "Kap Verde spielt gegen Argentinien im WM-Sechzehntelfinal. Das Spiel ist hart umkämpft. Kap Verde verliert nach Verlängerung mit 2:3. Die Mannschaft kämpft sehr, aber es reicht nicht. Argentinien ist zu stark. Kap Verde muss nun nach Hause fahren. Das Wetter ist nicht gut, es regnet.",
+      "vocabularyHints": [
+        "der WM-Sechzehntelfinal — 1/16 фіналу чемпіонату світу",
+        "hart umkämpft — який важко піддавався",
+        "die Verlängerung — додатковий час",
+        "zu stark — занадто сильний",
+        "nach Hause fahren — їхати додому"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/768d7d.webp",
+      "publishedAt": "2026-07-04T01:09:03.000Z",
+      "processedAt": "2026-07-04T08:28:43.375Z"
+    },
+    {
+      "id": "22052fee",
+      "originalTitle": "Seemannsköpfler ist der Badi-Sprung des Sommers – und gefährlich",
+      "simplifiedText": "Wer einen Kopfsprung oder Seemannsköpfler macht, muss aufpassen. Die Wassertiefe ist wichtig, sonst kann man sich schwer verletzen. Man sollte nie in unbekannte Gewässer springen. Das kann zu schlimmen Verletzungen führen, sogar zu einer Querschnittslähmung. Ich gehe jeden Sommer schwimmen, aber ich achte immer auf die Tiefe. Mein Freund will auch einen Seemannsköpfler machen, aber ich sage ihm, er soll vorsichtig sein.",
+      "vocabularyHints": [
+        "der Seemannsköpfler — вид стрибка у воду",
+        "die Wassertiefe — глибина води",
+        "schwere Verletzungen — серйозні травми",
+        "die Querschnittslähmung — спинномозгова травма",
+        "sich verletzen — травмуватись"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/07/03/2ff9c4b6-6b47-413b-b0b5-849d94e18f63.jpg?s=72718e1a1e27bd183bf1b79030a750b2",
+      "publishedAt": "2026-07-04T02:40:30.000Z",
+      "processedAt": "2026-07-04T08:28:33.677Z"
+    },
+    {
+      "id": "145f7efc",
+      "originalTitle": "«Natürlich blond»-Prequel: Fashion-Ikone Elle Woods ist zurück",
+      "simplifiedText": "Die Serie 'Elle' ist ein Prequel zum Film 'Natürlich blond'. Sie zeigt Elle Woods' Leben vor Harvard. Die Serie kam am 1. Juli auf Amazon Prime. Reese Witherspoon war die ausführende Produzentin. Elle Woods ist eine Fashion-Ikone. Sie geht shoppen bei schönem Wetter. Aber manchmal ist das Wetter nicht gut.",
+      "vocabularyHints": [
+        "die Ikone, -n — ікона",
+        "ausführende Produzentin — виконавчий продюсер",
+        "das Prequel, -s — попередня історія",
+        "fungierte — виконував функції",
+        "das Leben, -s — життя"
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/07/03/8c8e73b7-b638-4ade-9f21-3a69b6d64c5b.jpg?s=bfbd392a1799b6957c932fc4ca1788bc",
+      "publishedAt": "2026-07-04T02:41:41.000Z",
+      "processedAt": "2026-07-04T08:28:24.686Z"
+    },
+    {
+      "id": "229cc55e",
+      "originalTitle": "– Kolumbien macht Achtelfinal-Duell mit der Schweiz perfekt",
+      "simplifiedText": "Kolumbien hat gegen Ghana 1:0 gewonnen. Sie treffen jetzt im WM-Achtelfinal auf die Schweiz. Das ist ein wichtiger Sieg für Kolumbien gewesen. Die Schweizer Fans sind gespannt auf das Spiel. Das Wetter in Russland ist momentan sehr warm. Vielleicht kann die Schweiz gegen Kolumbien gewinnen. Dann kommen sie weiter.",
+      "vocabularyHints": [
+        "der Achtelfinal — 1/8 фіналу",
+        "das Duell — поєдинок",
+        "das WM-Achtelfinal — 1/8 фіналу чемпіонату світу",
+        "gewinnt — виграє",
+        "der Sieg — перемога",
+        "gespannt — схвильовані"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6f5dab.webp",
+      "publishedAt": "2026-07-04T03:53:16.000Z",
+      "processedAt": "2026-07-04T08:27:50.129Z"
+    },
+    {
+      "id": "7f853373",
+      "originalTitle": "WM 2026: 1/16-Final COL-GHA – Kolumbien macht Achtelfinal-Duell mit der Schweiz perfekt",
+      "simplifiedText": "Kolumbien hat gegen Ghana 1:0 gewonnen. Sie spielen jetzt im WM-Achtelfinal gegen die Schweiz. Das Wetter war gut während des Spiels. Der Trainer von Kolumbien ist sehr zufrieden. Die Spieler haben gut gearbeitet und sind happy. Sie gehen jetzt shoppen oder nach Hause.",
+      "vocabularyHints": [
+        "der Achtelfinal, -s — 1/8 фіналу",
+        "perfekt machen — вдосконалювати",
+        "das Duell, -e — поєдинок"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6f5dab.webp",
+      "publishedAt": "2026-07-04T03:53:16.000Z",
+      "processedAt": "2026-07-04T08:27:41.306Z"
+    },
+    {
+      "id": "27b74be1",
+      "originalTitle": "«Ja, ich will»: Adam Sandler traute Taylor Swift und Travis Kelce",
+      "simplifiedText": "Taylor Swift und Travis Kelce haben im Madison Square Garden in New York geheiratet. Rund 1000 Gäste waren dabei. Adam Sandler, ein Freund von ihnen, hat sie getraut. Das Wetter war bestimmt schön, denn es ist ein wichtiger Tag für die beiden. Sie sind jetzt verheiratet und können zusammen einkaufen gehen oder arbeiten.",
+      "vocabularyHints": [
+        "das Ja — так",
+        "der Gast, -e — гість",
+        "trauen — одружувати",
+        "die Arbeit — праця"
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/07/04/76ba3956-b1b1-4634-ad12-8657334cf210.jpg?s=fb2ee5e5e8044efbe10c59348d9fcc4d",
+      "publishedAt": "2026-07-04T04:09:08.000Z",
+      "processedAt": "2026-07-04T08:27:31.632Z"
+    },
+    {
+      "id": "7ea995c8",
+      "originalTitle": "Arbeitsmarkt Schweiz – 300'000 neue Stellen – Jobwunder nach Corona verblasst langsam",
+      "simplifiedText": "Die Schweizer Wirtschaft hat sich nach der Pandemie schnell erholt. Es gibt wieder viele neue Arbeitsplätze. Aber das Jobwunder ist nicht mehr so stark wie vorher. Die Leute gehen wieder arbeiten und verdienen Geld. Das Wetter ist gut und die Stimmung ist positiv. Aber einige Leute haben immer noch Probleme, einen Job zu finden.",
+      "vocabularyHints": [
+        "das Jobwunder — економічне диво працевлаштування",
+        "verblasst — тьмяніє",
+        "die Pandemie — пандемія",
+        "sich erholt — відновилась",
+        "die Arbeitsplätze — робочі місця"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7db934.webp",
+      "publishedAt": "2026-07-04T04:46:18.000Z",
+      "processedAt": "2026-07-04T08:27:20.100Z"
+    },
+    {
+      "id": "53b48bf2",
+      "originalTitle": "250 Jahre USA – «America 250»: Der Streit um die Deutung der US-Geschichte",
+      "simplifiedText": "Die USA feiern 250 Jahre Unabhängigkeit. Es gibt aber verschiedene Meinungen über die Geschichte und Erinnerung. Einige Leute wollen die gute Seite der Geschichte zeigen, andere die schlechte. Die einen sagen, die USA sind ein Land der Freiheit und Chancen. Andere sagen, das Land hat auch viel Schlechtes getan. Sie denken an die Sklaverei und die Ungerechtigkeit. Es ist ein Streit um die Deutung der Geschichte.",
+      "vocabularyHints": [
+        "die Sichtweise, -n — точка зору",
+        "die Deutung, -en — інтерпретація",
+        "die Unabhängigkeit — незалежність",
+        "das Jubiläum, -en — ювілей",
+        "die Erinnerung, -en — пам'ять"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/2f3081.webp",
+      "publishedAt": "2026-07-04T05:00:29.000Z",
+      "processedAt": "2026-07-04T08:27:09.961Z"
+    },
+    {
+      "id": "41297cd8",
+      "originalTitle": "7 Dinge, die du über den Achtelfinal-Gegner der Nati wissen musst",
+      "simplifiedText": "Die Nati spielt ihren WM-Achtelfinal in Vancouver gegen Kolumbien. Das Spiel wird sicher spannend sein, denn Kolumbien ist ein starker Gegner. Die Schweizer müssen sich gut vorbereiten, um erfolgreich zu sein. Sie sollten auch auf das Wetter in Vancouver achten, denn es kann kühl und regnerisch sein. Vielleicht sollten sie auch einige Dinge für das Spiel einkaufen, wie zum Beispiel neue Schuhe oder ein neues Trikot.",
+      "vocabularyHints": [
+        "der Achtelfinal — 1/8 фіналу",
+        "der Gegner — суперник",
+        "sich vorbereiten — готуватися",
+        "das Wetter — погода",
+        "einkaufen — робити покупки"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/b98b7ff5-edce-464e-901f-17e712b209b3.jpg?s=13fe1cf17892c0edabb37284a1bbcc0b",
+      "publishedAt": "2026-07-04T05:14:43.000Z",
+      "processedAt": "2026-07-04T08:27:01.460Z"
+    },
+    {
+      "id": "782f123a",
+      "originalTitle": "«Gefährlich»: So reagiert die Nati auf die Kolumbien-Stars",
+      "simplifiedText": "Denis Zakaria glaubt, dass die Nati gegen Kolumbien gewinnen kann. Murat Yakin sagt, dass Kolumbien sehr gute Spieler hat. Die Nati muss Acht geben, denn Kolumbien ist stark. Zakaria ist optimistisch, aber Yakin ist vorsichtig. Das Wetter ist heute gut, ideal für ein Fussballspiel. Vielleicht geht die Nati zum Einkaufen nach dem Spiel.",
+      "vocabularyHints": [
+        "die Nati — національна збірна",
+        "Achtelfinal — 1/8 фіналу",
+        "sich trauen — наважитися",
+        "warnen — попереджати",
+        "die Qualität — якість"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/6f519adc-bf9e-4fcb-b09e-0e23c7bda307.jpg?s=97c7273a28f33c625e14dbf903383fdc",
+      "publishedAt": "2026-07-04T05:20:38.000Z",
+      "processedAt": "2026-07-04T08:26:52.974Z"
+    },
+    {
+      "id": "36795f89",
+      "originalTitle": "Krieg im Nahen Osten – Tausende Anhänger des Ajatollahs strömen zu dessen Sarg",
+      "simplifiedText": "In Teheran haben die Trauerfeierlichkeiten für Ajatollah Ali Chamenei begonnen. Tausende Menschen sind zu dessen Sarg gekommen. Das Wetter ist heute sehr heiß, aber die Menschen kommen, um ihre Trauer zu zeigen. Sie sind sehr traurig, denn Ajatollah Chamenei war ein wichtiger Führer. Die Menschen gehen zu seinem Sarg, um ihm die letzte Ehre zu erweisen. Sie kaufen auch Blumen und Kerzen für die Trauerfeier.",
+      "vocabularyHints": [
+        "der Ajatollah — релігійний лідер",
+        "die Trauerfeierlichkeiten — заходи вшанування пам'яті",
+        "die Ehre — честь",
+        "die Kerze, -n — свічка"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/99e0b5.webp",
+      "publishedAt": "2026-07-04T05:30:19.000Z",
+      "processedAt": "2026-07-04T08:26:44.918Z"
+    },
+    {
+      "id": "674145df",
+      "originalTitle": "WM 2026: Turnier im Endspurt – Noch 16 Spiele: Das ist der Fahrplan bis zum Showdown am 19. Juli",
+      "simplifiedText": "Die Fussball-WM geht langsam zu Ende. Es sind noch 16 Spiele übrig. Drei Spiele finden in der Nacht statt, aber die meisten Spiele sind tagsüber. Das letzte Spiel ist am 19. Juli. Die Mannschaften müssen sich gut vorbereiten, denn es ist ein langer Wettbewerb. Die Fans sind aufgeregt, aber auch ein bisschen traurig, dass es bald vorbei ist.",
+      "vocabularyHints": [
+        "der Endspurt — фініш",
+        "der Fahrplan — розклад",
+        "der Showdown — вирішальний поєдинок",
+        "das Endspiel — останній матч",
+        "sich neigen — наближатися до кінця"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d268ae5.webp",
+      "publishedAt": "2026-07-04T05:49:16.000Z",
+      "processedAt": "2026-07-04T08:26:36.985Z"
+    },
+    {
+      "id": "52c9949f",
+      "originalTitle": "Im Schiesskeller – Ausflug in eine missverstandene Welt",
+      "simplifiedText": "Ich gehe jeden Tag zur Arbeit und manchmal zum Einkaufen. Das Wetter ist oft schön in der Schweiz, aber manchmal regnet es auch. Ich habe gehört, dass man in der Schweiz leicht eine Waffe kaufen kann. Einige Leute gehen gerne schiessen, aber ich finde das nicht so interessant. Ich arbeite und gehe dann nach Hause, oder ich gehe einkaufen und esse etwas. Ich denke, es ist wichtig, dass man weiss, wie man mit Waffen umgeht, denn es kann gefährlich sein, wenn man nicht vorsichtig ist.",
+      "vocabularyHints": [
+        "der Schiesskeller — тир",
+        "die Waffe, -n — зброя",
+        "schiessen — стріляти",
+        "der Waffenfan, -s — любитель зброї",
+        "einfach — простий"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/33262d.webp",
+      "publishedAt": "2026-07-04T06:20:12.000Z",
+      "processedAt": "2026-07-04T08:26:29.008Z"
+    },
+    {
+      "id": "4998c127",
+      "originalTitle": "«WOOOOOW!»: Ist dieses Wundergoal das Tor der WM?",
+      "simplifiedText": "Kap Verde spielt gegen Argentinien. Sie sind ein Underdog, aber sie spielen gut. Sie gleichen zweimal aus, aber sie verlieren 2:3. Ein Spieler, Sidny Lopes Cabral, macht ein tolles Tor. Er schießt den Ball schön und seine Mannschaft ist stolz auf ihn. Der Spieler ist früher in der dritten Liga gespielt.",
+      "vocabularyHints": [
+        "der Underdog, -s — аутсайдер",
+        "ausgleichen — зрівнювати",
+        "die Verlängerung, -en — овертайм",
+        "schlenzen — бити по м'ячу з підрізом",
+        "das Halten — стримування"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/7248bd2c-4c65-4802-bcf8-1d92a21b39c5.jpg?s=a7d340503f850819c9eea51b9dee8732",
+      "publishedAt": "2026-07-04T06:23:54.000Z",
+      "processedAt": "2026-07-04T08:26:20.639Z"
+    },
+    {
+      "id": "047709eb",
+      "originalTitle": "Einsiedler Schwingertalent – Im Sägemehl ist Martin Schönbächler der Publikumsliebling",
+      "simplifiedText": "Martin Schönbächler ist 18 Jahre alt. Er hat vor zwei Wochen seinen ersten Bergkranz gewonnen. Seine Eltern haben ihm das Talent gegeben. Martin arbeitet jeden Tag hart, aber er geht auch gerne einkaufen oder sieht sich das Wetter an. Er möchte eines Tages ein berühmter Schwinger werden, denn er liebt seinen Sport. Wenn er nicht trainiert, hört er Musik oder spielt mit seinen Freunden.",
+      "vocabularyHints": [
+        "der Bergkranz — знак відмінності на гірських змаганнях",
+        "das Schwingertalent — талант до боротьби",
+        "das Sägemehl — тирса",
+        "der Publikumsliebling — улюбленець публіки",
+        "sich ausbreiten — поширюватись"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d2ccde.webp",
+      "publishedAt": "2026-07-04T06:28:45.000Z",
+      "processedAt": "2026-07-04T08:26:12.648Z"
+    },
+    {
+      "id": "5e8b0b87",
+      "originalTitle": "Schweizer Gewässer und Hitze – So warm sind die Schweizer Seen aktuell",
+      "simplifiedText": "Die Schweizer Seen sind aktuell sehr warm. Nach der Hitzewelle im Juni sind die Temperaturen sehr hoch. Ich gehe jeden Tag zum See und schwimme. Das Wasser ist warm, aber ich muss mich vor der Sonne schützen. Ich trage immer eine Sonnenbrille und einen Hut. Die Hitze ist manchmal sehr stark.",
+      "vocabularyHints": [
+        "die Hitzewelle — хвиля спеки",
+        "die Seetemperaturen — температура води в озерах",
+        "sich vor der Sonne schützen — захищатися від сонця",
+        "die Übersicht — огляд",
+        "die Sonnenbrille — сонцезахисні окуляри"
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/b75f6c0.webp",
+      "publishedAt": "2026-07-04T07:00:24.000Z",
+      "processedAt": "2026-07-04T08:26:04.421Z"
+    },
+    {
+      "id": "036ac808",
+      "originalTitle": "Bezahlte Partnersuche – Matchmaking: Wenn das Liebesglück zum Business wird",
+      "simplifiedText": "Ich arbeite als Matchmakerin und helfe Menschen bei der Partnersuche. Meine Arbeit kostet viel Geld, aber ich bin sicher, dass ich helfen kann. Ich habe viele Paare zusammengebracht, die glücklich sind. Die Arbeit als Matchmakerin ist nicht einfach, aber ich liebe meinen Job. Ich muss mich mit den Wünschen meiner Kunden auseinandersetzen und passende Partner finden. Das Wetter ist nicht wichtig für meine Arbeit, aber ich arbeite gerne von zu Hause aus, wenn es regnet.",
+      "vocabularyHints": [
+        "die Matchmakerin, -nen — спеціаліст зі знайомств",
+        "sich auseinandersetzen — розбиратися, розглядати",
+        "die Wünsche — бажання",
+        "die Investition, -en — інвестиція",
+        "das Liebesglück — щастя кохання"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/b1b886b.webp",
+      "publishedAt": "2026-07-04T07:15:35.000Z",
+      "processedAt": "2026-07-04T08:25:55.449Z"
+    },
+    {
+      "id": "3495d904",
+      "originalTitle": "WM-Programm in der Übersicht – Erste Achtelfinals mit Favorit Frankreich: Das läuft am Samstag",
+      "simplifiedText": "Am Samstag beginnt die Achtelfinal-Phase der WM. Es spielt Kanada gegen Marokko und Paraguay gegen Frankreich. Frankreich ist Favorit. Das Wetter ist gut, aber die Spiele werden sicher spannend sein. Die Fans sind bereit und kaufen Tickets für die Spiele. Die Mannschaften sind müde, denn sie haben viel trainiert.",
+      "vocabularyHints": [
+        "die Achtelfinal-Phase — фаза 1/8 фіналу",
+        "lanciert — запускається",
+        "Favorit — фаворит",
+        "das Spiel — гра",
+        "die Tickets — квитки"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4f21c1.webp",
+      "publishedAt": "2026-07-04T07:27:12.000Z",
+      "processedAt": "2026-07-04T08:25:45.037Z"
+    },
+    {
+      "id": "3a05e47a",
+      "originalTitle": "Schweizer Rad-Star droht an Tour de France eine Hitzeschlacht",
+      "simplifiedText": "Das Schweizer Radteam Tudor Pro Cycling will mit Marc Hirschi einen Etappensieg bei der Tour de France erreichen. Die Bedingungen sind extrem. Es ist sehr heiss. Marc Hirschi ist das Zugpferd des Teams. Der Etappensieg ist das grosse Ziel. Das Team muss sich gut vorbereiten, denn die Konkurrenz ist stark. Aber die Schweizer sind motiviert.",
+      "vocabularyHints": [
+        "das Zugpferd, -e — тягловець, той хто тягне",
+        "die Bedingungen — умови",
+        "extrem — надзвичайний",
+        "peilen — цілитись, націлюватись",
+        "die Konkurrenz — конкуренція"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/173d4eed-e983-429e-9dd2-d180035e8999.jpg?s=46caeee06a8f55e7f5f395c886932fdc",
+      "publishedAt": "2026-07-04T07:32:27.000Z",
+      "processedAt": "2026-07-04T08:25:36.223Z"
+    },
+    {
+      "id": "73b0d0bf",
+      "originalTitle": "Super Puma im Einsatz – Grossfahndung nach Einbruch in Sittener Waffengeschäft",
+      "simplifiedText": "Im Kanton Wallis sucht die Polizei nach Einbrechern. Sie sind mit einem Auto mit französischem Kennschild geflohen. Die Polizei ist mit einem grossen Aufwand auf der Suche. Es war ein Einbruch in ein Waffengeschäft in Sitten. Die Einbrecher haben viele Waffen gestohlen. Die Polizei bittet die Bevölkerung um Hilfe. Sie soll aufpassen, ob sie etwas sieht oder hört.",
+      "vocabularyHints": [
+        "der Einbrecher, - — злочинець",
+        "flüchten — тікати",
+        "das Waffengeschäft, -e — збройовий магазин",
+        "die Grossfahndung — масштабні пошуки",
+        "sich auf der Suche befinden — шукати"
+      ],
+      "category": "Polizei",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6682e0.webp",
+      "publishedAt": "2026-07-04T07:49:29.000Z",
+      "processedAt": "2026-07-04T08:25:27.059Z"
+    },
+    {
+      "id": "528f8ee3",
+      "originalTitle": "Ihre Anfragen im Faktencheck – «Grooming Gangs» – das steckt dahinter",
+      "simplifiedText": "In Grossbritannien gibt es eine Schätzung, dass 250'000 Menschen Opfer von Missbrauch wurden. Diese Zahl ist viral gegangen, aber ist sie mehr als eine Schätzung? Die Behörden versuchen, die Hintergründe zu untersuchen. Es gibt viele Fragen, aber auch einige Antworten. Die Polizei und andere Institutionen arbeiten zusammen, um mehr über diese Fälle zu erfahren. Das Wetter ist nicht wichtig, aber die Sicherheit der Menschen schon.",
+      "vocabularyHints": [
+        "das Missbrauchsopfer — жертва зловживання",
+        "die Schätzung — оцінка",
+        "viral gehen — ставати вірусним",
+        "die Hintergründe — підґрунтя",
+        "untersuchen — розслідувати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4ade59.webp",
+      "publishedAt": "2026-07-04T07:59:27.000Z",
+      "processedAt": "2026-07-04T08:25:17.958Z"
+    },
+    {
+      "id": "178ae534",
+      "originalTitle": "Nach Mega-Hochzeit: Taylor Swift soll künftig Kelce heissen",
+      "simplifiedText": "Taylor Swift hat geheiratet. Sie hat am Freitagabend im Madison Square Garden geheiratet. Ihr Mann heisst Kelce. Sie will den Namen Kelce privat annehmen, aber öffentlich heisst sie immer noch Taylor Swift. Sie ist ein Superstar. Die Hochzeit war mega.",
+      "vocabularyHints": [
+        "der Superstar, -s — суперзірка",
+        "annehmen — приймати",
+        "privat — приватний",
+        "öffentlich — публічний"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/02/7ee278a6-2e47-4a1f-b67f-b665557f0ca9.jpg?s=d995943ce4f5151906379c2abbc92fc7",
+      "publishedAt": "2026-07-04T08:07:58.000Z",
+      "processedAt": "2026-07-04T08:25:09.455Z"
+    },
+    {
+      "id": "6bdb81c8",
+      "originalTitle": "Krieg in der Ukraine – Selenski: Ukraine trifft russische Ölanlagen bei St. Petersburg",
+      "simplifiedText": "Der Gouverneur von einem Gebiet in Russland sagte, dass 67 feindliche Drohnen abgeschossen worden seien. Diese Drohnen kamen aus der Ukraine. Der Krieg in der Ukraine dauert schon lange an. Die Menschen in der Ukraine müssen jeden Tag arbeiten und einkaufen. Das Wetter ist im Moment sehr kalt. Die Ukraine trifft russische Ölanlagen. Der Präsident der Ukraine, Selenski, sagte, dass sie diese Angriffe machen.",
+      "vocabularyHints": [
+        "das Umland — околиця",
+        "feindlich — ворожій",
+        "abschießen — збивати",
+        "dauern — тривати"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/242442.webp",
+      "publishedAt": "2026-07-04T08:09:45.000Z",
+      "processedAt": "2026-07-04T08:25:00.383Z"
+    },
     {
       "id": "279d4a33",
       "originalTitle": "Wie fandest du den Auftritt der Nati? Bewerte das Team",
@@ -491,948 +954,489 @@
       "imageUrl": "https://image.20min.ch/2026/07/03/a023f295-cef2-4e38-86b3-d262fb44fc9a.jpg?s=c3f0f64322b29916f0ec4420b7f2c68e",
       "publishedAt": "2026-07-03T05:06:11.000Z",
       "processedAt": "2026-07-03T08:54:02.469Z"
-    },
-    {
-      "id": "3c696a0e",
-      "originalTitle": "Krieg in der Ukraine – Nach Grossangriff auf Kiew: Zahl der Todesopfer steigt auf 30",
-      "simplifiedText": "In der Ukraine gibt es viele Tote. Gestern hat es in Kiew einen grossen Angriff gegeben. Die Menschen in der Stadt haben Angst. Sie gehen nicht mehr so oft einkaufen wie früher. Die Arbeit ist auch schwierig, weil das Wetter schlecht ist und es oft regnet. Die Regierung will helfen, aber es ist nicht einfach.",
-      "vocabularyHints": [
-        "die Angriffswelle — хвиля нападу",
-        "fordern — вимагати",
-        "Todesopfer — жертви смерті",
-        "die Hauptstadt — столиця",
-        "sich ausbreiten — поширюватись"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4b1f2e.webp",
-      "publishedAt": "2026-07-03T05:08:56.000Z",
-      "processedAt": "2026-07-03T08:53:53.653Z"
-    },
-    {
-      "id": "62d65ea2",
-      "originalTitle": "Capri-Sonne und Visum-Theater – nach 2:0-Sieg scherzt Embolo",
-      "simplifiedText": "Breel Embolo und Johan Manzambi feiern den Achtelfinal-Einzug. Embolo bedankt sich bei den Fans in der Schweiz und im Stadion. Die Fans sind sehr zufrieden mit dem 2:0-Sieg. Das Wetter ist heute sehr gut, aber morgen könnte es regnen. Embolo geht gerne einkaufen und trinkt gerne ein Glas Saft wie Capri-Sonne.",
-      "vocabularyHints": [
-        "der Achtelfinal-Einzug — вихід до 1/8 фіналу",
-        "sich bedanken — висловлювати подяку",
-        "zufrieden — задоволений",
-        "das Glas, -er — склянка"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/59373120-632c-4cf3-bc0e-d15865173876.png?s=d5870f961fe221c8b419dd5e24234075",
-      "publishedAt": "2026-07-03T05:25:20.000Z",
-      "processedAt": "2026-07-03T08:53:45.120Z"
-    },
-    {
-      "id": "7d0b88b2",
-      "originalTitle": "Medien berichten: Deutschland-Trainer Nagelsmann tritt zurück",
-      "simplifiedText": "Der Trainer von Deutschland, Nagelsmann, soll zurücktreten. Viele Spieler waren unzufrieden. Die Weltmeisterschaft war ein grosser Misserfolg. Deshalb soll jetzt Schluss sein mit Nagelsmann. Er wird nicht mehr Trainer sein. Die Spieler oder der Verband wollen einen Wechsel.",
-      "vocabularyHints": [
-        "das Debakel — фіаско",
-        "unzufrieden — незадоволений",
-        "der Verband — асоціація",
-        "der Misserfolg — невдача",
-        "zurücktreten — піти у відставку"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/3a10a1af-06d6-4806-bc9b-45a601cdaec7.jpg?s=ef4b3d8900a404c18b4c43ccb7c2b516",
-      "publishedAt": "2026-07-03T05:27:06.000Z",
-      "processedAt": "2026-07-03T08:53:35.683Z"
-    },
-    {
-      "id": "740b1033",
-      "originalTitle": "– Wie mit neuem Job Tausende Franken bei der Rente verloren gehen",
-      "simplifiedText": "Wer im Jahr die Stelle wechselt, riskiert grosse Einbussen in der Pensionskasse. Das kann passieren, wenn man den neuen Job mitten im Jahr anfängt. Die Pensionskasse ist wichtig für die Rente. Wenn man die Stelle wechselt, sollte man sich um die Pensionskasse kümmern. Man sollte prüfen, ob die neue Pensionskasse genauso gut ist wie die alte. Oder man sollte sich bei der alten Pensionskasse informieren, was passiert, wenn man die Stelle verlässt. Denn wenn man nichts tut, kann man Tausende Franken bei der Rente verlieren.",
-      "vocabularyHints": [
-        "die Pensionskasse, -n — пенсійний фонд",
-        "die Einbussen — втрати",
-        "sich kümmern — турбуватися",
-        "prüfen — перевіряти",
-        "verlieren — втрачати"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/dcfa8d1.webp",
-      "publishedAt": "2026-07-03T05:39:08.000Z",
-      "processedAt": "2026-07-03T08:53:26.905Z"
-    },
-    {
-      "id": "53b32db4",
-      "originalTitle": "Teurer Stellenwechsel – Wie mit neuem Job Tausende Franken bei der Rente verloren gehen",
-      "simplifiedText": "Wer die Stelle wechselt, riskiert Einbussen in der Pensionskasse. Das kann passieren, wenn man mitten im Jahr den Job ändert. Die Pensionskasse ist wichtig für die Rente. Wenn man die Stelle wechselt, muss man aufpassen, dass man nicht Geld verliert. Man sollte sich vorher informieren, um keine bösen Überraschungen zu erleben. Die Pensionskasse ist ein wichtiger Teil der Schweizer Altersvorsorge.",
-      "vocabularyHints": [
-        "die Pensionskasse, -n — пенсійний фонд",
-        "die Einbussen — втрати",
-        "die Altersvorsorge — забезпечення старості",
-        "der Stellenwechsel — зміна роботи",
-        "die Rente, -n — пенсія"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/dcfa8d1.webp",
-      "publishedAt": "2026-07-03T05:39:08.000Z",
-      "processedAt": "2026-07-03T08:53:18.714Z"
-    },
-    {
-      "id": "1fbf0be7",
-      "originalTitle": "WM-Programm in der Übersicht – Messi in Miami: Das läuft am Freitag und in der Nacht auf Samstag",
-      "simplifiedText": "Die Fussball-WM ist in vollem Gange. Morgen spielt Argentinien gegen Australien. Ich hoffe, dass Argentinien gewinnt, denn Lionel Messi ist mein Lieblingsspieler. Das Wetter in Katar ist sehr heiss, aber die Spieler müssen sich an die Bedingungen anpassen. Nach dem Spiel gehe ich einkaufen oder schaue Fussball.",
-      "vocabularyHints": [
-        "die Bedingungen — умови",
-        "anpassen — пристосовувати",
-        "Schwergewichte — важковаговики",
-        "in vollem Gange — у повному розпалі",
-        "einkaufen — робити покупки"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf14fb.webp",
-      "publishedAt": "2026-07-03T05:57:06.000Z",
-      "processedAt": "2026-07-03T08:53:10.151Z"
-    },
-    {
-      "id": "45067d68",
-      "originalTitle": "Psychisch kranke Junge – Der Weg aus der IV zurück ins Berufsleben",
-      "simplifiedText": "Ein junger Mann war psychisch krank und bezog eine IV-Rente. Er wollte aber wieder arbeiten gehen. Der Weg zurück ins Berufsleben war schwierig. Er musste zum Arzt gehen und ein Therapieplan erstellen. Dann konnte er langsam wieder arbeiten. Er begann mit kleinen Schritten und machte regelmässig Pausen. Die Arbeit machte ihm Spass und er fühlte sich besser.",
-      "vocabularyHints": [
-        "die IV-Rente — допомога по інвалідності",
-        "psychisch krank — психічно хворий",
-        "der Therapieplan — план терапії",
-        "regelmässig — регулярно",
-        "sich besser fühlen — почувати себе краще"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8d4e7d.webp",
-      "publishedAt": "2026-07-03T06:03:50.000Z",
-      "processedAt": "2026-07-03T08:53:02.022Z"
-    },
-    {
-      "id": "737fea31",
-      "originalTitle": "Nati-Noten: Zwei glänzen – Petkovic-Plan gegen Xhaka erfolglos",
-      "simplifiedText": "Die Schweizer Nationalmannschaft steht im WM-Achtelfinal. Sie hat gegen Algerien gewonnen. Trainer Murat Yakins Plan mit dem neuen Rechtsverteidiger Denis Zakaria hat funktioniert. Die Mannschaft hat gut gespielt und wird jetzt gegen einen starken Gegner antreten. Das Wetter ist gut, aber die Spieler müssen sich auf den nächsten Gegner vorbereiten. Sie wollen erfolgreich sein und weiterkommen.",
-      "vocabularyHints": [
-        "der Achterfinal — восьмий фінал",
-        "glücken — вдаватися",
-        "der Rechtsverteidiger — правий захисник",
-        "der Plan — план дій",
-        "der Gegner — суперник"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/fdd841d7-bcba-40f0-ad2f-bc0f3ea77388.jpg?s=5d2755e4882cb7e0c917cce8b35f2764",
-      "publishedAt": "2026-07-03T06:21:30.000Z",
-      "processedAt": "2026-07-03T08:52:53.416Z"
-    },
-    {
-      "id": "099885f1",
-      "originalTitle": "Nach WM-Out gegen Paraguay – Laut Medienberichten: Nagelsmann tritt als Bundestrainer zurück",
-      "simplifiedText": "Der Trainer des DFB nimmt nach dem Out im WM-Sechzehntelfinal gegen Paraguay den Hut. Er tritt als Bundestrainer zurück. Das ist laut übereinstimmenden Medienberichten passiert. Der DFB wird einen neuen Trainer suchen. Das Wetter war nicht gut während des Spiels, aber das war nicht der Grund für die Niederlage. Die Spieler waren enttäuscht.",
-      "vocabularyHints": [
-        "der Hut — капелюх",
-        "übereinstimmend — такий, що збігається",
-        "das Out — поразка",
-        "der Bundestrainer — головний тренер національної збірної",
-        "sechzehntelfinal — 1/16 фіналу"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4b9a73.webp",
-      "publishedAt": "2026-07-03T06:30:32.000Z",
-      "processedAt": "2026-07-03T08:52:43.577Z"
-    },
-    {
-      "id": "3812e08d",
-      "originalTitle": "Trump-Provokation? Parmelin bejubelt Natisieg mit Spezial-Cap",
-      "simplifiedText": "Bundespräsident Guy Parmelin war beim Spiel der Schweizer Nati. Er trug eine spezielle Kappe und sass neben einem bekannten Politiker. Der Präsident unterstützte die Mannschaft bei ihrem Einzug in den WM-Achtelfinal. Das Wetter war gut, aber die Spannung war noch grösser. Parmelin freute sich über den Erfolg und kaufte vielleicht sogar ein paar Fanartikel im Stadion. Er ist ein grosser Fan und war deshalb bei diesem wichtigen Spiel dabei.",
-      "vocabularyHints": [
-        "der Achterfinal — стадія плей-офф, що складається з восьми команд",
-        "sich einziehen — пробиватися до наступного раунду",
-        "der Edelfan — шанувальник високого рівня",
-        "bejubeln — радіти з якогось приводу",
-        "der Sitznachbar — сусід по місцю"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/314eb6a2-f813-4351-8640-f7ece90839db.png?s=3cdf11f81ea0a4f96965059d08ae61da",
-      "publishedAt": "2026-07-03T06:30:59.000Z",
-      "processedAt": "2026-07-03T08:52:35.230Z"
-    },
-    {
-      "id": "64ea73ea",
-      "originalTitle": "Stillstand auf der Autobahn – Staustunden ohne Ende – so steht es um den Schweizer Verkehr",
-      "simplifiedText": "Die Autobahnen in der Schweiz sind oft voll. Es gibt immer mehr Staus, besonders während der Rushhour. Die Strassen sind nicht mehr so leer wie früher, denn viele Leute müssen zur Arbeit pendeln. Das Wetter spielt auch eine Rolle, aber die Hauptursache ist, dass es einfach zu viele Autos gibt. Die Regierung versucht, Lösungen zu finden, aber es ist schwierig. Die Schweizer Bevölkerung wächst und somit auch die Anzahl der Fahrzeuge.",
-      "vocabularyHints": [
-        "die Rushhour — година пік",
-        "pendeln — здійснювати маятникові міграції",
-        "die Kapazitätsgrenzen — межі потужності",
-        "das Pendeln — маятникова міграція",
-        "die Hauptursache — основна причина"
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/424a9d.webp",
-      "publishedAt": "2026-07-03T06:46:41.000Z",
-      "processedAt": "2026-07-03T08:52:26.579Z"
-    },
-    {
-      "id": "499498ee",
-      "originalTitle": "– WM-Achtelfinal kann kommen: Die Nati schlägt auch Algerien",
-      "simplifiedText": "Die Schweiz besiegt Algerien im WM-Sechzehntelfinal. Das Team übersteht erstmals seit 1938 eine WM-K.o.-Runde. Die Spieler sind sehr zufrieden mit dem Erfolg. Sie können jetzt im WM-Achtelfinal spielen. Das ist ein grosser Erfolg für die Schweiz. Die Mannschaft hat gut gespielt und Algerien besiegt.",
-      "vocabularyHints": [
-        "der WM-Sechzehntelfinal — 1/16 фіналу чемпіонату світу",
-        "überstehen — витримати",
-        "der Erfolg — успіх",
-        "zufrieden — задоволений",
-        "die Mannschaft — команда"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5ff76c.webp",
-      "publishedAt": "2026-07-03T06:57:27.000Z",
-      "processedAt": "2026-07-03T08:52:17.888Z"
-    },
-    {
-      "id": "58d133fe",
-      "originalTitle": "WM 2026: 1/16-Final SUI-ALG – WM-Achtelfinal kann kommen: Die Nati schlägt auch Algerien",
-      "simplifiedText": "Die Schweiz besiegt Algerien im WM-Sechzehntelfinal. Das Team übersteht erstmals seit 1938 eine WM-K.o.-Runde. Der Sieg ist wichtig für die Schweiz. Die Spieler sind sehr zufrieden. Sie können jetzt auf den nächsten Gegner treffen. Die Schweiz spielt gut und verdient den Sieg. Der Wetterbericht sagt, dass es morgen regnen wird.",
-      "vocabularyHints": [
-        "der Sechzehntelfinal — 1/16 фіналу",
-        "überstehen — витримати",
-        "der K.o.-Runde — раунд на вибування",
-        "der Gegner — суперник",
-        "verdienen — заслуговувати"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5ff76c.webp",
-      "publishedAt": "2026-07-03T06:57:27.000Z",
-      "processedAt": "2026-07-03T08:52:09.231Z"
-    },
-    {
-      "id": "0355570c",
-      "originalTitle": "Bodenroboter – Wie ukrainische Start-ups den Krieg automatisieren",
-      "simplifiedText": "Die Ukraine entwickelt autonome Waffensysteme. Ein Start-up arbeitet an neuen Bodenrobotern. Diese Roboter sollen in Zukunft wichtige Aufgaben übernehmen. Sie werden für die Sicherheit des Landes benötigt. Das Wetter kann ihre Arbeit erschweren. Die Entwickler arbeiten täglich an Verbesserungen, damit die Roboter bald eingesetzt werden können.",
-      "vocabularyHints": [
-        "autonome Waffensysteme — системи озброєння з автономним управлінням",
-        "Bodenroboter — наземні роботи",
-        "Sicherheit des Landes — безпека країни",
-        "Waffensysteme — системи озброєння",
-        "entwickeln — розробляти"
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/799005.webp",
-      "publishedAt": "2026-07-03T07:01:22.000Z",
-      "processedAt": "2026-07-03T08:52:00.959Z"
-    },
-    {
-      "id": "057d834c",
-      "originalTitle": "Bundesrat im WM-Fieber – Guy Parmelin sorgt mit roter Kappe für Aufsehen",
-      "simplifiedText": "Der Bundespräsident verfolgte das WM-Sechzehntelfinal der Schweiz gegen Algerien im Stadion in Vancouver. Er trug eine rote Kappe und zeigte damit seine Unterstützung für das Schweizer Team. Das Wetter in Vancouver war gut, ideal für das Spiel. Der Bundespräsident ist ein wichtiger Mann in der Schweiz, aber heute war er nur ein Fan. Er kaufte sogar ein T-Shirt für das Spiel. Die Schweizer spielten gut, aber am Ende war es knapp.",
-      "vocabularyHints": [
-        "der Bundespräsident — президент країни",
-        "das Sechzehntelfinal — 1/16 фіналу",
-        "das Stadion — стадіон",
-        "das T-Shirt — футболка",
-        "unterstützen — підтримувати"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e19712.webp",
-      "publishedAt": "2026-07-03T07:11:47.000Z",
-      "processedAt": "2026-07-03T08:51:52.577Z"
-    },
-    {
-      "id": "5484aca8",
-      "originalTitle": "Stimmen zum Achtelfinal-Einzug – Nati-Erfolgsrezept: Ehrlichkeit und Tore zum richtigen Zeitpunkt",
-      "simplifiedText": "Die Schweizer Fussballnationalmannschaft hat 2:0 gegen Algerien gewonnen. Die Freude war gross. Der Sieg war wichtig für die Weiterfahrt. Die Mannschaft hat gut gespielt und Tore gemacht. Das Wetter war gut für das Spiel. Die Fans waren zufrieden.",
-      "vocabularyHints": [
-        "die Weiterfahrt — продовження шляху",
-        "das Lager — табір",
-        "die Erleichterung — полегшення"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c185d6.webp",
-      "publishedAt": "2026-07-03T07:17:59.000Z",
-      "processedAt": "2026-07-03T08:51:44.111Z"
-    },
-    {
-      "id": "52697ab8",
-      "originalTitle": "Deutscher Bundespräsident – Frank-Walter Steinmeier besucht die Schweiz – mit dem Velo",
-      "simplifiedText": "Der deutsche Bundespräsident Frank-Walter Steinmeier besucht die Schweiz. Er war in Lörrach und machte einen Abstecher nach Riehen bei Basel. Das Wetter war gut, deshalb fuhr er mit dem Velo. Er wollte die schöne Landschaft sehen. Steinmeier muss oft reisen, aber er geniesst die Ruhe in der Schweiz. Er kaufte auch ein paar Schweizer Spezialitäten in einem Laden.",
-      "vocabularyHints": [
-        "der Abstecher — коротка поїздка",
-        "das Velo — велосипед",
-        "geniessen — насолоджуватися",
-        "die Spezialitäten — спеціалітети",
-        "die Landschaft — пейзаж"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/046740.webp",
-      "publishedAt": "2026-07-03T07:20:51.000Z",
-      "processedAt": "2026-07-03T08:51:35.477Z"
-    },
-    {
-      "id": "2e4916b8",
-      "originalTitle": "Finanzstabilität – Bankensektor ist gesund und robust – trotzdem warnt die SNB",
-      "simplifiedText": "Die Schweizerische Nationalbank sagt, dass der Bankensektor in der Schweiz grundsätzlich stabil ist. Es gibt aber mögliche Gefahren im Ausland. Die Nationalbank warnt trotzdem. Das Wetter ist heute schön, aber morgen kommt Regen. Ich gehe jeden Tag zur Arbeit und manchmal zum Einkaufen. Die Arbeit ist wichtig für mich.",
-      "vocabularyHints": [
-        "die Nationalbank — Національний банк",
-        "grundsätzlich — принципово",
-        "mögliche Gefahren — можливі небезпеки",
-        "warnt — попереджає",
-        "SRF-Wirtschaftsredaktor — економічний редактор SRF"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d0fd92.webp",
-      "publishedAt": "2026-07-03T07:34:02.000Z",
-      "processedAt": "2026-07-03T08:51:26.784Z"
-    },
-    {
-      "id": "53754f2d",
-      "originalTitle": "Krieg im Nahen Osten – Iran empfängt ausländische Gäste zu Trauerfeier für Chamenei",
-      "simplifiedText": "Gestern sind Gäste aus verschiedenen Ländern in Teheran angekommen. Sie wollen an der Trauerfeier für Chamenei teilnehmen. Der war ein wichtiger Mann in Iran. Die Gäste kommen aus China, Belarus, dem Irak und Turkmenistan. Das Wetter in Teheran ist heute sehr heiß, aber die Gäste sind trotzdem gekommen. Sie werden den Tag mit Gesprächen und einer Feier verbringen.",
-      "vocabularyHints": [
-        "die Trauerfeier, -en — заходи скорботи",
-        "teilnehmen — брати участь",
-        "das Wetter — погода",
-        "gelandet — прибути",
-        "die Gespräche — переговори"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7f120d.webp",
-      "publishedAt": "2026-07-03T07:41:25.000Z",
-      "processedAt": "2026-07-03T08:51:17.760Z"
-    },
-    {
-      "id": "27041c46",
-      "originalTitle": "«Confessions II» von Madonna – Das Comeback der Queen of Pop steht auf wackeligen Beinen",
-      "simplifiedText": "Madonna will mit ihrem neuen Album 'Confessions II' ein Comeback feiern. Sie war jahrelang nicht mehr auf Tournee. Das Wetter ist momentan nicht gut, aber ich muss zum Einkaufen gehen. Ich arbeite viel und habe wenig Zeit für Freizeit. Ich möchte aber Musik hören und tanzen. Madonna ist die Queen of Pop und hat viele Fans.",
-      "vocabularyHints": [
-        "das Comeback — повернення на сцену",
-        "wackelig — хиткий",
-        "der Thron — трон",
-        "gelingen — вдаватися"
-      ],
-      "category": "Kultur",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d6c5c65.webp",
-      "publishedAt": "2026-07-03T07:51:51.000Z",
-      "processedAt": "2026-07-03T08:51:09.148Z"
-    },
-    {
-      "id": "59a8fcce",
-      "originalTitle": "Schweizer Pensionskassen – Rekordhohe Verzinsung von Altersguthaben",
-      "simplifiedText": "Die Pensionskassen in der Schweiz haben letztes Jahr sehr gut abgeschnitten. Sie konnten eine rekordhohe Verzinsung von den Altersguthaben erzielen. Das ist wichtig für die Zukunft der Rentner. Eine gute Anlagestrategie ist entscheidend für den Erfolg. Die Pensionskassen müssen deshalb sorgfältig planen. Sie müssen auch auf die Entwicklung der Wirtschaft achten. Die Schweizer Pensionskassen sind ein wichtiger Teil des sozialen Systems.",
-      "vocabularyHints": [
-        "die Pensionskasse, -n — пенсійний фонд",
-        "die Anlagestrategie, -n — інвестиційна стратегія",
-        "das Altersguthaben, - — пенсійні заощадження",
-        "die Verzinsung, -en — відсотки",
-        "die Rentner, - — пенсіонери",
-        "die Entwicklung, -en — розвиток"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d03385.webp",
-      "publishedAt": "2026-07-03T08:07:38.000Z",
-      "processedAt": "2026-07-03T08:51:00.696Z"
-    },
-    {
-      "id": "4811d4cb",
-      "originalTitle": "Untersuchung veröffentlicht – Tierschutzfall Ramiswil SO: Einschläfern aller Hunde war unnötig",
-      "simplifiedText": "Der Kanton Solothurn untersucht den Fall Ramiswil. Das Veterinäramt bekommt eine mittelmässige Bewertung. Die Hunde in Ramiswil mussten eingeschläfert werden. Aber war das wirklich nötig? Der Tierschutzverein ist damit nicht einverstanden. Die Untersuchung bringt neue Erkenntnisse. Die Bevölkerung ist über den Fall sehr beunruhigt.",
-      "vocabularyHints": [
-        "das Veterinäramt — ветеринарна служба",
-        "durchzogene Bewertung — неоднозначна оцінка",
-        "einschläfern — евтаназувати",
-        "der Tierschutzverein — організація захисту тварин",
-        "beunruhigt — стурбований"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d4ee78.webp",
-      "publishedAt": "2026-07-03T08:08:09.000Z",
-      "processedAt": "2026-07-03T08:50:51.551Z"
-    },
-    {
-      "id": "7cd37d5b",
-      "originalTitle": "Swift und Kelce heiraten: Diese Stars waren beim Probeessen dabei",
-      "simplifiedText": "Taylor Swift und Travis Kelce heiraten am Wochenende in New York. Sie haben bereits ein Probeessen am Donnerstag gemacht. Viele Stars waren dabei, zum Beispiel Gigi Hadid und Bradley Cooper. Das Wetter war bestimmt gut, denn alle konnten draussen essen. Taylor Swift und Travis Kelce sind bestimmt aufgeregt, aber sie freuen sich auf ihre Hochzeit. Sie werden sicher viel Spass haben.",
-      "vocabularyHints": [
-        "das Probeessen, - — пробне харчування",
-        "der Staraufmarsch, -e — зірковий парад",
-        "das Jawort geben — давати згоду",
-        "die NFL-Grösse, -n — розмір НФЛ",
-        "das Wochenende, -n — вихідні дні"
-      ],
-      "category": "Kultur",
-      "imageUrl": "https://image.20min.ch/2026/07/03/71e20e7e-24a7-4c68-bcdf-32f36d5f6898.jpg?s=a805838b699b28917eb651017172ad00",
-      "publishedAt": "2026-07-03T08:12:13.000Z",
-      "processedAt": "2026-07-03T08:50:41.879Z"
-    },
-    {
-      "id": "3ba7e398",
-      "originalTitle": "«Schaffen ist für niemanden»: Nati-Fans feiern ihre Helden",
-      "simplifiedText": "Die Schweizer Fussballfans feiern ihre Helden. Sie stehen früh auf, um das Spiel zu sehen. Einige gehen weiter feiern, andere gehen ins Bett oder in die Schule. Sie sind optimistisch für das Turnier. Sie sprechen vom Titel des Weltmeisters.",
-      "vocabularyHints": [
-        "der Titel, - — назва",
-        "optimistisch — оптимістично",
-        "feiern — святкувати",
-        "der Weltmeister — чемпіон світу",
-        "das Turnier, -e — турнір"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/29a71110-b953-4b37-ac45-4b6f28573eab.jpg?s=b5217cf10a5ef4518fabc7becea78f98",
-      "publishedAt": "2026-07-03T08:12:54.000Z",
-      "processedAt": "2026-07-03T08:50:33.626Z"
-    },
-    {
-      "id": "3e1ab200",
-      "originalTitle": "Er stürzte im August schwer – Froome verkündet Rücktritt",
-      "simplifiedText": "Der Radfahrer hatte einen schweren Unfall im August. Deshalb kann er nicht mehr Rad fahren. Er war viermal Sieger der Tour de France. Jetzt hört er endgültig auf. Er wird nicht mehr als Profi Rad fahren. Das Wetter ist auch nicht gut für ihn, um Rad zu fahren. Er geht lieber einkaufen oder arbeitet.",
-      "vocabularyHints": [
-        "der Unfall, -fälle — аварія",
-        "vom Profi-Radsport zurücktreten — завершити кар'єру професійного велоспортсмена",
-        "der Sieger, - — переможець",
-        "endgültig — остаточно",
-        "die Tour de France — Тур де Франс"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d1a1458.webp",
-      "publishedAt": "2026-07-03T08:15:24.000Z",
-      "processedAt": "2026-07-03T08:50:25.351Z"
-    },
-    {
-      "id": "0aea5d1d",
-      "originalTitle": "Nach 88-jähriger Durststrecke – so geht es für die Nati weiter",
-      "simplifiedText": "Die Schweiz hat seit 88 Jahren wieder ein wichtiges Spiel in einer WM gewonnen. Jetzt trifft die Schweizer Mannschaft im Achtelfinal auf Ghana oder Kolumbien. Das Spiel findet am 7. Juli um 22 Uhr statt. Die Schweizer Zeit ist wichtig für die Fans. Sie müssen also auf die Uhr schauen. Die Mannschaft ist froh über den Erfolg, aber jetzt kommt ein schwieriges Spiel.",
-      "vocabularyHints": [
-        "die Durststrecke — період невдач",
-        "die Nati — національна збірна",
-        "das K.-o.-Phasen-Spiel — гра на вибування",
-        "der Achtelfinal — матч 1/8 фіналу",
-        "die Schweizer Zeit — швейцарський час"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/3350bd6d-444e-471e-b9bd-9df00f1e2e48.jpg?s=52bce9c2a955e54088def4c62e73bc98",
-      "publishedAt": "2026-07-03T08:33:58.000Z",
-      "processedAt": "2026-07-03T08:50:16.335Z"
-    },
-    {
-      "id": "36f8620a",
-      "originalTitle": "«Leuchtet auf uns herab»: Emotionaler CR7 ehrt verstorbenen Jota",
-      "simplifiedText": "Die Portugiesen spielen im WM-Achtelfinal. Nach dem Spiel ehren sie Diogo Jota. Er war ein guter Fussballspieler und ist vor einem Jahr gestorben. Die Mannschaft trauert um ihn. Sie denken an ihn und seine Familie. Es ist ein trauriger Tag für sie.",
-      "vocabularyHints": [
-        "das Achtelfinal — 1/8 фіналу",
-        "einen Spieler ehren — вшановувати гравця",
-        "der Flügelspieler — гравець на фланзі",
-        "trauern — сумувати"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/52533081-2802-49a6-9f5f-cc1e84c8ef2f.jpg?s=df84ac8c372ed93af8372ef299b67edd",
-      "publishedAt": "2026-07-03T08:43:21.000Z",
-      "processedAt": "2026-07-03T08:50:05.792Z"
-    },
-    {
-      "id": "1fb0ba38",
-      "originalTitle": "Tour de France 2026 – Eine Besonderheit zum Auftakt und satte sieben Bergankünfte",
-      "simplifiedText": "Die Tour de France beginnt am Samstag in Barcelona. Es ist die 113. Tour. Die Favoriten müssen sich früh zeigen. Das Wetter ist wichtig für die Fahrer. Sie müssen auch viel trainieren oder sich gut ausrüsten. Die Tour ist lang und anstrengend, aber die Fahrer sind gut vorbereitet.",
-      "vocabularyHints": [
-        "die Favoriten — фаворити",
-        "sich zeigen — показуватися",
-        "anstrengend — виснажливий",
-        "sich ausrüsten — екіпіруватися",
-        "die Fahrer — гонщики"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/66cc9e.webp",
-      "publishedAt": "2026-07-03T08:44:44.000Z",
-      "processedAt": "2026-07-03T08:49:55.978Z"
-    },
-    {
-      "id": "1a42ff13",
-      "originalTitle": "«Terminator»-Produzent Moritz Borman ist tot",
-      "simplifiedText": "Moritz Borman ist tot. Er war ein deutscher Filmproduzent. Borman arbeitete mit Oliver Stone und machte zwei Terminator-Filme. Er starb im Alter von 71 Jahren in München. Die Filmwelt trauert um ihn. Er war ein wichtiger Mann in der Filmindustrie.",
-      "vocabularyHints": [
-        "der Produzent, -en — продюсер",
-        "trauern — сумувати",
-        "im Alter von — у віці",
-        "die Filmwelt — світ кіно",
-        "arbeiten an — працювати над"
-      ],
-      "category": "Kultur",
-      "imageUrl": "https://image.20min.ch/2026/07/03/98b1f01d-b6d6-438c-8509-235661268d7a.jpg?s=78e93f457d3a98bbfb280224aa8b25af",
-      "publishedAt": "2026-07-03T08:48:57.000Z",
-      "processedAt": "2026-07-03T08:49:45.787Z"
     }
   ],
   "B1": [
     {
-      "id": "4bfb0055",
-      "originalTitle": "Wie fandest du den Auftritt der Nati? Bewerte das Team",
-      "simplifiedText": "Die Schweizer Nationalmannschaft wollte in den Achtelfinal der Weltmeisterschaft. Sie hat das mit einer überzeugenden Leistung geschafft. Das Team hat gut gespielt. Die Spieler waren sehr motiviert, weil sie ein grosses Ziel erreichen wollten. Wenn sie so weitermachen, können sie noch weiter kommen. Es war ein wichtiger Sieg für die Nati. Die Fans waren sehr zufrieden mit dem Auftritt.",
+      "id": "3610df0f",
+      "originalTitle": "Nach über 150 Jahren – Basler Traditionshaus Schiesser vor dem Aus",
+      "simplifiedText": "Das Traditionshaus Schiesser in Basel steht vor dem Aus. Es ist über 150 Jahre alt. Nach einem vorläufigen Konkurs sind viele Baslerinnen und Basler betroffen, weil sie das Unternehmen sehr schätzen. Der Konkurs ist vorläufig, das bedeutet, dass es noch eine Chance gibt, das Unternehmen zu retten. Wenn es nicht gelingt, das Unternehmen zu retten, werden viele Arbeitsplätze verloren gehen. Es ist nicht klar, ob das Unternehmen in Zukunft weiter bestehen kann. Die Baslerinnen und Basler hoffen, dass es eine Lösung gibt, um Schiesser zu erhalten.",
       "vocabularyHints": [
-        "der Auftritt, -e — виступ",
-        "überzeugend — переконливий",
-        "das Team, -s — команда",
-        "motiviert — мотивований",
-        "das Ziel, -e — мета"
+        "das Traditionshaus, -häuser — будинок із традиціями",
+        "vorläufig — тимчасовий",
+        "betroffen sein — бути зачепленим",
+        "schätzen — цінувати",
+        "der Konkurs, -e — банкрутство"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/de26f4.webp",
+      "publishedAt": "2026-07-03T19:43:31.000Z",
+      "processedAt": "2026-07-04T08:29:38.231Z"
+    },
+    {
+      "id": "01e7da03",
+      "originalTitle": "Wo ist Irene (23)? Polizei bittet um Hinweise",
+      "simplifiedText": "Die 23-jährige Irene Jelmini ist seit Mittwochabend verschwunden. Die Polizei bittet um Hinweise, weil sie besorgt ist. Irene Jelmini wurde zuletzt am Mittwochabend gesehen. Die Polizei veröffentlicht eine Personenbeschreibung, damit die Leute helfen können. Wenn jemand Irene Jelmini sieht, soll er die Polizei informieren. Die Polizei hofft, dass sie Irene Jelmini schnell finden kann.",
+      "vocabularyHints": [
+        "die Personenbeschreibung, -en — опис зовнішності",
+        "verschwunden — зникла",
+        "die Hinweise — підказки",
+        "veröffentlicht — публікує",
+        "besorgt — стурбована"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/03/1761bf46-1fdd-44f9-a4f1-d75896591fe0.jpg?s=c3864f62bc8305ea11d4a26423ce5260",
+      "publishedAt": "2026-07-03T20:33:41.000Z",
+      "processedAt": "2026-07-04T08:29:29.962Z"
+    },
+    {
+      "id": "176c57cf",
+      "originalTitle": "Nach Bob-Rücktritt im März – Sandgrube statt Eiskanal: Hasler wechselt zum Weitsprung",
+      "simplifiedText": "Melanie Hasler will im Weitsprung erfolgreich sein. Sie kommt aus dem Aargau. Hasler hat früher im Bobsport trainiert. Im März hat Bob-Pilot Bob-Rücktritt bekannt gegeben. Jetzt trainiert Hasler für den Weitsprung. Sie möchte es an die Spitze schaffen. Hasler will ihre Fähigkeiten im Sand nutzen, nicht mehr auf der Eisbahn.",
+      "vocabularyHints": [
+        "die Aargauerin — мешканка кантону Аргау",
+        "der Bobsport — бобслей",
+        "die Eisbahn — крижана доріжка",
+        "der Weitsprung — стрибок у довжину",
+        "die Spitze — вершина, найвище місце"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/a023f295-cef2-4e38-86b3-d262fb44fc9a.jpg?s=c3f0f64322b29916f0ec4420b7f2c68e",
-      "publishedAt": "2026-07-03T05:06:11.000Z",
-      "processedAt": "2026-07-03T08:54:05.346Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/fc7e61.webp",
+      "publishedAt": "2026-07-03T21:21:14.000Z",
+      "processedAt": "2026-07-04T08:29:21.467Z"
     },
     {
-      "id": "13839b6c",
-      "originalTitle": "Krieg in der Ukraine – Nach Grossangriff auf Kiew: Zahl der Todesopfer steigt auf 30",
-      "simplifiedText": "In der Ukraine gibt es weitere Todesopfer durch den russischen Angriff. Die Zahl der Toten in Kiew stieg auf 30. Es gab eine grosse Angriffswelle von Donnerstag. Die Menschen in der Ukraine leben in Angst, weil sie nicht wissen, was passiert. Die Regierung in Kiew versucht, die Bevölkerung zu schützen. Die internationale Gemeinschaft verurteilt den Angriff. Wenn die Kämpfe weitergehen, könnte die Situation noch schlimmer werden.",
+      "id": "2d42f0fd",
+      "originalTitle": "Hochzeit in New York City – Taylor Swift und Travis Kelce haben geheiratet",
+      "simplifiedText": "Die Popstar Taylor Swift hat den NFL-Star Travis Kelce geheiratet. Die Hochzeit fand im Madison Square Garden in Manhattan statt. Es war eine Überraschung für alle, dass die beiden so schnell geheiratet haben. Wenn man bedenkt, dass sie erst seit kurzem zusammen sind, ist es umso überraschender. Obwohl es viele Gerüchte über die Beziehung gab, haben sie nie bestätigt, dass sie zusammen sind. Es ist möglich, dass sie es vor der Hochzeit nicht öffentlich machen wollten. Sie hätten es vielleicht sogar noch länger geheim gehalten, wenn nicht einige Gäste Fotos gemacht hätten.",
       "vocabularyHints": [
-        "die Angriffswelle, -n — хвиля нападу",
-        "das Todesopfer, - — жертва смерті",
-        "die Hauptstadt, -en — столиця",
-        "sich ausbreiten — поширюватись",
-        "die Gemeinschaft, -en — спільнота"
+        "die Überraschung, -en — несподіванка",
+        "der NFL-Star, -s — зірок НФЛ",
+        "die Beziehung, -en — стосунки",
+        "geheim halten — зберігати в таємниці",
+        "die Gäste, - — гості"
       ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4b1f2e.webp",
-      "publishedAt": "2026-07-03T05:08:56.000Z",
-      "processedAt": "2026-07-03T08:53:56.607Z"
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4d5be2.webp",
+      "publishedAt": "2026-07-04T00:45:26.000Z",
+      "processedAt": "2026-07-04T08:29:13.281Z"
     },
     {
-      "id": "03854a00",
-      "originalTitle": "Capri-Sonne und Visum-Theater – nach 2:0-Sieg scherzt Embolo",
-      "simplifiedText": "Die Schweizer Fussballmannschaft hat 2:0 gewonnen und ist jetzt im Achtelfinale. Breel Embolo und Johan Manzambi haben sich gefreut. Embolo bedankt sich bei den Fans in der Schweiz und im Stadion. Er freut sich über die Unterstützung. Die Mannschaft hat gut gespielt. Embolo hofft, dass die Fans weiterhin hinter ihnen stehen. Der Sieg war wichtig für den Einzug in die nächste Runde.",
+      "id": "49a38abb",
+      "originalTitle": "– Australiens Goalietrick geht schief: Ägypten im Achtelfinal",
+      "simplifiedText": "Ägypten ist zum ersten Mal in seiner Geschichte über ein K.o.-Spiel bei einer WM hinausgekommen. Der Erfolg wurde im Penaltyschiessen entschieden. Australien hatte gehofft, mit einem Trick den Torhüter von Ägypten zu überraschen, aber es ging nicht auf. Ägypten spielt jetzt im Achtelfinal. Die Australier sind ausgeschieden, obwohl sie in der regulären Spielzeit stark gespielt haben. Es war ein spannendes Spiel, weil beide Teams gute Chancen hatten. Letztendlich war es ein Glücksspiel, das Ägypten für sich entschied.",
       "vocabularyHints": [
-        "der Achtelfinal, -e — восьмий фінал",
-        "sich bedanken — висловлювати подяку",
-        "die Unterstützung — підтримка",
-        "der Einzug, -e — вступ",
-        "das Visum-Theater — віза-шоу"
+        "das Achtelfinale — 1/8 фіналу",
+        "der Torhüter — воротар",
+        "das Penaltyschiessen — серія пенальті",
+        "sich entscheiden — вирішуватися",
+        "der Erfolg — успіх"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/59373120-632c-4cf3-bc0e-d15865173876.png?s=d5870f961fe221c8b419dd5e24234075",
-      "publishedAt": "2026-07-03T05:25:20.000Z",
-      "processedAt": "2026-07-03T08:53:48.016Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/603104.webp",
+      "publishedAt": "2026-07-04T00:55:31.000Z",
+      "processedAt": "2026-07-04T08:29:04.922Z"
     },
     {
-      "id": "0dc5f6ec",
-      "originalTitle": "Medien berichten: Deutschland-Trainer Nagelsmann tritt zurück",
-      "simplifiedText": "Der Trainer von Deutschland, Julian Nagelsmann, soll zurücktreten. Viele Spieler waren unzufrieden und die Weltmeisterschaft war ein grosser Misserfolg. Es heisst, dass Nagelsmann nicht mehr Trainer sein wird. Die Spieler sollen Probleme gehabt haben, weil Nagelsmann ihre Erwartungen nicht erfüllte. Wenn die Berichte stimmen, dann ist Nagelsmanns Zeit als Trainer vorbei. Obwohl es keine offizielle Bestätigung gibt, soll Nagelsmann bereits einen Nachfolger suchen. Die Fans sind schockiert, dass Nagelsmann geht.",
+      "id": "780badcb",
+      "originalTitle": "– Kap Verde verpasst die Sensation gegen Argentinien nur knapp",
+      "simplifiedText": "Kap Verde hat gegen Argentinien im WM-Sechzehntelfinal 2:3 nach Verlängerung verloren. Die Mannschaft kämpfte hart, aber es reichte nicht. Kap Verde wollte die Sensation schaffen, weil sie gegen einen starken Gegner spielten. Obwohl sie sich gut vorbereiteten, konnten sie nicht gewinnen. Wenn sie besser spielten, hätten sie vielleicht gewonnen. Der Trainer war stolz auf seine Spieler, dass sie so gut kämpften. Die Fans unterstützten ihre Mannschaft sehr.",
       "vocabularyHints": [
-        "der Misserfolg — невдача",
-        "unzufrieden — незадоволений",
+        "der WM-Sechzehntelfinal — 1/16 фіналу чемпіонату світу",
+        "hartem Kampf — впертої боротьби",
+        "nach Verlängerung — після додаткового часу",
+        "die Sensation — сенсація",
+        "sich gut vorbereiten — добре підготуватися"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/768d7d.webp",
+      "publishedAt": "2026-07-04T01:09:03.000Z",
+      "processedAt": "2026-07-04T08:28:55.920Z"
+    },
+    {
+      "id": "6a32ff65",
+      "originalTitle": "WM 2026: 1/16-Final ARG-CPV – Kap Verde verpasst die Sensation gegen Argentinien nur knapp",
+      "simplifiedText": "Kap Verde hat gegen Argentinien im WM-Sechzehntelfinal mit 2:3 nach Verlängerung verloren. Die Mannschaft aus Kap Verde kämpfte hart, aber es reichte nicht. Sie wollten eine Sensation schaffen, weil sie eine gute Chance hatten. Wenn sie mehr Glück gehabt hätten, wäre vielleicht ein anderes Ergebnis herausgekommen. Obwohl sie stark spielten, konnten sie die Argentinier nicht besiegen. Der Sieg für Argentinien war wichtig, dass sie weiterkommen konnten. Kap Verde zeigte eine gute Leistung, aber es war nicht genug.",
+      "vocabularyHints": [
+        "der WM-Sechzehntelfinal — 1/8 фіналу чемпіонату світу",
+        "hartem Kampf — впертої боротьби",
+        "nach Verlängerung — після додаткового часу",
+        "eine Sensation schaffen — створити сенсацію",
+        "die Argentinier — аргентинці"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/768d7d.webp",
+      "publishedAt": "2026-07-04T01:09:03.000Z",
+      "processedAt": "2026-07-04T08:28:46.404Z"
+    },
+    {
+      "id": "6c68dc70",
+      "originalTitle": "Seemannsköpfler ist der Badi-Sprung des Sommers – und gefährlich",
+      "simplifiedText": "Wer einen Kopfsprung oder Seemannsköpfler macht, riskiert schwere Verletzungen, wenn er die Wassertiefe falsch einschätzt oder in unbekannte Gewässer springt. Experten sagen, dass solche Sprünge gefährlich sein können. Besonders wichtig ist es, die Tiefe des Wassers richtig zu schätzen. Wenn man falsch schätzt, kann man sich schwer verletzen. Es ist auch wichtig, nur in Gewässer zu springen, die man kennt. Sonst kann man sogar eine Querschnittslähmung bekommen. Der Seemannsköpfler ist ein beliebter Sprung im Sommer.",
+      "vocabularyHints": [
+        "der Seemannsköpfler — стрибок головою вперед",
+        "die Wassertiefe — глибина води",
+        "schwere Verletzungen — важкі травми",
+        "die Querschnittslähmung — поперековий параліч",
+        "einschätzen — оцінювати"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/03/2ff9c4b6-6b47-413b-b0b5-849d94e18f63.jpg?s=72718e1a1e27bd183bf1b79030a750b2",
+      "publishedAt": "2026-07-04T02:40:30.000Z",
+      "processedAt": "2026-07-04T08:28:36.810Z"
+    },
+    {
+      "id": "1c420ce2",
+      "originalTitle": "«Natürlich blond»-Prequel: Fashion-Ikone Elle Woods ist zurück",
+      "simplifiedText": "Am 1. Juli kam die Serie «Elle» auf Amazon Prime. Die Show ist das Prequel zum Kultfilm «Natürlich blond». Sie zeigt die Geschichte von Elle Woods vor ihrem Studium an der Harvard Universität. Die Schauspielerin Reese Witherspoon war als ausführende Produzentin beteiligt. Sie war auch im Film «Natürlich blond» zu sehen. Die Serie erzählt, wie Elle Woods zu der Person wurde, die sie später in Harvard war. Es ist interessant zu sehen, wie sie sich entwickelt hat. Obwohl es ein Prequel ist, kann man die Serie auch allein schauen.",
+      "vocabularyHints": [
+        "die Serie, -n — серія",
+        "das Prequel, -s — приквел",
+        "fungierte — виконував функції",
+        "die Geschichte, -n — історія",
+        "die Produzentin, -nen — продюсер"
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/07/03/8c8e73b7-b638-4ade-9f21-3a69b6d64c5b.jpg?s=bfbd392a1799b6957c932fc4ca1788bc",
+      "publishedAt": "2026-07-04T02:41:41.000Z",
+      "processedAt": "2026-07-04T08:28:27.902Z"
+    },
+    {
+      "id": "48d3f640",
+      "originalTitle": "– Kolumbien macht Achtelfinal-Duell mit der Schweiz perfekt",
+      "simplifiedText": "Kolumbien hat das Achtelfinal-Duell mit der Schweiz perfekt gemacht. Sie gewannen mit 1:0 gegen Ghana. Deshalb treffen sie jetzt im WM-Achtelfinal auf die Schweiz. Das Spiel gegen Ghana war wichtig für Kolumbien, weil sie einen Sieg brauchten, um sicher weiterzukommen. Obwohl Ghana stark spielte, konnte Kolumbien das Spiel für sich entscheiden. Der Trainer von Kolumbien war froh, dass seine Mannschaft die Aufgabe erfüllt hat.",
+      "vocabularyHints": [
+        "das Achtelfinal-Duell — матч 1/8 фіналу",
+        "perfekt machen — завершити",
+        "die Aufgabe — завдання",
         "erfüllen — виконувати",
-        "die Erwartungen — очікування",
-        "die Bestätigung — підтвердження"
+        "sicher weiterkommen — впевнено продовжувати"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/3a10a1af-06d6-4806-bc9b-45a601cdaec7.jpg?s=ef4b3d8900a404c18b4c43ccb7c2b516",
-      "publishedAt": "2026-07-03T05:27:06.000Z",
-      "processedAt": "2026-07-03T08:53:39.210Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6f5dab.webp",
+      "publishedAt": "2026-07-04T03:53:16.000Z",
+      "processedAt": "2026-07-04T08:27:53.348Z"
     },
     {
-      "id": "4ca1706b",
-      "originalTitle": "– Wie mit neuem Job Tausende Franken bei der Rente verloren gehen",
-      "simplifiedText": "Wer im Laufe des Jahres den Job wechselt, riskiert grosse Einbussen in der Pensionskasse. Wenn man die Stelle wechselt, kann es passieren, dass man nicht alle Beiträge in die Pensionskasse einzahlt. Es ist wichtig, dass man sich um die Pensionskasse kümmert, wenn man den Job wechselt. Die Pensionskasse ist ein wichtiger Teil der Altersvorsorge in der Schweiz. Wenn man nicht aufpasst, kann man Tausende Franken bei der Rente verlieren. Deshalb sollte man sich vor einem Jobwechsel genau informieren. Der neue Arbeitgeber muss nicht unbedingt dieselben Beiträge an die Pensionskasse leisten wie der alte Arbeitgeber.",
+      "id": "3191b66f",
+      "originalTitle": "WM 2026: 1/16-Final COL-GHA – Kolumbien macht Achtelfinal-Duell mit der Schweiz perfekt",
+      "simplifiedText": "Kolumbien hat gegen Ghana 1:0 gewonnen. Deshalb trifft es im WM-Achtelfinal auf die Schweiz. Das Spiel gegen Ghana war wichtig für Kolumbien, weil es den Einzug in die nächste Runde sichern wollte. Obwohl Ghana stark spielte, konnte Kolumbien sein Ziel erreichen. Der Sieg ist für Kolumbien ein grosser Erfolg, weil es jetzt gegen die Schweiz spielen darf. Wenn Kolumbien gegen die Schweiz gewinnt, kommt es eine Runde weiter. Ich denke, dass Kolumbien eine Chance hat, weil es zuletzt gute Spiele gezeigt hat.",
       "vocabularyHints": [
-        "die Pensionskasse, -n — пенсійний фонд",
-        "einbussen — втрати",
-        "die Altersvorsorge — пенсійне забезпечення",
-        "sich kümmern — турбуватися",
-        "die Einzahlungen — внески"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/dcfa8d1.webp",
-      "publishedAt": "2026-07-03T05:39:08.000Z",
-      "processedAt": "2026-07-03T08:53:29.787Z"
-    },
-    {
-      "id": "04ca1796",
-      "originalTitle": "Teurer Stellenwechsel – Wie mit neuem Job Tausende Franken bei der Rente verloren gehen",
-      "simplifiedText": "Wer im Laufe des Jahres den Job wechselt, riskiert grosse Einbussen in der Pensionskasse. Wenn man die Stelle wechselt, kann es passieren, dass man nicht alle Ansprüche auf die Pensionskasse übertragen kann. Deshalb ist es wichtig, dass man sich vor einem Stellenwechsel über die Konsequenzen informiert. Besonders wenn man in eine neue Pensionskasse einbezahlt, kann es zu Einbussen kommen. Es ist auch möglich, dass man einen Teil des angesparten Kapitals verliert, wenn man den Arbeitgeber wechselt. Obwohl dies ein grosses Problem darstellt, sind sich viele Arbeitnehmer nicht bewusst, dass dies passieren kann. Wenn man den Job wechselt, sollte man deshalb unbedingt mit der alten und neuen Pensionskasse sprechen.",
-      "vocabularyHints": [
-        "die Pensionskasse, -n — пенсійний фонд",
-        "einbussen — зменшення",
-        "der Stellenwechsel — зміна роботи",
-        "die Ansprüche, -n — вимоги",
-        "sich informieren — інформуватись"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/dcfa8d1.webp",
-      "publishedAt": "2026-07-03T05:39:08.000Z",
-      "processedAt": "2026-07-03T08:53:21.524Z"
-    },
-    {
-      "id": "7749f789",
-      "originalTitle": "WM-Programm in der Übersicht – Messi in Miami: Das läuft am Freitag und in der Nacht auf Samstag",
-      "simplifiedText": "Die letzten drei Spiele der WM-Sechzehntelfinals finden statt. Zwei starke Teams aus Südamerika sind im Einsatz. Argentinien mit Messi spielt gegen Australien. Es ist ein wichtiges Spiel für beide Mannschaften, weil ein Sieg den Einzug in die nächste Runde bedeutet. Wenn Argentinien gewinnt, trifft es auf den Sieger des Spiels Niederlande - USA. Obwohl Australien ein starker Gegner ist, hofft Messi auf einen Erfolg. Die Spiele finden am Freitag und in der Nacht auf Samstag statt.",
-      "vocabularyHints": [
-        "das Schwergewicht, -e — важковаговик",
-        "der Einzug, -üge — вступ",
-        "das Spiel, -e — гра",
-        "sich hofft — сподівається",
-        "der Gegner, - — суперник"
+        "der Achtelfinal, -e — 1/8 фіналу",
+        "sichern — забезпечувати",
+        "ein Ziel erreichen — досягати мети",
+        "eine Runde weiterkommen — пройти до наступного раунду",
+        "zulasst — останнім часом"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf14fb.webp",
-      "publishedAt": "2026-07-03T05:57:06.000Z",
-      "processedAt": "2026-07-03T08:53:12.930Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6f5dab.webp",
+      "publishedAt": "2026-07-04T03:53:16.000Z",
+      "processedAt": "2026-07-04T08:27:44.685Z"
     },
     {
-      "id": "6615ef76",
-      "originalTitle": "Psychisch kranke Junge – Der Weg aus der IV zurück ins Berufsleben",
-      "simplifiedText": "Wenn ein junger Mensch psychisch krank wird und eine IV-Rente bekommt, hat er einen schwierigen Weg vor sich, um wieder ins Berufsleben zurückzukehren. Es ist wichtig, dass er Unterstützung bekommt, um seine Fähigkeiten wieder zu entwickeln. Viele psychisch kranke Jugendliche fühlen sich isoliert, weil sie denken, dass sie nicht mehr arbeiten können. Aber es gibt Möglichkeiten, wie zum Beispiel eine Ausbildung oder ein Studium, die helfen können, wieder ins Berufsleben einzusteigen. Der Weg zurück ist oft lang und schwierig, aber mit der richtigen Unterstützung kann es gelingen. Einige Jugendliche schaffen es, nach ein paar Jahren wieder voll ins Berufsleben einzusteigen. Dafür ist es wichtig, dass sie eine gute Therapie bekommen und dass sie sich mit anderen Jugendlichen austauschen können.",
+      "id": "670acb43",
+      "originalTitle": "«Ja, ich will»: Adam Sandler traute Taylor Swift und Travis Kelce",
+      "simplifiedText": "Taylor Swift und Travis Kelce haben im New Yorker Madison Square Garden vor etwa 1000 Gästen geheiratet. Ihr Freund Adam Sandler hat sie getraut. Die Hochzeit war eine Überraschung für viele, weil Taylor Swift vorher nicht oft über ihre Beziehung gesprochen hat. Adam Sandler ist ein bekannter Schauspieler und hat viele lustige Filme gemacht. Er ist auch ein guter Freund von Taylor Swift und Travis Kelce. Wenn ich richtig informiert bin, war es eine schöne Feier. Obwohl es eine Überraschung war, haben viele Gäste ihre Freude ausgedrückt. Es war eine besondere Nacht für das Paar.",
       "vocabularyHints": [
-        "die IV-Rente — допомога по інвалідності",
-        "psychisch krank — психічно хворий",
-        "das Berufsleben — трудове життя",
-        "sich isoliert fühlen — відчувати себе ізольованим",
-        "die Fähigkeiten — здібності"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8d4e7d.webp",
-      "publishedAt": "2026-07-03T06:03:50.000Z",
-      "processedAt": "2026-07-03T08:53:04.950Z"
-    },
-    {
-      "id": "5bde89f1",
-      "originalTitle": "Nati-Noten: Zwei glänzen – Petkovic-Plan gegen Xhaka erfolglos",
-      "simplifiedText": "Die Schweizer Nationalmannschaft steht im WM-Achtelfinal, weil sie gegen Algerien gewonnen hat. Trainer Murat Yakins Plan mit dem neuen Rechtsverteidiger Denis Zakaria hat wieder funktioniert. Es wäre möglich gewesen, dass der Plan nicht funktioniert, wenn die algerische Mannschaft besser gespielt hätte. Obwohl die Schweizer Mannschaft stark gespielt hat, war es nicht einfach, gegen Algerien zu gewinnen. Murat Yakins Strategie war, dass Denis Zakaria auf der rechten Seite spielt. Wenn man bedenkt, dass Zakaria ein neuer Spieler ist, ist es beeindruckend, dass er so gut spielt. Die Schweizer Mannschaft hat gezeigt, dass sie stark ist, und das ist wichtig für den weiteren Verlauf der WM.",
-      "vocabularyHints": [
-        "der Achterfinal — чвертьфінал",
-        "glücken — вдаватися",
-        "der Rechtsverteidiger — правий захисник",
-        "die Strategie — стратегія",
-        "der Verlauf — хід"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/fdd841d7-bcba-40f0-ad2f-bc0f3ea77388.jpg?s=5d2755e4882cb7e0c917cce8b35f2764",
-      "publishedAt": "2026-07-03T06:21:30.000Z",
-      "processedAt": "2026-07-03T08:52:56.372Z"
-    },
-    {
-      "id": "4eed86b1",
-      "originalTitle": "Nach WM-Out gegen Paraguay – Laut Medienberichten: Nagelsmann tritt als Bundestrainer zurück",
-      "simplifiedText": "Der Trainer des Deutschen Fussball-Bundes nimmt nach dem Aus im WM-Sechzehntelfinal gegen Paraguay seinen Hut. Dies berichten mehrere Medien übereinstimmend. Der Grund für den Rücktritt ist offenbar das WM-Out. Julian Nagelsmann war zuletzt als Bundestrainer tätig. Er wird wohl nicht mehr als Trainer des DFB fungieren. Es ist noch unklar, wer sein Nachfolger wird. Der DFB wird sich in den kommenden Tagen zu dieser Angelegenheit äussern.",
-      "vocabularyHints": [
-        "das Sechzehntelfinal — 1/16 фіналу",
-        "übereinstimmend — одностайно",
-        "der Hut — кокарда",
-        "fungieren — виконувати функції",
-        "das WM-Out — виліт із ЧС"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4b9a73.webp",
-      "publishedAt": "2026-07-03T06:30:32.000Z",
-      "processedAt": "2026-07-03T08:52:46.290Z"
-    },
-    {
-      "id": "52be9f11",
-      "originalTitle": "Trump-Provokation? Parmelin bejubelt Natisieg mit Spezial-Cap",
-      "simplifiedText": "Bundespräsident Guy Parmelin war beim Spiel der Schweizer Nationalmannschaft, als sie in den WM-Achtelfinal einzog. Er trug eine spezielle Mütze und sass neben einem prominenten Gast. Es gab viel Aufsehen, weil sein Hut und sein Sitznachbar auffielen. Einige Leute fanden es provokant, weil sein Sitznachbar Donald Trump war. Guy Parmelin freute sich über den Erfolg der Schweizer Mannschaft, weil sie gut gespielt hatten. Wenn die Mannschaft gewinnt, wäre das ein grosser Erfolg für die Schweiz. Es ist möglich, dass die Schweizer Mannschaft weiterkommt, obwohl es ein schwieriges Spiel war.",
-      "vocabularyHints": [
-        "der Achterfinal — стадія плей-офф, в якій беруть участь вісім команд",
-        "bejubeln — радіти з якогось приводу",
-        "der Edelfan — шанувальник вищого класу",
-        "der Sitznachbar — сусід по місцю",
-        "provokant — провокаційний"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://image.20min.ch/2026/07/03/314eb6a2-f813-4351-8640-f7ece90839db.png?s=3cdf11f81ea0a4f96965059d08ae61da",
-      "publishedAt": "2026-07-03T06:30:59.000Z",
-      "processedAt": "2026-07-03T08:52:38.171Z"
-    },
-    {
-      "id": "7e65a6c8",
-      "originalTitle": "Stillstand auf der Autobahn – Staustunden ohne Ende – so steht es um den Schweizer Verkehr",
-      "simplifiedText": "Das Netz der Nationalstrassen in der Schweiz kommt immer mehr an seine Kapazitätsgrenzen. Es gibt immer mehr Autos auf der Strasse, weil die Bevölkerung wächst und immer mehr Leute pendeln. Wenn man die Staustunden auf der Autobahn sieht, fragt man sich, ob es nicht bessere Lösungen gibt. Die Experten sagen, dass man die Kapazität der Strassen nicht mehr erhöhen kann, ohne dass es zu mehr Staus kommt. Deshalb muss man nach anderen Lösungen suchen, zum Beispiel den öffentlichen Verkehr ausbauen. Es ist auch möglich, dass man die Arbeitszeit ändert, damit die Leute nicht alle auf einmal pendeln müssen. Obwohl es viele Probleme gibt, hoffen die Experten, dass man eine Lösung findet, damit der Verkehr in der Schweiz besser wird.",
-      "vocabularyHints": [
-        "die Kapazitätsgrenze, -n — гранична потужність",
-        "pendeln — здійснювати маятникові міграції",
-        "der öffentliche Verkehr — громадський транспорт",
-        "die Staustunde, -n — година пік",
-        "ausbauen — розширювати"
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/424a9d.webp",
-      "publishedAt": "2026-07-03T06:46:41.000Z",
-      "processedAt": "2026-07-03T08:52:29.644Z"
-    },
-    {
-      "id": "15bc7bb4",
-      "originalTitle": "– WM-Achtelfinal kann kommen: Die Nati schlägt auch Algerien",
-      "simplifiedText": "Die Schweiz hat Algerien im WM-Sechzehntelfinal in Vancouver besiegt. Damit hat die Schweizer Nationalmannschaft erstmals seit 1938 eine WM-K.o.-Runde überstanden. Die Mannschaft zeigte eine gute Leistung, weil sie stark verteidigte. Wenn die Nati so weiter spielt, kann sie vielleicht sogar den WM-Achtelfinal erreichen. Die Schweizer Fans sind sehr zufrieden, dass ihre Mannschaft so gut spielt. Die Spieler haben sich sehr gefreut, dass sie eine Runde weiter sind. Sie hoffen, dass sie auch im Achtelfinal erfolgreich sein werden.",
-      "vocabularyHints": [
-        "der Sechzehntelfinal — 1/16 фіналу",
-        "überstehen — витримати",
-        "die K.o.-Runde, -en — раунд на вибування",
-        "verteidigen — захищати",
-        "erreichen — досягати"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5ff76c.webp",
-      "publishedAt": "2026-07-03T06:57:27.000Z",
-      "processedAt": "2026-07-03T08:52:21.141Z"
-    },
-    {
-      "id": "18f51e60",
-      "originalTitle": "WM 2026: 1/16-Final SUI-ALG – WM-Achtelfinal kann kommen: Die Nati schlägt auch Algerien",
-      "simplifiedText": "Die Schweiz hat Algerien im WM-Sechzehntelfinal in Vancouver besiegt. Damit hat die Schweizer Nationalmannschaft erstmals seit 1938 eine WM-K.o.-Runde überstanden. Die Mannschaft zeigte eine starke Leistung und konnte sich über den Sieg freuen. Weil die Schweiz gut gespielt hat, kann sie jetzt im WM-Achtelfinal antreten. Die Spieler waren sehr zufrieden mit ihrem Erfolg. Sie hatten hart trainiert, um dieses Ziel zu erreichen. Die Schweiz wird nun im nächsten Spiel eine Herausforderung haben.",
-      "vocabularyHints": [
-        "der Sechzehntelfinal — 1/16 фіналу",
-        "überstehen — витримати",
-        "die K.o.-Runde — раунд на вибування",
-        "antreten — виступати"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5ff76c.webp",
-      "publishedAt": "2026-07-03T06:57:27.000Z",
-      "processedAt": "2026-07-03T08:52:11.842Z"
-    },
-    {
-      "id": "42a8d66e",
-      "originalTitle": "Bodenroboter – Wie ukrainische Start-ups den Krieg automatisieren",
-      "simplifiedText": "Die Ukraine investiert in autonome Waffensysteme, weil sie ihre Verteidigung verbessern möchte. Ein lokales Start-up entwickelt neue Bodenroboter, die in der Kriegszone eingesetzt werden sollen. Diese Roboter könnten künftig wichtige Aufgaben übernehmen, wenn sie zum Beispiel Minen entschärfen oder Verletzte transportieren. Obwohl die Technik noch nicht ganz ausgereift ist, hofft man, dass sie den Kriegsverlauf positiv beeinflussen kann. Die Entwickler arbeiten intensiv daran, dass die Roboter selbstständig arbeiten können. Sie müssen lernen, sich in unwegsamen Gelände zurechtzufinden. Es gibt auch Überlegungen, ob die Roboter künftig auch Menschen transportieren könnten. Die Ukraine setzt grosse Hoffnungen in diese Technologie.",
-      "vocabularyHints": [
-        "autonome Waffensysteme — автономні системи озброєння",
-        "Bodenroboter — наземні роботи",
-        "entschärfen — знешкоджувати",
-        "unwegsamen Gelände — у складній місцевості",
-        "Verletzte — поранені"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/799005.webp",
-      "publishedAt": "2026-07-03T07:01:22.000Z",
-      "processedAt": "2026-07-03T08:52:03.725Z"
-    },
-    {
-      "id": "1ebab4ee",
-      "originalTitle": "Bundesrat im WM-Fieber – Guy Parmelin sorgt mit roter Kappe für Aufsehen",
-      "simplifiedText": "Der Bundespräsident Guy Parmelin besuchte das WM-Sechzehntelfinal der Schweiz gegen Algerien im Stadion in Vancouver. Er trug dabei eine rote Kappe und sorgte für Aufsehen. Weil die Schweiz ein gutes Spiel zeigte, war die Stimmung im Stadion sehr gut. Wenn die Schweiz weiterkommt, wird sie wahrscheinlich gegen einen starken Gegner spielen. Obwohl die Algerier ein starkes Team haben, glaubten viele an einen Schweizer Sieg. Der Bundespräsident freute sich über die Unterstützung für die Schweizer Mannschaft.",
-      "vocabularyHints": [
-        "der Bundespräsident — президент федеральної ради",
-        "das WM-Sechzehntelfinal — матч 1/16 фіналу чемпіонату світу",
-        "sorgen für Aufsehen — привертати увагу",
-        "die Stimmung — настрій",
-        "unterstützen — підтримувати"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e19712.webp",
-      "publishedAt": "2026-07-03T07:11:47.000Z",
-      "processedAt": "2026-07-03T08:51:55.549Z"
-    },
-    {
-      "id": "454ddbf6",
-      "originalTitle": "Stimmen zum Achtelfinal-Einzug – Nati-Erfolgsrezept: Ehrlichkeit und Tore zum richtigen Zeitpunkt",
-      "simplifiedText": "Die Schweizer Fussballnationalmannschaft hat gegen Algerien an der WM 2026 mit 2:0 gewonnen. Die Freude und Erleichterung waren gross im Schweizer Lager. Einige Spieler meinten, dass Ehrlichkeit und Tore zum richtigen Zeitpunkt das Erfolgsrezept seien. Der Trainer sagte, dass die Mannschaft gut gespielt habe, weil sie sich gut vorbereitet habe. Die Spieler seien sehr zufrieden mit dem Ergebnis. Sie wüssten aber, dass sie noch mehr geben müssten, wenn sie weiterkommen wollten. Die Schweizer Mannschaft hoffe, dass sie im nächsten Spiel ähnlich gut spielen könne.",
-      "vocabularyHints": [
-        "das Erfolgsrezept, -e — секрет успіху",
-        "die Ehrlichkeit — чесність",
-        "sich ausbreiten — поширюватись",
-        "das Lager, - — табір",
-        "erleichtert — полегшений"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c185d6.webp",
-      "publishedAt": "2026-07-03T07:17:59.000Z",
-      "processedAt": "2026-07-03T08:51:47.119Z"
-    },
-    {
-      "id": "3443336a",
-      "originalTitle": "Deutscher Bundespräsident – Frank-Walter Steinmeier besucht die Schweiz – mit dem Velo",
-      "simplifiedText": "Der deutsche Bundespräsident Frank-Walter Steinmeier besucht die Schweiz. Er ist für einige Tage in Lörrach und machte heute einen kurzen Besuch in Riehen bei Basel. Obwohl es ein kurzer Besuch war, freute er sich, die Schweiz zu sehen. Er fuhr sogar mit dem Velo. Steinmeier sagte, dass die Schweiz ein wichtiger Partner für Deutschland ist. Die Schweiz und Deutschland haben eine lange gemeinsame Grenze. Wenn er mit den Leuten spricht, hört er, dass sie sich eine gute Zusammenarbeit wünschen. Weil die Schweiz und Deutschland so eng zusammenarbeiten, ist Steinmeier optimistisch für die Zukunft.",
-      "vocabularyHints": [
-        "der Abstecher, - — відхилення, коротка поїздка",
-        "das Velo, -s — велосипед",
-        "sich freuen, -te — радіти",
-        "der Partner, - — партнер",
-        "die Zusammenarbeit, -en — співпраця"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/046740.webp",
-      "publishedAt": "2026-07-03T07:20:51.000Z",
-      "processedAt": "2026-07-03T08:51:38.638Z"
-    },
-    {
-      "id": "30cf06da",
-      "originalTitle": "Finanzstabilität – Bankensektor ist gesund und robust – trotzdem warnt die SNB",
-      "simplifiedText": "Die Schweizerische Nationalbank (SNB) sagt, dass der Bankensektor in der Schweiz grundsätzlich stabil ist. Trotzdem gibt es mögliche Gefahren, weil einige Banken im Ausland Probleme haben. Der Wirtschaftsredaktor von SRF, Zaugg, warnt davor, dass diese Probleme auf die Schweiz übergreifen könnten. Die SNB beobachtet die Situation genau, weil sie Auswirkungen auf die Schweizer Wirtschaft haben könnte. Wenn die Probleme im Ausland zunehmen, könnte dies auch die Schweizer Banken betreffen. Die SNB ist jedoch zuversichtlich, dass die Schweizer Banken robust sind und die Risiken meistern können. Obwohl die Situation im Ausland besorgniserregend ist, sieht die SNB keine akute Gefahr für die Schweizer Wirtschaft.",
-      "vocabularyHints": [
-        "die Finanzstabilität — фінансова стабільність",
-        "der Bankensektor — банківський сектор",
-        "die Nationalbank — національний банк",
-        "sich auswirken — впливати",
-        "die Wirtschaftsredaktor — економіст-редактор"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d0fd92.webp",
-      "publishedAt": "2026-07-03T07:34:02.000Z",
-      "processedAt": "2026-07-03T08:51:29.778Z"
-    },
-    {
-      "id": "1ed5dbb5",
-      "originalTitle": "Krieg im Nahen Osten – Iran empfängt ausländische Gäste zu Trauerfeier für Chamenei",
-      "simplifiedText": "In Teheran findet eine Trauerfeier für Chamenei statt. Vertreter aus China, Belarus, dem Irak und Turkmenistan sind bereits angekommen. Sie kommen, weil sie den Tod von Chamenei betrauern möchten. Die Trauerfeier ist wichtig für Iran, weil Chamenei eine bedeutende Person war. Es ist auch ein Zeichen der Solidarität, dass so viele Gäste kommen. Wenn man von einem bedeutenden Menschen wie Chamenei spricht, denkt man an seine Rolle im Land. Obwohl Chamenei nicht mehr lebt, bleibt seine Wirkung bestehen. Die Gäste aus verschiedenen Ländern zeigen, dass sie sein Andenken ehren wollen.",
-      "vocabularyHints": [
-        "die Trauerfeier, -en — заходи скорботи",
-        "betrauern — сумувати",
-        "bedeutend — впливовий",
-        "Solidarität — солідарність",
-        "Andenken — пам'ять"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7f120d.webp",
-      "publishedAt": "2026-07-03T07:41:25.000Z",
-      "processedAt": "2026-07-03T08:51:20.930Z"
-    },
-    {
-      "id": "6735915c",
-      "originalTitle": "«Confessions II» von Madonna – Das Comeback der Queen of Pop steht auf wackeligen Beinen",
-      "simplifiedText": "Madonna plant ein Comeback mit ihrem neuen Album «Confessions II». Sie hofft, dass es ihr gelingt, wieder auf den Thron der Popmusik zu kommen. Es ist jedoch fraglich, ob das Album ein Erfolg wird, weil die Musikindustrie sich stark verändert hat. Madonna ist 63 Jahre alt und hat jahrelang pausiert. Sie möchte mit «Confessions II» ihre Karriere wiederbeleben. Wenn sie erfolgreich ist, wäre das ein grosses Comeback. Obwohl sie eine Legende ist, muss sie sich der Konkurrenz stellen. Es bleibt abzuwarten, ob «Confessions II» die Erwartungen erfüllt.",
-      "vocabularyHints": [
-        "das Comeback, -s — повернення на сцену",
-        "wackelig — хиткий",
-        "die Queen, -en — королева",
-        "die Musikindustrie — музична індустрія",
-        "sich stellen — поставати"
+        "die Trauung, -en — церемонія одруження",
+        "sich trauen lassen — одружитися",
+        "der Schauspieler, — актор",
+        "die Überraschung, -en — несподіванка",
+        "ausdrücken — висловлювати"
       ],
       "category": "Kultur",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d6c5c65.webp",
-      "publishedAt": "2026-07-03T07:51:51.000Z",
-      "processedAt": "2026-07-03T08:51:12.122Z"
+      "imageUrl": "https://image.20min.ch/2026/07/04/76ba3956-b1b1-4634-ad12-8657334cf210.jpg?s=fb2ee5e5e8044efbe10c59348d9fcc4d",
+      "publishedAt": "2026-07-04T04:09:08.000Z",
+      "processedAt": "2026-07-04T08:27:34.502Z"
     },
     {
-      "id": "5ec83214",
-      "originalTitle": "Schweizer Pensionskassen – Rekordhohe Verzinsung von Altersguthaben",
-      "simplifiedText": "Der Bericht der Branchenorganisation zeigt, dass eine gute Anlagestrategie für Pensionskassen sehr wichtig ist. Die Schweizer Pensionskassen haben eine rekordhohe Verzinsung von Altersguthaben erreicht. Weil die Anlagen gut liefen, konnten die Pensionskassen viel Geld erwirtschaften. Wenn die Anlagen weiterhin so gut laufen, könnten die Pensionskassen in Zukunft noch mehr Geld haben. Obwohl es auch Risiken gibt, ist die Zukunft der Pensionskassen positiv. Die Verzinsung ist für die Rentner sehr wichtig, weil sie davon leben. Die Branchenorganisation empfiehlt den Pensionskassen, weiterhin auf eine gute Anlagestrategie zu setzen.",
+      "id": "752a6fd6",
+      "originalTitle": "Arbeitsmarkt Schweiz – 300'000 neue Stellen – Jobwunder nach Corona verblasst langsam",
+      "simplifiedText": "Die Schweizer Wirtschaft hat sich nach der Pandemie schnell erholt. Es gibt jedoch weniger neue Arbeitsplätze als erwartet. 300'000 neue Stellen waren prognostiziert, aber das Jobwunder verblasst langsam. Die Wirtschaft boomte, weil viele Menschen arbeiten wollten, obwohl die Pandemie noch nicht vorbei war. Wenn die Wirtschaft weiter wächst, könnten mehr Arbeitsplätze entstehen. Es ist jedoch unsicher, ob dies passiert, weil die Pandemie noch nicht vollständig überwunden ist. Die Schweizer Wirtschaft ist stark, aber das Jobwunder hat an Glanz verloren.",
       "vocabularyHints": [
-        "die Anlagestrategie, -en — стратегія інвестування",
-        "das Altersguthaben — пенсійні заощадження",
-        "die Branchenorganisation — галузева організація",
-        "erwirtschaften — отримувати прибуток",
-        "die Verzinsung — відсоткові виплати"
+        "das Jobwunder — економічне диво працевлаштування",
+        "verblassen — тьмяніти",
+        "die Prognose — прогноз",
+        "boomen — різко зростати",
+        "unsicher — невизначений"
       ],
       "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d03385.webp",
-      "publishedAt": "2026-07-03T08:07:38.000Z",
-      "processedAt": "2026-07-03T08:51:03.834Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7db934.webp",
+      "publishedAt": "2026-07-04T04:46:18.000Z",
+      "processedAt": "2026-07-04T08:27:23.293Z"
     },
     {
-      "id": "07239757",
-      "originalTitle": "Untersuchung veröffentlicht – Tierschutzfall Ramiswil SO: Einschläfern aller Hunde war unnötig",
-      "simplifiedText": "Der Kanton Solothurn hat den Tierschutzfall Ramiswil untersucht. Das Veterinäramt bekam eine durchzogene Bewertung. Es wurde festgestellt, dass das Einschläfern aller Hunde unnötig war. Die Untersuchung ergab, dass es keine Notwendigkeit für diese Massnahme gab. Der Fall wurde vom Kanton Solothurn geprüft, weil es Bedenken bezüglich des Tierschutzes gab. Die Ergebnisse der Untersuchung waren für das Veterinäramt nicht durchwegs positiv. Es wurde kritisiert, dass die Entscheidung, alle Hunde einzuschläfern, zu schnell getroffen wurde. Es ist zu hoffen, dass in Zukunft ähnliche Fälle besser gehandhabt werden.",
+      "id": "6b02c530",
+      "originalTitle": "250 Jahre USA – «America 250»: Der Streit um die Deutung der US-Geschichte",
+      "simplifiedText": "In den USA steht das 250-jährige Jubiläum der Unabhängigkeit bevor. Deshalb werden verschiedene Ansichten über die Geschichte und Erinnerung deutlich. Es gibt einen Streit darüber, wie die Geschichte der USA interpretiert werden soll. Einige wollen die Errungenschaften der USA feiern, während andere auf die kritischen Aspekte der US-Geschichte hinweisen wollen. Weil die USA eine komplexe Geschichte haben, ist es schwierig, eine gemeinsame Sichtweise zu finden. Die einen sagen, dass die USA ein Land der Freiheit und Chancen sind, während andere behaupten, dass die USA auch ein Land der Ungerechtigkeit und Diskriminierung sind. Wenn man die Geschichte der USA richtig verstehen will, muss man alle Aspekte betrachten. Obwohl es schwierig ist, hoffen viele, dass das Jubiläum eine Chance bietet, über die Geschichte und die Zukunft der USA nachzudenken.",
       "vocabularyHints": [
-        "das Veterinäramt — ветеринарна служба",
-        "durchzogene Bewertung — неоднозначна оцінка",
-        "Einschläfern — евтаназія",
-        "Tierschutzfall — випадок порушення захисту тварин",
-        "durchwegs — повністю, без винятків"
+        "die Sichtweise, -n — точка зору",
+        "aufeinanderprallen — стикатися в конфлікті",
+        "die Deutung, -en — інтерпретація",
+        "die Errungenschaft, -en — досягнення",
+        "die Diskriminierung, -en — дискримінація"
       ],
       "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d4ee78.webp",
-      "publishedAt": "2026-07-03T08:08:09.000Z",
-      "processedAt": "2026-07-03T08:50:54.692Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/2f3081.webp",
+      "publishedAt": "2026-07-04T05:00:29.000Z",
+      "processedAt": "2026-07-04T08:27:14.370Z"
     },
     {
-      "id": "43d90343",
-      "originalTitle": "Swift und Kelce heiraten: Diese Stars waren beim Probeessen dabei",
-      "simplifiedText": "Taylor Swift und Travis Kelce heiraten am Wochenende in New York. Vorher war ein Probeessen am Donnerstag, zu dem viele Stars kamen. Gigi Hadid, Bradley Cooper und einige grosse NFL-Spieler waren dabei. Es war ein besonderer Tag für das Paar, weil viele bekannte Leute kamen, um ihnen zu gratulieren. Wenn man bedenkt, dass Taylor Swift eine berühmte Sängerin ist, war es kein Wunder, dass so viele Stars anwesend waren. Obwohl es ein Probeessen war, wurde es ein wichtiger Tag für die beiden. Sie gaben sich das Jawort und feierten mit ihren Freunden.",
+      "id": "7f8303c6",
+      "originalTitle": "7 Dinge, die du über den Achtelfinal-Gegner der Nati wissen musst",
+      "simplifiedText": "Die Schweizer Nationalmannschaft spielt ihren WM-Achtelfinal in Vancouver gegen Kolumbien. Das Spiel findet in Vancouver statt. Die Schweizer müssen sich auf den Gegner vorbereiten, weil Kolumbien eine starke Mannschaft hat. Es ist wichtig, dass die Spieler von Trainer Murat Yakin gut zusammenarbeiten, damit sie erfolgreich sind. Wenn sie ihre Chancen nutzen, könnten sie das Spiel gewinnen. Obwohl Kolumbien ein schwieriger Gegner ist, haben die Schweizer eine Chance, weiterzukommen. Die Schweizer Fans sind gespannt, ob ihre Mannschaft siegen kann.",
       "vocabularyHints": [
-        "das Probeessen, - — пробне харчування",
-        "der Staraufmarsch, -e — зірковий парад",
-        "das Jawort geben — давати згоду на шлюб",
-        "die NFL-Grösse, -n — розміри НФЛ",
-        "das Paar, -e — пара"
+        "der Achtelfinal, -e — 1/8 фіналу",
+        "sich vorbereiten — готуватися",
+        "die Mannschaft, -en — команда",
+        "der Trainer, - — тренер",
+        "zusammenarbeiten — співпрацювати"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/b98b7ff5-edce-464e-901f-17e712b209b3.jpg?s=13fe1cf17892c0edabb37284a1bbcc0b",
+      "publishedAt": "2026-07-04T05:14:43.000Z",
+      "processedAt": "2026-07-04T08:27:04.256Z"
+    },
+    {
+      "id": "2ca0e75c",
+      "originalTitle": "«Gefährlich»: So reagiert die Nati auf die Kolumbien-Stars",
+      "simplifiedText": "Denis Zakaria glaubt, dass die Schweizer Nationalmannschaft (Nati) im WM-Achtelfinal gegen Kolumbien gewinnen kann. Murat Yakin warnt jedoch vor der spielerischen Qualität der Kolumbianer. Er findet, dass sie gefährlich sind. Die Nati muss aufpassen, weil Kolumbien gute Spieler hat. Wenn die Schweizer clever spielen, können sie vielleicht gewinnen. Obwohl Kolumbien stark ist, hat die Nati eine Chance. Murat Yakin will, dass seine Spieler konzentriert bleiben.",
+      "vocabularyHints": [
+        "der Achtelfinal — 1/8 фіналу",
+        "die spielerische Qualität — якість гри",
+        "gefährlich — небезпечний",
+        "clever — кмітливий",
+        "konzentriert — зібраний"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/6f519adc-bf9e-4fcb-b09e-0e23c7bda307.jpg?s=97c7273a28f33c625e14dbf903383fdc",
+      "publishedAt": "2026-07-04T05:20:38.000Z",
+      "processedAt": "2026-07-04T08:26:55.962Z"
+    },
+    {
+      "id": "38ff4fab",
+      "originalTitle": "Krieg im Nahen Osten – Tausende Anhänger des Ajatollahs strömen zu dessen Sarg",
+      "simplifiedText": "In Teheran haben die öffentlichen Trauerfeierlichkeiten für den Ajatollah Ali Chamenei begonnen. Tausende Menschen sind zu dessen Sarg geströmt. Sie trauern um den Führer, weil er für sie ein wichtiger Mann war. Der Ajatollah war ein bedeutender Führer im Iran. Wenn er lebte, würde er vielleicht noch viel für das Land tun. Obwohl er tot ist, wird sein Andenken weiterleben. Die Menschen im Iran ehren ihn, weil er ihr Land regierte. Es kommen immer mehr Menschen zu den Trauerfeierlichkeiten.",
+      "vocabularyHints": [
+        "der Ajatollah, -s — імам",
+        "die Trauerfeierlichkeiten — жалобні заходи",
+        "gestömt — стягнулися",
+        "das Andenken — пам'ять",
+        "ehren — вшановувати"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/99e0b5.webp",
+      "publishedAt": "2026-07-04T05:30:19.000Z",
+      "processedAt": "2026-07-04T08:26:47.522Z"
+    },
+    {
+      "id": "4133ce7f",
+      "originalTitle": "WM 2026: Turnier im Endspurt – Noch 16 Spiele: Das ist der Fahrplan bis zum Showdown am 19. Juli",
+      "simplifiedText": "Die Fussball-WM 2026 neigt sich dem Ende zu. Es sind noch 16 Spiele übrig. Nur 3 davon finden in der Nacht statt. Die meisten Spiele werden tagsüber ausgetragen. Der letzte Spieltag ist am 19. Juli. Bis dahin werden die Teams alles geben, um den Titel zu gewinnen. Es ist ein spannender Endspurt, weil viele Teams noch Chancen haben, weiterzukommen. Obwohl einige Teams bereits ausgeschieden sind, hoffen sie auf ein gutes Abschneiden.",
+      "vocabularyHints": [
+        "der Endspurt — фініш",
+        "der Showdown — вирішальний поєдинок",
+        "sich neigen — наближатися до кінця",
+        "das Abschneiden — підсумок виступу",
+        "der Fahrplan — розклад"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d268ae5.webp",
+      "publishedAt": "2026-07-04T05:49:16.000Z",
+      "processedAt": "2026-07-04T08:26:39.563Z"
+    },
+    {
+      "id": "148f797f",
+      "originalTitle": "Im Schiesskeller – Ausflug in eine missverstandene Welt",
+      "simplifiedText": "In der Schweiz gibt es viele Menschen, die sich für Waffen interessieren. Einige von ihnen gehen in Schiesskeller, um zu schiessen. Es ist relativ einfach, in der Schweiz eine Waffe zu kaufen, weil die Gesetze nicht so streng sind. Die Schweizer Bürger haben das Recht, Waffen zu besitzen, und viele nutzen dieses Recht. Es gibt jedoch auch Menschen, die gegen den Waffenbesitz sind, weil sie denken, dass es zu viele Unfälle gibt. Obwohl die Unfallzahlen tief sind, gibt es immer noch Diskussionen über die Waffengesetze. Wenn man eine Waffe kaufen möchte, muss man mindestens 18 Jahre alt sein und einen Schiessausweis haben. Die Waffenfans in der Schweiz sagen, dass sie sich sicher fühlen, wenn sie eine Waffe besitzen.",
+      "vocabularyHints": [
+        "der Schiesskeller — тир",
+        "der Waffenfan — прихильник зброї",
+        "sich für Waffen interessieren — цікавитися зброєю",
+        "der Schiessausweis — дозвіл на зброю",
+        "der Waffenbesitz — володіння зброєю"
       ],
       "category": "Gesellschaft",
-      "imageUrl": "https://image.20min.ch/2026/07/03/71e20e7e-24a7-4c68-bcdf-32f36d5f6898.jpg?s=a805838b699b28917eb651017172ad00",
-      "publishedAt": "2026-07-03T08:12:13.000Z",
-      "processedAt": "2026-07-03T08:50:44.951Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/33262d.webp",
+      "publishedAt": "2026-07-04T06:20:12.000Z",
+      "processedAt": "2026-07-04T08:26:31.879Z"
     },
     {
-      "id": "78c9f18a",
-      "originalTitle": "«Schaffen ist für niemanden»: Nati-Fans feiern ihre Helden",
-      "simplifiedText": "Die Schweizer Nati-Fans feierten ihre Helden auf der Zürcher Hardbrücke. Sie standen früh auf, um das Spiel nicht zu verpassen. Einige wollten weiterfeiern, andere gingen ins Bett oder mussten in die Schule. Sie sind optimistisch für den Rest des Turniers. Sie sprachen auch davon, dass ihre Mannschaft vielleicht Weltmeister wird. Die Fans waren sehr zufrieden. Sie dachten, dass ihre Mannschaft gut gespielt hat. Sie hoffen, dass sie bald wieder gewinnen wird, weil sie eine gute Mannschaft haben.",
+      "id": "33e63dc5",
+      "originalTitle": "«WOOOOOW!»: Ist dieses Wundergoal das Tor der WM?",
+      "simplifiedText": "Kap Verde hat fast gegen Argentinien gewonnen. Der Underdog glich zweimal aus, verlor aber 2:3 nach Verlängerung. Sidny Lopes Cabral machte ein tolles Tor. Nach dem Tor war er sehr froh. Er war früher in der dritten Liga. Die Fans waren total überrascht. Sie dachten, dass Kap Verde keine Chance hat. Aber Kap Verde spielte sehr gut.",
       "vocabularyHints": [
-        "die Hardbrücke — набережна",
-        "optimistisch — оптимістично",
-        "Weltmeister — чемпіон світу",
-        "weiterfeiern — продовжувати святкувати",
-        "verpassen — пропускати"
+        "der Underdog, -s — аутсайдер",
+        "der Schlenzer, — удар зі зміною напрямку м'яча",
+        "das Wundergoal, -s — неймовірний гол",
+        "krasse — дуже великий, разючий",
+        "blamieren — компрометувати, підставляти"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/29a71110-b953-4b37-ac45-4b6f28573eab.jpg?s=b5217cf10a5ef4518fabc7becea78f98",
-      "publishedAt": "2026-07-03T08:12:54.000Z",
-      "processedAt": "2026-07-03T08:50:36.607Z"
+      "imageUrl": "https://image.20min.ch/2026/07/04/7248bd2c-4c65-4802-bcf8-1d92a21b39c5.jpg?s=a7d340503f850819c9eea51b9dee8732",
+      "publishedAt": "2026-07-04T06:23:54.000Z",
+      "processedAt": "2026-07-04T08:26:23.384Z"
     },
     {
-      "id": "45ae03a2",
-      "originalTitle": "Er stürzte im August schwer – Froome verkündet Rücktritt",
-      "simplifiedText": "Der vierfache Tour-de-France-Sieger Chris Froome tritt endgültig vom Profi-Radsport zurück. Er hatte im August einen schweren Unfall. Froome sagte, dass er nicht mehr auf höchstem Niveau fahren kann. Er sei traurig, weil er den Sport liebe. Froome war einer der besten Radfahrer seiner Zeit. Er gewann viermal die Tour de France. Obwohl er noch viel erreicht hatte, entschied er sich für den Rücktritt.",
+      "id": "7dca5bc9",
+      "originalTitle": "Einsiedler Schwingertalent – Im Sägemehl ist Martin Schönbächler der Publikumsliebling",
+      "simplifiedText": "Martin Schönbächler ist ein 18-jähriger Schwinger aus Einsiedeln. Er hat vor zwei Wochen seinen ersten Bergkranz gewonnen. Das Talent dafür hat er von seinen Eltern geerbt. Martin ist jetzt der Publikumsliebling im Sägemehl. Er freut sich, dass er so viel Unterstützung bekommt. Wenn er auf dem Schwingplatz ist, fühlt er sich wohl. Obwohl er noch jung ist, hat er bereits viel erreicht. Martin hofft, dass er seine Erfolge fortsetzen kann.",
       "vocabularyHints": [
-        "der Rücktritt, -e — відставка",
-        "vom Profi-Radsport zurücktreten — завершити професійну кар'єру в велоспорті",
-        "auf höchstem Niveau — на найвищому рівні",
-        "der Radfahrer, - — велосипедист",
-        "die Tour de France — Тур де Франс"
+        "der Bergkranz, -kränze — гірський вінок",
+        "das Sägemehl — тирса",
+        "der Publikumsliebling, -e — улюбленець публіки",
+        "geerbt — успадкований",
+        "das Schwingplatz, -plätze — місце для боротьби"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d1a1458.webp",
-      "publishedAt": "2026-07-03T08:15:24.000Z",
-      "processedAt": "2026-07-03T08:50:28.213Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d2ccde.webp",
+      "publishedAt": "2026-07-04T06:28:45.000Z",
+      "processedAt": "2026-07-04T08:26:15.376Z"
     },
     {
-      "id": "25b72ec1",
-      "originalTitle": "Nach 88-jähriger Durststrecke – so geht es für die Nati weiter",
-      "simplifiedText": "Die Schweiz hat zum ersten Mal seit 1938 wieder ein K.-o.-Spiel bei einer WM gewonnen. Das Team wird im Achtelfinal auf den Sieger des Spiels zwischen Ghana und Kolumbien treffen. Das Spiel findet am 7. Juli um 22 Uhr Schweizer Zeit statt. Die Schweizer Mannschaft ist froh, dass sie diese Durststrecke beendet hat. Sie wird versuchen, auch im Achtelfinal erfolgreich zu sein. Obwohl es ein schwieriges Spiel wird, ist die Mannschaft optimistisch. Sie hofft, dass sie ihre Leistung weiter verbessern kann. Wenn sie so weitermacht, könnte sie vielleicht sogar noch weiter kommen.",
+      "id": "5cb3c257",
+      "originalTitle": "Schweizer Gewässer und Hitze – So warm sind die Schweizer Seen aktuell",
+      "simplifiedText": "Nach der Hitzewelle im Juni sind die Temperaturen der Schweizer Seen sehr hoch. Die Seetemperaturen haben stark zugenommen, weil es sehr warm war. Der Genfersee hat aktuell eine Temperatur von 23 Grad. Der Zürichsee ist etwa 22 Grad warm. Wenn man bedenkt, dass die Durchschnittstemperatur im Juni normalerweise 18 Grad beträgt, ist das ein grosser Unterschied. Obwohl die Temperaturen in den letzten Tagen leicht gesunken sind, bleiben sie immer noch hoch. Es ist ratsam, sich vor dem Schwimmen über die aktuellen Temperaturen zu informieren.",
       "vocabularyHints": [
-        "die Durststrecke — період невдач",
-        "K.-o.-Phasen-Spiel — гра на виліт",
-        "der Achtelfinal — матч 1/8 фіналу",
-        "die Nati — національна збірна",
-        "sich ausbreiten — поширюватись"
+        "die Hitzewelle, -n — хвиля спеки",
+        "die Seetemperatur, -en — температура озера",
+        "die Übersicht, -en — огляд",
+        "die Durchschnittstemperatur, -en — середня температура",
+        "zunehmen — збільшуватися"
       ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/3350bd6d-444e-471e-b9bd-9df00f1e2e48.jpg?s=52bce9c2a955e54088def4c62e73bc98",
-      "publishedAt": "2026-07-03T08:33:58.000Z",
-      "processedAt": "2026-07-03T08:50:19.373Z"
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/b75f6c0.webp",
+      "publishedAt": "2026-07-04T07:00:24.000Z",
+      "processedAt": "2026-07-04T08:26:07.316Z"
     },
     {
-      "id": "5775aa54",
-      "originalTitle": "«Leuchtet auf uns herab»: Emotionaler CR7 ehrt verstorbenen Jota",
-      "simplifiedText": "Die portugiesische Fussballmannschaft steht im WM-Achtelfinal. Nach dem Spiel ehrten sie Diogo Jota. Der Flügelspieler war vor einem Jahr gestorben. Cristiano Ronaldo sagte, dass Jota immer in ihren Herzen sein werde. Er hoffe, dass Jota auf sie herab leuchte. Die Mannschaft trauert immer noch um Jota. Sie denken oft an ihn, weil er ein wichtiger Teil des Teams war. Obwohl er nicht mehr da ist, lebt sein Geist weiter.",
+      "id": "1b9d9b26",
+      "originalTitle": "Bezahlte Partnersuche – Matchmaking: Wenn das Liebesglück zum Business wird",
+      "simplifiedText": "Die Partnersuche kann teuer sein, wenn man eine professionelle Matchmakerin engagiert. Diese verlangen schnell mehrere Tausend Franken. Einige Menschen denken, dass es sich lohnt, so viel Geld auszugeben, weil sie hoffen, dass die Matchmakerin ihnen hilft, den richtigen Partner zu finden. Andere sind skeptisch und fragen sich, ob die Investition wirklich sinnvoll ist. Wenn man bedenkt, dass eine gescheiterte Ehe teuer werden kann, könnte die Hilfe einer Matchmakerin durchaus sinnvoll sein. Obwohl es keine Garantie für Erfolg gibt, kann eine professionelle Matchmakerin die Chancen auf eine erfolgreiche Partnerschaft erhöhen. Wenn man sich für eine solche Dienstleistung entscheidet, sollte man sich vorher genau informieren.",
       "vocabularyHints": [
-        "der Flügelspieler — гравець на фланзі",
-        "ehrten — вшановували",
-        "leuchtet auf uns herab — світить на нас",
-        "der Achterfinal — 1/8 фіналу",
-        "trauern — сумувати"
+        "die Matchmakerin, -nen — спеціаліст зі знайомств",
+        "sich lohnen — виправдовувати",
+        "die Investition, -en — інвестиція",
+        "die Partnerschaft, -en — партнерство",
+        "die Dienstleistung, -en — послуга"
       ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/07/03/52533081-2802-49a6-9f5f-cc1e84c8ef2f.jpg?s=df84ac8c372ed93af8372ef299b67edd",
-      "publishedAt": "2026-07-03T08:43:21.000Z",
-      "processedAt": "2026-07-03T08:50:09.328Z"
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/b1b886b.webp",
+      "publishedAt": "2026-07-04T07:15:35.000Z",
+      "processedAt": "2026-07-04T08:25:59.541Z"
     },
     {
-      "id": "7f2d359a",
-      "originalTitle": "Tour de France 2026 – Eine Besonderheit zum Auftakt und satte sieben Bergankünfte",
-      "simplifiedText": "Am Samstag beginnt in Barcelona die 113. Tour de France. Die Favoriten werden sich früh zeigen müssen, weil es gleich zum Auftakt eine Besonderheit gibt. Insgesamt gibt es satte sieben Bergankünfte. Die Fahrer werden sich sehr anstrengen müssen, um erfolgreich zu sein. Obwohl die Tour noch weit entfernt ist, werden die Favoriten bereits früh unter Druck stehen. Wenn sie ihre Form nicht rechtzeitig aufbauen können, werden sie Schwierigkeiten haben, um die vorderen Plätze zu kämpfen. Es wird interessant sein zu sehen, wer sich als stärkster Fahrer präsentiert.",
+      "id": "1a9f931e",
+      "originalTitle": "WM-Programm in der Übersicht – Erste Achtelfinals mit Favorit Frankreich: Das läuft am Samstag",
+      "simplifiedText": "Am Samstag beginnt die Achtelfinal-Phase der WM 2026. Es spielt Kanada gegen Marokko und Paraguay gegen Frankreich. Frankreich ist einer der Favoriten. Die Spiele finden statt, weil die Gruppenphase vorbei ist. Wenn man auf die Favoriten schaut, dürfte Frankreich wohl gewinnen. Es wäre nicht überraschend, wenn Frankreich weiterkommt. Obwohl Paraguay stark spielt, ist Frankreich der klare Favorit. Die Spiele beginnen am Samstag.",
       "vocabularyHints": [
-        "die Bergankunft, -en — прибуття на вершину гори",
-        "sich anstrengen — докладати зусиль",
         "der Favorit, -en — фаворит",
-        "unter Druck stehen — перебувати під тиском",
-        "die Form aufbauen — набирати форму"
+        "die Achtelfinal-Phase — стадія 1/8 фіналу",
+        "lanciert werden — розпочинатися",
+        "der Gruppenphase — груповий етап",
+        "weiterkommen — проходити далі"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/66cc9e.webp",
-      "publishedAt": "2026-07-03T08:44:44.000Z",
-      "processedAt": "2026-07-03T08:49:58.894Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4f21c1.webp",
+      "publishedAt": "2026-07-04T07:27:12.000Z",
+      "processedAt": "2026-07-04T08:25:48.680Z"
     },
     {
-      "id": "5e406671",
-      "originalTitle": "«Terminator»-Produzent Moritz Borman ist tot",
-      "simplifiedText": "Der deutsche Filmproduzent Moritz Borman ist im Alter von 71 Jahren in München gestorben. Er arbeitete mit bekannten Regisseuren wie Oliver Stone zusammen. Borman war auch an zwei «Terminator»-Filmen beteiligt. Seine Arbeit wurde in der Filmwelt sehr geschätzt. Obwohl er schon 71 Jahre alt war, hinterlässt er ein grosses filmisches Erbe. Weil er viel erreicht hatte, ist sein Tod für die Filmwelt ein grosser Verlust. Wenn man an seine Filme denkt, erinnert man sich an seine grosse Leidenschaft.",
+      "id": "3b289be8",
+      "originalTitle": "Schweizer Rad-Star droht an Tour de France eine Hitzeschlacht",
+      "simplifiedText": "Das Schweizer Radteam Tudor Pro Cycling will mit Marc Hirschi einen Etappensieg an der Tour de France erreichen. Die Bedingungen werden extrem sein, weil es sehr heiss wird. Marc Hirschi ist das Zugpferd des Teams. Das Team Tudor Pro Cycling ist noch jung und hat noch nie einen Etappensieg gehabt. Die Tour de France ist das grösste Radrennen der Welt. Es wäre ein grosser Erfolg für das Team, wenn es einen Etappensieg geben könnte. Obwohl die Bedingungen extrem sind, ist das Team zuversichtlich.",
       "vocabularyHints": [
-        "der Produzent, -en — кінопродюсер",
-        "trauern — сумувати",
-        "das filmische Erbe — кінематографічна спадщина",
-        "die Filmwelt — світ кіно",
-        "geschätzt — цінуваний"
+        "das Zugpferd, -e — тягловець",
+        "die Bedingungen, — умови",
+        "extrem — екстремальний",
+        "das Etappensieg, -e — перемога на етапі",
+        "das Radrennen, — змагання з велоспорту"
       ],
-      "category": "Kultur",
-      "imageUrl": "https://image.20min.ch/2026/07/03/98b1f01d-b6d6-438c-8509-235661268d7a.jpg?s=78e93f457d3a98bbfb280224aa8b25af",
-      "publishedAt": "2026-07-03T08:48:57.000Z",
-      "processedAt": "2026-07-03T08:49:49.228Z"
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/07/04/173d4eed-e983-429e-9dd2-d180035e8999.jpg?s=46caeee06a8f55e7f5f395c886932fdc",
+      "publishedAt": "2026-07-04T07:32:27.000Z",
+      "processedAt": "2026-07-04T08:25:39.193Z"
+    },
+    {
+      "id": "7636c0e1",
+      "originalTitle": "Super Puma im Einsatz – Grossfahndung nach Einbruch in Sittener Waffengeschäft",
+      "simplifiedText": "Im Kanton Wallis sucht die Polizei nach Einbrechern. Sie sind in ein Waffengeschäft in Sitten eingebrochen. Die Täter sind mit einem Auto mit französischem Kennschild geflohen. Die Polizei ist mit einem grossen Aufgebot vor Ort. Es wurde ein Helikopter, auch Super Puma genannt, eingesetzt. Die Fahndung läuft, weil die Polizei hofft, die Täter schnell zu finden. Die Bevölkerung wird gebeten, aufmerksam zu sein und verdächtige Personen oder Fahrzeuge zu melden.",
+      "vocabularyHints": [
+        "der Einbruch, -brüche — крадіжка зі зломом",
+        "das Waffengeschäft, -e — збройовий магазин",
+        "flüchtet — втікають",
+        "das Aufgebot, -e — розгортання (сил)",
+        "die Fahndung, -en — пошуки"
+      ],
+      "category": "Polizei",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6682e0.webp",
+      "publishedAt": "2026-07-04T07:49:29.000Z",
+      "processedAt": "2026-07-04T08:25:30.352Z"
+    },
+    {
+      "id": "4c8f72bb",
+      "originalTitle": "Ihre Anfragen im Faktencheck – «Grooming Gangs» – das steckt dahinter",
+      "simplifiedText": "In Grossbritannien gibt es Schätzungen, dass 250'000 Menschen Opfer von sexuellem Missbrauch durch sogenannte 'Grooming Gangs' geworden sind. Diese Gruppen bestehen meist aus Männern, die Jugendliche und Kinder online oder in der Schule ansprechen und sie zu sexuellen Handlungen überreden. Die Opfer werden oft manipuliert und isoliert, bevor sie missbraucht werden. Weil viele Fälle nicht gemeldet werden, geht man davon aus, dass die Dunkelziffer sehr hoch ist. Die Behörden in Grossbritannien haben Schwierigkeiten, die Täter zu verfolgen, weil es oft an Beweisen fehlt. Es gibt auch Kritik, dass die Polizei und andere Institutionen nicht genug tun, um die Opfer zu schützen. Obwohl es viele Anzeichen für das Ausmass des Problems gibt, ist es schwierig, genaue Zahlen zu nennen. Wenn man bedenkt, wie viele Fälle es tatsächlich gibt, müsste man mehr tun, um die Täter zu stoppen.",
+      "vocabularyHints": [
+        "das Grooming — підготовка жертви до злочину",
+        "die Dunkelziffer — латентна злочинність",
+        "sich ausreden — умовити",
+        "die Anzeichen — ознаки",
+        "das Ausmass — масштаб"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4ade59.webp",
+      "publishedAt": "2026-07-04T07:59:27.000Z",
+      "processedAt": "2026-07-04T08:25:21.338Z"
+    },
+    {
+      "id": "0eac4bae",
+      "originalTitle": "Nach Mega-Hochzeit: Taylor Swift soll künftig Kelce heissen",
+      "simplifiedText": "Taylor Swift und ihr Partner haben am Freitagabend im Madison Square Garden geheiratet. Weil sie den Namen ihres Partners annehmen möchte, will sie privat künftig Kelce heissen. Öffentlich wird sie aber weiterhin Taylor Swift bleiben, obwohl sie verheiratet ist. Das Paar hat eine grosse Hochzeit gefeiert, weil es ein wichtiger Tag für sie war. Wenn sie privat den Namen Kelce annimmt, wird das vielleicht nicht so bekannt sein. Sie möchte aber, dass ihre Fans wissen, dass sie verheiratet ist.",
+      "vocabularyHints": [
+        "der Superstar, -s — суперзірка",
+        "annehmen — приймати",
+        "privat — приватний",
+        "öffentlich — публічний",
+        "künftig — майбутній"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/02/7ee278a6-2e47-4a1f-b67f-b665557f0ca9.jpg?s=d995943ce4f5151906379c2abbc92fc7",
+      "publishedAt": "2026-07-04T08:07:58.000Z",
+      "processedAt": "2026-07-04T08:25:12.211Z"
+    },
+    {
+      "id": "1ad12c5a",
+      "originalTitle": "Krieg in der Ukraine – Selenski: Ukraine trifft russische Ölanlagen bei St. Petersburg",
+      "simplifiedText": "Der Gouverneur von der Region um St. Petersburg, Alexander Drosdenko, sagte, dass 67 feindliche Drohnen abgeschossen worden seien. Die Ukraine hat offenbar russische Ölanlagen bei St. Petersburg angegriffen. Es ist nicht klar, ob es Schäden gab. Der Angriff könnte eine Reaktion auf den Krieg in der Ukraine sein. Die Ukraine will offenbar russische Ziele angreifen, weil Russland die Ukraine angreift. Der Gouverneur berichtete über die abgeschossenen Drohnen. Es ist ein wichtiger Schritt im Krieg, dass die Ukraine solche Angriffe durchführt. Obwohl es gefährlich ist, will die Ukraine nicht aufgeben.",
+      "vocabularyHints": [
+        "das Umland — околиця",
+        "feindlich — ворожій",
+        "abschießen — збивати",
+        "die Drohne, -en — безпілотник",
+        "der Gouverneur, -en — губернатор"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/242442.webp",
+      "publishedAt": "2026-07-04T08:09:45.000Z",
+      "processedAt": "2026-07-04T08:25:03.503Z"
+    },
+    {
+      "id": "6379b741",
+      "originalTitle": "Chilbi ist sein Leben: «Hier vergesse ich alle Sorgen»",
+      "simplifiedText": "Riccardo Senn kann sich kein anderes Leben vorstellen als eines auf der Chilbi. Er ist 34 Jahre alt und führt den Familienbetrieb in sechster Generation. Das Schaustellergeschäft wird immer härter, aber Riccardo möchte nicht anders leben. Er sagt, dass er hier alle Sorgen vergisst. Riccardo liebt seine Arbeit auf der Chilbi sehr. Wenn er nicht auf der Chilbi ist, fühlt er sich nicht wohl. Obwohl das Geschäft immer schwieriger wird, möchte Riccardo weiterhin auf der Chilbi arbeiten.",
+      "vocabularyHints": [
+        "die Chilbi — українська назва карнавалу чи фестивалю",
+        "der Familienbetrieb — сімейний бізнес",
+        "die Generation — покоління",
+        "das Schaustellergeschäft — бізнес розважальних атракціонів",
+        "sich vorstellen — уявляти собі"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/07/03/34db8a50-2c41-41bd-83ba-ff3dd4859753.jpg?s=60558401a60aa5474b38bd904ea6d626",
+      "publishedAt": "2026-07-04T08:11:23.000Z",
+      "processedAt": "2026-07-04T08:24:54.181Z"
     }
   ],
-  "updatedAt": "2026-07-03T08:54:07.349Z"
+  "updatedAt": "2026-07-04T08:29:40.234Z"
 }
