@@ -1,1505 +1,1514 @@
 {
   "A1": [
     {
-      "id": "03daa6f4",
-      "originalTitle": "Journalist verbreitet falsche Musiala-Gerüchte und wird verhaftet",
-      "simplifiedText": "Der Journalist verbreitet falsche Nachrichten. Der Journalist wird verhaftet. Der Journalist ist unglücklich. Der Journalist schreibt über den Sport. Der Journalist macht einen Fauxpas.",
+      "id": "07ac81dd",
+      "originalTitle": "Trotz Doppelrekord von Villa-Teenager: PSG gewinnt den Supercup",
+      "simplifiedText": "PSG gewinnt den Supercup. Ein Teenager trifft. PSG ist froh. Aston Villa ist traurig. PSG hat gewonnen.",
       "vocabularyHints": [
-        "der Journalist — журналіст",
-        "die Nachricht, -en — новина",
-        "verbreiten — поширювати",
-        "der Fauxpas — помилка",
-        "verhaften — заарештовувати",
-        "unglücklich — нещасний"
+        "der Supercup — суперкубок",
+        "der Teenager — підліток",
+        "trifft — забиває",
+        "froh — радий",
+        "traurig — сумний"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/08/11/b3276ab6-5ab1-4b58-94c3-bb804e8e007e.jpg?s=4cb9fdbdc1a094d8e7fe6866a60bc6b9",
-      "publishedAt": "2026-08-12T02:55:05.000Z",
-      "processedAt": "2026-08-12T08:24:21.437Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/0cf26c9b-74f7-4c4e-974c-72fcd9b93126.jpg?s=87cd518ef0c2afd9b616e0df8ce7309b",
+      "publishedAt": "2026-08-12T21:33:44.000Z",
+      "processedAt": "2026-08-13T07:16:53.011Z"
     },
     {
-      "id": "2d64155e",
-      "originalTitle": "Leichtathletik-EM: Das steht am Mittwoch auf dem Programm",
+      "id": "366830be",
+      "originalTitle": "Langes Warten auf grossen Sieg – «Wenig, das mir in meiner Karriere noch nicht passiert ist»",
+      "simplifiedText": "Jason Joseph gewinnt den grossen Sieg. Er läuft schnell. Er ist froh. Er gewinnt den Sieg.",
+      "vocabularyHints": [
+        "die Karriere — кар'єра",
+        "die Leichtathletik — легка атлетика",
+        "erringen — здобувати, виборювати",
+        "der Sieg — перемога"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/66a30b.webp",
+      "publishedAt": "2026-08-12T22:30:59.000Z",
+      "processedAt": "2026-08-13T07:16:44.405Z"
+    },
+    {
+      "id": "36c521ad",
+      "originalTitle": "– Karoline Leavitt tritt als Sprecherin von Donald Trump zurück",
+      "simplifiedText": "Karoline Leavitt ist Sprecherin. Sie tritt zurück. Sie ist 28 Jahre alt. Sie war Sprecherin von Donald Trump.",
+      "vocabularyHints": [
+        "die Sprecherin — спікерка",
+        "der Grund — причина",
+        "das Weisse Haus — Білий дім",
+        "jung — молодий",
+        "die Geschichte — історія"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/07df5a.webp",
+      "publishedAt": "2026-08-13T02:39:54.000Z",
+      "processedAt": "2026-08-13T07:16:35.877Z"
+    },
+    {
+      "id": "1011f193",
+      "originalTitle": "Sprachrohr des Präsidenten – Karoline Leavitt tritt als Sprecherin von Donald Trump zurück",
+      "simplifiedText": "Die Sprecherin tritt zurück. Sie hat familiäre Motive. Sie ist jung. Sie war Sprecherin im Weissen Haus.",
+      "vocabularyHints": [
+        "die Sprecherin — представниця",
+        "familiär — сімейний",
+        "jung — молодий",
+        "das Weisse Haus — Білий дім",
+        "die Geschichte — історія",
+        "zurücktreten — піти у відставку"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/07df5a.webp",
+      "publishedAt": "2026-08-13T02:39:54.000Z",
+      "processedAt": "2026-08-13T07:16:27.464Z"
+    },
+    {
+      "id": "3267a383",
+      "originalTitle": "Hitze, Dürre, Stürme: Wie lange halten Schutzwälder das aus?",
+      "simplifiedText": "Der Wald schützt Dörfer. Der Wald hält Steine zurück. Der Wald bremst Lawinen. Der Wald schützt Strassen. Der Wald ist wichtig.",
+      "vocabularyHints": [
+        "der Wald — ліс",
+        "die Strasse — дорога",
+        "das Dorf — село",
+        "die Lawine — лавина",
+        "der Stein — камінь"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/08/12/3d96f82e-c206-488e-a25a-c963c1ce67e7.avif?s=b3b8c1764c0a87fbe2a51ae88cfcd6ce",
+      "publishedAt": "2026-08-13T02:51:27.000Z",
+      "processedAt": "2026-08-13T07:16:18.881Z"
+    },
+    {
+      "id": "26de078b",
+      "originalTitle": "«Wie viel Geld verdienen Sie als Schwinger?»",
+      "simplifiedText": "Samuel Giger ist Schwinger. Er ist Profi. Fabian Staudenmann ist auch Profi.",
+      "vocabularyHints": [
+        "der Schwinger — борець",
+        "die Schlagzeilen — заголовки",
+        "der Profi — професіонал",
+        "die Definition — визначення",
+        "der Jahre — років"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/08/12/1b32f882-905c-4455-8bb4-cbbd03a6a044.jpg?s=7333f967488a16423ea63b9e7f6fd160",
+      "publishedAt": "2026-08-13T02:52:02.000Z",
+      "processedAt": "2026-08-13T07:16:10.472Z"
+    },
+    {
+      "id": "668ddb7e",
+      "originalTitle": "In diesem Film dürfen Unverheiratete nur einmal im Jahr Sex haben",
+      "simplifiedText": "Menschen haben Sex. Menschen sind unverheiratet. Sie haben Sex nur einmal. Sie leben in New York.",
+      "vocabularyHints": [
+        "das Chaos — хаос",
+        "die Nacht — ніч",
+        "unverheiratet — незаміжній, незаміжня",
+        "das Dating — знайомство",
+        "der Sex — секс"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/08/12/fb003eff-b875-4ede-bfb7-1b75d1aded0e.jpg?s=c10827d59c1916d50582170280097362",
+      "publishedAt": "2026-08-13T02:52:26.000Z",
+      "processedAt": "2026-08-13T07:16:01.858Z"
+    },
+    {
+      "id": "4defdffc",
+      "originalTitle": "Leichtathletik-EM: Das steht am Donnerstag auf dem Programm",
       "simplifiedText": "Die Athleten laufen schnell. Die Athletinnen springen hoch. Die Schweizer kämpfen um Medaillen. Die Leichtathleten trainieren jeden Tag.",
       "vocabularyHints": [
         "die Medaille — медаль",
         "der Athlet — атлет",
         "die Leichtathletik — легка атлетика",
-        "der Wettkampf — змагання",
-        "die Schweizer — швейцарці",
-        "der Tag — день"
+        "der Tag — день",
+        "die Medaillen — медалі",
+        "der Schweizer — швейцарець"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/08/11/934c8690-3e5c-4efe-9ceb-69b7a283d904.jpg?s=94809581eed21a294de8cd4f2d91f0ce",
-      "publishedAt": "2026-08-12T02:55:39.000Z",
-      "processedAt": "2026-08-12T08:24:12.638Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/08821e62-9c62-4d12-9926-ba51f9788147.jpg?s=181949f4b6f4b50cc7ec32955e2d948a",
+      "publishedAt": "2026-08-13T02:52:53.000Z",
+      "processedAt": "2026-08-13T07:15:53.245Z"
     },
     {
-      "id": "586331a6",
-      "originalTitle": "Die Sonne im Visier – Wie Forschende (künstliche) Sonnenfinsternisse nutzen",
-      "simplifiedText": "Die Sonne scheint. Forschende nutzen Sonnenfinsternisse. Sie helfen Forschenden. Forschende lösen Rätsel.",
+      "id": "2090e1de",
+      "originalTitle": "– Die Sonnenfinsternis zog die Schweiz in ihren Bann",
+      "simplifiedText": "Die Schweiz erlebt ein Himmelsspektakel. Die Sonne ist finster. Die Menschen staunen.",
       "vocabularyHints": [
-        "die Sonne — сонце",
-        "scheinen — сяяти",
-        "Forschende — дослідники",
-        "nutzen — використовувати",
-        "Rätsel — загадки",
-        "lösen — розв'язувати"
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8bbb7d.webp",
-      "publishedAt": "2026-08-12T03:51:43.000Z",
-      "processedAt": "2026-08-12T08:24:03.910Z"
-    },
-    {
-      "id": "112dab3e",
-      "originalTitle": "Hitze und Stromversorgung – Keine Stromlücke in der Schweiz dank Solarenergie",
-      "simplifiedText": "Die Schweiz produziert Strom. Die Sonne strahlt. Die Schweiz hat Solarenergie. Die Schweiz produziert viel Strom. Die Schweiz hat keine Stromlücke.",
-      "vocabularyHints": [
-        "die Solarenergie — сонячна енергія",
-        "der Engpass — затор, нестача",
-        "die Stromproduktion — виробництво електроенергії",
-        "die Stromlücke — нестача електроенергії",
-        "der Flusspegel — рівень води у річці",
-        "die Sonnenstrahlung — сонячне проміння"
-      ],
-      "category": "Energie",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/afb182.webp",
-      "publishedAt": "2026-08-12T03:53:18.000Z",
-      "processedAt": "2026-08-12T08:23:54.923Z"
-    },
-    {
-      "id": "4ffc1ce3",
-      "originalTitle": "Ernährungsinitiative – Selbstversorgungsgrad: Kalorien bestimmen den Wert",
-      "simplifiedText": "Die Initiative fordert Kalorien. Die Kalorien sind wichtig. Die Initiative will Nahrung produzieren. Die Nahrung ist für alle da.",
-      "vocabularyHints": [
-        "die Initiative — ініціатива",
-        "die Kalorien — калорії",
-        "die Nahrung — їжа",
-        "fordern — вимагати",
-        "produzieren — виробляти"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9aa116.webp",
-      "publishedAt": "2026-08-12T03:54:28.000Z",
-      "processedAt": "2026-08-12T08:23:45.774Z"
-    },
-    {
-      "id": "2ea61269",
-      "originalTitle": "Kein Kündigungsschutz? – Befürworter von EU-Vertragspaket schlagen Alarm",
-      "simplifiedText": "Die EU stellt Fragen. Die Kommission entscheidet. Die Wirtschaft wackelt. Die EU schlägt Alarm. Die Befürworter sind besorgt.",
-      "vocabularyHints": [
-        "die Kommission — комісія",
-        "die Wirtschaft — економіка",
-        "befürworten — підтримувати",
-        "entscheiden — вирішувати",
-        "wackeln — похитуватися",
-        "die Befürworter — прихильники"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d6cfd2.webp",
-      "publishedAt": "2026-08-12T03:58:44.000Z",
-      "processedAt": "2026-08-12T08:23:36.918Z"
-    },
-    {
-      "id": "553cd939",
-      "originalTitle": "Neutralitätsinitiative, Ernährungsinitiative – wie stimmst du ab?",
-      "simplifiedText": "Ich stimme ab. Du stimmst ab. Wir nehmen teil.",
-      "vocabularyHints": [
-        "die Abstimmung, -en — голосування",
-        "die Initiative, -n — ініціатива",
-        "die Umfrage — опитування",
-        "teilnehmen — брати участь",
-        "abstimmen — голосувати"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://image.20min.ch/2026/08/10/05a36f3c-8c93-4358-a737-2a2008701800.jpg?s=2a6d378514303ac5a5eb5128eecb0d92",
-      "publishedAt": "2026-08-12T04:00:14.000Z",
-      "processedAt": "2026-08-12T08:23:28.319Z"
-    },
-    {
-      "id": "58faaef6",
-      "originalTitle": "– Cristiano Ronaldo heiratet Partnerin Georgina Rodríguez",
-      "simplifiedText": "Cristiano Ronaldo heiratet Georgina. Sie sind ein Paar. Sie geben das Ja-Wort.",
-      "vocabularyHints": [
-        "das Paar — пара",
-        "das Ja-Wort — слово згоди",
-        "die Medien — ЗМІ",
-        "der Partner — партнер",
-        "die Partnerin — партнерка"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf8623.webp",
-      "publishedAt": "2026-08-12T04:03:24.000Z",
-      "processedAt": "2026-08-12T08:23:19.537Z"
-    },
-    {
-      "id": "5f511bde",
-      "originalTitle": "Fussballstar – Cristiano Ronaldo heiratet Partnerin Georgina Rodríguez",
-      "simplifiedText": "Cristiano Ronaldo ist ein Fussballstar. Er heiratet Georgina. Sie sind ein Paar. Sie sind zehn Jahre zusammen. Sie sagen ja.",
-      "vocabularyHints": [
-        "das Paar — пара",
-        "der Fussballstar — футбольна зірка",
-        "das Ja-Wort — слово згоди",
-        "die Medienberichte — медійні повідомлення",
-        "die Partnerin — партнерка",
-        "das Jahr — рік"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf8623.webp",
-      "publishedAt": "2026-08-12T04:03:24.000Z",
-      "processedAt": "2026-08-12T08:23:11.131Z"
-    },
-    {
-      "id": "29a95cb9",
-      "originalTitle": "Krieg im Nahen Osten – Trump: Strasse von Hormus gehört uns – neue Warnung an Iran",
-      "simplifiedText": "Der Präsident spricht vor Reportern. Er sagt eine Warnung. Der Präsident gehört USA. Der Präsident spricht mit Reportern.",
-      "vocabularyHints": [
-        "der Präsident — президент",
-        "die Warnung — попередження",
-        "die Strasse — вулиця",
-        "der Iran — Іран",
-        "die USA — США"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9adeb9.webp",
-      "publishedAt": "2026-08-12T04:42:04.000Z",
-      "processedAt": "2026-08-12T08:23:02.130Z"
-    },
-    {
-      "id": "43cec6f0",
-      "originalTitle": "«Träume haben eigene Werte» – «Träume zeigen uns, was uns im Leben wirklich wichtig ist»",
-      "simplifiedText": "Ich habe Träume. Ich will glücklich sein. Ich brauche Hilfe. Ich spreche mit einer Psychologin. Sie hilft mir.",
-      "vocabularyHints": [
-        "der Traum — мрія",
-        "die Psychologin — психологиня",
-        "verwirklichen — здійснити",
-        "glücklich — щасливий",
-        "ordnen — впорядкувати",
-        "der Lebens-traum — мрія життя"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d0d772.webp",
-      "publishedAt": "2026-08-12T04:42:05.000Z",
-      "processedAt": "2026-08-12T08:22:53.246Z"
-    },
-    {
-      "id": "4a9086a2",
-      "originalTitle": "Dürre und braune Weiden – Teures Futter wegen Hitze – Landwirte haben Existenzängste",
-      "simplifiedText": "Die Landwirte füttern Tiere. Sie haben Existenzängste. Die Hitze bringt Landwirte in Bedrängnis. Die Weiden sind braun. Die Landwirte brauchen Regen.",
-      "vocabularyHints": [
-        "die Bedrängnis — скрута",
-        "die Weide — пасовисько",
-        "die Hitze — спека",
-        "die Existenz — існування",
-        "der Landwirt — фермер"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/3c2c61.webp",
-      "publishedAt": "2026-08-12T04:50:05.000Z",
-      "processedAt": "2026-08-12T08:22:44.141Z"
-    },
-    {
-      "id": "3b8a0ca7",
-      "originalTitle": "Wiederaufbau ob Andermatt – Krach um Max: Wegen des Holzstiers sehen gewisse Urner rot",
-      "simplifiedText": "Der Holzkoloss steht in Uri. Der Holzkoloss ist gross. Die Leute sehen den Holzkoloss. Der Holzkoloss ist alt. Die Leute sprechen über den Holzkoloss.",
-      "vocabularyHints": [
-        "der Holzkoloss — дерев'яний колос",
-        "polarisieren — поляризувати",
-        "das Vorhaben — задум",
-        "der Holzstier — дерев'яний бик",
-        "die Leute — люди"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5cff468.webp",
-      "publishedAt": "2026-08-12T04:53:02.000Z",
-      "processedAt": "2026-08-12T08:22:35.547Z"
-    },
-    {
-      "id": "445e829e",
-      "originalTitle": "Mythos US-Nationalgetränk – Ist Coca-Cola doch keine US‑Erfindung? Na, wenn schon!",
-      "simplifiedText": "Die Mönche finden ein altes Rezept. Sie trinken ein Getränk. Das Getränk ist alt. Die Mönche sind in einem Kloster.",
-      "vocabularyHints": [
-        "das Rezept — рецепт",
-        "das Kloster — монастир",
-        "die Mönche — ченці",
-        "das Getränk — напій",
-        "alt — старий"
-      ],
-      "category": "Kultur",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d16abd.webp",
-      "publishedAt": "2026-08-12T05:01:03.000Z",
-      "processedAt": "2026-08-12T08:22:26.592Z"
-    },
-    {
-      "id": "5eb210d0",
-      "originalTitle": "WTA-1000-Turnier in Toronto – Hüftprobleme bremsen Bencic aus",
-      "simplifiedText": "Die Spielerin gibt Forfait. Sie hat Hüftprobleme. Die Spielerin spielt nicht. Sie ist krank. Die Spielerin gibt auf.",
-      "vocabularyHints": [
-        "die Hüfte — стегно",
-        "das Forfait — зречення",
-        "die Spielerin — спортсменка",
-        "krank — хворий",
-        "aufgeben — здаватись"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7f78c55.webp",
-      "publishedAt": "2026-08-12T05:15:05.000Z",
-      "processedAt": "2026-08-12T08:22:17.909Z"
-    },
-    {
-      "id": "7720af97",
-      "originalTitle": "Eindrückliche Drohnenbilder zeigen Ausmass der Trockenheit",
-      "simplifiedText": "Die Sonne scheint. Die Pflanzen wachsen. Die Trockenheit kommt. Die Pflanzen sterben. Die Menschen leiden.",
-      "vocabularyHints": [
-        "die Trockenheit — посуха",
-        "die Spur — слід",
-        "angespannt — напружений",
-        "die Lage — ситуація",
-        "das Gebiet — територія"
+        "das Himmelsspektakel — небесне явище",
+        "die Sonnenfinsternis — сонячне затемнення",
+        "staunen — дивуватися",
+        "die Schweiz — Швейцарія",
+        "finster — темний"
       ],
       "category": "Wetter",
-      "imageUrl": "https://image.20min.ch/2026/08/12/bf53207e-eeb0-40fd-933f-b08aa186b095.jpg?s=696ec49d20d603c9738b51ad8375dbb1",
-      "publishedAt": "2026-08-12T05:34:56.000Z",
-      "processedAt": "2026-08-12T08:22:09.443Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6e5d0f.webp",
+      "publishedAt": "2026-08-13T03:24:06.000Z",
+      "processedAt": "2026-08-13T07:15:44.775Z"
     },
     {
-      "id": "681e0dfa",
-      "originalTitle": "Als erster arabischer Staat – Historischer Schritt: Todesstrafe im Libanon abgeschafft",
-      "simplifiedText": "Das Land schafft Hinrichtungen ab. Die Journalistin sagt das ist bedeutend. Die Region ist wichtig. Das Land ist erster Staat. Die Menschen sind froh.",
+      "id": "2510c41a",
+      "originalTitle": "Tausende Schaulustige – Die Sonnenfinsternis zog die Schweiz in ihren Bann",
+      "simplifiedText": "Die Schweiz erlebt ein Himmelsspektakel. Die Sonne ist finster. Die Leute staunen. Die Schweiz hat ein seltenes Ereignis. Die Leute sind begeistert.",
       "vocabularyHints": [
-        "die Hinrichtung — страта",
-        "die Region — регіон",
+        "das Himmelsspektakel — небесне шоу",
+        "die Sonnenfinsternis — сонячне затемнення",
+        "staunen — дивуватися",
+        "begeistert — захоплений",
+        "das Ereignis — подія"
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6e5d0f.webp",
+      "publishedAt": "2026-08-13T03:24:06.000Z",
+      "processedAt": "2026-08-13T07:15:35.597Z"
+    },
+    {
+      "id": "27bd5bea",
+      "originalTitle": "Aufsicht kritisiert Bund – Vergünstigungen bei Medikamenten erreichen die Patienten kaum",
+      "simplifiedText": "Der Bund kritisiert die Aufsicht. Die Apotheken geben Rabatte. Die Patienten bekommen Rabatte. Die Ärztinnen geben Medikamente. Die Spital-Leitungen helfen Patienten.",
+      "vocabularyHints": [
+        "die Aufsicht — нагляд",
+        "die Apotheken — аптеки",
+        "der Rabatt — знижка",
+        "die Ärztinnen — лікарки",
+        "das Spital — лікарня"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a51393.webp",
+      "publishedAt": "2026-08-13T03:25:19.000Z",
+      "processedAt": "2026-08-13T07:15:26.727Z"
+    },
+    {
+      "id": "18e0fdb1",
+      "originalTitle": "Travis Kelce schwärmt von «bester Nacht» seines Lebens",
+      "simplifiedText": "Travis Kelce ist glücklich. Er heiratet Taylor. Sie sind verliebt.",
+      "vocabularyHints": [
+        "das Ja-Wort — слово згоди",
+        "die Wolke — хмара",
+        "verliebt — закоханий"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2026/04/07/4f315533-80bf-4116-bad9-f181b36daa92.jpg?s=0d6544259c5fde30304d3a8df3bea4e5",
+      "publishedAt": "2026-08-13T03:35:32.000Z",
+      "processedAt": "2026-08-13T07:15:18.089Z"
+    },
+    {
+      "id": "2ce23b4c",
+      "originalTitle": "Handel Schweiz–Kuba – Wer mit Kuba Geschäfte macht, bekommt die Macht der USA zu spüren",
+      "simplifiedText": "Die Schweiz handelt mit Kuba. Die USA geben Sanktionen. Die Schweizer machen Geschäfte. Die USA sind mächtig.",
+      "vocabularyHints": [
+        "die Sanktionen — санкції",
+        "der Grund — причина",
+        "die Macht — влада",
+        "das Geschäft — бізнес",
+        "schwierig — важко"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a2511c.webp",
+      "publishedAt": "2026-08-13T03:40:35.000Z",
+      "processedAt": "2026-08-13T07:15:09.252Z"
+    },
+    {
+      "id": "68731919",
+      "originalTitle": "Vorbild Schweiz – Basels grösstes Freibad wird zum internationalen Vorbild",
+      "simplifiedText": "Die Schweiz ist ein Vorbild. Die Delegationen lernen. Sie kommen in die Schweiz. Sie lernen viel.",
+      "vocabularyHints": [
+        "die Delegation — делегація",
+        "der Vorbild — взірець",
+        "lernen — вчитися",
+        "die Woche — тиждень",
+        "der Fluss — річка"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9ebc78.webp",
+      "publishedAt": "2026-08-13T03:43:14.000Z",
+      "processedAt": "2026-08-13T07:15:00.036Z"
+    },
+    {
+      "id": "05871236",
+      "originalTitle": "Hitzesommer – Bella-Tola-Gletscher weggeschmolzen: Weitere dürften folgen",
+      "simplifiedText": "Der Gletscher ist weg. Der Gletscher schmilzt. Der Sommer ist heiß. Der Gletscher ist verschwunden.",
+      "vocabularyHints": [
+        "der Gletscher — льодовик",
+        "wegschmelzen — танути",
+        "verschwinden — зникати",
+        "der Sommer — літо",
+        "heiß — гарячий",
+        "schmelzen — танути"
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/16a3091.webp",
+      "publishedAt": "2026-08-13T04:30:25.000Z",
+      "processedAt": "2026-08-13T07:14:51.484Z"
+    },
+    {
+      "id": "7d9794d0",
+      "originalTitle": "Pilotversuch Radarfallen – Radarstandorte bekanntzugeben, bringt keine Vorteile",
+      "simplifiedText": "Die Polizei sagt wo die Blitzer sind. Es gibt Unfälle. Die Polizei steht da. Die Polizei sagt das.",
+      "vocabularyHints": [
+        "die Polizei — поліція",
+        "der Blitz — спалах",
+        "der Unfall — нещасний випадок",
+        "der Versuch — спроба",
+        "die Vorteile — переваги"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/60b2c9.webp",
+      "publishedAt": "2026-08-13T04:31:31.000Z",
+      "processedAt": "2026-08-13T07:14:42.435Z"
+    },
+    {
+      "id": "063b3185",
+      "originalTitle": "Klimawandel und Kipppunkte – Klimatologe: «Es wird das Schmelzwasser der Gletscher fehlen»",
+      "simplifiedText": "Die Erde wird warm. Die Gletscher schmelzen. Die Menschen forschen. Die Forscher schreiben. Die Welt wird trocken.",
+      "vocabularyHints": [
+        "die Erde — земля",
+        "warm — теплий",
+        "die Gletscher — льодовики",
+        "schmelzen — танути",
+        "forschen — досліджувати"
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/3afd89.webp",
+      "publishedAt": "2026-08-13T04:33:55.000Z",
+      "processedAt": "2026-08-13T07:14:33.915Z"
+    },
+    {
+      "id": "70dfb54a",
+      "originalTitle": "Q&A zu Wandern in den Bergen – Welche Fragen haben Sie zum Wandern?",
+      "simplifiedText": "Zwei Fachpersonen beantworten Fragen. Sie schreiben uns. Wir antworten.",
+      "vocabularyHints": [
+        "die Fachperson — фахівець",
+        "das Wandern — походи",
+        "die Frage — питання",
+        "beantworten — відповідати",
+        "schreiben — писати"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1274a1.webp",
+      "publishedAt": "2026-08-13T04:45:22.000Z",
+      "processedAt": "2026-08-13T07:14:25.171Z"
+    },
+    {
+      "id": "5b6cfe2c",
+      "originalTitle": "Beben in Kolumbien – «Es gibt eine grosse Solidarität im Erdbebengebiet»",
+      "simplifiedText": "Die Journalistin Katharina Wojczenko befindet sich in der Stadt. Sie beschreibt die Lage. Die Menschen helfen einander. Die Stadt ist versehrt. Die Menschen sind solidarisch.",
+      "vocabularyHints": [
         "die Journalistin — журналістка",
-        "bedeutend — важливий",
-        "der Staat — держава"
+        "die Stadt — місто",
+        "versehrt — пошкоджений",
+        "solidarisch — солідарний",
+        "die Lage — ситуація",
+        "befinden — знаходиться"
       ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e747c7.webp",
-      "publishedAt": "2026-08-12T06:21:46.000Z",
-      "processedAt": "2026-08-12T08:22:01.122Z"
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9501f56.webp",
+      "publishedAt": "2026-08-13T04:48:49.000Z",
+      "processedAt": "2026-08-13T07:14:16.819Z"
     },
     {
-      "id": "115d4f24",
-      "originalTitle": "Roger Federer ist nicht mehr Milliardär",
-      "simplifiedText": "Roger Federer ist reich. Er hat Geld. Er ist nicht mehr Milliardär. Er hat Aktien. Die Aktien sind teuer.",
+      "id": "5c7ba1ec",
+      "originalTitle": "«Der meisterwartete Schweizer Film» feiert Premiere am ZFF",
+      "simplifiedText": "Der Film feiert Premiere. Der Film erzählt die Katastrophe. Die Menschen helfen. Die Filme feiern Premiere.",
       "vocabularyHints": [
-        "der Milliardär — мільярдер",
-        "die Aktie, -n — акція",
-        "reich — багатий",
-        "teuer — дорогий",
-        "die Marke — торгова марка"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://image.20min.ch/2026/08/12/9d333a3f-463f-405a-8268-f41aa3de842c.jpg?s=dcb8a192671f1f87703dcee80d9735db",
-      "publishedAt": "2026-08-12T07:12:08.000Z",
-      "processedAt": "2026-08-12T08:21:52.658Z"
-    },
-    {
-      "id": "1aafa5a6",
-      "originalTitle": "Indonesien – Fähre zwischen Bali und Lombok gerät in Brand",
-      "simplifiedText": "Die Fähre fährt zwischen den Inseln. Die Fähre gerät in Brand. Die Passagiere werden evakuiert. Die Menschen sind in Sicherheit. Die Fähre ist kaputt.",
-      "vocabularyHints": [
-        "die Fähre — паром",
-        "die Insel — острів",
-        "in Brand geraten — загорітися",
-        "evakuiert — евакуйований",
-        "kaputt — зламаний"
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/38f9a9.webp",
-      "publishedAt": "2026-08-12T07:15:22.000Z",
-      "processedAt": "2026-08-12T08:21:43.842Z"
-    },
-    {
-      "id": "1ebd630b",
-      "originalTitle": "Arbeitszeitbegrenzung – Die Spezialisten verdienen mehr als vorgesehen",
-      "simplifiedText": "Ärztinnen arbeiten. Ärzte verdienen Geld. Spezialisten sind empört. Sie arbeiten viel. Sie verdienen mehr.",
-      "vocabularyHints": [
-        "die Ärztin — лікарка",
-        "der Spezialist — фахівець",
-        "empört — обурений",
-        "die Begrenzung — обмеження",
-        "abrechnen — розраховувати"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/905a7d9.webp",
-      "publishedAt": "2026-08-12T07:18:11.000Z",
-      "processedAt": "2026-08-12T08:21:35.441Z"
-    },
-    {
-      "id": "13f6b2bf",
-      "originalTitle": "8 Monate nach Geburt – Kambundjis schwieriger Balance-Akt zwischen Ambition und Geduld",
-      "simplifiedText": "Mujinga Kambundji ist in Birmingham. Sie ist stolz. Sie lauft.",
-      "vocabularyHints": [
-        "die Medaille — медаль",
-        "die EM — чемпіонат Європи",
-        "stolz — гордий",
-        "die Geduld — терпіння"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/31a669.webp",
-      "publishedAt": "2026-08-12T07:22:31.000Z",
-      "processedAt": "2026-08-12T08:21:26.932Z"
-    },
-    {
-      "id": "0f1112ec",
-      "originalTitle": "Hürdensprinter Jason Joseph – Keine sorgenfreie Vorbereitung – doch das war 2024 auch so",
-      "simplifiedText": "Jason Joseph gewinnt Medaillen. Er läuft 110 Meter. Er peilt eine Medaille an.",
-      "vocabularyHints": [
-        "die Hürde, -n — бар'єр",
-        "die Medaille, -n — медаль",
-        "peilen — націлюватись",
-        "die Vorbereitung, -en — підготовка"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8b0edc.webp",
-      "publishedAt": "2026-08-12T07:22:59.000Z",
-      "processedAt": "2026-08-12T08:21:18.624Z"
-    },
-    {
-      "id": "0d15ce52",
-      "originalTitle": "Hohe Preise, Tribünen halbleer – Stell dir vor, es ist Leichtathletik-EM und keiner geht hin",
-      "simplifiedText": "Die Preise sind hoch. Die Tribünen sind leer. Die Leute sind unzufrieden.",
-      "vocabularyHints": [
-        "die Tribüne, -n — трибуна",
-        "leer — порожній",
-        "hoch — високий",
-        "die Kosten — витрати",
-        "Unmut — невдоволення"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d11934.webp",
-      "publishedAt": "2026-08-12T07:26:57.000Z",
-      "processedAt": "2026-08-12T08:21:09.252Z"
-    },
-    {
-      "id": "417443f5",
-      "originalTitle": "Olympia 2028 als Weitspringer? – Ehammer: Silber um den Hals und ein Entscheid im Hinterkopf",
-      "simplifiedText": "Simon Ehammer springt. Er ist Weitspringer. Er hat Silber. Er entscheidet sich.",
-      "vocabularyHints": [
-        "der Weitspringer — стрибун у довжину",
-        "das Silber — срібло",
-        "der Entscheid — рішення",
-        "der Hals — шия",
-        "das Highlight — найвищий рівень",
-        "die Karriere — кар'єра"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e2a30c1.webp",
-      "publishedAt": "2026-08-12T07:35:11.000Z",
-      "processedAt": "2026-08-12T08:21:00.401Z"
-    },
-    {
-      "id": "4059968e",
-      "originalTitle": "Ungebetene Gäste – Quallenplage bringt Atomreaktoren in Frankreich zum Halt",
-      "simplifiedText": "Das Atomkraftwerk stoppt. Quallen sind da. Sie bringen das Kraftwerk zum Halt. Das Kraftwerk ist in Frankreich. Quallen sind unangenehm.",
-      "vocabularyHints": [
-        "das Atomkraftwerk — атомна електростанція",
-        "teilweise — частково",
-        "einstellen — зупиняти",
-        "unangenehm — неприємний",
-        "das Kraftwerk — електростанція"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/f58794.webp",
-      "publishedAt": "2026-08-12T07:55:17.000Z",
-      "processedAt": "2026-08-12T08:20:51.762Z"
-    },
-    {
-      "id": "1d7d6997",
-      "originalTitle": "Notfälle häufen sich: Musst du bald ohne Powerbank fliegen?",
-      "simplifiedText": "Die Powerbank ist gefährlich. Sie sorgt für Zwischenfälle. Die Swiss setzt auf Prävention.",
-      "vocabularyHints": [
-        "die Powerbank — портативний акумулятор",
-        "der Zwischenfall — інцидент",
-        "die Prävention — профілактика",
-        "die Swiss — швейцарська авіакомпанія",
-        "gefährlich — небезпечний"
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://image.20min.ch/2026/08/11/6b1516ba-e5d5-44a8-8f92-25587ee79be2.jpg?s=a60292c974bed4004d2b9b384effc0f3",
-      "publishedAt": "2026-08-12T08:08:55.000Z",
-      "processedAt": "2026-08-12T08:20:42.487Z"
-    },
-    {
-      "id": "0199c929",
-      "originalTitle": "Krieg in der Ukraine – Ukraine attackiert Schwarzmeerhafen Noworossijsk",
-      "simplifiedText": "Die Ukraine greift an. Die Drohne fliegt. Die Drohne greift an. Die Ukraine attackiert.",
-      "vocabularyHints": [
-        "die Drohne — безпілотник",
-        "der Hafen — порт",
+        "die Katastrophe — катастрофа",
+        "die Premiere — прем'єра",
         "die Küste — берег",
-        "angreifen — атакувати",
-        "die Nacht — ніч"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/08c9dd.webp",
-      "publishedAt": "2026-08-12T08:09:04.000Z",
-      "processedAt": "2026-08-12T08:20:33.017Z"
-    },
-    {
-      "id": "18cc64ff",
-      "originalTitle": "Kriegsgegner unerwünscht – Russische Oppositionspartei von Parlamentswahl ausgeschlossen",
-      "simplifiedText": "Die Partei fordert ein Ende. Die Partei tritt nicht an. Die Partei ist unerwünscht. Die Opposition ist stark.",
-      "vocabularyHints": [
-        "die Partei — партія",
-        "fordern — вимагати",
-        "unerwünscht — нежаданий",
-        "die Opposition — опозиція",
-        "tritt an — бере участь",
-        "ausschließen — виключати"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e76e21.webp",
-      "publishedAt": "2026-08-12T08:09:55.000Z",
-      "processedAt": "2026-08-12T08:20:24.306Z"
-    },
-    {
-      "id": "16d07b0b",
-      "originalTitle": "«Baywatch»-Star schwimmt jetzt auf Onlyfans-Erfolgswelle",
-      "simplifiedText": "Die Schauspielerin schwimmt. Sie ist berühmt. Sie ist 56 Jahre alt. Sie schlägt ein neues Kapitel auf. Sie erfüllt einen Wunsch.",
-      "vocabularyHints": [
-        "die Schauspielerin — актриса",
-        "berühmt — відомий",
-        "das Kapitel — розділ",
-        "der Wunsch — бажання",
-        "die Rettungsschwimmerin — рятувальниця",
-        "das Badeanzug — купальник"
+        "die Sicht — погляд",
+        "die Angehörigen — рідні",
+        "die Helfenden — допоможливі люди"
       ],
       "category": "Kultur",
-      "imageUrl": "https://media.20min.ch/6/image/2025/11/16/379131b4-e31e-4cd6-8564-71819e21bcd4.jpg?s=42b1d8de8b54bae56926f2b7b1074a13",
-      "publishedAt": "2026-08-12T08:11:48.000Z",
-      "processedAt": "2026-08-12T08:20:15.286Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/d7094be4-b7b5-4e93-87c8-bcea2868b10f.jpg?s=29eb1f67e0d32f308ae6d82e66560e94",
+      "publishedAt": "2026-08-13T05:07:40.000Z",
+      "processedAt": "2026-08-13T07:14:08.245Z"
     },
     {
-      "id": "2254c43a",
-      "originalTitle": "Heute Abend ist Sonnenfinsternis – live bei 20 Minuten",
-      "simplifiedText": "Der Mond schiebt sich vor die Sonne. Die Sonne scheint. Der Mond ist dunkel. Der Himmel ist schwarz.",
+      "id": "2da62fe7",
+      "originalTitle": "Mit 97 Jahren – Marktreformer und Technokrat: Chinas Zhu Rongji gestorben",
+      "simplifiedText": "Der Ministerpräsident reformiert den Markt. Der Ministerpräsident ist ein Technokrat. Der Ministerpräsident prägt die Wirtschaftspolitik. Die Wirtschaftspolitik ist wichtig. Der Ministerpräsident ist alt.",
       "vocabularyHints": [
-        "der Mond — місяць",
-        "die Sonne — сонце",
-        "schieben — тискати, пересувати",
-        "der Himmel — небо"
+        "der Ministerpräsident — прем'єр-міністр",
+        "die Wirtschaftspolitik — економічна політика",
+        "reformieren — реформувати",
+        "der Technokrat — технократ",
+        "prägen — формувати",
+        "die Wirtschaft — економіка"
       ],
-      "category": "Wetter",
-      "imageUrl": "https://image.20min.ch/2026/07/22/b29873d7-e8ba-43a4-8c77-0cd63c10f8f6.jpg?s=34e221f5a0d61b4a2d82a11f78bb9155",
-      "publishedAt": "2026-08-12T08:18:46.000Z",
-      "processedAt": "2026-08-12T08:20:06.600Z"
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d561b5.webp",
+      "publishedAt": "2026-08-13T05:31:23.000Z",
+      "processedAt": "2026-08-13T07:13:59.944Z"
+    },
+    {
+      "id": "5ef48eae",
+      "originalTitle": "Efta-Mercosur-Handelsabkommen – Fleisch- gegen Milchlobby bei Freihandelsabkommen mit Südamerika",
+      "simplifiedText": "Der Bauer produziert Milch. Der Bauer verkauft Milch. Der Bauer diskutiert das Abkommen. Der Bauer ist in Bern. Der Bauer lehnt das Abkommen ab.",
+      "vocabularyHints": [
+        "der Bauer — фермер",
+        "die Milch — молоко",
+        "das Abkommen — угода",
+        "diskutieren — обговорювати",
+        "der Verband — спілка"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf0a7a.webp",
+      "publishedAt": "2026-08-13T05:51:00.000Z",
+      "processedAt": "2026-08-13T07:13:51.539Z"
+    },
+    {
+      "id": "26acbd84",
+      "originalTitle": "«Seit ich Mutter bin, treffen sie sich ohne mich – heimlich»",
+      "simplifiedText": "Die Mutter trifft sich mit Freunden. Die Freunde treffen sich ohne Mutter. Die Mutter ist traurig. Die Freunde sind weg. Die Mutter ist allein.",
+      "vocabularyHints": [
+        "die Mutter — мати",
+        "der Freundeskreis — коло друзів",
+        "sich treffen — зустрічатись",
+        "die Freundschaft — дружба",
+        "die Community — спільнота",
+        "sich lösen — розпускатись",
+        "traurig — сумний"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/08/12/4ad55780-198f-4615-853f-647629b313c7.jpg?s=b66d896e774fba3a470d5b38c18cc4ea",
+      "publishedAt": "2026-08-13T05:59:48.000Z",
+      "processedAt": "2026-08-13T07:13:42.687Z"
+    },
+    {
+      "id": "44846405",
+      "originalTitle": "Neu im Comic-Regal – «Strong Men»: Wie toxische Männlichkeit Politik beeinflusst",
+      "simplifiedText": "Alexander ist gross. Trump ist stark. Männer sind verletzlich. Männer lesen Comics. Männer sind zerstörerisch.",
+      "vocabularyHints": [
+        "der Comic — комікс",
+        "die Kraft — сила",
+        "zerstörerisch — руйнівний",
+        "verletzlich — вразливий",
+        "der Sach-Comic — документальний комікс"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/393bcd.webp",
+      "publishedAt": "2026-08-13T06:08:06.000Z",
+      "processedAt": "2026-08-13T07:13:33.617Z"
+    },
+    {
+      "id": "29ed7365",
+      "originalTitle": "«Frank & Louis»-Europapremiere – Petra Volpe über Freundschaft und Demenz – hinter Gefängnismauern",
+      "simplifiedText": "Männer sind Freunde. Männer helfen Männern. Männer sind nett. Männer reden miteinander. Männer lachen zusammen.",
+      "vocabularyHints": [
+        "die Freundschaft — дружба",
+        "die Menschlichkeit — людяність",
+        "hinter — позаду",
+        "das Gitter — ґратка",
+        "die Männerfreundschaft — чоловіча дружба",
+        "ungewöhnlich — незвичайний"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/eb97521.webp",
+      "publishedAt": "2026-08-13T06:09:40.000Z",
+      "processedAt": "2026-08-13T07:13:25.035Z"
+    },
+    {
+      "id": "66214095",
+      "originalTitle": "Wegen Erdrutsch – Albulalinie im Bündnerland teilweise unterbrochen",
+      "simplifiedText": "Der Zug fährt. Der Zug ist gestört. Der Erdrutsch ist niedergegangen. Der Zug fährt nicht.",
+      "vocabularyHints": [
+        "der Erdrutsch — зсуви",
+        "der Bahnverkehr — залізничний рух",
+        "gestört — порушений",
+        "niedergehen — падати",
+        "der Zug — потяг",
+        "teilweise — частково",
+        "unterbrechen — переривати"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c0dddfe.webp",
+      "publishedAt": "2026-08-13T06:18:50.000Z",
+      "processedAt": "2026-08-13T07:13:16.272Z"
+    },
+    {
+      "id": "4e3aee66",
+      "originalTitle": "Todesfall von Mieter – «Wie lange muss ich den Mietzins noch bezahlen?»",
+      "simplifiedText": "Die Mieter zahlen den Mietzins. Die Angehörigen kündigen die Wohnung. Die Mieter bezahlen den Mietzins. Die Wohnung ist leer.",
+      "vocabularyHints": [
+        "der Mieter — орендар",
+        "der Mietzins — орендна плата",
+        "die Angehörigen — рідні",
+        "die Wohnung — квартира",
+        "kündigen — розривати договір оренди"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d4c6f8.webp",
+      "publishedAt": "2026-08-13T06:44:33.000Z",
+      "processedAt": "2026-08-13T07:13:07.150Z"
+    },
+    {
+      "id": "1e667dbc",
+      "originalTitle": "Rückspiele in 3. Quali-Runde – Europacup-Aussichten sind rosig – nur Vaduz im Hintertreffen",
+      "simplifiedText": "Die Mannschaft spielt im Europacup. Die Spieler sind sehr gut. Die Trainer sind zufrieden. Die Fans sind happy. Die Mannschaft gewinnt das Spiel.",
+      "vocabularyHints": [
+        "die Mannschaft — команда",
+        "der Trainer — тренер",
+        "der Europacup — єврокубок",
+        "die Playoffs — плей-оф",
+        "die Super-League — суперліга",
+        "das Spiel — гра",
+        "zufrieden — задоволений"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4cd0e9.webp",
+      "publishedAt": "2026-08-13T06:48:26.000Z",
+      "processedAt": "2026-08-13T07:12:58.442Z"
+    },
+    {
+      "id": "79559c65",
+      "originalTitle": "Tofu-Test – Grosse Unterschiede beim Soja-Gehalt in Tofu",
+      "simplifiedText": "Die Organisation testet Tofu. Die Organisation findet Unterschiede. Die Konsumenten sind erstaunt. Die Resultate sind wichtig.",
+      "vocabularyHints": [
+        "die Organisation — організація",
+        "testen — тестувати",
+        "die Unterschiede — відмінності",
+        "erstaunt — здивований",
+        "die Resultate — результати",
+        "der Tofu — тофу"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c9e8a4d.webp",
+      "publishedAt": "2026-08-13T07:01:42.000Z",
+      "processedAt": "2026-08-13T07:12:49.932Z"
+    },
+    {
+      "id": "639d465d",
+      "originalTitle": "Kongo-Kinshasa – Ebola: WHO warnt vor Rekord-Epidemie – die Übersicht",
+      "simplifiedText": "Die Welt schlägt Alarm. Die Weltgesundheitsorganisation warnt. Die Organisation schlägt Alarm. Die Welt ist besorgt.",
+      "vocabularyHints": [
+        "die Welt — світ",
+        "die Weltgesundheitsorganisation — Всесвітня організація охорони здоров'я",
+        "der Alarm — тривога",
+        "die Organisation — організація",
+        "besorgt — турбований"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d42d88.webp",
+      "publishedAt": "2026-08-13T07:10:08.000Z",
+      "processedAt": "2026-08-13T07:12:41.273Z"
     }
   ],
   "A2": [
     {
-      "id": "28192b33",
-      "originalTitle": "Journalist verbreitet falsche Musiala-Gerüchte und wird verhaftet",
-      "simplifiedText": "Ein Journalist hat falsche Nachrichten über einen Fußballspieler verbreitet. Der Journalist hat gesagt, dass der Spieler zu einem anderen Verein wechseln wird. Aber das war nicht wahr. Der Journalist wurde verhaftet, weil er falsche Informationen verbreitet hat. Er hat sich sehr unglücklich verhalten. Der Journalist arbeitet normalerweise für eine türkische Zeitung. Er schreibt über Fußball und andere Sportarten. Jetzt ist er in Schwierigkeiten, weil er gelogen hat.",
+      "id": "556bf9de",
+      "originalTitle": "Trotz Doppelrekord von Villa-Teenager: PSG gewinnt den Supercup",
+      "simplifiedText": "Ich gehe jeden Tag zur Arbeit. Das Wetter ist heute schön, aber morgen regnet es. Ich muss einkaufen gehen, denn ich brauche neue Schuhe. Ich kann aber auch online einkaufen. Mein Freund arbeitet in einem Büro und ich arbeite in einem Laden. Wir treffen uns nach der Arbeit und gehen oft spazieren. Das Wetter ist wichtig für unsere Pläne.",
       "vocabularyHints": [
-        "der Fauxpas — прикроїсть, помилка",
-        "die Falschmeldung — хибна інформація",
-        "der Verein — спілка, клуб",
-        "sich verhalten — поводитись",
-        "die Zeitung — газета"
+        "das Büro — офіс",
+        "der Laden — крамниця",
+        "einkaufen — купувати",
+        "der Spaziergang — прогулянка",
+        "das Wetter — погода"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/08/11/b3276ab6-5ab1-4b58-94c3-bb804e8e007e.jpg?s=4cb9fdbdc1a094d8e7fe6866a60bc6b9",
-      "publishedAt": "2026-08-12T02:55:05.000Z",
-      "processedAt": "2026-08-12T08:24:24.622Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/0cf26c9b-74f7-4c4e-974c-72fcd9b93126.jpg?s=87cd518ef0c2afd9b616e0df8ce7309b",
+      "publishedAt": "2026-08-12T21:33:44.000Z",
+      "processedAt": "2026-08-13T07:16:55.791Z"
     },
     {
-      "id": "1cae489d",
-      "originalTitle": "Leichtathletik-EM: Das steht am Mittwoch auf dem Programm",
-      "simplifiedText": "Die Leichtathletik-EM findet in Birmingham statt. Die Schweizer Athletinnen und Athleten kämpfen um Edelmetall. Am Mittwoch ist es soweit. Sie treten in verschiedenen Disziplinen an. Das Wetter in Birmingham ist aber nicht ideal. Es regnet und ist kalt. Trotzdem sind die Schweizer Athleten zuversichtlich, denn sie haben sich gut vorbereitet. Sie hoffen auf Erfolge und Medaillen.",
+      "id": "0628645d",
+      "originalTitle": "Langes Warten auf grossen Sieg – «Wenig, das mir in meiner Karriere noch nicht passiert ist»",
+      "simplifiedText": "Jason Joseph hat den grössten Sieg in seiner Karriere errungen. Er hat an der Leichtathletik-EM 2026 in Birmingham teilgenommen und gewonnen. Das Wetter war gut und die Stimmung war sehr gut. Er hat sich sehr gefreut und ist stolz auf seinen Erfolg. Er hat viel trainiert und sich bemüht, um diesen Sieg zu erringen. Er denkt, dass dies der grösste Sieg in seiner Karriere ist. Er wird weiterhin trainieren und sich bemühen, um weitere Siege zu erringen.",
       "vocabularyHints": [
         "die Leichtathletik — легка атлетика",
-        "die Disziplin, -en — дисципліна",
-        "das Edelmetall — благородний метал",
-        "die Athletin, -nen — легкоатлетка",
-        "sich vorbereiten — готуватись",
-        "die Medaille — медаль"
+        "die EM — чемпіонат Європи",
+        "die Stimmung — настрій",
+        "sich bemühen — докладати зусиль",
+        "der Erfolg — успіх",
+        "die Karriere — кар'єра"
       ],
       "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/08/11/934c8690-3e5c-4efe-9ceb-69b7a283d904.jpg?s=94809581eed21a294de8cd4f2d91f0ce",
-      "publishedAt": "2026-08-12T02:55:39.000Z",
-      "processedAt": "2026-08-12T08:24:15.592Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/66a30b.webp",
+      "publishedAt": "2026-08-12T22:30:59.000Z",
+      "processedAt": "2026-08-13T07:16:47.440Z"
     },
     {
-      "id": "5794b325",
-      "originalTitle": "Die Sonne im Visier – Wie Forschende (künstliche) Sonnenfinsternisse nutzen",
-      "simplifiedText": "Die Sonne scheint jeden Tag. Aber manchmal gibt es Sonnenfinsternisse. Das Wetter ist dann sehr interessant. Forschende nutzen Sonnenfinsternisse, um Rätsel zu lösen. Sie können berechnen, wann eine Sonnenfinsternis passiert. Dann können sie ihre Forschung durchführen. Sie arbeiten sehr genau und sammeln viele Daten. Sie helfen uns, die Welt besser zu verstehen.",
+      "id": "7b7b6652",
+      "originalTitle": "– Karoline Leavitt tritt als Sprecherin von Donald Trump zurück",
+      "simplifiedText": "Karoline Leavitt war die jüngste Sprecherin im Weissen Haus. Sie ist 28 Jahre alt und hat jetzt ihren Job aufgegeben. Der Grund dafür sind familiäre Motive. Sie arbeitete für Donald Trump. Jetzt sucht er eine neue Sprecherin. Karoline Leavitt war sehr jung, als sie den Job annahm. Sie wird ihre Familie jetzt mehr sehen.",
       "vocabularyHints": [
-        "die Sonnenfinsternis — сонячне затемнення",
-        "das Rätsel — загадка",
-        "die Forschung — дослідження",
-        "sich lösen — розв'язувати",
-        "das Wetter — погода",
-        "die Berechnung — розрахунок"
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8bbb7d.webp",
-      "publishedAt": "2026-08-12T03:51:43.000Z",
-      "processedAt": "2026-08-12T08:24:06.787Z"
-    },
-    {
-      "id": "0a04c8fd",
-      "originalTitle": "Hitze und Stromversorgung – Keine Stromlücke in der Schweiz dank Solarenergie",
-      "simplifiedText": "Die Schweiz hat ein Problem mit der Stromproduktion. Der Grund ist der tiefe Flusspegel. Aber es gibt viel Sonnenstrom, der uns hilft. Die Menschen in der Schweiz arbeiten und kaufen ein, aber sie brauchen Strom. Die Wetterlage ist wichtig, denn sie beeinflusst die Stromproduktion. Es ist heiß und trocken, aber die Solarenergie hilft uns. Die Schweiz ist dankbar für die Solarenergie, denn sie verhindert eine Stromlücke.",
-      "vocabularyHints": [
-        "die Stromproduktion — виробництво електроенергії",
-        "der Flusspegel — рівень води у річці",
-        "der Engpass — нестача, дефіцит",
-        "die Solarenergie — сонячна енергія",
-        "die Wetterlage — погодна ситуація",
-        "die Stromlücke — нестача електроенергії"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/afb182.webp",
-      "publishedAt": "2026-08-12T03:53:18.000Z",
-      "processedAt": "2026-08-12T08:23:57.960Z"
-    },
-    {
-      "id": "1c4df222",
-      "originalTitle": "Ernährungsinitiative – Selbstversorgungsgrad: Kalorien bestimmen den Wert",
-      "simplifiedText": "Die Ernährungsinitiative will, dass wir uns zu 70 Prozent selbst versorgen. Das Wetter spielt dabei eine wichtige Rolle, denn es kann unsere Ernte beeinflussen. Wenn es zu heiß ist, können unsere Pflanzen nicht gut wachsen. Aber wenn wir uns gut auf die Veränderungen vorbereiten, können wir dennoch genug Nahrung produzieren. Die Initiative will auch, dass wir mehr Geld für die Landwirtschaft ausgeben, um unsere Bauern zu unterstützen. Denn wenn wir unsere Bauern unterstützen, können wir auch unsere Umwelt schützen. Das ist wichtig, weil wir dann saubere Luft und sauberes Wasser haben.",
-      "vocabularyHints": [
-        "die Ernährung — харчування",
-        "die Initiative — ініціатива",
-        "sich versorgen — забезпечувати себе",
-        "die Ernte — врожай",
-        "die Landwirtschaft — сільське господарство",
-        "die Umwelt — довкілля"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9aa116.webp",
-      "publishedAt": "2026-08-12T03:54:28.000Z",
-      "processedAt": "2026-08-12T08:23:48.887Z"
-    },
-    {
-      "id": "1435194a",
-      "originalTitle": "Kein Kündigungsschutz? – Befürworter von EU-Vertragspaket schlagen Alarm",
-      "simplifiedText": "Ich gehe jeden Tag zur Arbeit. Das Wetter ist heute sehr schön. Ich kann mich aber nicht lange im Freien aufhalten, denn ich muss noch einkaufen. Ich brauche neue Schuhe und ein paar Kleidungsstücke. Ich gehe ins Kaufhaus, aber es regnet plötzlich. Ich muss mich beeilen, oder ich werde nass. Ich denke, ich werde mich nach der Arbeit mit Freunden treffen, wenn das Wetter besser ist.",
-      "vocabularyHints": [
-        "das Kaufhaus — універмаг",
-        "die Kleidungsstücke — речі одягу",
-        "sich beeilen — поспішати",
-        "das Freien — свіжий повітря",
-        "die Wirtschaftskommission — комісія з економічних питань"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d6cfd2.webp",
-      "publishedAt": "2026-08-12T03:58:44.000Z",
-      "processedAt": "2026-08-12T08:23:39.882Z"
-    },
-    {
-      "id": "797b5d78",
-      "originalTitle": "Neutralitätsinitiative, Ernährungsinitiative – wie stimmst du ab?",
-      "simplifiedText": "Bald stehen wieder Abstimmungen an. Wir möchten wissen, wie du abstimmen wirst. Nimm an unserer Umfrage teil, um uns deine Meinung mitzuteilen. Wir sind gespannt, ob du für oder gegen die Initiativen bist. Die Abstimmungen finden bei schönem Wetter statt, aber auch bei Regen kannst du deine Stimme abgeben. Denn jede Stimme zählt. Oder hast du dich noch nicht entschieden? Wir freuen uns auf deine Teilnahme.",
-      "vocabularyHints": [
-        "die Abstimmung — голосування",
-        "die Umfrage — опитування",
-        "die Initiative — ініціатива",
-        "die Meinung — думка",
-        "sich entscheiden — вирішувати"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://image.20min.ch/2026/08/10/05a36f3c-8c93-4358-a737-2a2008701800.jpg?s=2a6d378514303ac5a5eb5128eecb0d92",
-      "publishedAt": "2026-08-12T04:00:14.000Z",
-      "processedAt": "2026-08-12T08:23:31.231Z"
-    },
-    {
-      "id": "4844e235",
-      "originalTitle": "– Cristiano Ronaldo heiratet Partnerin Georgina Rodríguez",
-      "simplifiedText": "Cristiano Ronaldo und seine Partnerin Georgina Rodríguez sind seit zehn Jahren zusammen. Sie haben sich vor kurzem das Ja-Wort gegeben. Das Wetter war schön, als sie heirateten. Sie gingen danach einkaufen und kauften viele Geschenke. Sie sind sehr glücklich und freuen sich auf ihre Zukunft. Sie werden bald auf Hochzeitsreise gehen, aber sie wissen noch nicht, wohin. Sie haben viele Möglichkeiten, denn sie haben viel Geld und können überall hinfahren.",
-      "vocabularyHints": [
-        "das Ja-Wort — слово згоди",
-        "die Partnerin — партнерка",
-        "die Hochzeitsreise — медовий місяць",
-        "die Zukunft — майбутнє",
-        "die Möglichkeiten — можливості"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf8623.webp",
-      "publishedAt": "2026-08-12T04:03:24.000Z",
-      "processedAt": "2026-08-12T08:23:22.593Z"
-    },
-    {
-      "id": "1e642f43",
-      "originalTitle": "Fussballstar – Cristiano Ronaldo heiratet Partnerin Georgina Rodríguez",
-      "simplifiedText": "Cristiano Ronaldo ist ein berühmter Fussballspieler. Er hat seit zehn Jahren eine Partnerin namens Georgina Rodríguez. Sie sind sehr glücklich und haben sich nun das Ja-Wort gegeben. Sie haben ihre Hochzeit aber noch nicht offiziell bestätigt. Das Wetter war an ihrem Hochzeitstag sehr schön. Sie sind aber nicht nur wegen des schönen Wetters glücklich, sondern auch wegen ihrer großen Liebe. Sie gehen oft einkaufen und genießen ihre Freizeit zusammen.",
-      "vocabularyHints": [
-        "das Ja-Wort — слово згоди",
-        "die Partnerin — партнерка",
-        "die Hochzeit — весілля",
-        "die Freizeit — вільний час",
-        "das Wetter — погода",
-        "die Liebe — любов"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf8623.webp",
-      "publishedAt": "2026-08-12T04:03:24.000Z",
-      "processedAt": "2026-08-12T08:23:14.047Z"
-    },
-    {
-      "id": "1e5601a6",
-      "originalTitle": "Krieg im Nahen Osten – Trump: Strasse von Hormus gehört uns – neue Warnung an Iran",
-      "simplifiedText": "Der US-Präsident hat eine neue Warnung an den Iran ausgesprochen. Er sagte, die Strasse von Hormus gehört den USA. Das Wetter spielt aber auch eine Rolle bei der Arbeit. Ich gehe jeden Tag zur Arbeit und kaufe unterwegs ein. Ich denke, das Wetter wird morgen besser sein. Ich hoffe, ich kann dann einkaufen gehen, ohne dass es regnet. Ich brauche neue Schuhe und ein paar Kleider.",
-      "vocabularyHints": [
-        "die Warnung — попередження",
-        "die Strasse — вулиця",
-        "das Wetter — погода",
-        "einkaufen — купувати",
-        "die Schuhe — взуття",
-        "das Kleid — сукня",
-        "der Regen — дощ"
+        "die Sprecherin — представниця",
+        "das Weisse Haus — Білий дім",
+        "der Grund — причина",
+        "die Motive — мотиви",
+        "jüngste — наймолодша",
+        "aufgeben — покидати",
+        "die Familie — родина"
       ],
       "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9adeb9.webp",
-      "publishedAt": "2026-08-12T04:42:04.000Z",
-      "processedAt": "2026-08-12T08:23:05.145Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/07df5a.webp",
+      "publishedAt": "2026-08-13T02:39:54.000Z",
+      "processedAt": "2026-08-13T07:16:38.803Z"
     },
     {
-      "id": "7bbfa20f",
-      "originalTitle": "«Träume haben eigene Werte» – «Träume zeigen uns, was uns im Leben wirklich wichtig ist»",
-      "simplifiedText": "Ich gehe jeden Tag zur Arbeit und denke über meine Träume nach. Ich möchte gerne ein eigenes Haus kaufen, aber ich muss erst Geld sparen. Das Wetter ist heute schön, ich kann nach der Arbeit im Park spazieren gehen. Ich brauche aber auch neue Schuhe, ich gehe am Wochenende einkaufen. Ich hoffe, ich finde etwas, das mir gefällt. Ich kann mich aber auch für ein anderes Paar entscheiden, denn ich habe viele Auswahlmöglichkeiten. Ich bin aber auch müde, ich muss mich ausruhen, um mich am nächsten Tag besser zu fühlen.",
+      "id": "0f3880f2",
+      "originalTitle": "Sprachrohr des Präsidenten – Karoline Leavitt tritt als Sprecherin von Donald Trump zurück",
+      "simplifiedText": "Karoline Leavitt war die jüngste Sprecherin im Weissen Haus. Sie war 28 Jahre alt und hat jetzt ihren Job aufgegeben. Der Grund dafür sind familiäre Motive. Sie hat für den Präsidenten gearbeitet. Das Wetter war nicht der Grund für ihren Rücktritt. Sie hat einfach aufgehört zu arbeiten. Sie war sehr jung und hat viel Erfahrung gesammelt.",
       "vocabularyHints": [
-        "der Spaziergang — прогулянка",
-        "die Auswahl — вибір",
-        "das Paar — пара",
-        "sich ausruhen — відпочивати",
-        "die Entscheidung — рішення",
-        "die Auswahlmöglichkeit — можливість вибору"
+        "die Sprecherin — представниця",
+        "der Grund — причина",
+        "das Weisse Haus — Білий дім",
+        "die Erfahrung — досвід",
+        "der Rücktritt — відставка",
+        "familiär — сімейний"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/07df5a.webp",
+      "publishedAt": "2026-08-13T02:39:54.000Z",
+      "processedAt": "2026-08-13T07:16:30.380Z"
+    },
+    {
+      "id": "3959ecde",
+      "originalTitle": "Hitze, Dürre, Stürme: Wie lange halten Schutzwälder das aus?",
+      "simplifiedText": "Der Schutzwald ist wichtig für die Schweiz. Er hält Steine zurück und schützt Strassen und Dörfer. Doch Hitze und Trockenheit sind ein Problem für den Wald. Die Fachleute warnen, dass der Wald nicht einfach ersetzt werden kann, wenn er ausfällt. Der Wald braucht Zeit, um sich zu erholen. Die Hitze und die Trockenheit machen dem Wald zu schaffen. Es gibt auch Gewitter, die den Wald beschädigen können.",
+      "vocabularyHints": [
+        "der Schutzwald — захисний ліс",
+        "die Lawine — лавина",
+        "die Trockenheit — посуха",
+        "das Gewitter — гроза",
+        "die Fachleute — фахівці",
+        "die Strasse — дорога"
       ],
       "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d0d772.webp",
-      "publishedAt": "2026-08-12T04:42:05.000Z",
-      "processedAt": "2026-08-12T08:22:56.444Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/3d96f82e-c206-488e-a25a-c963c1ce67e7.avif?s=b3b8c1764c0a87fbe2a51ae88cfcd6ce",
+      "publishedAt": "2026-08-13T02:51:27.000Z",
+      "processedAt": "2026-08-13T07:16:21.787Z"
     },
     {
-      "id": "04ef4403",
-      "originalTitle": "Dürre und braune Weiden – Teures Futter wegen Hitze – Landwirte haben Existenzängste",
-      "simplifiedText": "Der ausbleibende Regen bringt Landwirtschaftsbetriebe in Bedrängnis. Es wird schon Winterfutter verfüttert, denn die Hitze und die Dürre haben die Weiden braun werden lassen. Die Landwirte haben Existenzängste, weil das Futter teuer ist. Sie müssen sich um ihre Tiere kümmern und gleichzeitig um ihre Existenz bangen. Die Situation ist sehr schwierig, aber die Landwirte hoffen auf Regen. Sie brauchen Regen, um ihre Felder zu retten. Die Hitze und die Dürre sind ein großes Problem für die Landwirtschaft.",
+      "id": "1faa6ad6",
+      "originalTitle": "«Wie viel Geld verdienen Sie als Schwinger?»",
+      "simplifiedText": "Samuel Giger ist ein bekannter Schwinger. Er ist der erste Schwinger-Profi. Fabian Staudenmann sagt, er sei schon seit drei oder vier Jahren Profi, aber er verdient nicht viel Geld. Er arbeitet und schwingt, weil er es gerne tut. Das Wetter ist wichtig für die Schwinger, denn sie schwingen oft im Freien. Sie brauchen gutes Wetter, um zu schwingen. Aber wenn es regnet, können sie nicht schwingen.",
       "vocabularyHints": [
-        "die Bedrängnis — скрута",
-        "die Dürre — посуха",
-        "die Weide — пасовисько",
-        "die Existenz — існування",
-        "die Existenzängste — страхи за існування",
-        "die Landwirtschaft — сільське господарство",
-        "sich kümmern — дбати"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/3c2c61.webp",
-      "publishedAt": "2026-08-12T04:50:05.000Z",
-      "processedAt": "2026-08-12T08:22:47.311Z"
-    },
-    {
-      "id": "26d10a38",
-      "originalTitle": "Wiederaufbau ob Andermatt – Krach um Max: Wegen des Holzstiers sehen gewisse Urner rot",
-      "simplifiedText": "In Uri gibt es ein grosses Projekt. Ein Holzkoloss soll ob Andermatt aufgebaut werden. Das Projekt heisst ESAF 2025. Viele Leute in Uri sind dagegen, denn sie denken, es wird zu viel Lärm geben. Andere Leute finden es toll, weil es neue Arbeitsplätze schaffen kann. Die Wetterbedingungen in Uri sind oft sehr schlecht, aber das Projekt soll trotzdem durchgeführt werden. Es gibt auch eine Diskussion über den Einfluss auf die Umwelt.",
-      "vocabularyHints": [
-        "das Projekt — проєкт",
-        "der Holzkoloss — дерев'яний гігант",
-        "polarisieren — поляризувати",
-        "der Lärm — шум",
-        "die Wetterbedingungen — погодні умови"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5cff468.webp",
-      "publishedAt": "2026-08-12T04:53:02.000Z",
-      "processedAt": "2026-08-12T08:22:38.500Z"
-    },
-    {
-      "id": "73a21f03",
-      "originalTitle": "Mythos US-Nationalgetränk – Ist Coca-Cola doch keine US‑Erfindung? Na, wenn schon!",
-      "simplifiedText": "In einem italienischen Kloster ist ein rund 200 Jahre altes Rezept für ein colaähnliches Getränk gefunden worden. Das Wetter war schön, als die Forscher das Kloster besuchten. Sie haben das Rezept in einem alten Buch entdeckt. Es war ein interessanter Tag für die Forscher, denn sie konnten sich ausruhen und gleichzeitig arbeiten. Sie mussten aber auch einkaufen, um etwas zu essen zu haben. Sie gingen in den nächsten Laden und kauften Brot und Milch. Am nächsten Tag war das Wetter schlecht, aber sie konnten trotzdem weiterarbeiten.",
-      "vocabularyHints": [
-        "das Rezept — рецепт",
-        "das Kloster — монастир",
-        "sich ausruhen — відпочивати",
-        "das Wetter — погода",
-        "der Laden — крамниця",
-        "die Forscher — дослідники"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d16abd.webp",
-      "publishedAt": "2026-08-12T05:01:03.000Z",
-      "processedAt": "2026-08-12T08:22:29.600Z"
-    },
-    {
-      "id": "52419511",
-      "originalTitle": "WTA-1000-Turnier in Toronto – Hüftprobleme bremsen Bencic aus",
-      "simplifiedText": "Die Ostschweizerin Bencic hat Hüftprobleme. Deshalb kann sie nicht gegen Coco Gauff spielen. Bencic muss fürfait geben. Sie hat sich entschieden, nicht zu spielen, denn sie will ihre Hüfte nicht verletzen. Das Wetter in Toronto ist schön, aber das ist egal. Bencic will sich auskurieren und dann wieder spielen. Sie hofft, dass sie bald wieder fit ist.",
-      "vocabularyHints": [
-        "die Hüfte — стегно",
-        "Forfait — зняття з змагань",
-        "sich entscheiden — вирішувати",
-        "sich auskurieren — одужувати",
-        "die Ostschweizerin — східна швейцарка"
+        "der Schwinger — борець",
+        "die Schlagzeilen — заголовки газет",
+        "die Definition — визначення",
+        "der Profi — професіонал",
+        "das Freien — на відкритому повітрі"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7f78c55.webp",
-      "publishedAt": "2026-08-12T05:15:05.000Z",
-      "processedAt": "2026-08-12T08:22:20.988Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/1b32f882-905c-4455-8bb4-cbbd03a6a044.jpg?s=7333f967488a16423ea63b9e7f6fd160",
+      "publishedAt": "2026-08-13T02:52:02.000Z",
+      "processedAt": "2026-08-13T07:16:13.337Z"
     },
     {
-      "id": "7d247af6",
-      "originalTitle": "Eindrückliche Drohnenbilder zeigen Ausmass der Trockenheit",
-      "simplifiedText": "Die Trockenheit ist sehr stark und hinterlässt Spuren am Untersee und am Hochrhein. Die Situation ist besonders angespannt bei Eschenz und Stein am Rhein. Die Menschen müssen vorsichtig mit Wasser umgehen. Es gibt auch Probleme für die Landwirtschaft. Die Regierung will helfen, aber es ist schwierig. Die Trockenheit ist ein großes Problem und es gibt keine einfache Lösung. Die Menschen hoffen auf Regen.",
+      "id": "7533a043",
+      "originalTitle": "In diesem Film dürfen Unverheiratete nur einmal im Jahr Sex haben",
+      "simplifiedText": "In dem Film «One Night Only» dürfen unverheiratete Menschen nur einmal im Jahr Sex haben. Die Hauptdarsteller Monica Barbaro und Callum Turner geraten dabei mitten ins New Yorker Dating-Chaos. Sie müssen sich entscheiden, ob sie die Regeln befolgen oder ihre eigenen Wege gehen. Die Entscheidung ist nicht einfach, denn sie müssen auch an ihre Zukunft denken. Sie können sich aber auch für ein Abenteuer entscheiden und das Dating-Chaos meistern. Das Wetter in New York ist aber nicht immer gut, und das kann ihre Pläne beeinflussen. Sie müssen sich also anpassen und flexibel sein.",
       "vocabularyHints": [
-        "die Trockenheit — посуха",
-        "die Spur, -en — слід",
-        "angespannt — напружений",
-        "die Landwirtschaft — сільське господарство",
-        "die Regierung — уряд"
+        "das Abenteuer — пригода",
+        "die Regeln — правила",
+        "das Dating-Chaos — хаос побачень",
+        "die Entscheidung — рішення",
+        "sich entscheiden — вирішувати",
+        "flexibel — гнучкий"
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/08/12/fb003eff-b875-4ede-bfb7-1b75d1aded0e.jpg?s=c10827d59c1916d50582170280097362",
+      "publishedAt": "2026-08-13T02:52:26.000Z",
+      "processedAt": "2026-08-13T07:16:04.886Z"
+    },
+    {
+      "id": "0865807d",
+      "originalTitle": "Leichtathletik-EM: Das steht am Donnerstag auf dem Programm",
+      "simplifiedText": "Die Leichtathletik-EM findet in Birmingham statt. Die Schweizer Athletinnen und Athleten sind sehr gut vorbereitet. Sie haben jeden Tag trainiert und wollen Medaillen gewinnen. Am Donnerstag ist es wichtig, dass sie sich konzentrieren und ihre Kräfte sparen. Die Schweizer Hoffnungen sind groß, aber es wird nicht leicht sein. Die Athleten müssen sich anstrengen, um ihre Ziele zu erreichen. Das Wetter in Birmingham ist nicht ideal, aber die Schweizer Athleten sind darauf vorbereitet.",
+      "vocabularyHints": [
+        "die Leichtathletik — легка атлетика",
+        "die Medaille — медаль",
+        "die Konzentration — концентрація",
+        "die Hoffnung — надія",
+        "sich anstrengen — зусиллятися"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/08/12/08821e62-9c62-4d12-9926-ba51f9788147.jpg?s=181949f4b6f4b50cc7ec32955e2d948a",
+      "publishedAt": "2026-08-13T02:52:53.000Z",
+      "processedAt": "2026-08-13T07:15:56.138Z"
+    },
+    {
+      "id": "0675633f",
+      "originalTitle": "– Die Sonnenfinsternis zog die Schweiz in ihren Bann",
+      "simplifiedText": "Die Schweiz erlebte ein seltenes Himmelsspektakel. Sie konnte die grösste Sonnenfinsternis seit 1999 bestaunen. Das Wetter war gut und die Sonne schien. Aber dann zog eine Finsternis über die Sonne. Die Menschen gingen auf die Strasse, um das Spektakel zu sehen. Sie waren sehr aufgeregt und haben Fotos gemacht. Es war ein besonderer Tag für die Schweiz.",
+      "vocabularyHints": [
+        "das Spektakel — видовище",
+        "die Finsternis — темнота",
+        "die Strasse — вулиця",
+        "sich aufregen — хвилюватись",
+        "das Himmelsspektakel — небесне видовище"
       ],
       "category": "Wetter",
-      "imageUrl": "https://image.20min.ch/2026/08/12/bf53207e-eeb0-40fd-933f-b08aa186b095.jpg?s=696ec49d20d603c9738b51ad8375dbb1",
-      "publishedAt": "2026-08-12T05:34:56.000Z",
-      "processedAt": "2026-08-12T08:22:12.426Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6e5d0f.webp",
+      "publishedAt": "2026-08-13T03:24:06.000Z",
+      "processedAt": "2026-08-13T07:15:47.656Z"
     },
     {
-      "id": "3586db27",
-      "originalTitle": "Als erster arabischer Staat – Historischer Schritt: Todesstrafe im Libanon abgeschafft",
-      "simplifiedText": "Die Menschen im Libanon sind froh, dass das Land die Todesstrafe abgeschafft hat. Es ist der erste arabische Staat, der dies tut. Die Menschen denken, dass dies ein wichtiger Schritt ist. Sie hoffen, dass andere Länder dies auch tun. Die Regierung hat gesagt, dass sie die Todesstrafe nicht mehr anwenden wird. Dies ist ein wichtiger Tag für die Menschen im Libanon. Sie sind stolz auf ihre Regierung.",
+      "id": "1d066945",
+      "originalTitle": "Tausende Schaulustige – Die Sonnenfinsternis zog die Schweiz in ihren Bann",
+      "simplifiedText": "Die Schweizer konnten die grösste Sonnenfinsternis seit 1999 bestaunen. Tausende Schaulustige haben sich an Orten mit guter Sicht versammelt, um das Himmelsspektakel zu sehen. Es war ein besonderer Tag, denn die Sonnenfinsternis ist ein seltenes Ereignis. Die Leute haben Fotos gemacht und sich mit Freunden getroffen, um das Ereignis zu feiern. Das Wetter war gut, und die Sonne schien, bevor die Finsternis eintrat. Viele Menschen haben sich auf die Strassen und Plätze begeben, um das Spektakel zu sehen. Es war ein unvergesslicher Tag für die Schweizer.",
       "vocabularyHints": [
-        "die Todesstrafe — смертна кара",
-        "die Region — регіон",
-        "die Hinrichtung — страта",
-        "die Journalistin — журналістка",
-        "abgeschafft — скасовано",
-        "der arabische Staat — арабська держава"
+        "das Spektakel — видовище",
+        "die Sonnenfinsternis — сонячне затемнення",
+        "die Schaulustigen — глядачі",
+        "sich versammeln — зібратися",
+        "das Himmelsspektakel — небесне видовище",
+        "die Sicht — видимість",
+        "die Finsternis — темрява"
       ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e747c7.webp",
-      "publishedAt": "2026-08-12T06:21:46.000Z",
-      "processedAt": "2026-08-12T08:22:03.958Z"
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6e5d0f.webp",
+      "publishedAt": "2026-08-13T03:24:06.000Z",
+      "processedAt": "2026-08-13T07:15:38.896Z"
     },
     {
-      "id": "7b42dbdd",
-      "originalTitle": "Roger Federer ist nicht mehr Milliardär",
-      "simplifiedText": "Roger Federer ist nicht mehr Milliardär. Er war ein Milliardär, aber jetzt ist er es nicht mehr. Der Kurssturz der Aktien seiner Sneaker-Marke On ist der Grund dafür. Er hat viel Geld in diese Marke investiert, aber jetzt ist das Geld weg. Er muss sich um seine Finanzen kümmern, denn er will wieder Milliardär werden. Er hofft, dass die Aktien wieder steigen, aber das ist ungewiss. Er muss abwarten und sehen, was passiert.",
+      "id": "5fae3709",
+      "originalTitle": "Aufsicht kritisiert Bund – Vergünstigungen bei Medikamenten erreichen die Patienten kaum",
+      "simplifiedText": "Die Aufsicht kritisiert den Bund, weil die Vergünstigungen bei Medikamenten die Patienten kaum erreichen. Ärztinnen und Apotheker geben nur einen Teil ihrer Rabatte weiter. Die Spital-Leitungen tun das auch. Der Bund soll stärker eingreifen, denn die Patienten zahlen zu viel. Die Apotheker und Ärztinnen haben gute Rabatte, aber sie geben sie nicht weiter. Das ist nicht fair, aber der Bund kann helfen. Der Bund soll die Apotheker und Ärztinnen zwingen, die Rabatte weiterzugeben.",
       "vocabularyHints": [
-        "der Kurssturz — падіння курсу",
-        "die Sneaker-Marke — бренд кросівок",
-        "die Aktien — акції",
-        "der Milliardär — мільярдер",
-        "sich kümmern — дбати",
-        "investieren — інвестувати"
+        "die Aufsicht — нагляд",
+        "die Vergünstigung — пільга",
+        "die Rabatte — знижки",
+        "die Spital-Leitung — керівництво лікарні",
+        "die Patienten — пацієнти",
+        "eingreifen — втручатися"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a51393.webp",
+      "publishedAt": "2026-08-13T03:25:19.000Z",
+      "processedAt": "2026-08-13T07:15:29.674Z"
+    },
+    {
+      "id": "1a175090",
+      "originalTitle": "Travis Kelce schwärmt von «bester Nacht» seines Lebens",
+      "simplifiedText": "Travis Kelce und Taylor Swift haben geheiratet. Sie haben sich am 3. Juli im Madison Square Garden das Ja-Wort gegeben. Travis Kelce ist sehr glücklich und schwebt auf Wolke sieben. Er sagt, es war die beste Nacht seines Lebens. Er und Taylor Swift sind jetzt verheiratet und sehr happy. Sie haben ihre Hochzeit im Madison Square Garden gefeiert. Das Wetter war an diesem Tag sehr schön.",
+      "vocabularyHints": [
+        "das Ja-Wort — слово згоди",
+        "die Wolke — хмара",
+        "die Hochzeit — весілля",
+        "das Madison Square Garden — майдан Медісон-Сквер-Гарден",
+        "verheiratet — одружений"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2026/04/07/4f315533-80bf-4116-bad9-f181b36daa92.jpg?s=0d6544259c5fde30304d3a8df3bea4e5",
+      "publishedAt": "2026-08-13T03:35:32.000Z",
+      "processedAt": "2026-08-13T07:15:21.060Z"
+    },
+    {
+      "id": "15ea004d",
+      "originalTitle": "Handel Schweiz–Kuba – Wer mit Kuba Geschäfte macht, bekommt die Macht der USA zu spüren",
+      "simplifiedText": "Für Schweizer Unternehmen ist es schwierig, Geschäfte mit Kuba zu machen. Der Grund sind neue Sanktionen der USA. Die USA haben diese Sanktionen eingeführt, weil sie mit der Regierung in Kuba nicht einverstanden sind. Schweizer Firmen müssen sich also entscheiden, ob sie mit Kuba oder den USA Geschäfte machen wollen. Viele Unternehmen haben Angst vor den Sanktionen und machen deshalb keine Geschäfte mit Kuba. Die Regierung in der Schweiz will aber die Beziehungen zu Kuba aufrechterhalten. Es ist ein schwieriges Thema für die Schweizer Wirtschaft.",
+      "vocabularyHints": [
+        "die Sanktion — санкції",
+        "die Regierung — уряд",
+        "die Beziehungen — відносини",
+        "das Thema — тема",
+        "die Firmen — компанії"
       ],
       "category": "Wirtschaft",
-      "imageUrl": "https://image.20min.ch/2026/08/12/9d333a3f-463f-405a-8268-f41aa3de842c.jpg?s=dcb8a192671f1f87703dcee80d9735db",
-      "publishedAt": "2026-08-12T07:12:08.000Z",
-      "processedAt": "2026-08-12T08:21:55.581Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a2511c.webp",
+      "publishedAt": "2026-08-13T03:40:35.000Z",
+      "processedAt": "2026-08-13T07:15:12.409Z"
     },
     {
-      "id": "20b37105",
-      "originalTitle": "Indonesien – Fähre zwischen Bali und Lombok gerät in Brand",
-      "simplifiedText": "Ich gehe jeden Tag zur Arbeit. Das Wetter ist heute sehr schön. Ich kann mich freuen, dass ich nach der Arbeit einkaufen gehe. Ich brauche neue Schuhe, denn meine alten Schuhe sind kaputt. Ich hoffe, dass das Wetter morgen auch schön ist, weil ich dann mit Freunden spazieren gehe. Ich muss aber vorher noch meine Arbeit erledigen. Ich kann mich auf den Spaziergang freuen, weil ich mich dann ausruhen kann.",
+      "id": "5575b988",
+      "originalTitle": "Vorbild Schweiz – Basels grösstes Freibad wird zum internationalen Vorbild",
+      "simplifiedText": "Diese Woche kamen Delegationen aus der ganzen Welt in die Schweiz. Sie wollten lernen, wie man einen Fluss badbar macht. Die Schweiz ist ein Vorbild, denn sie hat viele Flusse, die man benutzen kann. Die Delegationen waren in Basel, um das grösste Freibad der Stadt zu besuchen. Sie sahen, wie das Freibad gebaut wurde und wie es funktioniert. Das Wetter war gut, aber es regnete am Abend. Die Delegationen waren zufrieden und haben viel gelernt.",
+      "vocabularyHints": [
+        "die Delegation — делегація",
+        "der Fluss — річка",
+        "badbar — придатний для купання",
+        "das Vorbild — взірець",
+        "das Freibad — відкритий басейн"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9ebc78.webp",
+      "publishedAt": "2026-08-13T03:43:14.000Z",
+      "processedAt": "2026-08-13T07:15:02.988Z"
+    },
+    {
+      "id": "2e27188b",
+      "originalTitle": "Hitzesommer – Bella-Tola-Gletscher weggeschmolzen: Weitere dürften folgen",
+      "simplifiedText": "Der Bella-Tola-Gletscher im Wallis ist offenbar verschwunden. Er ist nicht der erste und wird nicht der letzte sein. Der Sommer war sehr heiss und trocken. Viele Gletscher sind in den letzten Jahren geschrumpft. Die Menschen sind besorgt, denn das Wetter wird immer extremer. Es regnet oder schneit sehr viel oder gar nicht. Die Experten sagen, dass sich das Klima stark ändert.",
+      "vocabularyHints": [
+        "der Gletscher — льодовик",
+        "schrumpfen — зменшуватися",
+        "extrem — крайній",
+        "das Klima — клімат",
+        "der Experte — експерт",
+        "verschwinden — зникати"
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/16a3091.webp",
+      "publishedAt": "2026-08-13T04:30:25.000Z",
+      "processedAt": "2026-08-13T07:14:54.535Z"
+    },
+    {
+      "id": "5e10ead1",
+      "originalTitle": "Pilotversuch Radarfallen – Radarstandorte bekanntzugeben, bringt keine Vorteile",
+      "simplifiedText": "Die Polizei hat einen Pilotversuch gemacht. Sie hat gesagt, wo die Radarfallen stehen. Aber es gibt trotzdem nicht weniger Unfälle. Der Versuch war in Solothurn. Die Polizei wollte sehen, ob es weniger Unfälle gibt, wenn die Leute wissen, wo die Blitzer sind. Aber das Ergebnis war negativ. Es gibt auch keine Vorteile, wenn die Polizei die Standorte der Radarfallen bekanntgibt. Die Leute fahren immer noch zu schnell und es gibt Unfälle. Die Polizei muss andere Wege finden, um die Verkehrssicherheit zu verbessern.",
+      "vocabularyHints": [
+        "der Pilotversuch — пілотний проєкт",
+        "die Radarfallen — радарні пастки",
+        "die Polizei — поліція",
+        "der Unfall — аварія",
+        "die Vorteile — переваги",
+        "bekanntgeben — оголошувати"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/60b2c9.webp",
+      "publishedAt": "2026-08-13T04:31:31.000Z",
+      "processedAt": "2026-08-13T07:14:45.495Z"
+    },
+    {
+      "id": "0561c0e4",
+      "originalTitle": "Klimawandel und Kipppunkte – Klimatologe: «Es wird das Schmelzwasser der Gletscher fehlen»",
+      "simplifiedText": "Der Klimawandel ist ein grosses Problem. Die Erde wird immer wärmer. Es gibt einen neuen Weltklimabericht. Erich Fischer ist einer der Autoren. Er sagt, dass das Schmelzwasser der Gletscher fehlen wird. Wir müssen uns um die Umwelt kümmern, denn sie ist wichtig für uns. Wir können uns auch für den Kauf von umweltfreundlichen Produkten entscheiden, wenn wir einkaufen gehen.",
+      "vocabularyHints": [
+        "der Klimawandel — зміна клімату",
+        "die Erderwärmung — глобальне потепління",
+        "der Gletscher — льодовик",
+        "die Umwelt — довкілля",
+        "umweltfreundlich — екологічно чистий",
+        "sich kümmern — дбати"
+      ],
+      "category": "Wissenschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/3afd89.webp",
+      "publishedAt": "2026-08-13T04:33:55.000Z",
+      "processedAt": "2026-08-13T07:14:36.844Z"
+    },
+    {
+      "id": "7f8e25c9",
+      "originalTitle": "Q&A zu Wandern in den Bergen – Welche Fragen haben Sie zum Wandern?",
+      "simplifiedText": "Jeden Tag gehe ich zur Arbeit. Ich fahre mit dem Zug und esse ein Sandwich. Am Wochenende gehe ich oft wandern in den Bergen. Das Wetter ist oft gut, aber manchmal regnet es. Ich habe mich gefreut, als ich gestern sonniges Wetter hatte. Ich kann mich ausruhen, wenn ich nach Hause komme. Ich esse dann ein gutes Abendessen und schaue fern. Ich muss aber auch einkaufen gehen, denn ich brauche Lebensmittel. Ich hoffe, das Wetter bleibt gut, damit ich weiter wandern kann.",
+      "vocabularyHints": [
+        "das Sandwich — сендвіч",
+        "die Fachperson — фахова особа",
+        "sich ausruhen — відпочивати",
+        "das Abendessen — вечеря",
+        "die Lebensmittel — продукти харчування",
+        "sich freuen — радуватись"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1274a1.webp",
+      "publishedAt": "2026-08-13T04:45:22.000Z",
+      "processedAt": "2026-08-13T07:14:28.365Z"
+    },
+    {
+      "id": "75ddf74b",
+      "originalTitle": "Beben in Kolumbien – «Es gibt eine grosse Solidarität im Erdbebengebiet»",
+      "simplifiedText": "Ich gehe jeden Tag einkaufen und sehe die Menschen, die in den Straßen arbeiten. Das Wetter ist schön, aber ich denke an die Menschen in Kolumbien, die unter dem Erdbeben leiden. Ich habe gehört, dass es eine grosse Solidarität im Erdbebengebiet gibt. Die Menschen helfen einander und teilen ihre Lebensmittel. Ich denke, dass es wichtig ist, dass wir alle mithelfen, wenn es Notfälle gibt. Ich werde mich auch um Informationen über die Erdbeben in Kolumbien kümmern und vielleicht kann ich auch helfen. Ich hoffe, dass das Wetter in Kolumbien bald besser wird.",
+      "vocabularyHints": [
+        "die Solidarität — солідарність",
+        "das Erdbeben — землетрус",
+        "die Straße, -n — вулиця",
+        "die Lebensmittel — продукти харчування",
+        "der Notfall — нагальна ситуація"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9501f56.webp",
+      "publishedAt": "2026-08-13T04:48:49.000Z",
+      "processedAt": "2026-08-13T07:14:19.932Z"
+    },
+    {
+      "id": "5677d68d",
+      "originalTitle": "«Der meisterwartete Schweizer Film» feiert Premiere am ZFF",
+      "simplifiedText": "Ich gehe jeden Tag zur Arbeit. Das Wetter ist heute sehr schön. Ich kann mich freuen, dass ich nach der Arbeit einkaufen gehe. Ich brauche neue Schuhe, denn meine alten sind kaputt. Ich hoffe, es regnet nicht, aber ich habe meinen Schirm dabei. Ich kann auch mit dem Bus fahren, oder ich gehe zu Fuß. Ich bin froh, dass ich heute Abend frei habe und mich ausruhen kann.",
       "vocabularyHints": [
         "die Arbeit — робота",
         "das Wetter — погода",
         "einkaufen — купувати",
-        "die Schuhe — туфлі",
-        "kaputt — зламаний",
-        "sich freuen — радуватись"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/38f9a9.webp",
-      "publishedAt": "2026-08-12T07:15:22.000Z",
-      "processedAt": "2026-08-12T08:21:46.795Z"
-    },
-    {
-      "id": "5ef7e816",
-      "originalTitle": "Arbeitszeitbegrenzung – Die Spezialisten verdienen mehr als vorgesehen",
-      "simplifiedText": "Ärztinnen und Ärzte dürfen künftig nicht mehr unbegrenzt abrechnen. Die Spezialisten sind empört, denn sie verdienen dann weniger. Sie haben aber auch mehr gearbeitet als vorgesehen. Die Änderung ist wichtig, aber es gibt auch Nachteile. Die Ärztinnen und Ärzte müssen sich an die neue Regel halten. Sie dürfen nur noch eine bestimmte Anzahl an Stunden arbeiten. Die Regierung will die Arbeitszeit begrenzen, aber die Spezialisten sind dagegen.",
-      "vocabularyHints": [
-        "die Ärztin — лікарка",
-        "die Spezialistin, -en — спеціалістка",
-        "abrechnen — розраховувати",
-        "empört — обурений",
-        "vorgesehen — передбачений",
-        "die Regel — правило"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/905a7d9.webp",
-      "publishedAt": "2026-08-12T07:18:11.000Z",
-      "processedAt": "2026-08-12T08:21:38.306Z"
-    },
-    {
-      "id": "4e646420",
-      "originalTitle": "8 Monate nach Geburt – Kambundjis schwieriger Balance-Akt zwischen Ambition und Geduld",
-      "simplifiedText": "Mujinga Kambundji ist eine Sportlerin. Sie ist stolz, dass sie an der EM in Birmingham teilnehmen kann. Sie wird aber nicht um die Medaillen laufen. Sie hat nach der Geburt acht Monate gebraucht, um wieder zu trainieren. Sie muss ihre Ambition und ihre Geduld ausbalancieren. Sie will wieder besser werden, aber sie braucht Zeit. Sie ist froh, dass sie überhaupt in Birmingham ist und teilnehmen kann.",
-      "vocabularyHints": [
-        "die Medaille — медаль",
-        "die EM — чемпіонат Європи",
-        "die Ambition — амбіція",
-        "die Geduld — терпіння",
-        "die Balance — баланс",
-        "sich ausbalancieren — знаходити баланс"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/31a669.webp",
-      "publishedAt": "2026-08-12T07:22:31.000Z",
-      "processedAt": "2026-08-12T08:21:29.782Z"
-    },
-    {
-      "id": "28dfc833",
-      "originalTitle": "Hürdensprinter Jason Joseph – Keine sorgenfreie Vorbereitung – doch das war 2024 auch so",
-      "simplifiedText": "Jason Joseph ist ein Hürdensprinter. Er hat vor zwei Jahren an der EM Bronze über 110 m Hürden gewonnen. Jetzt will er in Birmingham erneut eine Medaille gewinnen. Er hat sich aber nicht sorgenfrei vorbereiten können. Im Jahr 2024 war das auch nicht anders. Er hofft, dass das Wetter in Birmingham gut ist, denn das kann seine Leistung beeinflussen. Er muss sich auch auf die Konkurrenz vorbereiten, aber er ist zuversichtlich, dass er eine Medaille gewinnen kann.",
-      "vocabularyHints": [
-        "die Hürde, -n — бар'єр",
-        "die Medaille — медаль",
-        "die Vorbereitung, -en — підготовка",
-        "sorgenfrei — безтурботно",
-        "die Konkurrenz — конкуренція"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8b0edc.webp",
-      "publishedAt": "2026-08-12T07:22:59.000Z",
-      "processedAt": "2026-08-12T08:21:21.596Z"
-    },
-    {
-      "id": "2329fe0f",
-      "originalTitle": "Hohe Preise, Tribünen halbleer – Stell dir vor, es ist Leichtathletik-EM und keiner geht hin",
-      "simplifiedText": "Die Leichtathletik-EM in Birmingham hat begonnen. Es gibt viele leere Plätze und die Preise sind sehr hoch. Viele Menschen sind unzufrieden. Sie denken, dass die Preise zu teuer sind. Es gibt auch den Supercup, der als Konkurrenz gilt. Die Menschen sind unsicher, ob sie zur EM gehen sollen. Das Wetter ist auch nicht gut, aber das ist nicht der Hauptgrund. Die hohen Preise sind das Problem.",
-      "vocabularyHints": [
-        "die Leichtathletik — легка атлетика",
-        "die EM — чемпіонат Європи",
-        "der Supercup — суперкубок",
-        "die Tribüne — трибуна",
-        "sich ausbreiten — поширюватись",
-        "der Unmut — невдоволення",
-        "die Konkurrenz — конкуренція"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d11934.webp",
-      "publishedAt": "2026-08-12T07:26:57.000Z",
-      "processedAt": "2026-08-12T08:21:12.223Z"
-    },
-    {
-      "id": "11347794",
-      "originalTitle": "Olympia 2028 als Weitspringer? – Ehammer: Silber um den Hals und ein Entscheid im Hinterkopf",
-      "simplifiedText": "Simon Ehammer ist ein Sportler. Er springt weit. Im Winter muss er eine wichtige Entscheidung treffen. Er will bei der Olympia 2028 mitmachen. Er hofft, dass er Silber gewinnt. Er hat bereits Silber um den Hals. Er denkt an seine Karriere. Die Olympia ist ein Highlight in seiner Karriere. Er will sich entscheiden, wie er trainieren wird. Er will besser werden. Er will Gold gewinnen.",
-      "vocabularyHints": [
-        "das Highlight — найвищий рівень",
-        "die Karriere — кар'єра",
-        "die Entscheidung — рішення",
-        "das Weitspringen — стрибки у довжину",
-        "die Olympia — Олімпійські ігри",
-        "der Sportler — спортсмен"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e2a30c1.webp",
-      "publishedAt": "2026-08-12T07:35:11.000Z",
-      "processedAt": "2026-08-12T08:21:03.518Z"
-    },
-    {
-      "id": "4128150f",
-      "originalTitle": "Ungebetene Gäste – Quallenplage bringt Atomreaktoren in Frankreich zum Halt",
-      "simplifiedText": "In Frankreich musste ein Atomkraftwerk seinen Betrieb einstellen, denn es gab viele Quallen im Wasser. Die Quallen sind unerwünschte Gäste und bringen das Kraftwerk zum Stillstand. Das Wetter ist warm und die Quallen breiten sich schnell aus. Die Arbeiter im Kraftwerk sind besorgt, aber sie können nichts dagegen tun. Sie müssen den Betrieb einstellen, oder es könnte ein Unglück passieren. Die Quallen sind ein großes Problem, und es ist nicht leicht, sie loszuwerden. Sie kommen jedes Jahr zurück, und das Kraftwerk muss immer wieder den Betrieb einstellen.",
-      "vocabularyHints": [
-        "die Quallen — медузи",
-        "das Atomkraftwerk — атомна електростанція",
-        "der Stillstand — зупинка",
-        "sich ausbreiten — поширюватись",
-        "das Unglück — нещастя"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/f58794.webp",
-      "publishedAt": "2026-08-12T07:55:17.000Z",
-      "processedAt": "2026-08-12T08:20:54.834Z"
-    },
-    {
-      "id": "6307c916",
-      "originalTitle": "Notfälle häufen sich: Musst du bald ohne Powerbank fliegen?",
-      "simplifiedText": "Im Alltag benutzen wir täglich unsere Handys und Laptops. Aber was passiert, wenn wir unterwegs sind und unsere Geräte leer sind? Dann helfen uns Powerbanks. Aber es gibt auch Probleme mit Powerbanks. Sie können sich überhitzten und sogar explodieren. Deshalb ist es wichtig, dass wir sie richtig benutzen. Die Swiss setzt auf Prävention, um Unfälle zu vermeiden. Sie will aber keine Powerbanks verbieten. Denn sie sind wichtig für unsere tägliche Arbeit und unser tägliches Leben. Wir müssen aber vorsichtig sein, wenn wir sie benutzen.",
-      "vocabularyHints": [
-        "die Powerbank — портативний акумулятор",
-        "der Zwischenfall — інцидент",
-        "die Prävention — профілактика",
-        "sich überhitzten — перегріватися",
-        "explodieren — вибухати"
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://image.20min.ch/2026/08/11/6b1516ba-e5d5-44a8-8f92-25587ee79be2.jpg?s=a60292c974bed4004d2b9b384effc0f3",
-      "publishedAt": "2026-08-12T08:08:55.000Z",
-      "processedAt": "2026-08-12T08:20:45.662Z"
-    },
-    {
-      "id": "375a4fd6",
-      "originalTitle": "Krieg in der Ukraine – Ukraine attackiert Schwarzmeerhafen Noworossijsk",
-      "simplifiedText": "Die Ukraine und Russland sind im Krieg. Es ist sehr kalt und regnet. Die Menschen müssen arbeiten und einkaufen. Aber es ist gefährlich, denn es gibt Angriffe. Die Ukraine hat den russischen Hafen Noworossijsk angegriffen. Die Menschen sind sehr besorgt. Sie müssen sich um ihre Sicherheit kümmern.",
-      "vocabularyHints": [
-        "der Hafen — порт",
-        "die Drohne — безпілотник",
-        "die Schwarzmeerküste — чорноморське узбережжя",
-        "die Behörden — органи влади",
-        "sich um etwas kümmern — дбати про щось",
-        "die Sicherheit — безпека",
-        "angreifen — атакувати"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/08c9dd.webp",
-      "publishedAt": "2026-08-12T08:09:04.000Z",
-      "processedAt": "2026-08-12T08:20:36.037Z"
-    },
-    {
-      "id": "50bd401e",
-      "originalTitle": "Kriegsgegner unerwünscht – Russische Oppositionspartei von Parlamentswahl ausgeschlossen",
-      "simplifiedText": "Die Parlamentswahl ist wichtig. Die Menschen gehen zur Wahl und wählen ihre Partei. Eine Partei will den Krieg gegen die Ukraine beenden. Sie fordert ein Ende des Kriegs. Aber diese Partei darf nicht zur Wahl antreten. Das Wetter ist nicht wichtig bei der Wahl. Die Menschen denken über ihre Zukunft nach.",
-      "vocabularyHints": [
-        "die Parlamentswahl — парламентські вибори",
-        "die Partei — партія",
-        "der Krieg — війна",
-        "fordern — вимагати",
-        "das Wetter — погода",
-        "die Zukunft — майбутнє",
-        "die Wahl — вибори"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e76e21.webp",
-      "publishedAt": "2026-08-12T08:09:55.000Z",
-      "processedAt": "2026-08-12T08:20:27.199Z"
-    },
-    {
-      "id": "5c426dd6",
-      "originalTitle": "«Baywatch»-Star schwimmt jetzt auf Onlyfans-Erfolgswelle",
-      "simplifiedText": "Erika Eleniak ist eine Schauspielerin. Sie wurde als Rettungsschwimmerin bekannt. Jetzt ist sie 56 Jahre alt und macht etwas Neues. Sie ist auf einer Plattform namens Onlyfans. Dort will sie einen Wunsch ihrer Fans erfüllen. Sie war früher in einem Film und hat einen roten Badeanzug getragen. Jetzt will sie auf Onlyfans ihre Fans glücklich machen. Das Wetter ist nicht wichtig, wenn man online ist.",
-      "vocabularyHints": [
-        "die Schauspielerin — актриса",
-        "der Rettungsschwimmer — рятувальник",
-        "die Plattform — платформа",
-        "der Badeanzug — купальник",
-        "der Wunsch — бажання"
+        "die Schuhe — взуття",
+        "der Schirm — парасолька",
+        "der Bus — автобус"
       ],
       "category": "Kultur",
-      "imageUrl": "https://media.20min.ch/6/image/2025/11/16/379131b4-e31e-4cd6-8564-71819e21bcd4.jpg?s=42b1d8de8b54bae56926f2b7b1074a13",
-      "publishedAt": "2026-08-12T08:11:48.000Z",
-      "processedAt": "2026-08-12T08:20:18.270Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/d7094be4-b7b5-4e93-87c8-bcea2868b10f.jpg?s=29eb1f67e0d32f308ae6d82e66560e94",
+      "publishedAt": "2026-08-13T05:07:40.000Z",
+      "processedAt": "2026-08-13T07:14:11.171Z"
     },
     {
-      "id": "238b1719",
-      "originalTitle": "Heute Abend ist Sonnenfinsternis – live bei 20 Minuten",
-      "simplifiedText": "Am Mittwochabend schiebt sich der Mond vor die Sonne. 20 Minuten begleitet das Himmelsspektakel. Es ist ein besonderer Abend, denn die Sonnenfinsternis ist ein seltener Anblick. Viele Menschen werden das Ereignis beobachten. Das Wetter muss aber gut sein, damit man die Sonnenfinsternis sehen kann. Wenn es regnet oder bewolkt ist, kann man nichts sehen. Die Menschen hoffen auf gutes Wetter, um das Spektakel zu sehen.",
+      "id": "61545aa8",
+      "originalTitle": "Mit 97 Jahren – Marktreformer und Technokrat: Chinas Zhu Rongji gestorben",
+      "simplifiedText": "Der ehemalige Ministerpräsident Zhu Rongji ist gestorben. Er war 97 Jahre alt. Zhu Rongji hat Chinas Wirtschaftspolitik in den 1990er-Jahren und Anfang der 2000er-Jahre geprägt. Er war ein wichtiger Politiker und hat die Wirtschaftspolitik des Landes verändert. Zhu Rongji war Ministerpräsident und hat die Wirtschaft des Landes gestärkt. Er war auch ein Technokrat und hat die Wirtschaftspolitik des Landes reformiert. Die Wirtschaft Chinas hat sich unter seiner Führung sehr gut entwickelt.",
       "vocabularyHints": [
-        "der Mond — місяць",
-        "die Sonne — сонце",
-        "das Himmelsspektakel — небесне видовище",
-        "die Sonnenfinsternis — сонячне затемнення",
-        "das Ereignis — подія",
-        "die Wolke — хмара"
+        "der Ministerpräsident — прем'єр-міністр",
+        "die Wirtschaftspolitik — економічна політика",
+        "die Nullerjahre — роки нуля, тобто 2000-2009",
+        "der Technokrat — технократ",
+        "die Wirtschaft — економіка",
+        "sich entwickeln — розвиватися",
+        "die Führung — керівництво"
       ],
-      "category": "Wetter",
-      "imageUrl": "https://image.20min.ch/2026/07/22/b29873d7-e8ba-43a4-8c77-0cd63c10f8f6.jpg?s=34e221f5a0d61b4a2d82a11f78bb9155",
-      "publishedAt": "2026-08-12T08:18:46.000Z",
-      "processedAt": "2026-08-12T08:20:09.551Z"
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d561b5.webp",
+      "publishedAt": "2026-08-13T05:31:23.000Z",
+      "processedAt": "2026-08-13T07:14:02.846Z"
+    },
+    {
+      "id": "683abd71",
+      "originalTitle": "Efta-Mercosur-Handelsabkommen – Fleisch- gegen Milchlobby bei Freihandelsabkommen mit Südamerika",
+      "simplifiedText": "Der Bauernverband diskutiert heute ein wichtiges Thema in Bern. Viele Milchbauern sind für ein neues Handelsabkommen mit Südamerika, aber der Bauernverband lehnt es ab. Sie denken, es könnte ihre Arbeit und den Verkauf ihrer Produkte beeinflussen. Das Wetter in Südamerika ist anders als in der Schweiz, aber das ist nicht das Hauptproblem. Das Hauptproblem ist die Frage, ob das Abkommen den Bauern und der Wirtschaft helfen wird. Viele Menschen sind unsicher, ob sie für oder gegen das Abkommen sind. Sie müssen sich noch mehr Informationen beschaffen, bevor sie eine Entscheidung treffen.",
+      "vocabularyHints": [
+        "der Bauernverband — спілка фермерів",
+        "das Dossier — справа",
+        "die Milchbauern — молочні фермери",
+        "das Handelsabkommen — торговельна угода",
+        "die Produkte — товари",
+        "die Wirtschaft — економіка"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf0a7a.webp",
+      "publishedAt": "2026-08-13T05:51:00.000Z",
+      "processedAt": "2026-08-13T07:13:54.554Z"
+    },
+    {
+      "id": "6d91b21b",
+      "originalTitle": "«Seit ich Mutter bin, treffen sie sich ohne mich – heimlich»",
+      "simplifiedText": "Seit ich Mutter bin, treffen sich meine Freunde ohne mich. Sie machen Ausflüge und gehen ins Kino, aber ich bin nicht mehr dabei. Ich denke, das Muttersein hat unsere Freundschaft verändert. Ich muss mich um mein Kind kümmern und habe weniger Zeit für meine Freunde. Aber ich denke, es ist wichtig, dass ich mich auch um mich selbst kümmere. Ich kann mich mit anderen Müttern treffen und neue Freunde finden. Das Wetter ist auch nicht mehr so wichtig, wenn man ein Kind hat, denn man muss immer zu Hause bleiben.",
+      "vocabularyHints": [
+        "die Freundschaft — дружба",
+        "der Freundeskreis — коло друзів",
+        "sich treffen — зустрічатися",
+        "die Community — спільнота",
+        "das Muttersein — материнство",
+        "sich kümmern — дбати",
+        "der Ausflug — екскурсія"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/08/12/4ad55780-198f-4615-853f-647629b313c7.jpg?s=b66d896e774fba3a470d5b38c18cc4ea",
+      "publishedAt": "2026-08-13T05:59:48.000Z",
+      "processedAt": "2026-08-13T07:13:45.731Z"
+    },
+    {
+      "id": "7335ce24",
+      "originalTitle": "Neu im Comic-Regal – «Strong Men»: Wie toxische Männlichkeit Politik beeinflusst",
+      "simplifiedText": "Ich gehe jeden Tag zur Arbeit und kaufe unterwegs ein Brot. Das Wetter ist heute sehr schön, aber gestern war es regnerisch. Ich habe mich gefreut, dass ich gestern zu Hause bleiben und ein gutes Buch lesen konnte. Mein Freund hat sich entschieden, einen neuen Job anzunehmen, denn er war mit seinem alten Job unzufrieden. Ich denke, er wird sich in seinem neuen Job sehr gut ausbreiten. Wir haben uns gestern getroffen und über unsere Pläne für die Zukunft gesprochen. Ich hoffe, das Wetter bleibt schön, damit wir am Wochenende einen Spaziergang machen können.",
+      "vocabularyHints": [
+        "das Brot — хліб",
+        "der Regen — дощ",
+        "sich entscheiden — вирішувати",
+        "sich ausbreiten — поширюватись",
+        "die Zukunft — майбутнє",
+        "der Spaziergang — прогулянка"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/393bcd.webp",
+      "publishedAt": "2026-08-13T06:08:06.000Z",
+      "processedAt": "2026-08-13T07:13:36.758Z"
+    },
+    {
+      "id": "1d85cc3c",
+      "originalTitle": "«Frank & Louis»-Europapremiere – Petra Volpe über Freundschaft und Demenz – hinter Gefängnismauern",
+      "simplifiedText": "Ich gehe jeden Tag zur Arbeit. Das Wetter ist heute sehr schön. Ich kann mich freuen, dass ich nach der Arbeit einkaufen gehe. Ich brauche neue Schuhe, denn meine alten sind kaputt. Ich hoffe, es regnet nicht, aber ich habe einen Schirm, falls es regnet. Ich kann auch mit dem Bus fahren, oder ich gehe zu Fuß. Ich muss mich entscheiden, was ich kaufen will, und ich muss auch bezahlen.",
+      "vocabularyHints": [
+        "das Wetter — погода",
+        "einkaufen — купувати",
+        "die Schuhe — туфлі",
+        "kaputt — зламаний",
+        "der Schirm — парасолька",
+        "bezahlen — платити"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/eb97521.webp",
+      "publishedAt": "2026-08-13T06:09:40.000Z",
+      "processedAt": "2026-08-13T07:13:27.988Z"
+    },
+    {
+      "id": "5772d016",
+      "originalTitle": "Wegen Erdrutsch – Albulalinie im Bündnerland teilweise unterbrochen",
+      "simplifiedText": "Der Bahnverkehr im Engadin ist gestört, weil es einen Erdrutsch gegeben hat. Der Erdrutsch ist im Val Bever niedergegangen. Die Züge können deshalb nicht fahren. Die Menschen müssen umsteigen oder zu Fuß gehen. Das Wetter war sehr schlecht und es hat viel geregnet. Deshalb ist der Erdrutsch passiert. Die Arbeiter sind sehr beschäftigt, um die Strecke wieder frei zu machen.",
+      "vocabularyHints": [
+        "der Erdrutsch — зсуви",
+        "die Strecke — маршрут, траса",
+        "der Bahnverkehr — залізничний рух",
+        "umsteigen — пересідати",
+        "beschäftigt — зайнятий",
+        "niedergegangen — впав",
+        "gestört — порушений"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c0dddfe.webp",
+      "publishedAt": "2026-08-13T06:18:50.000Z",
+      "processedAt": "2026-08-13T07:13:19.247Z"
+    },
+    {
+      "id": "78d0f89b",
+      "originalTitle": "Todesfall von Mieter – «Wie lange muss ich den Mietzins noch bezahlen?»",
+      "simplifiedText": "Wenn ein Mieter stirbt, haben die Angehörigen das Recht, die Wohnung zu kündigen. Sie müssen aber den Mietzins noch für eine bestimmte Zeit bezahlen. Die Angehörigen fragen sich oft, wie lange sie den Mietzins noch bezahlen müssen. Das hängt von den Umständen ab, aber normalerweise müssen sie den Mietzins noch für zwei Monate bezahlen. Die Kündigung muss aber innerhalb von zwei Monaten nach dem Tod des Mieters erfolgen. Wenn die Angehörigen die Kündigung nicht innerhalb dieser Frist vornehmen, müssen sie den Mietzins weiter bezahlen. Es ist wichtig, dass die Angehörigen sich an einen Anwalt wenden, um ihre Rechte zu klären.",
+      "vocabularyHints": [
+        "der Mieter — орендар",
+        "die Kündigung — звільнення",
+        "die Angehörigen — рідні",
+        "der Mietzins — орендна плата",
+        "die Umstände — обставини",
+        "der Anwalt — адвокат"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d4c6f8.webp",
+      "publishedAt": "2026-08-13T06:44:33.000Z",
+      "processedAt": "2026-08-13T07:13:10.235Z"
+    },
+    {
+      "id": "38bb213b",
+      "originalTitle": "Rückspiele in 3. Quali-Runde – Europacup-Aussichten sind rosig – nur Vaduz im Hintertreffen",
+      "simplifiedText": "Die Super-League-Vertreter spielen in der Europa-League und der UECL. Sie wollen in die Playoffs kommen. Die Mannschaften sind sehr motiviert und trainieren jeden Tag. Das Wetter ist gut und die Stimmung ist positiv. Die Spieler sind aber auch nervös, denn sie wissen, dass es wichtig ist, zu gewinnen. Sie müssen sich konzentrieren und ihre Kräfte bündeln. Die Fans unterstützen sie und hoffen auf einen Sieg.",
+      "vocabularyHints": [
+        "die Europa-League — Ліга Європи",
+        "die Playoffs — плей-оф",
+        "die Mannschaft — команда",
+        "motiviert — мотивований",
+        "nervös — нервовий",
+        "sich konzentrieren — концентруватися"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4cd0e9.webp",
+      "publishedAt": "2026-08-13T06:48:26.000Z",
+      "processedAt": "2026-08-13T07:13:01.289Z"
+    },
+    {
+      "id": "13977aba",
+      "originalTitle": "Tofu-Test – Grosse Unterschiede beim Soja-Gehalt in Tofu",
+      "simplifiedText": "Die Konsumentenorganisation FRC hat Tofu getestet. Sie haben Tofu aus dem Detailhandel gekauft und untersucht. Die Resultate sind erstaunlich. Es gibt grosse Unterschiede beim Soja-Gehalt in Tofu. Manche Tofu-Produkte enthalten viel Soja, aber andere enthalten fast kein Soja. Die Organisation will die Konsumenten warnen. Sie sollen auf die Inhaltsstoffe achten, wenn sie Tofu kaufen.",
+      "vocabularyHints": [
+        "die Konsumentenorganisation — організація захисту прав споживачів",
+        "der Detailhandel — роздрібна торгівля",
+        "die Resultate — результати",
+        "der Soja-Gehalt — вміст сої",
+        "die Inhaltsstoffe — складові частини",
+        "warnen — попереджувати",
+        "die Organisation — організація"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c9e8a4d.webp",
+      "publishedAt": "2026-08-13T07:01:42.000Z",
+      "processedAt": "2026-08-13T07:12:52.823Z"
+    },
+    {
+      "id": "46c8f99e",
+      "originalTitle": "Kongo-Kinshasa – Ebola: WHO warnt vor Rekord-Epidemie – die Übersicht",
+      "simplifiedText": "Die Weltgesundheitsorganisation warnt vor einer Rekord-Epidemie. Sie schlägt Alarm, denn es gibt viele Kranke. Die Menschen arbeiten zusammen, um die Epidemie zu bekämpfen. Sie kaufen Medikamente und Lebensmittel, aber es ist schwierig. Das Wetter ist heiß und feucht, und die Epidemie breitet sich schnell aus. Die Menschen sind besorgt, aber sie hoffen, dass die Situation bald besser wird. Sie hoffen, dass die WHO und andere Organisationen helfen können.",
+      "vocabularyHints": [
+        "die Epidemie — епідемія",
+        "die Weltgesundheitsorganisation — Всесвітня організація охорони здоров'я",
+        "sich ausbreiten — поширюватись",
+        "die Medikamente — ліки",
+        "die Lebensmittel — продукти харчування"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d42d88.webp",
+      "publishedAt": "2026-08-13T07:10:08.000Z",
+      "processedAt": "2026-08-13T07:12:44.203Z"
     }
   ],
   "B1": [
     {
-      "id": "676caa95",
-      "originalTitle": "Journalist verbreitet falsche Musiala-Gerüchte und wird verhaftet",
-      "simplifiedText": "Ein türkischer Sportjournalist hat Falschmeldungen über den Bayern-Star Jamal Musiala und Galatasaray Istanbul verbreitet. Der Journalist hat sich sehr unglücklich verhalten, weil er Falschinformationen verbreitete. Er wurde daraufhin verhaftet. Der Journalist hätte wissen müssen, dass Falschmeldungen nicht verbreitet werden dürfen. Wenn man solche Nachrichten verbreitet, kann man verhaftet werden. Obwohl der Journalist vielleicht nicht böswillig handelte, wurde er dennoch verhaftet. Der Vorfall zeigt, dass man vorsichtig mit Informationen umgehen muss. Der Journalist wird sich vielleicht in Zukunft besser informieren, bevor er Nachrichten verbreitet.",
+      "id": "71dc09fc",
+      "originalTitle": "Trotz Doppelrekord von Villa-Teenager: PSG gewinnt den Supercup",
+      "simplifiedText": "Der französische Fußballverein PSG hat den Supercup gegen den englischen Verein Aston Villa gewonnen. Ein 17-jähriger Spieler von Aston Villa erzielte ein Tor. Obwohl der junge Spieler von Aston Villa ein gutes Spiel zeigte, gewann PSG den Supercup. Der Supercup ist ein wichtiger Titel im Fußball. Wenn ein Team den Supercup gewinnt, ist das ein großer Erfolg. PSG ist ein sehr starker Verein und hat viele gute Spieler. Aston Villa hat auch gute Spieler, aber PSG war stärker. Der 17-jährige Spieler von Aston Villa hat jedoch gezeigt, dass er ein großes Talent ist.",
       "vocabularyHints": [
-        "der Fauxpas — прикроїсть, помилка",
-        "die Falschmeldung — фальшива заява",
-        "der Sportjournalist — спортивний журналіст",
-        "die Verhaftung — арешт",
-        "sich verhalten — поводитись"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/08/11/b3276ab6-5ab1-4b58-94c3-bb804e8e007e.jpg?s=4cb9fdbdc1a094d8e7fe6866a60bc6b9",
-      "publishedAt": "2026-08-12T02:55:05.000Z",
-      "processedAt": "2026-08-12T08:24:27.841Z"
-    },
-    {
-      "id": "276049ff",
-      "originalTitle": "Leichtathletik-EM: Das steht am Mittwoch auf dem Programm",
-      "simplifiedText": "An der Leichtathletik-EM in Birmingham kämpfen die Schweizer Athletinnen und Athleten um Edelmetall. Am Mittwoch stehen verschiedene Wettbewerbe auf dem Programm. Die Schweizer Teilnehmerinnen und Teilnehmer hoffen auf gute Ergebnisse. Sie haben sich gut vorbereitet, weil sie um Edelmetall kämpfen wollen. Wenn sie sich gut konzentrieren, können sie vielleicht sogar gewinnen. Obwohl der Wettbewerb sehr stark ist, sind die Schweizer Athletinnen und Athleten zuversichtlich. Sie werden sich ausserordentlich anstrengen, um ihre Ziele zu erreichen.",
-      "vocabularyHints": [
-        "die Leichtathletik — легка атлетика",
-        "die Athletin, -nen — спортсменка",
-        "das Edelmetall — благородний метал",
-        "sich vorbereiten — готуватись",
-        "die Konzentration — концентрація"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://image.20min.ch/2026/08/11/934c8690-3e5c-4efe-9ceb-69b7a283d904.jpg?s=94809581eed21a294de8cd4f2d91f0ce",
-      "publishedAt": "2026-08-12T02:55:39.000Z",
-      "processedAt": "2026-08-12T08:24:18.676Z"
-    },
-    {
-      "id": "3f61e007",
-      "originalTitle": "Die Sonne im Visier – Wie Forschende (künstliche) Sonnenfinsternisse nutzen",
-      "simplifiedText": "Die Sonne ist ein wichtiger Teil unserer Forschung. Sonnenfinsternisse sind berechenbar und kein Geheimnis mehr. Forschende nutzen Sonnenfinsternisse, um Rätsel zu lösen. Sie können dadurch neue Erkenntnisse gewinnen. Wenn eine Sonnenfinsternis auftritt, können Forschende verschiedene Phänomene beobachten. Sie können auch künstliche Sonnenfinsternisse erzeugen, um bestimmte Effekte zu untersuchen. Obwohl Sonnenfinsternisse selten sind, helfen sie Forschenden, die Sonne und ihre Auswirkungen besser zu verstehen.",
-      "vocabularyHints": [
-        "die Sonnenfinsternis, -en — сонячне затемнення",
-        "das Rätsel — загадка",
-        "die Erkenntnis, -se — пізнання",
-        "das Phänomen, -e — явище",
-        "sich auswirken — впливати"
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8bbb7d.webp",
-      "publishedAt": "2026-08-12T03:51:43.000Z",
-      "processedAt": "2026-08-12T08:24:09.806Z"
-    },
-    {
-      "id": "333a455f",
-      "originalTitle": "Hitze und Stromversorgung – Keine Stromlücke in der Schweiz dank Solarenergie",
-      "simplifiedText": "Die Schweiz hat ein Problem mit der Stromproduktion. Der Grund ist, dass die Flusspegel sehr tief sind. Wenn die Flusspegel tief sind, produzieren die Wasserkraftwerke weniger Strom. Obwohl die Wasserkraftwerke weniger Strom produzieren, gibt es keine Stromlücke in der Schweiz. Der Grund ist, dass die Solarenergie viel Strom produziert. Die Solarenergie verhindert einen Engpass in der Stromversorgung. Die Schweiz ist dankbar für die Solarenergie, weil sie die Stromversorgung sichert. Wenn es mehr Sonne gibt, produziert die Solarenergie mehr Strom.",
-      "vocabularyHints": [
-        "die Stromproduktion — виробництво електроенергії",
-        "der Flusspegel — рівень води у річці",
-        "die Wasserkraft — гідроенергія",
-        "der Engpass — нестача, дефіцит",
-        "die Solarenergie — сонячна енергія",
-        "die Stromlücke — нестача електроенергії",
-        "die Stromversorgung — постачання електроенергією"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/afb182.webp",
-      "publishedAt": "2026-08-12T03:53:18.000Z",
-      "processedAt": "2026-08-12T08:24:01.368Z"
-    },
-    {
-      "id": "0de4ef84",
-      "originalTitle": "Ernährungsinitiative – Selbstversorgungsgrad: Kalorien bestimmen den Wert",
-      "simplifiedText": "Die Ernährungsinitiative will einen Selbstversorgungsgrad von 70 Prozent erreichen. Der Selbstversorgungsgrad zeigt an, wie viel Nahrung ein Land selbst produziert. Wenn ein Land 70 Prozent seiner Nahrung selbst produziert, ist es zu 70 Prozent selbstversorgt. Die Initiative fordert, dass die Schweiz ihre eigene Nahrung produziert, weil sie dann unabhängiger wäre. Obwohl dies ein großes Ziel ist, denkt die Initiative, dass es möglich ist. Der Selbstversorgungsgrad wird berechnet, indem man die produzierten Kalorien mit den konsumierten Kalorien vergleicht. Wenn die produzierten Kalorien höher sind als die konsumierten, ist der Selbstversorgungsgrad hoch. Die Ernährungsinitiative denkt, dass dies wichtig ist, weil die Schweiz dann besser auf Krisen vorbereitet wäre.",
-      "vocabularyHints": [
-        "die Initiative — ініціатива",
-        "der Selbstversorgungsgrad — рівень самозабезпечення",
-        "die Kalorien — калорії",
-        "sich produzieren — виробляти",
-        "die Unabhängigkeit — незалежність"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9aa116.webp",
-      "publishedAt": "2026-08-12T03:54:28.000Z",
-      "processedAt": "2026-08-12T08:23:52.044Z"
-    },
-    {
-      "id": "05081858",
-      "originalTitle": "Kein Kündigungsschutz? – Befürworter von EU-Vertragspaket schlagen Alarm",
-      "simplifiedText": "Das Vertragspaket mit der EU ist in Gefahr. Die Wirtschaftskommission hat einen Entscheid gefällt, der viele Befürworter des Pakets beunruhigt. Sie fürchten, dass das Paket nicht zustande kommt, weil einige Bedingungen nicht erfüllt sind. Wenn das Paket nicht zustande kommt, könnte dies negative Folgen für die Wirtschaft haben. Obwohl viele Menschen das Paket unterstützen, gibt es auch einige, die dagegen sind. Die Befürworter des Pakets sind besorgt, dass es ohne Kündigungsschutz nicht funktionieren kann. Sie hoffen, dass die Regierung noch einmal über die Bedingungen verhandelt. Wenn dies nicht geschieht, könnte das Paket scheitern.",
-      "vocabularyHints": [
-        "die Wirtschaftskommission — економічна комісія",
-        "das Vertragspaket — пакет угод",
-        "die Befürworter — прихильники",
-        "die Bedingungen — умови",
-        "der Kündigungsschutz — захист від звільнення",
-        "die Wirtschaft — економіка",
-        "die Regierung — уряд"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d6cfd2.webp",
-      "publishedAt": "2026-08-12T03:58:44.000Z",
-      "processedAt": "2026-08-12T08:23:43.070Z"
-    },
-    {
-      "id": "47312326",
-      "originalTitle": "Neutralitätsinitiative, Ernährungsinitiative – wie stimmst du ab?",
-      "simplifiedText": "Bald finden wieder Abstimmungen statt. Die Schweizer stimmen über verschiedene Initiativen ab. Es geht um die Neutralitätsinitiative und die Ernährungsinitiative. Wenn du stimmberechtigt bist, kannst du an der Abstimmung teilnehmen. Du kannst auch an unserer Umfrage teilnehmen und sagen, wie du abstimmen würdest. Die Neutralitätsinitiative ist wichtig, weil sie die Rolle der Schweiz in internationalen Konflikten regeln soll. Die Ernährungsinitiative soll die Landwirtschaft in der Schweiz unterstützen. Obwohl es viele verschiedene Initiativen gibt, ist es wichtig, dass du deine Stimme abgibst.",
-      "vocabularyHints": [
-        "die Initiative — ініціатива",
-        "die Abstimmung — голосування",
-        "stimmberechtigt — право голосу",
-        "die Landwirtschaft — сільське господарство",
-        "die Rolle — роль",
-        "international — міжнародний"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://image.20min.ch/2026/08/10/05a36f3c-8c93-4358-a737-2a2008701800.jpg?s=2a6d378514303ac5a5eb5128eecb0d92",
-      "publishedAt": "2026-08-12T04:00:14.000Z",
-      "processedAt": "2026-08-12T08:23:34.198Z"
-    },
-    {
-      "id": "52f6e397",
-      "originalTitle": "– Cristiano Ronaldo heiratet Partnerin Georgina Rodríguez",
-      "simplifiedText": "Cristiano Ronaldo und seine Partnerin Georgina Rodríguez sind seit zehn Jahren zusammen. Sie haben sich nun das Ja-Wort gegeben. Das Paar ist sehr glücklich. Sie haben fünf Kinder. Wenn sie Zeit haben, verbringen sie diese gerne miteinander. Obwohl sie sehr beschäftigt sind, finden sie immer Zeit füreinander. Sie sind ein gutes Beispiel für eine glückliche Familie. Cristiano Ronaldo ist ein berühmter Fußballspieler.",
-      "vocabularyHints": [
-        "das Paar — пара",
-        "die Partnerin — партнерка",
-        "das Ja-Wort — слово згоди",
-        "die Medienberichte — повідомлення ЗМІ",
-        "sich das Ja-Wort geben — дати слово згоди"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf8623.webp",
-      "publishedAt": "2026-08-12T04:03:24.000Z",
-      "processedAt": "2026-08-12T08:23:25.439Z"
-    },
-    {
-      "id": "265d02df",
-      "originalTitle": "Fussballstar – Cristiano Ronaldo heiratet Partnerin Georgina Rodríguez",
-      "simplifiedText": "Der Fussballstar Cristiano Ronaldo ist mit seiner Partnerin Georgina Rodríguez verheiratet. Sie sind seit zehn Jahren ein Paar und haben sich nun das Ja-Wort gegeben. Ronaldo ist ein bekannter Fussballspieler und hat viele Titel gewonnen. Er ist auch Vater von fünf Kindern. Georgina Rodríguez ist seine langjährige Partnerin. Sie haben sich entschieden, ihre Beziehung zu vertiefen und zu heiraten. Wenn man sich so lange kennt, kann man sich gut vorstellen, dass man den richtigen Partner gefunden hat. Obwohl sie schon lange zusammen sind, haben sie sich erst jetzt entschieden, zu heiraten.",
-      "vocabularyHints": [
-        "das Ja-Wort — слово згоди",
-        "der Fussballstar — футбольна зірка",
-        "die Partnerin — партнерка",
-        "der Titel — титул",
-        "sich vertiefen — поглиблювати"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf8623.webp",
-      "publishedAt": "2026-08-12T04:03:24.000Z",
-      "processedAt": "2026-08-12T08:23:17.062Z"
-    },
-    {
-      "id": "71bcef38",
-      "originalTitle": "Krieg im Nahen Osten – Trump: Strasse von Hormus gehört uns – neue Warnung an Iran",
-      "simplifiedText": "Der US-Präsident Trump hat eine neue Warnung an den Iran ausgesprochen. Er sagte, dass die Strasse von Hormus den USA gehöre. Trump sprach vor Reportern und betonte, dass die USA die Kontrolle über diese wichtige Schifffahrtsroute haben. Der Iran hat in der Vergangenheit bereits Drohungen gegen die USA ausgesprochen. Trumps Aussagen sind als Reaktion auf die Spannungen zwischen den USA und dem Iran zu sehen. Die Situation im Nahen Osten ist sehr angespannt. Die USA und der Iran haben unterschiedliche Interessen in der Region.",
-      "vocabularyHints": [
-        "die Strasse — вулиця, дорога",
-        "die Schifffahrtsroute — маршрут судноплавства",
-        "die Kontrolle — контроль",
-        "die Drohung — загроза",
-        "die Spannungen — напруженість",
-        "der Nahe Osten — Близький Схід"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9adeb9.webp",
-      "publishedAt": "2026-08-12T04:42:04.000Z",
-      "processedAt": "2026-08-12T08:23:08.341Z"
-    },
-    {
-      "id": "09f94fb1",
-      "originalTitle": "«Träume haben eigene Werte» – «Träume zeigen uns, was uns im Leben wirklich wichtig ist»",
-      "simplifiedText": "Eine Psychologin sagt, dass Träume wichtig sind, weil sie uns zeigen, was uns im Leben wirklich wichtig ist. Sie meint, dass man nicht unbedingt seinen Lebenstraum verwirklichen muss, um glücklich zu werden. Wenn man jedoch seinen Traum nicht verwirklicht, kann man sich unzufrieden fühlen. Die Psychologin erklärt, dass es wichtig ist, seine Träume zu reflektieren und zu überdenken, warum sie einem so wichtig sind. Sie sagt, dass Träume eigene Werte haben und dass sie uns helfen können, unsere Ziele zu setzen. Wenn man seine Träume kennt, kann man besser entscheiden, was man im Leben tun will. Die Psychologin rät, dass man seine Träume nicht aufschieben sollte, sondern dass man sie langsam verwirklichen sollte.",
-      "vocabularyHints": [
-        "die Psychologin — психологиня",
-        "der Lebenstraum — мрія життя",
-        "sich unzufrieden fühlen — відчувати незадоволеність",
-        "reflektieren — роздумувати",
-        "die Ziele setzen — ставити цілі",
-        "aufschieben — відкладати"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d0d772.webp",
-      "publishedAt": "2026-08-12T04:42:05.000Z",
-      "processedAt": "2026-08-12T08:22:59.520Z"
-    },
-    {
-      "id": "23f68a9f",
-      "originalTitle": "Dürre und braune Weiden – Teures Futter wegen Hitze – Landwirte haben Existenzängste",
-      "simplifiedText": "Der ausbleibende Regen bringt Landwirtschaftsbetriebe in Bedrängnis, weil es nicht genug Nahrung für die Tiere gibt. Die Landwirte müssen bereits Winterfutter verfüttern, obwohl es noch nicht Winter ist. Wenn es nicht bald regnet, werden die Tiere nicht genug zu essen haben. Die Landwirte haben Existenzängste, weil sie nicht wissen, wie sie ihre Tiere durch den Winter bringen sollen. Die Hitze und die Dürre machen es den Landwirten sehr schwer. Es gibt nicht genug günstiges Futter, weil die Preise wegen der Dürre sehr hoch sind. Die Landwirte hoffen, dass es bald regnet, damit sie wieder günstiges Futter für ihre Tiere kaufen können.",
-      "vocabularyHints": [
-        "die Bedrängnis — скрута",
-        "die Landwirtschaft — сільське господарство",
-        "das Winterfutter — зимове кормування",
-        "die Existenzängste — страхи за існування",
-        "die Dürre — посуха",
-        "das günstige Futter — дешеве кормування"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/3c2c61.webp",
-      "publishedAt": "2026-08-12T04:50:05.000Z",
-      "processedAt": "2026-08-12T08:22:50.532Z"
-    },
-    {
-      "id": "528247a6",
-      "originalTitle": "Wiederaufbau ob Andermatt – Krach um Max: Wegen des Holzstiers sehen gewisse Urner rot",
-      "simplifiedText": "Der Holzkoloss vom ESAF 2025 soll in Andermatt ein neues Leben erhalten. Das Vorhaben polarisiert die Bevölkerung in Uri, weil einige Menschen dagegen sind. Sie sehen das Holzstier als Problem an. Wenn das Holzstier in Andermatt aufgestellt wird, könnte es zu Konflikten kommen. Obwohl viele Menschen in Uri das Holzstier ablehnen, gibt es auch einige, die es unterstützen. Der Wiederaufbau des Holzkolosses ist ein wichtiges Thema in Uri. Die Menschen in Uri diskutieren darüber, ob das Holzstier ein Teil ihrer Gemeinde sein soll. Der Entscheid über den Wiederaufbau des Holzkolosses wird in Zukunft fallen.",
-      "vocabularyHints": [
-        "der Holzkoloss — дерев'яний колос",
-        "polarisieren — поляризувати",
-        "die Bevölkerung — населення",
-        "das Vorhaben — задум",
-        "ablehnen — відхилити"
-      ],
-      "category": "Gesellschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/5cff468.webp",
-      "publishedAt": "2026-08-12T04:53:02.000Z",
-      "processedAt": "2026-08-12T08:22:41.501Z"
-    },
-    {
-      "id": "03b50fe1",
-      "originalTitle": "Mythos US-Nationalgetränk – Ist Coca-Cola doch keine US‑Erfindung? Na, wenn schon!",
-      "simplifiedText": "In einem italienischen Kloster ist ein rund 200 Jahre altes Rezept für ein colaähnliches Getränk gefunden worden. Das Rezept ist sehr alt und könnte beweisen, dass Coca-Cola nicht aus den USA stammt. Wenn man das Rezept liest, kann man sehen, dass es sich um ein Getränk handelt, das sehr ähnlich wie Cola ist. Es ist jedoch noch nicht klar, ob das Getränk tatsächlich Cola ist. Weil das Rezept so alt ist, ist es möglich, dass es sich um ein Vorgänger-Getränk handelt. Obwohl das Rezept in Italien gefunden wurde, ist es noch unklar, ob es tatsächlich italienischen Ursprungs ist. Wenn das Rezept authentisch ist, könnte es die Geschichte von Coca-Cola neu schreiben. Es ist jedoch wichtig zu beachten, dass das Rezept noch nicht ausreichend untersucht wurde.",
-      "vocabularyHints": [
-        "das Kloster — монастир",
-        "das Rezept — рецепт",
-        "colaähnlich — подібний до коли",
-        "die Vorgänger — попередники",
-        "authentisch — автентичний",
-        "untersuchen — досліджувати"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d16abd.webp",
-      "publishedAt": "2026-08-12T05:01:03.000Z",
-      "processedAt": "2026-08-12T08:22:32.760Z"
-    },
-    {
-      "id": "22eceb51",
-      "originalTitle": "WTA-1000-Turnier in Toronto – Hüftprobleme bremsen Bencic aus",
-      "simplifiedText": "Die Ostschweizerin Bencic hat wegen Hüftproblemen für den Viertelfinal gegen Coco Gauff in Toronto aufgegeben. Sie hätte gerne gespielt, weil sie sich auf das Spiel gefreut hat. Leider war ihr Hüftproblem zu stark. Wenn sie gesund wäre, hätte sie sicherlich gut gespielt. Obwohl sie sehr enttäuscht ist, will sie sich nun auf ihre Genesung konzentrieren. Bencic hofft, dass sie bald wieder spielen kann. Sie wird sich bemühen, ihre Hüftprobleme zu überwinden.",
-      "vocabularyHints": [
-        "die Hüfte — стегно",
-        "das Forfait — зречення",
-        "die Ostschweizerin — східношвейцарка",
-        "der Viertelfinal — чвертьфінал",
-        "aufgeben — здаватись",
-        "sich konzentrieren — зосереджуватись"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/7f78c55.webp",
-      "publishedAt": "2026-08-12T05:15:05.000Z",
-      "processedAt": "2026-08-12T08:22:24.036Z"
-    },
-    {
-      "id": "31965018",
-      "originalTitle": "Eindrückliche Drohnenbilder zeigen Ausmass der Trockenheit",
-      "simplifiedText": "Die anhaltende Trockenheit hat am Untersee und am Hochrhein deutliche Spuren hinterlassen. Die Lage ist besonders angespannt im Gebiet Insel Werd bei Eschenz TG und Stein am Rhein SH. Weil die Trockenheit so anhaltend ist, sind die Spuren immer deutlicher. Wenn es nicht bald regnet, könnte die Situation noch schlimmer werden. Obwohl es in anderen Jahren auch schon Trockenheit gegeben hat, ist diese Situation besonders besorgniserregend. Die Trockenheit breitet sich immer weiter aus. Die Menschen in der Region sind besorgt, weil sie nicht wissen, wie lange die Trockenheit noch anhalten wird.",
-      "vocabularyHints": [
-        "die Trockenheit — посуха",
-        "das Gebiet — територія, область",
-        "angespannt — напружений",
-        "die Spuren — сліди",
-        "die Lage — ситуація"
-      ],
-      "category": "Wetter",
-      "imageUrl": "https://image.20min.ch/2026/08/12/bf53207e-eeb0-40fd-933f-b08aa186b095.jpg?s=696ec49d20d603c9738b51ad8375dbb1",
-      "publishedAt": "2026-08-12T05:34:56.000Z",
-      "processedAt": "2026-08-12T08:22:15.326Z"
-    },
-    {
-      "id": "5125d2fb",
-      "originalTitle": "Als erster arabischer Staat – Historischer Schritt: Todesstrafe im Libanon abgeschafft",
-      "simplifiedText": "Der Libanon ist der erste arabische Staat, der die Todesstrafe abschafft. Dieser Schritt ist wichtig für die Region, sagt eine Journalistin. Der Libanon hat als erster Staat in der arabischen Welt Hinrichtungen abgeschafft. Wenn ein Staat die Todesstrafe abschafft, ist das ein wichtiger Schritt. Obwohl es in der Region noch viele Probleme gibt, ist dies ein bedeutender Fortschritt. Die Journalistin meint, dass dies ein gutes Zeichen für die Zukunft ist. Weil der Libanon ein Beispiel für andere Länder ist, hofft sie, dass sich dies auf andere Staaten ausbreiten wird.",
-      "vocabularyHints": [
-        "der Libanon — Ліван",
-        "die Todesstrafe — смертна кара",
-        "die Region — регіон",
-        "die Journalistin — журналістка",
-        "sich ausbreiten — поширюватись"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e747c7.webp",
-      "publishedAt": "2026-08-12T06:21:46.000Z",
-      "processedAt": "2026-08-12T08:22:06.918Z"
-    },
-    {
-      "id": "09f81a05",
-      "originalTitle": "Roger Federer ist nicht mehr Milliardär",
-      "simplifiedText": "Roger Federer ist nicht mehr Milliardär, weil der Kurs seiner Aktien gestürzt ist. Der Kurssturz betrifft die Aktien seiner Sneaker-Marke On. Wenn der Kurs der Aktien nicht steigt, wird Roger Federer nicht wieder Milliardär. Obwohl er viel Geld verdient hat, ist er aktuell kein Milliardär mehr. Der Wert seiner Aktien ist gesunken. Wenn er mehr Aktien verkauft, könnte er wieder Milliardär werden. Der Kurssturz ist ein Problem für Roger Federer. Er hofft, dass der Kurs der Aktien wieder steigt.",
-      "vocabularyHints": [
-        "der Kurssturz — падіння курсу",
-        "die Sneaker-Marke — спортивна торгова марка",
-        "der Milliardär — мільярдер",
-        "die Aktien — акції",
-        "der Kurs — курс"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://image.20min.ch/2026/08/12/9d333a3f-463f-405a-8268-f41aa3de842c.jpg?s=dcb8a192671f1f87703dcee80d9735db",
-      "publishedAt": "2026-08-12T07:12:08.000Z",
-      "processedAt": "2026-08-12T08:21:58.491Z"
-    },
-    {
-      "id": "2adab9d9",
-      "originalTitle": "Indonesien – Fähre zwischen Bali und Lombok gerät in Brand",
-      "simplifiedText": "In Indonesien ist auf einer Fähre zwischen den Inseln Bali und Lombok ein Brand ausgebrochen. Der Brand ist ausgebrochen, weil ein technisches Problem aufgetreten ist. Alle Passagiere konnten gerettet werden, obwohl der Brand sich schnell ausbreitete. Die Fähre war auf dem Weg von Bali nach Lombok, als das Feuer ausbrach. Die genaue Ursache des Brandes ist noch nicht bekannt. Wenn der Brand nicht so schnell entdeckt worden wäre, hätten die Folgen viel schlimmer sein können. Die Passagiere sind in Sicherheit, weil sie schnell evakuiert wurden.",
-      "vocabularyHints": [
-        "die Fähre, -n — пором",
-        "die Insel, -n — острів",
-        "sich ausbreiten — поширюватись",
-        "evakuiert — евакуйований",
-        "die Ursache — причина"
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/38f9a9.webp",
-      "publishedAt": "2026-08-12T07:15:22.000Z",
-      "processedAt": "2026-08-12T08:21:50.045Z"
-    },
-    {
-      "id": "1a36b5f4",
-      "originalTitle": "Arbeitszeitbegrenzung – Die Spezialisten verdienen mehr als vorgesehen",
-      "simplifiedText": "In Zukunft dürfen Ärztinnen und Ärzte nicht mehr unbegrenzt abrechnen. Dies hat zu Empörung bei den Spezialisten geführt. Sie verdienen normalerweise mehr als andere Ärzte. Die neue Regelung könnte ihre Einkommen senken. Die Ärztinnen und Ärzte sind dagegen, weil sie dadurch weniger verdienen würden. Wenn sie weniger abrechnen dürfen, könnten sie auch weniger Patienten behandeln. Obwohl dies zu einer besseren Versorgung führen soll, sind die Spezialisten dagegen.",
-      "vocabularyHints": [
-        "die Abrechnung — розрахунок",
-        "die Empörung — обурення",
-        "der Spezialist, -en — спеціаліст",
-        "die Regelung — регулювання",
-        "das Einkommen — доход",
-        "die Versorgung — забезпечення"
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/905a7d9.webp",
-      "publishedAt": "2026-08-12T07:18:11.000Z",
-      "processedAt": "2026-08-12T08:21:41.315Z"
-    },
-    {
-      "id": "2aeeedbe",
-      "originalTitle": "8 Monate nach Geburt – Kambundjis schwieriger Balance-Akt zwischen Ambition und Geduld",
-      "simplifiedText": "Mujinga Kambundji ist eine Schweizer Athletin. Sie ist stolz, dass sie an der EM in Birmingham teilnehmen kann. Sie wird jedoch nicht um die Medaillen mitlaufen, weil sie erst 8 Monate nach ihrer Geburt wieder trainiert. Kambundji muss einen schwierigen Balance-Akt zwischen Ambition und Geduld machen. Sie will wieder erfolgreich sein, aber sie muss auch ihre Gesundheit schützen. Wenn sie zu schnell trainiert, kann sie sich verletzen. Obwohl es schwierig ist, ist Kambundji motiviert, weil sie ihre Ziele erreichen will. Sie wird sich ausbreiten und wieder zu ihrer alten Form zurückkehren.",
-      "vocabularyHints": [
-        "die Medaille, -n — медаль",
-        "die EM — чемпіонат Європи",
-        "die Ambition — амбіція",
-        "die Geduld — терпіння",
-        "sich verletzen — травмуватись",
-        "die Gesundheit — здоров'я"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/31a669.webp",
-      "publishedAt": "2026-08-12T07:22:31.000Z",
-      "processedAt": "2026-08-12T08:21:32.953Z"
-    },
-    {
-      "id": "48e68a2b",
-      "originalTitle": "Hürdensprinter Jason Joseph – Keine sorgenfreie Vorbereitung – doch das war 2024 auch so",
-      "simplifiedText": "Jason Joseph ist ein Hürdensprinter. Er hat vor zwei Jahren an der EM Bronze über 110 m Hürden gewonnen. Jetzt will er in Birmingham wieder eine Medaille gewinnen. Er peilt eine Medaille an, weil er sehr gut trainiert hat. Wenn er sich nicht verletzt, kann er eine gute Leistung bringen. Obwohl die Vorbereitung nicht sorgenfrei war, ist er zuversichtlich. Er will seine Ziele erreichen, weil er hart gearbeitet hat.",
-      "vocabularyHints": [
-        "die Hürde, -n — бар'єр",
-        "die Medaille — медаль",
-        "peilen — націлюватись",
-        "sich verletzen — травмуватись",
-        "die Vorbereitung — підготовка"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/8b0edc.webp",
-      "publishedAt": "2026-08-12T07:22:59.000Z",
-      "processedAt": "2026-08-12T08:21:24.472Z"
-    },
-    {
-      "id": "355c0e93",
-      "originalTitle": "Hohe Preise, Tribünen halbleer – Stell dir vor, es ist Leichtathletik-EM und keiner geht hin",
-      "simplifiedText": "Die Leichtathletik-EM in Birmingham hat begonnen. Viele Plätze sind leer, weil die Preise sehr hoch sind. Das ist ein Problem, weil die Veranstalter viel Geld für die Organisation ausgeben. Einige Leute denken, dass der Supercup eine Konkurrenz für die EM ist. Wenn die Preise niedriger wären, würden vielleicht mehr Menschen kommen. Die EM ist wichtig, aber die hohen Kosten sind ein großes Hindernis. Die Organisatoren müssen etwas unternehmen, um mehr Zuschauer anzulocken.",
-      "vocabularyHints": [
-        "die Leichtathletik — легка атлетика",
-        "die Tribüne, -n — трибуна",
-        "sich ausbreiten — поширюватись",
-        "der Unmut — невдоволення",
-        "die Konkurrenz — конкуренція",
         "der Supercup — суперкубок",
-        "die Organisation — організація"
+        "der Fußballverein — футбольний клуб",
+        "das Tor — гол",
+        "der Titel — титул",
+        "sich zeigen — показувати"
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d11934.webp",
-      "publishedAt": "2026-08-12T07:26:57.000Z",
-      "processedAt": "2026-08-12T08:21:15.545Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/0cf26c9b-74f7-4c4e-974c-72fcd9b93126.jpg?s=87cd518ef0c2afd9b616e0df8ce7309b",
+      "publishedAt": "2026-08-12T21:33:44.000Z",
+      "processedAt": "2026-08-13T07:16:58.690Z"
     },
     {
-      "id": "69ba8436",
-      "originalTitle": "Olympia 2028 als Weitspringer? – Ehammer: Silber um den Hals und ein Entscheid im Hinterkopf",
-      "simplifiedText": "Simon Ehammer ist ein Schweizer Leichtathlet. Er hat bei Olympia 2020 Bronze im Zehnkampf gewonnen. Jetzt denkt er an Olympia 2028. Er will als Weitspringer teilnehmen. Im Winter muss er eine wichtige Entscheid treffen. Er hat ein Karriere-Highlight vor Augen. Ehammer hat bereits Silber um den Hals. Er will weiterhin erfolgreich sein. Sein Ziel ist es, bei Olympia 2028 zu gewinnen.",
+      "id": "5eae70ff",
+      "originalTitle": "Langes Warten auf grossen Sieg – «Wenig, das mir in meiner Karriere noch nicht passiert ist»",
+      "simplifiedText": "Jason Joseph hat den grössten Sieg in seiner Karriere errungen. Er gewann an der Leichtathletik-EM 2026 in Birmingham. Joseph sagt, dass ihm in seiner Karriere wenig passiert ist, was er nicht schon einmal erlebt hat. Er musste lange auf diesen grossen Sieg warten. Wenn er an seine Karriere denkt, ist er zufrieden. Obwohl er viel erlebt hat, ist dieser Sieg besonders wichtig. Weil er so lange gewartet hat, ist der Sieg umso schöner.",
       "vocabularyHints": [
-        "der Weitspringer — стрибун у довжину",
-        "das Karriere-Highlight — найвищий кар’єрний успіх",
-        "die Entscheid — рішення",
-        "der Zehnkampf — десятиборство",
-        "das Olympia — Олімпійські ігри",
-        "der Leichtathlet — легкоатлет"
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e2a30c1.webp",
-      "publishedAt": "2026-08-12T07:35:11.000Z",
-      "processedAt": "2026-08-12T08:21:06.708Z"
-    },
-    {
-      "id": "595ae82d",
-      "originalTitle": "Ungebetene Gäste – Quallenplage bringt Atomreaktoren in Frankreich zum Halt",
-      "simplifiedText": "In Frankreich musste das Atomkraftwerk Gravelines teilweise den Betrieb einstellen, weil viele Quallen das Kühlwassersystem blockierten. Das Kraftwerk Gravelines ist eines der größten in Europa. Wenn das Kühlwassersystem blockiert ist, kann das Kraftwerk nicht sicher betrieben werden. Deshalb mussten die Arbeiter das Kraftwerk teilweise abschalten. Obwohl die Arbeiter alles tun, um das Problem zu lösen, ist es noch unklar, wann das Kraftwerk wieder vollständig in Betrieb genommen wird. Die Quallen sind in großen Mengen im Meer und können das Kühlwassersystem des Kraftwerks blockieren. Das ist ein großes Problem für die Arbeiter und die Umwelt.",
-      "vocabularyHints": [
-        "das Atomkraftwerk — атомна електростанція",
-        "das Kühlwassersystem — система охолодження",
-        "teilweise — частково",
-        "blockieren — блокувати",
-        "die Arbeiter — робітники",
-        "das Problem — проблема"
-      ],
-      "category": "Wirtschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/f58794.webp",
-      "publishedAt": "2026-08-12T07:55:17.000Z",
-      "processedAt": "2026-08-12T08:20:57.824Z"
-    },
-    {
-      "id": "76c10608",
-      "originalTitle": "Notfälle häufen sich: Musst du bald ohne Powerbank fliegen?",
-      "simplifiedText": "Es gibt immer wieder Probleme mit Powerbanks in Flugzeugen. Ein Experte denkt, dass Powerbanks am besten ganz verboten wären. Wenn Powerbanks an Bord von Flugzeugen explodieren, kann das sehr gefährlich sein. Deshalb denkt der Experte, dass ein Verbot besser wäre. Swiss will aber nicht verbieten, sondern die Menschen aufklären. Sie wollen, dass die Menschen wissen, wie sie mit Powerbanks umgehen müssen. Wenn man die Powerbanks richtig benutzt, gibt es weniger Probleme. Swiss will die Sicherheit der Flugzeuge verbessern, ohne Powerbanks zu verbieten.",
-      "vocabularyHints": [
-        "die Powerbank, -en — портативний акумулятор",
-        "der Zwischenfall — інцидент",
-        "die Prävention — профілактика",
-        "der Aviatik-Experte — авіаційний експерт",
-        "das Verbot — заборона",
-        "aufklären — просвітити",
-        "die Sicherheit — безпека"
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://image.20min.ch/2026/08/11/6b1516ba-e5d5-44a8-8f92-25587ee79be2.jpg?s=a60292c974bed4004d2b9b384effc0f3",
-      "publishedAt": "2026-08-12T08:08:55.000Z",
-      "processedAt": "2026-08-12T08:20:49.126Z"
-    },
-    {
-      "id": "1c0ac248",
-      "originalTitle": "Krieg in der Ukraine – Ukraine attackiert Schwarzmeerhafen Noworossijsk",
-      "simplifiedText": "Die Ukraine hat den russischen Schwarzmeerhafen Noworossijsk angegriffen. Dieser Angriff erfolgte in der Nacht und wurde von ukrainischen Drohnen durchgeführt. Die russischen Behörden haben den Angriff bestätigt. Der Hafen Noworossijsk ist ein wichtiger Umschlagplatz für russische Güter. Der Angriff könnte die russische Wirtschaft beeinträchtigen. Wenn die Ukraine solche Angriffe fortsetzt, könnte dies zu einer Verschärfung des Konflikts führen. Obwohl der Krieg in der Ukraine bereits seit Langem tobt, sind solche Angriffe auf russische Ziele selten.",
-      "vocabularyHints": [
-        "der Hafen — порт",
-        "die Drohne — безпілотник",
-        "die Schwarzmeerküste — чорноморське узбережжя",
-        "die Behördenangabe — заява органів влади",
-        "der Umschlagplatz — місце перевалки товарів",
-        "die Güter — товари",
-        "die Verschärfung — загострення"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/08c9dd.webp",
-      "publishedAt": "2026-08-12T08:09:04.000Z",
-      "processedAt": "2026-08-12T08:20:39.520Z"
-    },
-    {
-      "id": "21091240",
-      "originalTitle": "Kriegsgegner unerwünscht – Russische Oppositionspartei von Parlamentswahl ausgeschlossen",
-      "simplifiedText": "Bei der Parlamentswahl in Russland wird keine Partei antreten, die sich gegen den Krieg ausspricht. Die russische Oppositionspartei, die ein Ende des Kriegs gegen die Ukraine fordert, wurde von der Wahl ausgeschlossen. Dies ist ein wichtiger Schritt, weil die Regierung keine offene Opposition dulden will. Wenn eine Partei gegen den Krieg ist, wird sie nicht zur Wahl zugelassen. Obwohl es viele Menschen gibt, die den Krieg ablehnen, dürfen sie ihre Meinung nicht öffentlich äußern. Die Parlamentswahl findet ohne eine Partei statt, die für Frieden eintritt. Die Entscheidung, die Oppositionspartei auszuschließen, ist ein Zeichen dafür, dass die Regierung die Kontrolle über die Politik behalten will.",
-      "vocabularyHints": [
-        "die Opposition — опозиція",
-        "die Parlamentswahl — вибори до парламенту",
-        "sich aussprechen — висловлювати свою думку",
-        "die Regierung — уряд",
-        "die Kontrolle — контроль",
-        "die Meinung — думка",
-        "öffentlich — публічно"
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e76e21.webp",
-      "publishedAt": "2026-08-12T08:09:55.000Z",
-      "processedAt": "2026-08-12T08:20:30.434Z"
-    },
-    {
-      "id": "278647cc",
-      "originalTitle": "«Baywatch»-Star schwimmt jetzt auf Onlyfans-Erfolgswelle",
-      "simplifiedText": "Erika Eleniak wurde als Rettungsschwimmerin in der Fernsehserie «Baywatch» bekannt. Sie trug einen roten Badeanzug und wurde damit weltberühmt. Jetzt ist sie 56 Jahre alt und hat beschlossen, auf der Plattform Onlyfans ein neues Kapitel zu beginnen. Sie will dort auch einen besonderen Wunsch ihrer Fans erfüllen, weil sie ihre Fans sehr schätzt. Wenn sie auf Onlyfans Erfolg hat, könnte sie ihre Karriere neu ausrichten. Obwohl sie bereits alt ist, will sie sich nicht zur Ruhe setzen. Sie will sich ausbreiten und neue Dinge ausprobieren, weil sie noch viel Energie hat.",
-      "vocabularyHints": [
-        "die Rettungsschwimmerin — рятувальниця",
-        "der Badeanzug — купальник",
-        "die Fernsehserie — телесеріал",
-        "die Plattform — платформа",
-        "sich ausbreiten — поширюватись",
+        "die Leichtathletik — легка атлетика",
+        "die EM — чемпіонат Європи",
         "die Karriere — кар'єра",
-        "sich zur Ruhe setzen — піти на пенсію"
+        "sich zufrieden geben — бути задоволеним",
+        "das Warten — очікування"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/66a30b.webp",
+      "publishedAt": "2026-08-12T22:30:59.000Z",
+      "processedAt": "2026-08-13T07:16:50.357Z"
+    },
+    {
+      "id": "5f0b5634",
+      "originalTitle": "– Karoline Leavitt tritt als Sprecherin von Donald Trump zurück",
+      "simplifiedText": "Karoline Leavitt ist 28 Jahre alt und war die jüngste Sprecherin im Weissen Haus. Sie hat ihren Job als Sprecherin von Donald Trump wegen familiärer Gründe aufgegeben. Karoline Leavitt war sehr jung, als sie diese Position übernahm. Sie hat ihre Entscheidung getroffen, weil sie Zeit mit ihrer Familie verbringen möchte. Wenn jemand so jung eine wichtige Position hat, ist es nicht einfach, alles zu verwalten. Obwohl sie sehr erfolgreich war, hat sie sich für ihre Familie entschieden. Karoline Leavitts Rücktritt ist ein wichtiger Schritt in ihrer Karriere. Sie wird sicherlich weiterhin eine erfolgreiche Karriere haben.",
+      "vocabularyHints": [
+        "die Sprecherin — представниця",
+        "das Weisse Haus — Білий дім",
+        "die Position — посада",
+        "sich entscheiden — вирішувати",
+        "die Karriere — кар'єра"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/07df5a.webp",
+      "publishedAt": "2026-08-13T02:39:54.000Z",
+      "processedAt": "2026-08-13T07:16:41.926Z"
+    },
+    {
+      "id": "0a42b1ec",
+      "originalTitle": "Sprachrohr des Präsidenten – Karoline Leavitt tritt als Sprecherin von Donald Trump zurück",
+      "simplifiedText": "Karoline Leavitt war die Sprecherin von Donald Trump. Sie war 28 Jahre alt und damit die jüngste Sprecherin in der Geschichte des Weissen Hauses. Sie hat ihren Job aus familiären Gründen aufgegeben. Leavitt war das Sprachrohr des Präsidenten. Sie hat ihre Entscheidung bekannt gegeben, weil sie Zeit mit ihrer Familie verbringen möchte. Obwohl sie jung war, hatte sie eine wichtige Rolle im Weissen Haus. Wenn sie nicht zurückgetreten wäre, hätte sie vielleicht ihre Karriere fortgesetzt. Sie trat zurück, weil ihre Familie für sie an erster Stelle steht.",
+      "vocabularyHints": [
+        "die Sprecherin — представниця",
+        "das Sprachrohr — орган висловлювання думок",
+        "der Präsident — президент",
+        "die Entscheidung — рішення",
+        "das Weisse Haus — Білий дім"
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/07df5a.webp",
+      "publishedAt": "2026-08-13T02:39:54.000Z",
+      "processedAt": "2026-08-13T07:16:33.382Z"
+    },
+    {
+      "id": "25f727c4",
+      "originalTitle": "Hitze, Dürre, Stürme: Wie lange halten Schutzwälder das aus?",
+      "simplifiedText": "Der Schweizer Schutzwald schützt Strassen und Dörfer, weil er Steine zurückhält und Lawinen bremst. Wenn es jedoch zu heiß und trocken ist, kann der Wald nicht mehr richtig funktionieren. Hitze, Dürre und Stürme setzen dem Wald zu, obwohl er sehr wichtig ist. Fachleute warnen, dass ein Wald, der ausfällt, nicht einfach ersetzt werden kann. Der Schutzwald ist also sehr wichtig für die Schweiz. Wenn der Wald nicht mehr da ist, können Lawinen und Steine nicht mehr gehalten werden. Deshalb müssen wir den Wald schützen, damit er uns weiterhin schützen kann.",
+      "vocabularyHints": [
+        "der Schutzwald — захисний ліс",
+        "die Lawine — лавина",
+        "die Trockenheit — посуха",
+        "das Gewitter — гроза",
+        "die Fachleute — фахівці"
+      ],
+      "category": "Umwelt",
+      "imageUrl": "https://image.20min.ch/2026/08/12/3d96f82e-c206-488e-a25a-c963c1ce67e7.avif?s=b3b8c1764c0a87fbe2a51ae88cfcd6ce",
+      "publishedAt": "2026-08-13T02:51:27.000Z",
+      "processedAt": "2026-08-13T07:16:24.871Z"
+    },
+    {
+      "id": "63a7d234",
+      "originalTitle": "«Wie viel Geld verdienen Sie als Schwinger?»",
+      "simplifiedText": "Samuel Giger ist ein bekannter Schwinger. Er ist der erste Schwinger-Profi. Fabian Staudenmann sagt, dass er schon seit drei oder vier Jahren ein Profi ist. Er verdient Geld mit dem Schwingen. Wenn man ein Profi ist, kann man viel Geld verdienen. Obwohl es nicht leicht ist, kann man sich als Profi durchsetzen. Weil es ein harter Sport ist, muss man sich gut vorbereiten.",
+      "vocabularyHints": [
+        "der Schwinger — швінгер, швейцарський національний спорт",
+        "die Schlagzeilen — заголовки газет",
+        "sich durchsetzen — просуватися вперед, досягати успіху",
+        "sich vorbereiten — готуватися",
+        "der Profi — професіонал",
+        "die Definition — визначення"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/08/12/1b32f882-905c-4455-8bb4-cbbd03a6a044.jpg?s=7333f967488a16423ea63b9e7f6fd160",
+      "publishedAt": "2026-08-13T02:52:02.000Z",
+      "processedAt": "2026-08-13T07:16:16.442Z"
+    },
+    {
+      "id": "35e020e1",
+      "originalTitle": "In diesem Film dürfen Unverheiratete nur einmal im Jahr Sex haben",
+      "simplifiedText": "In dem Film «One Night Only» gibt es eine ungewöhnliche Regel: Unverheiratete dürfen nur einmal im Jahr Sex haben. Diese Regel führt zu vielen Problemen. Die Schauspieler Monica Barbaro und Callum Turner spielen die Hauptrollen in diesem Film. Sie geraten ins Dating-Chaos in New York. Wenn sie sich verabreden, müssen sie sich entscheiden, ob sie diese Chance nutzen wollen. Obwohl es viele Hindernisse gibt, versuchen sie, ihre Beziehungen aufzubauen. Die Frage ist, ob sie erfolgreich sein werden. Wenn sie es schaffen, werden sie vielleicht sogar heiraten.",
+      "vocabularyHints": [
+        "die Regel — правило",
+        "das Dating — побачення",
+        "das Chaos — хаос",
+        "sich verabreden — зустрічатися",
+        "die Chance — можливість",
+        "die Beziehung — стосунки",
+        "die Hindernisse — перешкоди"
       ],
       "category": "Kultur",
-      "imageUrl": "https://media.20min.ch/6/image/2025/11/16/379131b4-e31e-4cd6-8564-71819e21bcd4.jpg?s=42b1d8de8b54bae56926f2b7b1074a13",
-      "publishedAt": "2026-08-12T08:11:48.000Z",
-      "processedAt": "2026-08-12T08:20:21.687Z"
+      "imageUrl": "https://image.20min.ch/2026/08/12/fb003eff-b875-4ede-bfb7-1b75d1aded0e.jpg?s=c10827d59c1916d50582170280097362",
+      "publishedAt": "2026-08-13T02:52:26.000Z",
+      "processedAt": "2026-08-13T07:16:07.961Z"
     },
     {
-      "id": "47e8cd3b",
-      "originalTitle": "Heute Abend ist Sonnenfinsternis – live bei 20 Minuten",
-      "simplifiedText": "Am Mittwochabend kommt es zu einer Sonnenfinsternis, weil der Mond sich vor die Sonne schiebt. Wenn das passiert, ist es taghell nicht mehr. 20 Minuten berichtet live von diesem Ereignis. Das Team begleitet das Himmelsspektakel von zwei Orten aus: vom Niesen im Berner Oberland und vom Nollen im Thurgau. Die Zuschauer konnen das Ereignis live verfolgen. Obwohl die Sonnenfinsternis nicht lange dauert, ist sie ein wichtiges Ereignis. Die Menschen freuen sich darauf, weil sie so etwas nicht oft sehen.",
+      "id": "1dd1b065",
+      "originalTitle": "Leichtathletik-EM: Das steht am Donnerstag auf dem Programm",
+      "simplifiedText": "An der Leichtathletik-EM in Birmingham kämpfen die Schweizer Athletinnen und Athleten um Edelmetall. Am Donnerstag steht ein wichtiges Programm auf dem Plan. Die Schweizer Teilnehmer sind sehr motiviert, weil sie um Medaillen kämpfen. Wenn sie sich gut vorbereiten, können sie vielleicht Edelmetall gewinnen. Obwohl es sehr schwierig ist, sind die Chancen nicht schlecht. Die Athletinnen und Athleten trainieren sehr hart, damit sie ihre Ziele erreichen. Sie hoffen, dass sie am Donnerstag erfolgreich sein werden. Die Leichtathletik-EM ist ein wichtiger Wettkampf für die Schweizer Sportler.",
       "vocabularyHints": [
-        "das Himmelsspektakel — небесне видовище",
-        "der Mond — місяць",
+        "die Leichtathletik — легка атлетика",
+        "die EM — чемпіонат Європи",
+        "das Edelmetall — благородний метал",
+        "sich vorbereiten — готуватись",
+        "die Medaille — медаль"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/08/12/08821e62-9c62-4d12-9926-ba51f9788147.jpg?s=181949f4b6f4b50cc7ec32955e2d948a",
+      "publishedAt": "2026-08-13T02:52:53.000Z",
+      "processedAt": "2026-08-13T07:15:59.333Z"
+    },
+    {
+      "id": "08c37363",
+      "originalTitle": "– Die Sonnenfinsternis zog die Schweiz in ihren Bann",
+      "simplifiedText": "Die Schweiz erlebte ein seltenes Himmelsspektakel. Die grösste Sonnenfinsternis seit 1999 war zu sehen. Viele Menschen beobachteten das Ereignis. Die Sonnenfinsternis zog die Schweiz in ihren Bann. Es war ein besonderes Erlebnis. Die Menschen waren sehr beeindruckt. Die Sonnenfinsternis war ein Naturphänomen, das nicht oft vorkommt.",
+      "vocabularyHints": [
+        "das Spektakel — видовище",
         "die Sonnenfinsternis — сонячне затемнення",
-        "das Berner Oberland — Бернське Оберланд",
-        "das Team — команда",
-        "sich schieben — пересуватися"
+        "das Himmelsspektakel — небесне видовище",
+        "die Schweiz — Швейцарія",
+        "sich in den Bann ziehen — привернути увагу",
+        "das Naturphänomen — природне явище",
+        "beeindruckt — вражений"
       ],
       "category": "Wetter",
-      "imageUrl": "https://image.20min.ch/2026/07/22/b29873d7-e8ba-43a4-8c77-0cd63c10f8f6.jpg?s=34e221f5a0d61b4a2d82a11f78bb9155",
-      "publishedAt": "2026-08-12T08:18:46.000Z",
-      "processedAt": "2026-08-12T08:20:12.641Z"
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6e5d0f.webp",
+      "publishedAt": "2026-08-13T03:24:06.000Z",
+      "processedAt": "2026-08-13T07:15:50.535Z"
+    },
+    {
+      "id": "24424599",
+      "originalTitle": "Tausende Schaulustige – Die Sonnenfinsternis zog die Schweiz in ihren Bann",
+      "simplifiedText": "Die Schweiz erlebte ein seltenes Himmelsspektakel. Die grösste Sonnenfinsternis seit 1999 war zu sehen. Tausende Schaulustige beobachteten das Ereignis. Die Sonnenfinsternis zog die Schweiz in ihren Bann. Viele Menschen waren begeistert von dem Anblick. Die Sonnenfinsternis war ein besonderes Erlebnis. Sie fand statt, weil die Mondposition genau stimmte. Wenn die Mondposition nicht gestimmt hätte, wäre die Sonnenfinsternis nicht sichtbar gewesen.",
+      "vocabularyHints": [
+        "das Himmelsspektakel — небесне шоу",
+        "die Schaulustigen — глядачі",
+        "die Sonnenfinsternis — сонячне затемнення",
+        "die Mondposition — позиція місяця",
+        "sich begeistern — захоплюватись",
+        "das Ereignis — подія",
+        "die Bann — захват"
+      ],
+      "category": "Wissenschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/6e5d0f.webp",
+      "publishedAt": "2026-08-13T03:24:06.000Z",
+      "processedAt": "2026-08-13T07:15:42.077Z"
+    },
+    {
+      "id": "12181b55",
+      "originalTitle": "Aufsicht kritisiert Bund – Vergünstigungen bei Medikamenten erreichen die Patienten kaum",
+      "simplifiedText": "Die Aufsicht kritisiert den Bund, weil die Vergünstigungen bei Medikamenten die Patienten kaum erreichen. Ärztinnen, Apotheker und Spital-Leitungen geben nur einen Teil ihrer Rabatte weiter. Der Bund soll stärker eingreifen, damit die Patienten von den Vergünstigungen profitieren können. Wenn der Bund nicht eingreift, werden die Patienten weiterhin zu viel für Medikamente bezahlen. Obwohl der Bund bereits einige Massnahmen ergriffen hat, sind die Ergebnisse nicht zufriedenstellend. Die Aufsicht fordert, dass der Bund seine Bemühungen verstärkt, um die Patienten zu schützen. Der Bund sollte sich um eine gerechte Verteilung der Rabatte kümmern, damit die Patienten von den Vergünstigungen profitieren können.",
+      "vocabularyHints": [
+        "die Aufsicht — нагляд",
+        "die Vergünstigung, -en — пільга",
+        "der Rabatt, -e — знижка",
+        "das Spital — лікарня",
+        "die Apotheke — аптека",
+        "die Leitung — керівництво"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a51393.webp",
+      "publishedAt": "2026-08-13T03:25:19.000Z",
+      "processedAt": "2026-08-13T07:15:32.879Z"
+    },
+    {
+      "id": "3e7506b2",
+      "originalTitle": "Travis Kelce schwärmt von «bester Nacht» seines Lebens",
+      "simplifiedText": "Travis Kelce und Taylor Swift haben sich am 3. Juli im Madison Square Garden das Ja-Wort gegeben. Travis Kelce ist sehr glücklich und sagt, dass es die beste Nacht seines Lebens war. Er ist ein Footballer und schwebt noch immer auf Wolke sieben. Er hat Taylor Swift geheiratet, weil er sie sehr liebt. Wenn er an diese Nacht denkt, ist er sehr zufrieden. Obwohl er viele schöne Nächte erlebt hat, war diese die schönste. Travis Kelce und Taylor Swift sind jetzt verheiratet und sehr glücklich.",
+      "vocabularyHints": [
+        "das Ja-Wort — слово згоди",
+        "die Wolke — хмара",
+        "die Nacht — ніч",
+        "sich verheiraten — одружитись",
+        "die Zufriedenheit — задоволеність"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2026/04/07/4f315533-80bf-4116-bad9-f181b36daa92.jpg?s=0d6544259c5fde30304d3a8df3bea4e5",
+      "publishedAt": "2026-08-13T03:35:32.000Z",
+      "processedAt": "2026-08-13T07:15:24.118Z"
+    },
+    {
+      "id": "64d3166b",
+      "originalTitle": "Handel Schweiz–Kuba – Wer mit Kuba Geschäfte macht, bekommt die Macht der USA zu spüren",
+      "simplifiedText": "Für Schweizer Unternehmen ist es schwierig, Geschäfte mit Kuba zu machen, weil die USA neue Sanktionen verhängt haben. Wenn ein Schweizer Unternehmen mit Kuba Geschäfte macht, muss es mit den Konsequenzen rechnen, dass es die Macht der USA zu spüren bekommt. Die USA haben diese Sanktionen verhängt, weil sie nicht mit der Regierung in Kuba einverstanden sind. Obwohl die Schweiz ein unabhängiges Land ist, muss sie sich an diese Sanktionen halten. Die Schweizer Unternehmen haben Angst, dass sie ihre Geschäfte in den USA verlieren, wenn sie mit Kuba zusammenarbeiten. Deshalb ist es für sie sehr schwierig, Geschäfte mit Kuba zu machen. Die Schweizer Regierung sucht nach Lösungen, um den Handel mit Kuba zu fördern, aber es ist ein sehr komplexes Problem.",
+      "vocabularyHints": [
+        "die Sanktionen — санкції",
+        "die Konsequenzen — наслідки",
+        "die Regierung — уряд",
+        "unabhängig — незалежний",
+        "die Lösungen — рішення"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a2511c.webp",
+      "publishedAt": "2026-08-13T03:40:35.000Z",
+      "processedAt": "2026-08-13T07:15:15.472Z"
+    },
+    {
+      "id": "6941979a",
+      "originalTitle": "Vorbild Schweiz – Basels grösstes Freibad wird zum internationalen Vorbild",
+      "simplifiedText": "Die Schweiz ist ein Vorbild für andere Länder, wenn es um die Sanierung von Flüssen geht. Diese Woche kamen Delegationen aus der ganzen Welt in die Schweiz, um zu lernen, wie man einen Fluss sauber macht. Sie besuchten das grösste Freibad in Basel, das ein gutes Beispiel dafür ist, wie man einen Fluss «badbar» macht. Die Delegationen waren sehr interessiert und wollten wissen, wie die Schweiz es geschafft hat, ihre Flüsse so sauber zu halten. Sie hoffen, dass sie diese Erfahrungen in ihren eigenen Ländern anwenden können. Die Schweiz ist stolz darauf, ein Vorbild für andere Länder zu sein. Wenn andere Länder ihre Flüsse auch sauber halten, würde dies die Umwelt sehr verbessern.",
+      "vocabularyHints": [
+        "die Delegation — делегація",
+        "die Sanierung — санування",
+        "badbar — придатний для купання",
+        "das Vorbild — взірець",
+        "die Umwelt — довкілля",
+        "sauber halten — тримати чистим"
+      ],
+      "category": "Umwelt",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9ebc78.webp",
+      "publishedAt": "2026-08-13T03:43:14.000Z",
+      "processedAt": "2026-08-13T07:15:06.189Z"
+    },
+    {
+      "id": "3c901b29",
+      "originalTitle": "Hitzesommer – Bella-Tola-Gletscher weggeschmolzen: Weitere dürften folgen",
+      "simplifiedText": "Der Bella-Tola-Gletscher im Wallis ist offenbar verschwunden. Er ist nicht der erste und wird nicht der letzte sein. Weil die Temperaturen steigen, schmelzen viele Gletscher. Wenn es weiter so warm bleibt, werden weitere Gletscher verschwinden. Der Klimawandel hat bereits viele Gletscher betroffen. Obwohl einige Menschen versuchen, die Gletscher zu retten, ist es oft zu spät. Der Bella-Tola-Gletscher war ein wichtiger Teil der Landschaft im Wallis. Wenn wir den Klimawandel nicht stoppen, werden viele weitere Gletscher schmelzen.",
+      "vocabularyHints": [
+        "der Gletscher — льодовик",
+        "das Wallis — Вале",
+        "verschwinden — зникати",
+        "der Klimawandel — зміна клімату",
+        "die Landschaft — ландшафт",
+        "die Temperaturen — температури",
+        "sich ausbreiten — поширюватись"
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/16a3091.webp",
+      "publishedAt": "2026-08-13T04:30:25.000Z",
+      "processedAt": "2026-08-13T07:14:57.497Z"
+    },
+    {
+      "id": "53b70111",
+      "originalTitle": "Pilotversuch Radarfallen – Radarstandorte bekanntzugeben, bringt keine Vorteile",
+      "simplifiedText": "Die Polizei hat einen Pilotversuch gemacht, um zu sehen, ob die Unfallzahlen sinken, wenn die Standorte von Radarfallen bekanntgegeben werden. Wenn die Polizei sagt, wo die Blitzer stehen, gibt es trotzdem nicht weniger Unfälle, zeigt ein Versuch in Solothurn. Der Versuch wurde in Solothurn durchgeführt, weil die Stadt eine geeignete Testzone bot. Obwohl die Standorte der Radarfallen bekanntgegeben wurden, blieb die Unfallzahl gleich. Die Polizei sagt, dass die Bekanntgabe der Standorte keine Vorteile bringt. Wenn die Unfallzahlen nicht sinken, ist es fraglich, ob der Pilotversuch erfolgreich war. Die Ergebnisse des Versuchs werden nun ausgewertet, um zu sehen, ob sich die Strategie ändern muss.",
+      "vocabularyHints": [
+        "der Pilotversuch — пілотний проєкт",
+        "die Unfallzahlen — кількість аварій",
+        "die Radarfallen — радарні пастки",
+        "die Standorte — місця розташування",
+        "die Polizei — поліція",
+        "die Bekanntgabe — оголошення",
+        "die Vorteile — переваги"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/60b2c9.webp",
+      "publishedAt": "2026-08-13T04:31:31.000Z",
+      "processedAt": "2026-08-13T07:14:48.820Z"
+    },
+    {
+      "id": "141971fa",
+      "originalTitle": "Klimawandel und Kipppunkte – Klimatologe: «Es wird das Schmelzwasser der Gletscher fehlen»",
+      "simplifiedText": "Der Klimawandel ist ein grosses Problem. Wenn die Erde sich weiter erwärmt, können die Gletscher schmelzen. Der Klimatologe Erich Fischer sagt, dass das Schmelzwasser der Gletscher fehlen wird. Er ist einer der Autoren des neuen Weltklimaberichts. Der Bericht soll zeigen, wie sich die Erderwärmung auswirken kann. Wenn die Gletscher schmelzen, kann das Meer ansteigen. Obwohl die Menschen viel über den Klimawandel sprechen, wird er immer schlimmer.",
+      "vocabularyHints": [
+        "der Klimawandel — зміна клімату",
+        "die Erderwärmung — глобальне потепління",
+        "der Gletscher — льодовик",
+        "das Schmelzwasser — талі води",
+        "der Klimatologe — кліматолог",
+        "der Weltklimabericht — звіт про глобальну зміну клімату",
+        "ansteigen — підвищуватися"
+      ],
+      "category": "Wissenschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/3afd89.webp",
+      "publishedAt": "2026-08-13T04:33:55.000Z",
+      "processedAt": "2026-08-13T07:14:39.811Z"
+    },
+    {
+      "id": "37ff54ab",
+      "originalTitle": "Q&A zu Wandern in den Bergen – Welche Fragen haben Sie zum Wandern?",
+      "simplifiedText": "Zwei Fachpersonen beantworten Ihre Fragen zum Wandern in den Bergen. Sie können uns Ihre Fragen von 10:30 bis 12 Uhr schreiben. Wir helfen Ihnen gerne. Wenn Sie zum Beispiel wissen möchten, wie man sich auf eine Wanderung vorbereitet, können wir Ihnen Tipps geben. Obwohl das Wetter in den Bergen oft unvorhersehbar ist, können wir Ihnen sagen, wie man sich darauf vorbereitet. Wir können Ihnen auch sagen, welche Ausrüstung Sie benötigen. Wenn Sie wissen möchten, welche Wanderungen für Anfänger geeignet sind, können wir Ihnen Empfehlungen geben. Wir beantworten alle Ihre Fragen zum Wandern in den Bergen.",
+      "vocabularyHints": [
+        "die Fachperson — фахівець",
+        "die Wanderung — прогулянка",
+        "sich vorbereiten — готуватись",
+        "die Ausrüstung — обладнання",
+        "das Wetter — погода",
+        "unvorhersehbar — непередбачуваний",
+        "die Empfehlung — рекомендація"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1274a1.webp",
+      "publishedAt": "2026-08-13T04:45:22.000Z",
+      "processedAt": "2026-08-13T07:14:31.440Z"
+    },
+    {
+      "id": "70e4d713",
+      "originalTitle": "Beben in Kolumbien – «Es gibt eine grosse Solidarität im Erdbebengebiet»",
+      "simplifiedText": "In Kolumbien gab es ein starkes Erdbeben. Viele Menschen sind betroffen. Die Journalistin Katharina Wojczenko ist in Pereira und berichtet von dort. Sie sagt, dass es eine grosse Solidarität im Erdbebengebiet gibt. Die Menschen helfen einander, weil viele Häuser zerstört wurden. Wenn man durch die Stadt geht, sieht man die Zerstörung. Obwohl das Erdbeben sehr stark war, gibt es Hoffnung, dass die Stadt wieder aufgebaut werden kann. Die Menschen in Pereira sind dankbar für die Hilfe, die sie erhalten.",
+      "vocabularyHints": [
+        "die Solidarität — солідарність",
+        "das Erdbebengebiet — територія, постраждала від землетрусу",
+        "die Zerstörung — руйнування",
+        "sich befinden — знаходитися",
+        "die Journalistin — журналістка"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/9501f56.webp",
+      "publishedAt": "2026-08-13T04:48:49.000Z",
+      "processedAt": "2026-08-13T07:14:22.806Z"
+    },
+    {
+      "id": "5df9fe95",
+      "originalTitle": "«Der meisterwartete Schweizer Film» feiert Premiere am ZFF",
+      "simplifiedText": "Der Film «111 – Echoes from Halifax» handelt von einer Katastrophe. Die Geschichte wird aus der Sicht von Angehörigen, Helfenden und Menschen an der kanadischen Küste erzählt. Der Film feiert seine Premiere am Zürcher Filmfestival. Weil der Film sehr gut gemacht ist, wird er von vielen Leuten erwartet. Wenn man den Film sehen will, kann man ihn in Zürich ansehen. Obwohl der Film traurig ist, ist er sehr interessant. Der Film ist ein Highlight des Filmfestivals.",
+      "vocabularyHints": [
+        "die Katastrophe — катастрофа",
+        "die Küste — берег",
+        "die Premiere — прем'єра",
+        "das Filmfestival — кінофестиваль",
+        "die Angehörigen — рідні"
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/08/12/d7094be4-b7b5-4e93-87c8-bcea2868b10f.jpg?s=29eb1f67e0d32f308ae6d82e66560e94",
+      "publishedAt": "2026-08-13T05:07:40.000Z",
+      "processedAt": "2026-08-13T07:14:14.129Z"
+    },
+    {
+      "id": "6fbd5d46",
+      "originalTitle": "Mit 97 Jahren – Marktreformer und Technokrat: Chinas Zhu Rongji gestorben",
+      "simplifiedText": "Der ehemalige Ministerpräsident Zhu Rongji ist im Alter von 97 Jahren gestorben. Er hat Chinas Wirtschaftspolitik in den 1990er-Jahren und Anfang der 2000er-Jahre geprägt. Zhu Rongji war ein wichtiger Politiker in China. Er war Ministerpräsident und hat die Wirtschaftspolitik des Landes beeinflusst. Zhu Rongji war auch ein Technokrat, das heißt, er war ein Experte in seinem Bereich. Er hat sich für die Marktreform in China eingesetzt. Zhu Rongji war ein bedeutender Politiker in China. Sein Tod ist ein Verlust für das Land.",
+      "vocabularyHints": [
+        "der Ministerpräsident — прем'єр-міністр",
+        "die Wirtschaftspolitik — економічна політика",
+        "die Marktreform — ринкова реформа",
+        "der Technokrat — технократ",
+        "die Nullerjahre — 2000-ні роки",
+        "sich für etwas einsetzen — боротися за щось"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d561b5.webp",
+      "publishedAt": "2026-08-13T05:31:23.000Z",
+      "processedAt": "2026-08-13T07:14:05.777Z"
+    },
+    {
+      "id": "403a56ed",
+      "originalTitle": "Efta-Mercosur-Handelsabkommen – Fleisch- gegen Milchlobby bei Freihandelsabkommen mit Südamerika",
+      "simplifiedText": "Der Schweizer Bauernverband lehnt das Efta-Mercosur-Handelsabkommen ab, weil es den Schweizer Bauern schaden könnte. Viele Milchbauern sind jedoch dafür, weil sie hoffen, dass sie mehr Milchprodukte nach Südamerika exportieren können. Heute wird das Dossier in Bern diskutiert. Wenn das Abkommen angenommen wird, könnten die Zölle auf Milchprodukte gesenkt werden. Obwohl das Abkommen viele Vorteile hat, gibt es auch einige Nachteile. Der Bauernverband ist besorgt, dass das Abkommen den Schweizer Bauern schaden könnte. Der Entscheid wird in den nächsten Tagen fallen.",
+      "vocabularyHints": [
+        "der Bauernverband — спілка фермерів",
+        "das Abkommen — угода",
+        "die Zölle — мито",
+        "die Milchprodukte — молочні продукти",
+        "der Entscheid — рішення"
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/cf0a7a.webp",
+      "publishedAt": "2026-08-13T05:51:00.000Z",
+      "processedAt": "2026-08-13T07:13:57.416Z"
+    },
+    {
+      "id": "331d3943",
+      "originalTitle": "«Seit ich Mutter bin, treffen sie sich ohne mich – heimlich»",
+      "simplifiedText": "Viele Mütter berichten, dass ihre Freundschaften nach der Geburt eines Kindes verändert wurden. Plötzlich treffen sich die Freunde ohne sie, weil sie jetzt Mutter sind. Das Muttersein kann die Freundschaften stark beeinflussen, weil die Mütter weniger Zeit für ihre Freunde haben. Wenn die Mütter früher viel Zeit mit ihren Freunden verbracht haben, müssen sie jetzt ihre Zeit anders einteilen. Obwohl sie ihre Freunde noch mögen, können sie nicht mehr so oft zusammen sein. Die Mütter müssen sich auch mit neuen Herausforderungen auseinandersetzen, weil das Muttersein sehr anstrengend sein kann. Viele Mütter fühlen sich deshalb einsam, weil sie ihre Freunde nicht mehr so oft sehen.",
+      "vocabularyHints": [
+        "die Community — спільнота",
+        "die Freundschaft — дружба",
+        "sich lösen — розпускатись",
+        "die Herausforderung — виклик",
+        "sich auseinandersetzen — розбираатися",
+        "die Einsamkeit — самотність"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/08/12/4ad55780-198f-4615-853f-647629b313c7.jpg?s=b66d896e774fba3a470d5b38c18cc4ea",
+      "publishedAt": "2026-08-13T05:59:48.000Z",
+      "processedAt": "2026-08-13T07:13:49.071Z"
+    },
+    {
+      "id": "13ffc23a",
+      "originalTitle": "Neu im Comic-Regal – «Strong Men»: Wie toxische Männlichkeit Politik beeinflusst",
+      "simplifiedText": "Ein neuer Comic mit dem Titel «Strong Men» ist erschienen. Der Comic handelt von toxischer Männlichkeit und wie sie die Politik beeinflusst. Der Autor untersucht die Geschichte von Alexander dem Grossen bis hin zu Trump. Toxische Männlichkeit kann sehr zerstörerisch sein, weil sie oft mit Gewalt und Aggression einhergeht. Wenn Männer sich als schwach empfinden, können sie versuchen, ihre Männlichkeit durch aggressive Verhaltensweisen zu beweisen. Obwohl dies oft schädlich ist, gibt es auch Beispiele von Männern, die ihre Verletzlichkeit annehmen und so eine positive Veränderung herbeiführen. Der Comic will zeigen, dass Männlichkeit nicht nur mit Stärke und Aggression zu tun hat, sondern auch mit Verletzlichkeit und Emotionalität. Der Autor hofft, dass sein Werk zu einer Diskussion über toxische Männlichkeit und ihre Auswirkungen auf die Politik beiträgt.",
+      "vocabularyHints": [
+        "der Sach-Comic — документальна комікс-стрічка",
+        "toxisch — токсичний",
+        "verletzlich — вразливий",
+        "zerstörerisch — руйнівний",
+        "die Aggression — агресія",
+        "die Veränderung — зміна"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/393bcd.webp",
+      "publishedAt": "2026-08-13T06:08:06.000Z",
+      "processedAt": "2026-08-13T07:13:39.993Z"
+    },
+    {
+      "id": "7d07411a",
+      "originalTitle": "«Frank & Louis»-Europapremiere – Petra Volpe über Freundschaft und Demenz – hinter Gefängnismauern",
+      "simplifiedText": "Die Schweizer Regisseurin Petra Volpe hat den Film «Frank & Louis» gedreht. Der Film handelt von einer ungewöhnlichen Freundschaft zwischen zwei Männern. Diese Freundschaft entwickelt sich in einem Gefängnis. Die Geschichte zeigt, dass Freundschaft und Menschlichkeit überall möglich sind, sogar hinter Gefängnismauern. Der Film thematisiert auch das Thema Demenz. Petra Volpe möchte mit ihrem Film zeigen, dass Freundschaft und Menschlichkeit wichtig sind, besonders wenn man mit schweren Themen konfrontiert wird. Der Film «Frank & Louis» feiert seine Europapremiere. Die Zuschauer können sich auf eine bewegende Geschichte freuen. Der Film behandelt auch die Frage, ob Freundschaften in schwierigen Situationen möglich sind.",
+      "vocabularyHints": [
+        "die Regisseurin — режисерка",
+        "ungewöhnlich — незвичайний",
+        "die Menschlichkeit — людяність",
+        "hinter Gittern — за ґратами",
+        "die Demenz — деменція",
+        "die Europapremiere — європейська прем'єра"
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/eb97521.webp",
+      "publishedAt": "2026-08-13T06:09:40.000Z",
+      "processedAt": "2026-08-13T07:13:31.107Z"
+    },
+    {
+      "id": "60fe5ecc",
+      "originalTitle": "Wegen Erdrutsch – Albulalinie im Bündnerland teilweise unterbrochen",
+      "simplifiedText": "Im Bündnerland ist die Albulalinie wegen eines Erdrutschs teilweise unterbrochen. Der Erdrutsch ist im Val Bever niedergegangen. Der Bahnverkehr im Engadin ist deshalb gestört. Die Züge können den betroffenen Abschnitt nicht passieren. Die Fahrgäste müssen mit Verspätungen rechnen. Die Bahn arbeitet daran, den Schaden zu beheben. Wenn das Wetter gut ist, kann die Strecke vielleicht bald wieder freigegeben werden. Obwohl der Erdrutsch groß war, gab es keine Verletzten.",
+      "vocabularyHints": [
+        "die Albulalinie — Альбулинська лінія",
+        "der Erdrutsch — зсуви",
+        "das Bündnerland — Граубюнден",
+        "das Engadin — Енгадин",
+        "die Strecke — дистанція",
+        "sich unterbrechen — перерватися",
+        "der Abschnitt — розділ"
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c0dddfe.webp",
+      "publishedAt": "2026-08-13T06:18:50.000Z",
+      "processedAt": "2026-08-13T07:13:22.415Z"
+    },
+    {
+      "id": "33c9f547",
+      "originalTitle": "Todesfall von Mieter – «Wie lange muss ich den Mietzins noch bezahlen?»",
+      "simplifiedText": "Wenn ein Mieter stirbt, haben die Angehörigen das Recht, die Wohnung zu kündigen. Sie müssen den Mietzins nicht mehr lange bezahlen, weil das Mietverhältnis nach dem Tod des Mieters endet. Die Angehörigen sollten sich jedoch an den Vermieter wenden, um die Kündigung zu besprechen. Wenn die Angehörigen die Wohnung kündigen, müssen sie den Mietzins nur noch für eine kurze Zeit bezahlen. Das Mietverhältnis endet in der Regel sieben Tage nach der Kündigung. Die Angehörigen sollten auch die Versicherungen und andere Verträge des Verstorbenen überprüfen. Obwohl die Angehörigen das Recht haben, die Wohnung zu kündigen, sollten sie sich immer an einen Anwalt wenden, um sicherzustellen, dass sie alle Rechte und Pflichten verstehen.",
+      "vocabularyHints": [
+        "die Angehörigen — рідні",
+        "das Mietverhältnis — орендні відносини",
+        "der Vermieter — орендодавець",
+        "die Kündigung — звільнення",
+        "die Versicherungen — страхування"
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d4c6f8.webp",
+      "publishedAt": "2026-08-13T06:44:33.000Z",
+      "processedAt": "2026-08-13T07:13:13.537Z"
+    },
+    {
+      "id": "4ea64a1d",
+      "originalTitle": "Rückspiele in 3. Quali-Runde – Europacup-Aussichten sind rosig – nur Vaduz im Hintertreffen",
+      "simplifiedText": "Die fünf europäisch engagierten Super-League-Vertreter wollen in der Europa League und der UEFA Europa Conference League die Playoffs erreichen. Sie spielen in der dritten Qualifikationsrunde. Die Chancen für die Schweizer Teams sind gut, weil sie in der Vorrunde erfolgreich waren. Wenn sie in der dritten Runde gewinnen, können sie in die Playoffs kommen. Die UEFA Europa Conference League ist ein wichtiger Wettbewerb für die Schweizer Clubs. Obwohl es schwierig ist, wollen die Teams unbedingt die Playoffs erreichen. Die Fans hoffen, dass ihre Lieblingsteams erfolgreich sein werden. Die Playoffs sind das Ziel der Teams, weil sie dann in der Gruppenphase spielen können.",
+      "vocabularyHints": [
+        "die Qualifikationsrunde — кваліфікаційний раунд",
+        "die Playoffs — плей-оф",
+        "die Vorrunde — попередній раунд",
+        "die UEFA — Союз європейських футбольних асоціацій",
+        "der Wettbewerb — змагання",
+        "die Gruppenphase — груповий етап",
+        "die Lieblingsteams — улюблені команди"
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/4cd0e9.webp",
+      "publishedAt": "2026-08-13T06:48:26.000Z",
+      "processedAt": "2026-08-13T07:13:04.417Z"
+    },
+    {
+      "id": "689fcfa4",
+      "originalTitle": "Tofu-Test – Grosse Unterschiede beim Soja-Gehalt in Tofu",
+      "simplifiedText": "Die Westschweizer Konsumentenorganisation FRC hat einen Test mit Tofu durchgefuhrt. Sie haben Tofu aus dem Detailhandel gekauft und untersucht. Die Resultate sind erstaunlich, weil es grosse Unterschiede beim Soja-Gehalt in Tofu gibt. Wenn man Tofu kauft, erwartet man, dass es viel Soja enthalt. Obwohl das nicht immer der Fall ist, sind die Preise oft gleich. Die FRC hat festgestellt, dass der Soja-Gehalt in Tofu stark variieren kann. Die Organisation riet den Konsumenten, das Etikett genau zu lesen, bevor sie Tofu kaufen. Wenn man weiss, was man kauft, kann man besser entscheiden, ob der Preis gerechtfertigt ist.",
+      "vocabularyHints": [
+        "die Konsumentenorganisation — організація захисту прав споживачів",
+        "der Detailhandel — роздрібна торгівля",
+        "der Soja-Gehalt — вміст сої",
+        "die Resultate — результати",
+        "erstaunlich — дивовижний",
+        "der Preis — ціна"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/c9e8a4d.webp",
+      "publishedAt": "2026-08-13T07:01:42.000Z",
+      "processedAt": "2026-08-13T07:12:55.921Z"
+    },
+    {
+      "id": "1a1804c4",
+      "originalTitle": "Kongo-Kinshasa – Ebola: WHO warnt vor Rekord-Epidemie – die Übersicht",
+      "simplifiedText": "Die Weltgesundheitsorganisation WHO warnt vor einer Rekord-Epidemie des Ebola-Virus in Kongo-Kinshasa. Die WHO schlägt Alarm, weil die Situation sehr ernst ist. Wenn die Epidemie nicht gestoppt wird, könnte sie sich sehr schnell ausbreiten. Obwohl es bereits viele Opfer gegeben hat, hofft die WHO, dass die Epidemie bald unter Kontrolle gebracht werden kann. Die WHO arbeitet daran, dass die Menschen in Kongo-Kinshasa geschützt werden. Die Organisation ist besorgt, dass die Epidemie sich in andere Länder ausbreiten könnte. Die WHO ruft alle Länder auf, dass sie helfen, die Epidemie zu bekämpfen.",
+      "vocabularyHints": [
+        "die Epidemie — епідемія",
+        "die Weltgesundheitsorganisation — Всесвітня організація охорони здоров'я",
+        "sich ausbreiten — поширюватись",
+        "die Opfer — жертви",
+        "die Organisation — організація",
+        "besorgt — стурбований"
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d42d88.webp",
+      "publishedAt": "2026-08-13T07:10:08.000Z",
+      "processedAt": "2026-08-13T07:12:47.227Z"
     }
   ],
-  "updatedAt": "2026-08-12T08:24:29.842Z"
+  "updatedAt": "2026-08-13T07:17:00.693Z"
 }
