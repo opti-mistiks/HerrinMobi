@@ -90,50 +90,52 @@ Write in Swiss High German (no "ß").
 One word: Wetter / Politik / Sport / Wirtschaft / Gesundheit / Gesellschaft / Verkehr / Kultur / Wissenschaft
 
 === OUTPUT ===
+Return ONLY valid JSON, nothing else, no explanation, no markdown:
 {"simplified_text_deu":"...","vocabulary_hints_ukr":["..."],"category":"..."}`;
 
-  const data = await groqRequest({
-    model: MODEL,
-    temperature: 0.1,
-    max_tokens: 1000,
-    response_format: {
-  type: "json_schema",
-  json_schema: {
-    name: "article_simplification",
-    strict: true,
-    schema: {
-      type: "object",
-      properties: {
-        simplified_text_deu: { type: "string" },
-        vocabulary_hints_ukr: { type: "array", items: { type: "string" } },
-        category: { type: "string" }
-      },
-      required: ["simplified_text_deu", "vocabulary_hints_ukr", "category"],
-      additionalProperties: false
+  const maxAttempts = 3;
+  let lastErr;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const data = await groqRequest({
+        model: MODEL,
+        temperature: 0.1,
+        max_tokens: 1000,
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user",   content: `Title: ${article.title}\nArticle: ${article.description}` },
+        ],
+      });
+
+      const raw = data.choices?.[0]?.message?.content || "";
+      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+
+      if (!parsed.simplified_text_deu || !Array.isArray(parsed.vocabulary_hints_ukr) || !parsed.category) {
+        throw new Error("Missing required fields in parsed JSON");
+      }
+
+      const validHints = parsed.vocabulary_hints_ukr.filter(h => h.includes(" — "));
+
+      return {
+        id:              generateId(article.title, level),
+        originalTitle:   article.title,
+        simplifiedText:  parsed.simplified_text_deu || "",
+        vocabularyHints: validHints,
+        category:        parsed.category || "Gesellschaft",
+        imageUrl:        article.imageUrl || null,
+        publishedAt:     article.pubDate || null,
+        processedAt:     new Date().toISOString(),
+      };
+    } catch (err) {
+      lastErr = err;
+      console.warn(`  ⚠️  Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
+      if (attempt < maxAttempts) await sleep(2000);
     }
   }
-},
-    messages: [
-      { role: "system", content: systemPrompt },
-      { role: "user",   content: `Title: ${article.title}\nArticle: ${article.description}` },
-    ],
-  });
 
-  const raw = data.choices?.[0]?.message?.content || "";
-  const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-
-  const validHints = (parsed.vocabulary_hints_ukr || []).filter(h => h.includes(" — "));
-
-  return {
-    id:              generateId(article.title, level),
-    originalTitle:   article.title,
-    simplifiedText:  parsed.simplified_text_deu || "",
-    vocabularyHints: validHints,
-    category:        parsed.category || "Gesellschaft",
-    imageUrl:        article.imageUrl || null,
-    publishedAt:     article.pubDate || null,
-    processedAt:     new Date().toISOString(),
-  };
+  throw lastErr;
 }
 
 function generateId(title, level) {
