@@ -105,7 +105,7 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
         response_format: { type: "json_object" },
         messages: [
           { role: "system", content: systemPrompt },
-          { role: "user",   content: `Title: ${article.title}\nArticle: ${article.description}` },
+          { role: "user",   content: `Title: ${article.title}\nArticle: ${article.description.slice(0, 1500)}` },
         ],
       });
 
