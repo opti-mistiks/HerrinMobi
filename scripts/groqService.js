@@ -96,7 +96,23 @@ One word: Wetter / Politik / Sport / Wirtschaft / Gesundheit / Gesellschaft / Ve
     model: MODEL,
     temperature: 0.1,
     max_tokens: 1000,
-    response_format: { type: "json_object" },
+    response_format: {
+  type: "json_schema",
+  json_schema: {
+    name: "article_simplification",
+    strict: true,
+    schema: {
+      type: "object",
+      properties: {
+        simplified_text_deu: { type: "string" },
+        vocabulary_hints_ukr: { type: "array", items: { type: "string" } },
+        category: { type: "string" }
+      },
+      required: ["simplified_text_deu", "vocabulary_hints_ukr", "category"],
+      additionalProperties: false
+    }
+  }
+},
     messages: [
       { role: "system", content: systemPrompt },
       { role: "user",   content: `Title: ${article.title}\nArticle: ${article.description}` },
