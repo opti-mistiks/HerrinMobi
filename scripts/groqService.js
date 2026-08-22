@@ -1,6 +1,6 @@
 const https = require("https");
 
-const MODEL = "openai/gpt-oss-120b";
+const MODEL = "moonshotai/kimi-k2-instruct-0905";
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -34,7 +34,7 @@ function groqRequest(body, retries = 3) {
         }
 
         if (res.statusCode < 200 || res.statusCode >= 300) {
-          reject(new Error(`Groq HTTP ${res.statusCode}: ${text.slice(0, 200)}`));
+          reject(new Error(`Groq HTTP ${res.statusCode}: ${text.slice(0, 500)}`));
           return;
         }
 
@@ -93,6 +93,7 @@ One word: Wetter / Politik / Sport / Wirtschaft / Gesundheit / Gesellschaft / Ve
 Return ONLY valid JSON, nothing else, no explanation, no markdown:
 {"simplified_text_deu":"...","vocabulary_hints_ukr":["..."],"category":"..."}`;
 
+  const truncatedDescription = article.description.slice(0, 1500);
   const maxAttempts = 3;
   let lastErr;
 
@@ -105,7 +106,7 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
         response_format: { type: "json_object" },
         messages: [
           { role: "system", content: systemPrompt },
-          { role: "user",   content: `Title: ${article.title}\nArticle: ${article.description.slice(0, 1500)}` },
+          { role: "user",   content: `Title: ${article.title}\nArticle: ${truncatedDescription}` },
         ],
       });
 
@@ -131,6 +132,10 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
     } catch (err) {
       lastErr = err;
       console.warn(`  ⚠️  Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
+      console.warn(`  🔍 DEBUG title="${article.title}"`);
+      console.warn(`  🔍 DEBUG descLen=${article.description.length} (sent=${truncatedDescription.length})`);
+      console.warn(`  🔍 DEBUG desc first 200: ${JSON.stringify(truncatedDescription.slice(0, 200))}`);
+      console.warn(`  🔍 DEBUG desc last 200: ${JSON.stringify(truncatedDescription.slice(-200))}`);
       if (attempt < maxAttempts) await sleep(2000);
     }
   }
