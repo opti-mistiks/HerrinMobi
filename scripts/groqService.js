@@ -102,7 +102,8 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        max_tokens: 1000,
+        max_tokens: 3000,
+        reasoning_effort: "low",
         response_format: { type: "json_object" },
         messages: [
           { role: "system", content: systemPrompt },
