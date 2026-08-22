@@ -5,7 +5,7 @@ const { simplifyArticle } = require("./groqService");
 
 const DB_PATH     = path.join(__dirname, "..", "data", "articles.json");
 const LEVELS      = ["A1", "A2", "B1"];
-const MAX_PER_LEVEL = 30;
+const MAX_PER_LEVEL = 50;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -45,7 +45,7 @@ async function main() {
   });
 
   // Тільки нові статті
-  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 30);
+  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 50);
   console.log(`🆕 ${newArticles.length} new articles to process`);
 
   // Фолбек на картинки: RSS дав imageUrl не для всіх статей (особливо SRF).
