@@ -1,6 +1,6 @@
 const https = require("https");
 
-const MODEL = "moonshotai/kimi-k2-instruct-0905";
+const MODEL = "openai/gpt-oss-120b";
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -132,10 +132,6 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
     } catch (err) {
       lastErr = err;
       console.warn(`  ⚠️  Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
-      console.warn(`  🔍 DEBUG title="${article.title}"`);
-      console.warn(`  🔍 DEBUG descLen=${article.description.length} (sent=${truncatedDescription.length})`);
-      console.warn(`  🔍 DEBUG desc first 200: ${JSON.stringify(truncatedDescription.slice(0, 200))}`);
-      console.warn(`  🔍 DEBUG desc last 200: ${JSON.stringify(truncatedDescription.slice(-200))}`);
       if (attempt < maxAttempts) await sleep(2000);
     }
   }
