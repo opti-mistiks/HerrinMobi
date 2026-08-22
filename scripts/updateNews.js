@@ -98,7 +98,7 @@ async function main() {
       }
 
       // Пауза між запитами щоб не бити rate limit
-      await sleep(2000);
+      await sleep(7000);
     }
   }
 
