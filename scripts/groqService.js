@@ -1,6 +1,6 @@
 const https = require("https");
 
-const MODEL = "llama-3.3-70b-versatile";
+const MODEL = "openai/gpt-oss-120b";
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
