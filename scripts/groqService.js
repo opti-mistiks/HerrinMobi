@@ -26,9 +26,21 @@ function groqRequest(body, retries = 3) {
         const text = Buffer.concat(chunks).toString("utf8");
 
         if (res.statusCode === 429 && retries > 0) {
-          const wait = parseFloat(res.headers["retry-after"] || "5") * 1000;
-          console.warn(`[groq] Rate limit, retrying in ${wait}ms...`);
-          await sleep(wait);
+          // Groq's Retry-After can be huge once you hit the daily/hourly
+          // token quota (not just a per-second burst limit) — the log
+          // showed waits up to ~1.5M ms (25 min) per single retry. Sleeping
+          // that long inline burns through the whole GitHub Actions job
+          // budget for one article. Cap the wait so we either back off a
+          // reasonable amount or fail fast and let updateNews.js move on /
+          // the job finish, instead of stalling for tens of minutes.
+          const rawWait = parseFloat(res.headers["retry-after"] || "5") * 1000;
+          const MAX_WAIT_MS = 60000; // never sleep more than 60s on one retry
+          if (rawWait > MAX_WAIT_MS) {
+            reject(new Error(`Groq rate limit requests a ${Math.round(rawWait / 1000)}s wait — giving up (quota likely exhausted)`));
+            return;
+          }
+          console.warn(`[groq] Rate limit, retrying in ${rawWait}ms...`);
+          await sleep(rawWait);
           groqRequest(body, retries - 1).then(resolve).catch(reject);
           return;
         }
