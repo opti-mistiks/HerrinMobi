@@ -1,115 +1,164 @@
-const fs   = require("fs");
-const path = require("path");
-const { parseRSSFeeds, fetchOgImage } = require("./rssParser");
-const { simplifyArticle } = require("./groqService");
+const https = require("https");
 
-const DB_PATH     = path.join(__dirname, "..", "data", "articles.json");
-const LEVELS      = ["A1", "A2", "B1"];
-const MAX_PER_LEVEL = 50;
+const MODEL = "openai/gpt-oss-120b";
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-function loadDB() {
-  if (!fs.existsSync(DB_PATH)) return {};
-  try { return JSON.parse(fs.readFileSync(DB_PATH, "utf8")); }
-  catch { return {}; }
-}
+function groqRequest(body, retries = 3) {
+  return new Promise((resolve, reject) => {
+    const payload = JSON.stringify(body);
+    const options = {
+      hostname: "api.groq.com",
+      path: "/openai/v1/chat/completions",
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+        "Content-Length": Buffer.byteLength(payload),
+      },
+      timeout: 30000,
+    };
 
-function saveDB(db) {
-  fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
-  fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), "utf8");
-}
+    const req = https.request(options, res => {
+      const chunks = [];
+      res.on("data", c => chunks.push(c));
+      res.on("end", async () => {
+        const text = Buffer.concat(chunks).toString("utf8");
 
-async function main() {
-  if (!process.env.GROQ_API_KEY) {
-    console.error("❌ GROQ_API_KEY is not set!");
-    process.exit(1);
-  }
-
-  console.log("📡 Fetching RSS feeds...");
-  let rawArticles;
-  try {
-    rawArticles = await parseRSSFeeds();
-  } catch (err) {
-    console.error("❌ RSS fetch failed:", err.message);
-    process.exit(1);
-  }
-  console.log(`✅ Fetched ${rawArticles.length} articles from RSS`);
-
-  const db = loadDB();
-
-  // Збираємо заголовки що вже є в базі
-  const existingTitles = new Set();
-  LEVELS.forEach(l => {
-    (db[l] || []).forEach(a => existingTitles.add(a.originalTitle));
-  });
-
-  // Тільки нові статті
-  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 50);
-  console.log(`🆕 ${newArticles.length} new articles to process`);
-
-  // Фолбек на картинки: RSS дав imageUrl не для всіх статей (особливо SRF).
-  // Для решти заходимо на сторінку статті й беремо og:image/twitter:image.
-  // Best-effort — якщо сторінка не відповіла чи там немає og:image, просто
-  // лишаємо imageUrl = null, на обробку це не впливає.
-  let imagesFetched = 0;
-  for (const article of newArticles) {
-    if (!article.imageUrl && article.link) {
-      const og = await fetchOgImage(article.link);
-      if (og) {
-        article.imageUrl = og;
-        imagesFetched++;
-      }
-    }
-  }
-  console.log(`🖼️  Догенеровано og:image для ${imagesFetched} статей`);
-
-  if (newArticles.length === 0) {
-    console.log("✅ Nothing new. Done.");
-    // Оновлюємо updatedAt навіть якщо нічого нового
-    db.updatedAt = new Date().toISOString();
-    saveDB(db);
-    return;
-  }
-
-  let processed = 0;
-  let failed    = 0;
-
-  for (const article of newArticles) {
-    for (const level of LEVELS) {
-      try {
-        console.log(`⚙️  [${level}] "${article.title.slice(0, 50)}..."`);
-        const result = await simplifyArticle(article, level);
-
-        if (!db[level]) db[level] = [];
-        db[level].unshift(result);
-
-        // Обрізаємо до MAX
-        if (db[level].length > MAX_PER_LEVEL) {
-          db[level] = db[level].slice(0, MAX_PER_LEVEL);
+        if (res.statusCode === 429 && retries > 0) {
+          // Groq's Retry-After can be huge once you hit the daily/hourly
+          // token quota (not just a per-second burst limit) — the log
+          // showed waits up to ~1.5M ms (25 min) per single retry. Sleeping
+          // that long inline burns through the whole GitHub Actions job
+          // budget for one article. Cap the wait so we either back off a
+          // reasonable amount or fail fast and let updateNews.js move on /
+          // the job finish, instead of stalling for tens of minutes.
+          const rawWait = parseFloat(res.headers["retry-after"] || "5") * 1000;
+          const MAX_WAIT_MS = 60000; // never sleep more than 60s on one retry
+          if (rawWait > MAX_WAIT_MS) {
+            reject(new Error(`Groq rate limit requests a ${Math.round(rawWait / 1000)}s wait — giving up (quota likely exhausted)`));
+            return;
+          }
+          console.warn(`[groq] Rate limit, retrying in ${rawWait}ms...`);
+          await sleep(rawWait);
+          groqRequest(body, retries - 1).then(resolve).catch(reject);
+          return;
         }
 
-        // Зберігаємо після кожної статті — щоб не втратити при помилці
-        saveDB(db);
-        processed++;
-      } catch (err) {
-        console.error(`❌ [${level}] "${article.title.slice(0, 30)}": ${err.message}`);
-        failed++;
+        if (res.statusCode < 200 || res.statusCode >= 300) {
+          reject(new Error(`Groq HTTP ${res.statusCode}: ${text.slice(0, 500)}`));
+          return;
+        }
+
+        try { resolve(JSON.parse(text)); }
+        catch { reject(new Error("Failed to parse Groq response")); }
+      });
+    });
+
+    req.on("error", reject);
+    req.on("timeout", () => { req.destroy(); reject(new Error("Timeout")); });
+    req.write(payload);
+    req.end();
+  });
+}
+
+const LEVEL_CONFIG = {
+  A1: {
+    textInstruction: "Write 4-5 short sentences (max 10 words each). Use ONLY Präsens. Use Subject-Verb-Object structure. Avoid compound nouns when a simpler word exists.",
+    hintExclusions: 'NEVER include: sein, haben, werden, machen, gehen, kommen, sehen, sagen, wollen, können, müssen; all pronouns; all articles; all numbers; country/city names; obvious cognates with Ukrainian or English.',
+  },
+  A2: {
+    textInstruction: "Write 5-7 sentences. You may use Perfekt and simple modal verbs. You may use und, aber, oder, denn. Vocabulary: daily life, work, shopping, weather.",
+    hintExclusions: 'NEVER include: basic everyday A1-A2 words; country/city names; obvious cognates.',
+  },
+  B1: {
+    textInstruction: "Write 7-9 sentences. You may use Nebensätze (weil, dass, wenn, obwohl) and Konjunktiv II. Preserve key facts, numbers, and names from the original.",
+    hintExclusions: "NEVER include: words any B1 student already knows; obvious cognates.",
+  },
+};
+
+async function simplifyArticle(article, level) {
+  const cfg = LEVEL_CONFIG[level];
+
+  const systemPrompt = `You are a Swiss High German teacher creating reading exercises.
+SWISS GERMAN RULE: NEVER use "ß" — always write "ss".
+Output: single minified JSON object. No markdown, no backticks.
+
+=== TASK ===
+1. SIMPLIFIED TEXT ("simplified_text_deu"):
+${cfg.textInstruction}
+Write in Swiss High German (no "ß").
+
+2. VOCABULARY HINTS ("vocabulary_hints_ukr") — array of 5-7 strings:
+- Pick words that APPEAR IN YOUR SIMPLIFIED TEXT
+- Pick words a ${level} learner genuinely does NOT know
+- ${cfg.hintExclusions}
+- Format: "das Wort — українське значення"
+  * Nouns: include article + plural if useful: "die Wahl, -en — вибори"
+  * Verbs: infinitive: "sich ausbreiten — поширюватись"
+  * ALWAYS give real Ukrainian meaning, NEVER "die X — X"
+
+3. CATEGORY ("category"):
+One word: Wetter / Politik / Sport / Wirtschaft / Gesundheit / Gesellschaft / Verkehr / Kultur / Wissenschaft
+
+=== OUTPUT ===
+Return ONLY valid JSON, nothing else, no explanation, no markdown:
+{"simplified_text_deu":"...","vocabulary_hints_ukr":["..."],"category":"..."}`;
+
+  const truncatedDescription = article.description.slice(0, 1500);
+  const maxAttempts = 3;
+  let lastErr;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const data = await groqRequest({
+        model: MODEL,
+        temperature: 0.1,
+        max_tokens: 3000,
+        reasoning_effort: "low",
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user",   content: `Title: ${article.title}\nArticle: ${truncatedDescription}` },
+        ],
+      });
+
+      const raw = data.choices?.[0]?.message?.content || "";
+      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+
+      if (!parsed.simplified_text_deu || !Array.isArray(parsed.vocabulary_hints_ukr) || !parsed.category) {
+        throw new Error("Missing required fields in parsed JSON");
       }
 
-      // Пауза між запитами щоб не бити rate limit
-      await sleep(7000);
+      const validHints = parsed.vocabulary_hints_ukr.filter(h => h.includes(" — "));
+
+      return {
+        id:              generateId(article.title, level),
+        originalTitle:   article.title,
+        simplifiedText:  parsed.simplified_text_deu || "",
+        vocabularyHints: validHints,
+        category:        parsed.category || "Gesellschaft",
+        imageUrl:        article.imageUrl || null,
+        publishedAt:     article.pubDate || null,
+        processedAt:     new Date().toISOString(),
+      };
+    } catch (err) {
+      lastErr = err;
+      console.warn(`  ⚠️  Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
+      if (attempt < maxAttempts) await sleep(2000);
     }
   }
 
-  db.updatedAt = new Date().toISOString();
-  saveDB(db);
-
-  console.log(`\n✅ Done! Processed: ${processed}, Failed: ${failed}`);
-  console.log(`📊 DB: A1=${db.A1?.length||0}, A2=${db.A2?.length||0}, B1=${db.B1?.length||0}`);
+  throw lastErr;
 }
 
-main().catch(err => {
-  console.error("Fatal error:", err);
-  process.exit(1);
-});
+function generateId(title, level) {
+  const str = `${level}:${title}`;
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (Math.imul(31, hash) + str.charCodeAt(i)) | 0;
+  }
+  return Math.abs(hash).toString(16).padStart(8, "0");
+}
+
+module.exports = { simplifyArticle };
