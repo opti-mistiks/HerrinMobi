@@ -64,15 +64,15 @@ function groqRequest(body, retries = 3) {
 
 const LEVEL_CONFIG = {
   A1: {
-    textInstruction: "Write 4-5 short sentences (max 10 words each). Use ONLY Präsens. Use Subject-Verb-Object structure. Avoid compound nouns when a simpler word exists.",
+    textInstruction: "Write 4-5 sentences, roughly 6-12 words each, using ONLY grammar from an A1 course (Lektion 1-14 level): Präsens of regular and irregular verbs (sein, haben, and verbs with vowel change like sprechen/fahren/sehen), separable verbs (aufstehen, einkaufen, anrufen — verb splits: 'Er kauft ... ein'), Perfekt with haben/sein for simple facts ('Er ist gegangen', 'Sie hat gearbeitet'), modal verbs können/wollen/müssen/dürfen/sollen, definite/indefinite/negative articles, possessive articles (mein/dein/sein/ihr), Akkusativ and Dativ of definite/indefinite articles, simple prepositions (in, an, bei, mit, nach, seit, vor, für, zu) with their case, and basic W-questions. Connect clauses naturally with 'und', 'aber', 'dann', or 'oder' where it fits — don't write a robotic list of isolated facts. Do NOT use Nebensätze (weil/dass/wenn), Konjunktiv, or Passiv. Avoid compound nouns when a simpler word exists.",
     hintExclusions: 'NEVER include: sein, haben, werden, machen, gehen, kommen, sehen, sagen, wollen, können, müssen; all pronouns; all articles; all numbers; country/city names; obvious cognates with Ukrainian or English.',
   },
   A2: {
-    textInstruction: "Write 5-7 sentences. You may use Perfekt and simple modal verbs. You may use und, aber, oder, denn. Vocabulary: daily life, work, shopping, weather.",
+    textInstruction: "Write 5-7 sentences that read as a natural, connected mini-story, not a checklist of facts, using grammar from an A2 course: Perfekt (including separable verbs like 'eingekauft', non-separable verbs like 'erlebt/verstanden', and -ieren verbs like 'telefoniert' without ge-), the subordinating conjunction 'weil' for reasons, coordinating conjunctions und/aber/oder/denn, the connector 'trotzdem', Wechselpräpositionen (an/auf/in/neben/vor/hinter + Dativ for location or Akkusativ for direction), comparison (Komparativ/Superlativ, 'als'/'wie'), simple adjective endings after der/ein (definiter/indefiniter Artikel), and simple Konjunktiv II only for polite requests or wishes ('Ich hätte gern...', 'Das wäre...') if it fits naturally — don't force it. Do NOT use complex Nebensätze with dass/wenn/obwohl, Passiv, or Konjunktiv II for hypotheticals. Vocabulary: daily life, work, shopping, weather, feelings.",
     hintExclusions: 'NEVER include: basic everyday A1-A2 words; country/city names; obvious cognates.',
   },
   B1: {
-    textInstruction: "Write 7-9 sentences. You may use Nebensätze (weil, dass, wenn, obwohl) and Konjunktiv II. Preserve key facts, numbers, and names from the original.",
+    textInstruction: "Write 7-9 sentences as a natural, flowing narrative — vary sentence length and structure the way a real short news piece would. You may use Nebensätze (weil, dass, wenn, obwohl), Konjunktiv II for hypotheticals, and simple Passiv. Preserve key facts, numbers, and names from the original.",
     hintExclusions: "NEVER include: words any B1 student already knows; obvious cognates.",
   },
 };
