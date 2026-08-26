@@ -3,11 +3,12 @@ const http = require("http");
 const { XMLParser } = require("fast-xml-parser");
 
 const RSS_SOURCES = [
-  { name: "20min Schweiz",    url: "https://partner-feeds.20min.ch/rss/20minuten/schweiz" },
-  { name: "20min Sport",      url: "https://partner-feeds.20min.ch/rss/20minuten/sport" },
-  { name: "20min Wirtschaft", url: "https://partner-feeds.20min.ch/rss/20minuten/wirtschaft" },
-  { name: "20min People",     url: "https://partner-feeds.20min.ch/rss/20minuten/people" },
-  { name: "SRF News",         url: "https://www.srf.ch/news/bnf/rss/1646" },
+  { name: "20min Schweiz",       url: "https://partner-feeds.20min.ch/rss/20minuten/schweiz" },
+  { name: "20min Sport",         url: "https://partner-feeds.20min.ch/rss/20minuten/sport" },
+  { name: "20min Entertainment", url: "https://partner-feeds.20min.ch/rss/20minuten/entertainment" },
+  { name: "20min Lifestyle",     url: "https://partner-feeds.20min.ch/rss/20minuten/lifestyle" },
+  { name: "20min Wissen",        url: "https://partner-feeds.20min.ch/rss/20minuten/wissen" },
+  { name: "SRF News",            url: "https://www.srf.ch/news/bnf/rss/1646" },
 ];
 
 function fetchURL(urlStr) {
