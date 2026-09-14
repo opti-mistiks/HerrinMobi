@@ -64,16 +64,19 @@ function groqRequest(body, retries = 3) {
 
 const LEVEL_CONFIG = {
   A1: {
-    textInstruction: "Write 4-5 sentences, roughly 6-12 words each, using ONLY grammar from an A1 course (Lektion 1-14 level): Präsens of regular and irregular verbs (sein, haben, and verbs with vowel change like sprechen/fahren/sehen), separable verbs (aufstehen, einkaufen, anrufen — verb splits: 'Er kauft ... ein'), Perfekt with haben/sein for simple facts ('Er ist gegangen', 'Sie hat gearbeitet'), modal verbs können/wollen/müssen/dürfen/sollen, definite/indefinite/negative articles, possessive articles (mein/dein/sein/ihr), Akkusativ and Dativ of definite/indefinite articles, simple prepositions (in, an, bei, mit, nach, seit, vor, für, zu) with their case, and basic W-questions. Connect clauses naturally with 'und', 'aber', 'dann', or 'oder' where it fits — don't write a robotic list of isolated facts. Do NOT use Nebensätze (weil/dass/wenn), Konjunktiv, or Passiv. Avoid compound nouns when a simpler word exists.",
+    textInstruction: "Write 4-5 sentences, roughly 6-12 words each, using ONLY grammar from an A1 course (Lektion 1-14 level): Präsens of regular and irregular verbs (sein, haben, and verbs with vowel change like sprechen/fahren/sehen), separable verbs (aufstehen, einkaufen, anrufen — verb splits: 'Er kauft ... ein'), Perfekt with haben/sein for simple facts ('Er ist gegangen', 'Sie hat gearbeitet'), modal verbs können/wollen/müssen/dürfen/sollen, definite/indefinite/negative articles, possessive articles (mein/dein/sein/ihr), Akkusativ and Dativ of definite/indefinite articles, simple prepositions (in, an, bei, mit, nach, seit, vor, für, zu) with their case, and basic W-questions. Connect clauses naturally with 'und', 'aber', 'dann', or 'oder' where it fits — don't write a robotic list of isolated facts. Do NOT use Nebensätze (weil/dass/wenn), Konjunktiv, or Passiv. Avoid compound nouns when a simpler word exists. Keep only the article's MOST IMPORTANT 2-3 facts (who/what happened, and one key detail like where/when/how much) — dropping minor details is correct at this level, but every sentence you write must still describe something that is actually IN the source article. Do not invent a different, simpler everyday scene just because the real story is hard to express in A1 grammar.",
     hintExclusions: 'NEVER include: sein, haben, werden, machen, gehen, kommen, sehen, sagen, wollen, können, müssen; all pronouns; all articles; all numbers; country/city names; obvious cognates with Ukrainian or English.',
+    hintGuidance: 'An A1 learner\'s vocabulary is small, so most non-basic words in the text will be genuinely new to them — but this is also the shortest text (4-5 sentences), so there is a hard ceiling on how many distinct hint-worthy words even exist. Include every word in the text that a real A1 learner would not yet know, typically around 4-6 words for a text this length — do not pad the list with basic words just to hit a number, and do not skip a genuinely unfamiliar word just to keep the list short.',
   },
   A2: {
-    textInstruction: "Write 5-7 sentences that read as a natural, connected mini-story, not a checklist of facts, using grammar from an A2 course: Perfekt (including separable verbs like 'eingekauft', non-separable verbs like 'erlebt/verstanden', and -ieren verbs like 'telefoniert' without ge-), the subordinating conjunction 'weil' for reasons, coordinating conjunctions und/aber/oder/denn, the connector 'trotzdem', Wechselpräpositionen (an/auf/in/neben/vor/hinter + Dativ for location or Akkusativ for direction), comparison (Komparativ/Superlativ, 'als'/'wie'), simple adjective endings after der/ein (definiter/indefiniter Artikel), and simple Konjunktiv II only for polite requests or wishes ('Ich hätte gern...', 'Das wäre...') if it fits naturally — don't force it. Do NOT use complex Nebensätze with dass/wenn/obwohl, Passiv, or Konjunktiv II for hypotheticals. Vocabulary: daily life, work, shopping, weather, feelings.",
+    textInstruction: "Write 5-7 sentences that read as a natural, connected mini-story, not a checklist of facts, using grammar from an A2 course: Perfekt (including separable verbs like 'eingekauft', non-separable verbs like 'erlebt/verstanden', and -ieren verbs like 'telefoniert' without ge-), the subordinating conjunction 'weil' for reasons, coordinating conjunctions und/aber/oder/denn, the connector 'trotzdem', Wechselpräpositionen (an/auf/in/neben/vor/hinter + Dativ for location or Akkusativ for direction), comparison (Komparativ/Superlativ, 'als'/'wie'), simple adjective endings after der/ein (definiter/indefiniter Artikel), and simple Konjunktiv II only for polite requests or wishes ('Ich hätte gern...', 'Das wäre...') if it fits naturally — don't force it. Do NOT use complex Nebensätze with dass/wenn/obwohl, Passiv, or Konjunktiv II for hypotheticals. Vocabulary: daily life, work, shopping, weather, feelings. Keep the article's main facts (who, what happened, key numbers/places/reasons) — you may simplify or drop minor details, but every sentence must describe something that is actually IN the source article, not a different, easier-to-write scenario you made up.",
     hintExclusions: 'NEVER include: basic everyday A1-A2 words; country/city names; obvious cognates.',
+    hintGuidance: 'This text is longer than the A1 one (5-7 sentences) and reaches into A2-specific vocabulary, so expect noticeably more hint-worthy words than A1 — typically around 6-9. Include every word in the text an A2 learner would not yet reliably know; don\'t artificially cap the list, and don\'t include words an A2 learner already knows just to fill it out.',
   },
   B1: {
-    textInstruction: "Write 7-9 sentences as a natural, flowing narrative — vary sentence length and structure the way a real short news piece would. You may use Nebensätze (weil, dass, wenn, obwohl), Konjunktiv II for hypotheticals, and simple Passiv. Preserve key facts, numbers, and names from the original.",
+    textInstruction: "Write 7-9 sentences as a natural, flowing narrative — vary sentence length and structure the way a real short news piece would. You may use Nebensätze (weil, dass, wenn, obwohl), Konjunktiv II for hypotheticals, and simple Passiv. Preserve the article's key facts, numbers, names, and the actual sequence/cause-effect of events from the original — a B1 reader can handle real complexity, so there is no need to simplify away real content here.",
     hintExclusions: "NEVER include: words any B1 student already knows; obvious cognates.",
+    hintGuidance: 'This is the longest and most advanced text (7-9 sentences, real news vocabulary — politics, economy, specialized terms), so it will typically contain the most hint-worthy words of the three levels, often 8-12 or more. List every word in the text a B1 student would genuinely need explained — do not stop at a round number if more of the text\'s vocabulary is actually unfamiliar at this level, and do not list something a B1 student already knows just to lengthen it.',
   },
 };
 
@@ -84,15 +87,30 @@ async function simplifyArticle(article, level) {
 SWISS GERMAN RULE: NEVER use "ß" — always write "ss".
 Output: single minified JSON object. No markdown, no backticks.
 
+=== CRITICAL RULE: STAY FAITHFUL TO THE SOURCE ===
+The simplified text must describe the SAME real event(s) as the source
+article below — same topic, same people/organizations/places involved, same
+basic outcome. You are allowed to CUT details that are too complex for the
+level (numbers, sub-clauses, background context) — you are NEVER allowed to
+INVENT a different, easier scene (e.g. turning a political/economic/health
+news story into an everyday personal anecdote about shopping, chores, or
+a walk in the park) just because the real story is hard to phrase within
+the level's grammar. If the source is too dense to compress fully, simplify
+by cutting to the single most important fact and stating just that in
+correct level-appropriate grammar — never by substituting fiction for it.
+
 === TASK ===
 1. SIMPLIFIED TEXT ("simplified_text_deu"):
 ${cfg.textInstruction}
 Write in Swiss High German (no "ß").
 
-2. VOCABULARY HINTS ("vocabulary_hints_ukr") — array of 5-7 strings:
+2. VOCABULARY HINTS ("vocabulary_hints_ukr") — array of strings:
 - Pick words that APPEAR IN YOUR SIMPLIFIED TEXT
 - Pick words a ${level} learner genuinely does NOT know
 - ${cfg.hintExclusions}
+- Do NOT target a fixed count. ${cfg.hintGuidance} The right number is however
+  many words in THIS text actually meet that bar — it will vary article to
+  article depending on how much unfamiliar vocabulary the text happens to use.
 - Format: "das Wort — українське значення"
   * Nouns: include article + plural if useful: "die Wahl, -en — вибори"
   * Verbs: infinitive: "sich ausbreiten — поширюватись"
