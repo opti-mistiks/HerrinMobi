@@ -70,7 +70,14 @@ function groqRequest(body, retries = 3) {
 // ─────────────────────────────────────────────────────────────────────────
 function toSwiss(str) {
   if (!str) return str;
-  return String(str).replace(/ß/g, "ss").replace(/ẞ/g, "SS");
+  return String(str)
+    .replace(/ß/g, "ss").replace(/ẞ/g, "SS")
+    // Look-alike characters the model sometimes emits. They break exact
+    // matching between the text and the vocabulary list (e.g. "IT‑Leiterin"
+    // with a non-breaking hyphen never matched "IT-Leiterin").
+    .replace(/[\u2010\u2011\u2012\u2013]/g, "-")   // hyphens / en dash -> "-"
+    .replace(/[\u202F\u00A0\u2009]/g, " ")          // narrow / no-break spaces -> " "
+    .replace(/\u2019/g, "'");                        // curly apostrophe
 }
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -353,6 +360,18 @@ function buildVocabulary(vocab, text) {
     seenSurface.add(surface.toLowerCase());
     words.push({ surface, hint });
   }
+
+  // Order everything by where the word first appears in the text, so the
+  // vocabulary list reads top-to-bottom in the same order as the article.
+  // Hints whose word could not be located keep their relative order at the end.
+  const pos = new Map(); // hint -> index in text
+  for (const w of words) {
+    const m = new RegExp(`(^|[^\\p{L}])(${w.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})([^\\p{L}]|$)`, "iu").exec(text);
+    if (m) pos.set(w.hint, m.index + m[1].length);
+  }
+  const order = h => (pos.has(h) ? pos.get(h) : Number.MAX_SAFE_INTEGER);
+  hints.sort((a, b) => order(a) - order(b));
+  words.sort((a, b) => order(a.hint) - order(b.hint));
   return { hints, words };
 }
 
