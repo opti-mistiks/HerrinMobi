@@ -21,6 +21,57 @@ function saveDB(db) {
 }
 
 
+
+// ── Word ↔ text matching for articles generated before `vocabularyWords`
+// existed. Mirrors NewsArticle.resolveWords in the app (same rules).
+function cleanLemma(s) {
+  let t = s.split(",")[0].trim();
+  t = t.replace(/^(der|die|das|sich|ein|eine)\s+/i, "").replace(/^(der|die|das|sich)\s+/i, "");
+  const parts = t.trim().split(/\s+/);
+  return parts[parts.length - 1];
+}
+function stemOf(w) {
+  let x = w;
+  if (x.startsWith("ge") && x.length > 6) x = x.slice(2);
+  for (const suf of ["ungen", "ung", "en", "er", "es", "em", "st", "te", "ten", "e", "n", "t", "s"]) {
+    if (x.length > suf.length + 4 && x.endsWith(suf)) { x = x.slice(0, -suf.length); break; }
+  }
+  return x;
+}
+function stemOverlap(lemma, word) {
+  const a = stemOf(lemma), b = stemOf(word);
+  const n = Math.min(a.length, b.length);
+  let i = 0;
+  while (i < n && a[i] === b[i]) i++;
+  if (i < 5) return 0;
+  return i / Math.min(a.length, b.length) >= 0.7 ? i : 0;
+}
+function resolveWords(text, hints) {
+  const tokens = [...new Set(text.match(/[\p{L}]+(?:-[\p{L}]+)*/gu) || [])];
+  const used = new Set();
+  const out = [];
+  for (const hint of hints) {
+    const lemma = cleanLemma(hint.split(" — ")[0].trim());
+    if (lemma.length < 3) continue;
+    let best = tokens.find(t => t.toLowerCase() === lemma.toLowerCase()) || null;
+    if (!best) {
+      let bs = 0;
+      for (const t of tokens) {
+        const sc = stemOverlap(lemma.toLowerCase(), t.toLowerCase());
+        if (sc > bs) { bs = sc; best = t; }
+      }
+      if (bs < 5) best = null;
+    }
+    if (best && !used.has(best.toLowerCase())) { used.add(best.toLowerCase()); out.push({ surface: best, hint }); }
+  }
+  return out;
+}
+function firstIndex(text, surface) {
+  const esc = surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const m = new RegExp(`(^|[^\\p{L}])(${esc})([^\\p{L}]|$)`, "iu").exec(text);
+  return m ? m.index + m[1].length : -1;
+}
+
 // One-time / idempotent cleanup of articles already in the DB:
 //  - "ß" → "ss" everywhere (Swiss spelling) — older runs stored plenty of them
 //  - make the category of the same story identical across A1/A2/B1. Older runs
@@ -31,14 +82,27 @@ function migrateDB(db) {
   let fixed = 0;
   for (const level of LEVELS) {
     for (const a of db[level] || []) {
-      const before = JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints]);
+      const before = JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints, a.vocabularyWords || null]);
       a.originalTitle   = toSwiss(a.originalTitle);
       a.simplifiedText  = toSwiss(a.simplifiedText);
       a.vocabularyHints = (a.vocabularyHints || []).map(toSwiss);
       if (Array.isArray(a.vocabularyWords)) {
         a.vocabularyWords = a.vocabularyWords.map(w => ({ surface: toSwiss(w.surface), hint: toSwiss(w.hint) }));
       }
-      if (JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints]) !== before) fixed++;
+      // Older articles have no exact in-text forms yet — derive them, then put
+      // both the words and the vocabulary list in the order they occur in the text.
+      if (!a.vocabularyWords || a.vocabularyWords.length === 0) {
+        a.vocabularyWords = resolveWords(a.simplifiedText, a.vocabularyHints);
+      }
+      const pos = new Map();
+      for (const w of a.vocabularyWords) {
+        const i = firstIndex(a.simplifiedText, w.surface);
+        if (i >= 0) pos.set(w.hint, i);
+      }
+      const order = h => (pos.has(h) ? pos.get(h) : Number.MAX_SAFE_INTEGER);
+      a.vocabularyHints = [...a.vocabularyHints].sort((x, y) => order(x) - order(y));
+      a.vocabularyWords = [...a.vocabularyWords].sort((x, y) => order(x.hint) - order(y.hint));
+      if (JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints, a.vocabularyWords || null]) !== before) fixed++;
     }
   }
 
