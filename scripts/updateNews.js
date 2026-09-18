@@ -1,7 +1,7 @@
 const fs   = require("fs");
 const path = require("path");
 const { parseRSSFeeds, fetchOgImage } = require("./rssParser");
-const { simplifyArticle } = require("./groqService");
+const { simplifyArticle, toSwiss } = require("./groqService");
 
 const DB_PATH       = path.join(__dirname, "..", "data", "articles.json");
 const LEVELS        = ["A1", "A2", "B1"];
@@ -18,6 +18,42 @@ function loadDB() {
 function saveDB(db) {
   fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
   fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), "utf8");
+}
+
+
+// One-time / idempotent cleanup of articles already in the DB:
+//  - "ß" → "ss" everywhere (Swiss spelling) — older runs stored plenty of them
+//  - make the category of the same story identical across A1/A2/B1. Older runs
+//    asked the model per level, so the same headline could carry different tags.
+//    We keep the tag from the B1 version (longest/most reliable text) and copy
+//    it to A1 and A2 of the same headline.
+function migrateDB(db) {
+  let fixed = 0;
+  for (const level of LEVELS) {
+    for (const a of db[level] || []) {
+      const before = JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints]);
+      a.originalTitle   = toSwiss(a.originalTitle);
+      a.simplifiedText  = toSwiss(a.simplifiedText);
+      a.vocabularyHints = (a.vocabularyHints || []).map(toSwiss);
+      if (Array.isArray(a.vocabularyWords)) {
+        a.vocabularyWords = a.vocabularyWords.map(w => ({ surface: toSwiss(w.surface), hint: toSwiss(w.hint) }));
+      }
+      if (JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints]) !== before) fixed++;
+    }
+  }
+
+  const canonical = new Map(); // title -> category from B1 (else A2, else A1)
+  for (const level of ["A1", "A2", "B1"]) {
+    for (const a of db[level] || []) canonical.set(a.originalTitle, a.category);
+  }
+  let recat = 0;
+  for (const level of LEVELS) {
+    for (const a of db[level] || []) {
+      const c = canonical.get(a.originalTitle);
+      if (c && a.category !== c) { a.category = c; recat++; }
+    }
+  }
+  if (fixed || recat) console.log(`🧹 Migration: ß→ss in ${fixed} articles, unified category in ${recat} articles`);
 }
 
 async function main() {
@@ -37,6 +73,7 @@ async function main() {
   console.log(`✅ Fetched ${rawArticles.length} articles from RSS`);
 
   const db = loadDB();
+  migrateDB(db);
 
   // Збираємо заголовки що вже є в базі
   const existingTitles = new Set();
@@ -45,7 +82,7 @@ async function main() {
   });
 
   // Тільки нові статті
-  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 30);
+  const newArticles = rawArticles.filter(a => !existingTitles.has(toSwiss(a.title))).slice(0, 30);
   console.log(`🆕 ${newArticles.length} new articles to process`);
 
   // Фолбек на картинки: RSS дав imageUrl не для всіх статей (особливо SRF).
