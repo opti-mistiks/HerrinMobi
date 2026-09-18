@@ -62,6 +62,126 @@ function groqRequest(body, retries = 3) {
   });
 }
 
+
+// ─────────────────────────────────────────────────────────────────────────
+// Swiss orthography: Swiss High German has no "ß" — always "ss".
+// The prompt asks for it, but LLMs still slip, so this is enforced in code
+// as well (applied to title, text and every vocabulary hint).
+// ─────────────────────────────────────────────────────────────────────────
+function toSwiss(str) {
+  if (!str) return str;
+  return String(str).replace(/ß/g, "ss").replace(/ẞ/g, "SS");
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Category is decided ONCE per source article (not once per level), so the
+// same news item always shows the same tag on A1, A2 and B1. Previously
+// every level asked the model again and got e.g. "Politik" on A1 but
+// "Gesundheit" on A2 for the very same story.
+// Order matters: the first matching rule wins, most specific first.
+// ─────────────────────────────────────────────────────────────────────────
+const CATEGORIES = [
+  "Wetter", "Politik", "Sport", "Wirtschaft", "Gesundheit",
+  "Gesellschaft", "Verkehr", "Kultur", "Wissenschaft",
+];
+
+const CATEGORY_RULES = [
+  ["Wetter",       /\b(wetter|unwetter|sturm|gewitter|hitze|kälte|schnee|regen|hagel|nebel|meteo|temperatur|orkan|überschwemm)/i],
+  ["Sport",        /\b(fussball|football|eishockey|hockey|tennis|ski|skifahr|biathlon|kanu|rudern|velo|radrennen|tour de|olympi|meisterschaft|em\b|wm\b|super league|cup|trainer|spieler|match|sieg|niederlage|turnier|formel 1|f1\b|marathon|schwing|nati\b)/i],
+  ["Verkehr",      /\b(verkehr|stau|sbb|zug|züge|bahn|autobahn|strasse|strassen|flughafen|flug|tunnel|gotthard|fahrplan|unfall|velo|bus\b|tram|lastwagen|lkw|sperrung|baustelle)/i],
+  ["Gesundheit",   /\b(spital|spitäler|krankenhaus|krankenkasse|krankenkassen|prämie|arzt|ärzte|ärztin|patient|medizin|medikament|impf|virus|grippe|krebs|therapie|gesundheit|pflege|operation|klinik|psych|diagnose)/i],
+  ["Wissenschaft", /\b(forscher|forschung|studie|wissenschaft|universität|eth\b|epfl|klima|weltraum|nasa|esa\b|planet|gen\b|dna|experiment|entdeck|künstliche intelligenz|ki\b|technologie|roboter)/i],
+  ["Kultur",       /\b(film|kino|musik|konzert|festival|theater|buch|roman|künstler|kunst|museum|ausstellung|serie|star|sänger|schauspiel|oper|album|netflix|promi|show)/i],
+  ["Wirtschaft",   /\b(wirtschaft|firma|firmen|unternehmen|konzern|börse|aktie|franken|euro|dollar|inflation|zoll|zölle|handel|bank|ubs|nestlé|novartis|roche|swiss\b|stellen|entlass|umsatz|gewinn|preis|preise|miete|mieten|lohn|löhne|steuer|steuern|konkurs|sparen|kosten|export|import)/i],
+  ["Politik",      /\b(bundesrat|parlament|nationalrat|ständerat|regierung|abstimmung|initiative|wahl|wahlen|partei|svp|sp\b|fdp|mitte\b|grüne|gericht|urteil|bundesgericht|gesetz|verordnung|minister|präsident|eu\b|nato|krieg|ukraine|russland|putin|trump|usa|sanktion|asyl|migration)/i],
+];
+
+// A source-specific hint from the RSS feed name is the fallback before the
+// generic "Gesellschaft" bucket.
+const SOURCE_CATEGORY = {
+  "20min Sport": "Sport",
+  "20min Entertainment": "Kultur",
+  "20min Wissen": "Wissenschaft",
+  "20min Lifestyle": "Gesellschaft",
+};
+
+function detectCategory(article) {
+  const hay = `${article.title || ""} ${(article.description || "").slice(0, 400)}`;
+  // Title counts double: it is the strongest signal of what the story is about.
+  const title = article.title || "";
+  for (const [cat, re] of CATEGORY_RULES) {
+    if (re.test(title)) return cat;
+  }
+  for (const [cat, re] of CATEGORY_RULES) {
+    if (re.test(hay)) return cat;
+  }
+  return SOURCE_CATEGORY[article.source] || "Gesellschaft";
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// STORY CORE — resolved ONCE per source article and shared by A1, A2 and B1.
+//
+// Why: each level used to be a fully independent LLM call over the raw RSS
+// text, so the model was free to pick a different angle / different tag for
+// every level (Politik on A1, Gesundheit on A2 for the same story). Now one
+// short call decides the category AND writes a neutral "core" (the 1-2 facts
+// that every level must be about). All three level prompts get the same core,
+// so the topic cannot drift between levels.
+//
+// If this call fails, the keyword rules above are the fallback, so a Groq
+// hiccup never blocks an article — it just loses the smarter category.
+// ─────────────────────────────────────────────────────────────────────────
+const coreCache = new Map(); // key: article.title -> Promise<{category, core}>
+
+async function resolveStoryCore(article) {
+  const key = article.title;
+  if (coreCache.has(key)) return coreCache.get(key);
+
+  const p = (async () => {
+    const fallback = { category: detectCategory(article), core: "" };
+    const system = `You classify Swiss news articles. Output a single minified JSON object, no markdown.
+Never use the letter "ß" (Swiss spelling: always "ss").
+
+Return:
+{"category":"<one of: ${CATEGORIES.join(" / ")}>","core":"<ONE plain German sentence, max 25 words, stating the single main fact of the article: who did/what happened. Only facts present in the source. No opinions, no invented details.>"}
+
+Category rules: choose by what the story is MAINLY about.
+- Sport: any athlete, team, match, competition, sports figure (even if the news is about death, health or money).
+- Gesundheit: hospitals, doctors, illness, health insurance, medicine.
+- Politik: government, parliament, courts, elections, laws, war, international politics.
+- Wirtschaft: companies, prices, jobs, money, housing costs, consumer topics.
+- Wissenschaft: research, studies, nature, animals, climate science, technology.
+- Kultur: film, music, art, celebrities, entertainment.
+- Verkehr: traffic, trains, roads, accidents on roads/rails, airports.
+- Wetter: weather events.
+- Gesellschaft: everyday life, people stories, crime, social topics that fit none of the others.`;
+    try {
+      const data = await groqRequest({
+        model: MODEL,
+        temperature: 0,
+        max_tokens: 400,
+        reasoning_effort: "low",
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: system },
+          { role: "user", content: `Title: ${toSwiss(article.title)}\nArticle: ${toSwiss(article.description.slice(0, 1200))}` },
+        ],
+      });
+      const raw = data.choices?.[0]?.message?.content || "";
+      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+      const category = CATEGORIES.includes(parsed.category) ? parsed.category : fallback.category;
+      const core = toSwiss(String(parsed.core || "")).trim();
+      return { category, core };
+    } catch (err) {
+      console.warn(`  ⚠️  Story-core lookup failed, using keyword fallback: ${err.message}`);
+      return fallback;
+    }
+  })();
+
+  coreCache.set(key, p);
+  return p;
+}
+
 const LEVEL_CONFIG = {
   A1: {
     textInstruction: "Write 4-5 sentences, roughly 6-12 words each, using ONLY grammar from an A1 course (Lektion 1-14 level): Präsens of regular and irregular verbs (sein, haben, and verbs with vowel change like sprechen/fahren/sehen), separable verbs (aufstehen, einkaufen, anrufen — verb splits: 'Er kauft ... ein'), Perfekt with haben/sein for simple facts ('Er ist gegangen', 'Sie hat gearbeitet'), modal verbs können/wollen/müssen/dürfen/sollen, definite/indefinite/negative articles, possessive articles (mein/dein/sein/ihr), Akkusativ and Dativ of definite/indefinite articles, simple prepositions (in, an, bei, mit, nach, seit, vor, für, zu) with their case, and basic W-questions. Connect clauses naturally with 'und', 'aber', 'dann', or 'oder' where it fits — don't write a robotic list of isolated facts. Do NOT use Nebensätze (weil/dass/wenn), Konjunktiv, or Passiv. Avoid compound nouns when a simpler word exists. Keep only the article's MOST IMPORTANT 2-3 facts (who/what happened, and one key detail like where/when/how much) — dropping minor details is correct at this level, but every sentence you write must still describe something that is actually IN the source article. Do not invent a different, simpler everyday scene just because the real story is hard to express in A1 grammar.",
@@ -82,9 +202,20 @@ const LEVEL_CONFIG = {
 
 async function simplifyArticle(article, level) {
   const cfg = LEVEL_CONFIG[level];
+  // Decided once per source article — identical on A1/A2/B1 (see above).
+  const { category, core } = await resolveStoryCore(article);
+  const cleanTitle = toSwiss(article.title);
 
-  const systemPrompt = `You are a Swiss High German teacher creating reading exercises.
-SWISS GERMAN RULE: NEVER use "ß" — always write "ss".
+  const systemPrompt = `You are a teacher of SWISS High German (Schweizer Hochdeutsch) creating reading exercises.
+
+=== SWISS ORTHOGRAPHY (MANDATORY) ===
+- The letter "ß" does NOT exist in Swiss Standard German. NEVER output "ß" anywhere
+  (text, vocabulary, everywhere). Always write "ss": "Strasse" (not "Straße"),
+  "heissen", "Fussball", "gross", "beschliessen", "Massnahme", "weiss", "draussen".
+- Use Swiss written conventions: "Velo" (not Fahrrad) only if the source uses it;
+  keep Swiss proper names and places exactly as in the source (e.g. "Kanton Schwyz",
+  "Bundesrat", "SBB", "Franken").
+- Otherwise standard grammar and spelling (no dialect words like "Znüni", no Mundart).
 Output: single minified JSON object. No markdown, no backticks.
 
 === CRITICAL RULE: STAY FAITHFUL TO THE SOURCE ===
@@ -99,31 +230,45 @@ the level's grammar. If the source is too dense to compress fully, simplify
 by cutting to the single most important fact and stating just that in
 correct level-appropriate grammar — never by substituting fiction for it.
 
+=== SAME STORY ON EVERY LEVEL ===
+This exact article is rewritten three times (A1, A2, B1) for different learners.
+The topic, main actors and core fact MUST be the same on all three; only the
+language complexity and the amount of detail change. The topic is: "${category}".
+The headline is: "${cleanTitle}".${core ? `\nThe core fact every level must express (in some form): "${core}"` : ""}
+Your text MUST clearly be about that headline and core fact — the key subject
+(who/what) must appear in the first sentence. Do not add facts, places, or names
+that are not in the source. Do not turn it into a different theme.
+
 === TASK ===
 1. SIMPLIFIED TEXT ("simplified_text_deu"):
 ${cfg.textInstruction}
 Write in Swiss High German (no "ß").
 
-2. VOCABULARY HINTS ("vocabulary_hints_ukr") — array of strings:
+2. VOCABULARY ("vocabulary") — array of objects:
 - Pick words that APPEAR IN YOUR SIMPLIFIED TEXT
 - Pick words a ${level} learner genuinely does NOT know
 - ${cfg.hintExclusions}
 - Do NOT target a fixed count. ${cfg.hintGuidance} The right number is however
   many words in THIS text actually meet that bar — it will vary article to
   article depending on how much unfamiliar vocabulary the text happens to use.
-- Format: "das Wort — українське значення"
-  * Nouns: include article + plural if useful: "die Wahl, -en — вибори"
-  * Verbs: infinitive: "sich ausbreiten — поширюватись"
-  * ALWAYS give real Ukrainian meaning, NEVER "die X — X"
+- Each object has THREE fields:
+  * "surface": the word EXACTLY as it is written in your simplified text
+    (same inflection and capitalization, e.g. "geklagt", "Leiturteil", "Spitalplanung").
+    It must be findable in the text by exact match. For a separable verb whose two
+    parts are apart in the text (e.g. "kauft ... ein"), use only the part that
+    carries the meaning as it appears ("kauft").
+  * "lemma": dictionary form for the vocabulary list. Nouns with article + plural if
+    useful: "die Wahl, -en"; verbs in infinitive: "klagen"; adjectives base form.
+  * "ukr": the real Ukrainian meaning (NEVER copy the German word).
+- Each word once only. Never list the same surface twice.
 
-3. CATEGORY ("category"):
-One word: Wetter / Politik / Sport / Wirtschaft / Gesundheit / Gesellschaft / Verkehr / Kultur / Wissenschaft
+3. Do NOT return a category — it is already decided.
 
 === OUTPUT ===
 Return ONLY valid JSON, nothing else, no explanation, no markdown:
-{"simplified_text_deu":"...","vocabulary_hints_ukr":["..."],"category":"..."}`;
+{"simplified_text_deu":"...","vocabulary":[{"surface":"...","lemma":"...","ukr":"..."}]}`;
 
-  const truncatedDescription = article.description.slice(0, 1500);
+  const truncatedDescription = toSwiss(article.description.slice(0, 1500));
   const maxAttempts = 3;
   let lastErr;
 
@@ -137,25 +282,30 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
         response_format: { type: "json_object" },
         messages: [
           { role: "system", content: systemPrompt },
-          { role: "user",   content: `Title: ${article.title}\nArticle: ${truncatedDescription}` },
+          { role: "user",   content: `Title: ${cleanTitle}\nArticle: ${truncatedDescription}` },
         ],
       });
 
       const raw = data.choices?.[0]?.message?.content || "";
       const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
 
-      if (!parsed.simplified_text_deu || !Array.isArray(parsed.vocabulary_hints_ukr) || !parsed.category) {
+      if (!parsed.simplified_text_deu || !Array.isArray(parsed.vocabulary)) {
         throw new Error("Missing required fields in parsed JSON");
       }
 
-      const validHints = parsed.vocabulary_hints_ukr.filter(h => h.includes(" — "));
+      // Hard guarantee of Swiss spelling regardless of what the model did.
+      const text = toSwiss(parsed.simplified_text_deu).trim();
+      const { hints, words } = buildVocabulary(parsed.vocabulary, text);
 
       return {
         id:              generateId(article.title, level),
-        originalTitle:   article.title,
-        simplifiedText:  parsed.simplified_text_deu || "",
-        vocabularyHints: validHints,
-        category:        parsed.category || "Gesellschaft",
+        originalTitle:   cleanTitle,
+        simplifiedText:  text,
+        vocabularyHints: hints,
+        // Exact in-text forms to render bold + tappable in the app.
+        // Kept SEPARATE from vocabularyHints so older app builds keep working.
+        vocabularyWords: words,
+        category:        category,
         imageUrl:        article.imageUrl || null,
         publishedAt:     article.pubDate || null,
         processedAt:     new Date().toISOString(),
@@ -170,6 +320,48 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
   throw lastErr;
 }
 
+// Turns the model's vocabulary objects into:
+//   hints: ["die Wahl, -en — вибори", ...]     (the existing list format)
+//   words: [{ surface, hint }, ...]             (surface = exact form in text;
+//                                                hint  = the full hint line, so the
+//                                                app can highlight the matching row)
+// A word is kept in `words` only if its surface really occurs in the text as a
+// whole word — otherwise it could never be bolded, and would just be dead data.
+function buildVocabulary(vocab, text) {
+  const hints = [];
+  const words = [];
+  const seenSurface = new Set();
+  const seenHint = new Set();
+
+  for (const v of vocab) {
+    if (!v || typeof v !== "object") continue;
+    const surface = toSwiss(String(v.surface || "")).trim();
+    const lemma   = toSwiss(String(v.lemma || v.surface || "")).trim();
+    const ukr     = String(v.ukr || "").trim();
+    if (!lemma || !ukr) continue;
+    // Guard against "die X — X" style non-translations.
+    if (ukr.toLowerCase() === lemma.toLowerCase()) continue;
+
+    const hint = `${lemma} — ${ukr}`;
+    if (!seenHint.has(hint)) {
+      seenHint.add(hint);
+      hints.push(hint);
+    }
+
+    if (!surface || seenSurface.has(surface.toLowerCase())) continue;
+    if (!containsWholeWord(text, surface)) continue;
+    seenSurface.add(surface.toLowerCase());
+    words.push({ surface, hint });
+  }
+  return { hints, words };
+}
+
+function containsWholeWord(text, word) {
+  const esc = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // Unicode-aware "whole word": not preceded/followed by a letter.
+  return new RegExp(`(^|[^\\p{L}])${esc}([^\\p{L}]|$)`, "iu").test(text);
+}
+
 function generateId(title, level) {
   const str = `${level}:${title}`;
   let hash = 0;
@@ -179,4 +371,4 @@ function generateId(title, level) {
   return Math.abs(hash).toString(16).padStart(8, "0");
 }
 
-module.exports = { simplifyArticle };
+module.exports = { simplifyArticle, toSwiss, detectCategory };
