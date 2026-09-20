@@ -11,6 +11,12 @@ const RSS_SOURCES = [
   { name: "SRF News",            url: "https://www.srf.ch/news/bnf/rss/1646" },
 ];
 
+// TSN.ua — окрема (українська) стрічка новин, розібрана окремою функцією
+// нижче (parseTsnFeed), бо формат RSS-елементів відрізняється (повний
+// текст статті лежить у власному тегу <fulltxt>, а не в
+// description/content:encoded, як у швейцарських джерел).
+const TSN_RSS_URL = "https://tsn.ua/rss/full.rss";
+
 function fetchURL(urlStr) {
   return new Promise((resolve, reject) => {
     const lib = urlStr.startsWith("https") ? https : http;
@@ -163,4 +169,44 @@ async function parseRSSFeeds() {
   return all;
 }
 
-module.exports = { parseRSSFeeds, fetchOgImage };
+// TSN.ua's RSS uses <fulltxt> (CDATA, full HTML article body) instead of
+// content:encoded, and no media:content/thumbnail — only <enclosure>. Kept
+// as its own parser (not folded into parseFeed/RSS_SOURCES) so the Swiss
+// feeds' dedupe-by-title-across-all-sources logic in parseRSSFeeds isn't
+// affected by a completely different-language source.
+async function parseTsnFeed() {
+  let xml;
+  try {
+    xml = await fetchURL(TSN_RSS_URL);
+  } catch (err) {
+    console.warn(`[rss] Failed TSN.ua: ${err.message}`);
+    return [];
+  }
+
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: "@_",
+    allowBooleanAttributes: true,
+  });
+
+  let result;
+  try { result = parser.parse(xml); }
+  catch { return []; }
+
+  const items = result?.rss?.channel?.item || [];
+  const arr = Array.isArray(items) ? items : [items];
+
+  return arr.map((item, index) => ({
+    title:       stripHTML(item.title || ""),
+    // fulltxt has the real article body; description is just a teaser.
+    // Prefer fulltxt (falls back to description for any item missing it).
+    description: stripHTML(item.fulltxt || item.description || ""),
+    imageUrl:    extractImageUrl(item),
+    link:        extractLink(item),
+    pubDate:     parsePubDate(item.pubDate),
+    feedOrder:   index,
+    source:      "TSN.ua",
+  })).filter(a => a.title && a.description);
+}
+
+module.exports = { parseRSSFeeds, fetchOgImage, parseTsnFeed };
