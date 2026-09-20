@@ -149,13 +149,20 @@ async function main() {
   const newArticles = rawArticles.filter(a => !existingTitles.has(toSwiss(a.title))).slice(0, 30);
   console.log(`🆕 ${newArticles.length} new articles to process`);
 
-  // Фолбек на картинки: RSS дав imageUrl не для всіх статей (особливо SRF).
-  // Для решти заходимо на сторінку статті й беремо og:image/twitter:image.
+  // Фолбек на картинки: RSS дав imageUrl не для всіх статей, а для деяких
+  // джерел (SRF) дає лише маленьке прев'ю (URL виду .../320ws/....webp —
+  // фіксована ширина 320px, помітно менш чітка за повнорозмірні фото інших
+  // джерел типу 20min). Для статей без картинки взагалі, а тепер і для
+  // статей з таким маленьким прев'ю, заходимо на сторінку статті й беремо
+  // og:image/twitter:image — це, як правило, повнорозмірне фото.
   // Best-effort — якщо сторінка не відповіла чи там немає og:image, просто
-  // лишаємо imageUrl = null, на обробку це не впливає.
+  // лишаємо те, що вже було (маленьке прев'ю або null), на обробку це не
+  // впливає.
+  const isLowResUrl = (url) => !!url && /\/\d{2,3}ws\//i.test(url);
+
   let imagesFetched = 0;
   for (const article of newArticles) {
-    if (!article.imageUrl && article.link) {
+    if ((!article.imageUrl || isLowResUrl(article.imageUrl)) && article.link) {
       const og = await fetchOgImage(article.link);
       if (og) {
         article.imageUrl = og;
