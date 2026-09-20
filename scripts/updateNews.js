@@ -1,11 +1,16 @@
 const fs   = require("fs");
 const path = require("path");
-const { parseRSSFeeds, fetchOgImage } = require("./rssParser");
-const { simplifyArticle, toSwiss } = require("./groqService");
+const { parseRSSFeeds, fetchOgImage, parseTsnFeed } = require("./rssParser");
+const { simplifyArticle, toSwiss, simplifyTsnArticle } = require("./groqService");
 
 const DB_PATH       = path.join(__dirname, "..", "data", "articles.json");
 const LEVELS        = ["A1", "A2", "B1"];
 const MAX_PER_LEVEL = 30;
+// TSN articles are stored under their own keys (tsnA1/tsnA2/tsnB1) so the
+// existing app/DE sections (A1/A2/B1) stay untouched — an app build that
+// doesn't know about TSN yet just ignores the extra keys.
+const TSN_LEVEL_KEYS = { A1: "tsnA1", A2: "tsnA2", B1: "tsnB1" };
+const MAX_PER_LEVEL_TSN = 30;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -120,6 +125,60 @@ function migrateDB(db) {
   if (fixed || recat) console.log(`🧹 Migration: ß→ss in ${fixed} articles, unified category in ${recat} articles`);
 }
 
+// Processes the TSN.ua (Ukrainian) pipeline: fetch -> filter to new -> for
+// each new article, simplify UK text per level + generate the DE reference
+// translation -> save. Mirrors the app/DE loop in main() below, but kept
+// separate since the two pipelines don't share dedupe state (different
+// language, different source) or a level-config shape (no vocabulary here).
+async function processTsn(db) {
+  console.log("📡 Fetching TSN.ua RSS...");
+  let rawArticles;
+  try {
+    rawArticles = await parseTsnFeed();
+  } catch (err) {
+    console.error("❌ TSN RSS fetch failed:", err.message);
+    return { processed: 0, failed: 0 };
+  }
+  console.log(`✅ Fetched ${rawArticles.length} articles from TSN.ua`);
+
+  const existingTitles = new Set();
+  for (const key of Object.values(TSN_LEVEL_KEYS)) {
+    (db[key] || []).forEach(a => existingTitles.add(a.originalTitle));
+  }
+
+  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 30);
+  console.log(`🆕 ${newArticles.length} new TSN articles to process`);
+  if (newArticles.length === 0) return { processed: 0, failed: 0 };
+
+  let processed = 0;
+  let failed = 0;
+
+  for (const article of newArticles) {
+    for (const level of LEVELS) {
+      const dbKey = TSN_LEVEL_KEYS[level];
+      try {
+        console.log(`⚙️  [TSN ${level}] "${article.title.slice(0, 50)}..."`);
+        const result = await simplifyTsnArticle(article, level);
+
+        if (!db[dbKey]) db[dbKey] = [];
+        db[dbKey].unshift(result);
+        if (db[dbKey].length > MAX_PER_LEVEL_TSN) {
+          db[dbKey] = db[dbKey].slice(0, MAX_PER_LEVEL_TSN);
+        }
+
+        saveDB(db);
+        processed++;
+      } catch (err) {
+        console.error(`❌ [TSN ${level}] "${article.title.slice(0, 30)}": ${err.message}`);
+        failed++;
+      }
+      await sleep(2000);
+    }
+  }
+
+  return { processed, failed };
+}
+
 async function main() {
   if (!process.env.GROQ_API_KEY) {
     console.error("❌ GROQ_API_KEY is not set!");
@@ -172,16 +231,13 @@ async function main() {
   }
   console.log(`🖼️  Догенеровано og:image для ${imagesFetched} статей`);
 
-  if (newArticles.length === 0) {
-    console.log("✅ Nothing new. Done.");
-    // Оновлюємо updatedAt навіть якщо нічого нового
-    db.updatedAt = new Date().toISOString();
-    saveDB(db);
-    return;
-  }
-
   let processed = 0;
   let failed    = 0;
+  let tsnResult = { processed: 0, failed: 0 };
+
+  if (newArticles.length === 0) {
+    console.log("✅ Nothing new from app/DE sources.");
+  } else {
 
   for (const article of newArticles) {
     for (const level of LEVELS) {
@@ -210,19 +266,29 @@ async function main() {
     }
   }
 
+  } // end app/DE processing (newArticles.length === 0 short-circuit above)
+
+  // TSN.ua (Ukrainian -> German) pipeline — independent of the app/DE
+  // dedupe/counters above, runs regardless of whether app/DE had anything new.
+  tsnResult = await processTsn(db);
+
   db.updatedAt = new Date().toISOString();
   saveDB(db);
 
-  console.log(`\n✅ Done! Processed: ${processed}, Failed: ${failed}`);
-  console.log(`📊 DB: A1=${db.A1?.length||0}, A2=${db.A2?.length||0}, B1=${db.B1?.length||0}`);
+  console.log(`\n✅ Done! App/DE — Processed: ${processed}, Failed: ${failed}`);
+  console.log(`✅ TSN — Processed: ${tsnResult.processed}, Failed: ${tsnResult.failed}`);
+  console.log(`📊 DB: A1=${db.A1?.length||0}, A2=${db.A2?.length||0}, B1=${db.B1?.length||0}, ` +
+              `tsnA1=${db.tsnA1?.length||0}, tsnA2=${db.tsnA2?.length||0}, tsnB1=${db.tsnB1?.length||0}`);
 
   // Якщо ЖОДНА стаття не оброблена успішно (наприклад модель Groq
   // decommissioned, квота вичерпана, чи ключ невалідний) — валимо job
   // з ненульовим кодом. Раніше скрипт мовчки "succeeded" навіть коли
   // всі виклики Groq падали, і поломка непомітно тривала два тижні,
   // поки articles.json просто переставав поповнюватись.
-  const totalAttempts = newArticles.length * LEVELS.length;
-  if (processed === 0 && totalAttempts > 0) {
+  // Рахуємо провалом лише випадок, коли БУЛИ спроби (з будь-якого джерела)
+  // і ЖОДНА не вдалась — якщо просто не було нових статей, це не помилка.
+  const totalAttempts = newArticles.length * LEVELS.length + (tsnResult.processed + tsnResult.failed);
+  if (processed === 0 && tsnResult.processed === 0 && totalAttempts > 0) {
     console.error("💥 All articles failed to process — failing the job so it's visible in Actions.");
     process.exit(1);
   }
