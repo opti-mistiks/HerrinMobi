@@ -390,4 +390,164 @@ function generateId(title, level) {
   return Math.abs(hash).toString(16).padStart(8, "0");
 }
 
-module.exports = { simplifyArticle, toSwiss, detectCategory };
+// ─────────────────────────────────────────────────────────────────────────
+// TSN.ua PIPELINE — mirrors simplifyArticle above, but the source AND the
+// simplified text stay Ukrainian (no language change here). A separate
+// German "reference translation" is generated afterwards by
+// translateSimplifiedToGerman, ONLY so the app has something to compare the
+// student's own UK->DE translation attempt against — it is never shown to
+// the student directly.
+// ─────────────────────────────────────────────────────────────────────────
+const UK_LEVEL_CONFIG = {
+  A1: {
+    textInstruction: "Напиши 4-5 речень, приблизно 6-12 слів кожне, простою українською мовою: прості розповідні речення, теперішній/минулий час у звичайній формі, без складних підрядних речень (уникай 'який/яка/яке', 'оскільки', 'незважаючи на те що'). Пов'язуй речення природно словами 'і', 'але', 'потім', 'тому' — не пиши роботизований список фактів. Залиш лише 2-3 найважливіші факти статті (хто/що сталося, і одну ключову деталь: де/коли/скільки) — опускати другорядні деталі правильно на цьому рівні, але кожне речення має описувати щось, що дійсно Є в джерельній статті. Не вигадуй іншу, простішу побутову сценку лише тому, що реальну історію важко висловити простими словами.",
+  },
+  A2: {
+    textInstruction: "Напиши 5-7 речень, які читаються як природна, зв'язна міні-історія, а не список фактів. Можна використовувати прості підрядні речення з 'тому що', 'коли', 'хоча', порівняння ('більше/менше ніж'), і трохи більше побутової лексики. Залиш головні факти статті (хто, що сталося, ключові цифри/місця/причини) — можна спрощувати чи опускати другорядні деталі, але кожне речення має описувати щось, що дійсно Є в джерельній статті, а не вигадану простішу ситуацію.",
+  },
+  B1: {
+    textInstruction: "Напиши 7-9 речень як природну, плинну розповідь — варіюй довжину та структуру речень так, як це робить справжня коротка новина. Можна використовувати складніші підрядні речення, різні часи. Збережи ключові факти, цифри, імена та реальну послідовність/причинно-наслідкові зв'язки подій з оригіналу.",
+  },
+};
+
+async function simplifyArticleUkrainian(article, level) {
+  const cfg = UK_LEVEL_CONFIG[level];
+  const cleanTitle = String(article.title || "").trim();
+
+  const systemPrompt = `Ти редактор, який спрощує українські новини для вивчаючих мову.
+Output: single minified JSON object. No markdown, no backticks.
+
+=== КРИТИЧНЕ ПРАВИЛО: ВІРНІСТЬ ДЖЕРЕЛУ ===
+Спрощений текст має описувати ТІ САМІ реальні події, що й стаття-джерело
+нижче — та сама тема, ті самі люди/організації/місця, той самий базовий
+результат. Можна СКОРОЧУВАТИ деталі, занадто складні для рівня (цифри,
+підрядні частини, контекст) — але НІКОЛИ не можна ВИГАДУВАТИ іншу, простішу
+сцену замість реальної.
+
+=== ЗАВДАННЯ ===
+Заголовок: "${cleanTitle}"
+1. СПРОЩЕНИЙ ТЕКСТ ("simplified_text_ukr"):
+${cfg.textInstruction}
+Пиши літературною українською мовою.
+
+=== OUTPUT ===
+Return ONLY valid JSON, nothing else:
+{"simplified_text_ukr":"..."}`;
+
+  const truncatedDescription = String(article.description || "").slice(0, 1500);
+  const maxAttempts = 3;
+  let lastErr;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const data = await groqRequest({
+        model: MODEL,
+        temperature: 0.1,
+        max_tokens: 1500,
+        reasoning_effort: "low",
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: `Заголовок: ${cleanTitle}\nСтаття: ${truncatedDescription}` },
+        ],
+      });
+
+      const raw = data.choices?.[0]?.message?.content || "";
+      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+      if (!parsed.simplified_text_ukr) throw new Error("Missing simplified_text_ukr in parsed JSON");
+      return parsed.simplified_text_ukr.trim();
+    } catch (err) {
+      lastErr = err;
+      console.warn(`  ⚠️  [TSN ${level}] Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
+      if (attempt < maxAttempts) await sleep(2000);
+    }
+  }
+  throw lastErr;
+}
+
+// Translates the already-simplified Ukrainian text into Swiss High German —
+// used ONLY as the answer key the app checks the student's UK->DE attempt
+// against (never shown to the student as-is).
+async function translateSimplifiedToGerman(ukrainianText) {
+  const systemPrompt = `You translate Ukrainian text into SWISS High German (Schweizer Hochdeutsch).
+Never use the letter "ß" — always "ss" (Strasse, heissen, gross, gewusst).
+Translate faithfully, natural fluent German, same meaning and level of
+simplicity as the source — do not add or remove information.
+Output ONLY valid minified JSON, no markdown: {"german_text":"..."}`;
+
+  const maxAttempts = 3;
+  let lastErr;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const data = await groqRequest({
+        model: MODEL,
+        temperature: 0.1,
+        max_tokens: 1000,
+        reasoning_effort: "low",
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: ukrainianText },
+        ],
+      });
+      const raw = data.choices?.[0]?.message?.content || "";
+      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+      if (!parsed.german_text) throw new Error("Missing german_text in parsed JSON");
+      return toSwiss(parsed.german_text.trim());
+    } catch (err) {
+      lastErr = err;
+      console.warn(`  ⚠️  [TSN DE ref] Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
+      if (attempt < maxAttempts) await sleep(2000);
+    }
+  }
+  throw lastErr;
+}
+
+// Ukrainian-keyword category detector — separate from the German-language
+// CATEGORY_RULES above (those regexes are on German words and would almost
+// never match Ukrainian text, silently falling back to "Gesellschaft" for
+// everything).
+const UK_CATEGORY_RULES = [
+  ["Wetter",       /\b(погод|негод|шторм|гроз|спек|холод|сніг|дощ|град|туман|температур|ураган|повін)/i],
+  ["Sport",        /\b(футбол|хокей|теніс|лиж|біатлон|веслуванн|велоспорт|велогон|тур де|олімпі|чемпіонат|збірн|матч|перемог|поразк|турнір|формул[а-я]* 1|марафон|тренер|гравец|гравц)/i],
+  ["Verkehr",      /\b(транспорт|затор|потяг|поїзд|залізниц|автомагістрал|автобан|вулиц|дорог|аеропорт|рейс|тунель|аварі[яї]|дтп|дорожн)/i],
+  ["Gesundheit",   /\b(лікарн|госпіталь|медицин|ліки|лікар|пацієнт|вірус|грип|рак\b|терапі|хвороб|щеплен|клінік|операці)/i],
+  ["Wissenschaft", /\b(дослідник|дослідженн|наук|університет|клімат|космос|планет|ген\b|днк|експеримент|відкритт|штучн(ий|ого) інтелект|технологі|робот)/i],
+  ["Kultur",       /\b(фільм|кіно|музик|концерт|фестивал|театр|книг|роман|митец|мистецтв|музей|виставк|серіал|зірк|співак|шоу)/i],
+  ["Wirtschaft",   /\b(економік|компані|фірм|бізнес|біржа|акці[їя]|гривн|долар|євро|інфляці|мит[оа]|торгівл|банк|звільненн|прибуток|ціна|ціни|оренд|зарплат|податок|податк|експорт|імпорт)/i],
+  ["Politik",      /\b(уряд|парламент|рад[аи]|верховн|вибори|парті[яї]|суд\b|закон|президент|міністр|війн|росі[яїю]|путін|санкці|мігра)/i],
+];
+
+function detectCategoryUkrainian(article) {
+  const hay = `${article.title || ""} ${(article.description || "").slice(0, 400)}`;
+  const title = article.title || "";
+  for (const [cat, re] of UK_CATEGORY_RULES) {
+    if (re.test(title)) return cat;
+  }
+  for (const [cat, re] of UK_CATEGORY_RULES) {
+    if (re.test(hay)) return cat;
+  }
+  return "Gesellschaft";
+}
+
+async function simplifyTsnArticle(article, level) {
+  const simplifiedUkr = await simplifyArticleUkrainian(article, level);
+  const germanReference = await translateSimplifiedToGerman(simplifiedUkr);
+  return {
+    id:               generateId(`tsn:${article.title}`, level),
+    originalTitle:    String(article.title || "").trim(),
+    simplifiedText:   simplifiedUkr,       // Ukrainian — what the student reads
+    germanReference:  germanReference,     // Swiss German — answer key, never shown
+    category:         detectCategoryUkrainian(article),
+    imageUrl:         article.imageUrl || null,
+    publishedAt:      article.pubDate || null,
+    processedAt:      new Date().toISOString(),
+  };
+}
+
+module.exports = {
+  simplifyArticle,
+  toSwiss,
+  detectCategory,
+  simplifyTsnArticle,
+};
