@@ -423,6 +423,16 @@ Output: single minified JSON object. No markdown, no backticks.
 результат. Можна СКОРОЧУВАТИ деталі, занадто складні для рівня (цифри,
 підрядні частини, контекст) — але НІКОЛИ не можна ВИГАДУВАТИ іншу, простішу
 сцену замість реальної.
+Числа, дати, імена людей/організацій і географічні назви, які ти
+ЗАЛИШАЄШ у тексті, мають бути передані ТОЧНО як у джерелі — не округлюй,
+не змінюй і не плутай їх. Якщо конкретна цифра чи дата не влізає в рівень
+складності — краще повністю прибрати деталь, ніж написати її неточно.
+
+=== ПРИРОДНІСТЬ МОВИ ===
+Уникай "телеграфного" новинного стилю (сухий переказ фактів одним
+реченням за іншим без зв'язків). Пиши як зв'язну, природну міні-розповідь
+із логічними переходами між реченнями — так, як реально говорить/пише
+носій мови цього рівня, а не як стиснутий підрядковий переклад.
 
 === ЗАВДАННЯ ===
 Заголовок: "${cleanTitle}"
@@ -471,8 +481,15 @@ Return ONLY valid JSON, nothing else:
 async function translateSimplifiedToGerman(ukrainianText) {
   const systemPrompt = `You translate Ukrainian text into SWISS High German (Schweizer Hochdeutsch).
 Never use the letter "ß" — always "ss" (Strasse, heissen, gross, gewusst).
-Translate faithfully, natural fluent German, same meaning and level of
-simplicity as the source — do not add or remove information.
+This translation becomes the ANSWER KEY a student's own translation attempt
+is graded against, so precision matters more than elegance:
+- Translate EVERY sentence and EVERY fact (numbers, names, dates, places)
+  from the Ukrainian source — never drop, merge, or summarize a sentence.
+- Never add information, explanation, or detail that isn't in the source.
+- Keep the same sentence boundaries as the source where natural, so the
+  translation stays easy to align sentence-by-sentence with the original.
+- Natural, fluent, grammatically correct Swiss High German — not a stiff
+  word-for-word gloss, but never freer than the source either.
 Output ONLY valid minified JSON, no markdown: {"german_text":"..."}`;
 
   const maxAttempts = 3;
@@ -503,27 +520,44 @@ Output ONLY valid minified JSON, no markdown: {"german_text":"..."}`;
   throw lastErr;
 }
 
-// Ukrainian-keyword category detector — separate from the German-language
-// CATEGORY_RULES above (those regexes are on German words and would almost
-// never match Ukrainian text, silently falling back to "Gesellschaft" for
-// everything).
+// TSN's own editorial category (article.category, from rssParser's
+// extractCategory) is more reliable than a keyword guess — it's the real
+// section TSN filed the piece under, already used upstream to filter the
+// feed down to our 5 allowed sections. Map it straight to the app's
+// existing category set (same CATEGORIES used for German/20min articles,
+// so category chips/colors stay unified across both sources) instead of
+// re-detecting from text.
+const UK_CATEGORY_MAP = {
+  "Україна":        "Politik",
+  "Київ":           "Politik",
+  "Львів":          "Politik",
+  "Події":          "Gesellschaft",
+  "Світ":           "Politik",
+  "За кордоном":    "Politik",
+  "Туризм":         "Gesellschaft",
+  "Наука та IT":    "Wissenschaft",
+  "Наука та ІТ":    "Wissenschaft",
+  "Технології":     "Wissenschaft",
+  "Технологія":     "Wissenschaft",
+  "Цікавинки":      "Gesellschaft",
+  "Різне":          "Gesellschaft",
+};
+
+// Keyword fallback — only used if article.category is missing/unmapped
+// (shouldn't normally happen since rssParser already filters on it), kept
+// so the pipeline never crashes on an edge case rather than for everyday
+// use.
 const UK_CATEGORY_RULES = [
-  ["Wetter",       /\b(погод|негод|шторм|гроз|спек|холод|сніг|дощ|град|туман|температур|ураган|повін)/i],
-  ["Sport",        /\b(футбол|хокей|теніс|лиж|біатлон|веслуванн|велоспорт|велогон|тур де|олімпі|чемпіонат|збірн|матч|перемог|поразк|турнір|формул[а-я]* 1|марафон|тренер|гравец|гравц)/i],
-  ["Verkehr",      /\b(транспорт|затор|потяг|поїзд|залізниц|автомагістрал|автобан|вулиц|дорог|аеропорт|рейс|тунель|аварі[яї]|дтп|дорожн)/i],
-  ["Gesundheit",   /\b(лікарн|госпіталь|медицин|ліки|лікар|пацієнт|вірус|грип|рак\b|терапі|хвороб|щеплен|клінік|операці)/i],
-  ["Wissenschaft", /\b(дослідник|дослідженн|наук|університет|клімат|космос|планет|ген\b|днк|експеримент|відкритт|штучн(ий|ого) інтелект|технологі|робот)/i],
-  ["Kultur",       /\b(фільм|кіно|музик|концерт|фестивал|театр|книг|роман|митец|мистецтв|музей|виставк|серіал|зірк|співак|шоу)/i],
-  ["Wirtschaft",   /\b(економік|компані|фірм|бізнес|біржа|акці[їя]|гривн|долар|євро|інфляці|мит[оа]|торгівл|банк|звільненн|прибуток|ціна|ціни|оренд|зарплат|податок|податк|експорт|імпорт)/i],
+  ["Wissenschaft", /\b(дослідник|дослідженн|наук|університет|космос|планет|ген\b|днк|експеримент|відкритт|штучн(ий|ого) інтелект|технологі|робот)/i],
   ["Politik",      /\b(уряд|парламент|рад[аи]|верховн|вибори|парті[яї]|суд\b|закон|президент|міністр|війн|росі[яїю]|путін|санкці|мігра)/i],
+  ["Gesellschaft", /\b(туризм|туристи|подорож|курорт|готел|пляж|відпочин)/i],
 ];
 
 function detectCategoryUkrainian(article) {
+  const mapped = UK_CATEGORY_MAP[article.category];
+  if (mapped) return mapped;
+
   const hay = `${article.title || ""} ${(article.description || "").slice(0, 400)}`;
-  const title = article.title || "";
-  for (const [cat, re] of UK_CATEGORY_RULES) {
-    if (re.test(title)) return cat;
-  }
   for (const [cat, re] of UK_CATEGORY_RULES) {
     if (re.test(hay)) return cat;
   }
