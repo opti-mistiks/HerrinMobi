@@ -17,6 +17,35 @@ const RSS_SOURCES = [
 // description/content:encoded, як у швейцарських джерел).
 const TSN_RSS_URL = "https://tsn.ua/rss/full.rss";
 
+// TSN's full feed has no per-section RSS (confirmed against llms.txt), so
+// we take the single general feed and filter by the <category> tag every
+// <item> already carries. Only these 5 sections (as requested) pass
+// through; everything else (glamour, horoscopes, name-day greetings,
+// recipes, sports, etc.) is dropped here, before any Groq call is spent
+// on it. Keys are the TSN category strings seen in the feed; several map
+// to the same app-facing section.
+const TSN_ALLOWED_CATEGORIES = new Set([
+  // Україна
+  "Україна", "Київ", "Львів", "Події",
+  // Світ
+  "Світ", "За кордоном",
+  // Туризм
+  "Туризм",
+  // Наука і ІТ
+  "Наука та IT", "Наука та ІТ", "Технології", "Технологія",
+  // Цікавинки
+  "Цікавинки", "Різне",
+]);
+
+function extractCategory(item) {
+  const cat = item.category;
+  if (!cat) return null;
+  const node = Array.isArray(cat) ? cat[0] : cat;
+  if (typeof node === "string") return node.trim();
+  if (node && typeof node === "object") return String(node["#text"] || "").trim();
+  return null;
+}
+
 function fetchURL(urlStr) {
   return new Promise((resolve, reject) => {
     const lib = urlStr.startsWith("https") ? https : http;
@@ -196,17 +225,21 @@ async function parseTsnFeed() {
   const items = result?.rss?.channel?.item || [];
   const arr = Array.isArray(items) ? items : [items];
 
-  return arr.map((item, index) => ({
-    title:       stripHTML(item.title || ""),
-    // fulltxt has the real article body; description is just a teaser.
-    // Prefer fulltxt (falls back to description for any item missing it).
-    description: stripHTML(item.fulltxt || item.description || ""),
-    imageUrl:    extractImageUrl(item),
-    link:        extractLink(item),
-    pubDate:     parsePubDate(item.pubDate),
-    feedOrder:   index,
-    source:      "TSN.ua",
-  })).filter(a => a.title && a.description);
+  return arr
+    .map((item, index) => ({
+      title:       stripHTML(item.title || ""),
+      // fulltxt has the real article body; description is just a teaser.
+      // Prefer fulltxt (falls back to description for any item missing it).
+      description: stripHTML(item.fulltxt || item.description || ""),
+      imageUrl:    extractImageUrl(item),
+      link:        extractLink(item),
+      pubDate:     parsePubDate(item.pubDate),
+      feedOrder:   index,
+      source:      "TSN.ua",
+      category:    extractCategory(item),
+    }))
+    .filter(a => a.title && a.description)
+    .filter(a => a.category && TSN_ALLOWED_CATEGORIES.has(a.category));
 }
 
 module.exports = { parseRSSFeeds, fetchOgImage, parseTsnFeed };
