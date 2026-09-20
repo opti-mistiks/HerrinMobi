@@ -172,7 +172,10 @@ async function processTsn(db) {
         console.error(`❌ [TSN ${level}] "${article.title.slice(0, 30)}": ${err.message}`);
         failed++;
       }
-      await sleep(2000);
+      // Same reasoning as the app/DE loop below: each level here also
+      // makes 2 Groq calls (simplify + translate-to-German), so this
+      // pause is the per-level budget, not per-request.
+      await sleep(4000);
     }
   }
 
@@ -261,8 +264,14 @@ async function main() {
         failed++;
       }
 
-      // Пауза між запитами щоб не бити rate limit
-      await sleep(2000);
+      // Пауза між запитами щоб не бити rate limit. 2s тут покриває лише
+      // паузу МІЖ рівнями — але кожен рівень сам по собі робить 2 Groq-
+      // запити (resolveStoryCore + simplify, лише перший кешується між
+      // рівнями), тож реальна частота запитів вища за те, що ця пауза
+      // сама по собі забезпечує. 4s — грубий запас під безкоштовний ліміт
+      // Groq для цієї моделі; вбудований retry в groqRequest() все одно
+      // підхоплює короткі 429, просто повільніше.
+      await sleep(4000);
     }
   }
 
