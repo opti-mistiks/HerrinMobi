@@ -1340,7 +1340,7 @@
         "der Fremde, -n — чужі люди",
         "das Gym — тренажерний зал",
         "unwohl — незручний, нездоровий",
-        "die Online-Nähe — онлайн‑близькість",
+        "die Online-Nähe — онлайн-близькість",
         "unangenehm — неприємний"
       ],
       "vocabularyWords": [
@@ -1378,7 +1378,7 @@
         },
         {
           "surface": "Online-Nähe",
-          "hint": "die Online-Nähe — онлайн‑близькість"
+          "hint": "die Online-Nähe — онлайн-близькість"
         },
         {
           "surface": "unangenehm",
@@ -1862,7 +1862,7 @@
       "vocabularyHints": [
         "das Literaturinstitut — літературний інститут",
         "das Jubiläum — ювілей",
-        "die Autorin, -nen — жінка‑автор",
+        "die Autorin, -nen — жінка-автор",
         "die Lesung, -en — читання, лекція",
         "bunt — яскравий",
         "das Talent, -e — талант",
@@ -1871,7 +1871,7 @@
         "inspirieren — надихати",
         "die Stimmung, -en — настрій",
         "der Besucher, - — відвідувач",
-        "die Schriftstellerin, -nen — жінка‑літертор",
+        "die Schriftstellerin, -nen — жінка-літертор",
         "austauschen — обмінятись",
         "telefonieren — телефонувати",
         "der Autor, -en — автор",
@@ -1888,7 +1888,7 @@
         },
         {
           "surface": "Autorinnen",
-          "hint": "die Autorin, -nen — жінка‑автор"
+          "hint": "die Autorin, -nen — жінка-автор"
         },
         {
           "surface": "Lesungen",
@@ -1924,7 +1924,7 @@
         },
         {
           "surface": "Schriftstellerinnen",
-          "hint": "die Schriftstellerin, -nen — жінка‑літертор"
+          "hint": "die Schriftstellerin, -nen — жінка-літертор"
         },
         {
           "surface": "ausgetauscht",
@@ -3490,7 +3490,7 @@
         "belastend — обтяжливий",
         "das Bauunternehmen — будівельна компанія",
         "die Verzögerung — затримка",
-        "der Mieterverband — об’єднання орендарів",
+        "der Mieterverband — об'єднання орендарів",
         "finanziell — фінансовий",
         "der Experte — експерт",
         "energieeffizient — енергоефективний",
@@ -3520,7 +3520,7 @@
         },
         {
           "surface": "Mieterverband",
-          "hint": "der Mieterverband — об’єднання орендарів"
+          "hint": "der Mieterverband — об'єднання орендарів"
         },
         {
           "surface": "finanzielle",
@@ -4127,7 +4127,7 @@
         "die Kontroverse, -en — контроверсія",
         "äussern — висловлювати",
         "verurteilen — осуджувати",
-        "der Popstar, -s — поп‑зірка"
+        "der Popstar, -s — поп-зірка"
       ],
       "vocabularyWords": [
         {
@@ -4220,7 +4220,7 @@
         "das Bundesamt — федеральне управління",
         "die Sozialversicherung — соціальне страхування",
         "die Richtlinie, -en — настанови, правила",
-        "das IT-Dienstleistungsunternehmen — компанія з ІТ‑послуг",
+        "das IT-Dienstleistungsunternehmen — компанія з ІТ-послуг",
         "die Integration — інтеграція",
         "der Beobachter, - — спостерігач",
         "anmelden — реєструвати"
@@ -4248,7 +4248,7 @@
         },
         {
           "surface": "IT-Dienstleistungsunternehmen",
-          "hint": "das IT-Dienstleistungsunternehmen — компанія з ІТ‑послуг"
+          "hint": "das IT-Dienstleistungsunternehmen — компанія з ІТ-послуг"
         },
         {
           "surface": "Integration",
@@ -4811,7 +4811,7 @@
         "die Situation — ситуація",
         "zweitklassig — другокласний",
         "die Niederlage — поразка",
-        "die Spitzengruppe — топ‑група",
+        "die Spitzengruppe — топ-група",
         "der Trainer — тренер",
         "der Kader — склад команди",
         "die Erwartungshaltung — очікування",
@@ -4832,7 +4832,7 @@
         },
         {
           "surface": "Spitzengruppe",
-          "hint": "die Spitzengruppe — топ‑група"
+          "hint": "die Spitzengruppe — топ-група"
         },
         {
           "surface": "Trainer",
@@ -4857,5 +4857,191 @@
       "processedAt": "2026-09-20T10:17:52.855Z"
     }
   ],
-  "updatedAt": "2026-09-20T10:39:45.668Z"
+  "updatedAt": "2026-09-21T08:46:33.998Z",
+  "tsnA1": [
+    {
+      "id": "682af20c",
+      "originalTitle": "Можуть вбити за телефон: топ найнебезпечніших міст світу",
+      "simplifiedText": "Сан‑Педро‑Сула в Гондурасі має 170 вбивств на 100 тисяч людей. Тому у місті вдень безпечно, а вночі можуть вбити за телефон. Акапулько в Мексиці колись був курортом, і тепер – небезпечний. Там часто трапляються розстріли та вбивства, але туристи бояться їх. Каракас у Венесуелі страждає від політичної нестабільності і злочинності.",
+      "germanReference": "San-Pedro-Sula in Honduras hat 170 Tötungen pro 100 000 Menschen. Deshalb ist die Stadt tagsüber sicher, aber nachts kann man dort per Telefon getötet werden. Acapulco in Mexiko war einst ein Ferienort und ist jetzt gefährlich. Dort kommt es häufig zu Schiessereien und Morden, aber Touristen fürchten sie. Caracas in Venezuela leidet unter politischer Instabilität und Kriminalität.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/177/tsn-51cb131e/thumbs/608xX/0a/d0/7e16ed5ff24b0a66a52a7c03866ed00a.jpg",
+      "publishedAt": "2026-09-21T07:43:44.000Z",
+      "processedAt": "2026-09-21T08:45:45.944Z"
+    },
+    {
+      "id": "76d43690",
+      "originalTitle": "У Полтаві пролунав вибух: над містом видно дим",
+      "simplifiedText": "У Полтаві 21 вересня вранці пролунав вибух. Над містом з'явився густий дим і його бачили. Повітряні сили ЗСУ повідомили про баражуючий боєприпас \"Бандероль\". Мешканців закликали залишатися в укриттях до кінця тривоги.",
+      "germanReference": "In Poltawa erklang am 21. September am Morgen eine Explosion. Über der Stadt erschien dichter Rauch und man sah ihn. Die Luftstreitkräfte der ukrainischen Streitkräfte berichteten über eine umherfliegende Munition \"Banderole\". Die Bewohner wurden aufgefordert, bis zum Ende der Alarmstufe in den Schutzräumen zu bleiben.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/984/tsn-671b840e81dae5015bc4c6345e63d1d0/thumbs/608xX/5f/22/d8cc1d2d36ca00b1c8a31aa3fd81225f.png",
+      "publishedAt": "2026-09-21T07:48:01.000Z",
+      "processedAt": "2026-09-21T08:44:55.775Z"
+    },
+    {
+      "id": "22805eff",
+      "originalTitle": "Новий гуманоїдний робот злякано падає на коліна перед людьми: в чому річ (відео)",
+      "simplifiedText": "Компанія Agility Robotics представила робота Digit 5. Робот самостійно уникає людей за допомогою сенсорів. У демонстраційному відео він присідає, коли хтось підходить. Цей момент видно приблизно на 43-й секунді.",
+      "germanReference": "Die Firma Agility Robotics hat den Roboter Digit 5 vorgestellt. Der Roboter weicht Menschen eigenständig mit Hilfe von Sensoren aus. Im Demonstrationsvideo setzt er sich hin, wenn jemand naht. Dieser Moment ist etwa in der 43. Sekunde zu sehen.",
+      "category": "Wissenschaft",
+      "imageUrl": "https://img.tsn.ua/cached/290/tsn-51cb131e/thumbs/608xX/45/08/00faf128ce7a435693a3aa30693e0845.png",
+      "publishedAt": "2026-09-21T07:53:50.000Z",
+      "processedAt": "2026-09-21T08:44:03.300Z"
+    },
+    {
+      "id": "5df193dc",
+      "originalTitle": "18 ударів ножем: у Миколаєві біля магазину вбили чоловіка",
+      "simplifiedText": "У Миколаїві біля магазину вбили 55‑річного чоловіка. Підозрюваним виявився 51‑річний місцевий житель сам. Він вийшов з магазину, був у стані сп’яніння. Після сварки він дістав ножа і наніс 18 ударів. Поліція затримала підозрюваного, а жертва померла.",
+      "germanReference": "In Mykolajiw wurde ein 55-jähriger Mann in der Nähe eines Geschäfts erschlagen. Der Verdächtige war ein 51-jähriger Einheimischer. Er verliess das Geschäft, war betrunken. Nach einem Streit zog er ein Messer und verpasste 18 Stiche. Die Polizei nahm den Verdächtigen fest, und das Opfer starb.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/160/tsn-51cb131e/thumbs/608xX/d6/6f/1fb8a67bea0242e586484959304c6fd6.jpg",
+      "publishedAt": "2026-09-21T07:59:51.000Z",
+      "processedAt": "2026-09-21T08:43:05.594Z"
+    },
+    {
+      "id": "4ded1fe1",
+      "originalTitle": "В Україні затримуються потяги через тривогу: подробиці",
+      "simplifiedText": "21 вересня в Україні оголосили повітряну тривогу. Через тривогу потяги затрималися на багатьох маршрутах. Понад 50 маршрутів постраждали, затримки до 16 годин. Укрзалізниця повідомила про це і уточнює дані.",
+      "germanReference": "Am 21. September wurde in der Ukraine die Luftalarmstufe ausgerufen. Durch den Alarm verzögerten sich die Züge auf vielen Strecken. Mehr als 50 Strecken waren betroffen, die Verspätungen betrugen bis zu 16 Stunden. Die Ukrainsche Eisenbahn hat dies gemeldet und präzisiert die Daten.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/750/tsn-51cb131e/thumbs/608xX/e5/e3/4f3d1c3d3204541cd4f22df8affbe3e5.jpg",
+      "publishedAt": "2026-09-21T08:00:11.000Z",
+      "processedAt": "2026-09-21T08:42:19.052Z"
+    },
+    {
+      "id": "315a7d8b",
+      "originalTitle": "Коли треба солити відбивні, щоб вони вийшли ніжними та соковитими: секрет професійних кухарів",
+      "simplifiedText": "Професійні кухарі радять солити відбивні правильно. Сіль можна додати одразу перед смаженням. Або за тридцять хвилин до приготування. Не соліть за 10‑15 хвилин, бо м’ясо висихає. Після цього обсмажте на сильному вогні, потім знизьте.",
+      "germanReference": "Professionelle Köche raten, die Steaks richtig zu salzen. Das Salz kann man direkt vor dem Braten hinzufügen. Oder dreissig Minuten vor der Zubereitung. Nicht 10-15 Minuten vorher salzen, weil das Fleisch austrocknet. Danach braten Sie bei starker Hitze an, dann reduzieren Sie die Hitze.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/252/tsn-51cb131e/thumbs/608xX/19/50/b08859cf33d0f5eb5accc8b47c315019.png",
+      "publishedAt": "2026-09-21T08:10:50.000Z",
+      "processedAt": "2026-09-21T08:41:55.348Z"
+    }
+  ],
+  "tsnA2": [
+    {
+      "id": "03969e55",
+      "originalTitle": "Можуть вбити за телефон: топ найнебезпечніших міст світу",
+      "simplifiedText": "У ТСН.ua підготували список найнебезпечніших міст світу для туристів, і в ньому знову з’явилися ті ж самі мегаполіси. Сан‑Педро‑Сула в Гондурасі, населенням близько 700 тисяч людей, щороку реєструє 170 вбивств на 100 тисяч мешканців, тому вночі варто уникати вулиць, особливо якщо ви користуєтеся телефоном. Акапулько в Мексиці колись був популярним курортом, а тепер у місті зростає вплив банд і наркокартелів, що призводить до частих розстрілів і вбивств. У столиці Венесуели, Каракасі, політична нестабільність, інфляція та кризис влади створюють беззаконня, а викрадення за викупом стали звичними. Порт‑Морсбі в Папуа‑Новій Гвінеї також входить до списку, бо там часто трапляються нападання з вогнепальною зброєю і інші злочини. У всіх цих містах туристи можуть відчувати небезпеку навіть під час звичайних прогулянок, тому варто бути дуже обережними і планувати поїздки заздалегідь.",
+      "germanReference": "Bei TSN.ua wurde eine Liste der gefährlichsten Städte der Welt für Touristen erstellt, und darin tauchten erneut dieselben Metropolen auf. San Pedro Sula in Honduras, mit einer Bevölkerung von etwa 700 tausend Menschen, verzeichnet jährlich 170 Morde pro 100 tausend Einwohner, weshalb man nachts die Strassen meiden sollte, besonders wenn man das Telefon benutzt. Acapulco in Mexiko war einst ein beliebtes Urlaubsziel, und jetzt nimmt der Einfluss von Banden und Drogenkartellen in der Stadt zu, was zu häufigen Schiessereien und Morden führt. In der Hauptstadt von Venezuela, Caracas, führen politische Instabilität, Inflation und eine Regierungskrise zu Gesetzlosigkeit, und Erpressungsentführungen sind zur Gewohnheit geworden. Port-Moresby in Papua-Neuguinea steht ebenfalls auf der Liste, weil dort häufig Angriffe mit Schusswaffen und andere Verbrechen vorkommen. In all diesen Städten können Touristen selbst bei normalen Spaziergängen Gefahr spüren, weshalb man sehr vorsichtig sein und Reisen im Voraus planen sollte.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/177/tsn-51cb131e/thumbs/608xX/0a/d0/7e16ed5ff24b0a66a52a7c03866ed00a.jpg",
+      "publishedAt": "2026-09-21T07:43:44.000Z",
+      "processedAt": "2026-09-21T08:46:08.812Z"
+    },
+    {
+      "id": "5b532f11",
+      "originalTitle": "У Полтаві пролунав вибух: над містом видно дим",
+      "simplifiedText": "У ранкову пору 21 вересня в Полтаві пролунав вибух, і над містом піднявся дим. Про це повідомили кореспонденти «Суспільного». Напередодні Повітряні сили ЗСУ повідомляли, що над Полтавщиною летить баражуючий боєприпас «Бандероль», який вирушив із Сумської області і летить на південний захід. Через вибух ще не відомо, які саме будинки або інфраструктура постраждали, і інформація про пошкодження уточнюється. Того ж дня в Чернігові також сталися вибухи, про що раніше повідомляли. Мешканців попросили залишатися в укриттях, доки не закінчиться повітряна тривога.",
+      "germanReference": "Am Morgen des 21. September erscholl in Poltawa eine Explosion und über der Stadt stieg Rauch auf. Darüber berichteten Korrespondenten der \"Sotsjialnyj\". Am Vortag hatten die Luftstreitkräfte der ukrainischen Armee gemeldet, dass über der Region Poltawa ein kreisender Munitionstyp \"Banderol\" fliegt, der aus der Region Sumy gestartet ist und nach Südwesten unterwegs ist. Durch die Explosion ist noch nicht bekannt, welche Gebäude oder Infrastruktur beschädigt wurden, und die Informationen zu den Schäden werden noch präzisiert. Am selben Tag gab es auch in Chernihiw Explosionen, worüber zuvor berichtet wurde. Die Bewohner wurden gebeten, in den Schutzräumen zu bleiben, bis der Luftalarm beendet ist.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/984/tsn-671b840e81dae5015bc4c6345e63d1d0/thumbs/608xX/5f/22/d8cc1d2d36ca00b1c8a31aa3fd81225f.png",
+      "publishedAt": "2026-09-21T07:48:01.000Z",
+      "processedAt": "2026-09-21T08:45:15.973Z"
+    },
+    {
+      "id": "2320e3a0",
+      "originalTitle": "Новий гуманоїдний робот злякано падає на коліна перед людьми: в чому річ (відео)",
+      "simplifiedText": "Компанія Agility Robotics представила новий гуманоїдний робот Digit 5, який самостійно уникає людей. Робот користується штучним інтелектом і спеціальними датчиками, тому коли хтось підходить, він «злякано» присідає на коліна. У демонстраційному відео це можна побачити приблизно на 43‑й секунді. Якщо людина йде прямо до робота, він звільняє їй шлях, а коли вона проходить поруч, залишається на місці. Розробники підкреслюють, що така безпечна взаємодія потрібна, бо в майбутньому подібні роботи можуть працювати на підприємствах. Digit 5 показав, що сучасні машини можуть самостійно вирішувати, як поводитися в різних ситуаціях.",
+      "germanReference": "Die Firma Agility Robotics hat den neuen humanoiden Roboter Digit 5 vorgestellt, der eigenständig Menschen ausweicht. Der Roboter nutzt Künstliche Intelligenz und spezielle Sensoren, sodass er, wenn jemand sich nähert, \"ängstlich\" auf die Knie geht. Im Demonstrationsvideo ist das etwa in der 43. Sekunde zu sehen. Wenn eine Person geradewegs auf den Roboter zugeht, gibt er ihr den Weg frei, und wenn sie vorbeigeht, bleibt er stehen. Die Entwickler betonen, dass diese sichere Interaktion nötig ist, weil solche Roboter in Zukunft in Unternehmen arbeiten könnten. Digit 5 hat gezeigt, dass moderne Maschinen eigenständig entscheiden können, wie sie sich in verschiedenen Situationen verhalten sollen.",
+      "category": "Wissenschaft",
+      "imageUrl": "https://img.tsn.ua/cached/290/tsn-51cb131e/thumbs/608xX/45/08/00faf128ce7a435693a3aa30693e0845.png",
+      "publishedAt": "2026-09-21T07:53:50.000Z",
+      "processedAt": "2026-09-21T08:44:19.737Z"
+    },
+    {
+      "id": "5181181d",
+      "originalTitle": "18 ударів ножем: у Миколаєві біля магазину вбили чоловіка",
+      "simplifiedText": "У Миколаєві біля одного з магазинів 51-річний місцевий житель вбив 55-річного чоловіка. Свідки подзвонили на спеціальну лінію 102 і повідомили про бійку, яка почалася після того, як підозрюваний вийшов з магазину, де купував алкоголь. Під час сварки жертва, будучи в стані сп’яніння, була вдарена пакетом і спіткнулася, коли намагалася втекти. Тоді нападник дістав нож і завдав приблизно 18 ударів, після чого 55-річний чоловік помер. Поліція швидко встановила особи учасників і затримала підозрюваного, який спочатку втік додому. Його затримали за статтею 208 Кримінального процесуального кодексу, яка передбачає до 15 років ув'язнення.",
+      "germanReference": "In Mykolajiw, in der Nähe eines Geschäfts, hat ein 51-jähriger Einheimischer einen 55-jährigen Mann getötet. Zeugen riefen die Sondernummer 102 an und meldeten einen Kampf, der begann, nachdem der Verdächtige das Geschäft verlassen hatte, in dem er Alkohol gekauft hatte. Während des Streits wurde das Opfer, das betrunken war, mit einer Tücke geschlagen und stolperte, als es zu fliehen versuchte. Daraufhin zog der Angreifer ein Messer heraus und verpasste etwa 18 Stiche, woraufhin der 55-jährige Mann starb. Die Polizei stellte schnell die Identitäten der Beteiligten fest und nahm den Verdächtigen fest, der zuerst nach Hause geflohen war. Er wurde nach Artikel 208 des Strafprozessgesetzes verhaftet, der bis zu 15 Jahre Haft vorsieht.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/160/tsn-51cb131e/thumbs/608xX/d6/6f/1fb8a67bea0242e586484959304c6fd6.jpg",
+      "publishedAt": "2026-09-21T07:59:51.000Z",
+      "processedAt": "2026-09-21T08:43:23.800Z"
+    },
+    {
+      "id": "53f0eb40",
+      "originalTitle": "В Україні затримуються потяги через тривогу: подробиці",
+      "simplifiedText": "21 вересня в Україні оголосили повітряну тривогу, через що потяги затрималися. Затримки торкнулися більше ніж 50 маршрутів залізниці. «Укрзалізниця» повідомила, що поїзди можуть чекати від 25 хвилин до понад 16 годин. Інформація про затримки буде оновлюватися. Того ж ранку в Чернігові пролунали вибухи, причини яких ще з'ясовують. Жителі Полтави також чули вибухи, а над містом піднявся дим.",
+      "germanReference": "Am 21. September wurde in der Ukraine die Luftalarmstufe ausgerufen, wodurch Züge verspätet ankamen. Die Verspätungen betrafen mehr als 50 Bahnstrecken. Die Ukrzaliznytsja teilte mit, dass Züge von 25 Minuten bis über 16 Stunden warten könnten. Informationen zu den Verspätungen werden aktualisiert. Am selben Morgen erklangen in Tschernihiw Explosionen, deren Ursachen noch ermittelt werden. Auch die Bewohner von Poltawa hörten Explosionen, und über der Stadt stieg Rauch auf.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/750/tsn-51cb131e/thumbs/608xX/e5/e3/4f3d1c3d3204541cd4f22df8affbe3e5.jpg",
+      "publishedAt": "2026-09-21T08:00:11.000Z",
+      "processedAt": "2026-09-21T08:42:26.780Z"
+    },
+    {
+      "id": "5014b54c",
+      "originalTitle": "Коли треба солити відбивні, щоб вони вийшли ніжними та соковитими: секрет професійних кухарів",
+      "simplifiedText": "Професійні кухарі радять додавати сіль до відбивних або одразу перед смаженням, або за півгодини до нього. Якщо сіль посипати за 30 хвилин, вона спочатку витягує вологу, а потім разом із розчином повертається в м’ясо, роблячи його рівномірно просоленим. Коли сіль додають лише за 10‑15 хвилин до жарки, волога лишається на поверхні і м’ясо стає сухим. Перед смаженням нарізають відбивні поперек волокон завтовшки близько 1‑1,5 см і злегка їх відбивають, не роблячи надто тонких пластин. Потім поверхню м’яса протирають паперовим рушником, щоб вона була сухою, і розігрівають сковороду з невеликою кількістю олії. Відбивні обсмажують на сильному вогні, доки не з’явиться золотиста скоринка, а потім знижують вогонь, щоб вони залишились соковитими.",
+      "germanReference": "Professionelle Köche empfehlen, Salz zu den Schnitzeln entweder sofort vor dem Braten oder eine halbe Stunde vorher hinzuzufügen. Wenn das Salz 30 Minuten vorher gestreut wird, zieht es zuerst die Feuchtigkeit heraus und kehrt dann zusammen mit der Lösung ins Fleisch zurück, wodurch es gleichmässig gesalzen wird. Wird das Salz nur 10-15 Minuten vor dem Braten zugegeben, bleibt die Feuchtigkeit an der Oberfläche und das Fleisch wird trocken. Vor dem Braten werden die Schnitzel quer zur Faser etwa 1-1,5 cm dick geschnitten und leicht plattiert, ohne zu dünne Scheiben zu machen. Dann wird die Fleischoberfläche mit einem Papiertuch abgetupft, damit sie trocken ist, und die Pfanne mit einer kleinen Menge Öl erhitzt. Die Schnitzel werden bei starker Hitze angebraten, bis eine goldene Kruste entsteht, und dann wird die Hitze reduziert, damit sie saftig bleiben.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/252/tsn-51cb131e/thumbs/608xX/19/50/b08859cf33d0f5eb5accc8b47c315019.png",
+      "publishedAt": "2026-09-21T08:10:50.000Z",
+      "processedAt": "2026-09-21T08:42:02.961Z"
+    }
+  ],
+  "tsnB1": [
+    {
+      "id": "5bba764d",
+      "originalTitle": "Можуть вбити за телефон: топ найнебезпечніших міст світу",
+      "simplifiedText": "Список найнебезпечніших міст світу оновлюється регулярно, і в цьому році ТСН.ua представив новий топ для туристів. На першому місці залишається Сан‑Педро‑Сула в Гондурасі, де щорічно реєструється 170 вбивств на 100 тисяч мешканців, а населення становить близько 700 тисяч людей. У день у місті можна гуляти без особливих проблем, проте вночі варто уникати районів, де люди можуть вбити за телефон. Друге місце посідає Акапулько в Мексиці, колись відомий як розкішний курорт з гарним кліматом і активним нічним життям. Останнім часом у місті зросли інвестиції в банди, картелі та наркотичні угоди, що призвело до численних вбивств, зокрема на футбольних полях і вулицях. Третє у рейтингу — столиця Венесуели Каракас, де політична нестабільність, інфляція та кризис влади створюють атмосферу беззаконня. Там звичними стали збройні напади та викрадення за викуп. Четверте місце посідає Порт‑Морсбі в Папуа‑Новій Гвінеї, яке також часто потрапляє у списки через високий рівень злочинності.",
+      "germanReference": "Die Liste der gefährlichsten Städte der Welt wird regelmässig aktualisiert, und in diesem Jahr hat TSN.ua einen neuen Top für Touristen vorgestellt. Auf dem ersten Platz bleibt San-Pedro-Sula in Honduras, wo jährlich 170 Morde pro 100 000 Einwohner registriert werden und die Bevölkerung etwa 700 000 Menschen beträgt. Tagsüber kann man in der Stadt ohne besondere Probleme spazieren gehen, doch nachts sollte man Stadtviertel meiden, in denen Menschen für ein Telefon töten können. Den zweiten Platz belegt Acapulco in Mexiko, einst bekannt als luxuriöser Ferienort mit schönem Klima und aktivem Nachtleben. In letzter Zeit sind in der Stadt Investitionen in Banden, Kartelle und Drogenabkommen gestiegen, was zu zahlreichen Morden geführt hat, unter anderem auf Fussballplätzen und in den Strassen. Der dritte im Ranking ist die Hauptstadt von Venezuela, Caracas, wo politische Instabilität, Inflation und eine Regierungskrise eine Atmosphäre der Gesetzlosigkeit schaffen. Dort sind bewaffnete Überfälle und Lösegelderpressungen zur Normalität geworden. Den vierten Platz belegt Port-Moresby in Papua-Neuguinea, das ebenfalls häufig wegen hoher Kriminalitätsrate in Listen auftaucht.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/177/tsn-51cb131e/thumbs/608xX/0a/d0/7e16ed5ff24b0a66a52a7c03866ed00a.jpg",
+      "publishedAt": "2026-09-21T07:43:44.000Z",
+      "processedAt": "2026-09-21T08:46:29.995Z"
+    },
+    {
+      "id": "040ee811",
+      "originalTitle": "У Полтаві пролунав вибух: над містом видно дим",
+      "simplifiedText": "Уранці 21 вересня в Полтаві стався вибух, і над містом піднявся дим. Про інцидент повідомили кореспонденти «Суспільного». За даними Повітряних сил ЗСУ, у той же день у повітрі виявили баражуючий боєприпас «Бандероль», який вирушив із Сумської області і летів у напрямку Полтавщини на південний захід. Через цей випадок влада уточнює, чи був вибух пов’язаний з цим боєприпасом, і які пошкодження завдано. Раніше того ж дня в Чернігові також пролунили вибухи. Причини вибухів у Полтаві і Чернігові поки що не встановлені. Мешканцям міста радять залишатися в укриттях, доки не завершиться повітряна тривога. Очікується, що після закінчення тривоги буде надано додаткову інформацію про наслідки.",
+      "germanReference": "Am Morgen des 21. September ereignete sich in Poltawa eine Explosion, und über der Stadt stieg Rauch auf. Über den Vorfall berichteten Korrespondenten des \"Sotsjialnyi\". Laut Angaben der Luftstreitkräfte der ukrainischen Armee wurde am selben Tag in der Luft ein umherirrender Munitionstyp \"Banderol\" entdeckt, der aus der Region Sumy gestartet war und in Richtung Poltawschina nach Südwesten flog. Durch diesen Vorfall klärt die Regierung, ob die Explosion mit dieser Munition zusammenhing und welche Schäden entstanden sind. Noch am selben Tag erschallten in Chernihiw ebenfalls Explosionen. Die Ursachen der Explosionen in Poltawa und Chernihiw sind bislang nicht festgestellt. Den Stadtbewohnern wird geraten, in den Schutzräumen zu bleiben, bis der Luftalarm beendet ist. Es wird erwartet, dass nach dem Ende des Alarms zusätzliche Informationen über die Folgen bereitgestellt werden.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/984/tsn-671b840e81dae5015bc4c6345e63d1d0/thumbs/608xX/5f/22/d8cc1d2d36ca00b1c8a31aa3fd81225f.png",
+      "publishedAt": "2026-09-21T07:48:01.000Z",
+      "processedAt": "2026-09-21T08:45:25.711Z"
+    },
+    {
+      "id": "4c06b242",
+      "originalTitle": "Новий гуманоїдний робот злякано падає на коліна перед людьми: в чому річ (відео)",
+      "simplifiedText": "Компанія Agility Robotics представила нову версію свого гуманоїдного робота — Digit 5. Робот оснащений штучним інтелектом і спеціальними датчиками, які постійно відстежують людей навколо. Коли хтось підходить дуже близко, Digit 5 «злякано» присідає на коліна, як показано у відео приблизно на 43‑й секунді. Якщо ж людина лише проходить поруч, машина може залишитися на місці або звільнити шлях. Така поведінка забезпечує безпечну взаємодію людей і роботів. Розробники підкреслюють, що подібні функції потрібні, коли гуманоїдні роботи стануть звичайними працівниками на підприємствах. За словами Agility Robotics, система безпечного руху може застосовувати різні заходи залежно від того, яку саме присутність людини виявлено.",
+      "germanReference": "Die Firma Agility Robotics hat eine neue Version ihres humanoiden Roboters — Digit 5 vorgestellt. Der Roboter ist mit künstlicher Intelligenz und speziellen Sensoren ausgestattet, die die Menschen in der Umgebung ständig verfolgen. Wenn jemand sehr nah kommt, hockt Digit 5 \"ängstlich\" auf die Knie, wie im Video etwa bei der 43. Sekunde zu sehen ist. Wenn die Person nur vorbeigeht, kann die Maschine an Ort und Stelle bleiben oder den Weg freimachen. Dieses Verhalten sorgt für eine sichere Interaktion von Menschen und Robotern. Die Entwickler betonen, dass solche Funktionen nötig sind, wenn humanoide Roboter zu gewöhnlichen Arbeitskräften in Unternehmen werden. Laut Agility Robotics kann das sichere Bewegungssystem je nach Art der erkannten menschlichen Präsenz unterschiedliche Massnahmen ergreifen.",
+      "category": "Wissenschaft",
+      "imageUrl": "https://img.tsn.ua/cached/290/tsn-51cb131e/thumbs/608xX/45/08/00faf128ce7a435693a3aa30693e0845.png",
+      "publishedAt": "2026-09-21T07:53:50.000Z",
+      "processedAt": "2026-09-21T08:44:37.060Z"
+    },
+    {
+      "id": "23ad6845",
+      "originalTitle": "18 ударів ножем: у Миколаєві біля магазину вбили чоловіка",
+      "simplifiedText": "У Миколаєві біля одного з магазинів 51-річний місцевий житель був затриманий за підозрою в умисному вбивстві 55-річного чоловіка. Свідки повідомили про бійку на спеціальну лінію 102, а поліція з'ясувала, що підозрюваний спочатку був у магазині і купував алкоголь. Після виходу на вулицю між ними виник словесний конфлікт, і в стані сп’яніння підозрюваний вдарив жертву пакетом з покупками. Потерпілий намагався втекти, спіткнувся і впав, після чого нападник дістав ножа. За словами слідства, він завдав жертві близько 18 ударів по тілу, що підтвердив судово‑медичний експерт, виявивши на тілі 18 різаних ран. Через отримані травми 55-річний чоловік помер. Поліцейські швидко встановили особи учасників і затримали підозрюваного, який після злочину втік додому і залишив ніж біля тіла. Він був заарештований за статтею 208 Кримінального процесуального кодексу України, яка передбачає покарання до 15 років позбавлення волі.",
+      "germanReference": "In Mykolajiw, in der Nahe eines Geschäfts, wurde ein 51-jähriger Einwohner festgenommen wegen des Verdachts auf vorsätzlichen Mord an einem 55-jährigen Mann. Zeugen meldeten den Streit an die Sonderrufnummer 102, und die Polizei stellte fest, dass der Verdächtige zunächst im Laden war und Alkohol kaufte. Nachdem er nach draussen ging, entstand zwischen ihnen ein verbaler Konflikt, und im betrunkenen Zustand schlug der Verdächtige das Opfer mit einer Einkaufstasche. Das Opfer versuchte zu fliehen, stolperte und fiel, woraufhin der Angreifer ein Messer zog. Laut den Ermittlungen fügte er dem Opfer etwa 18 Schläge am Körper zu, was der forensische Mediziner bestätigte, indem er 18 Schnittwunden am Körper fand. Durch die erlittenen Verletzungen starb der 55-jährige Mann. Die Polizisten identifizierten schnell die Beteiligten und nahmen den Verdächtigen fest, der nach der Tat nach Hause floh und das Messer neben der Leiche zurückliess. Er wurde nach Artikel 208 des Strafprozessgesetzbuches der Ukraine verhaftet, der eine Strafe von bis zu 15 Jahren Freiheitsstrafe vorsieht.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/160/tsn-51cb131e/thumbs/608xX/d6/6f/1fb8a67bea0242e586484959304c6fd6.jpg",
+      "publishedAt": "2026-09-21T07:59:51.000Z",
+      "processedAt": "2026-09-21T08:43:44.023Z"
+    },
+    {
+      "id": "0862c062",
+      "originalTitle": "В Україні затримуються потяги через тривогу: подробиці",
+      "simplifiedText": "21 вересня в Україні оголосили повітряну тривогу, через яку затримали потяги. За даними «Укрзалізниці», затримки торкнулися більше ніж 50 маршрутів. Час очікування коливається від 25 хвилин до понад 16 годин. Компанія обіцяє оновлювати інформацію про затримки. Того ж ранку в Чернігові пролунали вибухи, причини яких ще з'ясовують. Про вибухи повідомили місцеві жителі та служби. Схожий звук почувся і в Полтаві, а над містом піднявся дим. Офіційні органи продовжують уточнювати, що сталося.",
+      "germanReference": "Am 21. September wurde in der Ukraine die Luftalarmstufe ausgerufen, wodurch Züge verspätet wurden. Laut Angaben der Ukrzaliznytsja betrafen die Verspätungen mehr als 50 Strecken. Die Wartezeit schwankt von 25 Minuten bis über 16 Stunden. Das Unternehmen verspricht, die Informationen zu den Verspätungen zu aktualisieren. Am selben Morgen ertönten in Tschernihiw Explosionen, deren Ursachen noch ermittelt werden. Über die Explosionen berichteten lokale Einwohner und Dienste. Ein ähnliches Geräusch war auch in Poltawa zu hören, und über der Stadt stieg Rauch auf. Die offiziellen Stellen präzisieren weiterhin, was geschehen ist.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/750/tsn-51cb131e/thumbs/608xX/e5/e3/4f3d1c3d3204541cd4f22df8affbe3e5.jpg",
+      "publishedAt": "2026-09-21T08:00:11.000Z",
+      "processedAt": "2026-09-21T08:42:49.196Z"
+    },
+    {
+      "id": "1618c216",
+      "originalTitle": "Коли треба солити відбивні, щоб вони вийшли ніжними та соковитими: секрет професійних кухарів",
+      "simplifiedText": "Професійні кухарі попереджають, що відбивні легко висихають, коли сіль додають у невідповідний момент. Якщо м’ясо готове до смаження, його можна посолити одразу перед тим, як класти на сковороду. Коли ж є час підготувати його заздалегідь, сіль варто додати приблизно за 30 хвилин до смаження. За цей час сіль витягує частину вологи, а потім розчинена вода повертається назад у м’ясо, роблячи його рівномірно просоленим. Найгірше солити відбивні лише за 10–15 хвилин до жару, бо волога вийде, а часу на її повернення не буде. Тому зручніше вибирати один із двох варіантів: посолити безпосередньньо перед смаженням або за півгодини до нього. Для кращого смаку наріжте м’ясо поперек волокон, товщиною 1–1,5 см, і злегка відбийте, не роблячи його надто тонким. Перед смаженням витріть поверхню паперовим рушником, розігрійте сковороду з олією на сильному вогні, обсмажте відбивні до золотистої скоринки, а потім зменшіть вогонь, щоб вони залишились соковитими.",
+      "germanReference": "Professionelle Köche warnen, dass Steaks leicht austrocknen, wenn Salz zum falschen Zeitpunkt zugegeben wird. Wenn das Fleisch zum Braten bereit ist, kann man es sofort vor dem Auflegen in die Pfanne salzen. Wenn jedoch Zeit ist, es im Voraus vorzubereiten, sollte man das Salz etwa 30 Minuten vor dem Braten hinzufügen. In dieser Zeit zieht das Salz einen Teil der Feuchtigkeit heraus, und dann kehrt das gelöste Wasser zurück ins Fleisch und macht es gleichmässig gesalzen. Am schlechtesten ist es, Steaks nur 10-15 Minuten vor dem Grillen zu salzen, weil die Feuchtigkeit verloren geht und keine Zeit für ihre Rückkehr bleibt. Deshalb ist es bequemer, eine von zwei Varianten zu wählen: direkt vor dem Braten zu salzen oder eine halbe Stunde davor. Für besseren Geschmack das Fleisch quer zu den Fasern in 1-1,5 cm Dicke schneiden und leicht klopfen, ohne es zu dünn zu machen. Vor dem Braten die Oberfläche mit einem Papiertuch abtupfen, die Pfanne mit Öl bei starker Hitze erhitzen, die Steaks bis zur goldenen Kruste anbraten und dann die Hitze reduzieren, damit sie saftig bleiben.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/252/tsn-51cb131e/thumbs/608xX/19/50/b08859cf33d0f5eb5accc8b47c315019.png",
+      "publishedAt": "2026-09-21T08:10:50.000Z",
+      "processedAt": "2026-09-21T08:42:12.038Z"
+    }
+  ]
 }
