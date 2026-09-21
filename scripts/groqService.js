@@ -2,9 +2,18 @@ const https = require("https");
 
 const MODEL = "openai/gpt-oss-120b";
 
+// TSN gets its own Groq API key when GROQ_API_KEY_TSN is set. Groq's rate
+// limits (30 RPM / 1,000 RPD / 8K TPM / 200K TPD for this model, per
+// console.groq.com/docs/rate-limits) are per API key, not shared across
+// an account's models/pipelines — so a second key gives the TSN pipeline
+// its own independent 1,000 RPD budget instead of splitting one budget
+// with app/DE. Falls back to the main key if the TSN-specific one isn't
+// configured, so nothing breaks for anyone who hasn't set it up yet.
+const TSN_API_KEY = process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY;
+
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-function groqRequest(body, retries = 3) {
+function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
   return new Promise((resolve, reject) => {
     const payload = JSON.stringify(body);
     const options = {
@@ -13,7 +22,7 @@ function groqRequest(body, retries = 3) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+        "Authorization": `Bearer ${apiKey}`,
         "Content-Length": Buffer.byteLength(payload),
       },
       timeout: 30000,
@@ -41,7 +50,7 @@ function groqRequest(body, retries = 3) {
           }
           console.warn(`[groq] Rate limit, retrying in ${rawWait}ms...`);
           await sleep(rawWait);
-          groqRequest(body, retries - 1).then(resolve).catch(reject);
+          groqRequest(body, retries - 1, apiKey).then(resolve).catch(reject);
           return;
         }
 
@@ -211,6 +220,13 @@ async function simplifyArticle(article, level) {
   const cfg = LEVEL_CONFIG[level];
   // Decided once per source article — identical on A1/A2/B1 (see above).
   const { category, core } = await resolveStoryCore(article);
+  // resolveStoryCore and the simplify call below are two back-to-back Groq
+  // requests with nothing between them — against Groq's 30 RPM cap that's
+  // effectively 2x the intended rate for a brief burst. A small gap here
+  // (on top of the per-level/per-article pause in updateNews.js) keeps
+  // actual request spacing closer to what that outer pause is meant to
+  // provide.
+  await sleep(1000);
   const cleanTitle = toSwiss(article.title);
 
   const systemPrompt = `You are a teacher of SWISS High German (Schweizer Hochdeutsch) creating reading exercises.
@@ -460,7 +476,7 @@ Return ONLY valid JSON, nothing else:
           { role: "system", content: systemPrompt },
           { role: "user", content: `Заголовок: ${cleanTitle}\nСтаття: ${truncatedDescription}` },
         ],
-      });
+      }, 3, TSN_API_KEY);
 
       const raw = data.choices?.[0]?.message?.content || "";
       const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
@@ -506,7 +522,7 @@ Output ONLY valid minified JSON, no markdown: {"german_text":"..."}`;
           { role: "system", content: systemPrompt },
           { role: "user", content: ukrainianText },
         ],
-      });
+      }, 3, TSN_API_KEY);
       const raw = data.choices?.[0]?.message?.content || "";
       const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
       if (!parsed.german_text) throw new Error("Missing german_text in parsed JSON");
@@ -566,6 +582,8 @@ function detectCategoryUkrainian(article) {
 
 async function simplifyTsnArticle(article, level) {
   const simplifiedUkr = await simplifyArticleUkrainian(article, level);
+  // Same RPM-spacing reasoning as simplifyArticle() above.
+  await sleep(1000);
   const germanReference = await translateSimplifiedToGerman(simplifiedUkr);
   return {
     id:               generateId(`tsn:${article.title}`, level),
