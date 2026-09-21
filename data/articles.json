@@ -1,6 +1,285 @@
 {
   "A1": [
     {
+      "id": "37c9d838",
+      "originalTitle": "Landtagswahlen in Deutschland - Merz auf Rücktrittsfrage: «Es hat keine Personaldebatte gegeben»",
+      "simplifiedText": "In Mecklenburg-Vorpommern hat die AfD die Wahl gewonnen. Die SPD ist knapp dahinter. Die CDU ist aus dem Landtag ausgefallen. Das ist das Ergebnis der Landtagswahl.",
+      "vocabularyHints": [
+        "Mecklenburg-Vorpommern — Мекленбург-Ворпоммерн",
+        "AfD — Альтернатива für Deutschland",
+        "gewinnen — виграти",
+        "knapp — ледь-ледь, майже",
+        "Landtag — парламент земель",
+        "ausfallen — випасти, не потрапити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Mecklenburg-Vorpommern",
+          "hint": "Mecklenburg-Vorpommern — Мекленбург-Ворпоммерн"
+        },
+        {
+          "surface": "AfD",
+          "hint": "AfD — Альтернатива für Deutschland"
+        },
+        {
+          "surface": "gewonnen",
+          "hint": "gewinnen — виграти"
+        },
+        {
+          "surface": "knapp",
+          "hint": "knapp — ледь-ледь, майже"
+        },
+        {
+          "surface": "Landtag",
+          "hint": "Landtag — парламент земель"
+        },
+        {
+          "surface": "ausgefallen",
+          "hint": "ausfallen — випасти, не потрапити"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/343eb11.jpg",
+      "publishedAt": "2026-09-21T12:18:43.000Z",
+      "processedAt": "2026-09-21T13:33:16.611Z"
+    },
+    {
+      "id": "645c021e",
+      "originalTitle": "Nach Xhakas Corona-Lüge - so checkt die Schweizer Nati ein",
+      "simplifiedText": "Manuel Akanji und andere Spieler buchen ein Hotel in Belek. Das Hotel hat fünf Sterne. Sie buchen das Hotel nach dem Corona-Skandal. Der Skandal betrifft Granit Xhaka. Sie wollen dort gut schlafen.",
+      "vocabularyHints": [
+        "buchen — бронювати",
+        "das Hotel — готель",
+        "Belek — Белек (турецьке місто)",
+        "der Stern, -e — зірка",
+        "der Skandal, -e — скандал",
+        "schlafen — спати",
+        "betreffen — стосуватися"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "buchen",
+          "hint": "buchen — бронювати"
+        },
+        {
+          "surface": "Hotel",
+          "hint": "das Hotel — готель"
+        },
+        {
+          "surface": "Belek",
+          "hint": "Belek — Белек (турецьке місто)"
+        },
+        {
+          "surface": "Sterne",
+          "hint": "der Stern, -e — зірка"
+        },
+        {
+          "surface": "Skandal",
+          "hint": "der Skandal, -e — скандал"
+        },
+        {
+          "surface": "schlafen",
+          "hint": "schlafen — спати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/21/e0de5aae-b7cf-4cc8-aae1-61c661e88ebb.jpg?s=22b43b2c78b7676999ec6a68a9afba4f",
+      "publishedAt": "2026-09-21T12:18:46.000Z",
+      "processedAt": "2026-09-21T13:32:21.008Z"
+    },
+    {
+      "id": "6dfc8d17",
+      "originalTitle": "Herbstsession 2026 - Auftakt in die zweite Sessionswoche",
+      "simplifiedText": "Die Herbstsession 2026 beginnt in Bern. Die Eidgenössischen Räte treffen sich. Sie diskutieren wichtige Themen. Die Debatten finden in der zweiten Woche statt. Viele Entscheidungen werden getroffen.",
+      "vocabularyHints": [
+        "die Herbstsession — осіння сесія",
+        "der Eidgenössische Rat, -e — федеральний радник",
+        "der Rat, -e — радники",
+        "diskutieren — обговорювати",
+        "die Debatte, -n — дискусії",
+        "die Entscheidung, -en — рішення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Herbstsession",
+          "hint": "die Herbstsession — осіння сесія"
+        },
+        {
+          "surface": "Eidgenössischen",
+          "hint": "der Eidgenössische Rat, -e — федеральний радник"
+        },
+        {
+          "surface": "Räte",
+          "hint": "der Rat, -e — радники"
+        },
+        {
+          "surface": "diskutieren",
+          "hint": "diskutieren — обговорювати"
+        },
+        {
+          "surface": "Debatten",
+          "hint": "die Debatte, -n — дискусії"
+        },
+        {
+          "surface": "Entscheidungen",
+          "hint": "die Entscheidung, -en — рішення"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/3de3a9.jpg",
+      "publishedAt": "2026-09-21T12:31:13.000Z",
+      "processedAt": "2026-09-21T13:31:31.125Z"
+    },
+    {
+      "id": "40ecaff2",
+      "originalTitle": "Telekomriese - Sunrise prüft Abbau von 450 Vollzeitstellen",
+      "simplifiedText": "Sunrise prüft den Abbau von 450 Vollzeitstellen. Der Abbau ist Teil einer Neuausrichtung. Die Neuausrichtung betrifft das Betriebsmodell. Sunrise will das Unternehmen neu organisieren. Die Entscheidung wird bald in der Firma getroffen.",
+      "vocabularyHints": [
+        "prüfen — перевіряти",
+        "der Abbau — скорочення",
+        "die Vollzeitstelle — повна робоча позиція",
+        "die Neuausrichtung — переналаштування",
+        "das Betriebsmodell — модель роботи",
+        "organisieren — організовувати",
+        "die Entscheidung — рішення",
+        "treffen — прийняти (рішення)"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "prüft",
+          "hint": "prüfen — перевіряти"
+        },
+        {
+          "surface": "Abbau",
+          "hint": "der Abbau — скорочення"
+        },
+        {
+          "surface": "Vollzeitstellen",
+          "hint": "die Vollzeitstelle — повна робоча позиція"
+        },
+        {
+          "surface": "Neuausrichtung",
+          "hint": "die Neuausrichtung — переналаштування"
+        },
+        {
+          "surface": "Betriebsmodell",
+          "hint": "das Betriebsmodell — модель роботи"
+        },
+        {
+          "surface": "organisieren",
+          "hint": "organisieren — організовувати"
+        },
+        {
+          "surface": "Entscheidung",
+          "hint": "die Entscheidung — рішення"
+        },
+        {
+          "surface": "getroffen",
+          "hint": "treffen — прийняти (рішення)"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/132d1f.jpg",
+      "publishedAt": "2026-09-21T12:33:55.000Z",
+      "processedAt": "2026-09-21T13:30:47.303Z"
+    },
+    {
+      "id": "7089b98f",
+      "originalTitle": "SFV lässt Nati-Zukunft offen - Knäbel: «Xhaka hat gezeigt, wie man als Captain reagieren sollte»",
+      "simplifiedText": "Peter Knäbel ist Präsident vom SFV. Granit Xhaka hat ein Geständnis gemacht. Er hat das Impfzertifikat gefälscht. Peter Knäbel sagt, die Nati hat eine offene Zukunft. Die Fans können hoffen.",
+      "vocabularyHints": [
+        "der Präsident — президент",
+        "SFV — Швейцарський футбольний союз",
+        "das Geständnis — зізнання",
+        "das Impfzertifikat — вакцинний сертифікат",
+        "fälschen — підробляти",
+        "offen — відкрита",
+        "die Zukunft — майбутнє"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Präsident",
+          "hint": "der Präsident — президент"
+        },
+        {
+          "surface": "SFV",
+          "hint": "SFV — Швейцарський футбольний союз"
+        },
+        {
+          "surface": "Geständnis",
+          "hint": "das Geständnis — зізнання"
+        },
+        {
+          "surface": "Impfzertifikat",
+          "hint": "das Impfzertifikat — вакцинний сертифікат"
+        },
+        {
+          "surface": "gefälscht",
+          "hint": "fälschen — підробляти"
+        },
+        {
+          "surface": "offene",
+          "hint": "offen — відкрита"
+        },
+        {
+          "surface": "Zukunft",
+          "hint": "die Zukunft — майбутнє"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/4031658.jpg",
+      "publishedAt": "2026-09-21T13:04:45.000Z",
+      "processedAt": "2026-09-21T13:30:04.556Z"
+    },
+    {
+      "id": "220ad673",
+      "originalTitle": "2 Töfffahrer ins Spital geflogen - Susten stundenlang zu",
+      "simplifiedText": "Zwei Motorradfahrer sind nach einem Unfall ins Spital geflogen. Der Unfall passierte auf der Sustenstrasse. Beide Fahrer haben schwere Verletzungen bekommen. Die Sustenstrasse war drei Stunden gesperrt. Jetzt ist die Strasse wieder offen.",
+      "vocabularyHints": [
+        "der Motorradfahrer — мотоцикліст",
+        "der Unfall — нещасний випадок",
+        "das Spital — лікарня",
+        "die Sustenstrasse — дорога Сустен",
+        "die Verletzung, -en — травми",
+        "sperren — закритий",
+        "offen — відкритий"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Motorradfahrer",
+          "hint": "der Motorradfahrer — мотоцикліст"
+        },
+        {
+          "surface": "Unfall",
+          "hint": "der Unfall — нещасний випадок"
+        },
+        {
+          "surface": "Spital",
+          "hint": "das Spital — лікарня"
+        },
+        {
+          "surface": "Sustenstrasse",
+          "hint": "die Sustenstrasse — дорога Сустен"
+        },
+        {
+          "surface": "Verletzungen",
+          "hint": "die Verletzung, -en — травми"
+        },
+        {
+          "surface": "gesperrt",
+          "hint": "sperren — закритий"
+        },
+        {
+          "surface": "offen",
+          "hint": "offen — відкритий"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/21/838b3133-9dda-4398-ba08-39233272d82e.webp?s=6af307675af6dd347ba78148267a7e4f",
+      "publishedAt": "2026-09-21T13:21:12.000Z",
+      "processedAt": "2026-09-21T13:29:45.305Z"
+    },
+    {
       "id": "45371a11",
       "originalTitle": "«Jetzt ist auch Tanken teurer»: Steigen bald die Taxipreise?",
       "simplifiedText": "Taxifahrer am Hauptbahnhof warten lange. Sie haben wenig Geld. Uber und Bolt haben viele Fahrgäste. Hohe Spritpreise reduzieren den Verdienst. Die Fahrer kämpfen dann weiter.",
@@ -1013,277 +1292,334 @@
       "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1debcd.webp",
       "publishedAt": "2026-09-20T09:05:04.000Z",
       "processedAt": "2026-09-20T10:22:11.525Z"
-    },
-    {
-      "id": "30730db5",
-      "originalTitle": "Sohn von Müllermilch-Milliardär zeigt Mike Müller an",
-      "simplifiedText": "Der Sohn des Müllermilch-Milliardärs hat eine Anzeige gestellt. Er zeigt den Komiker Mike Müller an. Der Post war sehr umstritten. Er kritisiert die AfD-Wahl.",
-      "vocabularyHints": [
-        "der Milliardär — мільярдер",
-        "die Anzeige — скарга",
-        "der Komiker — комік",
-        "umstritten — спірний",
-        "kritisieren — критикувати",
-        "die AfD-Wahl — вибори АФД"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Müllermilch-Milliardärs",
-          "hint": "der Milliardär — мільярдер"
-        },
-        {
-          "surface": "Anzeige",
-          "hint": "die Anzeige — скарга"
-        },
-        {
-          "surface": "Komiker",
-          "hint": "der Komiker — комік"
-        },
-        {
-          "surface": "umstritten",
-          "hint": "umstritten — спірний"
-        },
-        {
-          "surface": "kritisiert",
-          "hint": "kritisieren — критикувати"
-        },
-        {
-          "surface": "AfD-Wahl",
-          "hint": "die AfD-Wahl — вибори АФД"
-        }
-      ],
-      "category": "Politik",
-      "imageUrl": "https://image.20min.ch/2026/09/20/9c0cb2f4-6a0c-4079-aca6-32b008ef2714.jpg?s=611f28f3e2c598a4d11d6270807dd80f",
-      "publishedAt": "2026-09-20T09:11:36.000Z",
-      "processedAt": "2026-09-20T10:21:20.817Z"
-    },
-    {
-      "id": "404308e4",
-      "originalTitle": "Politisches Videospiel - In diesem Spiel raubt man die Museen Europas aus",
-      "simplifiedText": "In einem Videospiel können Spieler afrikanische Kulturgüter zurückholen. Sie spielen das Spiel auf dem Computer. Das Spiel zeigt Museen in Europa. Die Spieler holen die Gegenstände aus den Museen zurück.",
-      "vocabularyHints": [
-        "das Videospiel — відеогра",
-        "der Spieler — гравець",
-        "afrikanisch — африканський",
-        "das Kulturgut, -e — культурна цінність",
-        "zurückholen — повернути назад",
-        "das Museum, -e — музеї"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Videospiel",
-          "hint": "das Videospiel — відеогра"
-        },
-        {
-          "surface": "Spieler",
-          "hint": "der Spieler — гравець"
-        },
-        {
-          "surface": "afrikanische",
-          "hint": "afrikanisch — африканський"
-        },
-        {
-          "surface": "Kulturgüter",
-          "hint": "das Kulturgut, -e — культурна цінність"
-        },
-        {
-          "surface": "zurückholen",
-          "hint": "zurückholen — повернути назад"
-        },
-        {
-          "surface": "Museen",
-          "hint": "das Museum, -e — музеї"
-        }
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d465b6.webp",
-      "publishedAt": "2026-09-20T09:28:23.000Z",
-      "processedAt": "2026-09-20T10:20:35.798Z"
-    },
-    {
-      "id": "4827434c",
-      "originalTitle": "Ökologischer Fussabdruck - Wie misst man Nachhaltigkeit? Schweizer Konzept für Weltproblem",
-      "simplifiedText": "Mathis Wackernagel ist Forscher. Er stellt ein Konzept zum ökologischen Fussabdruck vor. Das Konzept misst den Nachhaltigkeitsgrad. Man kann damit den Ressourcenverbrauch prüfen. Die Schweiz entwickelt das Konzept.",
-      "vocabularyHints": [
-        "der Forscher — дослідник",
-        "das Konzept — концепція",
-        "ökologisch — екологічний",
-        "der Fussabdruck — екологічний слід",
-        "der Nachhaltigkeitsgrad — рівень стійкості",
-        "der Ressourcenverbrauch — споживання ресурсів",
-        "prüfen — перевіряти",
-        "die Schweiz — Швейцарія",
-        "entwickeln — розробляти"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Forscher",
-          "hint": "der Forscher — дослідник"
-        },
-        {
-          "surface": "Konzept",
-          "hint": "das Konzept — концепція"
-        },
-        {
-          "surface": "ökologischen",
-          "hint": "ökologisch — екологічний"
-        },
-        {
-          "surface": "Fussabdruck",
-          "hint": "der Fussabdruck — екологічний слід"
-        },
-        {
-          "surface": "Nachhaltigkeitsgrad",
-          "hint": "der Nachhaltigkeitsgrad — рівень стійкості"
-        },
-        {
-          "surface": "Ressourcenverbrauch",
-          "hint": "der Ressourcenverbrauch — споживання ресурсів"
-        },
-        {
-          "surface": "prüfen",
-          "hint": "prüfen — перевіряти"
-        },
-        {
-          "surface": "Schweiz",
-          "hint": "die Schweiz — Швейцарія"
-        },
-        {
-          "surface": "entwickelt",
-          "hint": "entwickeln — розробляти"
-        }
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/798dd6.webp",
-      "publishedAt": "2026-09-20T09:28:46.000Z",
-      "processedAt": "2026-09-20T10:19:31.697Z"
-    },
-    {
-      "id": "197ffc0b",
-      "originalTitle": "Psychische Krise nach Geburt - Fachleute fordern mehr Wachsamkeit bei postpartalen Depressionen",
-      "simplifiedText": "Ein Bundesfachgremium kritisiert die Unterstützung für Frauen. Die Frauen haben nach der Geburt Depressionen. Das Gremium meint, die Hilfe ist zu wenig. Es soll mehr Hilfe für die Frauen geben. Die Politik muss jetzt handeln.",
-      "vocabularyHints": [
-        "das Bundesfachgremium — федеральний експертний орган",
-        "kritisieren — критикує",
-        "die Depression, -en — депресії",
-        "das Gremium — комітет",
-        "die Politik — політика"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Bundesfachgremium",
-          "hint": "das Bundesfachgremium — федеральний експертний орган"
-        },
-        {
-          "surface": "kritisiert",
-          "hint": "kritisieren — критикує"
-        },
-        {
-          "surface": "Depressionen",
-          "hint": "die Depression, -en — депресії"
-        },
-        {
-          "surface": "Gremium",
-          "hint": "das Gremium — комітет"
-        },
-        {
-          "surface": "Politik",
-          "hint": "die Politik — політика"
-        }
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a0bad2.webp",
-      "publishedAt": "2026-09-20T10:02:17.000Z",
-      "processedAt": "2026-09-20T10:18:41.249Z"
-    },
-    {
-      "id": "7ee0e2e1",
-      "originalTitle": "1,5 Meter beim Velo-Überholen - soll das Pflicht werden?",
-      "simplifiedText": "Derzeit gibt es keine gesetzliche Vorgabe für das Überholen von Velofahrern. Man kann selbst entscheiden, wie man überholt. Viele Menschen wollen klare Regeln für das Überholen. Die Diskussion ist aktuell und wichtig.",
-      "vocabularyHints": [
-        "gesetzlich — законний",
-        "Vorgabe — вимога",
-        "der Velofahrer — велосипедист",
-        "überholen — обганяти",
-        "klar — чіткі",
-        "die Regel — правила"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "gesetzliche",
-          "hint": "gesetzlich — законний"
-        },
-        {
-          "surface": "Vorgabe",
-          "hint": "Vorgabe — вимога"
-        },
-        {
-          "surface": "Velofahrern",
-          "hint": "der Velofahrer — велосипедист"
-        },
-        {
-          "surface": "überholt",
-          "hint": "überholen — обганяти"
-        },
-        {
-          "surface": "klare",
-          "hint": "klar — чіткі"
-        },
-        {
-          "surface": "Regeln",
-          "hint": "die Regel — правила"
-        }
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://image.20min.ch/2026/09/20/b2333296-949b-4003-a5a6-afe69f533678.jpg?s=d976cda07677b64d4b14a144796f7c72",
-      "publishedAt": "2026-09-20T10:09:25.000Z",
-      "processedAt": "2026-09-20T10:17:56.050Z"
-    },
-    {
-      "id": "06962407",
-      "originalTitle": "Kein Exploit in Brasilien - Davis-Cup-Dämpfer als Abbild des Schweizer Männertennis",
-      "simplifiedText": "Das Schweizer Davis-Cup-Team ist im Moment zweitklassig. Es hat im letzten Spiel nicht gewonnen. Die Mannschaft spielt gegen Brasilien. Das Ergebnis ist eine Niederlage. Deshalb bleibt das Team zweitklassig.",
-      "vocabularyHints": [
-        "der Schweizer — швейцарець",
-        "das Davis-Cup-Team — команда Дейвіс-купа",
-        "der Moment — момент",
-        "zweitklassig — другокласний, нижчий рівень",
-        "Brasilien — Бразилія",
-        "die Niederlage — поразка"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Schweizer",
-          "hint": "der Schweizer — швейцарець"
-        },
-        {
-          "surface": "Davis-Cup-Team",
-          "hint": "das Davis-Cup-Team — команда Дейвіс-купа"
-        },
-        {
-          "surface": "Moment",
-          "hint": "der Moment — момент"
-        },
-        {
-          "surface": "zweitklassig",
-          "hint": "zweitklassig — другокласний, нижчий рівень"
-        },
-        {
-          "surface": "Brasilien",
-          "hint": "Brasilien — Бразилія"
-        },
-        {
-          "surface": "Niederlage",
-          "hint": "die Niederlage — поразка"
-        }
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a26f11.webp",
-      "publishedAt": "2026-09-20T10:15:59.000Z",
-      "processedAt": "2026-09-20T10:17:46.711Z"
     }
   ],
   "A2": [
+    {
+      "id": "709a8c19",
+      "originalTitle": "Landtagswahlen in Deutschland - Merz auf Rücktrittsfrage: «Es hat keine Personaldebatte gegeben»",
+      "simplifiedText": "Die AfD hat bei der Wahl in Mecklenburg-Vorpommern gewonnen. Sie ist jetzt die stärkste Partei im Landesparlament. Die SPD ist nur knapp hinter ihr gelandet. Die CDU ist aus dem Landesparlament gefallen, weil sie zu wenig Stimmen bekommen hat. Viele Wähler haben sich über das Ergebnis gefreut, aber die Politiker sind besorgt. Die neue Regierung muss jetzt eine Koalition bilden, denn es ist schwierig, trotzdem hoffen die Bürger, dass die Politik stabil bleibt.",
+      "vocabularyHints": [
+        "gewinnen — виграти",
+        "das Landesparlament — регіональний парламент",
+        "landen — зайняти місце, опинитися",
+        "fallen — впасти, вийти з парламенту",
+        "der Wähler — виборець",
+        "besorgt — стурбований",
+        "die Koalition — коаліція",
+        "trotzdem — проте",
+        "stabil — стабільний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "gewonnen",
+          "hint": "gewinnen — виграти"
+        },
+        {
+          "surface": "Landesparlament",
+          "hint": "das Landesparlament — регіональний парламент"
+        },
+        {
+          "surface": "gelandet",
+          "hint": "landen — зайняти місце, опинитися"
+        },
+        {
+          "surface": "gefallen",
+          "hint": "fallen — впасти, вийти з парламенту"
+        },
+        {
+          "surface": "Wähler",
+          "hint": "der Wähler — виборець"
+        },
+        {
+          "surface": "besorgt",
+          "hint": "besorgt — стурбований"
+        },
+        {
+          "surface": "Koalition",
+          "hint": "die Koalition — коаліція"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "stabil",
+          "hint": "stabil — стабільний"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/343eb11.jpg",
+      "publishedAt": "2026-09-21T12:18:43.000Z",
+      "processedAt": "2026-09-21T13:33:29.519Z"
+    },
+    {
+      "id": "5e5836bf",
+      "originalTitle": "Nach Xhakas Corona-Lüge - so checkt die Schweizer Nati ein",
+      "simplifiedText": "Manuel Akanji und weitere Schweizer Nationalspieler haben ein Fünf-Sterne-Hotel in Belek gebucht, weil sie nach dem Corona-Skandal um Granit Xhaka dort übernachten wollten. Sie sind am Freitag mit dem Flugzeug nach Türkei geflogen und haben im Hotel am Strand eincheckt. Trotz der Kritik haben sie im Restaurant ein teures Abendessen gegessen und sich gut erholt. Die Mannschaft hat im Training am Pool geübt, weil sie fit bleiben muss. Nach dem Aufenthalt haben sie das Hotel als sehr komfortabel beschrieben und hoffen, dass die Medien die Situation nicht weiter dramatisieren.",
+      "vocabularyHints": [
+        "buchen — забронював",
+        "der Skandal — скандал",
+        "übernachten — переночувати",
+        "fliegen — полетів",
+        "einchecken — заселився",
+        "teuer — дорогий",
+        "erholen — відпочив",
+        "üben — тренував",
+        "komfortabel — комфортний",
+        "dramatisieren — драматизувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "gebucht",
+          "hint": "buchen — забронював"
+        },
+        {
+          "surface": "Skandal",
+          "hint": "der Skandal — скандал"
+        },
+        {
+          "surface": "übernachten",
+          "hint": "übernachten — переночувати"
+        },
+        {
+          "surface": "geflogen",
+          "hint": "fliegen — полетів"
+        },
+        {
+          "surface": "eincheckt",
+          "hint": "einchecken — заселився"
+        },
+        {
+          "surface": "teures",
+          "hint": "teuer — дорогий"
+        },
+        {
+          "surface": "erholt",
+          "hint": "erholen — відпочив"
+        },
+        {
+          "surface": "geübt",
+          "hint": "üben — тренував"
+        },
+        {
+          "surface": "komfortabel",
+          "hint": "komfortabel — комфортний"
+        },
+        {
+          "surface": "dramatisieren",
+          "hint": "dramatisieren — драматизувати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/21/e0de5aae-b7cf-4cc8-aae1-61c661e88ebb.jpg?s=22b43b2c78b7676999ec6a68a9afba4f",
+      "publishedAt": "2026-09-21T12:18:46.000Z",
+      "processedAt": "2026-09-21T13:32:38.275Z"
+    },
+    {
+      "id": "05165bca",
+      "originalTitle": "Herbstsession 2026 - Auftakt in die zweite Sessionswoche",
+      "simplifiedText": "In Bern hat die Herbstsession 2026 der Eidgenössischen Räte begonnen. Die Abgeordneten haben am Montag die wichtigsten Debatten geführt, weil wichtige Gesetze beschlossen werden müssen. Sie haben über die Wirtschaft und die Umwelt diskutiert und dabei viele Fragen gestellt. Trotz der kalten Temperaturen haben sie lange im Parlamentssaal gesessen. Am Ende des Tages haben sie mehrere Entscheidungen getroffen, die für die Schweiz wichtig sind. Ich habe das Geschehen im Radio verfolgt und war überrascht, wie schnell alles gegangen ist. Das wäre ein gutes Zeichen für die kommende Woche.",
+      "vocabularyHints": [
+        "die Herbstsession — осіння сесія",
+        "die Eidgenössische — федеральний",
+        "der Rat, -e — радник",
+        "die Debatte, -n — дискусія",
+        "beschliessen — прийняти рішення",
+        "die Umwelt — навколишнє середовище",
+        "der Parlamentssaal — парламентський зал",
+        "die Entscheidung, -en — рішення",
+        "verfolgen — стежити",
+        "überraschen — здивований"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Herbstsession",
+          "hint": "die Herbstsession — осіння сесія"
+        },
+        {
+          "surface": "Eidgenössischen",
+          "hint": "die Eidgenössische — федеральний"
+        },
+        {
+          "surface": "Räte",
+          "hint": "der Rat, -e — радник"
+        },
+        {
+          "surface": "Debatten",
+          "hint": "die Debatte, -n — дискусія"
+        },
+        {
+          "surface": "beschlossen",
+          "hint": "beschliessen — прийняти рішення"
+        },
+        {
+          "surface": "Umwelt",
+          "hint": "die Umwelt — навколишнє середовище"
+        },
+        {
+          "surface": "Parlamentssaal",
+          "hint": "der Parlamentssaal — парламентський зал"
+        },
+        {
+          "surface": "Entscheidungen",
+          "hint": "die Entscheidung, -en — рішення"
+        },
+        {
+          "surface": "verfolgt",
+          "hint": "verfolgen — стежити"
+        },
+        {
+          "surface": "überrascht",
+          "hint": "überraschen — здивований"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/3de3a9.jpg",
+      "publishedAt": "2026-09-21T12:31:13.000Z",
+      "processedAt": "2026-09-21T13:31:49.286Z"
+    },
+    {
+      "id": "46f07b51",
+      "originalTitle": "Telekomriese - Sunrise prüft Abbau von 450 Vollzeitstellen",
+      "simplifiedText": "Sunrise hat gestern angekündigt, dass sie den Abbau von 450 Vollzeitstellen prüft. Die Firma hat das im Rahmen einer Neuausrichtung des Betriebsmodells entschieden, weil sie die Kosten senken will. Die betroffenen Mitarbeitenden haben die Nachricht am Montag erhalten und waren überrascht. Trotzdem hat das Management erklärt, dass die Entscheidung notwendig ist, um das Unternehmen zukunftsfähiger zu machen. Einige Abteilungen haben bereits überlegt, wie sie die Arbeit neu organisieren können, und die Mitarbeitenden haben ihre Unterstützung angeboten.",
+      "vocabularyHints": [
+        "der Abbau, -e — скорочення",
+        "die Vollzeitstelle, -n — повна робоча позиція",
+        "die Neuausrichtung, -en — перенапрямування",
+        "senken — знижувати",
+        "zukunftsfähig — перспективний",
+        "das Betriebsmodell, -e — модель роботи"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Abbau",
+          "hint": "der Abbau, -e — скорочення"
+        },
+        {
+          "surface": "Vollzeitstellen",
+          "hint": "die Vollzeitstelle, -n — повна робоча позиція"
+        },
+        {
+          "surface": "Neuausrichtung",
+          "hint": "die Neuausrichtung, -en — перенапрямування"
+        },
+        {
+          "surface": "senken",
+          "hint": "senken — знижувати"
+        },
+        {
+          "surface": "zukunftsfähiger",
+          "hint": "zukunftsfähig — перспективний"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/132d1f.jpg",
+      "publishedAt": "2026-09-21T12:33:55.000Z",
+      "processedAt": "2026-09-21T13:31:00.817Z"
+    },
+    {
+      "id": "37b905ae",
+      "originalTitle": "SFV lässt Nati-Zukunft offen - Knäbel: «Xhaka hat gezeigt, wie man als Captain reagieren sollte»",
+      "simplifiedText": "Der Präsident des Schweizer Fussballverbands Peter Knäbel hat nach dem Geständnis von Granit Xhaka die Zukunft der Nati offen gelassen. Xhaka hat zugegeben, dass er ein falsches Impfzertifikat benutzt hat. Knäbel hat das gesagt, weil er Xhaka als Captain ein gutes Beispiel findet. Die Fans haben die Entscheidung akzeptiert, aber sie hoffen trotzdem auf klare Regeln. Die Nati wird weiter trainieren und die nächsten Spiele vorbereiten.",
+      "vocabularyHints": [
+        "der Präsident — президент",
+        "das Geständnis — зізнання",
+        "offen — відкритий",
+        "lassen — залишити",
+        "das Impfzertifikat — вакцинний сертифікат",
+        "der Captain — капітан",
+        "akzeptieren — приймати",
+        "reagieren — реагувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Präsident",
+          "hint": "der Präsident — президент"
+        },
+        {
+          "surface": "Geständnis",
+          "hint": "das Geständnis — зізнання"
+        },
+        {
+          "surface": "offen",
+          "hint": "offen — відкритий"
+        },
+        {
+          "surface": "gelassen",
+          "hint": "lassen — залишити"
+        },
+        {
+          "surface": "Impfzertifikat",
+          "hint": "das Impfzertifikat — вакцинний сертифікат"
+        },
+        {
+          "surface": "Captain",
+          "hint": "der Captain — капітан"
+        },
+        {
+          "surface": "akzeptiert",
+          "hint": "akzeptieren — приймати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/4031658.jpg",
+      "publishedAt": "2026-09-21T13:04:45.000Z",
+      "processedAt": "2026-09-21T13:30:12.177Z"
+    },
+    {
+      "id": "6ae240ac",
+      "originalTitle": "2 Töfffahrer ins Spital geflogen - Susten stundenlang zu",
+      "simplifiedText": "Zwei Motorradfahrer sind nach einer Kollision auf der Sustenstrasse ins Spital geflogen. Die beiden Lenker haben sich schwere Verletzungen zugezogen, weil die Kollision sehr heftig war. Die Rettungskräfte haben die Verletzten sofort ins Krankenhaus gebracht. Die Sustenstrasse war danach stundenlang gesperrt, weil die Polizei die Unfallstelle räumen musste. Trotz dem Stau haben die Fahrer ihre Krankenversicherung angerufen. Am Abend war die Strasse wieder frei, aber die Fahrer mussten noch im Spital bleiben.",
+      "vocabularyHints": [
+        "die Kollision — столкнення",
+        "die Sustenstrasse — дорога Сустен",
+        "fliegen — перелетіти",
+        "der Lenker, - — водій",
+        "schwer — серйозний",
+        "die Verletzung, -en — травми",
+        "stundenlang — годинами",
+        "sperren — закрито"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Kollision",
+          "hint": "die Kollision — столкнення"
+        },
+        {
+          "surface": "Sustenstrasse",
+          "hint": "die Sustenstrasse — дорога Сустен"
+        },
+        {
+          "surface": "geflogen",
+          "hint": "fliegen — перелетіти"
+        },
+        {
+          "surface": "Lenker",
+          "hint": "der Lenker, - — водій"
+        },
+        {
+          "surface": "schwere",
+          "hint": "schwer — серйозний"
+        },
+        {
+          "surface": "Verletzungen",
+          "hint": "die Verletzung, -en — травми"
+        },
+        {
+          "surface": "stundenlang",
+          "hint": "stundenlang — годинами"
+        },
+        {
+          "surface": "gesperrt",
+          "hint": "sperren — закрито"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/21/838b3133-9dda-4398-ba08-39233272d82e.webp?s=6af307675af6dd347ba78148267a7e4f",
+      "publishedAt": "2026-09-21T13:21:12.000Z",
+      "processedAt": "2026-09-21T13:29:51.605Z"
+    },
     {
       "id": "268a7650",
       "originalTitle": "«Jetzt ist auch Tanken teurer»: Steigen bald die Taxipreise?",
@@ -2539,370 +2875,356 @@
       "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1debcd.webp",
       "publishedAt": "2026-09-20T09:05:04.000Z",
       "processedAt": "2026-09-20T10:22:28.598Z"
-    },
+    }
+  ],
+  "B1": [
     {
-      "id": "4a8e8c54",
-      "originalTitle": "Sohn von Müllermilch-Milliardär zeigt Mike Müller an",
-      "simplifiedText": "Der Sohn des Müllermilch-Milliardärs hat eine Strafanzeige gegen den Komiker Mike Müller gestellt. Er hat das getan, weil ein Post von Mike Müller über die AfD-Wahl als „Nazi“ bezeichnet wurde. Der Post wurde im Internet veröffentlicht und hat viele Menschen verärgert. Der Sohn ist sehr wütend und hat deshalb die Polizei eingeschaltet. Die Polizei wird jetzt prüfen, ob der Post strafrechtlich relevant ist. Trotzdem bleibt die AfD-Wahl wichtig für die Politik. Der Fall wird voraussichtlich nächste Woche vor Gericht verhandelt.",
+      "id": "56199e63",
+      "originalTitle": "Nach Xhakas Corona-Lüge - so checkt die Schweizer Nati ein",
+      "simplifiedText": "Manuel Akanji und weitere Spieler der Schweizer Nationalmannschaft haben ein Fünf-Sterne-Hotel in Belek gebucht. Die Buchung erfolgte, obwohl der Corona-Skandal um Granit Xhaka noch für Aufsehen sorgt. Das Hotel wird von den Spielern als pompös beschrieben. Sie wollen dort trainieren und sich vor dem Nations-League-Auftakt erholen. Der Skandal hat bereits zu Kritik von Fans und Medien geführt. Trotzdem bleibt das Team fokussiert auf die bevorstehenden Spiele. Die Verantwortlichen hoffen, dass das luxuriöse Umfeld die Moral stärkt. So checkt die Schweizer Nati in Belek ein.",
       "vocabularyHints": [
-        "die Strafanzeige — скарга",
-        "der Komiker — комік",
-        "verärgern — розлючений",
-        "die Polizei — поліція",
-        "prüfen — перевіряти",
-        "strafrechtlich — кримінальний",
-        "relevant — релевантний",
-        "voraussichtlich — ймовірно",
-        "verhandeln — розглядати у суді",
-        "der Milliardär — мільярдер"
+        "der Skandal — скандал",
+        "pompös — розкішний, вишуканий",
+        "Nations-League-Auftakt — початок Національної ліги (футбол)",
+        "die Kritik — критика",
+        "der Verantwortliche — відповідальний",
+        "die Moral — мораль",
+        "checken — реєструється, перевіряє",
+        "luxuriös — розкішний"
       ],
       "vocabularyWords": [
         {
-          "surface": "Strafanzeige",
-          "hint": "die Strafanzeige — скарга"
+          "surface": "Skandal",
+          "hint": "der Skandal — скандал"
         },
         {
-          "surface": "Komiker",
-          "hint": "der Komiker — комік"
+          "surface": "pompös",
+          "hint": "pompös — розкішний, вишуканий"
         },
         {
-          "surface": "verärgert",
-          "hint": "verärgern — розлючений"
+          "surface": "Nations-League-Auftakt",
+          "hint": "Nations-League-Auftakt — початок Національної ліги (футбол)"
         },
         {
-          "surface": "Polizei",
-          "hint": "die Polizei — поліція"
+          "surface": "Kritik",
+          "hint": "die Kritik — критика"
+        },
+        {
+          "surface": "Verantwortlichen",
+          "hint": "der Verantwortliche — відповідальний"
+        },
+        {
+          "surface": "Moral",
+          "hint": "die Moral — мораль"
+        },
+        {
+          "surface": "checkt",
+          "hint": "checken — реєструється, перевіряє"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/21/e0de5aae-b7cf-4cc8-aae1-61c661e88ebb.jpg?s=22b43b2c78b7676999ec6a68a9afba4f",
+      "publishedAt": "2026-09-21T12:18:46.000Z",
+      "processedAt": "2026-09-21T13:32:54.734Z"
+    },
+    {
+      "id": "7eb259d8",
+      "originalTitle": "Herbstsession 2026 - Auftakt in die zweite Sessionswoche",
+      "simplifiedText": "In Bern beginnt die Herbstsession 2026 der Eidgenössischen Räte. Am Montag eröffnete das Ständerat die zweite Woche mit einer Rede des Bundesrates zur Wirtschaftslage. Gleichzeitig startete der Nationalrat die Debatte über die neue Steuerreform, die im Herbst beschlossen werden soll. Die Opposition kritisierte die geplanten Massnahmen als zu teuer und forderte mehr Transparenz. Die Medien berichteten live vom Plenarsaal und zeigten die wichtigsten Stichpunkte im Ticker. Am Freitag wird über das Budget für die Infrastruktur abgestimmt, wobei die Grünen ein Klimaschutz-Zusatzbudget vorschlagen. Experten erwarten, dass die Entscheidungen weitreichende Folgen für die Kantone haben werden. Die Sitzung endet am darauffolgenden Sonntag, wenn die Räte ihre Schlussberichte vorlegen.",
+      "vocabularyHints": [
+        "die Eidgenössische -en — федеральний, конфедеративний",
+        "der Rat -e — радники, парламентарії",
+        "der Ständerat — радник кантонів (верхня палата)",
+        "der Bundesrat — федеральна рада",
+        "die Wirtschaftslage — економічна ситуація",
+        "der Nationalrat — національна рада (нижня палата)",
+        "die Steuerreform — податкова реформа",
+        "die Opposition — опозиція",
+        "die Transparenz — прозорість",
+        "der Plenarsaal — зала пленарних засідань",
+        "der Stichpunkt -e — ключові пункти",
+        "der Ticker — стрічка новин",
+        "die Infrastruktur — інфраструктура",
+        "die Grünen — зелені (політична партія)",
+        "das Klimaschutz-Zusatzbudget — додатковий бюджет на захист клімату",
+        "der Experte -en — експерти",
+        "weitreichend — впливовий, далекосяжний",
+        "der Kanton -en — кантони",
+        "der Schlussbericht -e — підсумкові звіти"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Eidgenössischen",
+          "hint": "die Eidgenössische -en — федеральний, конфедеративний"
+        },
+        {
+          "surface": "Räte",
+          "hint": "der Rat -e — радники, парламентарії"
+        },
+        {
+          "surface": "Ständerat",
+          "hint": "der Ständerat — радник кантонів (верхня палата)"
+        },
+        {
+          "surface": "Bundesrates",
+          "hint": "der Bundesrat — федеральна рада"
+        },
+        {
+          "surface": "Wirtschaftslage",
+          "hint": "die Wirtschaftslage — економічна ситуація"
+        },
+        {
+          "surface": "Nationalrat",
+          "hint": "der Nationalrat — національна рада (нижня палата)"
+        },
+        {
+          "surface": "Steuerreform",
+          "hint": "die Steuerreform — податкова реформа"
+        },
+        {
+          "surface": "Opposition",
+          "hint": "die Opposition — опозиція"
+        },
+        {
+          "surface": "Transparenz",
+          "hint": "die Transparenz — прозорість"
+        },
+        {
+          "surface": "Plenarsaal",
+          "hint": "der Plenarsaal — зала пленарних засідань"
+        },
+        {
+          "surface": "Stichpunkte",
+          "hint": "der Stichpunkt -e — ключові пункти"
+        },
+        {
+          "surface": "Ticker",
+          "hint": "der Ticker — стрічка новин"
+        },
+        {
+          "surface": "Infrastruktur",
+          "hint": "die Infrastruktur — інфраструктура"
+        },
+        {
+          "surface": "Grünen",
+          "hint": "die Grünen — зелені (політична партія)"
+        },
+        {
+          "surface": "Klimaschutz-Zusatzbudget",
+          "hint": "das Klimaschutz-Zusatzbudget — додатковий бюджет на захист клімату"
+        },
+        {
+          "surface": "Experten",
+          "hint": "der Experte -en — експерти"
+        },
+        {
+          "surface": "weitreichende",
+          "hint": "weitreichend — впливовий, далекосяжний"
+        },
+        {
+          "surface": "Kantone",
+          "hint": "der Kanton -en — кантони"
+        },
+        {
+          "surface": "Schlussberichte",
+          "hint": "der Schlussbericht -e — підсумкові звіти"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/3de3a9.jpg",
+      "publishedAt": "2026-09-21T12:31:13.000Z",
+      "processedAt": "2026-09-21T13:31:57.619Z"
+    },
+    {
+      "id": "049daf8d",
+      "originalTitle": "Telekomriese - Sunrise prüft Abbau von 450 Vollzeitstellen",
+      "simplifiedText": "Sunrise prüft den Abbau von 450 Vollzeitstellen, weil das Unternehmen sein Betriebsmodell neu ausrichten will. Die geplante Reduktion betrifft vor allem administrative Funktionen. Das Vorhaben ist Teil einer umfassenden Neuausrichtung, die Kostenstruktur und Effizienz verbessern soll. Das Management betont, dass die Entscheidung nicht leicht gefallen ist. Wenn die Stellen gestrichen werden, könnten die betroffenen Mitarbeitenden Unterstützung bei der beruflichen Neuorientierung erhalten. Gleichzeitig will Sunrise die Servicequalität für die Kundschaft erhalten. Die Behörden wurden bereits über die geplanten Massnahmen informiert. Beobachter erwarten, dass die Umstrukturierung langfristig die Wettbewerbsfähigkeit stärkt.",
+      "vocabularyHints": [
+        "der Abbau — скорочення",
+        "die Vollzeitstelle, -n — повний робочий час",
+        "das Betriebsmodell, -e — модель роботи",
+        "die Neuausrichtung, -en — переналаштування",
+        "die Kostenstruktur, -en — структура витрат",
+        "die Effizienz — ефективність",
+        "die Mitarbeitende, -n — співробітники",
+        "die Neuorientierung, -en — перенапрямлення",
+        "die Umstrukturierung, -en — реорганізація",
+        "die Wettbewerbsfähigkeit, -en — конкурентоспроможність"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Abbau",
+          "hint": "der Abbau — скорочення"
+        },
+        {
+          "surface": "Vollzeitstellen",
+          "hint": "die Vollzeitstelle, -n — повний робочий час"
+        },
+        {
+          "surface": "Betriebsmodell",
+          "hint": "das Betriebsmodell, -e — модель роботи"
+        },
+        {
+          "surface": "Neuausrichtung",
+          "hint": "die Neuausrichtung, -en — переналаштування"
+        },
+        {
+          "surface": "Kostenstruktur",
+          "hint": "die Kostenstruktur, -en — структура витрат"
+        },
+        {
+          "surface": "Effizienz",
+          "hint": "die Effizienz — ефективність"
+        },
+        {
+          "surface": "Mitarbeitenden",
+          "hint": "die Mitarbeitende, -n — співробітники"
+        },
+        {
+          "surface": "Neuorientierung",
+          "hint": "die Neuorientierung, -en — перенапрямлення"
+        },
+        {
+          "surface": "Umstrukturierung",
+          "hint": "die Umstrukturierung, -en — реорганізація"
+        },
+        {
+          "surface": "Wettbewerbsfähigkeit",
+          "hint": "die Wettbewerbsfähigkeit, -en — конкурентоспроможність"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/132d1f.jpg",
+      "publishedAt": "2026-09-21T12:33:55.000Z",
+      "processedAt": "2026-09-21T13:31:14.237Z"
+    },
+    {
+      "id": "70bc0eb0",
+      "originalTitle": "SFV lässt Nati-Zukunft offen - Knäbel: «Xhaka hat gezeigt, wie man als Captain reagieren sollte»",
+      "simplifiedText": "SFV-Präsident Peter Knäbel hat nach dem Geständnis von Granit Xhaka, das Impfzertifikat gefälscht zu haben, die Zukunft der Schweizer Nationalmannschaft offen gelassen. Er erklärte, dass Xhaka als Kapitän gezeigt habe, wie man in einer Krise reagieren sollte. Der Vorfall habe das Vertrauen der Fans erschüttert, aber Knäbel betonte, dass die sportliche Leistung weiterhin entscheidend sei. Die Verantwortlichen des Schweizer Fussballverbands werden nun prüfen, welche Konsequenzen nötig sind. Es wurde noch nicht entschieden, ob Xhaka weiterhin als Kapitän eingesetzt wird. Gleichzeitig soll das Team seine Vorbereitung auf die kommenden Spiele fortsetzen. Knäbel forderte die Spieler auf, sich auf das Spielfeld zu konzentrieren und die Öffentlichkeit nicht zu belasten. Die Diskussion über die Nati-Zukunft bleibt damit offen.",
+      "vocabularyHints": [
+        "das Geständnis — визнання",
+        "fälschen — підробляти",
+        "offen — відкритий",
+        "gelassen — залишений",
+        "der Kapitän — капітан",
+        "die Krise — криза",
+        "erschüttern — потрясений",
+        "betonen — підкреслювати",
+        "sportlich — спортивний",
+        "weiterhin — далі",
+        "der Verantwortliche — відповідальний",
+        "prüfen — перевіряти",
+        "die Konsequenz — наслідок",
+        "entscheiden — вирішити",
+        "belasten — обтяжувати",
+        "die Diskussion — обговорення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Geständnis",
+          "hint": "das Geständnis — визнання"
+        },
+        {
+          "surface": "gefälscht",
+          "hint": "fälschen — підробляти"
+        },
+        {
+          "surface": "offen",
+          "hint": "offen — відкритий"
+        },
+        {
+          "surface": "gelassen",
+          "hint": "gelassen — залишений"
+        },
+        {
+          "surface": "Kapitän",
+          "hint": "der Kapitän — капітан"
+        },
+        {
+          "surface": "Krise",
+          "hint": "die Krise — криза"
+        },
+        {
+          "surface": "erschüttert",
+          "hint": "erschüttern — потрясений"
+        },
+        {
+          "surface": "betonte",
+          "hint": "betonen — підкреслювати"
+        },
+        {
+          "surface": "sportliche",
+          "hint": "sportlich — спортивний"
+        },
+        {
+          "surface": "weiterhin",
+          "hint": "weiterhin — далі"
+        },
+        {
+          "surface": "Verantwortlichen",
+          "hint": "der Verantwortliche — відповідальний"
         },
         {
           "surface": "prüfen",
           "hint": "prüfen — перевіряти"
         },
         {
-          "surface": "strafrechtlich",
-          "hint": "strafrechtlich — кримінальний"
+          "surface": "Konsequenzen",
+          "hint": "die Konsequenz — наслідок"
         },
         {
-          "surface": "relevant",
-          "hint": "relevant — релевантний"
+          "surface": "entschieden",
+          "hint": "entscheiden — вирішити"
         },
         {
-          "surface": "voraussichtlich",
-          "hint": "voraussichtlich — ймовірно"
+          "surface": "belasten",
+          "hint": "belasten — обтяжувати"
         },
-        {
-          "surface": "verhandelt",
-          "hint": "verhandeln — розглядати у суді"
-        }
-      ],
-      "category": "Politik",
-      "imageUrl": "https://image.20min.ch/2026/09/20/9c0cb2f4-6a0c-4079-aca6-32b008ef2714.jpg?s=611f28f3e2c598a4d11d6270807dd80f",
-      "publishedAt": "2026-09-20T09:11:36.000Z",
-      "processedAt": "2026-09-20T10:21:37.668Z"
-    },
-    {
-      "id": "0c94de23",
-      "originalTitle": "Politisches Videospiel - In diesem Spiel raubt man die Museen Europas aus",
-      "simplifiedText": "In einem neuen Videospiel können Spieler afrikanische Kulturgüter aus europäischen Museen zurückholen. Das Spiel wurde von einer Gruppe Entwicklerinnen gemacht, weil sie die Rückgabe unterstützen wollen. Man kann im Spiel durch die Museen laufen und die Objekte an die Ausstellungsräume nehmen. Die Spieler haben die Gegenstände auf die Karte gelegt und dann zum Hafen gebracht, obwohl die Zeit begrenzt war. Viele Spieler finden das Spiel spannend, denn es verbindet Geschichte und Abenteuer. Ich habe das Spiel letzte Woche ausprobiert und war überrascht, wie leicht man die Kulturgüter zurückbringen kann.",
-      "vocabularyHints": [
-        "das Kulturgut, -e — культурні цінності",
-        "zurückholen — повернути назад",
-        "die Entwicklerin, -nen — розробниця",
-        "unterstützen — підтримувати",
-        "der Ausstellungsraum, -e — виставкові зали",
-        "der Hafen — порт",
-        "begrenzt — обмежений",
-        "ausprobieren — спробувати",
-        "überrascht — здивований",
-        "zurückbringen — повертати назад"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Kulturgüter",
-          "hint": "das Kulturgut, -e — культурні цінності"
-        },
-        {
-          "surface": "zurückholen",
-          "hint": "zurückholen — повернути назад"
-        },
-        {
-          "surface": "Entwicklerinnen",
-          "hint": "die Entwicklerin, -nen — розробниця"
-        },
-        {
-          "surface": "unterstützen",
-          "hint": "unterstützen — підтримувати"
-        },
-        {
-          "surface": "Ausstellungsräume",
-          "hint": "der Ausstellungsraum, -e — виставкові зали"
-        },
-        {
-          "surface": "Hafen",
-          "hint": "der Hafen — порт"
-        },
-        {
-          "surface": "begrenzt",
-          "hint": "begrenzt — обмежений"
-        },
-        {
-          "surface": "ausprobiert",
-          "hint": "ausprobieren — спробувати"
-        },
-        {
-          "surface": "überrascht",
-          "hint": "überrascht — здивований"
-        },
-        {
-          "surface": "zurückbringen",
-          "hint": "zurückbringen — повертати назад"
-        }
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d465b6.webp",
-      "publishedAt": "2026-09-20T09:28:23.000Z",
-      "processedAt": "2026-09-20T10:20:48.839Z"
-    },
-    {
-      "id": "474dd2ab",
-      "originalTitle": "Ökologischer Fussabdruck - Wie misst man Nachhaltigkeit? Schweizer Konzept für Weltproblem",
-      "simplifiedText": "Mathis Wackernagel hat sein Konzept zum ökologischen Fussabdruck vorgestellt. Er hat erklärt, dass man damit die Nachhaltigkeit eines Landes messen kann, weil man den Verbrauch von Ressourcen mit deren Regeneration vergleicht. Die Methode ist einfacher als manche alte Berechnungen, aber sie braucht genaue Daten. Wackernagel hat an der Universität in Zürich gearbeitet und dort das Modell entwickelt. Viele Politiker haben das Konzept ausprobiert, trotzdem braucht es noch Verbesserungen, und sie planen, es in der Schweiz zu benutzen. Ich habe das Buch darüber gelesen und finde die Idee sehr interessant, denn sie hilft, die Umwelt zu schützen.",
-      "vocabularyHints": [
-        "ökologisch — екологічний",
-        "der Fussabdruck, -e — екологічний слід",
-        "die Nachhaltigkeit, -en — стійкість, сталий розвиток",
-        "die Regeneration, -en — відновлення",
-        "das Modell, -e — модель",
-        "entwickeln — розробляти",
-        "ausprobieren — випробувати",
-        "schützen — захищати"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "ökologischen",
-          "hint": "ökologisch — екологічний"
-        },
-        {
-          "surface": "Fussabdruck",
-          "hint": "der Fussabdruck, -e — екологічний слід"
-        },
-        {
-          "surface": "Nachhaltigkeit",
-          "hint": "die Nachhaltigkeit, -en — стійкість, сталий розвиток"
-        },
-        {
-          "surface": "Regeneration",
-          "hint": "die Regeneration, -en — відновлення"
-        },
-        {
-          "surface": "Modell",
-          "hint": "das Modell, -e — модель"
-        },
-        {
-          "surface": "entwickelt",
-          "hint": "entwickeln — розробляти"
-        },
-        {
-          "surface": "ausprobiert",
-          "hint": "ausprobieren — випробувати"
-        },
-        {
-          "surface": "schützen",
-          "hint": "schützen — захищати"
-        }
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/798dd6.webp",
-      "publishedAt": "2026-09-20T09:28:46.000Z",
-      "processedAt": "2026-09-20T10:19:48.802Z"
-    },
-    {
-      "id": "4937300c",
-      "originalTitle": "Psychische Krise nach Geburt - Fachleute fordern mehr Wachsamkeit bei postpartalen Depressionen",
-      "simplifiedText": "Ein Bundesfachgremium hat kritisiert, Frauen mit postpartaler Depression bekommen zu wenig Unterstützung. Die Fachleute haben nach der Geburt viele Mütter sehr traurig erlebt. Sie haben berichtet, die Hilfe kommt oft erst spät. Deshalb haben sie gefordert, mehr Aufmerksamkeit und schnelle Therapie anzubieten. Viele Ärztinnen und Psychologinnen haben darauf reagiert und neue Beratungsstellen eröffnet. Trotzdem fühlen sich einige Frauen immer noch allein, weil die Wartezeit zu lang ist. Ich hätte gern, dass die Unterstützung bald besser wird.",
-      "vocabularyHints": [
-        "das Bundesfachgremium — федеральний експертний орган",
-        "kritisieren — критикував",
-        "postpartal — післяпологовий",
-        "die Unterstützung — підтримка",
-        "erleben — пережив",
-        "berichten — повідомив",
-        "fordern — вимагав",
-        "die Aufmerksamkeit — увага",
-        "die Therapie — терапія",
-        "die Psychologin, -nen — психологиня",
-        "die Beratungsstelle, -n — консультаційний пункт",
-        "allein — один, самотній",
-        "die Wartezeit, -en — час очікування"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Bundesfachgremium",
-          "hint": "das Bundesfachgremium — федеральний експертний орган"
-        },
-        {
-          "surface": "kritisiert",
-          "hint": "kritisieren — критикував"
-        },
-        {
-          "surface": "postpartaler",
-          "hint": "postpartal — післяпологовий"
-        },
-        {
-          "surface": "Unterstützung",
-          "hint": "die Unterstützung — підтримка"
-        },
-        {
-          "surface": "erlebt",
-          "hint": "erleben — пережив"
-        },
-        {
-          "surface": "berichtet",
-          "hint": "berichten — повідомив"
-        },
-        {
-          "surface": "gefordert",
-          "hint": "fordern — вимагав"
-        },
-        {
-          "surface": "Aufmerksamkeit",
-          "hint": "die Aufmerksamkeit — увага"
-        },
-        {
-          "surface": "Therapie",
-          "hint": "die Therapie — терапія"
-        },
-        {
-          "surface": "Psychologinnen",
-          "hint": "die Psychologin, -nen — психологиня"
-        },
-        {
-          "surface": "Beratungsstellen",
-          "hint": "die Beratungsstelle, -n — консультаційний пункт"
-        },
-        {
-          "surface": "allein",
-          "hint": "allein — один, самотній"
-        },
-        {
-          "surface": "Wartezeit",
-          "hint": "die Wartezeit, -en — час очікування"
-        }
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a0bad2.webp",
-      "publishedAt": "2026-09-20T10:02:17.000Z",
-      "processedAt": "2026-09-20T10:18:57.117Z"
-    },
-    {
-      "id": "0e0c343e",
-      "originalTitle": "1,5 Meter beim Velo-Überholen - soll das Pflicht werden?",
-      "simplifiedText": "Die Diskussion über das Überholen von Velofahrern hat viel Aufmerksamkeit bekommen, weil es keine gesetzliche Vorgabe gibt. Bisher haben die Behörden keine Regel festgelegt, wie man ein Velo sicher überholen darf. Viele Autofahrer haben deshalb klare Regeln gefordert, denn sie fühlen sich unsicher. Man hat vorgeschlagen, einen Mindestabstand von 1,5 Meter einzuhalten, und das wäre einfacher für alle. Die Politiker haben darüber diskutiert, aber sie haben noch nichts beschlossen, trotzdem sind die Unfallzahlen gestiegen. Einige Experten haben erklärt, dass ein fester Abstand die Sicherheit erhöht, trotzdem bleibt die Entscheidung jedem Fahrer überlassen. Ich hoffe, dass bald eine klare Vorgabe kommt, damit alle wissen, was sie tun müssen.",
-      "vocabularyHints": [
-        "die Diskussion, -en — обговорення",
-        "die Aufmerksamkeit, -en — увага",
-        "gesetzlich — законний",
-        "die Vorgabe, -n — вимога",
-        "festlegen — встановити",
-        "der Mindestabstand, -e — мінімальна відстань",
-        "beschliessen — вирішити",
-        "trotzdem — проте",
-        "steigen — зрослий",
-        "erklären — пояснити",
-        "überlassen — залишити",
-        "einhalten — дотримуватися"
-      ],
-      "vocabularyWords": [
         {
           "surface": "Diskussion",
-          "hint": "die Diskussion, -en — обговорення"
-        },
-        {
-          "surface": "Aufmerksamkeit",
-          "hint": "die Aufmerksamkeit, -en — увага"
-        },
-        {
-          "surface": "gesetzliche",
-          "hint": "gesetzlich — законний"
-        },
-        {
-          "surface": "Vorgabe",
-          "hint": "die Vorgabe, -n — вимога"
-        },
-        {
-          "surface": "festgelegt",
-          "hint": "festlegen — встановити"
-        },
-        {
-          "surface": "Mindestabstand",
-          "hint": "der Mindestabstand, -e — мінімальна відстань"
-        },
-        {
-          "surface": "beschlossen",
-          "hint": "beschliessen — вирішити"
-        },
-        {
-          "surface": "trotzdem",
-          "hint": "trotzdem — проте"
-        },
-        {
-          "surface": "gestiegen",
-          "hint": "steigen — зрослий"
-        },
-        {
-          "surface": "erklärt",
-          "hint": "erklären — пояснити"
-        },
-        {
-          "surface": "überlassen",
-          "hint": "überlassen — залишити"
-        }
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://image.20min.ch/2026/09/20/b2333296-949b-4003-a5a6-afe69f533678.jpg?s=d976cda07677b64d4b14a144796f7c72",
-      "publishedAt": "2026-09-20T10:09:25.000Z",
-      "processedAt": "2026-09-20T10:18:02.351Z"
-    },
-    {
-      "id": "4ea9b686",
-      "originalTitle": "Kein Exploit in Brasilien - Davis-Cup-Dämpfer als Abbild des Schweizer Männertennis",
-      "simplifiedText": "Das Schweizer Davis-Cup-Team hat im letzten Match verloren, weil es nicht genug Erfahrung hatte. Es ist in der aktuellen Situation zweitklassig und bleibt deshalb hinter den Top-Teams zurück. Die Spieler haben hart trainiert, aber das Ergebnis war trotzdem nicht besser. Die Fans haben das Spiel im Fernsehen verfolgt und waren enttäuscht. Das Team hofft, dass es beim nächsten Turnier stärker wird und mehr Punkte sammelt.",
-      "vocabularyHints": [
-        "Situation — ситуація",
-        "zweitklassig — другокласний",
-        "trotzdem — проте",
-        "verfolgen — спостерігати",
-        "hoffen — сподіватися",
-        "reichen — достатньо"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Situation",
-          "hint": "Situation — ситуація"
-        },
-        {
-          "surface": "zweitklassig",
-          "hint": "zweitklassig — другокласний"
-        },
-        {
-          "surface": "trotzdem",
-          "hint": "trotzdem — проте"
-        },
-        {
-          "surface": "verfolgt",
-          "hint": "verfolgen — спостерігати"
-        },
-        {
-          "surface": "hofft",
-          "hint": "hoffen — сподіватися"
+          "hint": "die Diskussion — обговорення"
         }
       ],
       "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a26f11.webp",
-      "publishedAt": "2026-09-20T10:15:59.000Z",
-      "processedAt": "2026-09-20T10:17:49.628Z"
-    }
-  ],
-  "B1": [
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/4031658.jpg",
+      "publishedAt": "2026-09-21T13:04:45.000Z",
+      "processedAt": "2026-09-21T13:30:20.991Z"
+    },
+    {
+      "id": "115509b2",
+      "originalTitle": "2 Töfffahrer ins Spital geflogen - Susten stundenlang zu",
+      "simplifiedText": "Zwei Motorradfahrer kollidierten auf der Sustenstrasse und wurden ins Spital geflogen. Die Kollision verursachte schwere Verletzungen bei beiden Lenkern. Der Rettungsdienst war sofort am Unfallort und brachte die Verletzten zum nächsten Krankenhaus. Ein Notarzt behandelte die Patienten bereits im Rettungswagen. Die Sustenstrasse blieb etwa drei Stunden gesperrt, weil die Einsatzkräfte die Unfallstelle räumen mussten. Während der Sperrung kam es zu langen Staus auf den umliegenden Bergstrassen. Die Polizei hat den Verkehrsunfall untersucht und die Ursache noch nicht veröffentlicht. Die Strasse wurde nach den Aufräumarbeiten wieder freigegeben.",
+      "vocabularyHints": [
+        "die Kollision, -en — зіткнення",
+        "der Rettungsdienst, -e — служба швидкої допомоги",
+        "der Notarzt, -Ärzte — лікар швидкої допомоги",
+        "die Einsatzkraft, -en — службовці (поліції, швидкої)",
+        "der Lenker, - — водій (мотоцикла)"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Kollision",
+          "hint": "die Kollision, -en — зіткнення"
+        },
+        {
+          "surface": "Rettungsdienst",
+          "hint": "der Rettungsdienst, -e — служба швидкої допомоги"
+        },
+        {
+          "surface": "Notarzt",
+          "hint": "der Notarzt, -Ärzte — лікар швидкої допомоги"
+        },
+        {
+          "surface": "Einsatzkräfte",
+          "hint": "die Einsatzkraft, -en — службовці (поліції, швидкої)"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/21/838b3133-9dda-4398-ba08-39233272d82e.webp?s=6af307675af6dd347ba78148267a7e4f",
+      "publishedAt": "2026-09-21T13:21:12.000Z",
+      "processedAt": "2026-09-21T13:29:57.770Z"
+    },
     {
       "id": "38c69e52",
       "originalTitle": "«Jetzt ist auch Tanken teurer»: Steigen bald die Taxipreise?",
@@ -4566,299 +4888,70 @@
       "imageUrl": "https://image.20min.ch/2026/09/20/9c0cb2f4-6a0c-4079-aca6-32b008ef2714.jpg?s=611f28f3e2c598a4d11d6270807dd80f",
       "publishedAt": "2026-09-20T09:11:36.000Z",
       "processedAt": "2026-09-20T10:21:49.938Z"
-    },
-    {
-      "id": "01d4247b",
-      "originalTitle": "Politisches Videospiel - In diesem Spiel raubt man die Museen Europas aus",
-      "simplifiedText": "Ein neues Videospiel mit politischem Hintergrund erlaubt es den Spielerinnen und Spielern, afrikanische Kulturgüter aus europäischen Museen zurückzuholen. Das Spiel wurde von einem Entwicklerteam in Zürich konzipiert und soll das öffentliche Bewusstsein für Restitution stärken. In der virtuellen Welt können die Spielerinnen historische Objekte wieder in ihre Herkunftsländer transportieren, weil sie dafür digitale Missionen erfüllen. Die Entwickler betonen, dass das Spiel keine reale Rechtslage ändert, aber Diskussionen in Parlamenten anregen könnte. Bereits nach dem Start haben mehrere Medienberichte das Projekt gelobt und auf die lange Debatte über Rückgaben hingewiesen. Kritikerinnen warnen jedoch, dass ein Spiel das komplexe Thema zu stark vereinfachen könnte. Die Bundesregierung hat angekündigt, das Spiel im Rahmen von Bildungsprogrammen zu testen. Wenn das Experiment erfolgreich ist, könnte es als Modell für weitere kulturelle Aufklärungsprojekte dienen.",
-      "vocabularyHints": [
-        "die Restitution — повернення (майна)"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Restitution",
-          "hint": "die Restitution — повернення (майна)"
-        }
-      ],
-      "category": "Politik",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d465b6.webp",
-      "publishedAt": "2026-09-20T09:28:23.000Z",
-      "processedAt": "2026-09-20T10:20:59.216Z"
-    },
-    {
-      "id": "2dd29fcd",
-      "originalTitle": "Ökologischer Fussabdruck - Wie misst man Nachhaltigkeit? Schweizer Konzept für Weltproblem",
-      "simplifiedText": "Mathis Wackernagel stellt sein Konzept zum ökologischen Fussabdruck als Methode zur Messung von Nachhaltigkeit vor. Er erklärt, dass der Fussabdruck den Ressourcenverbrauch einer Person oder eines Landes im Verhältnis zum nachwachsenden Angebot zeigt. Das Modell basiert auf Daten zu Energie, Land und Wasser und berechnet, wie viel mehr verbraucht wird, als die Erde regenerieren kann. Wackernagel betont, dass das Konzept bereits in vielen Städten weltweit eingesetzt wird, um politische Entscheidungen zu unterstützen. In der Schweiz hat das Bundesamt für Umwelt das System in die nationale Statistik integriert. Kritiker warnen, dass die Berechnungen oft von Annahmen abhängen und deshalb ungenau sein können. Trotzdem hoffen die Befürworter, dass die Methode das Bewusstsein für ökologische Grenzen stärkt. Das Projekt soll weiter ausgebaut werden, um globale Nachhaltigkeitsziele zu erreichen.",
-      "vocabularyHints": [
-        "der Fussabdruck — екологічний слід",
-        "die Nachhaltigkeit — стійкість",
-        "der Ressourcenverbrauch — споживання ресурсів",
-        "nachwachsen — відновлюваний",
-        "regenerieren — відновлювати",
-        "das Bundesamt — федеральне управління",
-        "die Statistik — статистика",
-        "die Annahme — припущення",
-        "ungenau — неточний",
-        "der Befürworter — прихильник",
-        "das Bewusstsein — усвідомлення",
-        "ökologisch — екологічний",
-        "die Grenze — межа",
-        "ausbauen — розширювати",
-        "global — глобальний",
-        "das Nachhaltigkeitsziel — цілі стійкості"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Fussabdruck",
-          "hint": "der Fussabdruck — екологічний слід"
-        },
-        {
-          "surface": "Nachhaltigkeit",
-          "hint": "die Nachhaltigkeit — стійкість"
-        },
-        {
-          "surface": "Ressourcenverbrauch",
-          "hint": "der Ressourcenverbrauch — споживання ресурсів"
-        },
-        {
-          "surface": "nachwachsenden",
-          "hint": "nachwachsen — відновлюваний"
-        },
-        {
-          "surface": "regenerieren",
-          "hint": "regenerieren — відновлювати"
-        },
-        {
-          "surface": "Bundesamt",
-          "hint": "das Bundesamt — федеральне управління"
-        },
-        {
-          "surface": "Statistik",
-          "hint": "die Statistik — статистика"
-        },
-        {
-          "surface": "Annahmen",
-          "hint": "die Annahme — припущення"
-        },
-        {
-          "surface": "ungenau",
-          "hint": "ungenau — неточний"
-        },
-        {
-          "surface": "Befürworter",
-          "hint": "der Befürworter — прихильник"
-        },
-        {
-          "surface": "Bewusstsein",
-          "hint": "das Bewusstsein — усвідомлення"
-        },
-        {
-          "surface": "ökologischen",
-          "hint": "ökologisch — екологічний"
-        },
-        {
-          "surface": "ökologische",
-          "hint": "ökologisch — екологічний"
-        },
-        {
-          "surface": "Grenzen",
-          "hint": "die Grenze — межа"
-        },
-        {
-          "surface": "ausgebaut",
-          "hint": "ausbauen — розширювати"
-        },
-        {
-          "surface": "globale",
-          "hint": "global — глобальний"
-        },
-        {
-          "surface": "Nachhaltigkeitsziele",
-          "hint": "das Nachhaltigkeitsziel — цілі стійкості"
-        }
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/798dd6.webp",
-      "publishedAt": "2026-09-20T09:28:46.000Z",
-      "processedAt": "2026-09-20T10:20:05.941Z"
-    },
-    {
-      "id": "1f50b7d6",
-      "originalTitle": "Psychische Krise nach Geburt - Fachleute fordern mehr Wachsamkeit bei postpartalen Depressionen",
-      "simplifiedText": "Ein Bundesfachgremium hat kritisiert, dass Frauen mit postpartaler Depression zu wenig Unterstützung erhalten. Das Gremium besteht aus Ärztinnen, Psychologinnen und Vertreterinnen des Bundesamtes für Gesundheit. In einer Stellungnahme betonten sie, dass die Symptome oft erst Wochen nach der Geburt sichtbar werden. Sie fordern, dass Hausärztinnen früher nach Anzeichen fragen und dass Beratungsstellen besser erreichbar sind. Ausserdem soll die Kostenübernahme für Therapie und Medikamente ausgeweitet werden. Die Ministerin für Gesundheit hat angekündigt, die Empfehlungen im nächsten Quartal zu prüfen. Wenn die Massnahmen umgesetzt werden, könnten betroffene Mütter schneller Hilfe bekommen. Experten warnen, dass eine unzureichende Versorgung das Risiko für schwere psychische Krisen erhöht.",
-      "vocabularyHints": [
-        "das Bundesfachgremium — федеральний експертний колегія",
-        "postpartal — післяпологовий",
-        "die Stellungnahme — заява, позиція",
-        "das Anzeichen — означення, симптом",
-        "die Beratungsstelle, -n — консультаційний центр",
-        "die Kostenübernahme — покриття витрат",
-        "die Ministerin — міністрка",
-        "das Quartal — квартал",
-        "umsetzen — реалізовано",
-        "warnen — попереджати",
-        "das Risiko — ризик"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Bundesfachgremium",
-          "hint": "das Bundesfachgremium — федеральний експертний колегія"
-        },
-        {
-          "surface": "postpartaler",
-          "hint": "postpartal — післяпологовий"
-        },
-        {
-          "surface": "Stellungnahme",
-          "hint": "die Stellungnahme — заява, позиція"
-        },
-        {
-          "surface": "Anzeichen",
-          "hint": "das Anzeichen — означення, симптом"
-        },
-        {
-          "surface": "Beratungsstellen",
-          "hint": "die Beratungsstelle, -n — консультаційний центр"
-        },
-        {
-          "surface": "Kostenübernahme",
-          "hint": "die Kostenübernahme — покриття витрат"
-        },
-        {
-          "surface": "Ministerin",
-          "hint": "die Ministerin — міністрка"
-        },
-        {
-          "surface": "Quartal",
-          "hint": "das Quartal — квартал"
-        },
-        {
-          "surface": "umgesetzt",
-          "hint": "umsetzen — реалізовано"
-        },
-        {
-          "surface": "warnen",
-          "hint": "warnen — попереджати"
-        },
-        {
-          "surface": "Risiko",
-          "hint": "das Risiko — ризик"
-        }
-      ],
-      "category": "Gesundheit",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a0bad2.webp",
-      "publishedAt": "2026-09-20T10:02:17.000Z",
-      "processedAt": "2026-09-20T10:19:12.005Z"
-    },
-    {
-      "id": "6e2b1620",
-      "originalTitle": "1,5 Meter beim Velo-Überholen - soll das Pflicht werden?",
-      "simplifiedText": "Derzeit gibt es keine gesetzliche Vorgabe, wie Velofahrer überholt werden dürfen, obwohl klare Regeln gefordert werden. Viele Verkehrsexpertinnen und -experten fordern, dass ein Mindestabstand von 1,5 Meter beim Überholen eingehalten werden soll. Der Bundesrat hat dazu noch keine Entscheidung getroffen. Einige Kantone prüfen bereits, ob sie eigene Vorschriften einführen wollen. Wenn ein Auto zu nah an das Velo kommt, kann das gefährlich werden. Deshalb rufen Verbände für die Verkehrssicherheit zu mehr Aufklärung auf. In der Diskussion wird auch über mögliche Bussgelder gesprochen. Es bleibt abzuwarten, ob die Regelung künftig verbindlich wird.",
-      "vocabularyHints": [
-        "die Verkehrsexpertin, -nen — фахівці з транспорту (жінки)",
-        "der Mindestabstand — мінімальна відстань",
-        "der Bundesrat — федеральна рада (уряд Швейцарії)",
-        "der Kanton, -e — кантони (регіони Швейцарії)",
-        "die Vorschrift, -en — правила, нормативи",
-        "die Aufklärung — роз'яснення, інформування",
-        "das Bussgeld, -e — штрафи",
-        "verbindlich — обов'язковий"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Verkehrsexpertinnen",
-          "hint": "die Verkehrsexpertin, -nen — фахівці з транспорту (жінки)"
-        },
-        {
-          "surface": "Mindestabstand",
-          "hint": "der Mindestabstand — мінімальна відстань"
-        },
-        {
-          "surface": "Bundesrat",
-          "hint": "der Bundesrat — федеральна рада (уряд Швейцарії)"
-        },
-        {
-          "surface": "Kantone",
-          "hint": "der Kanton, -e — кантони (регіони Швейцарії)"
-        },
-        {
-          "surface": "Vorschriften",
-          "hint": "die Vorschrift, -en — правила, нормативи"
-        },
-        {
-          "surface": "Aufklärung",
-          "hint": "die Aufklärung — роз'яснення, інформування"
-        },
-        {
-          "surface": "Bussgelder",
-          "hint": "das Bussgeld, -e — штрафи"
-        },
-        {
-          "surface": "verbindlich",
-          "hint": "verbindlich — обов'язковий"
-        }
-      ],
-      "category": "Verkehr",
-      "imageUrl": "https://image.20min.ch/2026/09/20/b2333296-949b-4003-a5a6-afe69f533678.jpg?s=d976cda07677b64d4b14a144796f7c72",
-      "publishedAt": "2026-09-20T10:09:25.000Z",
-      "processedAt": "2026-09-20T10:18:21.482Z"
-    },
-    {
-      "id": "3f0b1e98",
-      "originalTitle": "Kein Exploit in Brasilien - Davis-Cup-Dämpfer als Abbild des Schweizer Männertennis",
-      "simplifiedText": "Das Schweizer Davis-Cup-Team bleibt in der aktuellen Situation zweitklassig. Nach der Niederlage gegen das Team aus Brasilien hat das Team keine Chance mehr, in die Spitzengruppe aufzusteigen. Der Trainer betont, dass die Leistung nicht ausreicht, um das Niveau der Top-Länder zu erreichen. Die Spieler müssen in den kommenden Turnieren mehr Erfahrung sammeln, um das Ranking zu verbessern. Die Schweizer Tennisverbände hoffen, dass junge Talente bald stärker in den Kader integriert werden. Trotzdem bleibt die Erwartungshaltung der Öffentlichkeit niedrig, weil das Team zuletzt nur schwache Ergebnisse erzielt hat. Die nächste Begegnung wird in Zürich stattfinden, wo das Team erneut versuchen wird, sich zu beweisen.",
-      "vocabularyHints": [
-        "die Situation — ситуація",
-        "zweitklassig — другокласний",
-        "die Niederlage — поразка",
-        "die Spitzengruppe — топ-група",
-        "der Trainer — тренер",
-        "der Kader — склад команди",
-        "die Erwartungshaltung — очікування",
-        "die Begegnung — зустріч"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "Situation",
-          "hint": "die Situation — ситуація"
-        },
-        {
-          "surface": "zweitklassig",
-          "hint": "zweitklassig — другокласний"
-        },
-        {
-          "surface": "Niederlage",
-          "hint": "die Niederlage — поразка"
-        },
-        {
-          "surface": "Spitzengruppe",
-          "hint": "die Spitzengruppe — топ-група"
-        },
-        {
-          "surface": "Trainer",
-          "hint": "der Trainer — тренер"
-        },
-        {
-          "surface": "Kader",
-          "hint": "der Kader — склад команди"
-        },
-        {
-          "surface": "Erwartungshaltung",
-          "hint": "die Erwartungshaltung — очікування"
-        },
-        {
-          "surface": "Begegnung",
-          "hint": "die Begegnung — зустріч"
-        }
-      ],
-      "category": "Sport",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/a26f11.webp",
-      "publishedAt": "2026-09-20T10:15:59.000Z",
-      "processedAt": "2026-09-20T10:17:52.855Z"
     }
   ],
-  "updatedAt": "2026-09-21T08:46:33.998Z",
+  "updatedAt": "2026-09-21T13:39:24.759Z",
   "tsnA1": [
+    {
+      "id": "45fc28f0",
+      "originalTitle": "Бійка за шезлонг на пляжі закінчилася смертю 82-річного чоловіка: деталі трагедії",
+      "simplifiedText": "У неділю вранці на пляжі біля Афін стався конфлікт. 82-річний чоловік і 76-річний незнайомець сперечалися за шезлонги. Бійка швидко переросла в насильство, і старший отримав тяжкі травми. Лікарі не змогли врятувати його, і він помер у лікарні. Поліція затримала 76-річного підозрюваного та 21-річну дівчину.",
+      "germanReference": "Am Sonntagmorgen kam es am Strand bei Athen zu einem Konflikt. Ein 82-jähriger Mann und ein 76-jähriger Unbekannter stritten sich um Liegestühle. Der Streit entwickelte sich schnell zu Gewalt, und der Ältere erlitt schwere Verletzungen. Die Ärzte konnten ihn nicht retten, und er starb im Krankenhaus. Die Polizei nahm den 76-jährigen Verdächtigen und ein 21-jähriges Mädchen fest.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/611/tsn-467385bb6791cfb7cbfd1f8cbeac76e2/thumbs/608xX/a0/a8/2e5a27dd35c4ebcf5f977c72bb1da8a0.jpeg",
+      "publishedAt": "2026-09-21T12:30:28.000Z",
+      "processedAt": "2026-09-21T13:38:39.221Z"
+    },
+    {
+      "id": "1b7f1904",
+      "originalTitle": "Як зігріти квартиру, якщо опалення ще не ввімкнули: прості способи без обігрівача",
+      "simplifiedText": "Перевірте вікна та двері, чи немає протягів. Якщо є щілина, підсуньте ущільнювач або поправте раму. У сонячний день відкривайте штори, щоб тепло входило. Вечором закрийте штори, вони тримають тепло всередині. Після цього в кімнаті стає тепліше і комфортніше.",
+      "germanReference": "Überprüfen Sie Fenster und Türen, ob keine Zugluft ist. Wenn es eine Spalte gibt, schieben Sie eine Dichtung ein oder korrigieren Sie den Rahmen. An einem sonnigen Tag öffnen Sie die Vorhänge, damit Wärme hereintritt. Abends schliessen Sie die Vorhänge, sie halten die Wärme im Inneren. Danach wird es im Raum wärmer und komfortabler.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/146/tsn-51cb131e/thumbs/608xX/11/47/cb8d734ba8391b433f2475e4be7f4711.jpg",
+      "publishedAt": "2026-09-21T12:30:32.000Z",
+      "processedAt": "2026-09-21T13:37:16.856Z"
+    },
+    {
+      "id": "7bb8fa01",
+      "originalTitle": "Які продукти вбивають нирки: їх не можна включати до щоденного раціону, особливо людям за 50",
+      "simplifiedText": "Перероблене м’ясо, як ковбаси, містить багато солі. Надлишок солі підвищує тиск і навантажує нирки. Чипси і солоні горішки теж багаті натрієм. Солодкі газовані напої додають багато цукру. Тому людям старше 50 слід уникати їх щодня.",
+      "germanReference": "Umgearbeitetes Fleisch, wie Wurst, enthält viel Salz. Ein Überschuss an Salz erhöht den Blutdruck und belastet die Nieren. Chips und salzige Nüsse sind ebenfalls reich an Natrium. Süsse kohlensäurehaltige Getränke enthalten viel Zucker. Deshalb sollten Menschen über 50 sie täglich meiden.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/086/tsn-51cb131e/thumbs/608xX/6d/b1/d79302f54afc668f8be249b14ca8b16d.jpg",
+      "publishedAt": "2026-09-21T12:30:43.000Z",
+      "processedAt": "2026-09-21T13:36:04.705Z"
+    },
+    {
+      "id": "288afb57",
+      "originalTitle": "Українцям можуть обмежити купівлю житла в Польщі: хто виступив з ініціативою",
+      "simplifiedText": "Кшиштоф Босак, лідер «Конфедерації», запропонував обмежити купівлю нерухомості іноземцями. Він вважає, що іноземний капітал підвищує ціни на житло. За його словами, українці з заощадженнями часто купують польські квартири. Босак пропонує одночасно обмежити інвестиції і збільшити будівельну землю.",
+      "germanReference": "Kshischtof Bosak, der Anfuehrer der \"Konföderation\", hat vorgeschlagen, den Kauf von Immobilien durch Auslaender zu beschraenken. Er ist der Meinung, dass auslaendisches Kapital die Wohnungspreise steigen laesst. Laut seiner Aussage kaufen Ukrainer mit Ersparnissen haeufig polnische Wohnungen. Bosak schlaegt gleichzeitig vor, Investitionen zu beschraenken und das Bauland zu erhoehen.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/344/tsn-1284f5ef/thumbs/608xX/cc/0f/535c7c92591c77ec115cc99dd5030fcc.jpg",
+      "publishedAt": "2026-09-21T12:34:49.000Z",
+      "processedAt": "2026-09-21T13:35:06.989Z"
+    },
+    {
+      "id": "0a4d8345",
+      "originalTitle": "Як курсують потяги під час тривог різних рівнів: офіційна заява \"Укрзалізниці\"",
+      "simplifiedText": "Укрзалізниця пояснила правила руху під час тривог. На жовтий рівень потяги можуть їхати і зупинятись. Якщо моніторинг виявляє небезпеку, потяг зупиняють. Рішення приймає окрема група з урахуванням ситуації. Безпека пасажирів завжди стоїть на першому місці.",
+      "germanReference": "Die Ukrainsche Eisenbahn hat die Regeln für die Bewegung während der Sirenen erklärt. Auf der gelben Stufe dürfen Züge fahren und halten. Wenn die Überwachung eine Gefahr erkennt, wird der Zug gestoppt. Die Entscheidung trifft eine separate Gruppe unter Berücksichtigung der Situation. Die Sicherheit der Passagiere steht immer an erster Stelle.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/353/tsn-42acd4d1c978ea629b0f3f2d0d116492/thumbs/608xX/3c/87/f7587c7e348d4b4418f224e59e20873c.jpg",
+      "publishedAt": "2026-09-21T12:40:16.000Z",
+      "processedAt": "2026-09-21T13:34:09.249Z"
+    },
+    {
+      "id": "615d849c",
+      "originalTitle": "«Яка ганьба!»: Трамп зробив несподівану заяву про війну Путіна в Україні",
+      "simplifiedText": "Трамп сказав, що Росія втратила контроль над дизелем. Багато нафтоперобних заводів знищено або не працює. Він закликав негайно завершити війну в Україні. Трамп зазначив, що щомісяця гине близько 25 тисяч людей.",
+      "germanReference": "Trump sagte, dass Russland die Kontrolle über den Diesel verloren habe. Viele Raffinerien seien zerstört oder arbeiteten nicht. Er forderte, den Krieg in der Ukraine sofort zu beenden. Trump bemerkte, dass monatlich etwa 25'000 Menschen sterben.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/134/tsn-51cb131e/thumbs/608xX/b1/ba/24f9fb6eba967e2b50e6a6581297bab1.jpg",
+      "publishedAt": "2026-09-21T12:59:35.000Z",
+      "processedAt": "2026-09-21T13:33:45.776Z"
+    },
     {
       "id": "682af20c",
       "originalTitle": "Можуть вбити за телефон: топ найнебезпечніших міст світу",
@@ -4922,6 +5015,66 @@
   ],
   "tsnA2": [
     {
+      "id": "4b7cc5cf",
+      "originalTitle": "Бійка за шезлонг на пляжі закінчилася смертю 82-річного чоловіка: деталі трагедії",
+      "simplifiedText": "У неділю вранці 82‑річний чоловік з дружиною прийшов на популярний пляж, розташований близько 20 км на південь від Афін. Коли вони шукали вільний шезлонг, між ними і 76‑річним незнайомцем не залишилося місця, і розпочалася словесна сварка. Суперечка швидко перейшла у бійку, у яку ввійшли ще кілька людей, серед яких була 21‑річна дівчина, що стояла поруч із 76‑річним. Під час сутички 82‑річний отримав тяжкі травми, і, за словами лікарів, у нього, можливо, стався серцевий напад. Його терміново везли швидкою до лікарні, але там вже констатували смерть. Поліція затримала 76‑річного підозрюваного, 21‑річну дівчину (яку потім відпустили) і менеджера пляжного комплексу, і оголосила, що всі вони будуть судити.",
+      "germanReference": "Am Sonntagmorgen kam ein 82-jähriger Mann mit seiner Frau zu einem beliebten Strand, der etwa 20 km südlich von Athen liegt. Als sie nach einem freien Liegestuhl suchten, blieb zwischen ihnen und einem 76-jährigen Fremden kein Platz, und es begann ein verbaler Streit. Der Konflikt eskalierte schnell zu einer Schlägerei, in die noch mehrere Personen eingriffen, darunter ein 21-jähriges Mädchen, das neben dem 76-Jährigen stand. Während des Zusammenstosses erlitt der 82-Jährige schwere Verletzungen und, laut Ärzten, könnte er einen Herzinfarkt erlitten haben. Er wurde eilig mit dem Rettungswagen ins Krankenhaus gebracht, wo sein Tod bereits festgestellt wurde. Die Polizei nahm den 76-jährigen Verdächtigen, das 21-jährige Mädchen (das später freigelassen wurde) und den Manager des Strandkomplexes fest und erklärte, dass alle vor Gericht gestellt werden sollen.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/611/tsn-467385bb6791cfb7cbfd1f8cbeac76e2/thumbs/608xX/a0/a8/2e5a27dd35c4ebcf5f977c72bb1da8a0.jpeg",
+      "publishedAt": "2026-09-21T12:30:28.000Z",
+      "processedAt": "2026-09-21T13:38:57.796Z"
+    },
+    {
+      "id": "75f9d5bb",
+      "originalTitle": "Як зігріти квартиру, якщо опалення ще не ввімкнули: прості способи без обігрівача",
+      "simplifiedText": "Восени, ще до початку опалення, температура на вулиці часто падає, і ввечері в квартирі стає холодно, особливо біля вікон і підлоги. Першим кроком треба знайти місце, звідки тягне холодом, перевіряючи рами, підвіконня і ущільнювачі, бо щілина в вікні пропускає холодне повітря. Якщо вікно перекошене або ущільнювач зношений, його варто підправити або замінити, а не просто заклеювати. При цьому не слід повністю закривати вентиляційні отвори, бо без повітрообміну в приміщенні може стати вологим і ще холодніше. У сонячну погоду краще протягом дня залишати штори відкритими, щоб сонце зігріло кімнату. Вечором же варто закрити щільні штори, бо вони утримують тепло всередині і захищають від холодного скла.",
+      "germanReference": "Im Herbst, noch vor Beginn der Heizung, fällt die Aussentemperatur oft, und abends wird es in der Wohnung kalt, besonders an den Fenstern und am Boden. Der erste Schritt ist, die Stelle zu finden, von wo die Kälte zieht, indem man die Rahmen, Fensterbänke und Dichtungen prüft, weil ein Spalt im Fenster kalte Luft durchlässt. Wenn das Fenster schief steht oder die Dichtung abgenutzt ist, sollte man es nachjustieren oder austauschen, und nicht nur verkleben. Dabei sollte man die Lüftungsöffnungen nicht vollständig schliessen, weil ohne Luftaustausch der Raum feucht und noch kälter werden kann. Bei sonnigem Wetter ist es besser, tagsüber die Vorhänge offen zu lassen, damit die Sonne den Raum erwärmt. Am Abend sollte man dann dichte Vorhänge schliessen, weil sie die Wärme im Inneren halten und vor kaltem Glas schützen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/146/tsn-51cb131e/thumbs/608xX/11/47/cb8d734ba8391b433f2475e4be7f4711.jpg",
+      "publishedAt": "2026-09-21T12:30:32.000Z",
+      "processedAt": "2026-09-21T13:37:36.354Z"
+    },
+    {
+      "id": "4b76521e",
+      "originalTitle": "Які продукти вбивають нирки: їх не можна включати до щоденного раціону, особливо людям за 50",
+      "simplifiedText": "Нирки щодня очищають кров і контролюють рівень води та солі, тому з віком треба уважніше ставитися до їжі, бо підвищений тиск і діабет шкодять їх роботі. Продукти з великою кількістю солі, доданого цукру та насичених жирів, наприклад ковбаси, бекон, шинка та інші копченості, слід уникати, бо вони підвищують тиск і навантажують нирки. Краще обирати свіже м’ясо, птицю або рибу і готувати їх без зайвої солі. Чипси, сухарики, солоні горішки та інші снеки теж містять багато натрію, навіть у маленькій порції, а ВООЗ радить споживати менше 2000 мг натрію (менше 5 г солі) на день. Солодкі газовані напої не дають корисних речовин, а їх надмірне вживання додає цукру, що сприяє набору ваги і порушенню обміну, що теж шкодить ниркам.",
+      "germanReference": "Niere reinigen täglich das Blut und kontrollieren den Wasser- und Salzhaushalt, deshalb muss man im Alter bei der Nahrung vorsichtiger sein, weil erhöhtes Blutdruck und Diabetes ihrer Arbeit schaden. Produkte mit viel Salz, zugesetztem Zucker und gesättigten Fetten, zum Beispiel Wurst, Speck, Schinken und andere Rauchwaren, sollten vermieden werden, weil sie den Blutdruck erhöhen und die Nieren belasten. Besser ist es, frisches Fleisch, Geflügel oder Fisch zu wählen und sie ohne überflüssiges Salz zuzubereiten. Chips, Cracker, salzige Nüsse und andere Snacks enthalten ebenfalls viel Natrium, selbst in einer kleinen Portion, und die WHO rät, weniger als 2000 mg Natrium (weniger als 5 g Salz) pro Tag zu konsumieren. Süsse kohlensaurehaltige Getränke liefern keine nützlichen Stoffe, und ihr übermassiger Konsum fügt Zucker hinzu, was zur Gewichtszunahme und zu Stoffwechselstörungen führt, was ebenfalls den Nieren schadet.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/086/tsn-51cb131e/thumbs/608xX/6d/b1/d79302f54afc668f8be249b14ca8b16d.jpg",
+      "publishedAt": "2026-09-21T12:30:43.000Z",
+      "processedAt": "2026-09-21T13:36:22.208Z"
+    },
+    {
+      "id": "06266ec8",
+      "originalTitle": "Українцям можуть обмежити купівлю житла в Польщі: хто виступив з ініціативою",
+      "simplifiedText": "Кшиштоф Босак, лідер партії «Конфедерація» в Польщі, запропонував обмежити купівлю нерухомості іноземцями, зокрема громадянами України. Він вважає, що іноземний капітал, зокрема інвестиції з України, підвищує ціни на квартири. За його словами, багато українців вкладають заощадження в польську нерухомість, бо вважають її безпечною. Босак назвав проблемою купівлю житла західними інвестиційними фондами, які важко відстежити. Він пропонує одночасно обмежити іноземні інвестиції, збільшити кількість земель під забудову і контролювати міграцію, щоб знизити ціни. За його словами, без таких заходів поляки не зможуть собі дозволити квартири.",
+      "germanReference": "Krzysztof Bosak, der Leiter der Partei „Konföderation“ in Polen, hat vorgeschlagen, den Immobilienkauf durch Ausländer, insbesondere durch Bürger der Ukraine, zu beschränken. Er ist der Ansicht, dass ausländisches Kapital, insbesondere Investitionen aus der Ukraine, die Wohnungspreise erhöht. Laut seiner Aussage investieren viele Ukrainer ihr Erspartes in polnische Immobilien, weil sie diese als sicher ansehen. Bosak bezeichnete das Problem als den Kauf von Wohnraum durch westliche Investmentfonds, die schwer nachzuverfolgen sind. Er schlägt gleichzeitig vor, ausländische Investitionen zu begrenzen, die Anzahl der Baulandflächen zu erhöhen und die Migration zu kontrollieren, um die Preise zu senken. Nach seinen Worten werden die Polen ohne solche Massnahmen sich keine Wohnungen leisten können.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/344/tsn-1284f5ef/thumbs/608xX/cc/0f/535c7c92591c77ec115cc99dd5030fcc.jpg",
+      "publishedAt": "2026-09-21T12:34:49.000Z",
+      "processedAt": "2026-09-21T13:35:21.408Z"
+    },
+    {
+      "id": "3db1db1a",
+      "originalTitle": "Як курсують потяги під час тривог різних рівнів: офіційна заява \"Укрзалізниці\"",
+      "simplifiedText": "У «Укрзалізниці» пояснили, що під час повітряних тривог діють особливі правила для працівників і пасажирів. На жовтий рівень тривоги потяг може їхати, а пасажири можуть сісти і вийти, тому що загальна безпека не порушується. Проте, якщо спеціальна моніторингова група виявляє безпосередню загрозу конкретному поїзду, рішення про зупинку або переміщення людей приймає окремо. Така реакція залежить від конкретної ситуації, а не лише від рівня тривоги. Компанія підкреслює, що безпека пасажирів завжди стоїть на першому місці. За час війни російські безпілотники пошкодили або знищили понад 500 локомотивів.",
+      "germanReference": "Bei der Ukrzaliznytsja wurde erklärt, dass während Luftalarmen besondere Regeln für Mitarbeitende und Fahrgäste gelten. Auf der gelben Alarmstufe darf der Zug fahren, und Fahrgäste dürfen ein- und aussteigen, weil die allgemeine Sicherheit nicht gefährdet wird. Wenn jedoch eine spezielle Überwachungsgruppe eine unmittelbare Bedrohung für einen konkreten Zug feststellt, wird die Entscheidung über das Anhalten oder das Verlegen von Personen separat getroffen. Eine solche Reaktion hängt von der konkreten Situation ab und nicht nur vom Alarmstufenlevel. Das Unternehmen betont, dass die Sicherheit der Fahrgäste immer an erster Stelle steht. Während des Krieges haben russische Drohnen mehr als 500 Lokomotiven beschädigt oder zerstört.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/353/tsn-42acd4d1c978ea629b0f3f2d0d116492/thumbs/608xX/3c/87/f7587c7e348d4b4418f224e59e20873c.jpg",
+      "publishedAt": "2026-09-21T12:40:16.000Z",
+      "processedAt": "2026-09-21T13:34:27.303Z"
+    },
+    {
+      "id": "7a5ed63b",
+      "originalTitle": "«Яка ганьба!»: Трамп зробив несподівану заяву про війну Путіна в Україні",
+      "simplifiedText": "Президент США Дональд Трамп у своїй соцмережі Truth Social написав, що через війну в Україні Росія втратила контроль над своєю дизельною нафтовою промисловістю. За його словами, багато дизельних нафтопереробних заводів були підірвані і зараз, принаймні тимчасово, не працюють. Трамп не уточнив, про які саме підприємства йдеться і скільки їх зараз не працює. Він закликав негайно завершити війну, назвавши її «безглуздою і нескінченною». Трамп зазначив, що щомісяця внаслідок бойових дій гинуть близько 25 тисяч людей, переважно солдати. Після цього він додав: «Яка ганьба!».",
+      "germanReference": "Der US-Präsident Donald Trump schrieb in seinem sozialen Netzwerk Truth Social, dass Russland wegen des Krieges in der Ukraine die Kontrolle über seine Diesel-Öl-Industrie verloren habe. Laut seiner Aussage seien viele Diesel-Öl- Raffinerien gesprengt worden und arbeiteten jetzt, zumindest vorübergehend, nicht. Trump habe nicht spezifiziert, um welche Betriebe es sich handele und wie viele derzeit nicht arbeiten. Er rief dazu auf, den Krieg sofort zu beenden, und bezeichnete ihn als \"sinnlos und endlos\". Trump bemerkte, dass monatlich etwa 25'000 Menschen, vorwiegend Soldaten, infolge der Kampfhandlungen sterben. Anschliessend fügte er hinzu: \"Was für eine Schande!\"",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/134/tsn-51cb131e/thumbs/608xX/b1/ba/24f9fb6eba967e2b50e6a6581297bab1.jpg",
+      "publishedAt": "2026-09-21T12:59:35.000Z",
+      "processedAt": "2026-09-21T13:33:52.921Z"
+    },
+    {
       "id": "03969e55",
       "originalTitle": "Можуть вбити за телефон: топ найнебезпечніших міст світу",
       "simplifiedText": "У ТСН.ua підготували список найнебезпечніших міст світу для туристів, і в ньому знову з’явилися ті ж самі мегаполіси. Сан‑Педро‑Сула в Гондурасі, населенням близько 700 тисяч людей, щороку реєструє 170 вбивств на 100 тисяч мешканців, тому вночі варто уникати вулиць, особливо якщо ви користуєтеся телефоном. Акапулько в Мексиці колись був популярним курортом, а тепер у місті зростає вплив банд і наркокартелів, що призводить до частих розстрілів і вбивств. У столиці Венесуели, Каракасі, політична нестабільність, інфляція та кризис влади створюють беззаконня, а викрадення за викупом стали звичними. Порт‑Морсбі в Папуа‑Новій Гвінеї також входить до списку, бо там часто трапляються нападання з вогнепальною зброєю і інші злочини. У всіх цих містах туристи можуть відчувати небезпеку навіть під час звичайних прогулянок, тому варто бути дуже обережними і планувати поїздки заздалегідь.",
@@ -4983,6 +5136,56 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "57a8c031",
+      "originalTitle": "Бійка за шезлонг на пляжі закінчилася смертю 82-річного чоловіка: деталі трагедії",
+      "simplifiedText": "У неділю вранці на популярному пляжі біля 20 км на південь від Афін у Греції 82‑річний чоловік разом із дружиною прийшов, шукаючи вільні шезлонги. Через нестачу лежаків між ним і 76‑річним незнайомцем виник конфлікт, який швидко перейшов у словесну сварку. Слово‑перепалка переросла у бійку, до якої приєдналися ще кілька людей, що стояли поруч із 76‑річним. Під час сутички 82‑річний пенсіонер отримав тяжкі травми, і, за словами лікарів, у нього, можливо, стався серцевий напад. Його терміново везли каретою швидкої допомоги до лікарні, де вже під час огляду констатували смерть. Поліція затримала 76‑річного підозрюваного і 21‑річну дівчину, яка була з ним, а також менеджера пляжного комплексу для допиту. Дівчину пізніше відпустили, хоча свідки зазначили, що у неї було закривавлене та опухле обличчя. Усі затримані будуть судити, а слідчі вже замовили судово‑медичну експертизу, щоб з’ясувати точну причину смерті.",
+      "germanReference": "Am Sonntagmorgen kam ein 82-jähriger Mann zusammen mit seiner Frau an einem beliebten Strand etwa 20 km südlich von Athen in Griechenland, um freie Liegestühle zu suchen. Durch den Mangel an Liegestühlen entstand ein Konflikt zwischen ihm und einem 76-jährigen Fremden, der schnell in einen verbalen Streit überging. Der Wortgefecht entwickelte sich zu einer Schlägerei, an der noch einige weitere Personen, die in der Nähe des 76-Jährigen standen, teilnahmen. Während des Zusammenstosses erlitt der 82-jährige Rentner schwere Verletzungen und, laut Ärzten, möglicherweise einen Herzinfarkt. Er wurde eilig mit dem Krankenwagen zum Krankenhaus gebracht, wo bereits bei der Untersuchung der Tod festgestellt wurde. Die Polizei nahm den 76-jährigen Verdächtigen und ein 21-jähriges Mädchen, das mit ihm war, sowie den Manager des Strandkomplexes zur Vernehmung fest. Das Mädchen wurde später freigelassen, obwohl Zeugen angaben, dass ihr Gesicht blutverschmiert und geschwollen war. Alle Festgenommenen werden vor Gericht gestellt, und die Ermittler haben bereits eine forensisch-medizinische Untersuchung angeordnet, um die genaue Todesursache festzustellen.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/611/tsn-467385bb6791cfb7cbfd1f8cbeac76e2/thumbs/608xX/a0/a8/2e5a27dd35c4ebcf5f977c72bb1da8a0.jpeg",
+      "publishedAt": "2026-09-21T12:30:28.000Z",
+      "processedAt": "2026-09-21T13:39:20.756Z"
+    },
+    {
+      "id": "5cfec240",
+      "originalTitle": "Які продукти вбивають нирки: їх не можна включати до щоденного раціону, особливо людям за 50",
+      "simplifiedText": "Нирки щодня очищають кров, підтримують водно‑сольовий баланс і виводять відходи, тому з віком важливо стежити за харчуванням. Високий артеріальний тиск і цукровий діабет – головні ризики хронічних захворювань нирок, а їх посилює надмірна кількість солі, цукру та насичених жирів у раціоні. Перероблене м’ясо – ковбаси, сосиски, бекон, шинка, копченості – містить багато натрію, що затримує рідину, підвищує тиск і навантажує нирки; до того ж у ньому часто є фосфатні добавки, шкідливі при хронічній хворобі нирок. Краще обирати свіже м’ясо, птицю або рибу і готувати їх з мінімальною кількістю солі. Снеки типу чипсів, сухариків, солоних горішків і крекерів теж багаті натрієм навіть у невеликих порціях, що підвищує артеріальний тиск. За рекомендацією ВООЗ дорослим слід споживати менше 2000 мг натрію на день, що приблизно дорівнює 5 г солі. Солодкі газовані напої не містять корисних речовин, а їх надлишок цукру сприяє набору ваги та метаболічним порушенням, що також шкодять ниркам.",
+      "germanReference": "Niere reinigen täglich das Blut, unterstützen das Wasser-Salz-Gleichgewicht und entfernen Abfallstoffe, deshalb ist es im Alter wichtig, auf die Ernährung zu achten. Hoher Blutdruck und Zuckerdiabetes sind die Hauptrisiken für chronische Nierenerkrankungen, und sie werden durch eine übermässige Menge an Salz, Zucker und gesättigten Fetten in der Nahrung verstärkt. Verarbeitetes Fleisch wie Wurst, Bratwurst, Speck, Schinken und geräuchertes Fleisch enthält viel Natrium, das Wasser zurückhält, den Blutdruck erhöht und die Nieren belastet; zudem enthält es oft phosphathaltige Zusätze, die bei chronischer Nierenerkrankung schädlich sind. Besser ist es, frisches Fleisch, Geflügel oder Fisch zu wählen und sie mit minimaler Salzmenge zuzubereiten. Snacks wie Chips, Cracker, gesalzene Nüsse und Cracker sind ebenfalls natriumreich, selbst in kleinen Portionen, was den Blutdruck erhöht. Laut WHO-Empfehlung sollten Erwachsene weniger als 2000 mg Natrium pro Tag zu sich nehmen, was ungefähr 5 g Salz entspricht. Süsse kohlensaurehaltige Getränke enthalten keine nützlichen Stoffe, und ihr übermassiger Zuckergehalt führt zu Gewichtszunahme und Stoffwechselstörungen, die ebenfalls den Nieren schaden.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/086/tsn-51cb131e/thumbs/608xX/6d/b1/d79302f54afc668f8be249b14ca8b16d.jpg",
+      "publishedAt": "2026-09-21T12:30:43.000Z",
+      "processedAt": "2026-09-21T13:36:40.535Z"
+    },
+    {
+      "id": "7ef0de6a",
+      "originalTitle": "Українцям можуть обмежити купівлю житла в Польщі: хто виступив з ініціативою",
+      "simplifiedText": "У Польщі один із лідерів партії «Конфедерація» Кшиштоф Босак запропонував обмежити купівлю нерухомості іноземцями, зокрема громадянами України. За його словами, приплив іноземного капіталу – один із головних чинників зростання цін на житло. Босак підкреслив, що змінити ситуацію на ринку одним рішенням неможливо, проте інвестиції з‑за кордону значно підвищують вартість квартир. Він зазначив, що багато українців, які мають заощадження, розглядають Польщу як безпечне місце для вкладень у нерухомість. Окрему проблему політик назвав західними інвестиційними фондами, які також купують польське житло. Босак вважає, що важко визначити походження окремих коштів, що надходять з України, і боїться, що ринок перетвориться на місце для надлишкового капіталу зі Сходу та Заходу, залишивши поляків без можливості купити квартиру. Він також вказав на політику місцевої влади, яка обмежує кількість земельних ділянок для забудови, і запропонував одночасно обмежити іноземні інвестиції, збільшити пропозицію землі та контролювати міграцію.",
+      "germanReference": "In Polen hat einer der Führer der Partei „Konföderation“, Kschischtof Bosak, vorgeschlagen, den Kauf von Immobilien durch Ausländer, insbesondere durch Bürger der Ukraine, zu begrenzen. Laut seiner Aussage ist der Zustrom ausländischen Kapitals einer der Hauptfaktoren für den Anstieg der Wohnungspreise. Bosak betonte, dass die Situation auf dem Markt nicht mit einer einzigen Entscheidung geändert werden könne, jedoch steigern Investitionen aus dem Ausland die Preise für Wohnungen deutlich. Er wies darauf hin, dass viele Ukrainer, die Ersparnisse haben, Polen als sicheren Ort für Immobilieninvestitionen betrachten. Ein separates Problem nannte der Politiker westliche Investmentfonds, die ebenfalls polnische Wohnungen kaufen. Bosak meint, dass es schwer sei, die Herkunft einzelner Gelder, die aus der Ukraine kommen, zu bestimmen, und befürchtet, dass der Markt zu einem Ort für überschüssiges Kapital aus dem Osten und dem Westen werden könnte, wodurch Polen die Möglichkeit verlieren würden, eine Wohnung zu kaufen. Er verwies zudem auf die Politik der lokalen Behörden, die die Anzahl von Baulandparzellen begrenzt, und schlug gleichzeitig vor, ausländische Investitionen zu begrenzen, das Angebot an Land zu erhöhen und die Migration zu kontrollieren.",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/344/tsn-1284f5ef/thumbs/608xX/cc/0f/535c7c92591c77ec115cc99dd5030fcc.jpg",
+      "publishedAt": "2026-09-21T12:34:49.000Z",
+      "processedAt": "2026-09-21T13:35:43.880Z"
+    },
+    {
+      "id": "526115c4",
+      "originalTitle": "Як курсують потяги під час тривог різних рівнів: офіційна заява \"Укрзалізниці\"",
+      "simplifiedText": "У пресслужбі «Укрзалізниці» у Threads відповіли на запит користувача про роботу потягів під час жовтого сигналу тривоги. За їхніми словами, жовтий рівень не зупиняє рух і дозволяє посадку та висадку пасажирів. Проте це не означає, що поїзд не може зупинитися, якщо з’явиться безпосередня загроза. Спеціальні моніторингові групи «Укрзалізниці» постійно стежать за безпековою ситуацією. Якщо вони виявляють небезпеку для конкретного потяга, рішення про зупинку та евакуацію приймається окремо, враховуючи оперативну обстановку. Головний принцип – рівень загрози не скасовує реагування на конкретну повітряну ціль. Безпека пасажирів залишається пріоритетом компанії. За даними «Укрзалізниці», з початку повномасштабного вторгнення російські безпілотники пошкодили або знищили понад 500 локомотивів.",
+      "germanReference": "Im Pressedienst der Ukrzaliznytsja haben sie in Threads auf die Anfrage eines Nutzers zur Zugfahrt während des gelben Alarmsignals geantwortet. Laut ihren Angaben stoppt das gelbe Niveau die Bewegung nicht und erlaubt das Ein- und Aussteigen von Fahrgästen. Das bedeutet jedoch nicht, dass ein Zug nicht anhalten kann, wenn eine unmittelbare Gefahr entsteht. Spezielle Monitoring-Gruppen der Ukrzaliznytsja beobachten die Sicherheitssituation ständig. Wenn sie eine Gefahr für einen konkreten Zug feststellen, wird die Entscheidung über Anhalten und Evakuierung einzeln getroffen, unter Berücksichtigung der operativen Lage. Das Hauptprinzip - das Gefahrenniveau hebt die Reaktion auf ein konkretes Luftziel nicht auf. Die Sicherheit der Fahrgäste bleibt die Priorität des Unternehmens. Laut Angaben der Ukrzaliznytsja haben seit Beginn der umfassenden Invasion russische Drohnen mehr als 500 Lokomotiven beschädigt oder zerstört.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/353/tsn-42acd4d1c978ea629b0f3f2d0d116492/thumbs/608xX/3c/87/f7587c7e348d4b4418f224e59e20873c.jpg",
+      "publishedAt": "2026-09-21T12:40:16.000Z",
+      "processedAt": "2026-09-21T13:34:45.284Z"
+    },
+    {
+      "id": "688666dd",
+      "originalTitle": "«Яка ганьба!»: Трамп зробив несподівану заяву про війну Путіна в Україні",
+      "simplifiedText": "Колишній президент США Дональд Трамп у своїй соцмережі Truth Social заявив, що Росія втратила контроль над своєю дизельною промисловістю через війну в Україні. За його словами, багато нафтопереробних заводів, які виробляють дизель, були знищені або тимчасово виведені з ладу. Трамп не уточнив, про які саме підприємства йдеться і скільки їх зараз не працює. Він підкреслив, що війна завдає шкоди не лише Україні, а й усьому світу. Президент наголосив, що щомісяця внаслідок бойових дій гинуть близько 25 тисяч людей, переважно солдати. Трамп назвав конфлікт «безглуздою і нескінченною війною» і закликав його негайно завершити. У підсумку він написав: «Яка ганьба!».",
+      "germanReference": "Der ehemalige US-Präsident Donald Trump hat in seinem sozialen Netzwerk Truth Social erklärt, dass Russland die Kontrolle über seine Dieselindustrie durch den Krieg in der Ukraine verloren habe. Laut seiner Aussage seien viele Raffinerien, die Diesel produzieren, zerstört oder vorübergehend stillgelegt worden. Trump hat nicht spezifiziert, um welche Betriebe es sich genau handelt und wie viele derzeit nicht arbeiten. Er betonte, dass der Krieg nicht nur der Ukraine, sondern der ganzen Welt Schaden zufüge. Der Präsident wies darauf hin, dass monatlich infolge der Kampfhandlungen etwa 25'000 Menschen sterben, überwiegend Soldaten. Trump bezeichnete den Konflikt als \"sinnlosen und endlosen Krieg\" und forderte ein sofortiges Ende. Abschliessend schrieb er: \"Was für eine Schande!\"}",
+      "category": "Politik",
+      "imageUrl": "https://img.tsn.ua/cached/134/tsn-51cb131e/thumbs/608xX/b1/ba/24f9fb6eba967e2b50e6a6581297bab1.jpg",
+      "publishedAt": "2026-09-21T12:59:35.000Z",
+      "processedAt": "2026-09-21T13:34:02.213Z"
+    },
     {
       "id": "5bba764d",
       "originalTitle": "Можуть вбити за телефон: топ найнебезпечніших міст світу",
