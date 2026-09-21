@@ -469,8 +469,15 @@ Return ONLY valid JSON, nothing else:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        max_tokens: 1500,
-        reasoning_effort: "low",
+        max_tokens: 2000,
+        // "low" reasoning effort occasionally returns a fully empty
+        // completion for this call (json_validate_failed, empty
+        // failed_generation) on certain inputs — observed on a short,
+        // non-hard-news article (a cooking tip). "medium" gives the model
+        // enough room to actually produce the JSON instead of truncating
+        // to nothing; the retry loop below still covers the rare
+        // remaining failure.
+        reasoning_effort: "medium",
         response_format: { type: "json_object" },
         messages: [
           { role: "system", content: systemPrompt },
@@ -479,6 +486,7 @@ Return ONLY valid JSON, nothing else:
       }, 3, TSN_API_KEY);
 
       const raw = data.choices?.[0]?.message?.content || "";
+      if (!raw.trim()) throw new Error("Groq returned an empty completion");
       const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
       if (!parsed.simplified_text_ukr) throw new Error("Missing simplified_text_ukr in parsed JSON");
       return parsed.simplified_text_ukr.trim();
