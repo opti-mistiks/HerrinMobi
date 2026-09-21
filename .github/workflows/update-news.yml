@@ -41,6 +41,16 @@ jobs:
       - name: Run news update
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # Optional: a separate Groq API key for the TSN (Ukrainian) news
+          # pipeline. Groq's rate limits are per key, not shared across an
+          # account, so giving TSN its own key gives it its own independent
+          # 30 RPM / 1,000 RPD / 8K TPM / 200K TPD budget instead of
+          # splitting one budget with the app/DE (20min) pipeline. Add a
+          # second key as a repo secret named GROQ_API_KEY_TSN to enable
+          # this; if the secret isn't set, TSN falls back to GROQ_API_KEY
+          # automatically (see groqService.js) and behaves exactly as
+          # before.
+          GROQ_API_KEY_TSN: ${{ secrets.GROQ_API_KEY_TSN }}
         run: node scripts/updateNews.js
 
       - name: Commit and push updated JSON
