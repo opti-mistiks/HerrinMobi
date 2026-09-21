@@ -12,6 +12,27 @@ const MAX_PER_LEVEL = 30;
 const TSN_LEVEL_KEYS = { A1: "tsnA1", A2: "tsnA2", B1: "tsnB1" };
 const MAX_PER_LEVEL_TSN = 30;
 
+// How many NEW source articles (not levels — articles) to process per run,
+// per pipeline (app/DE and TSN each get their own budget).
+//
+// Groq free tier for openai/gpt-oss-120b (confirmed via console.groq.com/
+// docs/rate-limits, Sep 2026): 30 RPM, 1,000 RPD, 8K TPM, 200K TPD. Token
+// caps (TPM/TPD) are NOT the bottleneck here — Metrics dashboard shows
+// actual token usage far below both. The binding constraint is RPD: each
+// article costs ~2 Groq calls per level (resolveStoryCore+simplify for
+// app/DE, simplify+translate for TSN) x 3 levels = ~6 calls/article.
+// The scheduled workflow runs once/day, so the full 1,000 RPD budget goes
+// to a single run, split across 2 pipelines (app/DE + TSN): ~500 requests
+// each ≈ 83 articles/pipeline in theory. In practice keep well under that
+// — RPM (30/min) means a run this size takes 15-20+ min regardless, and
+// leaving headroom avoids a single slow day (retries, longer articles)
+// tipping the whole run into RPD exhaustion. 6 is a conservative starting
+// point (~36 requests/pipeline, ~72/run) with room to raise once you've
+// watched a few runs against the Metrics dashboard. Override via env,
+// e.g. NEWS_BATCH_SIZE=15, to speed up backfill once the daily budget is
+// confirmed comfortable.
+const BATCH_SIZE = parseInt(process.env.NEWS_BATCH_SIZE || "6", 10);
+
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function loadDB() {
@@ -146,14 +167,27 @@ async function processTsn(db) {
     (db[key] || []).forEach(a => existingTitles.add(a.originalTitle));
   }
 
-  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, 30);
+  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, BATCH_SIZE);
   console.log(`🆕 ${newArticles.length} new TSN articles to process`);
   if (newArticles.length === 0) return { processed: 0, failed: 0 };
 
   let processed = 0;
   let failed = 0;
+  // If Groq's quota is exhausted, every single article will fail the
+  // same way for the rest of this run (confirmed by logs: once it starts,
+  // it doesn't recover mid-run) — burning through the whole article list
+  // anyway just wastes CI minutes and produces a wall of identical log
+  // lines. Bail out of the loop early once this happens repeatedly, so
+  // the run ends quickly instead of grinding through every remaining
+  // article for no benefit.
+  let quotaFailStreak = 0;
+  const QUOTA_FAIL_BAIL_THRESHOLD = 3;
 
   for (const article of newArticles) {
+    if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) {
+      console.warn(`⏭️  [TSN] Skipping remaining articles — Groq quota appears exhausted for this run.`);
+      break;
+    }
     for (const level of LEVELS) {
       const dbKey = TSN_LEVEL_KEYS[level];
       try {
@@ -168,9 +202,14 @@ async function processTsn(db) {
 
         saveDB(db);
         processed++;
+        quotaFailStreak = 0;
       } catch (err) {
         console.error(`❌ [TSN ${level}] "${article.title.slice(0, 30)}": ${err.message}`);
         failed++;
+        if (/quota likely exhausted/i.test(err.message)) {
+          quotaFailStreak++;
+          if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) break;
+        }
       }
       // Same reasoning as the app/DE loop below: each level here also
       // makes 2 Groq calls (simplify + translate-to-German), so this
@@ -208,7 +247,7 @@ async function main() {
   });
 
   // Тільки нові статті
-  const newArticles = rawArticles.filter(a => !existingTitles.has(toSwiss(a.title))).slice(0, 30);
+  const newArticles = rawArticles.filter(a => !existingTitles.has(toSwiss(a.title))).slice(0, BATCH_SIZE);
   console.log(`🆕 ${newArticles.length} new articles to process`);
 
   // Фолбек на картинки: RSS дав imageUrl не для всіх статей, а для деяких
@@ -237,12 +276,19 @@ async function main() {
   let processed = 0;
   let failed    = 0;
   let tsnResult = { processed: 0, failed: 0 };
+  // Same early-bail logic as processTsn() above — see its comment.
+  let quotaFailStreak = 0;
+  const QUOTA_FAIL_BAIL_THRESHOLD = 3;
 
   if (newArticles.length === 0) {
     console.log("✅ Nothing new from app/DE sources.");
   } else {
 
   for (const article of newArticles) {
+    if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) {
+      console.warn(`⏭️  [DE] Skipping remaining articles — Groq quota appears exhausted for this run.`);
+      break;
+    }
     for (const level of LEVELS) {
       try {
         console.log(`⚙️  [${level}] "${article.title.slice(0, 50)}..."`);
@@ -259,9 +305,14 @@ async function main() {
         // Зберігаємо після кожної статті — щоб не втратити при помилці
         saveDB(db);
         processed++;
+        quotaFailStreak = 0;
       } catch (err) {
         console.error(`❌ [${level}] "${article.title.slice(0, 30)}": ${err.message}`);
         failed++;
+        if (/quota likely exhausted/i.test(err.message)) {
+          quotaFailStreak++;
+          if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) break;
+        }
       }
 
       // Пауза між запитами щоб не бити rate limit. 2s тут покриває лише
