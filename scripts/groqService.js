@@ -301,7 +301,14 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
         model: MODEL,
         temperature: 0.1,
         max_tokens: 3000,
-        reasoning_effort: "low",
+        // "low" reasoning effort occasionally makes the model split
+        // simplified_text_deu into multiple quoted fragments joined by
+        // commas instead of one string (json_validate_failed — observed
+        // on "Klimawandel... Aletschgletscher"). "medium" gives it enough
+        // room to actually assemble one valid string, same fix already
+        // applied to the TSN Ukrainian pipeline above. The retry loop
+        // below still covers the rare remaining failure.
+        reasoning_effort: "medium",
         response_format: { type: "json_object" },
         messages: [
           { role: "system", content: systemPrompt },
@@ -310,7 +317,27 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
       });
 
       const raw = data.choices?.[0]?.message?.content || "";
-      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+      if (!raw.trim()) throw new Error("Groq returned an empty completion");
+      let parsed;
+      try {
+        parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+      } catch {
+        // The model sometimes emits simplified_text_deu as several
+        // comma-separated quoted fragments instead of one string, e.g.
+        // "simplified_text_deu":"A.","B.","C.","vocabulary":[...] — which
+        // is invalid JSON. Recover by merging any such leading string
+        // fragments back into one string before parsing again, instead of
+        // just failing straight to a retry.
+        const merged = raw.replace(
+          /"simplified_text_deu"\s*:\s*((?:"(?:[^"\\]|\\.)*"\s*,\s*)+"(?:[^"\\]|\\.)*")\s*,\s*"vocabulary"/,
+          (_, fragments) => {
+            const parts = fragments.match(/"(?:[^"\\]|\\.)*"/g) || [];
+            const joined = parts.map(p => JSON.parse(p)).join(" ");
+            return `"simplified_text_deu":${JSON.stringify(joined)},"vocabulary"`;
+          }
+        );
+        parsed = JSON.parse(merged.replace(/```json|```/g, "").trim());
+      }
 
       if (!parsed.simplified_text_deu || !Array.isArray(parsed.vocabulary)) {
         throw new Error("Missing required fields in parsed JSON");
