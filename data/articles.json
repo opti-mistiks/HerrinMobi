@@ -1,6 +1,304 @@
 {
   "A1": [
     {
+      "id": "106d22d7",
+      "originalTitle": "«Ziemlich niedergeschlagen»: Mutter gibt nach Hai-Angriff Update",
+      "simplifiedText": "Eine australische Frau hat im Juni einen Haiangriff überlebt. Sie lag zehn Tage im Koma. Jetzt ist sie wieder zu Hause. Sie kämpft jeden Tag um ihr Leben. Doch gestern hatte sie einen schweren Rückschlag.",
+      "vocabularyHints": [
+        "australisch — австралійський",
+        "der Haiangriff, -e — атака акули",
+        "überleben — вижити, пережити",
+        "das Koma — кома",
+        "kämpfen — боротися",
+        "schwer — важкий, тяжкий",
+        "der Rückschlag, -e — невдача, поразка"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "australische",
+          "hint": "australisch — австралійський"
+        },
+        {
+          "surface": "Haiangriff",
+          "hint": "der Haiangriff, -e — атака акули"
+        },
+        {
+          "surface": "überlebt",
+          "hint": "überleben — вижити, пережити"
+        },
+        {
+          "surface": "Koma",
+          "hint": "das Koma — кома"
+        },
+        {
+          "surface": "kämpft",
+          "hint": "kämpfen — боротися"
+        },
+        {
+          "surface": "schweren",
+          "hint": "schwer — важкий, тяжкий"
+        },
+        {
+          "surface": "Rückschlag",
+          "hint": "der Rückschlag, -e — невдача, поразка"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/09/22/767b2fe1-8995-459d-ae82-eec6ee23a553.jpg?s=cfda1e7b4bba6daafe7977489a79fa49",
+      "publishedAt": "2026-09-22T19:07:29.000Z",
+      "processedAt": "2026-09-22T22:40:56.981Z"
+    },
+    {
+      "id": "3b15af4c",
+      "originalTitle": "Umstrittener Kampfjet-Kauf - «Wir gehen davon aus, dass es für 30 F-35 reichen wird»",
+      "simplifiedText": "Verteidigungsminister Martin Pfister spricht über den F-35-Deal. Er sagt, die Schweiz will 30 Flugzeuge kaufen. Der Deal ist mit den USA vereinbart. Man erwartet, das Geld reicht für die Flugzeuge. Die Opposition kritisiert den Kauf noch.",
+      "vocabularyHints": [
+        "Verteidigungsminister — міністр оборони",
+        "Deal — угода",
+        "Flugzeug, -e — літаки",
+        "vereinbaren — узгоджено",
+        "erwarten — очікує",
+        "Opposition — опозиція",
+        "kritisieren — критикує"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Verteidigungsminister",
+          "hint": "Verteidigungsminister — міністр оборони"
+        },
+        {
+          "surface": "Deal",
+          "hint": "Deal — угода"
+        },
+        {
+          "surface": "Flugzeuge",
+          "hint": "Flugzeug, -e — літаки"
+        },
+        {
+          "surface": "vereinbart",
+          "hint": "vereinbaren — узгоджено"
+        },
+        {
+          "surface": "erwartet",
+          "hint": "erwarten — очікує"
+        },
+        {
+          "surface": "Opposition",
+          "hint": "Opposition — опозиція"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикує"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/7e7b2af.jpg",
+      "publishedAt": "2026-09-22T19:35:25.000Z",
+      "processedAt": "2026-09-22T22:39:01.645Z"
+    },
+    {
+      "id": "6c52cce3",
+      "originalTitle": "Wiederverwertung - Plan C mit den Quaggamuscheln im Kanton Thurgau und Schaffhausen",
+      "simplifiedText": "Die Behörden im Kanton Thurgau und Schaffhausen testen die Verwertung von Quaggamuscheln. Entsorgung von Quaggamuscheln ist sehr teuer. Deshalb suchen sie nach einer günstigeren Lösung. Die neue Idee heisst Plan C. Sie wollen die Muscheln wiederverwenden und nicht entsorgen.",
+      "vocabularyHints": [
+        "die Behörde — влада, орган",
+        "die Verwertung — переробка",
+        "die Quaggamuschel — молюски квагга",
+        "die Entsorgung — утилізація",
+        "günstig — дешевіший",
+        "die Lösung — рішення",
+        "wiederverwenden — повторно використовувати",
+        "entsorgen — утилізувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Behörden",
+          "hint": "die Behörde — влада, орган"
+        },
+        {
+          "surface": "Verwertung",
+          "hint": "die Verwertung — переробка"
+        },
+        {
+          "surface": "Quaggamuscheln",
+          "hint": "die Quaggamuschel — молюски квагга"
+        },
+        {
+          "surface": "Entsorgung",
+          "hint": "die Entsorgung — утилізація"
+        },
+        {
+          "surface": "günstigeren",
+          "hint": "günstig — дешевіший"
+        },
+        {
+          "surface": "Lösung",
+          "hint": "die Lösung — рішення"
+        },
+        {
+          "surface": "wiederverwenden",
+          "hint": "wiederverwenden — повторно використовувати"
+        },
+        {
+          "surface": "entsorgen",
+          "hint": "entsorgen — утилізувати"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/a324be.jpg",
+      "publishedAt": "2026-09-22T19:41:02.000Z",
+      "processedAt": "2026-09-22T22:37:44.646Z"
+    },
+    {
+      "id": "37f46687",
+      "originalTitle": "National League am Dienstag - Davos verliert die Final-Reprise gegen Freiburg im Shootout",
+      "simplifiedText": "Der HC Davos verliert das Finale gegen Freiburg. Das Spiel geht nach der regulären Spielzeit ins Shootout. Im Shootout erzielt Freiburg zwei Tore. HC Davos erzielt nur ein Tor im Shootout. Deshalb verliert HC Davos das Finale mit 1 zu 2.",
+      "vocabularyHints": [
+        "regulär — регулярний",
+        "Spielzeit — час гри",
+        "Shootout — додатковий серійний постріл",
+        "Tor — гол",
+        "deshalb — тому"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "regulären",
+          "hint": "regulär — регулярний"
+        },
+        {
+          "surface": "Spielzeit",
+          "hint": "Spielzeit — час гри"
+        },
+        {
+          "surface": "Shootout",
+          "hint": "Shootout — додатковий серійний постріл"
+        },
+        {
+          "surface": "tore",
+          "hint": "Tor — гол"
+        },
+        {
+          "surface": "Deshalb",
+          "hint": "deshalb — тому"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/3119238.jpg",
+      "publishedAt": "2026-09-22T20:43:07.000Z",
+      "processedAt": "2026-09-22T22:36:11.054Z"
+    },
+    {
+      "id": "52fcde72",
+      "originalTitle": "Krieg im Nahen Osten - Macron kritisiert Lage in Gaza als beschämend",
+      "simplifiedText": "Frankreichs Präsident Macron kritisiert die Lage im Gazastreifen. Er kritisiert auch die Lage im Westjordanland. Die Kritik kommt in der UNO-Generaldebatte. Macron sagt, die Situation ist beschämend.",
+      "vocabularyHints": [
+        "der Präsident — президент",
+        "Macron — Макрон",
+        "kritisieren — критикувати",
+        "die Lage — ситуація",
+        "der Gazastreifen — сектор Газа",
+        "das Westjordanland — західний берег",
+        "die UNO-Generaldebatte — генеральна дебата ООН",
+        "die Situation — ситуація",
+        "beschämend — принизливий"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Präsident",
+          "hint": "der Präsident — президент"
+        },
+        {
+          "surface": "Macron",
+          "hint": "Macron — Макрон"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "Lage",
+          "hint": "die Lage — ситуація"
+        },
+        {
+          "surface": "Gazastreifen",
+          "hint": "der Gazastreifen — сектор Газа"
+        },
+        {
+          "surface": "Westjordanland",
+          "hint": "das Westjordanland — західний берег"
+        },
+        {
+          "surface": "UNO-Generaldebatte",
+          "hint": "die UNO-Generaldebatte — генеральна дебата ООН"
+        },
+        {
+          "surface": "Situation",
+          "hint": "die Situation — ситуація"
+        },
+        {
+          "surface": "beschämend",
+          "hint": "beschämend — принизливий"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/9c09be.jpg",
+      "publishedAt": "2026-09-22T21:10:46.000Z",
+      "processedAt": "2026-09-22T22:34:51.575Z"
+    },
+    {
+      "id": "6cca21fb",
+      "originalTitle": "Krieg in der Ukraine - Selenski: Bereit zu trilateralem Treffen mit Putin und Trump",
+      "simplifiedText": "Donald Trump hat den ukrainischen Präsidenten Selenski getroffen. Das Treffen findet am Rande der UNO-Generaldebatte statt. Sie stehen zusammen bei der Generaldebatte. Trump will Frieden für die Ukraine. Selenski hofft auf Unterstützung von den USA.",
+      "vocabularyHints": [
+        "ukrainisch — український",
+        "der Präsident, -en — президент",
+        "Selenski — Селенський",
+        "der Rand, -e — край",
+        "die UNO-Generaldebatte — загальна дискусія ООН",
+        "die Generaldebatte — загальна дискусія",
+        "der Frieden — мир",
+        "die Unterstützung, -en — підтримка"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "ukrainischen",
+          "hint": "ukrainisch — український"
+        },
+        {
+          "surface": "Präsidenten",
+          "hint": "der Präsident, -en — президент"
+        },
+        {
+          "surface": "Selenski",
+          "hint": "Selenski — Селенський"
+        },
+        {
+          "surface": "Rande",
+          "hint": "der Rand, -e — край"
+        },
+        {
+          "surface": "UNO-Generaldebatte",
+          "hint": "die UNO-Generaldebatte — загальна дискусія ООН"
+        },
+        {
+          "surface": "Generaldebatte",
+          "hint": "die Generaldebatte — загальна дискусія"
+        },
+        {
+          "surface": "Frieden",
+          "hint": "der Frieden — мир"
+        },
+        {
+          "surface": "Unterstützung",
+          "hint": "die Unterstützung, -en — підтримка"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/93680a.jpg",
+      "publishedAt": "2026-09-22T21:10:51.000Z",
+      "processedAt": "2026-09-22T22:33:58.183Z"
+    },
+    {
       "id": "24337de0",
       "originalTitle": "Deutscher Funkspruch nach 107 Jahren entschlüsselt",
       "simplifiedText": "Eine KI hat das ADFGVX-Verfahren geknackt. Sie hat einen 107-jährigen deutschen Funkspruch entschlüsselt. Der Funkspruch stammt aus dem Ersten Weltkrieg. Forscherinnen und Forscher feiern den Erfolg heute.",
@@ -1310,6 +1608,284 @@
     }
   ],
   "A2": [
+    {
+      "id": "59c26548",
+      "originalTitle": "«Ziemlich niedergeschlagen»: Mutter gibt nach Hai-Angriff Update",
+      "simplifiedText": "Im Juni hat eine australische Frau eine Hai-Attacke überlebt. Sie hat zehn Tage im Koma gelegen und ist jetzt wieder bei Bewusstsein. Sie hat viel Kraft gebraucht, weil die Verletzungen sehr schwer waren. Trotzdem hat sie jeden Tag kleine Fortschritte gemacht und kann jetzt wieder an das Bett anlehnen. Gestern ist sie wegen eines Rückschlags wieder ins Krankenhaus zurückgekehrt, denn die Ärzte haben neue Komplikationen entdeckt. Jetzt hofft sie auf eine schnellere Genesung als vorher, und ihre Familie unterstützt sie jeden Tag.",
+      "vocabularyHints": [
+        "australisch — австралійський",
+        "die Hai-Attacke — атака акули",
+        "das Koma — кома",
+        "die Verletzung — травма",
+        "anlehnen — прислонятись",
+        "der Rückschlag — невдача, поразка",
+        "zurückkehren — повертатися",
+        "die Komplikation — ускладнення",
+        "die Genesung — одужання"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "australische",
+          "hint": "australisch — австралійський"
+        },
+        {
+          "surface": "Hai-Attacke",
+          "hint": "die Hai-Attacke — атака акули"
+        },
+        {
+          "surface": "Koma",
+          "hint": "das Koma — кома"
+        },
+        {
+          "surface": "Verletzungen",
+          "hint": "die Verletzung — травма"
+        },
+        {
+          "surface": "anlehnen",
+          "hint": "anlehnen — прислонятись"
+        },
+        {
+          "surface": "Rückschlags",
+          "hint": "der Rückschlag — невдача, поразка"
+        },
+        {
+          "surface": "zurückgekehrt",
+          "hint": "zurückkehren — повертатися"
+        },
+        {
+          "surface": "Komplikationen",
+          "hint": "die Komplikation — ускладнення"
+        },
+        {
+          "surface": "Genesung",
+          "hint": "die Genesung — одужання"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/09/22/767b2fe1-8995-459d-ae82-eec6ee23a553.jpg?s=cfda1e7b4bba6daafe7977489a79fa49",
+      "publishedAt": "2026-09-22T19:07:29.000Z",
+      "processedAt": "2026-09-22T22:41:21.379Z"
+    },
+    {
+      "id": "7f490e15",
+      "originalTitle": "Umstrittener Kampfjet-Kauf - «Wir gehen davon aus, dass es für 30 F-35 reichen wird»",
+      "simplifiedText": "Verteidigungsminister Martin Pfister hat heute zum F-35-Deal mit den USA Stellung genommen. Er will 30 Kampfjets kaufen, weil die Luftwaffe ihre Flotte erneuern muss. Der Minister hat gesagt, das Geld ist für die Sicherheit des Landes wichtig und er hat betont, die Kosten werden kontrolliert. Trotzdem Kritik von einigen Politikern bleibt er bei seiner Entscheidung. Er hat bereits Gespräche mit den amerikanischen Vertretern geführt und ist zuversichtlich, der Vertrag wird bald unterschrieben. Im Vergleich zu früheren Programmen ist der F-35 teurer, aber er ist moderner als die alten Jets.",
+      "vocabularyHints": [
+        "der Verteidigungsminister — міністр оборони",
+        "der Kampfjet, -s — винищувальні літаки",
+        "die Luftwaffe — повітряні сили",
+        "die Flotte — флот",
+        "erneuern — оновлювати",
+        "betonen — підкреслювати",
+        "kontrollieren — контролювати",
+        "der Vertreter, - — представники",
+        "zuversichtlich — впевнений",
+        "unterschreiben — підписаний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Verteidigungsminister",
+          "hint": "der Verteidigungsminister — міністр оборони"
+        },
+        {
+          "surface": "Kampfjets",
+          "hint": "der Kampfjet, -s — винищувальні літаки"
+        },
+        {
+          "surface": "Luftwaffe",
+          "hint": "die Luftwaffe — повітряні сили"
+        },
+        {
+          "surface": "Flotte",
+          "hint": "die Flotte — флот"
+        },
+        {
+          "surface": "erneuern",
+          "hint": "erneuern — оновлювати"
+        },
+        {
+          "surface": "betont",
+          "hint": "betonen — підкреслювати"
+        },
+        {
+          "surface": "kontrolliert",
+          "hint": "kontrollieren — контролювати"
+        },
+        {
+          "surface": "Vertretern",
+          "hint": "der Vertreter, - — представники"
+        },
+        {
+          "surface": "zuversichtlich",
+          "hint": "zuversichtlich — впевнений"
+        },
+        {
+          "surface": "unterschrieben",
+          "hint": "unterschreiben — підписаний"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/7e7b2af.jpg",
+      "publishedAt": "2026-09-22T19:35:25.000Z",
+      "processedAt": "2026-09-22T22:39:32.283Z"
+    },
+    {
+      "id": "4b99a09e",
+      "originalTitle": "Wiederverwertung - Plan C mit den Quaggamuscheln im Kanton Thurgau und Schaffhausen",
+      "simplifiedText": "Die Kantone Thurgau und Schaffhausen haben im Sommer ein Pilotprojekt gestartet, um Quaggamuscheln wiederzuverwenden. Sie haben die alten Muscheln gesammelt, weil das Wegschmeissen zu teuer ist. Die üblichen Methoden wie Aufwirbeln oder Wegschwemmen haben nicht gut funktioniert, deshalb haben sie die Verwertung ausprobiert. Die Testphase läuft seit ein paar Wochen, und die Arbeiter haben die Muscheln bereits aufbereitet. Die Kosten sind noch hoch, trotzdem hoffen die Verantwortlichen, aber sie wollen die Ausgaben senken. Ich hätte gern, dass die Ergebnisse im Herbst positiv sind. Alles gut klappt, dann könnte die Wiederverwertung günstiger sein als das Entsorgen.",
+      "vocabularyHints": [
+        "das Pilotprojekt, -e — пілотний проєкт",
+        "starten — розпочав",
+        "wiederverwenden — повторно використовувати",
+        "sammeln — збирати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Pilotprojekt",
+          "hint": "das Pilotprojekt, -e — пілотний проєкт"
+        },
+        {
+          "surface": "gestartet",
+          "hint": "starten — розпочав"
+        },
+        {
+          "surface": "wiederzuverwenden",
+          "hint": "wiederverwenden — повторно використовувати"
+        },
+        {
+          "surface": "gesammelt",
+          "hint": "sammeln — збирати"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/a324be.jpg",
+      "publishedAt": "2026-09-22T19:41:02.000Z",
+      "processedAt": "2026-09-22T22:38:03.124Z"
+    },
+    {
+      "id": "01e110b8",
+      "originalTitle": "National League am Dienstag - Davos verliert die Final-Reprise gegen Freiburg im Shootout",
+      "simplifiedText": "Am Dienstag hat der HC Davos im Playoff-Finale gegen den SC Freiburg verloren. Das Spiel ist nach der regulären Spielzeit unentschieden geblieben, deshalb hat man das Spiel im Shootout entschieden. Davos hat im Shootout nur einen Treffer erzielt, während Freiburg zwei Tore geschossen hat. Die Fans sind enttäuscht gewesen, aber sie haben die Mannschaft trotzdem laut angefeuert. Nach dem Spiel hat der Trainer erklärt, das Team muss mehr trainieren. Er hat gesagt, die Chancen haben nicht ausgereicht, weil die Abwehr schwächer war. Ich habe das Ergebnis im Radio gehört und bin überrascht gewesen, weil ich dachte, Davos könnte gewinnen.",
+      "vocabularyHints": [
+        "Playoff-Finale — плей-оф фінал",
+        "unentschieden — нічия",
+        "Shootout — серія буллітів",
+        "Treffer — влучення",
+        "anfeuern — підбадьорювати",
+        "ausreichen — вистачати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Playoff-Finale",
+          "hint": "Playoff-Finale — плей-оф фінал"
+        },
+        {
+          "surface": "unentschieden",
+          "hint": "unentschieden — нічия"
+        },
+        {
+          "surface": "Shootout",
+          "hint": "Shootout — серія буллітів"
+        },
+        {
+          "surface": "Treffer",
+          "hint": "Treffer — влучення"
+        },
+        {
+          "surface": "angefeuert",
+          "hint": "anfeuern — підбадьорювати"
+        },
+        {
+          "surface": "ausgereicht",
+          "hint": "ausreichen — вистачати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/3119238.jpg",
+      "publishedAt": "2026-09-22T20:43:07.000Z",
+      "processedAt": "2026-09-22T22:36:47.678Z"
+    },
+    {
+      "id": "7422c0ef",
+      "originalTitle": "Krieg im Nahen Osten - Macron kritisiert Lage in Gaza als beschämend",
+      "simplifiedText": "Frankreichs Präsident Emmanuel Macron hat in der UNO-Generaldebatte die Lage im Gazastreifen und im Westjordanland als beschämend kritisiert. Er hat gesagt, die humanitäre Situation ist sehr schlecht, weil viele Menschen kein Wasser und keine Nahrung bekommen. Die Rede ist sehr emotional gewesen und er hat die internationale Gemeinschaft aufgefordert, mehr Hilfe zu leisten. Trotzdem haben einige Länder nur wenig Unterstützung zugesagt, denn die Lage dort ist schlimmer als vor einem Monat. Macron hat danach mit anderen Staatschefs an einem runden Tisch diskutiert und hat versucht, eine Lösung zu finden. Ich wünsche mir Frieden, denn das wäre besser für alle Menschen in der Region.",
+      "vocabularyHints": [
+        "UNO-Generaldebatte — генеральна дискусія ООН",
+        "Gazastreifen — сектор Газа"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "UNO-Generaldebatte",
+          "hint": "UNO-Generaldebatte — генеральна дискусія ООН"
+        },
+        {
+          "surface": "Gazastreifen",
+          "hint": "Gazastreifen — сектор Газа"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/9c09be.jpg",
+      "publishedAt": "2026-09-22T21:10:46.000Z",
+      "processedAt": "2026-09-22T22:35:19.194Z"
+    },
+    {
+      "id": "4b224b86",
+      "originalTitle": "Krieg in der Ukraine - Selenski: Bereit zu trilateralem Treffen mit Putin und Trump",
+      "simplifiedText": "Donald Trump hat am Rande der UNO-Generaldebatte den ukrainischen Präsidenten Wolodimir Selenski getroffen. Das Treffen war kurz, aber beide Politiker haben sich freundlich begrüsst. Sie haben kurz über den Krieg in der Ukraine gesprochen, weil das Thema gerade sehr wichtig ist. Trump stand neben dem Rednerpult, während Selenski an einem Tisch neben den Delegierten stand. Trotzdem haben sie keine offizielle Erklärung abgegeben, denn die Medien haben nur das Bild veröffentlicht. Die Begegnung war überraschend, weil viele Beobachter nicht erwartet hatten, dass die beiden sich treffen.",
+      "vocabularyHints": [
+        "die UNO-Generaldebatte — генеральна дебата ООН",
+        "begrüssen — вітати",
+        "das Rednerpult — висловлювальна трибуна",
+        "der Delegierte — делегат",
+        "offiziell — офіційний",
+        "veröffentlichen — публікувати",
+        "die Begegnung — зустріч",
+        "überraschend — дивовижний",
+        "der Beobachter — спостерігач"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "UNO-Generaldebatte",
+          "hint": "die UNO-Generaldebatte — генеральна дебата ООН"
+        },
+        {
+          "surface": "begrüsst",
+          "hint": "begrüssen — вітати"
+        },
+        {
+          "surface": "Rednerpult",
+          "hint": "das Rednerpult — висловлювальна трибуна"
+        },
+        {
+          "surface": "Delegierten",
+          "hint": "der Delegierte — делегат"
+        },
+        {
+          "surface": "offizielle",
+          "hint": "offiziell — офіційний"
+        },
+        {
+          "surface": "veröffentlicht",
+          "hint": "veröffentlichen — публікувати"
+        },
+        {
+          "surface": "Begegnung",
+          "hint": "die Begegnung — зустріч"
+        },
+        {
+          "surface": "überraschend",
+          "hint": "überraschend — дивовижний"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter — спостерігач"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/93680a.jpg",
+      "publishedAt": "2026-09-22T21:10:51.000Z",
+      "processedAt": "2026-09-22T22:34:07.716Z"
+    },
     {
       "id": "709a8c19",
       "originalTitle": "Landtagswahlen in Deutschland - Merz auf Rücktrittsfrage: «Es hat keine Personaldebatte gegeben»",
@@ -2893,6 +3469,400 @@
     }
   ],
   "B1": [
+    {
+      "id": "34aba716",
+      "originalTitle": "«Ziemlich niedergeschlagen»: Mutter gibt nach Hai-Angriff Update",
+      "simplifiedText": "Eine australische Frau überlebte im Juni eine Hai-Attacke und lag danach zehn Tage im Koma. Sie wurde nach dem Vorfall sofort von Rettungskräften ins Krankenhaus gebracht. Im Krankenhaus wurde sie stabilisiert und nach und nach aus dem Koma geweckt. Seitdem kämpft sie sich Schritt für Schritt zurück ins Leben. Ihre Mutter gab kürzlich ein Update und beschrieb ihre Tochter als „ziemlich niedergeschlagen“. Trotz kleiner Fortschritte musste die Frau zuletzt einen schweren Rückschlag hinnehmen, weil sie erneut starke Schmerzen verspürte. Die Ärzte betonen, dass die Genesung noch lange dauern kann und dass Geduld wichtig ist. Die Familie hofft, dass sie bald wieder mehr Selbstständigkeit zurückgewinnt.",
+      "vocabularyHints": [
+        "die Hai-Attacke, -en — атака акули",
+        "das Koma, -s — кома",
+        "die Rettungskraft, -en — рятувальники",
+        "stabilisieren — стабілізувати",
+        "wecken — пробуджувати",
+        "niedergeschlagen — пригнічений",
+        "der Rückschlag, -e — невдача",
+        "betonen — підкреслювати",
+        "die Genesung, -en — одужання",
+        "die Selbstständigkeit, -en — самостійність"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Hai-Attacke",
+          "hint": "die Hai-Attacke, -en — атака акули"
+        },
+        {
+          "surface": "Koma",
+          "hint": "das Koma, -s — кома"
+        },
+        {
+          "surface": "Rettungskräften",
+          "hint": "die Rettungskraft, -en — рятувальники"
+        },
+        {
+          "surface": "stabilisiert",
+          "hint": "stabilisieren — стабілізувати"
+        },
+        {
+          "surface": "geweckt",
+          "hint": "wecken — пробуджувати"
+        },
+        {
+          "surface": "niedergeschlagen",
+          "hint": "niedergeschlagen — пригнічений"
+        },
+        {
+          "surface": "Rückschlag",
+          "hint": "der Rückschlag, -e — невдача"
+        },
+        {
+          "surface": "betonen",
+          "hint": "betonen — підкреслювати"
+        },
+        {
+          "surface": "Genesung",
+          "hint": "die Genesung, -en — одужання"
+        },
+        {
+          "surface": "Selbstständigkeit",
+          "hint": "die Selbstständigkeit, -en — самостійність"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/09/22/767b2fe1-8995-459d-ae82-eec6ee23a553.jpg?s=cfda1e7b4bba6daafe7977489a79fa49",
+      "publishedAt": "2026-09-22T19:07:29.000Z",
+      "processedAt": "2026-09-22T22:41:42.627Z"
+    },
+    {
+      "id": "56633f73",
+      "originalTitle": "Umstrittener Kampfjet-Kauf - «Wir gehen davon aus, dass es für 30 F-35 reichen wird»",
+      "simplifiedText": "Verteidigungsminister Martin Pfister hat erstmals zum umstrittenen F-35-Deal mit den USA Stellung genommen. Der geplante Kauf von bis zu dreissig Kampfjets sorgt seit Wochen für heftige Diskussionen. Pfister erklärte, dass die Regierung davon ausgeht, dass dreissig F-35 für die nationale Sicherheit ausreichen werden. Er betonte, dass die modernen Jets die Luftverteidigung deutlich stärken würden. Gleichzeitig wies er darauf hin, dass die genauen Kosten des Projekts noch verhandelt werden müssen. Kritiker befürchten, dass die hohen Ausgaben die Finanzlage des Landes belasten könnten. Die Regierung wolle deshalb Transparenz schaffen und den Vertrag weiter prüfen.",
+      "vocabularyHints": [
+        "der Verteidigungsminister — міністр оборони",
+        "umstritten — спірний",
+        "der Deal — угода",
+        "die Stellung — позиція",
+        "planen — запланований",
+        "der Kampfjet — винищувач",
+        "ausreichen — бути достатнім",
+        "stärken — зміцнювати",
+        "verhandeln — вести переговори",
+        "der Kritiker — критик",
+        "die Finanzlage — фінансовий стан",
+        "belasten — обтяжувати",
+        "die Transparenz — прозорість",
+        "prüfen — перевіряти"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Verteidigungsminister",
+          "hint": "der Verteidigungsminister — міністр оборони"
+        },
+        {
+          "surface": "umstrittenen",
+          "hint": "umstritten — спірний"
+        },
+        {
+          "surface": "Deal",
+          "hint": "der Deal — угода"
+        },
+        {
+          "surface": "Stellung",
+          "hint": "die Stellung — позиція"
+        },
+        {
+          "surface": "geplante",
+          "hint": "planen — запланований"
+        },
+        {
+          "surface": "Kampfjets",
+          "hint": "der Kampfjet — винищувач"
+        },
+        {
+          "surface": "ausreichen",
+          "hint": "ausreichen — бути достатнім"
+        },
+        {
+          "surface": "stärken",
+          "hint": "stärken — зміцнювати"
+        },
+        {
+          "surface": "verhandelt",
+          "hint": "verhandeln — вести переговори"
+        },
+        {
+          "surface": "Kritiker",
+          "hint": "der Kritiker — критик"
+        },
+        {
+          "surface": "Finanzlage",
+          "hint": "die Finanzlage — фінансовий стан"
+        },
+        {
+          "surface": "belasten",
+          "hint": "belasten — обтяжувати"
+        },
+        {
+          "surface": "Transparenz",
+          "hint": "die Transparenz — прозорість"
+        },
+        {
+          "surface": "prüfen",
+          "hint": "prüfen — перевіряти"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/7e7b2af.jpg",
+      "publishedAt": "2026-09-22T19:35:25.000Z",
+      "processedAt": "2026-09-22T22:40:21.409Z"
+    },
+    {
+      "id": "26b18a44",
+      "originalTitle": "Wiederverwertung - Plan C mit den Quaggamuscheln im Kanton Thurgau und Schaffhausen",
+      "simplifiedText": "Im Kanton Thurgau und im Kanton Schaffhausen wird seit Anfang des Jahres ein neues Projekt zur Verwertung von Quaggamuscheln gestartet. Die herkömmliche Entsorgung der Muscheln sei zu teuer, weil die Transport- und Lagerkosten stark ansteigen. Zudem habe das Aufwirbeln der Muscheln im Wasser nur geringe Ergebnisse gebracht, da die Teilchen schnell wieder absinken. Auch das Wegschwemmen an die Küste sei wenig erfolgversprechend, weil die Strände danach wieder stark verschmutzt werden. Deshalb haben die Kantone ein Pilotprojekt beschlossen, das die Wiederverwendung der Muscheln prüft. In einer ersten Testphase wird geprüft, ob die Muscheln als Rohstoff für andere Produkte genutzt werden können. Die Verantwortlichen hoffen, dass die neue Verwertung langfristig die Kosten senkt und die Umwelt schont. Das Projekt läuft zunächst für ein Jahr und wird danach von den Kantonen evaluiert.",
+      "vocabularyHints": [
+        "die Verwertung, -en — переробка, використання",
+        "die Quaggamuschel, -n — молюскова шкаралупа",
+        "die Entsorgung, -en — утилізація, вивезення сміття",
+        "aufwirbeln — збурювати, піднімати в повітря",
+        "wegschwemmen — змивати, виводити хвилею",
+        "erfolgversprechend — обіцяючий успіх, перспективний",
+        "das Pilotprojekt, -e — пілотний проєкт"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Verwertung",
+          "hint": "die Verwertung, -en — переробка, використання"
+        },
+        {
+          "surface": "Quaggamuscheln",
+          "hint": "die Quaggamuschel, -n — молюскова шкаралупа"
+        },
+        {
+          "surface": "Entsorgung",
+          "hint": "die Entsorgung, -en — утилізація, вивезення сміття"
+        },
+        {
+          "surface": "Aufwirbeln",
+          "hint": "aufwirbeln — збурювати, піднімати в повітря"
+        },
+        {
+          "surface": "Wegschwemmen",
+          "hint": "wegschwemmen — змивати, виводити хвилею"
+        },
+        {
+          "surface": "erfolgversprechend",
+          "hint": "erfolgversprechend — обіцяючий успіх, перспективний"
+        },
+        {
+          "surface": "Pilotprojekt",
+          "hint": "das Pilotprojekt, -e — пілотний проєкт"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/a324be.jpg",
+      "publishedAt": "2026-09-22T19:41:02.000Z",
+      "processedAt": "2026-09-22T22:38:40.309Z"
+    },
+    {
+      "id": "371af5e6",
+      "originalTitle": "National League am Dienstag - Davos verliert die Final-Reprise gegen Freiburg im Shootout",
+      "simplifiedText": "Am Dienstag hat der HC Davos im Playoff-Finale gegen den SC Freiburg verloren. Nach einer ausgeglichenen regulären Spielzeit stand es 1:1. In der Verlängerung erzielte Freiburg das entscheidende Tor und brachte das Spiel in ein Shootout. Im anschliessenden Penalty-Drama verwandelte Freiburg zwei Treffer, während Davos nur einen Treffer erzielen konnte. Damit endete das Spiel mit einem Ergebnis von 1:2 nach Penaltys. Der Sieg sichert Freiburg den Meistertitel der National League für die laufende Saison. Für Davos bedeutet die Niederlage das Aus für die aktuelle Playoff-Runde. Trainer und Spieler zeigten sich trotz der Enttäuschung sportlich und dankten den Fans für die lautstarke Unterstützung. Die nächste Begegnung der beiden Teams findet erst in der nächsten Saison statt.",
+      "vocabularyHints": [
+        "Playoff-Finale — плей-оф фінал",
+        "regulär — регулярний",
+        "Verlängerung — подовження, овертайм",
+        "Shootout — стрільби по воротах у серії пенальті",
+        "Penalty-Drama — драма з пенальті",
+        "Penalty — пенальті",
+        "Meistertitel — титул чемпіона",
+        "Niederlage — поразка",
+        "Enttäuschung — розчарування",
+        "lautstark — гучний, голосний",
+        "Unterstützung — підтримка",
+        "Begegnung — зустріч"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Playoff-Finale",
+          "hint": "Playoff-Finale — плей-оф фінал"
+        },
+        {
+          "surface": "regulären",
+          "hint": "regulär — регулярний"
+        },
+        {
+          "surface": "Verlängerung",
+          "hint": "Verlängerung — подовження, овертайм"
+        },
+        {
+          "surface": "Shootout",
+          "hint": "Shootout — стрільби по воротах у серії пенальті"
+        },
+        {
+          "surface": "Penalty-Drama",
+          "hint": "Penalty-Drama — драма з пенальті"
+        },
+        {
+          "surface": "Penaltys",
+          "hint": "Penalty — пенальті"
+        },
+        {
+          "surface": "Meistertitel",
+          "hint": "Meistertitel — титул чемпіона"
+        },
+        {
+          "surface": "Niederlage",
+          "hint": "Niederlage — поразка"
+        },
+        {
+          "surface": "Enttäuschung",
+          "hint": "Enttäuschung — розчарування"
+        },
+        {
+          "surface": "lautstarke",
+          "hint": "lautstark — гучний, голосний"
+        },
+        {
+          "surface": "Unterstützung",
+          "hint": "Unterstützung — підтримка"
+        },
+        {
+          "surface": "Begegnung",
+          "hint": "Begegnung — зустріч"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/3119238.jpg",
+      "publishedAt": "2026-09-22T20:43:07.000Z",
+      "processedAt": "2026-09-22T22:37:12.315Z"
+    },
+    {
+      "id": "362891b3",
+      "originalTitle": "Krieg im Nahen Osten - Macron kritisiert Lage in Gaza als beschämend",
+      "simplifiedText": "Frankreichs Präsident Emmanuel Macron hat in der UNO-Generaldebatte die Lage im Gazastreifen und im Westjordanland als beschämend bezeichnet. Er kritisierte, dass die anhaltende Gewalt die humanitäre Krise weiter verschärft. Macron forderte die internationale Gemeinschaft auf, sofortige Hilfe zu leisten und einen dauerhaften Waffenstillstand zu ermöglichen. Er betonte, dass ein Verstoss gegen das Völkerrecht nicht toleriert werden darf. Falls die Konfliktparteien nicht kooperieren, könnte die Situation weiter eskalieren und noch mehr Zivilisten treffen. Die UNO-Vertretung hat bereits mehrere Resolutionen verabschiedet, doch bislang blieben sie weitgehend wirkungslos. Macron appellierte an die Sicherheitsräte, die Friedensverhandlungen zu beschleunigen, um langfristigen Frieden zu sichern. Er schloss seine Rede mit dem Hinweis, dass die Welt nicht länger schweigen darf, wenn Menschenleben auf dem Spiel stehen.",
+      "vocabularyHints": [
+        "die UNO-Generaldebatte — загальна дискусія ООН",
+        "der Gazastreifen — сектор Газа",
+        "das Westjordanland — західний берег",
+        "beschämend — принизливий",
+        "humanitär — гуманітарний",
+        "das Völkerrecht — міжнародне право",
+        "kooperieren — співпрацювати",
+        "eskalieren — загострювати",
+        "die Resolution — рішення",
+        "verabschieden — приймати",
+        "wirkungslos — безрезультатний",
+        "der Sicherheitsrat — Рада безпеки",
+        "die Friedensverhandlung — мирні переговори",
+        "der Appell — заклик"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "UNO-Generaldebatte",
+          "hint": "die UNO-Generaldebatte — загальна дискусія ООН"
+        },
+        {
+          "surface": "Gazastreifen",
+          "hint": "der Gazastreifen — сектор Газа"
+        },
+        {
+          "surface": "Westjordanland",
+          "hint": "das Westjordanland — західний берег"
+        },
+        {
+          "surface": "beschämend",
+          "hint": "beschämend — принизливий"
+        },
+        {
+          "surface": "humanitäre",
+          "hint": "humanitär — гуманітарний"
+        },
+        {
+          "surface": "Völkerrecht",
+          "hint": "das Völkerrecht — міжнародне право"
+        },
+        {
+          "surface": "kooperieren",
+          "hint": "kooperieren — співпрацювати"
+        },
+        {
+          "surface": "eskalieren",
+          "hint": "eskalieren — загострювати"
+        },
+        {
+          "surface": "Resolutionen",
+          "hint": "die Resolution — рішення"
+        },
+        {
+          "surface": "verabschiedet",
+          "hint": "verabschieden — приймати"
+        },
+        {
+          "surface": "wirkungslos",
+          "hint": "wirkungslos — безрезультатний"
+        },
+        {
+          "surface": "Sicherheitsräte",
+          "hint": "der Sicherheitsrat — Рада безпеки"
+        },
+        {
+          "surface": "Friedensverhandlungen",
+          "hint": "die Friedensverhandlung — мирні переговори"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/9c09be.jpg",
+      "publishedAt": "2026-09-22T21:10:46.000Z",
+      "processedAt": "2026-09-22T22:35:57.377Z"
+    },
+    {
+      "id": "2728df5c",
+      "originalTitle": "Krieg in der Ukraine - Selenski: Bereit zu trilateralem Treffen mit Putin und Trump",
+      "simplifiedText": "US-Präsident Donald Trump traf am Rande der UNO-Generaldebatte den ukrainischen Präsidenten Wolodimir Selenski. Das Treffen fand in New York statt, wo die Generaldebatte der Vereinten Nationen abgehalten wurde. Beide Politiker nutzten die kurze Gelegenheit, um sich persönlich zu begegnen. Selenski erklärte, er sei bereit, an einem trilateralen Treffen mit dem russischen Präsidenten Wladimir Putin und Trump teilzunehmen. Er betonte, dass ein solches Gespräch ein wichtiger Schritt für die Friedensbemühungen in der Ukraine sein könnte. Die Medien berichteten sofort über das unerwartete Aufeinandertreffen. Beobachter diskutierten, welche politischen Konsequenzen ein solches trilaterales Treffen haben könnte.",
+      "vocabularyHints": [
+        "die UNO-Generaldebatte — загальна дебата ООН",
+        "trilateral — трилатеральний",
+        "die Friedensbemühung, -en — зусилля щодо миру",
+        "unerwartet — неочікуваний",
+        "das Aufeinandertreffen, - — зустріч",
+        "der Beobachter, - — спостерігач",
+        "die Konsequenz, -en — наслідок"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "UNO-Generaldebatte",
+          "hint": "die UNO-Generaldebatte — загальна дебата ООН"
+        },
+        {
+          "surface": "trilateralen",
+          "hint": "trilateral — трилатеральний"
+        },
+        {
+          "surface": "Friedensbemühungen",
+          "hint": "die Friedensbemühung, -en — зусилля щодо миру"
+        },
+        {
+          "surface": "unerwartete",
+          "hint": "unerwartet — неочікуваний"
+        },
+        {
+          "surface": "Aufeinandertreffen",
+          "hint": "das Aufeinandertreffen, - — зустріч"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter, - — спостерігач"
+        },
+        {
+          "surface": "Konsequenzen",
+          "hint": "die Konsequenz, -en — наслідок"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/93680a.jpg",
+      "publishedAt": "2026-09-22T21:10:51.000Z",
+      "processedAt": "2026-09-22T22:34:17.741Z"
+    },
     {
       "id": "56199e63",
       "originalTitle": "Nach Xhakas Corona-Lüge - so checkt die Schweizer Nati ein",
@@ -4905,8 +5875,421 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-22T10:13:51.437Z",
+  "updatedAt": "2026-09-22T22:57:34.409Z",
   "tsnA1": [
+    {
+      "id": "790f1263",
+      "originalTitle": "Яке церковне свято в Україні 30 вересня",
+      "simplifiedText": "30 вересня в Україні — церковне свято. У цей день вшановують святого Григорія, єпископа Вірменії. Він був мучеником за свою християнську віру. За його пам’яттю в церквах читають особливі служби. Традиція каже, що його кинули в яму зі зміями.",
+      "vocabularyHints": [
+        "церковний — kirchlich",
+        "свято — Fest",
+        "вшанувати — ehrten",
+        "святий — des Heiligen",
+        "єпископ — des Bischofs",
+        "мученик — Märtyrer",
+        "християнський — christliche",
+        "традиція — Tradition",
+        "казати — sagt",
+        "яма — die Grube",
+        "змія — mit Schlangen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "церковне",
+          "hint": "церковний — kirchlich"
+        },
+        {
+          "surface": "свято",
+          "hint": "свято — Fest"
+        },
+        {
+          "surface": "вшановують",
+          "hint": "вшанувати — ehrten"
+        },
+        {
+          "surface": "святого",
+          "hint": "святий — des Heiligen"
+        },
+        {
+          "surface": "єпископа",
+          "hint": "єпископ — des Bischofs"
+        },
+        {
+          "surface": "мучеником",
+          "hint": "мученик — Märtyrer"
+        },
+        {
+          "surface": "християнську",
+          "hint": "християнський — christliche"
+        },
+        {
+          "surface": "традиція",
+          "hint": "традиція — Tradition"
+        },
+        {
+          "surface": "каже",
+          "hint": "казати — sagt"
+        },
+        {
+          "surface": "яму",
+          "hint": "яма — die Grube"
+        },
+        {
+          "surface": "зміями",
+          "hint": "змія — mit Schlangen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/995/tsn-1284f5ef/thumbs/608xX/49/18/ec23e2448623f5f891d74f5a0baa1849.jpg",
+      "publishedAt": "2026-09-22T21:00:00.000Z",
+      "processedAt": "2026-09-22T22:55:10.687Z"
+    },
+    {
+      "id": "16935b33",
+      "originalTitle": "День ангела 30 вересня: кого та як вітати з іменинами",
+      "simplifiedText": "30 вересня — день ангела для багатьох імен. Вітаємо В’ячеслава, Василя, Григорія, Леоніда. Також святкують Матвій, Михайло, Олександр, Олексій. І ще Петро, Семен, Олександра, Олександру. Пишіть привітання в цей день.",
+      "vocabularyHints": [
+        "вересень — September",
+        "ангел — der Engel",
+        "багато — viele",
+        "ім'я — der Name",
+        "вітати — grüssen",
+        "також — auch",
+        "святкувати — feiern",
+        "ще — noch",
+        "писати — schreiben",
+        "привітання — der Gruss"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вересня",
+          "hint": "вересень — September"
+        },
+        {
+          "surface": "ангела",
+          "hint": "ангел — der Engel"
+        },
+        {
+          "surface": "багатьох",
+          "hint": "багато — viele"
+        },
+        {
+          "surface": "імен",
+          "hint": "ім'я — der Name"
+        },
+        {
+          "surface": "Вітаємо",
+          "hint": "вітати — grüssen"
+        },
+        {
+          "surface": "Також",
+          "hint": "також — auch"
+        },
+        {
+          "surface": "святкують",
+          "hint": "святкувати — feiern"
+        },
+        {
+          "surface": "ще",
+          "hint": "ще — noch"
+        },
+        {
+          "surface": "Пишіть",
+          "hint": "писати — schreiben"
+        },
+        {
+          "surface": "привітання",
+          "hint": "привітання — der Gruss"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/866/tsn-51cb131e/thumbs/608xX/8d/06/0dbcd484d2c9600c40c9efdb4639068d.jpg",
+      "publishedAt": "2026-09-22T21:00:00.000Z",
+      "processedAt": "2026-09-22T22:52:26.196Z"
+    },
+    {
+      "id": "62264c69",
+      "originalTitle": "День ангела 23 вересня: кого та як вітати з іменинами",
+      "simplifiedText": "23 вересня — день ангела для багатьох людей. У цей день іменини мають Андрій, Іван, Микола, Петро, Іраїда, Раїса. Кожне ім’я має своє значення і характер. Побажайте їм здоров’я, спокою і щастя.",
+      "vocabularyHints": [
+        "вересень — de September",
+        "ангел — de Engel",
+        "багато — vili",
+        "людина — die Personen",
+        "іменини — de Namenstag",
+        "ім’я — de Vorname",
+        "значення — die Bedeutung",
+        "характер — de Charakter",
+        "побажати — wünsche",
+        "здоров’я — die Gsundheit",
+        "спокій — die Rue"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вересня",
+          "hint": "вересень — de September"
+        },
+        {
+          "surface": "ангела",
+          "hint": "ангел — de Engel"
+        },
+        {
+          "surface": "багатьох",
+          "hint": "багато — vili"
+        },
+        {
+          "surface": "людей",
+          "hint": "людина — die Personen"
+        },
+        {
+          "surface": "іменини",
+          "hint": "іменини — de Namenstag"
+        },
+        {
+          "surface": "ім’я",
+          "hint": "ім’я — de Vorname"
+        },
+        {
+          "surface": "значення",
+          "hint": "значення — die Bedeutung"
+        },
+        {
+          "surface": "характер",
+          "hint": "характер — de Charakter"
+        },
+        {
+          "surface": "Побажайте",
+          "hint": "побажати — wünsche"
+        },
+        {
+          "surface": "здоров’я",
+          "hint": "здоров’я — die Gsundheit"
+        },
+        {
+          "surface": "спокою",
+          "hint": "спокій — die Rue"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/973/tsn-51cb131e/thumbs/608xX/ca/cf/05a022ed129164cb0a208ab8cfaecfca.jpg",
+      "publishedAt": "2026-09-22T21:01:00.000Z",
+      "processedAt": "2026-09-22T22:49:46.939Z"
+    },
+    {
+      "id": "681d4bc7",
+      "originalTitle": "Яке 23 вересня свято — все про цей день, яке церковне свято",
+      "simplifiedText": "23 вересня в Україні святкують Зачаття Івана Хрестителя. У цей день також відзначають Міжнародний день жестових мов. День створила ООН у 2017 році, а перший раз його провели 2018. 23 вересня – осіннє рівнодення, коли день і ніч однакові. У цей день також відзначають День бісексуальності, започаткований у 1999.",
+      "vocabularyHints": [
+        "зачаття — die Empfängnis",
+        "Іван — Johann",
+        "Хреститель — der Täufer",
+        "жестовий — Gebärden-",
+        "мова — die Sprache",
+        "створити — erschaffen",
+        "ООН — die UNO",
+        "рівнодення — die Tagundnachtgleiche",
+        "бісексуальність — die Bisexualität",
+        "започаткувати — initiiert"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Зачаття",
+          "hint": "зачаття — die Empfängnis"
+        },
+        {
+          "surface": "Івана",
+          "hint": "Іван — Johann"
+        },
+        {
+          "surface": "Хрестителя",
+          "hint": "Хреститель — der Täufer"
+        },
+        {
+          "surface": "жестових",
+          "hint": "жестовий — Gebärden-"
+        },
+        {
+          "surface": "мов",
+          "hint": "мова — die Sprache"
+        },
+        {
+          "surface": "створила",
+          "hint": "створити — erschaffen"
+        },
+        {
+          "surface": "ООН",
+          "hint": "ООН — die UNO"
+        },
+        {
+          "surface": "рівнодення",
+          "hint": "рівнодення — die Tagundnachtgleiche"
+        },
+        {
+          "surface": "бісексуальності",
+          "hint": "бісексуальність — die Bisexualität"
+        },
+        {
+          "surface": "започаткований",
+          "hint": "започаткувати — initiiert"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/820/tsn-51cb131e/thumbs/608xX/47/98/6d23cb26879c99e4e7e18cecd3fc9847.jpg",
+      "publishedAt": "2026-09-22T21:02:00.000Z",
+      "processedAt": "2026-09-22T22:47:12.499Z"
+    },
+    {
+      "id": "4192ee47",
+      "originalTitle": "Яке церковне свято в Україні 23 вересня",
+      "simplifiedText": "23 вересня — день у православному календарі. Тоді вшановують зачаття Івана Предтечі. Захарія і Єлисавета чекали дитину довго. За старим календарем пам’ять святителів Петра і Павла.",
+      "vocabularyHints": [
+        "православний — orthodox",
+        "календар — der Kalender",
+        "вшанувати — ehren",
+        "зачаття — die Empfängnis",
+        "предтеча — der Vorläufer",
+        "Захарія — Zacharias",
+        "Єлисавета — Elisabeth",
+        "чекати — warten",
+        "дитина — das Kind",
+        "пам’ять — die Erinnerung",
+        "святитель — die Heiligen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "православному",
+          "hint": "православний — orthodox"
+        },
+        {
+          "surface": "календарі",
+          "hint": "календар — der Kalender"
+        },
+        {
+          "surface": "вшановують",
+          "hint": "вшанувати — ehren"
+        },
+        {
+          "surface": "зачаття",
+          "hint": "зачаття — die Empfängnis"
+        },
+        {
+          "surface": "Предтечі",
+          "hint": "предтеча — der Vorläufer"
+        },
+        {
+          "surface": "Захарія",
+          "hint": "Захарія — Zacharias"
+        },
+        {
+          "surface": "Єлисавета",
+          "hint": "Єлисавета — Elisabeth"
+        },
+        {
+          "surface": "чекали",
+          "hint": "чекати — warten"
+        },
+        {
+          "surface": "дитину",
+          "hint": "дитина — das Kind"
+        },
+        {
+          "surface": "пам’ять",
+          "hint": "пам’ять — die Erinnerung"
+        },
+        {
+          "surface": "святителів",
+          "hint": "святитель — die Heiligen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/293/tsn-1284f5ef/thumbs/608xX/e6/89/74a8431c429c9cf84f603f9f37e889e6.jpg",
+      "publishedAt": "2026-09-22T21:05:00.000Z",
+      "processedAt": "2026-09-22T22:43:47.868Z"
+    },
+    {
+      "id": "1957437a",
+      "originalTitle": "Реактивні дрони рухаються над Україною: один летить у напрямку Києва, ще кілька — над Дніпропетровщиною",
+      "simplifiedText": "У ніч на 23 вересня над Україною спостерігали реактивні дрони. Один дрон був біля Козина і летів до Києва. Інший пролетів над Славутичем, а інші — у Дніпропетровщині. У 00:51 оголосили повітряну тривогу в кількох областях.",
+      "vocabularyHints": [
+        "ніч — die Nacht",
+        "вересень — September",
+        "спостерігати — beobachten",
+        "реактивний — reaktiv",
+        "дрон — die Drohne, -n",
+        "Козина — Kozyn",
+        "летіти — fliegen",
+        "Славутич — Slawutitsch",
+        "Дніпропетровщина — die Dnipropetrowschyna",
+        "оголосити — ankündigen",
+        "повітряний — Luft-",
+        "тривога — der Alarm",
+        "кілька — einige",
+        "область — die Region, -en"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "ніч",
+          "hint": "ніч — die Nacht"
+        },
+        {
+          "surface": "вересня",
+          "hint": "вересень — September"
+        },
+        {
+          "surface": "спостерігали",
+          "hint": "спостерігати — beobachten"
+        },
+        {
+          "surface": "реактивні",
+          "hint": "реактивний — reaktiv"
+        },
+        {
+          "surface": "дрони",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "Козина",
+          "hint": "Козина — Kozyn"
+        },
+        {
+          "surface": "летів",
+          "hint": "летіти — fliegen"
+        },
+        {
+          "surface": "Славутичем",
+          "hint": "Славутич — Slawutitsch"
+        },
+        {
+          "surface": "Дніпропетровщині",
+          "hint": "Дніпропетровщина — die Dnipropetrowschyna"
+        },
+        {
+          "surface": "оголосили",
+          "hint": "оголосити — ankündigen"
+        },
+        {
+          "surface": "повітряну",
+          "hint": "повітряний — Luft-"
+        },
+        {
+          "surface": "тривогу",
+          "hint": "тривога — der Alarm"
+        },
+        {
+          "surface": "кількох",
+          "hint": "кілька — einige"
+        },
+        {
+          "surface": "областях",
+          "hint": "область — die Region, -en"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/090/tsn-2e5933e84c8f120777c30b7610ecadcd/thumbs/608xX/2b/ad/cefa93fbd0110f2f9e82084d5b21ad2b.jpeg",
+      "publishedAt": "2026-09-22T22:10:20.000Z",
+      "processedAt": "2026-09-22T22:41:57.509Z"
+    },
     {
       "id": "3233997f",
       "originalTitle": "\"Вірогідність дуже велика\": росіяни можуть зайти до великого міста вже взимку",
@@ -5089,6 +6472,59 @@
     }
   ],
   "tsnA2": [
+    {
+      "id": "05dd8e72",
+      "originalTitle": "День ангела 30 вересня: кого та як вітати з іменинами",
+      "simplifiedText": "30 вересня в Україні відзначають іменини, які називаються «день ангела». У цей день святкують такі імена, як В’ячеслав, Василь, Григорій, Леонід, Матвій, Михайло, Олександр, Олексій, Петро, Семен і Олександра. Кожне ім’я має своє походження і значення: наприклад, В’ячеслав означає «велика слава», а Олександр – «захисник». У дитинстві люди з цими іменами часто описують певні риси, наприклад, В’ячеслав був допитливим, а Олексій – комунікабельним. Коли вони дорослішають, ці риси змінюються: В’ячеслав стає безкомпромісним, а Олексій – товариським. Тому, коли ви вітаєте когось з іменинами 30 вересня, можна згадати про його ім’я, його значення і про те, яким він став.",
+      "vocabularyHints": [
+        "іменини — die Namenstage",
+        "ангел — der Engel",
+        "походження — die Herkunft",
+        "значення — die Bedeutung",
+        "дитинство — die Kindheit",
+        "рис — die Merkmale",
+        "допитливий — neugierig",
+        "комунікабельний — kommunikativ"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "іменини",
+          "hint": "іменини — die Namenstage"
+        },
+        {
+          "surface": "ангела",
+          "hint": "ангел — der Engel"
+        },
+        {
+          "surface": "походження",
+          "hint": "походження — die Herkunft"
+        },
+        {
+          "surface": "значення",
+          "hint": "значення — die Bedeutung"
+        },
+        {
+          "surface": "дитинстві",
+          "hint": "дитинство — die Kindheit"
+        },
+        {
+          "surface": "риси",
+          "hint": "рис — die Merkmale"
+        },
+        {
+          "surface": "допитливим",
+          "hint": "допитливий — neugierig"
+        },
+        {
+          "surface": "комунікабельним",
+          "hint": "комунікабельний — kommunikativ"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/866/tsn-51cb131e/thumbs/608xX/8d/06/0dbcd484d2c9600c40c9efdb4639068d.jpg",
+      "publishedAt": "2026-09-22T21:00:00.000Z",
+      "processedAt": "2026-09-22T22:53:01.013Z"
+    },
     {
       "id": "26508cc0",
       "originalTitle": "\"Вірогідність дуже велика\": росіяни можуть зайти до великого міста вже взимку",
