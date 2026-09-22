@@ -5,12 +5,12 @@ const { simplifyArticle, toSwiss, simplifyTsnArticle } = require("./groqService"
 
 const DB_PATH       = path.join(__dirname, "..", "data", "articles.json");
 const LEVELS        = ["A1", "A2", "B1"];
-const MAX_PER_LEVEL = 30;
+const MAX_PER_LEVEL = 100;
 // TSN articles are stored under their own keys (tsnA1/tsnA2/tsnB1) so the
 // existing app/DE sections (A1/A2/B1) stay untouched — an app build that
 // doesn't know about TSN yet just ignores the extra keys.
 const TSN_LEVEL_KEYS = { A1: "tsnA1", A2: "tsnA2", B1: "tsnB1" };
-const MAX_PER_LEVEL_TSN = 30;
+const MAX_PER_LEVEL_TSN = 100;
 
 // How many NEW source articles (not levels — articles) to process per run,
 // per pipeline (app/DE and TSN each get their own budget).
