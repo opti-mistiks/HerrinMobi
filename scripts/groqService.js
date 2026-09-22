@@ -424,6 +424,52 @@ function containsWholeWord(text, word) {
   return new RegExp(`(^|[^\\p{L}])${esc}([^\\p{L}]|$)`, "iu").test(text);
 }
 
+// Mirror of buildVocabulary() above, for the TSN (Ukrainian) pipeline.
+// The direction is reversed: `surface`/`lemma` are Ukrainian (found in the
+// Ukrainian article text the student reads), `deu` is the Swiss German word
+// the student will need when translating that word INTO German — so only
+// the German side goes through toSwiss(), and the hint line reads
+// "українське_слово — deutsches Wort" (Ukrainian first, matching how the
+// student encounters the word in the text, German second, what they'll
+// need to produce).
+function buildVocabularyUkrainian(vocab, text) {
+  const hints = [];
+  const words = [];
+  const seenSurface = new Set();
+  const seenHint = new Set();
+
+  for (const v of vocab) {
+    if (!v || typeof v !== "object") continue;
+    const surface = String(v.surface || "").trim();
+    const lemma   = String(v.lemma || v.surface || "").trim();
+    const deu     = toSwiss(String(v.deu || "")).trim();
+    if (!lemma || !deu) continue;
+    // Guard against "слово — Слово" style non-translations.
+    if (deu.toLowerCase() === lemma.toLowerCase()) continue;
+
+    const hint = `${lemma} — ${deu}`;
+    if (!seenHint.has(hint)) {
+      seenHint.add(hint);
+      hints.push(hint);
+    }
+
+    if (!surface || seenSurface.has(surface.toLowerCase())) continue;
+    if (!containsWholeWord(text, surface)) continue;
+    seenSurface.add(surface.toLowerCase());
+    words.push({ surface, hint });
+  }
+
+  const pos = new Map(); // hint -> index in text
+  for (const w of words) {
+    const m = new RegExp(`(^|[^\\p{L}])(${w.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})([^\\p{L}]|$)`, "iu").exec(text);
+    if (m) pos.set(w.hint, m.index + m[1].length);
+  }
+  const order = h => (pos.has(h) ? pos.get(h) : Number.MAX_SAFE_INTEGER);
+  hints.sort((a, b) => order(a) - order(b));
+  words.sort((a, b) => order(a.hint) - order(b.hint));
+  return { hints, words };
+}
+
 function generateId(title, level) {
   const str = `${level}:${title}`;
   let hash = 0;
@@ -435,21 +481,29 @@ function generateId(title, level) {
 
 // ─────────────────────────────────────────────────────────────────────────
 // TSN.ua PIPELINE — mirrors simplifyArticle above, but the source AND the
-// simplified text stay Ukrainian (no language change here). A separate
-// German "reference translation" is generated afterwards by
-// translateSimplifiedToGerman, ONLY so the app has something to compare the
-// student's own UK->DE translation attempt against — it is never shown to
-// the student directly.
+// simplified text stay Ukrainian (no language change here). The student
+// reads this Ukrainian text and translates it INTO German themselves; that
+// attempt is checked client-side directly against this Ukrainian original
+// (see GroqService.checkNewsTranslationToGerman in the app) — mirroring how
+// the app/DE pipeline's own German text is checked directly against a
+// Ukrainian attempt, with no separately pre-generated reference translation
+// on either side.
 // ─────────────────────────────────────────────────────────────────────────
 const UK_LEVEL_CONFIG = {
   A1: {
     textInstruction: "Напиши 4-5 речень, приблизно 6-12 слів кожне, простою українською мовою: прості розповідні речення, теперішній/минулий час у звичайній формі, без складних підрядних речень (уникай 'який/яка/яке', 'оскільки', 'незважаючи на те що'). Пов'язуй речення природно словами 'і', 'але', 'потім', 'тому' — не пиши роботизований список фактів. Залиш лише 2-3 найважливіші факти статті (хто/що сталося, і одну ключову деталь: де/коли/скільки) — опускати другорядні деталі правильно на цьому рівні, але кожне речення має описувати щось, що дійсно Є в джерельній статті. Не вигадуй іншу, простішу побутову сценку лише тому, що реальну історію важко висловити простими словами.",
+    hintExclusions: "НІКОЛИ не додавай підказку для базових слів рівня A1: sein, haben, werden, machen, gehen, kommen, sehen, sagen, wollen, können, müssen; займенники; артиклі; числа; назви країн/міст; очевидні когнати з українською чи англійською.)",
+    hintGuidance: "Словник A1-студента малий, тож більшість не-базових слів справді будуть для нього новими — але й текст найкоротший (4-5 речень), тож підказок теж не буде багато, зазвичай близько 4-6 для тексту такої довжини.",
   },
   A2: {
     textInstruction: "Напиши 5-7 речень, які читаються як природна, зв'язна міні-історія, а не список фактів. Можна використовувати прості підрядні речення з 'тому що', 'коли', 'хоча', порівняння ('більше/менше ніж'), і трохи більше побутової лексики. Залиш головні факти статті (хто, що сталося, ключові цифри/місця/причини) — можна спрощувати чи опускати другорядні деталі, але кожне речення має описувати щось, що дійсно Є в джерельній статті, а не вигадану простішу ситуацію.",
+    hintExclusions: "НІКОЛИ не додавай підказку для базових слів рівня A1-A2; назв країн/міст; очевидних когнатів.)",
+    hintGuidance: "Цей текст довший за A1 (5-7 речень) і сягає лексики рівня A2, тому очікуй помітно більше підказок, ніж на A1 — зазвичай близько 6-9.",
   },
   B1: {
     textInstruction: "Напиши 7-9 речень як природну, плинну розповідь — варіюй довжину та структуру речень так, як це робить справжня коротка новина. Можна використовувати складніші підрядні речення, різні часи. Збережи ключові факти, цифри, імена та реальну послідовність/причинно-наслідкові зв'язки подій з оригіналу.",
+    hintExclusions: "НІКОЛИ не додавай підказку для слів, які будь-який B1-студент вже знає; очевидних когнатів.)",
+    hintGuidance: "Це найдовший і найскладніший текст (7-9 речень, реальна новинна лексика — політика, економіка, спеціалізовані терміни), тому він зазвичай матиме найбільше підказок з усіх трьох рівнів, часто 8-12 і більше. Додавай підказку для кожного слова тексту, яке B1-студенту справді знадобиться пояснити німецьким відповідником — не зупиняйся на круглому числі, якщо лексика тексту реально складніша.",
   },
 };
 
@@ -457,7 +511,7 @@ async function simplifyArticleUkrainian(article, level) {
   const cfg = UK_LEVEL_CONFIG[level];
   const cleanTitle = String(article.title || "").trim();
 
-  const systemPrompt = `Ти редактор, який спрощує українські новини для вивчаючих мову.
+  const systemPrompt = `Ти редактор, який спрощує українські новини для вивчаючих німецьку мову.
 Output: single minified JSON object. No markdown, no backticks.
 
 === КРИТИЧНЕ ПРАВИЛО: ВІРНІСТЬ ДЖЕРЕЛУ ===
@@ -483,9 +537,36 @@ Output: single minified JSON object. No markdown, no backticks.
 ${cfg.textInstruction}
 Пиши літературною українською мовою.
 
+2. СЛОВНИК ("vocabulary") — масив об'єктів. Студент читає цей УКРАЇНСЬКИЙ
+текст, але його завдання — самостійно перекласти його НІМЕЦЬКОЮ (рівень
+${level}, швейцарська німецька, "ss" замість "ß"). Тому підказки тут — це
+НЕ пояснення українських слів (текст і так рідною мовою студента), а
+підказки НІМЕЦЬКОГО слова, яке знадобиться студенту під час перекладу.
+- Пройдись по своєму спрощеному тексту і для кожного українського слова
+  чи виразу, якому відповідає НІМЕЦЬКЕ слово, що ${level}-студент, ймовірно,
+  НЕ знає, НЕ пам'ятає, або яке є рідковживаним/складним — додай підказку.
+- НЕ додавай підказку, якщо очікуваний німецький відповідник базовий,
+  дуже частотний або totally cognate/очевидний на цьому рівні (${cfg.hintExclusions}
+- Do NOT target a fixed count. ${cfg.hintGuidance} Правильна кількість —
+  саме стільки, скільки слів у ЦЬОМУ тексті реально відповідають цьому
+  критерію — може відрізнятись від статті до статті.
+- Кожен об'єкт має ТРИ поля:
+  * "surface": українське слово/вираз ТОЧНО як воно написане в твоєму
+    спрощеному тексті (та сама форма, той самий відмінок/число), щоб його
+    можна було знайти в тексті точним збігом.
+  * "lemma": те саме українське слово в словниковій формі (називний
+    відмінок однини для іменників, інфінітив для дієслів), якщо форма в
+    тексті відмінюється — інакше те саме, що surface.
+  * "deu": НІМЕЦЬКИЙ відповідник цього слова швейцарською німецькою
+    (те слово/вираз, яке студенту знадобиться при перекладі на німецьку).
+    Іменники — з артиклем і, якщо доречно, множиною: "die Wahl, -en".
+    Дієслова — в інфінітиві: "klagen". НІКОЛИ не копіюй українське слово
+    замість перекладу.
+- Кожне слово лише один раз. Ніколи не дублюй один і той самий surface.
+
 === OUTPUT ===
 Return ONLY valid JSON, nothing else:
-{"simplified_text_ukr":"..."}`;
+{"simplified_text_ukr":"...","vocabulary":[{"surface":"...","lemma":"...","deu":"..."}]}`;
 
   const truncatedDescription = String(article.description || "").slice(0, 1500);
   const maxAttempts = 3;
@@ -516,55 +597,13 @@ Return ONLY valid JSON, nothing else:
       if (!raw.trim()) throw new Error("Groq returned an empty completion");
       const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
       if (!parsed.simplified_text_ukr) throw new Error("Missing simplified_text_ukr in parsed JSON");
-      return parsed.simplified_text_ukr.trim();
+      return {
+        text: parsed.simplified_text_ukr.trim(),
+        vocabulary: Array.isArray(parsed.vocabulary) ? parsed.vocabulary : [],
+      };
     } catch (err) {
       lastErr = err;
       console.warn(`  ⚠️  [TSN ${level}] Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
-      if (attempt < maxAttempts) await sleep(2000);
-    }
-  }
-  throw lastErr;
-}
-
-// Translates the already-simplified Ukrainian text into Swiss High German —
-// used ONLY as the answer key the app checks the student's UK->DE attempt
-// against (never shown to the student as-is).
-async function translateSimplifiedToGerman(ukrainianText) {
-  const systemPrompt = `You translate Ukrainian text into SWISS High German (Schweizer Hochdeutsch).
-Never use the letter "ß" — always "ss" (Strasse, heissen, gross, gewusst).
-This translation becomes the ANSWER KEY a student's own translation attempt
-is graded against, so precision matters more than elegance:
-- Translate EVERY sentence and EVERY fact (numbers, names, dates, places)
-  from the Ukrainian source — never drop, merge, or summarize a sentence.
-- Never add information, explanation, or detail that isn't in the source.
-- Keep the same sentence boundaries as the source where natural, so the
-  translation stays easy to align sentence-by-sentence with the original.
-- Natural, fluent, grammatically correct Swiss High German — not a stiff
-  word-for-word gloss, but never freer than the source either.
-Output ONLY valid minified JSON, no markdown: {"german_text":"..."}`;
-
-  const maxAttempts = 3;
-  let lastErr;
-  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-    try {
-      const data = await groqRequest({
-        model: MODEL,
-        temperature: 0.1,
-        max_tokens: 1000,
-        reasoning_effort: "low",
-        response_format: { type: "json_object" },
-        messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: ukrainianText },
-        ],
-      }, 3, TSN_API_KEY);
-      const raw = data.choices?.[0]?.message?.content || "";
-      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-      if (!parsed.german_text) throw new Error("Missing german_text in parsed JSON");
-      return toSwiss(parsed.german_text.trim());
-    } catch (err) {
-      lastErr = err;
-      console.warn(`  ⚠️  [TSN DE ref] Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
       if (attempt < maxAttempts) await sleep(2000);
     }
   }
@@ -615,17 +654,44 @@ function detectCategoryUkrainian(article) {
   return "Gesellschaft";
 }
 
+// The internal category codes above (Politik/Gesellschaft/Wissenschaft/...)
+// are the same taxonomy used for the German/20min articles, kept as the
+// canonical set for consistency (colors, grouping). But TSN articles are
+// Ukrainian news for a Ukrainian-reading student — the label actually shown
+// in the UI (the "pill" over the article) must be Ukrainian too, not the
+// internal German code name. This maps the internal code to its Ukrainian
+// display label; used only at the point where `category` is written into
+// the TSN article record.
+const UK_CATEGORY_LABELS = {
+  Wetter:        "Погода",
+  Politik:       "Політика",
+  Sport:         "Спорт",
+  Wirtschaft:    "Економіка",
+  Gesundheit:    "Здоров'я",
+  Gesellschaft:  "Суспільство",
+  Verkehr:       "Транспорт",
+  Kultur:        "Культура",
+  Wissenschaft:  "Наука",
+};
+
 async function simplifyTsnArticle(article, level) {
-  const simplifiedUkr = await simplifyArticleUkrainian(article, level);
-  // Same RPM-spacing reasoning as simplifyArticle() above.
-  await sleep(1000);
-  const germanReference = await translateSimplifiedToGerman(simplifiedUkr);
+  const { text: simplifiedUkr, vocabulary } = await simplifyArticleUkrainian(article, level);
+  const internalCategory = detectCategoryUkrainian(article);
+  // "surface"/"lemma" from the model are Ukrainian (found in simplifiedUkr);
+  // only the "deu" side is Swiss German and needs the toSwiss() pass —
+  // buildVocabularyUkrainian() applies it to the right field.
+  const { hints, words } = buildVocabularyUkrainian(vocabulary, simplifiedUkr);
   return {
     id:               generateId(`tsn:${article.title}`, level),
     originalTitle:    String(article.title || "").trim(),
     simplifiedText:   simplifiedUkr,       // Ukrainian — what the student reads
-    germanReference:  germanReference,     // Swiss German — answer key, never shown
-    category:         detectCategoryUkrainian(article),
+    vocabularyHints:  hints,               // "укр_слово — deutsches Wort"
+    vocabularyWords:  words,               // exact in-text Ukrainian forms to bold/tap
+    // Ukrainian label for display (the article is Ukrainian news for a
+    // Ukrainian-reading student) — see UK_CATEGORY_LABELS above. Falls back
+    // to the internal code itself in the unlikely case a new internal
+    // category is ever added here without a matching label.
+    category:         UK_CATEGORY_LABELS[internalCategory] || internalCategory,
     imageUrl:         article.imageUrl || null,
     publishedAt:      article.pubDate || null,
     processedAt:      new Date().toISOString(),
@@ -638,3 +704,4 @@ module.exports = {
   detectCategory,
   simplifyTsnArticle,
 };
+
