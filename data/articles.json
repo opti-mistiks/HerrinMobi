@@ -1,6 +1,74 @@
 {
   "A1": [
     {
+      "id": "24337de0",
+      "originalTitle": "Deutscher Funkspruch nach 107 Jahren entschlüsselt",
+      "simplifiedText": "Eine KI hat das ADFGVX-Verfahren geknackt. Sie hat einen 107-jährigen deutschen Funkspruch entschlüsselt. Der Funkspruch stammt aus dem Ersten Weltkrieg. Forscherinnen und Forscher feiern den Erfolg heute.",
+      "vocabularyHints": [
+        "die KI — штучний інтелект",
+        "das ADFGVX-Verfahren — метод ADFGVX",
+        "knacken — зламати",
+        "der Funkspruch — радіоповідомлення",
+        "entschlüsseln — розшифрувати",
+        "stammen — походити",
+        "der Weltkrieg — перша світова війна",
+        "die Forscherin — науковиця",
+        "der Forscher — науковець",
+        "feiern — відзначати",
+        "der Erfolg — успіх"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "KI",
+          "hint": "die KI — штучний інтелект"
+        },
+        {
+          "surface": "ADFGVX-Verfahren",
+          "hint": "das ADFGVX-Verfahren — метод ADFGVX"
+        },
+        {
+          "surface": "geknackt",
+          "hint": "knacken — зламати"
+        },
+        {
+          "surface": "Funkspruch",
+          "hint": "der Funkspruch — радіоповідомлення"
+        },
+        {
+          "surface": "entschlüsselt",
+          "hint": "entschlüsseln — розшифрувати"
+        },
+        {
+          "surface": "stammt",
+          "hint": "stammen — походити"
+        },
+        {
+          "surface": "Weltkrieg",
+          "hint": "der Weltkrieg — перша світова війна"
+        },
+        {
+          "surface": "Forscherinnen",
+          "hint": "die Forscherin — науковиця"
+        },
+        {
+          "surface": "Forscher",
+          "hint": "der Forscher — науковець"
+        },
+        {
+          "surface": "feiern",
+          "hint": "feiern — відзначати"
+        },
+        {
+          "surface": "Erfolg",
+          "hint": "der Erfolg — успіх"
+        }
+      ],
+      "category": "Wissenschaft",
+      "imageUrl": "https://image.20min.ch/2026/09/22/235825f7-9d1d-4f36-a5cb-7e78f55448d8.png?s=3aa44fa979eb6bd434ed53c7de82a409",
+      "publishedAt": "2026-09-22T10:04:21.000Z",
+      "processedAt": "2026-09-22T10:08:55.459Z"
+    },
+    {
       "id": "37c9d838",
       "originalTitle": "Landtagswahlen in Deutschland - Merz auf Rücktrittsfrage: «Es hat keine Personaldebatte gegeben»",
       "simplifiedText": "In Mecklenburg-Vorpommern hat die AfD die Wahl gewonnen. Die SPD ist knapp dahinter. Die CDU ist aus dem Landtag ausgefallen. Das ist das Ergebnis der Landtagswahl.",
@@ -1239,59 +1307,6 @@
       "imageUrl": "https://media.20min.ch/6/image/2025/11/11/dfd1d091-61d6-4956-b57b-bc55e6139277.jpg?s=7c7e6aa193548af6a72c48e7eb085c55",
       "publishedAt": "2026-09-20T08:59:26.000Z",
       "processedAt": "2026-09-20T10:23:04.790Z"
-    },
-    {
-      "id": "483a9fbd",
-      "originalTitle": "Hungriger Nachbarplanet - Die Venus ass wohl ihren Mond auf",
-      "simplifiedText": "Die Venus hat ihren Mond verschluckt. Wissenschaftler haben neue Daten gefunden. Die Daten zeigen einen sehr grossen Planeten. Damit gibt es keinen Mond mehr. Forscher untersuchen jetzt die Atmosphäre.",
-      "vocabularyHints": [
-        "verschlucken — поглинати",
-        "der Wissenschaftler, - — вчений",
-        "die Daten, - — дані",
-        "gross — великий",
-        "der Planet, -en — планета",
-        "der Forscher, - — дослідник",
-        "untersuchen — досліджувати",
-        "die Atmosphäre, - — атмосфера"
-      ],
-      "vocabularyWords": [
-        {
-          "surface": "verschluckt",
-          "hint": "verschlucken — поглинати"
-        },
-        {
-          "surface": "Wissenschaftler",
-          "hint": "der Wissenschaftler, - — вчений"
-        },
-        {
-          "surface": "Daten",
-          "hint": "die Daten, - — дані"
-        },
-        {
-          "surface": "grossen",
-          "hint": "gross — великий"
-        },
-        {
-          "surface": "Planeten",
-          "hint": "der Planet, -en — планета"
-        },
-        {
-          "surface": "Forscher",
-          "hint": "der Forscher, - — дослідник"
-        },
-        {
-          "surface": "untersuchen",
-          "hint": "untersuchen — досліджувати"
-        },
-        {
-          "surface": "Atmosphäre",
-          "hint": "die Atmosphäre, - — атмосфера"
-        }
-      ],
-      "category": "Wissenschaft",
-      "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1debcd.webp",
-      "publishedAt": "2026-09-20T09:05:04.000Z",
-      "processedAt": "2026-09-20T10:22:11.525Z"
     }
   ],
   "A2": [
@@ -4890,8 +4905,68 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-21T13:39:24.759Z",
+  "updatedAt": "2026-09-22T10:13:51.437Z",
   "tsnA1": [
+    {
+      "id": "3233997f",
+      "originalTitle": "\"Вірогідність дуже велика\": росіяни можуть зайти до великого міста вже взимку",
+      "simplifiedText": "Російські війська можуть увійти до Запоріжжя взимку. Це будуть окремі піхотні групи, і не великі підрозділи. Командир 1‑го штурмового полку Дмитро «Перун» Філатов сказав це. Він оцінив ймовірність як дуже високу.",
+      "germanReference": "Russische Truppen können im Winter nach Saporischschja einmarschieren. Es werden einzelne Infanteriegruppen sein und keine grossen Einheiten. Der Kommandant des 1. Sturmregiments, Dmytro \"Perun\" Filatov, sagte das. Er bewertete die Wahrscheinlichkeit als sehr hoch.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/755/tsn-dcf0ded845fb4249b37e656be0b1987a/thumbs/608xX/9f/12/cf104efe15904c8608a4500d49ca129f.jpeg",
+      "publishedAt": "2026-09-22T09:17:40.000Z",
+      "processedAt": "2026-09-22T10:13:12.174Z"
+    },
+    {
+      "id": "4ad095e3",
+      "originalTitle": "ВЛК визнала придатним, але здоров’я погіршилося: що робити військовому 2026 року",
+      "simplifiedText": "Військово‑лікарська комісія (ВЛК) визнала його придатним до служби. Пізніше його здоров’я різко погіршилося через хронічну хворобу. Він може отримати нове направлення на ВЛК. Для цього треба подати рапорт і медичні документи.",
+      "germanReference": "Die Wehrmedizinische Kommission (WMK) hat ihn für den Dienst als geeignet befunden. Später verschlechterte sich seine Gesundheit plötzlich wegen einer chronischen Krankheit. Er kann eine neue Verordnung für die WMK erhalten. Dafür muss ein Bericht und medizinische Dokumente eingereicht werden.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/829/tsn-51cb131e/thumbs/608xX/9f/58/b26cabff0e722fc913e8399d528d589f.png",
+      "publishedAt": "2026-09-22T09:21:00.000Z",
+      "processedAt": "2026-09-22T10:12:18.224Z"
+    },
+    {
+      "id": "44daba9f",
+      "originalTitle": "Погода готує неприємний сюрприз: що принесе Україні циклон із Чорного моря",
+      "simplifiedText": "У середу, 23 вересня, над Україною пройде циклоничний шторм. Сильні дощі будуть у Сумщині, Полтавщині, Дніпропетровщині. На сході вітри можуть досягти 15‑22 м/с. Температура на заході впаде до +6…+9 °C. У Києві лише легкий дощ ввечері можливий.",
+      "germanReference": "Am Mittwoch, dem 23. September, wird über der Ukraine ein Zyklonsturm ziehen. Starke Regenfälle werden in der Region Sumy, Poltawa und Dnipropetrowsk auftreten. Im Osten können die Winde 15-22 m/s erreichen. Die Temperatur im Westen wird auf +6…+9 °C fallen. In Kiew ist nur leichter Regen am Abend möglich.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/850/tsn-1284f5ef/thumbs/608xX/14/99/b96d55ecccc12b30c23825bfe8079914.jpg",
+      "publishedAt": "2026-09-22T09:28:43.000Z",
+      "processedAt": "2026-09-22T10:11:17.668Z"
+    },
+    {
+      "id": "2b232edc",
+      "originalTitle": "Як правильно збирати урожай капусти: куди дівати коріння після зрізання качанів — корисні поради",
+      "simplifiedText": "Качани капусти зрізають гострим ножем у суху погоду. Після збору залишки рослин підрібнюють і кладуть у компост. Здорове коріння теж можна закопати в ґрунт. Так зменшуємо ризик шкідників і хвороб.",
+      "germanReference": "Kapaulenkohl wird bei trockenem Wetter mit einem scharfen Messer geschnitten. Nach der Ernte werden die Pflanzenreste zerkleinert und in den Kompost gegeben. Gesunde Wurzeln können ebenfalls in den Boden vergraben werden. So reduzieren wir das Risiko von Schädlingen und Krankheiten.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/938/tsn-1284f5ef/thumbs/608xX/c3/d0/e56052b08421f6856be6c8048034d0c3.jpg",
+      "publishedAt": "2026-09-22T09:30:14.000Z",
+      "processedAt": "2026-09-22T10:10:12.738Z"
+    },
+    {
+      "id": "43c2e39a",
+      "originalTitle": "Львівського блогера Пана Романа мобілізували до війська: де він служитиме",
+      "simplifiedText": "Львівського блогера Романа Чихарівського, відомого як Пан Роман, мобілізували. Він буде служити у полку безпілотних систем «Лава». Цей полк входить до корпусу «Хартія» Національної гвардії. Блогер повідомив про це 21 вересня в Instagram.",
+      "germanReference": "Der Lwiwer Blogger Roman Tschicharowski, bekannt als Pan Roman, wurde mobilisiert. Er wird im Regiment für unbemannte Systeme \"Lava\" dienen. Dieses Regiment gehört zum Korps \"Charta\" der Nationalgarde. Der Blogger meldete dies am 21. September auf Instagram.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/752/tsn-51cb131e/thumbs/608xX/d8/ca/16f66d7e5909b850d9fe32d32b2ccad8.jpg",
+      "publishedAt": "2026-09-22T09:37:12.000Z",
+      "processedAt": "2026-09-22T10:09:49.009Z"
+    },
+    {
+      "id": "11105d8a",
+      "originalTitle": "Об’єкт «Нафтогазу» повністю знищено: РФ завдала щонайменше п’ять ударів балістикою",
+      "simplifiedText": "Уночі 22 вересня російські війська вдарили по Нафтогазу. Вони використали щонайменше п’ять балістичних ракет. Тому удар повністю знищив об’єкт у Полтавській області. Об’єкт був уже не працював і обладнання вимкнено.",
+      "germanReference": "In der Nacht des 22. September haben russische Truppen das Unternehmen Naftogas angegriffen. Sie setzten mindestens fünf ballistische Raketen ein. Deshalb hat der Schlag das Objekt in der Region Poltawa vollständig zerstört. Das Objekt funktionierte bereits nicht mehr und die Ausrüstung war abgeschaltet.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/200/tsn-1284f5ef/thumbs/608xX/d9/ae/d25b3d0571834a47ff7bf4cda613aed9.jpg",
+      "publishedAt": "2026-09-22T09:55:36.000Z",
+      "processedAt": "2026-09-22T10:09:26.810Z"
+    },
     {
       "id": "45fc28f0",
       "originalTitle": "Бійка за шезлонг на пляжі закінчилася смертю 82-річного чоловіка: деталі трагедії",
@@ -5015,6 +5090,66 @@
   ],
   "tsnA2": [
     {
+      "id": "26508cc0",
+      "originalTitle": "\"Вірогідність дуже велика\": росіяни можуть зайти до великого міста вже взимку",
+      "simplifiedText": "Командир 1‑го окремого штурмового полку Дмитро «Перун» Філатов сказав у відео на каналі «Реальний фронт», що російські війська можуть увійти до Запоріжжя вже взимку. За його словами, це може статися завдяки невеликим піхотним групам, які будуть пробиратися поодинці. Філатов вважає, що ймовірність такого прориву зараз дуже висока. Він підкреслив, що ворог шукає способи просування і намагається прорватися в міську забудову саме такими малими підрозділами. Якщо це станеться, це створить нову загрозу для мешканців міста. Раніше повідомляли, що навіть президент Путін готовий йти на великий ризик у цій війні.",
+      "germanReference": "Der Kommandant des 1. separaten Sturmregiments Dmitro \"Perun\" Filatov sagte in einem Video auf dem Kanal \"Real Front\", dass russische Truppen bereits im Winter in Saporischschja einmarschieren könnten. Laut seiner Aussage könnte das dank kleiner Infanteriegruppen geschehen, die einzeln vorrücken. Filatov hält die Wahrscheinlichkeit eines solchen Durchbruchs derzeit für sehr hoch. Er betonte, dass der Feind nach Möglichkeiten zum Vormarsch sucht und versucht, mit genau solchen kleinen Einheiten in die städtische Bebauung einzudringen. Sollte das geschehen, würde das eine neue Gefahr für die Stadtbewohner darstellen. Zuvor wurde berichtet, dass sogar Präsident Putin bereit ist, in diesem Krieg ein grosses Risiko einzugehen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/755/tsn-dcf0ded845fb4249b37e656be0b1987a/thumbs/608xX/9f/12/cf104efe15904c8608a4500d49ca129f.jpeg",
+      "publishedAt": "2026-09-22T09:17:40.000Z",
+      "processedAt": "2026-09-22T10:13:28.108Z"
+    },
+    {
+      "id": "6f8e277e",
+      "originalTitle": "ВЛК визнала придатним, але здоров’я погіршилося: що робити військовому 2026 року",
+      "simplifiedText": "Після проходження військово‑лікарської комісії (ВЛК) стан здоров’я може погіршитися, наприклад, через загострення хронічної хвороби, нову травму або потребу в операції. Хоча ВЛК визнала людину придатною до служби, це не скасовує її права на медичну допомогу і на повторну оцінку здоров’я. Міністерство оборони наголошує, що ВЛК лише визначає придатність у момент огляду і не займається лікуванням чи глибокою діагностикою. Якщо здоров’я погіршилося, слід зафіксувати всі зміни – отримати висновки лікарів, результати обстежень, виписки зі стаціонару та інші документи. На підставі цих матеріалів військовослужбовець може попросити командування видати направлення на повторну ВЛК, вказавши у рапорті причину, наприклад, травму або загострення хронічного захворювання. У 2026 році таке звернення можна подати електронно через застосунок «Армія+», прикріпивши потрібні медичні довідки.",
+      "germanReference": "Nach dem Durchlaufen der militärisch-ärztlichen Kommission (VLK) kann sich der Gesundheitszustand verschlechtern, zum Beispiel durch eine Verschlimmerung einer chronischen Krankheit, eine neue Verletzung oder den Bedarf an einer Operation. Auch wenn die VLK die Person als diensttauglich eingestuft hat, hebt das nicht ihr Recht auf medizinische Versorgung und auf eine erneute Gesundheitsbewertung auf. Das Verteidigungsministerium betont, dass die VLK nur die Tauglichkeit zum Zeitpunkt der Untersuchung feststellt und nicht für Behandlung oder tiefgehende Diagnostik zuständig ist. Wenn sich die Gesundheit verschlechtert hat, sollten alle Änderungen dokumentiert werden - ärztliche Befunde, Untersuchungsergebnisse, Entlassungen aus dem Krankenhaus und andere Unterlagen erhalten. Auf Grundlage dieser Materialien kann der Soldat das Kommando bitten, eine Verordnung für eine erneute VLK auszustellen, indem er im Bericht den Grund angibt, zum Beispiel eine Verletzung oder eine Verschlimmerung einer chronischen Erkrankung. Im Jahr 2026 kann ein solcher Antrag elektronisch über die Anwendung \"Armee+\" eingereicht werden, wobei die erforderlichen medizinischen Bescheinigungen angehängt werden.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/829/tsn-51cb131e/thumbs/608xX/9f/58/b26cabff0e722fc913e8399d528d589f.png",
+      "publishedAt": "2026-09-22T09:21:00.000Z",
+      "processedAt": "2026-09-22T10:12:39.343Z"
+    },
+    {
+      "id": "22ce207e",
+      "originalTitle": "Погода готує неприємний сюрприз: що принесе Україні циклон із Чорного моря",
+      "simplifiedText": "У середу, 23 вересня, в Україні будуть сильні дощі, які принесе циклон з Чорного моря, повідомила синоптикиня Наталка Діденко. Найбільше опадів очікують у Сумщині, Полтавщині, Дніпропетровщині, Запоріжжі та Криму, а в другій половині дня – у Харківській, Донецькій і Луганській областях. На сході країни буде дуже вітряно, бо північний і північно‑східний вітер може досягати 15–22 м/с. Уночі 23 вересня температура впаде до +6…+9 °C на заході, півночі, у Вінниччині та Кіровоградщині, а в південних і східних областях – до +10…+15 °C. У Києві суттєвих опадів не передбачають, лише можливий легкий дощ ввечері, а температура буде +7…+8 °C вночі і близько +15 °C вдень. За словами Діденко, кінець вересня і початок жовтня будуть мати комфортну погоду, хоча в Карпатах вже з’явилися перші ознаки зими.",
+      "germanReference": "Am Mittwoch, dem 23. September, wird es in der Ukraine starken Regen geben, den ein Zyklon vom Schwarzen Meer mitbringt, teilte die Wetterexpertin Natalka Didjenko mit. Am meisten Niederschlag wird in der Region Sumy, Poltawa, Dnipropetrowsk, Saporischschja und in der Krim erwartet, und in der zweiten Tageshälfte in den Regionen Charkiw, Donezk und Luhansk. Im Osten des Landes wird es sehr windig sein, weil der Nord- und Nordostwind Geschwindigkeiten von 15-22 m/s erreichen kann. In der Nacht des 23. September wird die Temperatur im Westen, Norden, in Winnizja und Kirowardi auf +6…+9 °C fallen, und in den südlichen und östlichen Regionen auf +10…+15 °C. In Kiew werden keine erheblichen Niederschläge vorhergesagt, nur ein leichter Regen am Abend ist möglich, und die Temperatur wird nachts +7…+8 °C betragen und tagsüber etwa +15 °C. Laut Didjenko werden Ende September und Anfang Oktober angenehmes Wetter haben, obwohl in den Karpaten bereits die ersten Anzeichen des Winters zu sehen sind.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/850/tsn-1284f5ef/thumbs/608xX/14/99/b96d55ecccc12b30c23825bfe8079914.jpg",
+      "publishedAt": "2026-09-22T09:28:43.000Z",
+      "processedAt": "2026-09-22T10:11:35.690Z"
+    },
+    {
+      "id": "62c50a3d",
+      "originalTitle": "Як правильно збирати урожай капусти: куди дівати коріння після зрізання качанів — корисні поради",
+      "simplifiedText": "Коли збираєш капусту, треба не лише зрізати качани, а й подбати про листя, стебла і коріння, бо вони можуть притягнути шкідників. Качани зрізають гострим чистим ножем, залишаючи маленький стебель і кілька зовнішніх листків, краще в суху погоду без роси. Після того як усі качани зняті, оглядають грядку і прибирають залишки рослин. Якщо капуста була здорова, листя і стебла можна подрібнити і відправити в компост або закопати, бо так вони швидше розкладаються. Фахівці радять робити це одразу, бо нерозкладені рештки можуть стати зимовим притулком для комах. Здорове коріння теж можна витягнути, подрібнити і закопати, а хворі корені, наприклад з чорною гнилею, треба вивезти з городу.",
+      "germanReference": "Wenn man Kohl erntet, muss man nicht nur die Köpfe abschneiden, sondern auch auf die Blätter, Stiele und Wurzeln achten, weil sie Schädlings anziehen können. Die Köpfe werden mit einem scharfen, sauberen Messer abgeschnitten, wobei ein kleiner Stiel und ein paar äussere Blätter erhalten bleiben, am besten bei trockenem Wetter ohne Tau. Nachdem alle Köpfe entfernt sind, wird das Beet inspiziert und Pflanzenreste entfernt. Wenn der Kohl gesund war, können die Blätter und Stiele zerkleinert und in den Kompost gegeben oder vergraben werden, weil sie dann schneller zersetzen. Fachleute raten, dies sofort zu tun, weil nicht zersetzte Reste im Winter ein Unterschlupf für Insekten werden können. Gesunde Wurzeln können ebenfalls ausgegraben, zerkleinert und vergraben werden, während kranke Wurzeln, zum Beispiel mit schwarzem Faul, aus dem Garten entfernt werden müssen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/938/tsn-1284f5ef/thumbs/608xX/c3/d0/e56052b08421f6856be6c8048034d0c3.jpg",
+      "publishedAt": "2026-09-22T09:30:14.000Z",
+      "processedAt": "2026-09-22T10:10:35.473Z"
+    },
+    {
+      "id": "4aebc5db",
+      "originalTitle": "Львівського блогера Пана Романа мобілізували до війська: де він служитиме",
+      "simplifiedText": "Львівський блогер Роман Чихарівський, відомий в соцмережах як Пан Роман, повідомив 21 вересня, що його мобілізували до Сил оборони України. Він буде служити в полку безпілотних систем «Лава», який входить до корпусу «Хартія» Національної гвардії. У дописі він залишив свій звичний жарт, написавши, що буде «трошка тойвот у Лава.Хартія». Під його повідомленням підписники залишили слова підтримки. Пан Роман родом із Тернопільщини, навчався у Львівському національному університеті і створив свій образ у 2022 році. Сьогодні його Instagram має понад 218 тисяч підписників, TikTok — понад 256 тисяч, а відео зібрали більше 13 мільйонів лайків.",
+      "germanReference": "Der Lwiwer Blogger Roman Tschicharowski, in den sozialen Medien bekannt als Pan Roman, meldete am 21. September, dass er zum Verteidigungsstreitkräften der Ukraine mobilisiert wurde. Er wird im Regiment für unbemannte Systeme \"Lava\" dienen, das zum Korps \"Charta\" der Nationalgarde gehört. In seinem Beitrag liess er seinen gewohnten Scherz nicht aus und schrieb, er werde \"ein bisschen dort bei Lava.Charta\" sein. Unter seiner Meldung hinterliessen die Follower unterstützende Worte. Pan Roman stammt aus der Region Ternopil, studierte an der Lwiwer Nationaluniversität und schuf sein Image im Jahr 2022. Heute hat sein Instagram über 218'000 Abonnenten, TikTok über 256'000, und die Videos sammelten mehr als 13'Millionen Likes.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/752/tsn-51cb131e/thumbs/608xX/d8/ca/16f66d7e5909b850d9fe32d32b2ccad8.jpg",
+      "publishedAt": "2026-09-22T09:37:12.000Z",
+      "processedAt": "2026-09-22T10:09:56.884Z"
+    },
+    {
+      "id": "514ab955",
+      "originalTitle": "Об’єкт «Нафтогазу» повністю знищено: РФ завдала щонайменше п’ять ударів балістикою",
+      "simplifiedText": "У ніч на 22 вересня російські війська в Полтавській області запустили балістичні ракети по об’єкту «Нафтогазу». За повідомленням пресслужби компанії, внаслідок удару об’єкт був повністю знищений. Принаймні п’ять ракет влучили у технологічні споруди, які вже давно не працювали. Новий удар спричинив критичні руйнування, через які відновити роботу об’єкта практично неможливо. З 2022 року цей об’єкт вже багато разів піддавався атакам дронів і ракет, і його обладнання було виведене з ладу.",
+      "germanReference": "In der Nacht vom 22. September haben russische Truppen in der Region Poltawa ballistische Raketen auf das Objekt \"Naftogas\" abgefeuert. Laut der Pressemitteilung des Unternehmens wurde das Objekt durch den Einschlag vollständig zerstört. Mindestens fünf Raketen trafen technologische Bauwerke, die bereits seit langem nicht mehr in Betrieb waren. Der neue Angriff verursachte kritische Zerstörungen, durch die die Wiederaufnahme des Betriebs des Objekts praktisch unmöglich ist. Seit 2022 wurde dieses Objekt bereits mehrfach von Drohnen und Raketen angegriffen, und seine Ausrüstung wurde ausser Betrieb genommen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/200/tsn-1284f5ef/thumbs/608xX/d9/ae/d25b3d0571834a47ff7bf4cda613aed9.jpg",
+      "publishedAt": "2026-09-22T09:55:36.000Z",
+      "processedAt": "2026-09-22T10:09:35.259Z"
+    },
+    {
       "id": "4b7cc5cf",
       "originalTitle": "Бійка за шезлонг на пляжі закінчилася смертю 82-річного чоловіка: деталі трагедії",
       "simplifiedText": "У неділю вранці 82‑річний чоловік з дружиною прийшов на популярний пляж, розташований близько 20 км на південь від Афін. Коли вони шукали вільний шезлонг, між ними і 76‑річним незнайомцем не залишилося місця, і розпочалася словесна сварка. Суперечка швидко перейшла у бійку, у яку ввійшли ще кілька людей, серед яких була 21‑річна дівчина, що стояла поруч із 76‑річним. Під час сутички 82‑річний отримав тяжкі травми, і, за словами лікарів, у нього, можливо, стався серцевий напад. Його терміново везли швидкою до лікарні, але там вже констатували смерть. Поліція затримала 76‑річного підозрюваного, 21‑річну дівчину (яку потім відпустили) і менеджера пляжного комплексу, і оголосила, що всі вони будуть судити.",
@@ -5136,6 +5271,66 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "7a32f7de",
+      "originalTitle": "\"Вірогідність дуже велика\": росіяни можуть зайти до великого міста вже взимку",
+      "simplifiedText": "Командир 1‑го окремого штурмового полку Дмитро «Перун» Філатов заявив у відео на YouTube‑каналі «Реальний фронт», що російські окупаційні війська можуть увійти до Запоріжжя вже взимку цього року. За його словами, це будуть поодинокі піхотні групи, які спробують прорватися в міську забудову. Філатов оцінює ймовірність такого сценарію як дуже високу. Він підкреслив, що ворог розглядає різні варіанти просування, зокрема використання малих підрозділів. Такі групи можуть діяти вночі або під прикриттям поганої погоди, щоб уникнути виявлення. За його оцінками, успішне проникнення може відбутися вже в зимовий період, коли умови ускладнюють оборону. Це створює нову загрозу для жителів Запоріжжя та ускладнює роботу українських сил. Раніше повідомлялося, що президент Путін готовий ризикувати, роблячи найсміливіший крок у своїй політиці.",
+      "germanReference": "Der Kommandant des 1. separaten Sturmregiments Dmitro \"Perun\" Filatov erklärte in einem Video auf dem YouTube-Kanal \"Real Front\", dass die russischen Besatzungstruppen bereits im Winter dieses Jahres in Saporischschja einziehen könnten. Laut seiner Aussage werden das einzelne Infanteriegruppen sein, die versuchen, in die städtische Bebauung einzudringen. Filatov schätzt die Wahrscheinlichkeit eines solchen Szenarios als sehr hoch ein. Er betonte, dass der Feind verschiedene Vorstoss-Optionen prüfe, darunter den Einsatz kleiner Einheiten. Solche Gruppen könnten nachts oder bei schlechtem Wetter unter Deckung agieren, um eine Entdeckung zu vermeiden. Nach seiner Einschätzung könnte ein erfolgreiches Eindringen bereits im Winter stattfinden, wenn die Bedingungen die Verteidigung erschweren. Das stellt eine neue Bedrohung für die Einwohner von Saporischschja dar und erschwert die Arbeit der ukrainischen Kräfte. Zuvor wurde berichtet, dass Präsident Putin bereit sei, das riskanteste Vorgehen in seiner Politik zu wagen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/755/tsn-dcf0ded845fb4249b37e656be0b1987a/thumbs/608xX/9f/12/cf104efe15904c8608a4500d49ca129f.jpeg",
+      "publishedAt": "2026-09-22T09:17:40.000Z",
+      "processedAt": "2026-09-22T10:13:47.430Z"
+    },
+    {
+      "id": "46a858dc",
+      "originalTitle": "ВЛК визнала придатним, але здоров’я погіршилося: що робити військовому 2026 року",
+      "simplifiedText": "Після проходження військово‑лікарської комісії (ВЛК) стан здоров’я може змінитися – хронічна хвороба може загостритися, з’явитися нове захворювання, травма або потреба в операції. Якщо ВЛК визнала людину придатною, а потім її здоров’я погіршилося, це не позбавляє права на медичну допомогу та повторну оцінку. Міністерство оборони наголошує, що ВЛК лише визначає придатність на момент огляду і не займається лікуванням чи глибокою діагностикою. Першим кроком має бути фіксація змін у стані здоров’я: довідки лікарів, результати обстежень, виписки зі стаціонару, діагнози, дані про операції чи травми. Для військовослужбовця можна отримати направлення на повторну ВЛК через командування частини. У рапорті на направлення слід вказати конкретну причину – наприклад, погіршення здоров’я або загострення хронічного захворювання, і додати медичну довідку. У 2026 році військові можуть подавати такі рапорти в цифровому вигляді через застосунок «Армія+».",
+      "germanReference": "Nach dem Durchlaufen der militärisch-ärztlichen Kommission (VLK) kann sich der Gesundheitszustand ändern - eine chronische Krankheit kann sich verschlimmern, eine neue Erkrankung kann auftreten, ein Trauma oder ein Bedarf an einer Operation kann entstehen. Wenn die VLK eine Person als geeignet eingestuft hat und ihr Gesundheitszustand danach verschlechtert, nimmt das nicht das Recht auf medizinische Versorgung und eine erneute Bewertung. Das Verteidigungsministerium betont, dass die VLK nur die Tauglichkeit zum Zeitpunkt der Untersuchung feststellt und nicht für Behandlung oder tiefgehende Diagnostik zuständig ist. Der erste Schritt muss die Dokumentation der Änderungen im Gesundheitszustand sein: ärztliche Bescheinigungen, Untersuchungsergebnisse, Entlassungen aus dem Krankenhaus, Diagnosen, Angaben zu Operationen oder Verletzungen. Für den Soldaten kann über das Kommandobehörde der Teilstreitkraft eine Überweisung zur erneuten VLK beantragt werden. Im Bericht für die Überweisung muss der konkrete Grund angegeben werden - zum Beispiel die Verschlechterung des Gesundheitszustands oder die Verschlimmerung einer chronischen Erkrankung - und ein ärztliches Attest beigefügt werden. Im Jahr 2026 können die Streitkräfte solche Berichte digital über die Anwendung \"Armee+\" einreichen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/829/tsn-51cb131e/thumbs/608xX/9f/58/b26cabff0e722fc913e8399d528d589f.png",
+      "publishedAt": "2026-09-22T09:21:00.000Z",
+      "processedAt": "2026-09-22T10:12:53.611Z"
+    },
+    {
+      "id": "255410a0",
+      "originalTitle": "Погода готує неприємний сюрприз: що принесе Україні циклон із Чорного моря",
+      "simplifiedText": "У середу, 23 вересня, активний циклон із Чорного моря принесе частині України сильні та тривалі дощі, а іноді й штормовий вітер, повідомила синоптик Наталка Діденко. Найбільше опадів очікується в Сумській, Полтавській, Дніпропетровській, Запорізькій областях та в Криму, а в другій половині дня – у Харківській, Донецькій і Луганській. На сході країни буде особливо вітряно: північний і північно‑східний вітер може досягати 15–22 м/с. У інших регіонах погода буде мінливою – дощі чергуватимуться з сонячними проясненнями. Ніч 23 вересня буде холодною: на заході, півночі, у Вінниччині й Кіровоградщині температура впаде до +6…+9 °C, а в південних і східних областях – до +10…+15 °C. Удень у більшості областей термометри покажуть +12…+17 °C, а в Донеччині та Луганщині – до +19…+23 °C. У Києві суттєвих опадів не передбачають, лише можливі легкі дощі ввечері, нічна температура буде +7…+8 °C, а вдень – близько +15 °C. За словами Діденко, кінець вересня і початок жовтня обіцяють комфортну погоду, хоча в Карпатах вже зафіксували перший сніг на горі Піп‑Іван.",
+      "germanReference": "Am Mittwoch, dem 23. September, wird ein aktiver Zyklon vom Schwarzen Meer Teile der Ukraine mit starken und anhaltenden Regenfällen sowie gelegentlich stürmischem Wind versorgen, berichtete die Wetterexpertin Natalka Didenko. Die meisten Niederschläge werden in den Regionen Sumy, Poltawa, Dnipropetrowsk, Saporischschja und in der Krim erwartet, und in der zweiten Tageshälfte in Charkiw, Donezk und Luhansk. Im Osten des Landes wird es besonders windig: Nord- und Nordostwind kann 15-22 m/s erreichen. In anderen Regionen wird das Wetter wechselhaft sein - Regen wird sich mit sonnigen Aufhellungen abwechseln. Die Nacht des 23. September wird kalt: im Westen, Norden, in Winnizja und Kirowohrad wird die Temperatur auf +6…+9 °C fallen, und in den südlichen und östlichen Regionen auf +10…+15 °C. Tagsüber werden in den meisten Regionen die Thermometer +12…+17 °C anzeigen, und in Donezk und Luhansk bis +19…+23 °C. In Kiew werden keine erheblichen Niederschläge erwartet, nur leichte Regenfälle am Abend sind möglich, die nächtliche Temperatur wird +7…+8 °C betragen, und tagsüber etwa +15 °C. Laut Didenko versprechen Ende September und Anfang Oktober angenehmes Wetter, obwohl in den Karpaten bereits der erste Schnee am Gipfel Pip-Iwan gemeldet wurde.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/850/tsn-1284f5ef/thumbs/608xX/14/99/b96d55ecccc12b30c23825bfe8079914.jpg",
+      "publishedAt": "2026-09-22T09:28:43.000Z",
+      "processedAt": "2026-09-22T10:11:59.530Z"
+    },
+    {
+      "id": "18434065",
+      "originalTitle": "Як правильно збирати урожай капусти: куди дівати коріння після зрізання качанів — корисні поради",
+      "simplifiedText": "Збір капусти — це не лише зрізання качанів, а й подальша робота з рештками рослин. Після того як качани зрізають гострим чистим ножем, залишаючи короткий стебель і кілька зовнішніх листків, важливо робити це в суху погоду, коли рослини не вологі. Після збору треба одразу оглянути грядку і прибрати залишки листя, качанів і коріння, бо вони можуть стати притулком для шкідників і джерелом інфекції. Якщо капуста була здоровою, рештки можна подрібнити і відправити в компост або закопати в ґрунт – дрібні частинки швидше розкладаються мікроорганізмами. Фахівці радять не затягувати з прибиранням, бо саме залишки часто слугують зимовим притулком для комах. Здорове коріння теж можна витягнути, подрібнити разом із надземними частинами і закопати або компостувати. Хворі рослини і коріння, особливо з ознаками чорної гнилі, гнилі коренів або сильного в’янення, слід вивезти з городу. Таким чином, правильне прибирання після збору захищає наступний посів від хвороб і шкідників.",
+      "germanReference": "Die Kohlernte ist nicht nur das Abschneiden der Köpfe, sondern auch die nachfolgende Arbeit mit den Pflanzenresten. Nachdem die Köpfe mit einem scharfen, sauberen Messer abgeschnitten wurden, wobei ein kurzer Stiel und einige äussere Blätter erhalten bleiben, ist es wichtig, dies bei trockenem Wetter zu tun, wenn die Pflanzen nicht feucht sind. Nach der Ernte muss sofort das Beet inspiziert und die Blatt-, Kopf- und Wurzelreste entfernt werden, weil sie ein Versteck für Schädlinge und eine Quelle für Infektionen werden können. Wenn der Kohl gesund war, können die Reste zerkleinert und in den Kompost gegeben oder in den Boden eingearbeitet werden - kleine Partikel zersetzen sich schneller durch Mikroorganismen. Fachleute raten, das Aufräumen nicht zu verzögern, weil gerade die Reste häufig als Winterquartier für Insekten dienen. Gesunde Wurzeln können ebenfalls herausgezogen, zusammen mit den oberirdischen Teilen zerkleinert und eingearbeitet oder kompostiert werden. Kranke Pflanzen und Wurzeln, besonders mit Anzeichen von schwarzem Fäulnis, Wurzelfäule oder starkem Welken, sollten aus dem Garten entfernt werden. Auf diese Weise schützt das richtige Aufräumen nach der Ernte die nächste Aussaat vor Krankheiten und Schädlingen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/938/tsn-1284f5ef/thumbs/608xX/c3/d0/e56052b08421f6856be6c8048034d0c3.jpg",
+      "publishedAt": "2026-09-22T09:30:14.000Z",
+      "processedAt": "2026-09-22T10:10:55.929Z"
+    },
+    {
+      "id": "21b64979",
+      "originalTitle": "Львівського блогера Пана Романа мобілізували до війська: де він служитиме",
+      "simplifiedText": "Львівського блогера Романа Чихарівського, відомого в соцмережах як Пан Роман, мобілізували до Сил оборони України. Він повідомив про це ввечері 21 вересня у своєму Instagram, написавши, що буде служити у полку безпілотних систем «Лава», який входить до корпусу «Хартія» Національної гвардії. У дописі він зберіг свій звичний жартівливий тон: «Мобілізували. Буду шось трошка тойвот у Лава.Хартія». Інших подробиць про службу він не надав, а підписники залишили слова підтримки. Пан Роман — родом із Тернопільщини, закінчив Львівський національний університет імені Івана Франка. Його образ галицького дідуся став популярним у 2022 році, коли він почав коментувати події в Україні з гумором. Сьогодні його Instagram має понад 218 тисяч підписників, а TikTok — понад 256 тисяч, а відео зібрали більше 13 мільйонів лайків.",
+      "germanReference": "Der Lwiwer Blogger Roman Tschicharowski, in den sozialen Medien bekannt als Pan Roman, wurde zu den Streitkräften der Verteidigung der Ukraine mobilisiert. Er meldete dies am Abend des 21. September in seinem Instagram und schrieb, dass er in dem Regiment für unbemannte Systeme \"Lava\" dienen werde, das zum Korps \"Charta\" der Nationalgarde gehört. In dem Beitrag behielt er seinen üblichen scherzhaften Ton bei: \"Mobilisiert. Ich werde ein bisschen dort bei Lava.Charta sein.\" Weitere Details zum Dienst gab er nicht an, und die Follower hinterliessen Unterstützungsworte. Pan Roman stammt aus der Region Ternopil, hat die Lwiwer Nationale Universität nach Iwan Franko abgeschlossen. Sein Bild des galizischen Grossvaters wurde 2022 populär, als er begann, die Ereignisse in der Ukraine mit Humor zu kommentieren. Heute hat sein Instagram über 218 tausend Follower und TikTok über 256 tausend, und die Videos haben mehr als 13 Millionen Likes gesammelt.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/752/tsn-51cb131e/thumbs/608xX/d8/ca/16f66d7e5909b850d9fe32d32b2ccad8.jpg",
+      "publishedAt": "2026-09-22T09:37:12.000Z",
+      "processedAt": "2026-09-22T10:10:04.895Z"
+    },
+    {
+      "id": "28089889",
+      "originalTitle": "Об’єкт «Нафтогазу» повністю знищено: РФ завдала щонайменше п’ять ударів балістикою",
+      "simplifiedText": "У ніч на 22 вересня російські війська вдарили по об’єкту «Нафтогазу» в Полтавській області балістичними ракетами. За повідомленням пресслужби компанії, внаслідок удару об’єкт був повністю знищений. У повідомленні зазначають, що щонайменше п’ять ракет влучили у технологічні споруди, які й так вже давно не працювали. Новий удар спричинив критичні руйнування, які практично унеможливлюють відновлення та функціонування об’єкта. Компанія наголошує, що з 2022 року цей об’єкт вже десятки разів атакували російські дрони та ракети. Через ці атаки його обладнання було виведене з ладу. Тепер, після останнього удару, відновити роботу майже неможливо.",
+      "germanReference": "In der Nacht zum 22. September haben russische Truppen das Objekt \"Naftogas\" in der Region Poltawa mit ballistischen Raketen angegriffen. Laut der Pressemitteilung des Unternehmens wurde das Objekt durch den Einschlag vollständig zerstört. In der Mitteilung wird angegeben, dass mindestens fünf Raketen die technologischen Anlagen getroffen haben, die bereits seit langem nicht mehr in Betrieb waren. Der neue Angriff verursachte kritische Zerstörungen, die eine Wiederherstellung und den Betrieb des Objekts praktisch unmöglich machen. Das Unternehmen betont, dass dieses Objekt seit dem Jahr 2022 bereits dutzende Male von russischen Drohnen und Raketen angegriffen wurde. Durch diese Angriffe wurde seine Ausrüstung ausser Betrieb genommen. Jetzt ist es nach dem letzten Angriff fast unmöglich, den Betrieb wiederherzustellen.",
+      "category": "Gesellschaft",
+      "imageUrl": "https://img.tsn.ua/cached/200/tsn-1284f5ef/thumbs/608xX/d9/ae/d25b3d0571834a47ff7bf4cda613aed9.jpg",
+      "publishedAt": "2026-09-22T09:55:36.000Z",
+      "processedAt": "2026-09-22T10:09:42.186Z"
+    },
     {
       "id": "57a8c031",
       "originalTitle": "Бійка за шезлонг на пляжі закінчилася смертю 82-річного чоловіка: деталі трагедії",
