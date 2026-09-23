@@ -19,18 +19,21 @@ const MAX_PER_LEVEL_TSN = 100;
 // docs/rate-limits, Sep 2026): 30 RPM, 1,000 RPD, 8K TPM, 200K TPD. Token
 // caps (TPM/TPD) are NOT the bottleneck here — Metrics dashboard shows
 // actual token usage far below both. The binding constraint is RPD: each
-// article costs ~2 Groq calls per level (resolveStoryCore+simplify for
-// app/DE, simplify+translate for TSN) x 3 levels = ~6 calls/article.
+// article costs ~1 Groq call per level (simplify only for both app/DE and
+// TSN — TSN's separate reference-translation call was removed) x 3 levels
+// = ~3 calls/article in the normal case; failed attempts retry up to 3x
+// per level and each retry still counts against the RPD budget, so a run
+// with a lot of json_validate_failed/truncated-JSON errors burns through
+// RPD much faster than this "normal case" estimate.
 // The scheduled workflow runs once/day, so the full 1,000 RPD budget goes
 // to a single run, split across 2 pipelines (app/DE + TSN): ~500 requests
-// each ≈ 83 articles/pipeline in theory. In practice keep well under that
+// each ≈ 150+ articles/pipeline in theory. In practice keep well under that
 // — RPM (30/min) means a run this size takes 15-20+ min regardless, and
 // leaving headroom avoids a single slow day (retries, longer articles)
 // tipping the whole run into RPD exhaustion. 6 is a conservative starting
-// point (~36 requests/pipeline, ~72/run) with room to raise once you've
-// watched a few runs against the Metrics dashboard. Override via env,
-// e.g. NEWS_BATCH_SIZE=15, to speed up backfill once the daily budget is
-// confirmed comfortable.
+// point with room to raise once you've watched a few runs against the
+// Metrics dashboard. Override via env, e.g. NEWS_BATCH_SIZE=15, to speed
+// up backfill once the daily budget is confirmed comfortable.
 const BATCH_SIZE = parseInt(process.env.NEWS_BATCH_SIZE || "6", 10);
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
