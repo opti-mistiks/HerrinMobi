@@ -1,6 +1,344 @@
 {
   "A1": [
     {
+      "id": "003e0b5a",
+      "originalTitle": "100 Jahre John Coltrane - Schub wie eine Lokomotive: Wie «Trane» Jazzgeschichte schrieb",
+      "simplifiedText": "John Coltrane ist ein berühmter Jazzmusiker. Er hat die Jazzgeschichte nachhaltig geprägt. Seine Musik inspiriert Musiker weltweit. Heute hören Menschen seine Aufnahmen. John Coltrane bleibt ein Vorbild.",
+      "vocabularyHints": [
+        "berühmt — відомий",
+        "der Jazzmusiker, - — джазовий музикант",
+        "die Jazzgeschichte, - — історія джазу",
+        "nachhaltig — тривалий",
+        "prägen — впливати",
+        "inspirieren — надихати",
+        "der Musiker, - — музикант",
+        "weltweit — по всьому світу",
+        "die Aufnahme, -en — запис",
+        "das Vorbild, - — приклад"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "berühmter",
+          "hint": "berühmt — відомий"
+        },
+        {
+          "surface": "Jazzmusiker",
+          "hint": "der Jazzmusiker, - — джазовий музикант"
+        },
+        {
+          "surface": "Jazzgeschichte",
+          "hint": "die Jazzgeschichte, - — історія джазу"
+        },
+        {
+          "surface": "nachhaltig",
+          "hint": "nachhaltig — тривалий"
+        },
+        {
+          "surface": "geprägt",
+          "hint": "prägen — впливати"
+        },
+        {
+          "surface": "inspiriert",
+          "hint": "inspirieren — надихати"
+        },
+        {
+          "surface": "Musiker",
+          "hint": "der Musiker, - — музикант"
+        },
+        {
+          "surface": "weltweit",
+          "hint": "weltweit — по всьому світу"
+        },
+        {
+          "surface": "Aufnahmen",
+          "hint": "die Aufnahme, -en — запис"
+        },
+        {
+          "surface": "Vorbild",
+          "hint": "das Vorbild, - — приклад"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/b73a7c.jpg",
+      "publishedAt": "2026-09-23T06:04:57.000Z",
+      "processedAt": "2026-09-23T07:41:18.981Z"
+    },
+    {
+      "id": "6a1afd51",
+      "originalTitle": "Aktienrückkaufprogramm - Die Strategie von ON geht auf - zumindest kurzfristig",
+      "simplifiedText": "Der Schuhersteller ON plant ein Rückkaufprogramm. Er will bis 2029 Aktien zurückkaufen. Der Wert beträgt eine Milliarde Dollar. Der Börsenkurs reagiert positiv nach der Ankündigung.",
+      "vocabularyHints": [
+        "Schuhersteller — виробник взуття",
+        "Rückkaufprogramm — програма викупу акцій",
+        "zurückkaufen — викупити",
+        "Wert — вартість",
+        "betragen — становити",
+        "Milliarde — мільярд",
+        "Dollar — долар",
+        "Börsenkurs — курс акцій",
+        "reagieren — реагувати",
+        "positiv — позитивний",
+        "Ankündigung — оголошення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Schuhersteller",
+          "hint": "Schuhersteller — виробник взуття"
+        },
+        {
+          "surface": "Rückkaufprogramm",
+          "hint": "Rückkaufprogramm — програма викупу акцій"
+        },
+        {
+          "surface": "zurückkaufen",
+          "hint": "zurückkaufen — викупити"
+        },
+        {
+          "surface": "Wert",
+          "hint": "Wert — вартість"
+        },
+        {
+          "surface": "beträgt",
+          "hint": "betragen — становити"
+        },
+        {
+          "surface": "Milliarde",
+          "hint": "Milliarde — мільярд"
+        },
+        {
+          "surface": "Dollar",
+          "hint": "Dollar — долар"
+        },
+        {
+          "surface": "Börsenkurs",
+          "hint": "Börsenkurs — курс акцій"
+        },
+        {
+          "surface": "reagiert",
+          "hint": "reagieren — реагувати"
+        },
+        {
+          "surface": "positiv",
+          "hint": "positiv — позитивний"
+        },
+        {
+          "surface": "Ankündigung",
+          "hint": "Ankündigung — оголошення"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/cb5544.jpg",
+      "publishedAt": "2026-09-23T06:11:13.000Z",
+      "processedAt": "2026-09-23T07:39:51.060Z"
+    },
+    {
+      "id": "0ed71c81",
+      "originalTitle": "Ständerat lenkt ein und will 90 Prozent Eigenkapital",
+      "simplifiedText": "Der Ständerat will neunzig Prozent Eigenkapital. Das gilt für Auslandbeteiligungen von Grossbanken. Die UBS ist eine grosse Bank. Karin Keller-Sutter ist die Finanzministerin von der Schweiz. Sie unterstützt den Vorschlag vom Ständerat.",
+      "vocabularyHints": [
+        "der Ständerat — федеральна рада",
+        "der Prozent — відсоток",
+        "das Eigenkapital — власний капітал",
+        "die Auslandbeteiligung — закордонні інвестиції",
+        "die Grossbank — великі банки",
+        "die UBS — UBS (швейцарський банк)",
+        "Keller-Sutter — Келлер-Зуттер",
+        "die Finanzministerin — фінансовий міністр (жінка)",
+        "unterstützen — підтримує",
+        "der Vorschlag — пропозиція"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Ständerat",
+          "hint": "der Ständerat — федеральна рада"
+        },
+        {
+          "surface": "Prozent",
+          "hint": "der Prozent — відсоток"
+        },
+        {
+          "surface": "Eigenkapital",
+          "hint": "das Eigenkapital — власний капітал"
+        },
+        {
+          "surface": "Auslandbeteiligungen",
+          "hint": "die Auslandbeteiligung — закордонні інвестиції"
+        },
+        {
+          "surface": "Grossbanken",
+          "hint": "die Grossbank — великі банки"
+        },
+        {
+          "surface": "UBS",
+          "hint": "die UBS — UBS (швейцарський банк)"
+        },
+        {
+          "surface": "Keller-Sutter",
+          "hint": "Keller-Sutter — Келлер-Зуттер"
+        },
+        {
+          "surface": "Finanzministerin",
+          "hint": "die Finanzministerin — фінансовий міністр (жінка)"
+        },
+        {
+          "surface": "unterstützt",
+          "hint": "unterstützen — підтримує"
+        },
+        {
+          "surface": "Vorschlag",
+          "hint": "der Vorschlag — пропозиція"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2025/12/18/637eb01f-0b05-499f-acad-0a697b51a0fd.jpg?s=fe8e10ab7a39e10f9cb7cd4114615ebb",
+      "publishedAt": "2026-09-23T06:13:12.000Z",
+      "processedAt": "2026-09-23T07:38:21.373Z"
+    },
+    {
+      "id": "052d593b",
+      "originalTitle": "Trottinettfahrer auf Zebrastreifen erfasst - Bub (10) verletzt",
+      "simplifiedText": "Eine 24-jährige Frau hat in Wittenbach Auto gefahren. Sie hat einen zehnjährigen Trottinettfahrer erfasst. Der Junge ist auf dem Zebrastreifen gefahren. Er hat sich leicht verletzt.",
+      "vocabularyHints": [
+        "der Trottinettfahrer — їдець на електросамокаті",
+        "erfassen — завести, збити",
+        "der Zebrastreifen — зебра-стежка, пішохідний перехід"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Trottinettfahrer",
+          "hint": "der Trottinettfahrer — їдець на електросамокаті"
+        },
+        {
+          "surface": "erfasst",
+          "hint": "erfassen — завести, збити"
+        },
+        {
+          "surface": "Zebrastreifen",
+          "hint": "der Zebrastreifen — зебра-стежка, пішохідний перехід"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/23/c9186878-72c6-41b9-a7eb-094ae189d335.jpg?s=0ea83420121b6a39c65fbcfb77996046",
+      "publishedAt": "2026-09-23T06:32:06.000Z",
+      "processedAt": "2026-09-23T07:37:05.318Z"
+    },
+    {
+      "id": "69dea96d",
+      "originalTitle": "Vor US-Zwischenwahlen - Wie Trump auf eine Wahlniederlage reagieren könnte",
+      "simplifiedText": "Den Republikanern droht bei den Zwischenwahlen eine Wahlniederlage. Trump kann nach der Niederlage seine Rede ändern. Er kann die Unterstützer für die Partei mobilisieren. Die Medien berichten über mögliche Reaktionen.",
+      "vocabularyHints": [
+        "der Republikaner — республіканець",
+        "drohen — загрожувати",
+        "die Zwischenwahl — проміжні вибори",
+        "die Wahlniederlage — поразка на виборах",
+        "ändern — змінювати",
+        "der Unterstützer — прихильник",
+        "mobilisieren — мобілізувати",
+        "das Medium — засіб масової інформації",
+        "berichten — повідомляти",
+        "möglich — можливий",
+        "die Reaktion — реакція"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Republikanern",
+          "hint": "der Republikaner — республіканець"
+        },
+        {
+          "surface": "droht",
+          "hint": "drohen — загрожувати"
+        },
+        {
+          "surface": "Zwischenwahlen",
+          "hint": "die Zwischenwahl — проміжні вибори"
+        },
+        {
+          "surface": "Wahlniederlage",
+          "hint": "die Wahlniederlage — поразка на виборах"
+        },
+        {
+          "surface": "ändern",
+          "hint": "ändern — змінювати"
+        },
+        {
+          "surface": "Unterstützer",
+          "hint": "der Unterstützer — прихильник"
+        },
+        {
+          "surface": "mobilisieren",
+          "hint": "mobilisieren — мобілізувати"
+        },
+        {
+          "surface": "Medien",
+          "hint": "das Medium — засіб масової інформації"
+        },
+        {
+          "surface": "berichten",
+          "hint": "berichten — повідомляти"
+        },
+        {
+          "surface": "mögliche",
+          "hint": "möglich — можливий"
+        },
+        {
+          "surface": "Reaktionen",
+          "hint": "die Reaktion — реакція"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/b52ecf.jpg",
+      "publishedAt": "2026-09-23T06:42:27.000Z",
+      "processedAt": "2026-09-23T07:35:43.832Z"
+    },
+    {
+      "id": "118ef507",
+      "originalTitle": "«Ich war noch fast nie so unglücklich auf dem Podest»",
+      "simplifiedText": "Stefan Küng ist Radrennfahrer aus der Schweiz. Er hat bei der WM eine Bronze gewonnen. Nach dem Rennen hat er den Defekt kritisiert. Er meint, das Problem hat die Schweiz behindert. Er war unglücklich auf dem Podest.",
+      "vocabularyHints": [
+        "der Radrennfahrer, - — велосипедний гонщик",
+        "die Bronze — бронза (медаль)",
+        "der Defekt, -e — дефект, поломка",
+        "kritisieren — критикувати",
+        "behindern — перешкоджати, ускладнювати",
+        "unglücklich — нещасний, розчарований",
+        "das Podest, -e — подиум"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Radrennfahrer",
+          "hint": "der Radrennfahrer, - — велосипедний гонщик"
+        },
+        {
+          "surface": "Bronze",
+          "hint": "die Bronze — бронза (медаль)"
+        },
+        {
+          "surface": "Defekt",
+          "hint": "der Defekt, -e — дефект, поломка"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "behindert",
+          "hint": "behindern — перешкоджати, ускладнювати"
+        },
+        {
+          "surface": "unglücklich",
+          "hint": "unglücklich — нещасний, розчарований"
+        },
+        {
+          "surface": "Podest",
+          "hint": "das Podest, -e — подиум"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/23/d83068e7-3ae5-41ba-8488-7d6265bc1ae8.png?s=170f20cf0a8a0b7472eb024d5915fb56",
+      "publishedAt": "2026-09-23T07:33:29.000Z",
+      "processedAt": "2026-09-23T07:34:16.018Z"
+    },
+    {
       "id": "106d22d7",
       "originalTitle": "«Ziemlich niedergeschlagen»: Mutter gibt nach Hai-Angriff Update",
       "simplifiedText": "Eine australische Frau hat im Juni einen Haiangriff überlebt. Sie lag zehn Tage im Koma. Jetzt ist sie wieder zu Hause. Sie kämpft jeden Tag um ihr Leben. Doch gestern hatte sie einen schweren Rückschlag.",
@@ -1608,6 +1946,425 @@
     }
   ],
   "A2": [
+    {
+      "id": "17364659",
+      "originalTitle": "100 Jahre John Coltrane - Schub wie eine Lokomotive: Wie «Trane» Jazzgeschichte schrieb",
+      "simplifiedText": "John Coltrane hat vor hundert Jahren angefangen, Jazz zu spielen, und er war nur zehn Jahre lang Bandleader. Seine Auftritte auf der Bühne haben das Publikum begeistert, weil seine Soli sehr kraftvoll waren. Der Klang seines Saxophons war wie ein Schub einer Lokomotive, denn er hat die Jazzgeschichte stark verändert. Trotzdem inspiriert seine Musik heute noch Musiker weltweit. Viele junge Saxophonisten haben seine Stücke interessanter gefunden als die von anderen Jazzkünstlern. Ich hätte gern mehr Konzerte von ihm gehört.",
+      "vocabularyHints": [
+        "der Bandleader — лідер гурту",
+        "kraftvoll — потужний",
+        "das Saxophon — саксофон",
+        "der Schub — поштовх",
+        "die Lokomotive — локомотив",
+        "die Jazzgeschichte — історія джазу",
+        "inspirieren — надихати",
+        "weltweit — всесвітньо",
+        "der Saxophonist — саксофоніст",
+        "der Jazzkünstler — джазовий виконавець",
+        "das Konzert — концерт"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Bandleader",
+          "hint": "der Bandleader — лідер гурту"
+        },
+        {
+          "surface": "kraftvoll",
+          "hint": "kraftvoll — потужний"
+        },
+        {
+          "surface": "Saxophons",
+          "hint": "das Saxophon — саксофон"
+        },
+        {
+          "surface": "Schub",
+          "hint": "der Schub — поштовх"
+        },
+        {
+          "surface": "Lokomotive",
+          "hint": "die Lokomotive — локомотив"
+        },
+        {
+          "surface": "Jazzgeschichte",
+          "hint": "die Jazzgeschichte — історія джазу"
+        },
+        {
+          "surface": "inspiriert",
+          "hint": "inspirieren — надихати"
+        },
+        {
+          "surface": "weltweit",
+          "hint": "weltweit — всесвітньо"
+        },
+        {
+          "surface": "Saxophonisten",
+          "hint": "der Saxophonist — саксофоніст"
+        },
+        {
+          "surface": "Jazzkünstlern",
+          "hint": "der Jazzkünstler — джазовий виконавець"
+        },
+        {
+          "surface": "Konzerte",
+          "hint": "das Konzert — концерт"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/b73a7c.jpg",
+      "publishedAt": "2026-09-23T06:04:57.000Z",
+      "processedAt": "2026-09-23T07:41:45.596Z"
+    },
+    {
+      "id": "480e6330",
+      "originalTitle": "Aktienrückkaufprogramm - Die Strategie von ON geht auf - zumindest kurzfristig",
+      "simplifiedText": "Der Schuhersteller ON hat bis 2029 angekündigt, Aktien im Wert von einer Milliarde Dollar zurückzukaufen. Das Unternehmen will die eigenen Aktien wieder an die Börse bringen, weil es die Bewertung steigern möchte. Die Investoren haben die Nachricht positiv aufgenommen und der Börsenkurs ist danach gestiegen. Viele Aktionäre haben ihre Anteile jetzt verkauft, aber die meisten haben die Aktien behalten, weil sie auf weitere Kursgewinne hoffen. Die Aktie liegt jetzt höher als vor dem Rückkaufprogramm, und die Analysten erwarten weiter steigende Kurse. Trotzdem bleibt das Unternehmen vorsichtig, weil es noch weitere Investitionen plant.",
+      "vocabularyHints": [
+        "der Schuhersteller — виробник взуття",
+        "zurückkaufen — викупити",
+        "die Börse, -n — біржа",
+        "der Investor, -en — інвестор",
+        "aufnehmen — прийняти",
+        "der Börsenkurs, -e — курс на біржі",
+        "steigen — зрослий",
+        "der Anteil, -e — частка",
+        "der Kursgewinn, -e — прибуток від курсу",
+        "das Rückkaufprogramm, -e — програма викупу акцій",
+        "der Analyst, -en — аналіст",
+        "steigend — зростаючий",
+        "vorsichtig — обережний",
+        "die Investition, -en — інвестиція",
+        "ankündigen — оголосити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Schuhersteller",
+          "hint": "der Schuhersteller — виробник взуття"
+        },
+        {
+          "surface": "zurückzukaufen",
+          "hint": "zurückkaufen — викупити"
+        },
+        {
+          "surface": "Börse",
+          "hint": "die Börse, -n — біржа"
+        },
+        {
+          "surface": "Investoren",
+          "hint": "der Investor, -en — інвестор"
+        },
+        {
+          "surface": "aufgenommen",
+          "hint": "aufnehmen — прийняти"
+        },
+        {
+          "surface": "Börsenkurs",
+          "hint": "der Börsenkurs, -e — курс на біржі"
+        },
+        {
+          "surface": "gestiegen",
+          "hint": "steigen — зрослий"
+        },
+        {
+          "surface": "Anteile",
+          "hint": "der Anteil, -e — частка"
+        },
+        {
+          "surface": "Kursgewinne",
+          "hint": "der Kursgewinn, -e — прибуток від курсу"
+        },
+        {
+          "surface": "Rückkaufprogramm",
+          "hint": "das Rückkaufprogramm, -e — програма викупу акцій"
+        },
+        {
+          "surface": "Analysten",
+          "hint": "der Analyst, -en — аналіст"
+        },
+        {
+          "surface": "steigende",
+          "hint": "steigend — зростаючий"
+        },
+        {
+          "surface": "vorsichtig",
+          "hint": "vorsichtig — обережний"
+        },
+        {
+          "surface": "Investitionen",
+          "hint": "die Investition, -en — інвестиція"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/cb5544.jpg",
+      "publishedAt": "2026-09-23T06:11:13.000Z",
+      "processedAt": "2026-09-23T07:40:18.394Z"
+    },
+    {
+      "id": "0b44621e",
+      "originalTitle": "Ständerat lenkt ein und will 90 Prozent Eigenkapital",
+      "simplifiedText": "Der Ständerat hat gefordert, 90 Prozent Eigenkapital für Auslandbeteiligungen von Grossbanken wie der UBS zu verlangen. Die Finanzministerin Karin Keller-Sutter hat das unterstützt, weil sie die Stabilität des Finanzsystems schützen will. Die Banken haben die Forderung als sehr hoch empfunden, aber sie haben zugesagt, die Regelung zu prüfen. Auf dem internationalen Markt ist das Eigenkapital jetzt höher als vorher. Trotzdem haben die Banken erklärt, die neuen Regeln einhalten zu wollen.",
+      "vocabularyHints": [
+        "der Ständerat — радник",
+        "fordern — вимагав",
+        "das Eigenkapital — власний капітал",
+        "die Auslandbeteiligung, -en — закордонні участі",
+        "die Grossbank, -en — великі банки",
+        "unterstützen — підтримав",
+        "die Stabilität — стабільність",
+        "das Finanzsystem — фінансова система",
+        "empfinden — відчували",
+        "zusagen — заявили про готовність",
+        "die Regelung — регулювання",
+        "trotzdem — проте",
+        "einhalten — дотримуватись"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Ständerat",
+          "hint": "der Ständerat — радник"
+        },
+        {
+          "surface": "gefordert",
+          "hint": "fordern — вимагав"
+        },
+        {
+          "surface": "Eigenkapital",
+          "hint": "das Eigenkapital — власний капітал"
+        },
+        {
+          "surface": "Auslandbeteiligungen",
+          "hint": "die Auslandbeteiligung, -en — закордонні участі"
+        },
+        {
+          "surface": "Grossbanken",
+          "hint": "die Grossbank, -en — великі банки"
+        },
+        {
+          "surface": "unterstützt",
+          "hint": "unterstützen — підтримав"
+        },
+        {
+          "surface": "Stabilität",
+          "hint": "die Stabilität — стабільність"
+        },
+        {
+          "surface": "Finanzsystems",
+          "hint": "das Finanzsystem — фінансова система"
+        },
+        {
+          "surface": "empfunden",
+          "hint": "empfinden — відчували"
+        },
+        {
+          "surface": "zugesagt",
+          "hint": "zusagen — заявили про готовність"
+        },
+        {
+          "surface": "Regelung",
+          "hint": "die Regelung — регулювання"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "einhalten",
+          "hint": "einhalten — дотримуватись"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2025/12/18/637eb01f-0b05-499f-acad-0a697b51a0fd.jpg?s=fe8e10ab7a39e10f9cb7cd4114615ebb",
+      "publishedAt": "2026-09-23T06:13:12.000Z",
+      "processedAt": "2026-09-23T07:38:49.685Z"
+    },
+    {
+      "id": "7c71a2e6",
+      "originalTitle": "Trottinettfahrer auf Zebrastreifen erfasst - Bub (10) verletzt",
+      "simplifiedText": "Eine 24-jährige Frau hat am Dienstag in Wittenbach mit ihrem Auto einen zehnjährigen Trottinettfahrer auf dem Zebrastreifen erfasst. Der Junge hat sich beim Sturz leicht verletzt. Sie hat sofort die Polizei angerufen, weil sie Angst hatte, etwas Schlimmeres zu erleben. Trotzdem hat sie den Jungen beruhigt und ihm ein Taschentuch gegeben. Der Rettungsdienst ist schnell angekommen und hat den Jungen ins nächste Spital gebracht. Die Ärzte haben im Spital leichte Verletzungen festgestellt. Der Junge kann jetzt nach Hause gehen, weil er sich besser fühlt.",
+      "vocabularyHints": [
+        "der Zebrastreifen — зебра‑перехід",
+        "erfassen — задіяти",
+        "anrufen — зателефонувати",
+        "das Schlimmere — гірше",
+        "beruhigen — заспокоїти",
+        "das Taschentuch — носовий платок",
+        "der Rettungsdienst — служба швидкої допомоги",
+        "ankommen — прибути",
+        "bringen — принести",
+        "feststellen — встановити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Zebrastreifen",
+          "hint": "der Zebrastreifen — зебра‑перехід"
+        },
+        {
+          "surface": "erfasst",
+          "hint": "erfassen — задіяти"
+        },
+        {
+          "surface": "angerufen",
+          "hint": "anrufen — зателефонувати"
+        },
+        {
+          "surface": "Schlimmeres",
+          "hint": "das Schlimmere — гірше"
+        },
+        {
+          "surface": "beruhigt",
+          "hint": "beruhigen — заспокоїти"
+        },
+        {
+          "surface": "Taschentuch",
+          "hint": "das Taschentuch — носовий платок"
+        },
+        {
+          "surface": "Rettungsdienst",
+          "hint": "der Rettungsdienst — служба швидкої допомоги"
+        },
+        {
+          "surface": "angekommen",
+          "hint": "ankommen — прибути"
+        },
+        {
+          "surface": "gebracht",
+          "hint": "bringen — принести"
+        },
+        {
+          "surface": "festgestellt",
+          "hint": "feststellen — встановити"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/23/c9186878-72c6-41b9-a7eb-094ae189d335.jpg?s=0ea83420121b6a39c65fbcfb77996046",
+      "publishedAt": "2026-09-23T06:32:06.000Z",
+      "processedAt": "2026-09-23T07:37:28.352Z"
+    },
+    {
+      "id": "540a2934",
+      "originalTitle": "Vor US-Zwischenwahlen - Wie Trump auf eine Wahlniederlage reagieren könnte",
+      "simplifiedText": "Den Republikanern droht eine Wahlniederlage. Die Partei hat in den Umfragen schlecht abgeschnitten. Die Medien haben gefragt, was Trump tun wird, weil die Niederlage droht. Experten haben darüber diskutiert, ob er eine Kundgebung organisieren kann. Er plant, auf dem Platz zu reden, und seine Rede ist grösser als die vorherige. Trotzdem bleibt unklar, wie er genau reagieren wird.",
+      "vocabularyHints": [
+        "drohen — загрожувати",
+        "die Umfrage, -en — опитування",
+        "der Experte, -en — експерт",
+        "die Kundgebung, -en — мiтинг",
+        "organisieren — організовувати",
+        "gross — великий",
+        "vorherig — попередній"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "droht",
+          "hint": "drohen — загрожувати"
+        },
+        {
+          "surface": "Umfragen",
+          "hint": "die Umfrage, -en — опитування"
+        },
+        {
+          "surface": "Experten",
+          "hint": "der Experte, -en — експерт"
+        },
+        {
+          "surface": "Kundgebung",
+          "hint": "die Kundgebung, -en — мiтинг"
+        },
+        {
+          "surface": "organisieren",
+          "hint": "organisieren — організовувати"
+        },
+        {
+          "surface": "grösser",
+          "hint": "gross — великий"
+        },
+        {
+          "surface": "vorherige",
+          "hint": "vorherig — попередній"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/b52ecf.jpg",
+      "publishedAt": "2026-09-23T06:42:27.000Z",
+      "processedAt": "2026-09-23T07:36:11.318Z"
+    },
+    {
+      "id": "3ae34a48",
+      "originalTitle": "«Ich war noch fast nie so unglücklich auf dem Podest»",
+      "simplifiedText": "Stefan Küng hat nach seiner WM-Bronze kritisiert, weil ein technischer Defekt die Schweiz daran gehindert hat, besser zu fahren. Er stand auf dem Podest und hat die Medaille erhalten. Beim Training hat er das Problem an der Maschine entdeckt, hat sofort gemeldet und telefoniert. Die Mannschaft hat versucht, das Gerät zu reparieren, aber es war zu spät für das Rennen. Trotzdem war er froh, weil er viel trainiert hat und weil die Bronze ein gutes Ergebnis war. Er will beim nächsten Mal besser vorbereitet sein und hofft, das Team bekommt mehr Chancen.",
+      "vocabularyHints": [
+        "kritisieren — критикувати",
+        "technisch — технічний",
+        "Defekt — дефект",
+        "hindern — перешкоджати",
+        "Podest — п’єдестал",
+        "Medaille — медаль",
+        "Maschine — машина",
+        "reparieren — ремонтувати",
+        "Rennen — гонка",
+        "trotzdem — проте",
+        "Ergebnis — результат",
+        "vorbereiten — підготувати",
+        "Chance, -n — шанс, можливості"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "technischer",
+          "hint": "technisch — технічний"
+        },
+        {
+          "surface": "Defekt",
+          "hint": "Defekt — дефект"
+        },
+        {
+          "surface": "gehindert",
+          "hint": "hindern — перешкоджати"
+        },
+        {
+          "surface": "Podest",
+          "hint": "Podest — п’єдестал"
+        },
+        {
+          "surface": "Medaille",
+          "hint": "Medaille — медаль"
+        },
+        {
+          "surface": "Maschine",
+          "hint": "Maschine — машина"
+        },
+        {
+          "surface": "reparieren",
+          "hint": "reparieren — ремонтувати"
+        },
+        {
+          "surface": "Rennen",
+          "hint": "Rennen — гонка"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Ergebnis",
+          "hint": "Ergebnis — результат"
+        },
+        {
+          "surface": "vorbereitet",
+          "hint": "vorbereiten — підготувати"
+        },
+        {
+          "surface": "Chancen",
+          "hint": "Chance, -n — шанс, можливості"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/23/d83068e7-3ae5-41ba-8488-7d6265bc1ae8.png?s=170f20cf0a8a0b7472eb024d5915fb56",
+      "publishedAt": "2026-09-23T07:33:29.000Z",
+      "processedAt": "2026-09-23T07:34:44.512Z"
+    },
     {
       "id": "59c26548",
       "originalTitle": "«Ziemlich niedergeschlagen»: Mutter gibt nach Hai-Angriff Update",
@@ -3469,6 +4226,404 @@
     }
   ],
   "B1": [
+    {
+      "id": "37b2cfc5",
+      "originalTitle": "100 Jahre John Coltrane - Schub wie eine Lokomotive: Wie «Trane» Jazzgeschichte schrieb",
+      "simplifiedText": "Im Jahr 2026 wird John Coltrane hundert Jahre alt, ein Anlass, über sein musikalisches Erbe zu berichten. Obwohl er nur zehn Jahre lang als Bandleader aktiv war, hat er die Jazzgeschichte nachhaltig geprägt. Mit seiner intensiven Improvisation und dem charakteristischen Saxophonsound setzte er neue Massstäbe, die er selbst als „Trane“ bezeichnete. Seine Alben wie „Giant Steps“ und „A Love Supreme“ gelten heute als Meilensteine, weil sie die Grenzen des Jazz verschoben. Viele junge Musiker nennen ihn noch immer als Vorbild, weil sie von seiner spirituellen Tiefe und technischen Virtuosität lernen. In Konzerten rund um die Welt werden seine Kompositionen regelmässig neu interpretiert, was zeigt, dass sein Einfluss nicht nachgelassen hat. Die Schweizer Jazzszene feierte das Jubiläum mit Sonderkonzerten, bei denen lokale Saxophonisten Coltranes Stil nachahmen. Experten sind sich einig, dass John Coltrane die Entwicklung des Jazz wie eine Lokomotive vorangetrieben hat. Deshalb bleibt sein musikalisches Erbe ein Schub für alle, die heute Jazz machen.",
+      "vocabularyHints": [
+        "nachhaltig — тривалий, стійкий",
+        "prägen — формувати, впливати",
+        "intensiv — інтенсивний",
+        "die Improvisation, -en — імпровізація",
+        "charakteristisch — характерний",
+        "der Saxophonsound — звук саксофону",
+        "der Massstab, -e — орієнтир, стандарт",
+        "der Meilenstein, -e — віхи, важливі події",
+        "spirituell — духовний",
+        "die Virtuosität — віртуозність",
+        "nachlassen — зменшуватися",
+        "das Jubiläum, -e — ювілей",
+        "das Sonderkonzert, -e — спеціальний концерт",
+        "nachahmen — імітувати",
+        "vorantreiben — просувати вперед",
+        "der Schub — імпульс, поштовх"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "nachhaltig",
+          "hint": "nachhaltig — тривалий, стійкий"
+        },
+        {
+          "surface": "geprägt",
+          "hint": "prägen — формувати, впливати"
+        },
+        {
+          "surface": "intensiven",
+          "hint": "intensiv — інтенсивний"
+        },
+        {
+          "surface": "Improvisation",
+          "hint": "die Improvisation, -en — імпровізація"
+        },
+        {
+          "surface": "charakteristischen",
+          "hint": "charakteristisch — характерний"
+        },
+        {
+          "surface": "Saxophonsound",
+          "hint": "der Saxophonsound — звук саксофону"
+        },
+        {
+          "surface": "Massstäbe",
+          "hint": "der Massstab, -e — орієнтир, стандарт"
+        },
+        {
+          "surface": "Meilensteine",
+          "hint": "der Meilenstein, -e — віхи, важливі події"
+        },
+        {
+          "surface": "spirituellen",
+          "hint": "spirituell — духовний"
+        },
+        {
+          "surface": "Virtuosität",
+          "hint": "die Virtuosität — віртуозність"
+        },
+        {
+          "surface": "nachgelassen",
+          "hint": "nachlassen — зменшуватися"
+        },
+        {
+          "surface": "Jubiläum",
+          "hint": "das Jubiläum, -e — ювілей"
+        },
+        {
+          "surface": "Sonderkonzerten",
+          "hint": "das Sonderkonzert, -e — спеціальний концерт"
+        },
+        {
+          "surface": "nachahmen",
+          "hint": "nachahmen — імітувати"
+        },
+        {
+          "surface": "vorangetrieben",
+          "hint": "vorantreiben — просувати вперед"
+        },
+        {
+          "surface": "Schub",
+          "hint": "der Schub — імпульс, поштовх"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/b73a7c.jpg",
+      "publishedAt": "2026-09-23T06:04:57.000Z",
+      "processedAt": "2026-09-23T07:42:15.914Z"
+    },
+    {
+      "id": "4a945352",
+      "originalTitle": "Aktienrückkaufprogramm - Die Strategie von ON geht auf - zumindest kurzfristig",
+      "simplifiedText": "Der Schuhersteller ON hat angekündigt, bis 2029 ein Aktienrückkaufprogramm im Wert von einer Milliarde Dollar durchzuführen. Das Unternehmen will damit das eigene Kapital stärken und das Vertrauen der Investoren erhöhen. Die Rückkaufaktion soll über mehrere Quartale verteilt werden, um die Marktbedingungen zu berücksichtigen. Analysten sehen die Massnahme als Teil einer kurzfristigen Strategie, die den Börsenkurs stabilisieren soll. Nach der Ankündigung ist der Börsenkurs von ON bereits leicht gestiegen. Experten erwarten, dass die positive Reaktion des Marktes das Vertrauen in die Marke weiter stärkt. Sollte das Unternehmen das Ziel erreichen, könnte es bis 2029 insgesamt eine Milliarde Dollar an eigenen Aktien zurückkaufen. Beobachter warnen jedoch, dass die Wirkung vor allem kurzfristig sein könnte.",
+      "vocabularyHints": [
+        "das Aktienrückkaufprogramm — програма викупу акцій",
+        "das Kapital — капітал",
+        "die Investoren — інвестори",
+        "die Rückkaufaktion — акція викупу",
+        "die Analysten — аналісти",
+        "die Massnahme — заход",
+        "der Börsenkurs — курс на біржі",
+        "die Experten — експерти",
+        "die Reaktion — реакція",
+        "der Beobachter — спостерігач"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Aktienrückkaufprogramm",
+          "hint": "das Aktienrückkaufprogramm — програма викупу акцій"
+        },
+        {
+          "surface": "Kapital",
+          "hint": "das Kapital — капітал"
+        },
+        {
+          "surface": "Investoren",
+          "hint": "die Investoren — інвестори"
+        },
+        {
+          "surface": "Rückkaufaktion",
+          "hint": "die Rückkaufaktion — акція викупу"
+        },
+        {
+          "surface": "Analysten",
+          "hint": "die Analysten — аналісти"
+        },
+        {
+          "surface": "Massnahme",
+          "hint": "die Massnahme — заход"
+        },
+        {
+          "surface": "Börsenkurs",
+          "hint": "der Börsenkurs — курс на біржі"
+        },
+        {
+          "surface": "Experten",
+          "hint": "die Experten — експерти"
+        },
+        {
+          "surface": "Reaktion",
+          "hint": "die Reaktion — реакція"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter — спостерігач"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/cb5544.jpg",
+      "publishedAt": "2026-09-23T06:11:13.000Z",
+      "processedAt": "2026-09-23T07:40:47.688Z"
+    },
+    {
+      "id": "1a7d38c0",
+      "originalTitle": "Ständerat lenkt ein und will 90 Prozent Eigenkapital",
+      "simplifiedText": "Der Ständerat hat am Mittwoch beschlossen, dass Grossbanken wie die UBS mindestens 90 Prozent Eigenkapital für ihre Auslandbeteiligungen vorhalten müssen. Die neue Forderung kommt nach langen Verhandlungen zwischen der Finanzministerin Karin Keller-Sutter und den Bankenvertretern. Ziel ist es, das Risiko von Kreditausfällen im Ausland zu reduzieren und die Stabilität des Finanzsystems zu stärken. Die Banken sollen das zusätzliche Kapital aus ihrer Konsolidierung und aus Rücklagen bereitstellen. Kritiker warnen, dass die hohen Eigenkapitalquoten die Kreditvergabe an kleine Unternehmen behindern könnten. Die Bankenaufsicht wird die Umsetzung überwachen und bei Verstössen Sanktionen verhängen. Gleichzeitig betont die Finanzministerin, dass die Massnahme die Verantwortung der Grossbanken gegenüber Steuerzahlern unterstreicht. Wenn die Regelung rechtzeitig in Kraft tritt, könnte die Schweiz ihre Reputation als sicherer Finanzstandort festigen.",
+      "vocabularyHints": [
+        "der Ständerat — федеральна рада",
+        "die Grossbank — великі банки",
+        "das Eigenkapital — власний капітал",
+        "die Auslandbeteiligung — закордонні участі",
+        "die Forderung — вимога",
+        "die Finanzministerin — міністр фінансів",
+        "die Konsolidierung — консолідація",
+        "die Rücklage — резерви",
+        "die Kreditvergabe — надання кредитів",
+        "die Bankenaufsicht — нагляд за банками",
+        "die Sanktion — санкції",
+        "die Verantwortung — відповідальність",
+        "der Steuerzahler — податкоплатникам",
+        "die Reputation — репутація",
+        "der Finanzstandort — фінансовий центр"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Ständerat",
+          "hint": "der Ständerat — федеральна рада"
+        },
+        {
+          "surface": "Grossbanken",
+          "hint": "die Grossbank — великі банки"
+        },
+        {
+          "surface": "Eigenkapital",
+          "hint": "das Eigenkapital — власний капітал"
+        },
+        {
+          "surface": "Auslandbeteiligungen",
+          "hint": "die Auslandbeteiligung — закордонні участі"
+        },
+        {
+          "surface": "Forderung",
+          "hint": "die Forderung — вимога"
+        },
+        {
+          "surface": "Finanzministerin",
+          "hint": "die Finanzministerin — міністр фінансів"
+        },
+        {
+          "surface": "Konsolidierung",
+          "hint": "die Konsolidierung — консолідація"
+        },
+        {
+          "surface": "Rücklagen",
+          "hint": "die Rücklage — резерви"
+        },
+        {
+          "surface": "Kreditvergabe",
+          "hint": "die Kreditvergabe — надання кредитів"
+        },
+        {
+          "surface": "Bankenaufsicht",
+          "hint": "die Bankenaufsicht — нагляд за банками"
+        },
+        {
+          "surface": "Sanktionen",
+          "hint": "die Sanktion — санкції"
+        },
+        {
+          "surface": "Verantwortung",
+          "hint": "die Verantwortung — відповідальність"
+        },
+        {
+          "surface": "Steuerzahlern",
+          "hint": "der Steuerzahler — податкоплатникам"
+        },
+        {
+          "surface": "Reputation",
+          "hint": "die Reputation — репутація"
+        },
+        {
+          "surface": "Finanzstandort",
+          "hint": "der Finanzstandort — фінансовий центр"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://media.20min.ch/6/image/2025/12/18/637eb01f-0b05-499f-acad-0a697b51a0fd.jpg?s=fe8e10ab7a39e10f9cb7cd4114615ebb",
+      "publishedAt": "2026-09-23T06:13:12.000Z",
+      "processedAt": "2026-09-23T07:39:21.159Z"
+    },
+    {
+      "id": "52ecd13c",
+      "originalTitle": "Trottinettfahrer auf Zebrastreifen erfasst - Bub (10) verletzt",
+      "simplifiedText": "Eine 24-jährige Frau hat am Dienstag in Wittenbach mit ihrem Auto einen zehnjährigen Trottinettfahrer auf einem Zebrastreifen erfasst. Der Junge war zehn Jahre alt und fuhr ein Trottinett. Er befand sich gerade auf dem Zebrastreifen, als das Auto ihn traf. Durch den Aufprall stürzte er zu Boden. Bei dem Sturz verletzte er sich nur leicht. Der Vorfall passierte am Dienstag. Der Unfallort war in Wittenbach. Die 24-jährige Fahrerin war die Person, die das Auto fuhr. Der zehnjährige Trottinettfahrer blieb nach dem Sturz bei leichten Verletzungen.",
+      "vocabularyHints": [
+        "der Trottinettfahrer — їдець на тротинеті",
+        "der Zebrastreifen — зебра-стежка (пішохідний перехід)",
+        "erfassen — завдати удару, збити",
+        "stürzen — потрапити у падіння, впасти"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Trottinettfahrer",
+          "hint": "der Trottinettfahrer — їдець на тротинеті"
+        },
+        {
+          "surface": "Zebrastreifen",
+          "hint": "der Zebrastreifen — зебра-стежка (пішохідний перехід)"
+        },
+        {
+          "surface": "erfasst",
+          "hint": "erfassen — завдати удару, збити"
+        },
+        {
+          "surface": "stürzte",
+          "hint": "stürzen — потрапити у падіння, впасти"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/23/c9186878-72c6-41b9-a7eb-094ae189d335.jpg?s=0ea83420121b6a39c65fbcfb77996046",
+      "publishedAt": "2026-09-23T06:32:06.000Z",
+      "processedAt": "2026-09-23T07:37:39.840Z"
+    },
+    {
+      "id": "6aad27ee",
+      "originalTitle": "Vor US-Zwischenwahlen - Wie Trump auf eine Wahlniederlage reagieren könnte",
+      "simplifiedText": "Den Republikanern droht bei den bevorstehenden Zwischenwahlen eine deutliche Wahlniederlage. Die Medien fragen sich, welche Reaktion Donald Trump zeigen würde, falls seine Partei verliert. Einige Analysten spekulieren, dass Trump die Wahlkritik als persönlichen Angriff darstellen könnte. Andere erwarten, dass er seine Unterstützer zu weiteren Kundgebungen aufrufen wird. In den sozialen Netzwerken kursieren bereits Szenarien, in denen Trump eine neue Kandidatur für die Präsidentschaft ankündigt. Die Republikaner selbst betonen, dass sie trotz möglicher Niederlage weiter an ihrer Agenda festhalten wollen. Die Parteiführung plant ein Krisenmeeting, um die nächsten Schritte zu koordinieren. Bis zur Wahl bleiben die genauen Reaktionen unklar, aber die Diskussionen zeigen, dass das Ergebnis grossen Einfluss auf die US-Politik haben könnte.",
+      "vocabularyHints": [
+        "drohen — загрожувати",
+        "Zwischenwahl — проміжні вибори",
+        "Wahlniederlage — поразка на виборах",
+        "Reaktion — реакція",
+        "spekulieren — спекулювати",
+        "Kundgebung — мітинги",
+        "Szenario — сценарії",
+        "Krisenmeeting — кризова нарада",
+        "koordinieren — координувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "droht",
+          "hint": "drohen — загрожувати"
+        },
+        {
+          "surface": "Zwischenwahlen",
+          "hint": "Zwischenwahl — проміжні вибори"
+        },
+        {
+          "surface": "Wahlniederlage",
+          "hint": "Wahlniederlage — поразка на виборах"
+        },
+        {
+          "surface": "Reaktion",
+          "hint": "Reaktion — реакція"
+        },
+        {
+          "surface": "spekulieren",
+          "hint": "spekulieren — спекулювати"
+        },
+        {
+          "surface": "Kundgebungen",
+          "hint": "Kundgebung — мітинги"
+        },
+        {
+          "surface": "Szenarien",
+          "hint": "Szenario — сценарії"
+        },
+        {
+          "surface": "Krisenmeeting",
+          "hint": "Krisenmeeting — кризова нарада"
+        },
+        {
+          "surface": "koordinieren",
+          "hint": "koordinieren — координувати"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/b52ecf.jpg",
+      "publishedAt": "2026-09-23T06:42:27.000Z",
+      "processedAt": "2026-09-23T07:36:40.668Z"
+    },
+    {
+      "id": "12c547e6",
+      "originalTitle": "«Ich war noch fast nie so unglücklich auf dem Podest»",
+      "simplifiedText": "Stefan Küng, ein Radrennfahrer aus dem Kanton Thurgau, hat nach seiner Bronzemedaille bei der Weltmeisterschaft Kritik geäussert. Er sagte, dass ein technischer Defekt an seinem Fahrrad ihn daran gehindert habe, sein volles Potenzial auszuschöpfen. Ohne dieses Problem, meint Küng, wäre die Schweiz deutlich besser abgeschnitten und hätte vielleicht sogar ein Gold gewonnen. Er betonte, dass der Defekt bereits im entscheidenden Moment des Rennens aufgetreten sei. Trotz des Problems war Küng mit seiner eigenen Leistung zufrieden, weil er die Bronzemedaille erreichen konnte. Auf dem Podest wirkte er jedoch ungewöhnlich unglücklich, wie er selbst später erklärte. Küng forderte, dass die Verantwortlichen den Defekt genauer untersuchen und künftig zuverlässigere Technik bereitstellen. Sein Appell soll dazu beitragen, dass die Schweiz bei zukünftigen Weltmeisterschaften wieder um die vorderen Plätze kämpfen kann.",
+      "vocabularyHints": [
+        "äussern — висловлювати",
+        "der Defekt — дефект",
+        "das Potenzial — потенціал",
+        "ausschöpfen — використати повністю",
+        "abschneiden — виступити (у змаганнях), досягти результату",
+        "das Podest — подіум",
+        "unglücklich — нещасний, незадоволений",
+        "der Verantwortliche — відповідальний (особа)",
+        "zuverlässig — надійний",
+        "der Appell — заклик"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "geäussert",
+          "hint": "äussern — висловлювати"
+        },
+        {
+          "surface": "Defekt",
+          "hint": "der Defekt — дефект"
+        },
+        {
+          "surface": "Potenzial",
+          "hint": "das Potenzial — потенціал"
+        },
+        {
+          "surface": "auszuschöpfen",
+          "hint": "ausschöpfen — використати повністю"
+        },
+        {
+          "surface": "abgeschnitten",
+          "hint": "abschneiden — виступити (у змаганнях), досягти результату"
+        },
+        {
+          "surface": "Podest",
+          "hint": "das Podest — подіум"
+        },
+        {
+          "surface": "unglücklich",
+          "hint": "unglücklich — нещасний, незадоволений"
+        },
+        {
+          "surface": "Verantwortlichen",
+          "hint": "der Verantwortliche — відповідальний (особа)"
+        },
+        {
+          "surface": "zuverlässigere",
+          "hint": "zuverlässig — надійний"
+        },
+        {
+          "surface": "Appell",
+          "hint": "der Appell — заклик"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/23/d83068e7-3ae5-41ba-8488-7d6265bc1ae8.png?s=170f20cf0a8a0b7472eb024d5915fb56",
+      "publishedAt": "2026-09-23T07:33:29.000Z",
+      "processedAt": "2026-09-23T07:35:00.669Z"
+    },
     {
       "id": "34aba716",
       "originalTitle": "«Ziemlich niedergeschlagen»: Mutter gibt nach Hai-Angriff Update",
@@ -5875,8 +7030,84 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-22T22:57:34.409Z",
+  "updatedAt": "2026-09-23T07:51:16.510Z",
   "tsnA1": [
+    {
+      "id": "7dc7359a",
+      "originalTitle": "Яке 24 вересня свято — все про цей день, яке церковне свято",
+      "simplifiedText": "24 вересня в Україні вшановують святу Теклу. Текла присвятила життя Богові і відмовилась від шлюбу. Вона пережила кілька страти, але залишилась живою. Того ж дня святкують Міжнародний день караванника. У цей день також відзначають Всесвітній день горили.",
+      "vocabularyHints": [
+        "вересень — September",
+        "Україна — die Ukraine",
+        "вшанувати — ehr(en)"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вересня",
+          "hint": "вересень — September"
+        },
+        {
+          "surface": "Україні",
+          "hint": "Україна — die Ukraine"
+        },
+        {
+          "surface": "вшановують",
+          "hint": "вшанувати — ehr(en)"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/419/tsn-51cb131e/thumbs/608xX/36/0a/b7d34c89d94941959ca98cc6bb170a36.jpg",
+      "publishedAt": "2026-09-23T06:00:00.000Z",
+      "processedAt": "2026-09-23T07:47:34.838Z"
+    },
+    {
+      "id": "02fd96d4",
+      "originalTitle": "Росія масовано вдарила одразу по 4 районах під Києвом: є влучання, поранені люди — перші деталі",
+      "simplifiedText": "Росія вдарила по чотирьох районах Київської області. У Бучанському районі влучило в будинки і авто. Троє людей отримали поранення, один — у шоковому стані. Усього пошкоджено вісімнадцять об’єктів у всіх районах.",
+      "vocabularyHints": [
+        "вдарити — schlagen",
+        "район — der Bezirk, -e",
+        "область — die Region, -en",
+        "влучити — treffen",
+        "поранення — die Verletzung, -en",
+        "шоковий — schockartig",
+        "стан — Zustand"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вдарила",
+          "hint": "вдарити — schlagen"
+        },
+        {
+          "surface": "районах",
+          "hint": "район — der Bezirk, -e"
+        },
+        {
+          "surface": "області",
+          "hint": "область — die Region, -en"
+        },
+        {
+          "surface": "влучило",
+          "hint": "влучити — treffen"
+        },
+        {
+          "surface": "поранення",
+          "hint": "поранення — die Verletzung, -en"
+        },
+        {
+          "surface": "шоковому",
+          "hint": "шоковий — schockartig"
+        },
+        {
+          "surface": "стані",
+          "hint": "стан — Zustand"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/179/tsn-1284f5ef/thumbs/608xX/b6/47/f36972275edb5296c661d99b140647b6.png",
+      "publishedAt": "2026-09-23T06:09:25.000Z",
+      "processedAt": "2026-09-23T07:42:32.202Z"
+    },
     {
       "id": "790f1263",
       "originalTitle": "Яке церковне свято в Україні 30 вересня",
@@ -6472,6 +7703,39 @@
     }
   ],
   "tsnA2": [
+    {
+      "id": "3007bd99",
+      "originalTitle": "Яке 24 вересня свято — все про цей день, яке церковне свято",
+      "simplifiedText": "24 вересня 2026 року — четвер, і в Україні це 1673‑й день війни. У цей день віряни відзначають День пам’яті святій першомучениці й рівноапостольній Теклі, яка, почувши проповідь апостола Павла, присвятила своє життя Богові і відмовилася від шлюбу. Також у світі святкують Міжнародний день караванника, названий на честь британського мореплавця Вільяма Адамса, що прибув до Японії. 24 вересня відзначають і Всесвітній день квантової готовності, коли говорять про кібербезпеку і майбутнє квантових комп’ютерів. Окрім цього, цей день присвячений і Всесвітньому дню горили, мета якого — захистити цих великих приматів.",
+      "vocabularyHints": [
+        "пам’ять — die Erinnerung",
+        "першомучениця — die erste Märtyrerin",
+        "рівноапостольний — die gleichberechtigte Apostelin",
+        "присвятити — widmen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "пам’яті",
+          "hint": "пам’ять — die Erinnerung"
+        },
+        {
+          "surface": "першомучениці",
+          "hint": "першомучениця — die erste Märtyrerin"
+        },
+        {
+          "surface": "рівноапостольній",
+          "hint": "рівноапостольний — die gleichberechtigte Apostelin"
+        },
+        {
+          "surface": "присвятила",
+          "hint": "присвятити — widmen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/419/tsn-51cb131e/thumbs/608xX/36/0a/b7d34c89d94941959ca98cc6bb170a36.jpg",
+      "publishedAt": "2026-09-23T06:00:00.000Z",
+      "processedAt": "2026-09-23T07:47:49.405Z"
+    },
     {
       "id": "05dd8e72",
       "originalTitle": "День ангела 30 вересня: кого та як вітати з іменинами",
