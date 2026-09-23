@@ -35,20 +35,40 @@ function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
         const text = Buffer.concat(chunks).toString("utf8");
 
         if (res.statusCode === 429 && retries > 0) {
-          // Groq's Retry-After can be huge once you hit the daily/hourly
-          // token quota (not just a per-second burst limit) — the log
-          // showed waits up to ~1.5M ms (25 min) per single retry. Sleeping
-          // that long inline burns through the whole GitHub Actions job
-          // budget for one article. Cap the wait so we either back off a
-          // reasonable amount or fail fast and let updateNews.js move on /
-          // the job finish, instead of stalling for tens of minutes.
+          // Groq's Retry-After can be huge once you hit the DAILY quota
+          // (RPD/TPD), not just the per-minute one (RPM/TPM) — the log
+          // showed waits up to ~1.5M ms (25+ min) per single retry.
+          // Sleeping that long inline burns through the whole GitHub
+          // Actions job budget for one article, so cap the wait and fail
+          // fast instead of stalling for tens of minutes.
+          //
+          // Which limit was actually hit matters for what "giving up"
+          // even means here: x-ratelimit-remaining-requests is ALWAYS the
+          // daily (RPD) counter and x-ratelimit-remaining-tokens is ALWAYS
+          // the per-minute (TPM) one, per Groq's own docs — regardless of
+          // what the header *names* suggest. A remaining-requests of 0
+          // means the day's budget for this API key is genuinely gone
+          // (nothing this script does differently next run will help,
+          // short of using a different key or waiting for the daily
+          // reset); a low-but-nonzero remaining-tokens with remaining-
+          // requests still well above 0 means it was a TPM burst instead
+          // (a pacing problem, fixable by spacing requests out more).
+          // Surface which one it was so the log stops being ambiguous
+          // about which fix actually applies.
+          const remainingRequests = res.headers["x-ratelimit-remaining-requests"];
+          const remainingTokens = res.headers["x-ratelimit-remaining-tokens"];
+          const isDailyExhausted = remainingRequests !== undefined && parseInt(remainingRequests, 10) <= 0;
+          const limitKind = isDailyExhausted
+            ? "DAILY (RPD) quota exhausted for this API key — will not recover until Groq's daily reset; retrying sooner or pacing requests differently won't help"
+            : `per-minute (TPM) burst — remaining-tokens=${remainingTokens ?? "?"}, remaining-requests=${remainingRequests ?? "?"}`;
+
           const rawWait = parseFloat(res.headers["retry-after"] || "5") * 1000;
           const MAX_WAIT_MS = 60000; // never sleep more than 60s on one retry
           if (rawWait > MAX_WAIT_MS) {
-            reject(new Error(`Groq rate limit requests a ${Math.round(rawWait / 1000)}s wait — giving up (quota likely exhausted)`));
+            reject(new Error(`Groq rate limit requests a ${Math.round(rawWait / 1000)}s wait — giving up (${limitKind})`));
             return;
           }
-          console.warn(`[groq] Rate limit, retrying in ${rawWait}ms...`);
+          console.warn(`[groq] Rate limit, retrying in ${rawWait}ms... (${limitKind})`);
           await sleep(rawWait);
           groqRequest(body, retries - 1, apiKey).then(resolve).catch(reject);
           return;
