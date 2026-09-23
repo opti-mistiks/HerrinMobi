@@ -209,7 +209,12 @@ async function processTsn(db) {
       } catch (err) {
         console.error(`❌ [TSN ${level}] "${article.title.slice(0, 30)}": ${err.message}`);
         failed++;
-        if (/quota likely exhausted/i.test(err.message)) {
+        // Only bail early on a genuine DAILY (RPD) exhaustion — that
+        // won't recover this run no matter what. A TPM burst is
+        // transient (resets within a minute), so don't count it toward
+        // the bail streak; just move on and let the next request's own
+        // pacing/retry handle it.
+        if (/DAILY \(RPD\) quota exhausted/.test(err.message)) {
           quotaFailStreak++;
           if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) break;
         }
@@ -314,7 +319,9 @@ async function main() {
       } catch (err) {
         console.error(`❌ [${level}] "${article.title.slice(0, 30)}": ${err.message}`);
         failed++;
-        if (/quota likely exhausted/i.test(err.message)) {
+        // Same distinction as the TSN loop above: only a genuine DAILY
+        // (RPD) exhaustion is worth bailing the whole run for.
+        if (/DAILY \(RPD\) quota exhausted/.test(err.message)) {
           quotaFailStreak++;
           if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) break;
         }
