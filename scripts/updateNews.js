@@ -214,10 +214,12 @@ async function processTsn(db) {
           if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) break;
         }
       }
-      // Same reasoning as the app/DE loop below: each level here also
-      // makes 2 Groq calls (simplify + translate-to-German), so this
-      // pause is the per-level budget, not per-request.
-      await sleep(4000);
+      // Same TPM reasoning as the app/DE loop above — see its comment.
+      // TSN's simplify call is the same size class (long prompt with its
+      // own vocabulary section + article text in, up to 3000-token
+      // completion out), so it needs the same real pause, not the RPM-only
+      // 4s this used to be.
+      await sleep(20000);
     }
   }
 
@@ -318,14 +320,21 @@ async function main() {
         }
       }
 
-      // Пауза між запитами щоб не бити rate limit. 2s тут покриває лише
-      // паузу МІЖ рівнями — але кожен рівень сам по собі робить 2 Groq-
-      // запити (resolveStoryCore + simplify, лише перший кешується між
-      // рівнями), тож реальна частота запитів вища за те, що ця пауза
-      // сама по собі забезпечує. 4s — грубий запас під безкоштовний ліміт
-      // Groq для цієї моделі; вбудований retry в groqRequest() все одно
-      // підхоплює короткі 429, просто повільніше.
-      await sleep(4000);
+      // Pause between levels. 4s only accounts for RPM (30/min — 2s/request
+      // is already comfortable), which is NOT the real bottleneck here:
+      // Groq's free tier for this model also caps at 8,000 TPM (tokens/min),
+      // and a single simplify call (long system prompt with the vocabulary
+      // section + article text in, up to 3000-token completion out) can
+      // easily run 2,500-3,500 tokens on its own — so 2-3 such calls back
+      // to back already exhausts the whole minute's token budget regardless
+      // of how many *requests* that is. When TPM is hit, Groq's Retry-After
+      // is measured in minutes, not seconds (confirmed in production logs:
+      // waits of 600-1600+s), which is what was repeatedly tipping runs
+      // into "quota exhausted" well before the 1,000 RPD ceiling was ever
+      // reached. 20s leaves realistic headroom under 8K TPM for a
+      // few-thousand-token call; the built-in retry in groqRequest() still
+      // covers any remaining short 429s from RPM bursts.
+      await sleep(20000);
     }
   }
 
