@@ -577,7 +577,18 @@ Return ONLY valid JSON, nothing else:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        max_tokens: 2000,
+        // Was 2000 — that was enough back when this call only produced
+        // simplified_text_ukr. It now also produces the "vocabulary" array
+        // (added alongside 20min's own equivalent list), which for a
+        // B1-length text with many hint words can easily need another
+        // 1000+ tokens on top of the text itself — at 2000 the model was
+        // hitting the ceiling mid-array and returning truncated,
+        // unparseable JSON ("max completion tokens reached before
+        // generating a valid document"), which is why TSN articles were
+        // failing/skipping so often. Matches simplifyArticle()'s own
+        // max_tokens (line ~303) above, which already accounts for a
+        // similarly-sized text + vocabulary list.
+        max_tokens: 3000,
         // "low" reasoning effort occasionally returns a fully empty
         // completion for this call (json_validate_failed, empty
         // failed_generation) on certain inputs — observed on a short,
@@ -704,4 +715,3 @@ module.exports = {
   detectCategory,
   simplifyTsnArticle,
 };
-
