@@ -1,6 +1,343 @@
 {
   "A1": [
     {
+      "id": "11de39cc",
+      "originalTitle": "Medizinische Versorgung - Medikamentenversorgung: Nationalrat ist skeptisch bei Initiative",
+      "simplifiedText": "Der Nationalrat empfiehlt ein Nein zur Initiative. Er unterstützt den Gegenvorschlag des Bundesrats. Die Initiative betrifft die Medikamentenversorgung in der Schweiz. Der Nationalrat ist skeptisch bei der Initiative. Der Gegenvorschlag kommt vom Bundesrat im Parlament.",
+      "vocabularyHints": [
+        "der Nationalrat — національна рада",
+        "empfehlen — рекомендує",
+        "die Initiative — ініціатива",
+        "unterstützen — підтримує",
+        "der Gegenvorschlag — контрпропозиція",
+        "der Bundesrat — федеральна рада (родовий)",
+        "die Medikamentenversorgung — постачання медикаментів",
+        "skeptisch — скептичний",
+        "der Bundesrat — федеральна рада",
+        "das Parlament — парламент"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Nationalrat",
+          "hint": "der Nationalrat — національна рада"
+        },
+        {
+          "surface": "empfiehlt",
+          "hint": "empfehlen — рекомендує"
+        },
+        {
+          "surface": "Initiative",
+          "hint": "die Initiative — ініціатива"
+        },
+        {
+          "surface": "unterstützt",
+          "hint": "unterstützen — підтримує"
+        },
+        {
+          "surface": "Gegenvorschlag",
+          "hint": "der Gegenvorschlag — контрпропозиція"
+        },
+        {
+          "surface": "Bundesrats",
+          "hint": "der Bundesrat — федеральна рада (родовий)"
+        },
+        {
+          "surface": "Medikamentenversorgung",
+          "hint": "die Medikamentenversorgung — постачання медикаментів"
+        },
+        {
+          "surface": "skeptisch",
+          "hint": "skeptisch — скептичний"
+        },
+        {
+          "surface": "Bundesrat",
+          "hint": "der Bundesrat — федеральна рада"
+        },
+        {
+          "surface": "Parlament",
+          "hint": "das Parlament — парламент"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/8fede2.jpg",
+      "publishedAt": "2026-09-23T17:34:08.000Z",
+      "processedAt": "2026-09-23T18:47:54.718Z"
+    },
+    {
+      "id": "3f55b4c8",
+      "originalTitle": "Supertalent auf vielen Velos - Anja Grossmann: Enttäuschung gross, Zukunft hell",
+      "simplifiedText": "Die 17-jährige Anja Grossmann ist ein Velosporttalent. Sie ist bei der Weltmeisterschaft sehr schnell gefahren. Sie hat die Medaille nur um 0,07 Sekunden verpasst. Sie ist enttäuscht, aber sie bleibt optimistisch. Ihre Zukunft im Velosport sieht sehr hell aus.",
+      "vocabularyHints": [
+        "das Velosporttalent — велоспортивний талант",
+        "die Weltmeisterschaft — світовий чемпіонат",
+        "die Medaille — медаль",
+        "enttäuschen — розчарований",
+        "optimistisch — оптимістичний",
+        "die Zukunft — майбутнє",
+        "der Velosport — велоспорт"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Velosporttalent",
+          "hint": "das Velosporttalent — велоспортивний талант"
+        },
+        {
+          "surface": "Weltmeisterschaft",
+          "hint": "die Weltmeisterschaft — світовий чемпіонат"
+        },
+        {
+          "surface": "Medaille",
+          "hint": "die Medaille — медаль"
+        },
+        {
+          "surface": "enttäuscht",
+          "hint": "enttäuschen — розчарований"
+        },
+        {
+          "surface": "optimistisch",
+          "hint": "optimistisch — оптимістичний"
+        },
+        {
+          "surface": "Zukunft",
+          "hint": "die Zukunft — майбутнє"
+        },
+        {
+          "surface": "Velosport",
+          "hint": "der Velosport — велоспорт"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/aa22cf.jpg",
+      "publishedAt": "2026-09-23T18:09:59.000Z",
+      "processedAt": "2026-09-23T18:46:34.064Z"
+    },
+    {
+      "id": "0d96e85a",
+      "originalTitle": "Krieg im Nahen Osten - Irans Präsident: «Wir sind Opfer von Terrorismus»",
+      "simplifiedText": "Irans Präsident kritisiert US-Angriffe auf Zivilziele. Er sagt wir sind Opfer von Terrorismus. Die Angriffe trafen eine Schule für Mädchen. Sie trafen auch einen Sportplatz im Süden. Der Präsident fordert ein Ende der Angriffe.",
+      "vocabularyHints": [
+        "der Präsident — президент",
+        "kritisieren — критикувати",
+        "der Angriff — атака",
+        "das Zivilziel — цивільна ціль",
+        "das Opfer — жертва",
+        "der Terrorismus — тероризм",
+        "der Sportplatz — спортивний майданчик",
+        "der Süden — південь",
+        "fordern — вимагати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Präsident",
+          "hint": "der Präsident — президент"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "US-Angriffe",
+          "hint": "der Angriff — атака"
+        },
+        {
+          "surface": "Angriffe",
+          "hint": "der Angriff — атака"
+        },
+        {
+          "surface": "Zivilziele",
+          "hint": "das Zivilziel — цивільна ціль"
+        },
+        {
+          "surface": "Opfer",
+          "hint": "das Opfer — жертва"
+        },
+        {
+          "surface": "Terrorismus",
+          "hint": "der Terrorismus — тероризм"
+        },
+        {
+          "surface": "Sportplatz",
+          "hint": "der Sportplatz — спортивний майданчик"
+        },
+        {
+          "surface": "Süden",
+          "hint": "der Süden — південь"
+        },
+        {
+          "surface": "fordert",
+          "hint": "fordern — вимагати"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/c514a4.jpg",
+      "publishedAt": "2026-09-23T18:27:26.000Z",
+      "processedAt": "2026-09-23T18:45:15.492Z"
+    },
+    {
+      "id": "39768fc4",
+      "originalTitle": "Krieg in der Ukraine - Rubio: Russland und Ukraine interessiert an Energie-Feuerpause",
+      "simplifiedText": "Rubio ist Aussenminister und spricht mit dem russischen Kollegen. Sie treffen sich an der UN-Vollversammlung. Sie reden gemeinsam über eine Energie-Feuerpause. Beide Länder wollen die Energieversorgung beruhigen. Das Gespräch ist am Rande der Versammlung.",
+      "vocabularyHints": [
+        "der Aussenminister — міністр закордонних справ",
+        "russisch — російський",
+        "der Kollege, -n — колега",
+        "die UN-Vollversammlung — загальні збори ООН",
+        "die Energie-Feuerpause — енергетична пауза",
+        "die Energieversorgung — енергопостачання",
+        "beruhigen — заспокоювати",
+        "das Gespräch — розмова",
+        "der Rand — край",
+        "die Versammlung — збори"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Aussenminister",
+          "hint": "der Aussenminister — міністр закордонних справ"
+        },
+        {
+          "surface": "russischen",
+          "hint": "russisch — російський"
+        },
+        {
+          "surface": "Kollegen",
+          "hint": "der Kollege, -n — колега"
+        },
+        {
+          "surface": "UN-Vollversammlung",
+          "hint": "die UN-Vollversammlung — загальні збори ООН"
+        },
+        {
+          "surface": "Energie-Feuerpause",
+          "hint": "die Energie-Feuerpause — енергетична пауза"
+        },
+        {
+          "surface": "Energieversorgung",
+          "hint": "die Energieversorgung — енергопостачання"
+        },
+        {
+          "surface": "beruhigen",
+          "hint": "beruhigen — заспокоювати"
+        },
+        {
+          "surface": "Gespräch",
+          "hint": "das Gespräch — розмова"
+        },
+        {
+          "surface": "Rande",
+          "hint": "der Rand — край"
+        },
+        {
+          "surface": "Versammlung",
+          "hint": "die Versammlung — збори"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/df50382.jpg",
+      "publishedAt": "2026-09-23T18:34:31.000Z",
+      "processedAt": "2026-09-23T18:43:53.958Z"
+    },
+    {
+      "id": "129c9657",
+      "originalTitle": "Ständerat zur UBS-Regulierung - Caroni: «Das grösste Risiko ist die Krise, nicht die Prävention»",
+      "simplifiedText": "Ständerat und FDP-Vizepräsident Caroni sprechen gegen die Kritik. Sie sagen, die neue Bankenregulierung schadet nicht. Das grösste Risiko ist die Krise, nicht die Prävention. Caroni meint, die Krise gefährdet die Wirtschaft.",
+      "vocabularyHints": [
+        "der Ständerat — радник",
+        "der FDP-Vizepräsident — віце‑президент FDP",
+        "Caroni — Кароні",
+        "die Kritik — критика",
+        "die Bankenregulierung — регулювання банків",
+        "schaden — шкодити",
+        "gross — найбільший",
+        "das Risiko — ризик",
+        "die Krise — криза",
+        "die Prävention — профілактика",
+        "gefährden — загрожувати",
+        "die Wirtschaft — економіка"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Ständerat",
+          "hint": "der Ständerat — радник"
+        },
+        {
+          "surface": "FDP-Vizepräsident",
+          "hint": "der FDP-Vizepräsident — віце‑президент FDP"
+        },
+        {
+          "surface": "Caroni",
+          "hint": "Caroni — Кароні"
+        },
+        {
+          "surface": "Kritik",
+          "hint": "die Kritik — критика"
+        },
+        {
+          "surface": "Bankenregulierung",
+          "hint": "die Bankenregulierung — регулювання банків"
+        },
+        {
+          "surface": "schadet",
+          "hint": "schaden — шкодити"
+        },
+        {
+          "surface": "grösste",
+          "hint": "gross — найбільший"
+        },
+        {
+          "surface": "Risiko",
+          "hint": "das Risiko — ризик"
+        },
+        {
+          "surface": "Krise",
+          "hint": "die Krise — криза"
+        },
+        {
+          "surface": "Prävention",
+          "hint": "die Prävention — профілактика"
+        },
+        {
+          "surface": "gefährdet",
+          "hint": "gefährden — загрожувати"
+        },
+        {
+          "surface": "Wirtschaft",
+          "hint": "die Wirtschaft — економіка"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/30e68e.jpg",
+      "publishedAt": "2026-09-23T18:36:36.000Z",
+      "processedAt": "2026-09-23T18:42:33.357Z"
+    },
+    {
+      "id": "40520241",
+      "originalTitle": "Rekordsieger Lyon gnadenlos - 0:8! Kalte Dusche für Servette in der Champions League",
+      "simplifiedText": "Servette Chênois spielt gegen Lyon im Auftakt. Lyon gewinnt das Spiel mit acht Toren. Servette verliert das Spiel ohne ein Tor. Das Ergebnis ist 0 : 8 für Lyon.",
+      "vocabularyHints": [
+        "der Auftakt — початок",
+        "das Tor — голи",
+        "das Ergebnis — результат"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Auftakt",
+          "hint": "der Auftakt — початок"
+        },
+        {
+          "surface": "Toren",
+          "hint": "das Tor — голи"
+        },
+        {
+          "surface": "Ergebnis",
+          "hint": "das Ergebnis — результат"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/0a4150.jpg",
+      "publishedAt": "2026-09-23T18:39:22.000Z",
+      "processedAt": "2026-09-23T18:41:14.505Z"
+    },
+    {
       "id": "09731fce",
       "originalTitle": "«Blöde Idee»: Nachfolger von Lüchzgi-Bändel kommt nicht gut an",
       "simplifiedText": "Eltern und Lehrpersonal kritisieren die neue Weste. Sie finden die Weste zu unausgereift. Die Weste soll Kindergärtner im Verkehr schützen. Eltern denken die Idee funktioniert nicht gut.",
@@ -2179,6 +2516,330 @@
   ],
   "A2": [
     {
+      "id": "12b7aa6d",
+      "originalTitle": "Medizinische Versorgung - Medikamentenversorgung: Nationalrat ist skeptisch bei Initiative",
+      "simplifiedText": "Der Nationalrat hat am Mittwoch im Parlament über die Medikamenteninitiative abgestimmt. Er hat ein klares Nein gegeben, weil er die Initiative für zu teuer hielt. Gleichzeitig hat er den Gegenvorschlag des Bundesrats unterstützt, denn dieser ist günstiger. Die Abgeordneten haben die Diskussion lange geführt, aber am Ende war die Mehrheit dagegen. Trotzdem hat ein Teil des Rates die Idee nicht ganz verworfen, weil er die Versorgung verbessern will. Die neue Regelung ist jetzt weniger kostenintensiv als die ursprüngliche Initiative. Ich habe das Ergebnis im Fernsehen gesehen und war überrascht, dass die Politiker so entschieden waren.",
+      "vocabularyHints": [
+        "das Parlament — парламент",
+        "die Medikamenteninitiative — ініціатива щодо медикаментів",
+        "der Gegenvorschlag — контрпропозиція",
+        "die Abgeordnete — депутат",
+        "kostenintensiv — витратний, дорогий",
+        "der Bundesrat — Федеральна рада"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Parlament",
+          "hint": "das Parlament — парламент"
+        },
+        {
+          "surface": "Medikamenteninitiative",
+          "hint": "die Medikamenteninitiative — ініціатива щодо медикаментів"
+        },
+        {
+          "surface": "Gegenvorschlag",
+          "hint": "der Gegenvorschlag — контрпропозиція"
+        },
+        {
+          "surface": "Abgeordneten",
+          "hint": "die Abgeordnete — депутат"
+        },
+        {
+          "surface": "Kostenintensiv",
+          "hint": "kostenintensiv — витратний, дорогий"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/8fede2.jpg",
+      "publishedAt": "2026-09-23T17:34:08.000Z",
+      "processedAt": "2026-09-23T18:48:37.832Z"
+    },
+    {
+      "id": "1fcf0ac9",
+      "originalTitle": "Supertalent auf vielen Velos - Anja Grossmann: Enttäuschung gross, Zukunft hell",
+      "simplifiedText": "Anja Grossmann, die 17 Jahre alt ist, hat bei der Weltmeisterschaft im Velo eine Medaille verpasst. Sie ist nur 0,07 Sekunden langsamer als die Siegerin, weil die Zielgerade sehr eng war. Trotzdem ist sie sehr zufrieden, weil sie ihr Bestes gegeben hat. Anja hat nach dem Rennen mit ihrem Trainer telefoniert und er hat ihr gesagt, die Zukunft ist hell. Sie plant jetzt, noch mehr zu trainieren, weil sie beim nächsten Mal schneller sein will. Im Training sitzt sie oft neben ihren Teamkollegen und sie fühlen sich gegenseitig motiviert. Die Fans haben ihr nach dem Rennen Applaus gegeben, und das hat ihr Herz froh gemacht.",
+      "vocabularyHints": [
+        "die Weltmeisterschaft — чемпіонат світу",
+        "das Velo — велосипед",
+        "verpassen — пропустити",
+        "die Zielgerade — фінішна пряма",
+        "trotzdem — проте",
+        "der Trainer — тренер",
+        "telefonieren — телефонувати",
+        "der Teamkollege, -n — командний товариш",
+        "motivieren — мотивований",
+        "der Applaus — аплодування"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Weltmeisterschaft",
+          "hint": "die Weltmeisterschaft — чемпіонат світу"
+        },
+        {
+          "surface": "Velo",
+          "hint": "das Velo — велосипед"
+        },
+        {
+          "surface": "verpasst",
+          "hint": "verpassen — пропустити"
+        },
+        {
+          "surface": "Zielgerade",
+          "hint": "die Zielgerade — фінішна пряма"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Trainer",
+          "hint": "der Trainer — тренер"
+        },
+        {
+          "surface": "telefoniert",
+          "hint": "telefonieren — телефонувати"
+        },
+        {
+          "surface": "Teamkollegen",
+          "hint": "der Teamkollege, -n — командний товариш"
+        },
+        {
+          "surface": "motiviert",
+          "hint": "motivieren — мотивований"
+        },
+        {
+          "surface": "Applaus",
+          "hint": "der Applaus — аплодування"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/aa22cf.jpg",
+      "publishedAt": "2026-09-23T18:09:59.000Z",
+      "processedAt": "2026-09-23T18:47:00.667Z"
+    },
+    {
+      "id": "0cda10c5",
+      "originalTitle": "Krieg im Nahen Osten - Irans Präsident: «Wir sind Opfer von Terrorismus»",
+      "simplifiedText": "Der Präsident des Iran hat die US-Angriffe auf zivile Ziele kritisiert. Er hat eine Mädchenschule und einen Sportkomplex im Süden des Landes als Ziel genannt. Viele Zivilisten sind verletzt worden, weil die Angriffe nicht zwischen militärischen und zivilen Zielen unterschieden haben. Trotzdem hat er betont, der Iran will nicht mit gleicher Gewalt reagieren. Er hat seine Worte auf einer Pressekonferenz in Teheran gegeben, um die internationale Gemeinschaft zu informieren.",
+      "vocabularyHints": [
+        "zivil — цивільний",
+        "kritisieren — критикувати",
+        "die Mädchenschule — шкільна установа для дівчат",
+        "der Sportkomplex — спортивний комплекс",
+        "der Zivilist, -en — цивільний",
+        "unterscheiden — розрізняти",
+        "die Pressekonferenz — прес‑конференція",
+        "die Gemeinschaft, -en — спільнота"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "zivile",
+          "hint": "zivil — цивільний"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "Mädchenschule",
+          "hint": "die Mädchenschule — шкільна установа для дівчат"
+        },
+        {
+          "surface": "Sportkomplex",
+          "hint": "der Sportkomplex — спортивний комплекс"
+        },
+        {
+          "surface": "Zivilisten",
+          "hint": "der Zivilist, -en — цивільний"
+        },
+        {
+          "surface": "unterschieden",
+          "hint": "unterscheiden — розрізняти"
+        },
+        {
+          "surface": "Pressekonferenz",
+          "hint": "die Pressekonferenz — прес‑конференція"
+        },
+        {
+          "surface": "Gemeinschaft",
+          "hint": "die Gemeinschaft, -en — спільнота"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/c514a4.jpg",
+      "publishedAt": "2026-09-23T18:27:26.000Z",
+      "processedAt": "2026-09-23T18:45:41.729Z"
+    },
+    {
+      "id": "58025efb",
+      "originalTitle": "Krieg in der Ukraine - Rubio: Russland und Ukraine interessiert an Energie-Feuerpause",
+      "simplifiedText": "US-Aussenminister Rubio hat am Rande der UNO-Vollversammlung mit seinem russischen Amtskollegen gesprochen. Sie haben über eine mögliche Energie-Feuerpause diskutiert, weil die Energieversorgung wichtig ist. Rubio hat gesagt, er möchte eine kurze Pause, um die Versorgung zu stabilisieren. Der russische Kollege hat ebenfalls Interesse gezeigt und hofft, die Pause hilft beiden Seiten. Trotzdem bleibt unklar, wann die Pause beginnen könnte. Beide Politiker sind nach der Sitzung in New York in ihr Hotel zurückgekehrt.",
+      "vocabularyHints": [
+        "der Aussenminister — міністр закордонних справ",
+        "die UNO-Vollversammlung — загальні збори ООН",
+        "die Energie-Feuerpause — енергетична пауза",
+        "diskutieren — обговорювати",
+        "stabilisieren — стабілізувати",
+        "zurückkehren — повертатися"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Aussenminister",
+          "hint": "der Aussenminister — міністр закордонних справ"
+        },
+        {
+          "surface": "UNO-Vollversammlung",
+          "hint": "die UNO-Vollversammlung — загальні збори ООН"
+        },
+        {
+          "surface": "Energie-Feuerpause",
+          "hint": "die Energie-Feuerpause — енергетична пауза"
+        },
+        {
+          "surface": "diskutiert",
+          "hint": "diskutieren — обговорювати"
+        },
+        {
+          "surface": "stabilisieren",
+          "hint": "stabilisieren — стабілізувати"
+        },
+        {
+          "surface": "zurückgekehrt",
+          "hint": "zurückkehren — повертатися"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/df50382.jpg",
+      "publishedAt": "2026-09-23T18:34:31.000Z",
+      "processedAt": "2026-09-23T18:44:21.298Z"
+    },
+    {
+      "id": "4b6d4a38",
+      "originalTitle": "Ständerat zur UBS-Regulierung - Caroni: «Das grösste Risiko ist die Krise, nicht die Prävention»",
+      "simplifiedText": "Der Ständerat und der FDP-Vizepräsident Caroni hat in einer Sitzung die geplante Bankenregulierung verteidigt. Er hat gesagt, die Kritik an der Regulierung ist nicht richtig, weil sie die Wirtschaft schädigen könnte. Trotzdem hat er betont, das grösste Risiko ist die Krise und nicht die Prävention. Er hat erklärt, die Bankenregulierung soll die Stabilität stärken. Viele Menschen haben die Diskussion im Fernsehen verfolgt, weil das Thema die ganze Schweiz betrifft. Einige Politiker haben darauf reagiert, aber Caroni bleibt bei seiner Meinung.",
+      "vocabularyHints": [
+        "der Ständerat — верхня палата",
+        "der FDP-Vizepräsident — вицепрезидент FDP",
+        "Caroni — Кароні",
+        "die Bankenregulierung — регулювання банків",
+        "die Kritik — критика",
+        "schädigen — шкодити",
+        "betonen — підкреслювати",
+        "das Risiko — ризик",
+        "die Prävention — профілактика",
+        "die Stabilität — стабільність",
+        "reagieren — реагувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Ständerat",
+          "hint": "der Ständerat — верхня палата"
+        },
+        {
+          "surface": "FDP-Vizepräsident",
+          "hint": "der FDP-Vizepräsident — вицепрезидент FDP"
+        },
+        {
+          "surface": "Caroni",
+          "hint": "Caroni — Кароні"
+        },
+        {
+          "surface": "Bankenregulierung",
+          "hint": "die Bankenregulierung — регулювання банків"
+        },
+        {
+          "surface": "Kritik",
+          "hint": "die Kritik — критика"
+        },
+        {
+          "surface": "schädigen",
+          "hint": "schädigen — шкодити"
+        },
+        {
+          "surface": "betont",
+          "hint": "betonen — підкреслювати"
+        },
+        {
+          "surface": "Risiko",
+          "hint": "das Risiko — ризик"
+        },
+        {
+          "surface": "Prävention",
+          "hint": "die Prävention — профілактика"
+        },
+        {
+          "surface": "Stabilität",
+          "hint": "die Stabilität — стабільність"
+        },
+        {
+          "surface": "reagiert",
+          "hint": "reagieren — реагувати"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/30e68e.jpg",
+      "publishedAt": "2026-09-23T18:36:36.000Z",
+      "processedAt": "2026-09-23T18:42:58.863Z"
+    },
+    {
+      "id": "7a0cbb20",
+      "originalTitle": "Rekordsieger Lyon gnadenlos - 0:8! Kalte Dusche für Servette in der Champions League",
+      "simplifiedText": "Servette Chênois hat im Auftakt der Women's Champions League gegen Lyon verloren. Lyon hat das Spiel mit 0:8 gewonnen, weil die Mannschaft sehr stark und schnell war. Die Servette-Spielerinnen waren nach dem Spiel sehr enttäuscht, aber sie haben trotzdem weiter trainiert. Das Ergebnis war grösser als jede frühere Niederlage der Servette. Nach dem Spiel sind die Fans zum Stadion gegangen, um die Spielerinnen zu unterstützen. Die Trainerin hat gesagt, sie möchte in den nächsten Spielen besser spielen.",
+      "vocabularyHints": [
+        "Auftakt — початок",
+        "Women's — жінки",
+        "Champion — чемпіони",
+        "League — ліга",
+        "Spielerin — гравчиня",
+        "enttäuschen — розчарований",
+        "gross — більший",
+        "Niederlage — поразка",
+        "Trainerin — тренерка"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Auftakt",
+          "hint": "Auftakt — початок"
+        },
+        {
+          "surface": "Women's",
+          "hint": "Women's — жінки"
+        },
+        {
+          "surface": "Champions",
+          "hint": "Champion — чемпіони"
+        },
+        {
+          "surface": "League",
+          "hint": "League — ліга"
+        },
+        {
+          "surface": "Spielerinnen",
+          "hint": "Spielerin — гравчиня"
+        },
+        {
+          "surface": "enttäuscht",
+          "hint": "enttäuschen — розчарований"
+        },
+        {
+          "surface": "grösser",
+          "hint": "gross — більший"
+        },
+        {
+          "surface": "Niederlage",
+          "hint": "Niederlage — поразка"
+        },
+        {
+          "surface": "Trainerin",
+          "hint": "Trainerin — тренерка"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/0a4150.jpg",
+      "publishedAt": "2026-09-23T18:39:22.000Z",
+      "processedAt": "2026-09-23T18:41:40.616Z"
+    },
+    {
       "id": "782bdc53",
       "originalTitle": "«Blöde Idee»: Nachfolger von Lüchzgi-Bändel kommt nicht gut an",
       "simplifiedText": "Eltern und Lehrpersonal haben die neue Weste für die Kindergärtner auf dem Schulweg kritisiert. Sie sagen, die Weste ist nicht gut durchdacht, weil sie zu gross und zu schwer ist. Viele Eltern haben die Weste ausprobiert und fanden sie unbequem. Die Lehrpersonen haben gemerkt, die Weste leuchtet nicht genug, weil das Material zu dunkel ist. Einige Eltern haben den Kindergarten angerufen und um eine bessere Lösung gebeten. Der Kindergarten hat angekündigt, die Weste zu überarbeiten. Trotzdem bleibt die Kritik, weil die Eltern und Lehrpersonen die aktuelle Weste als unausgereift empfinden.",
@@ -2339,7 +3000,7 @@
       "originalTitle": "Inkassofirma - Letterdata knickt ein: Keine Zahlungsaufforderungen mehr",
       "simplifiedText": "Die Schweizer Inkassofirma hat Geld von einer chinesischen Firma eingetrieben. Die chinesische Firma hat das Geld bezahlt, weil die Inkassofirma gesagt hat, die Leistungen wurden erbracht. Die chinesische Firma hat die Leistungen nie erbracht. Deshalb hat die Inkassofirma das Inkasso gestoppt. Sie hat das Geld zurückgefordert, weil sie erkannt hat, die Firma hat die Leistungen nicht erbracht. Trotzdem bleibt die Situation für beide Firmen schwierig.",
       "vocabularyHints": [
-        "die Inkassofirma — інкасо‑фірма",
+        "die Inkassofirma — інкасо-фірма",
         "einziehen — вимагати",
         "die Leistung, -en — послуги",
         "das Inkasso — вимоги щодо платежу",
@@ -2353,7 +3014,7 @@
       "vocabularyWords": [
         {
           "surface": "Inkassofirma",
-          "hint": "die Inkassofirma — інкасо‑фірма"
+          "hint": "die Inkassofirma — інкасо-фірма"
         },
         {
           "surface": "eingetrieben",
@@ -2403,7 +3064,7 @@
       "simplifiedText": "Die Gemeinden rund um den Mont Blanc haben im Sommer eine Reservierungspflicht für die Wanderrouten eingeführt, weil zu viele Wanderer kommen. Sie haben ausserdem ein Wildcamping-Verbot eingeführt, weil die Natur sonst überlastet ist. Die neuen Regeln gelten an allen beliebten Wanderwegen und auf den Gipfeln. Wanderer müssen jetzt online reservieren, bevor sie starten, und sie dürfen nicht mehr draussen campen. Trotzdem bleibt das Wetter am Mont Blanc oft schön und die Wanderungen sind immer noch attraktiv. Die Besucherzahlen sollen dadurch kleiner als im Vorjahr werden, und die Gemeinden freuen sich über weniger volle Wege.",
       "vocabularyHints": [
         "die Gemeinde, -n — громади",
-        "die Reservierungspflicht — обов’язок резервування",
+        "die Reservierungspflicht — обов'язок резервування",
         "die Wanderroute, -n — маршрути для піших прогулянок",
         "einführen — ввести, запровадити",
         "das Wildcamping-Verbot — заборона дикого кемпінгу",
@@ -2420,7 +3081,7 @@
         },
         {
           "surface": "Reservierungspflicht",
-          "hint": "die Reservierungspflicht — обов’язок резервування"
+          "hint": "die Reservierungspflicht — обов'язок резервування"
         },
         {
           "surface": "Wanderrouten",
@@ -4741,6 +5402,360 @@
   ],
   "B1": [
     {
+      "id": "2c32dd4b",
+      "originalTitle": "Medizinische Versorgung - Medikamentenversorgung: Nationalrat ist skeptisch bei Initiative",
+      "simplifiedText": "Der Nationalrat hat am Mittwoch über die Initiative zur Medikamentenversorgung abgestimmt. Die Abgeordneten zeigten sich skeptisch, weil sie befürchten, dass die Initiative die bestehenden Regelungen erschwert. In der abschliessenden Abstimmung empfahl die Mehrheit ein Nein zur Initiative. Gleichzeitig unterstützten sie den Gegenvorschlag, den der Bundesrat bereits vorgelegt hatte. Der Gegenvorschlag sieht vor, die Versorgung mit Medikamenten schrittweise zu verbessern, ohne die aktuelle Gesetzgebung zu ändern. Die Befürworter des Gegenvorschlags argumentierten, dass er praktikabler und finanziell tragbarer sei. Damit wird die Initiative voraussichtlich nicht weiterkommen, während der Bundesrat seine Lösung weiterverfolgt.",
+      "vocabularyHints": [
+        "abstimmen — голосувати",
+        "der Abgeordnete, -n — депутат",
+        "skeptisch — скептичний",
+        "befürchten — боятися",
+        "die Abstimmung, -en — голосування",
+        "vorlegen — представляти",
+        "schrittweise — поетапно",
+        "die Gesetzgebung, -en — законодавство",
+        "der Gegenvorschlag, -e — контрпропозиція",
+        "praktikabel — практичний",
+        "finanziell — фінансовий",
+        "tragbar — здійсненний",
+        "voraussichtlich — ймовірно",
+        "weiterkommen — просуватися вперед",
+        "weiterverfolgen — продовжувати впроваджувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "abgestimmt",
+          "hint": "abstimmen — голосувати"
+        },
+        {
+          "surface": "Abgeordneten",
+          "hint": "der Abgeordnete, -n — депутат"
+        },
+        {
+          "surface": "skeptisch",
+          "hint": "skeptisch — скептичний"
+        },
+        {
+          "surface": "befürchten",
+          "hint": "befürchten — боятися"
+        },
+        {
+          "surface": "Abstimmung",
+          "hint": "die Abstimmung, -en — голосування"
+        },
+        {
+          "surface": "vorgelegt",
+          "hint": "vorlegen — представляти"
+        },
+        {
+          "surface": "schrittweise",
+          "hint": "schrittweise — поетапно"
+        },
+        {
+          "surface": "Gesetzgebung",
+          "hint": "die Gesetzgebung, -en — законодавство"
+        },
+        {
+          "surface": "Gegenvorschlag",
+          "hint": "der Gegenvorschlag, -e — контрпропозиція"
+        },
+        {
+          "surface": "Gegenvorschlags",
+          "hint": "der Gegenvorschlag, -e — контрпропозиція"
+        },
+        {
+          "surface": "praktikabler",
+          "hint": "praktikabel — практичний"
+        },
+        {
+          "surface": "finanziell",
+          "hint": "finanziell — фінансовий"
+        },
+        {
+          "surface": "tragbarer",
+          "hint": "tragbar — здійсненний"
+        },
+        {
+          "surface": "voraussichtlich",
+          "hint": "voraussichtlich — ймовірно"
+        },
+        {
+          "surface": "weiterkommen",
+          "hint": "weiterkommen — просуватися вперед"
+        },
+        {
+          "surface": "weiterverfolgt",
+          "hint": "weiterverfolgen — продовжувати впроваджувати"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/8fede2.jpg",
+      "publishedAt": "2026-09-23T17:34:08.000Z",
+      "processedAt": "2026-09-23T18:49:04.931Z"
+    },
+    {
+      "id": "6e071ee7",
+      "originalTitle": "Supertalent auf vielen Velos - Anja Grossmann: Enttäuschung gross, Zukunft hell",
+      "simplifiedText": "Die 17-jährige Anja Grossmann ist ein junges Supertalent im Velosport. Bei der diesjährigen Weltmeisterschaft fuhr sie im Finale. Sie verpasste die Bronzemedaille nur um 0,07 Sekunden, was als läppische Differenz gilt. Trotz der knappen Niederlage bleibt sie zuversichtlich, weil sie ihre persönliche Bestzeit erreicht hat. Anja sagt, dass sie aus der Erfahrung lernt und weiter hart trainiert. Sie plant, bei den nächsten internationalen Wettkämpfen noch schneller zu fahren. Beobachter beschreiben ihre Aussichten als rosig und erwarten weitere Erfolge. Für die junge Athletin bleibt die Zukunft hell, obwohl die Enttäuschung gross war.",
+      "vocabularyHints": [
+        "das Supertalent, -e — суперталант",
+        "der Velosport — велоспорт",
+        "die Weltmeisterschaft, -en — чемпіонат світу",
+        "das Finale — фінал",
+        "die Differenz, -en — різниця",
+        "die Niederlage, -n — поразка",
+        "zuversichtlich — впевнений, оптимістичний",
+        "die Bestzeit, -en — найкращий час",
+        "der Beobachter, - — спостерігач",
+        "die Aussicht, -en — перспективи",
+        "rosig — оптимістичний, обнадійливий",
+        "die Enttäuschung, -en — розчарування"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Supertalent",
+          "hint": "das Supertalent, -e — суперталант"
+        },
+        {
+          "surface": "Velosport",
+          "hint": "der Velosport — велоспорт"
+        },
+        {
+          "surface": "Weltmeisterschaft",
+          "hint": "die Weltmeisterschaft, -en — чемпіонат світу"
+        },
+        {
+          "surface": "Finale",
+          "hint": "das Finale — фінал"
+        },
+        {
+          "surface": "Differenz",
+          "hint": "die Differenz, -en — різниця"
+        },
+        {
+          "surface": "Niederlage",
+          "hint": "die Niederlage, -n — поразка"
+        },
+        {
+          "surface": "zuversichtlich",
+          "hint": "zuversichtlich — впевнений, оптимістичний"
+        },
+        {
+          "surface": "Bestzeit",
+          "hint": "die Bestzeit, -en — найкращий час"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter, - — спостерігач"
+        },
+        {
+          "surface": "Aussichten",
+          "hint": "die Aussicht, -en — перспективи"
+        },
+        {
+          "surface": "rosig",
+          "hint": "rosig — оптимістичний, обнадійливий"
+        },
+        {
+          "surface": "Enttäuschung",
+          "hint": "die Enttäuschung, -en — розчарування"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/aa22cf.jpg",
+      "publishedAt": "2026-09-23T18:09:59.000Z",
+      "processedAt": "2026-09-23T18:47:27.739Z"
+    },
+    {
+      "id": "26174267",
+      "originalTitle": "Krieg im Nahen Osten - Irans Präsident: «Wir sind Opfer von Terrorismus»",
+      "simplifiedText": "Der iranische Präsident hat die jüngsten US-Angriffe auf zivile Ziele scharf kritisiert. Er sagte, dass Iran und sein Volk Opfer von Terrorismus seien. Zu den betroffenen Einrichtungen gehörten eine Mädchenschule und ein Sportkomplex im Süden des Landes. Laut seiner Aussage haben die Angriffe zahlreiche unschuldige Menschen getötet und verletzt. Der Präsident forderte die USA auf, sofort alle militärischen Operationen gegen zivile Ziele einzustellen. Er betonte, dass solche Aktionen die regionale Stabilität gefährden und den Friedensprozess untergraben. In einer Rede erklärte er, dass Iran weiterhin für den Schutz seiner Bürger kämpfen werde.",
+      "vocabularyHints": [
+        "der Terrorismus — тероризм",
+        "betreffen — стосуватися",
+        "die Einrichtung, -en — установа",
+        "der Sportkomplex, -e — спортивний комплекс",
+        "der Süden — південь",
+        "unschuldig — невинний",
+        "die Operation, -en — операція",
+        "die Stabilität — стабільність",
+        "der Friedensprozess, -e — процес миру",
+        "untergraben — підривати",
+        "kritisieren — критикувати",
+        "regional — регіональний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Terrorismus",
+          "hint": "der Terrorismus — тероризм"
+        },
+        {
+          "surface": "betroffenen",
+          "hint": "betreffen — стосуватися"
+        },
+        {
+          "surface": "Einrichtungen",
+          "hint": "die Einrichtung, -en — установа"
+        },
+        {
+          "surface": "Sportkomplex",
+          "hint": "der Sportkomplex, -e — спортивний комплекс"
+        },
+        {
+          "surface": "Süden",
+          "hint": "der Süden — південь"
+        },
+        {
+          "surface": "unschuldige",
+          "hint": "unschuldig — невинний"
+        },
+        {
+          "surface": "Operationen",
+          "hint": "die Operation, -en — операція"
+        },
+        {
+          "surface": "Stabilität",
+          "hint": "die Stabilität — стабільність"
+        },
+        {
+          "surface": "Friedensprozess",
+          "hint": "der Friedensprozess, -e — процес миру"
+        },
+        {
+          "surface": "untergraben",
+          "hint": "untergraben — підривати"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/c514a4.jpg",
+      "publishedAt": "2026-09-23T18:27:26.000Z",
+      "processedAt": "2026-09-23T18:46:08.016Z"
+    },
+    {
+      "id": "642e595d",
+      "originalTitle": "Krieg in der Ukraine - Rubio: Russland und Ukraine interessiert an Energie-Feuerpause",
+      "simplifiedText": "US-Aussenminister Antony Rubio hat am Rande der UNO-Vollversammlung ein Gespräch mit seinem russischen Amtskollegen geführt. In dem kurzen Austausch ging es um die Möglichkeit einer Energie-Feuerpause zwischen Russland und der Ukraine. Beide Seiten zeigten Interesse daran, die Energieversorgung in den betroffenen Gebieten vorübergehend zu stabilisieren. Rubio betonte, dass ein solcher Schritt das humanitäre Leid verringern und die wirtschaftliche Lage entlasten könnte. Der russische Vertreter erwiderte, dass ein Abkommen nur funktionieren könne, wenn die Ukraine ebenfalls zustimmt. Die Diskussion fand im Kontext der jährlichen Generaldebatte der Vereinten Nationen statt, bei der viele Länder über den Ukraine-Krieg sprechen. Beobachter sehen die Gespräche als ersten Schritt zu einer möglichen Entspannung im Energiesektor. Noch ist jedoch unklar, wann und wie eine konkrete Feuerpause umgesetzt werden könnte.",
+      "vocabularyHints": [
+        "der Aussenminister — міністр закордонних справ",
+        "die UNO-Vollversammlung — Генеральна асамблея ООН"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Aussenminister",
+          "hint": "der Aussenminister — міністр закордонних справ"
+        },
+        {
+          "surface": "UNO-Vollversammlung",
+          "hint": "die UNO-Vollversammlung — Генеральна асамблея ООН"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/df50382.jpg",
+      "publishedAt": "2026-09-23T18:34:31.000Z",
+      "processedAt": "2026-09-23T18:44:48.846Z"
+    },
+    {
+      "id": "0c1da16a",
+      "originalTitle": "Ständerat zur UBS-Regulierung - Caroni: «Das grösste Risiko ist die Krise, nicht die Prävention»",
+      "simplifiedText": "Der Ständerat und FDP-Vizepräsident Christoph Caroni hat die Kritik an der vorgesehenen Bankenregulierung zurückgewiesen. Er sagte, dass die neue Regelung nicht der Wirtschaft schaden, sondern sie stabilisieren soll. Caroni betont, dass das grösste Risiko nicht die Prävention, sondern eine mögliche Krise sei. Nach seiner Ansicht könnte eine zu strenge Aufsicht die Kreditvergabe behindern. Gleichzeitig weist er darauf hin, dass die Finanzmarktstabilität langfristig wichtiger ist. Die Opposition wirft jedoch ein, dass die Massnahmen die Wettbewerbsfähigkeit einschränken könnten. Der Ständerat wird die Vorschläge nun im nächsten Sitzungsblock diskutieren.",
+      "vocabularyHints": [
+        "der Ständerat — сенат (верхня палата)",
+        "der FDP-Vizepräsident — візепрезидент FDP",
+        "Caroni — Кароні (прізвище)",
+        "vorgesehen — передбачений",
+        "die Bankenregulierung — регулювання банків",
+        "die Prävention — профілактика"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Ständerat",
+          "hint": "der Ständerat — сенат (верхня палата)"
+        },
+        {
+          "surface": "FDP-Vizepräsident",
+          "hint": "der FDP-Vizepräsident — візепрезидент FDP"
+        },
+        {
+          "surface": "Caroni",
+          "hint": "Caroni — Кароні (прізвище)"
+        },
+        {
+          "surface": "vorgesehenen",
+          "hint": "vorgesehen — передбачений"
+        },
+        {
+          "surface": "Bankenregulierung",
+          "hint": "die Bankenregulierung — регулювання банків"
+        },
+        {
+          "surface": "Prävention",
+          "hint": "die Prävention — профілактика"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/30e68e.jpg",
+      "publishedAt": "2026-09-23T18:36:36.000Z",
+      "processedAt": "2026-09-23T18:43:25.581Z"
+    },
+    {
+      "id": "5126ec7e",
+      "originalTitle": "Rekordsieger Lyon gnadenlos - 0:8! Kalte Dusche für Servette in der Champions League",
+      "simplifiedText": "Servette Chênois hat im Auftakt der Women's Champions League gegen den Rekordsieger Lyon gespielt. Das Spiel fand im Stadion von Lyon statt und wurde von vielen Fans verfolgt. Lyon dominierte die Partie von Anfang an und erzielte bereits in der ersten Halbzeit vier Tore. In der zweiten Halbzeit erhöhte das französische Team den Vorsprung weiter und schoss insgesamt acht Treffer. Servette Chênois blieb ohne Treffer und musste die Niederlage mit 0:8 hinnehmen. Der Trainer von Servette bezeichnete die Leistung als \"eine kalte Dusche\" für das Team. Trotz der deutlichen Niederlage bleibt die Mannschaft optimistisch, weil sie wertvolle Erfahrung für die weitere Ligaphase sammelt. Die nächste Begegnung von Servette in der Gruppe steht erst in zwei Wochen an.",
+      "vocabularyHints": [
+        "der Auftakt — початок, старт",
+        "der Rekordsieger — рекордний переможець",
+        "dominieren — домінувати",
+        "der Vorsprung — перевага",
+        "die Niederlage — поразка",
+        "hinnehmen — прийняти, терпіти",
+        "bezeichnen — позначати, називати",
+        "optimistisch — оптимістичний",
+        "die Ligaphase — етап ліги"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Auftakt",
+          "hint": "der Auftakt — початок, старт"
+        },
+        {
+          "surface": "Rekordsieger",
+          "hint": "der Rekordsieger — рекордний переможець"
+        },
+        {
+          "surface": "dominierte",
+          "hint": "dominieren — домінувати"
+        },
+        {
+          "surface": "Vorsprung",
+          "hint": "der Vorsprung — перевага"
+        },
+        {
+          "surface": "Niederlage",
+          "hint": "die Niederlage — поразка"
+        },
+        {
+          "surface": "hinnehmen",
+          "hint": "hinnehmen — прийняти, терпіти"
+        },
+        {
+          "surface": "bezeichnete",
+          "hint": "bezeichnen — позначати, називати"
+        },
+        {
+          "surface": "optimistisch",
+          "hint": "optimistisch — оптимістичний"
+        },
+        {
+          "surface": "Ligaphase",
+          "hint": "die Ligaphase — етап ліги"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/0a4150.jpg",
+      "publishedAt": "2026-09-23T18:39:22.000Z",
+      "processedAt": "2026-09-23T18:42:06.469Z"
+    },
+    {
       "id": "6fab6c4f",
       "originalTitle": "Deutsches Reisemagazin kürt gastfreundlichsten Kanton der Schweiz",
       "simplifiedText": "Beim deutschen Travelbook Award 2026 wurde Graubünden zum gastfreundlichsten Kanton der Schweiz gekrönt. Der Kanton erhielt 13,39 Prozent der Stimmen, was ihn klar an die Spitze brachte. Die Auszeichnung wird jedes Jahr vom deutschen Reisemagazin Travelbook verliehen. Sie richtet sich an die Kantone, die sich durch besonders hohe Gastfreundschaft auszeichnen. Graubündens Erfolg beruht laut den Juroren auf seiner vielfältigen Kultur und den gut erhaltenen Bergdörfern. Die Wahl hat in den Medien für positive Rückmeldungen gesorgt, weil sie die touristische Attraktivität des Kantons unterstreicht. Touristen planen nun vermehrt Reisen nach Graubünden, um die freundliche Atmosphäre selbst zu erleben. Der Erfolg könnte auch andere Kantone motivieren, ihre Gastfreundschaft weiter zu verbessern.",
@@ -4833,7 +5848,7 @@
       "originalTitle": "Inkassofirma - Letterdata knickt ein: Keine Zahlungsaufforderungen mehr",
       "simplifiedText": "Eine Schweizer Inkassofirma hat für die chinesische Firma Letterdata Geld eingetrieben. Die Inkassofirma behauptete, dass die vereinbarten Leistungen bereits erbracht worden seien. In Wirklichkeit wurden die Leistungen jedoch nie erbracht. Letterdata hat daraufhin öffentlich erklärt, dass sie keine Zahlungsaufforderungen mehr an Kunden senden wird. Die Ankündigung von Letterdata folgt auf den Vorwurf, dass für nicht erbrachte Leistungen bezahlt werden soll. Die Situation hat in der Wirtschaftspresse Aufmerksamkeit erhalten, weil Inkassodienste normalerweise nur berechtigte Forderungen einziehen dürfen. Beobachter hoffen, dass solche Fälle künftig vermieden werden.",
       "vocabularyHints": [
-        "die Inkassofirma, -en — інкасо‑компанія",
+        "die Inkassofirma, -en — інкасо-компанія",
         "einziehen — вимагати (гроші)",
         "die Zahlungsaufforderung, -en — вимоги про оплату",
         "der Vorwurf, -e — звинувачення",
@@ -4844,7 +5859,7 @@
       "vocabularyWords": [
         {
           "surface": "Inkassofirma",
-          "hint": "die Inkassofirma, -en — інкасо‑компанія"
+          "hint": "die Inkassofirma, -en — інкасо-компанія"
         },
         {
           "surface": "eingetrieben",
@@ -7743,8 +8758,455 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-23T08:45:54.576Z",
+  "updatedAt": "2026-09-23T19:01:05.579Z",
   "tsnA1": [
+    {
+      "id": "039bc676",
+      "originalTitle": "Осіннє рівнодення 2026 року наближається: чотири ритуали, щоб відпустити минуле та відкрити шлях новому",
+      "simplifiedText": "Осіннє рівнодення 2026 року відбудеться 23 вересня. Тоді день і ніч майже однакові. У багатьох культурах це час підбити підсумки. Люди проводять чотири ритуали, щоб відпустити минуле. Ритуали допомагають підготуватися до нового сезону.",
+      "vocabularyHints": [
+        "рівнодення — die Tagundnachtgleiche",
+        "відбутись — stattfinde",
+        "майже — fast",
+        "однаковий — gleiche",
+        "культура — Kulturen",
+        "підбити — zusammenfassen",
+        "підсумок — Ergebnisse",
+        "ритуал — die Rituale",
+        "відпустити — loslassen",
+        "підготуватися — sich vorbereiten",
+        "сезон — die Saison",
+        "мінуле — die Vergangenheit"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "рівнодення",
+          "hint": "рівнодення — die Tagundnachtgleiche"
+        },
+        {
+          "surface": "відбудеться",
+          "hint": "відбутись — stattfinde"
+        },
+        {
+          "surface": "майже",
+          "hint": "майже — fast"
+        },
+        {
+          "surface": "однакові",
+          "hint": "однаковий — gleiche"
+        },
+        {
+          "surface": "культурах",
+          "hint": "культура — Kulturen"
+        },
+        {
+          "surface": "підбити",
+          "hint": "підбити — zusammenfassen"
+        },
+        {
+          "surface": "підсумки",
+          "hint": "підсумок — Ergebnisse"
+        },
+        {
+          "surface": "ритуали",
+          "hint": "ритуал — die Rituale"
+        },
+        {
+          "surface": "відпустити",
+          "hint": "відпустити — loslassen"
+        },
+        {
+          "surface": "підготуватися",
+          "hint": "підготуватися — sich vorbereiten"
+        },
+        {
+          "surface": "сезону",
+          "hint": "сезон — die Saison"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/737/tsn-51cb131e/thumbs/608xX/d4/29/9b7d9dbea7fbde17ed573f59f64e29d4.jpg",
+      "publishedAt": "2026-09-23T16:23:00.000Z",
+      "processedAt": "2026-09-23T18:57:20.558Z"
+    },
+    {
+      "id": "1154c7c6",
+      "originalTitle": "Не хочеться ні гостей, ні подарунків: чому ви можете не любити свій день народження",
+      "simplifiedText": "Деякі люди не люблять бути в центрі уваги. Вони відчувають незручність, коли всі дивляться. Через це вони часто уникають святкувати день народження. Подарунки можуть викликати ніяковість, а не радість. Психологи називають це страхом отримувати турботу.",
+      "vocabularyHints": [
+        "деякий — einige",
+        "людина — Menschen",
+        "центр — das Zentrum",
+        "увага — die Aufmerksamkeit",
+        "незручність — die Unbequemlichkeit",
+        "уникати — vermeiden",
+        "викликати — verursachen",
+        "ніяковість — die Peinlichkeit",
+        "психолог — der Psychologe"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Деякі",
+          "hint": "деякий — einige"
+        },
+        {
+          "surface": "люди",
+          "hint": "людина — Menschen"
+        },
+        {
+          "surface": "центрі",
+          "hint": "центр — das Zentrum"
+        },
+        {
+          "surface": "уваги",
+          "hint": "увага — die Aufmerksamkeit"
+        },
+        {
+          "surface": "незручність",
+          "hint": "незручність — die Unbequemlichkeit"
+        },
+        {
+          "surface": "уникають",
+          "hint": "уникати — vermeiden"
+        },
+        {
+          "surface": "викликати",
+          "hint": "викликати — verursachen"
+        },
+        {
+          "surface": "ніяковість",
+          "hint": "ніяковість — die Peinlichkeit"
+        },
+        {
+          "surface": "психологи",
+          "hint": "психолог — der Psychologe"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/978/tsn-51cb131e/thumbs/608xX/c1/d9/e606324e8af3fe2ea75d82033384d9c1.png",
+      "publishedAt": "2026-09-23T16:41:03.000Z",
+      "processedAt": "2026-09-23T18:55:27.109Z"
+    },
+    {
+      "id": "41bb6d26",
+      "originalTitle": "РФ знову готує масований ракетний удар: коли він може бути",
+      "simplifiedText": "Російські війська готують масовий балістичний удар. Про це попередив Андрій Коваленко з Центру протидії дезінформації. Він сказав, що підготовка вже помітна в Києві. Коваленко закликав людей стежити за повітряними тривогами. У найближчі дні росіяни можуть атакувати підстанції та АЗС.",
+      "vocabularyHints": [
+        "масовий — massiv",
+        "балістичний — ballistisch",
+        "удар — der Schlag",
+        "попередити — warnen",
+        "центр — das Zentrum",
+        "протидія — die Gegenwehr",
+        "дезінформація — die Desinformation",
+        "підготовка — die Vorbereitung",
+        "помітний — erkennbar",
+        "закликати — aufrufen",
+        "стежити — beobachten",
+        "повітряний — luft-",
+        "тривога — die Warnung",
+        "найближчий — nahe",
+        "атакувати — angreifen",
+        "підстанція — die Umspannwerke",
+        "АЗС — die Tankstelle"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "масовий",
+          "hint": "масовий — massiv"
+        },
+        {
+          "surface": "балістичний",
+          "hint": "балістичний — ballistisch"
+        },
+        {
+          "surface": "удар",
+          "hint": "удар — der Schlag"
+        },
+        {
+          "surface": "попередив",
+          "hint": "попередити — warnen"
+        },
+        {
+          "surface": "Центру",
+          "hint": "центр — das Zentrum"
+        },
+        {
+          "surface": "протидії",
+          "hint": "протидія — die Gegenwehr"
+        },
+        {
+          "surface": "дезінформації",
+          "hint": "дезінформація — die Desinformation"
+        },
+        {
+          "surface": "підготовка",
+          "hint": "підготовка — die Vorbereitung"
+        },
+        {
+          "surface": "помітна",
+          "hint": "помітний — erkennbar"
+        },
+        {
+          "surface": "закликав",
+          "hint": "закликати — aufrufen"
+        },
+        {
+          "surface": "стежити",
+          "hint": "стежити — beobachten"
+        },
+        {
+          "surface": "повітряними",
+          "hint": "повітряний — luft-"
+        },
+        {
+          "surface": "тривогами",
+          "hint": "тривога — die Warnung"
+        },
+        {
+          "surface": "найближчі",
+          "hint": "найближчий — nahe"
+        },
+        {
+          "surface": "атакувати",
+          "hint": "атакувати — angreifen"
+        },
+        {
+          "surface": "підстанції",
+          "hint": "підстанція — die Umspannwerke"
+        },
+        {
+          "surface": "АЗС",
+          "hint": "АЗС — die Tankstelle"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/552/tsn-fc8d4bb0191801bebf97b41f256288af/thumbs/608xX/94/c6/54705327cd2de7416594e04d514bc694.jpeg",
+      "publishedAt": "2026-09-23T16:51:04.000Z",
+      "processedAt": "2026-09-23T18:53:11.315Z"
+    },
+    {
+      "id": "49c976e5",
+      "originalTitle": "Жінці не сказали про туалет і вона відсудила у компанії понад 18 тисяч",
+      "simplifiedText": "У Британії жінка з інвалідністю працювала в Pets at Home. Роботодавець не надав їй ергономічне крісло і туалет. Через це вона довго піднімалася сходами до вбиральні. Трудовий трибунал у Кембриджі присудив їй 18 277 фунтів. Це була компенсація за порушення прав інвалідів.",
+      "vocabularyHints": [
+        "Британія — die Britischi",
+        "інвалідність — die Behinderung",
+        "роботодавець — der Arbeitgeber",
+        "ергономічний — ergonomisch",
+        "крісло — der Stuhl",
+        "туалет — die Toilette",
+        "підніматися — aufsteigen",
+        "вбиральня — die Toilette",
+        "трибунал — das Gericht",
+        "Кембридж — Cambridge",
+        "присудити — verurteilen",
+        "фунт — das Pfund",
+        "компенсація — die Entschädigung",
+        "порушення — die Verletzung",
+        "право — das Recht",
+        "інвалід — die Behinderte"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Британії",
+          "hint": "Британія — die Britischi"
+        },
+        {
+          "surface": "інвалідністю",
+          "hint": "інвалідність — die Behinderung"
+        },
+        {
+          "surface": "Роботодавець",
+          "hint": "роботодавець — der Arbeitgeber"
+        },
+        {
+          "surface": "ергономічне",
+          "hint": "ергономічний — ergonomisch"
+        },
+        {
+          "surface": "крісло",
+          "hint": "крісло — der Stuhl"
+        },
+        {
+          "surface": "туалет",
+          "hint": "туалет — die Toilette"
+        },
+        {
+          "surface": "піднімалася",
+          "hint": "підніматися — aufsteigen"
+        },
+        {
+          "surface": "вбиральні",
+          "hint": "вбиральня — die Toilette"
+        },
+        {
+          "surface": "трибунал",
+          "hint": "трибунал — das Gericht"
+        },
+        {
+          "surface": "Кембриджі",
+          "hint": "Кембридж — Cambridge"
+        },
+        {
+          "surface": "присудив",
+          "hint": "присудити — verurteilen"
+        },
+        {
+          "surface": "фунтів",
+          "hint": "фунт — das Pfund"
+        },
+        {
+          "surface": "компенсація",
+          "hint": "компенсація — die Entschädigung"
+        },
+        {
+          "surface": "порушення",
+          "hint": "порушення — die Verletzung"
+        },
+        {
+          "surface": "прав",
+          "hint": "право — das Recht"
+        },
+        {
+          "surface": "інвалідів",
+          "hint": "інвалід — die Behinderte"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/888/tsn-51cb131e/thumbs/608xX/6f/0f/7a0a2e485f8a524cb5a713cda6e50f6f.jpg",
+      "publishedAt": "2026-09-23T16:55:22.000Z",
+      "processedAt": "2026-09-23T18:51:11.639Z"
+    },
+    {
+      "id": "73b9aa35",
+      "originalTitle": "До України суне небезпечний циклон зі ще сильнішим похолоданням: синоптики попередили, які міста \"накриє\" (мапа)",
+      "simplifiedText": "У четвер, 24 вересня, над Україною пройде південний циклон. Він принесе дощі з грозами, сильний вітер і холод. У Києві та в Черкащині очікуються сильні дощі ввечері. Температура в північних і центральних областях впаде до +10‑+13 градусів.",
+      "vocabularyHints": [
+        "четвер — Donnerstag",
+        "вересень — September",
+        "Україна — die Ukraine",
+        "пройти — vorbeigehen",
+        "південний — südlich",
+        "циклон — der Zyklon",
+        "принести — bringen",
+        "дощ — der Regen",
+        "сильний — stark",
+        "вітер — der Wind",
+        "холод — die Kälte",
+        "Київ — Kiew",
+        "Черкащина — die Tscherkassy-Region",
+        "очікувати — erwarten",
+        "сильний — starke",
+        "вечір — am Abend",
+        "температура — die Temperatur",
+        "північний — nördlich",
+        "центральний — zentral",
+        "область — die Region",
+        "впасти — fallen",
+        "+10‑+13 — +10-+13",
+        "градус — Grad",
+        "гроза — das Gewitter"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "четвер",
+          "hint": "четвер — Donnerstag"
+        },
+        {
+          "surface": "вересня",
+          "hint": "вересень — September"
+        },
+        {
+          "surface": "Україною",
+          "hint": "Україна — die Ukraine"
+        },
+        {
+          "surface": "пройде",
+          "hint": "пройти — vorbeigehen"
+        },
+        {
+          "surface": "південний",
+          "hint": "південний — südlich"
+        },
+        {
+          "surface": "циклон",
+          "hint": "циклон — der Zyklon"
+        },
+        {
+          "surface": "принесе",
+          "hint": "принести — bringen"
+        },
+        {
+          "surface": "дощі",
+          "hint": "дощ — der Regen"
+        },
+        {
+          "surface": "сильний",
+          "hint": "сильний — stark"
+        },
+        {
+          "surface": "вітер",
+          "hint": "вітер — der Wind"
+        },
+        {
+          "surface": "холод",
+          "hint": "холод — die Kälte"
+        },
+        {
+          "surface": "Києві",
+          "hint": "Київ — Kiew"
+        },
+        {
+          "surface": "Черкащині",
+          "hint": "Черкащина — die Tscherkassy-Region"
+        },
+        {
+          "surface": "очікуються",
+          "hint": "очікувати — erwarten"
+        },
+        {
+          "surface": "сильні",
+          "hint": "сильний — starke"
+        },
+        {
+          "surface": "ввечері",
+          "hint": "вечір — am Abend"
+        },
+        {
+          "surface": "температура",
+          "hint": "температура — die Temperatur"
+        },
+        {
+          "surface": "північних",
+          "hint": "північний — nördlich"
+        },
+        {
+          "surface": "центральних",
+          "hint": "центральний — zentral"
+        },
+        {
+          "surface": "областях",
+          "hint": "область — die Region"
+        },
+        {
+          "surface": "впаде",
+          "hint": "впасти — fallen"
+        },
+        {
+          "surface": "+10‑+13",
+          "hint": "+10‑+13 — +10-+13"
+        },
+        {
+          "surface": "градусів",
+          "hint": "градус — Grad"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/684/tsn-2d42605a5d3a686abfa749ad9c360aad/thumbs/608xX/29/07/42d2b6c56377c1fd1274fbec41490729.jpeg",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "processedAt": "2026-09-23T18:49:30.788Z"
+    },
     {
       "id": "6135cde9",
       "originalTitle": "Київ від ранку під атакою РФ: вибухи не вщухають, багато «прильотів», є загиблий і поранені — усі деталі (оновлено)",
@@ -8495,6 +9957,265 @@
   ],
   "tsnA2": [
     {
+      "id": "05a37339",
+      "originalTitle": "Не хочеться ні гостей, ні подарунків: чому ви можете не любити свій день народження",
+      "simplifiedText": "День народження часто вважають часом радості, подарунків і зустрічей з близькими, проте не всім подобається бути в центрі уваги. Деяким людям незручно у великих компаніях або коли на них дивляться, тому вони уникають святкувань. За словами сайту EgészségKalauz, це може бути пов’язано з психологічними причинами, наприклад страхом публічної уваги. Інша причина – це небажання приймати турботу, коли людина звикла допомагати іншим і відчуває ніяковість від подарунків. У такому випадку подарунок або щирі слова можуть викликати не радість, а незручність. Тому деякі люди краще проводять день народження у спокої, без гостей і без подарунків.",
+      "vocabularyHints": [
+        "компанія — die Firma",
+        "уникати — ausweichen",
+        "психологічний — psychologisch",
+        "страх — die Angst",
+        "публічний — öffentlich",
+        "турбота — die Fürsorge",
+        "викликати — verursachen",
+        "незручність — die Unbequemlichkeit",
+        "спокій — die Ruhe",
+        "центр уваги — der Mittelpunkt der Aufmerksamkeit"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "компаніях",
+          "hint": "компанія — die Firma"
+        },
+        {
+          "surface": "уникають",
+          "hint": "уникати — ausweichen"
+        },
+        {
+          "surface": "психологічними",
+          "hint": "психологічний — psychologisch"
+        },
+        {
+          "surface": "страхом",
+          "hint": "страх — die Angst"
+        },
+        {
+          "surface": "публічної",
+          "hint": "публічний — öffentlich"
+        },
+        {
+          "surface": "турботу",
+          "hint": "турбота — die Fürsorge"
+        },
+        {
+          "surface": "викликати",
+          "hint": "викликати — verursachen"
+        },
+        {
+          "surface": "незручність",
+          "hint": "незручність — die Unbequemlichkeit"
+        },
+        {
+          "surface": "спокої",
+          "hint": "спокій — die Ruhe"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/978/tsn-51cb131e/thumbs/608xX/c1/d9/e606324e8af3fe2ea75d82033384d9c1.png",
+      "publishedAt": "2026-09-23T16:41:03.000Z",
+      "processedAt": "2026-09-23T18:55:53.159Z"
+    },
+    {
+      "id": "3ca596b9",
+      "originalTitle": "РФ знову готує масований ракетний удар: коли він може бути",
+      "simplifiedText": "Керівник Центру протидії дезінформації при РНБО Андрій Коваленко попередив, що російські війська готують масовий балістичний обстріл у найближчі дні. Він зазначив, що підготовка вже помітна, а російські «дипломати» намагаються затягнути час, бо не планують зупиняти вогонь. Коваленко закликав українців бути уважними до повітряних тривог, які можуть прозвучати в наступні дні. За даними пабліку «Николаевский Ванек», росіяни зараз активно розвідують об’єкти в Києві та Київській області, зокрема підстанції, гіпермаркети, склади та аеродром у Василькові. Вони вже «дивилися» на більше ніж двадцять автозаправних станцій і готують удари по ним. Сьогодні російські атаки вразили кілька районів Києва, в тому числі АЗС і транспортну інфраструктуру.",
+      "vocabularyHints": [
+        "масовий — massiv",
+        "балістичний — ballistisch",
+        "обстріл — der Beschuss",
+        "затягнути — verzögern",
+        "повітряна тривога — der Luftalarm",
+        "розвідувати — auskundschaften",
+        "підстанція — das Umspannwerk",
+        "гіпермаркет — der Supermarkt",
+        "склад — das Lager",
+        "аеродром — der Flugplatz",
+        "автозаправна станція — die Tankstelle",
+        "транспортна інфраструктура — die Verkehrsinfrastruktur"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "масовий",
+          "hint": "масовий — massiv"
+        },
+        {
+          "surface": "балістичний",
+          "hint": "балістичний — ballistisch"
+        },
+        {
+          "surface": "обстріл",
+          "hint": "обстріл — der Beschuss"
+        },
+        {
+          "surface": "затягнути",
+          "hint": "затягнути — verzögern"
+        },
+        {
+          "surface": "повітряних тривог",
+          "hint": "повітряна тривога — der Luftalarm"
+        },
+        {
+          "surface": "розвідують",
+          "hint": "розвідувати — auskundschaften"
+        },
+        {
+          "surface": "підстанції",
+          "hint": "підстанція — das Umspannwerk"
+        },
+        {
+          "surface": "гіпермаркети",
+          "hint": "гіпермаркет — der Supermarkt"
+        },
+        {
+          "surface": "склади",
+          "hint": "склад — das Lager"
+        },
+        {
+          "surface": "аеродром",
+          "hint": "аеродром — der Flugplatz"
+        },
+        {
+          "surface": "автозаправних станцій",
+          "hint": "автозаправна станція — die Tankstelle"
+        },
+        {
+          "surface": "транспортну інфраструктуру",
+          "hint": "транспортна інфраструктура — die Verkehrsinfrastruktur"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/552/tsn-fc8d4bb0191801bebf97b41f256288af/thumbs/608xX/94/c6/54705327cd2de7416594e04d514bc694.jpeg",
+      "publishedAt": "2026-09-23T16:51:04.000Z",
+      "processedAt": "2026-09-23T18:53:48.762Z"
+    },
+    {
+      "id": "07b24986",
+      "originalTitle": "Жінці не сказали про туалет і вона відсудила у компанії понад 18 тисяч",
+      "simplifiedText": "У Британії працівниця компанії Pets at Home, Міхаела Бончог, має інвалідність і страждає від болю в спині та нетримання сечі. Трудовий трибунал у Кембриджі вирішив, що роботодавець не надав їй потрібне ергономічне крісло і не повідомив про туалет на першому поверсі. Через це жінці доводилося підніматися по сходах протягом п’яти місяців, щоб користуватися вбиральнею, і вона боялася незручної ситуації перед колегами. У листопаді 2023 року вона взяла місячний лікарняний через сильний біль у спині, але проблема з доступом до туалету залишилася. Трибунал присудив їй компенсацію у розмірі 18 277 фунтів стерлінгів.",
+      "vocabularyHints": [
+        "інвалідність — die Behinderung",
+        "нетримання сечі — die Harninkontinenz",
+        "трудовий трибунал — das Arbeitsgericht",
+        "ергономічне крісло — der ergonomische Stuhl",
+        "підніматися — die Treppe hinaufgehen",
+        "місячний лікарняний — der Krankheitsurlaub",
+        "компенсація — die Entschädigung",
+        "фунт стерлінг — das Pfund Sterling"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "інвалідність",
+          "hint": "інвалідність — die Behinderung"
+        },
+        {
+          "surface": "нетримання сечі",
+          "hint": "нетримання сечі — die Harninkontinenz"
+        },
+        {
+          "surface": "трудовий трибунал",
+          "hint": "трудовий трибунал — das Arbeitsgericht"
+        },
+        {
+          "surface": "ергономічне крісло",
+          "hint": "ергономічне крісло — der ergonomische Stuhl"
+        },
+        {
+          "surface": "підніматися по сходах",
+          "hint": "підніматися — die Treppe hinaufgehen"
+        },
+        {
+          "surface": "місячний лікарняний",
+          "hint": "місячний лікарняний — der Krankheitsurlaub"
+        },
+        {
+          "surface": "компенсацію",
+          "hint": "компенсація — die Entschädigung"
+        },
+        {
+          "surface": "фунтів стерлінгів",
+          "hint": "фунт стерлінг — das Pfund Sterling"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/888/tsn-51cb131e/thumbs/608xX/6f/0f/7a0a2e485f8a524cb5a713cda6e50f6f.jpg",
+      "publishedAt": "2026-09-23T16:55:22.000Z",
+      "processedAt": "2026-09-23T18:51:37.439Z"
+    },
+    {
+      "id": "432f4f2c",
+      "originalTitle": "До України суне небезпечний циклон зі ще сильнішим похолоданням: синоптики попередили, які міста \"накриє\" (мапа)",
+      "simplifiedText": "У четвер, 24 вересня, над Україною пройде активний південний циклон, який принесе дощі з грозами, сильний вітер і різке похолодання. Синоптики сказали, що найбільші опади будуть у північних і центральних областях, а в західних їх майже не буде. Температура в північних і центральних регіонах опуститься до +10‑+13 °C, а в інших частинах – до +14‑+19 °C. У Києві очікується сильний дощ, який почнеться ввечері 24 вересня і триватиме до ранку. На Черкащині, де циклону підуть з Чорного моря, прогнозують до 49 мм опадів і пориви вітру до 20 м/с. Після 25 вересня погода поступово потеплішає.",
+      "vocabularyHints": [
+        "південний — südlich",
+        "циклон — der Zyklon",
+        "похолодання — die Abkühlung",
+        "синоптик — die Meteorologen",
+        "опад — die Niederschläge",
+        "північний — nördlich",
+        "центральний — zentral",
+        "західний — westlich",
+        "опуститися — absinken",
+        "порив — die Böen",
+        "вітер — der Wind",
+        "потеплішати — wärmer werden",
+        "гроза — die Gewitter"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "південний",
+          "hint": "південний — südlich"
+        },
+        {
+          "surface": "циклон",
+          "hint": "циклон — der Zyklon"
+        },
+        {
+          "surface": "похолодання",
+          "hint": "похолодання — die Abkühlung"
+        },
+        {
+          "surface": "синоптики",
+          "hint": "синоптик — die Meteorologen"
+        },
+        {
+          "surface": "опади",
+          "hint": "опад — die Niederschläge"
+        },
+        {
+          "surface": "північних",
+          "hint": "північний — nördlich"
+        },
+        {
+          "surface": "центральних",
+          "hint": "центральний — zentral"
+        },
+        {
+          "surface": "західних",
+          "hint": "західний — westlich"
+        },
+        {
+          "surface": "опуститься",
+          "hint": "опуститися — absinken"
+        },
+        {
+          "surface": "пориви",
+          "hint": "порив — die Böen"
+        },
+        {
+          "surface": "вітру",
+          "hint": "вітер — der Wind"
+        },
+        {
+          "surface": "потеплішає",
+          "hint": "потеплішати — wärmer werden"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/684/tsn-2d42605a5d3a686abfa749ad9c360aad/thumbs/608xX/29/07/42d2b6c56377c1fd1274fbec41490729.jpeg",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "processedAt": "2026-09-23T18:49:55.245Z"
+    },
+    {
       "id": "3007bd99",
       "originalTitle": "Яке 24 вересня свято — все про цей день, яке церковне свято",
       "simplifiedText": "24 вересня 2026 року — четвер, і в Україні це 1673‑й день війни. У цей день віряни відзначають День пам’яті святій першомучениці й рівноапостольній Теклі, яка, почувши проповідь апостола Павла, присвятила своє життя Богові і відмовилася від шлюбу. Також у світі святкують Міжнародний день караванника, названий на честь британського мореплавця Вільяма Адамса, що прибув до Японії. 24 вересня відзначають і Всесвітній день квантової готовності, коли говорять про кібербезпеку і майбутнє квантових комп’ютерів. Окрім цього, цей день присвячений і Всесвітньому дню горили, мета якого — захистити цих великих приматів.",
@@ -8762,6 +10483,100 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "4d837776",
+      "originalTitle": "До України суне небезпечний циклон зі ще сильнішим похолоданням: синоптики попередили, які міста \"накриє\" (мапа)",
+      "simplifiedText": "У четвер, 24 вересня, над Україною пройде активний південний циклон, який принесе дощі з грозами, сильний вітер і різке похолодання. За словами синоптика Наталки Діденко, найбільші опади очікуються в північних і центральних областях, а в східних – дощі чергуватимуться з проясненнями. У західних областях суттєвих опадів не передбачається. Температура на півночі та в центрі країни впаде до +10‑+13 °C, а в інших регіонах – до +14‑+19 °C. У Києві вже ввечері розпочнеться сильний дощ, який триватиме до ранку, і температура там коливатиметься в тому ж діапазоні. Метеоролог Віталій Постригань з Черкаського гідрометцентру попереджає, що вночі на Черкащині дощі можуть посилитися до 15‑49 мм і супроводжуватимуться грозами та шквалами до 20 м/с. Після 25 вересня очікується поступове потепління по всій Україні.",
+      "vocabularyHints": [
+        "активний — aktiv",
+        "південний — südlich",
+        "циклон — der Zyklon",
+        "дощ — der Regen",
+        "сильний — stark",
+        "вітер — der Wind",
+        "різкий — plötzlich",
+        "похолодання — die Abkühlung",
+        "синоптик — der Wetterexperte",
+        "північний — nördlich",
+        "центральний — zentral",
+        "область — die Region",
+        "східний — östlich",
+        "чергуватись — abwechseln",
+        "прояснення — die Aufklarungen",
+        "західний — westlich",
+        "гроза — das Gewitter"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "активний",
+          "hint": "активний — aktiv"
+        },
+        {
+          "surface": "південний",
+          "hint": "південний — südlich"
+        },
+        {
+          "surface": "циклон",
+          "hint": "циклон — der Zyklon"
+        },
+        {
+          "surface": "дощі",
+          "hint": "дощ — der Regen"
+        },
+        {
+          "surface": "сильний",
+          "hint": "сильний — stark"
+        },
+        {
+          "surface": "вітер",
+          "hint": "вітер — der Wind"
+        },
+        {
+          "surface": "різке",
+          "hint": "різкий — plötzlich"
+        },
+        {
+          "surface": "похолодання",
+          "hint": "похолодання — die Abkühlung"
+        },
+        {
+          "surface": "синоптика",
+          "hint": "синоптик — der Wetterexperte"
+        },
+        {
+          "surface": "північних",
+          "hint": "північний — nördlich"
+        },
+        {
+          "surface": "центральних",
+          "hint": "центральний — zentral"
+        },
+        {
+          "surface": "областях",
+          "hint": "область — die Region"
+        },
+        {
+          "surface": "східних",
+          "hint": "східний — östlich"
+        },
+        {
+          "surface": "чергуватимуться",
+          "hint": "чергуватись — abwechseln"
+        },
+        {
+          "surface": "проясненнями",
+          "hint": "прояснення — die Aufklarungen"
+        },
+        {
+          "surface": "західних",
+          "hint": "західний — westlich"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/684/tsn-2d42605a5d3a686abfa749ad9c360aad/thumbs/608xX/29/07/42d2b6c56377c1fd1274fbec41490729.jpeg",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "processedAt": "2026-09-23T18:50:23.181Z"
+    },
     {
       "id": "7a32f7de",
       "originalTitle": "\"Вірогідність дуже велика\": росіяни можуть зайти до великого міста вже взимку",
