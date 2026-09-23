@@ -597,18 +597,18 @@ Return ONLY valid JSON, nothing else:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        // Was 2000 — that was enough back when this call only produced
-        // simplified_text_ukr. It now also produces the "vocabulary" array
-        // (added alongside 20min's own equivalent list), which for a
-        // B1-length text with many hint words can easily need another
-        // 1000+ tokens on top of the text itself — at 2000 the model was
-        // hitting the ceiling mid-array and returning truncated,
-        // unparseable JSON ("max completion tokens reached before
-        // generating a valid document"), which is why TSN articles were
-        // failing/skipping so often. Matches simplifyArticle()'s own
-        // max_tokens (line ~303) above, which already accounts for a
-        // similarly-sized text + vocabulary list.
-        max_tokens: 3000,
+        // Was 2000, then 3000 (matched to simplifyArticle()'s DE limit).
+        // 3000 fixed A1/A2 but B1 kept truncating (json_validate_failed /
+        // "max completion tokens reached") even though DE's own B1 at the
+        // same 3000 limit was fine. Cause: Cyrillic under this model's BPE
+        // tokenizer runs noticeably more tokens per character than Latin
+        // script (most BPE vocabularies are trained disproportionately on
+        // Latin-script text) — so a Ukrainian B1 text + its vocabulary
+        // array (surface/lemma both Cyrillic, 8-12+ entries per the
+        // B1 hintGuidance above) costs more completion tokens than the
+        // equivalent-length German output, even though the UK text is
+        // often shorter in characters. 4000 gives real headroom for that.
+        max_tokens: 4000,
         // "low" reasoning effort occasionally returns a fully empty
         // completion for this call (json_validate_failed, empty
         // failed_generation) on certain inputs — observed on a short,
