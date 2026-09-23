@@ -1,6 +1,238 @@
 {
   "A1": [
     {
+      "id": "09731fce",
+      "originalTitle": "«Blöde Idee»: Nachfolger von Lüchzgi-Bändel kommt nicht gut an",
+      "simplifiedText": "Eltern und Lehrpersonal kritisieren die neue Weste. Sie finden die Weste zu unausgereift. Die Weste soll Kindergärtner im Verkehr schützen. Eltern denken die Idee funktioniert nicht gut.",
+      "vocabularyHints": [
+        "kritisieren — критикувати",
+        "die Weste — жилет",
+        "unausgereift — незавершений, недорозвинений",
+        "sollen — повинен",
+        "der Kindergärtner — вихователь у дитячому садку",
+        "schützen — захищати",
+        "funktionieren — працює"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "kritisieren",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "Weste",
+          "hint": "die Weste — жилет"
+        },
+        {
+          "surface": "unausgereift",
+          "hint": "unausgereift — незавершений, недорозвинений"
+        },
+        {
+          "surface": "soll",
+          "hint": "sollen — повинен"
+        },
+        {
+          "surface": "Kindergärtner",
+          "hint": "der Kindergärtner — вихователь у дитячому садку"
+        },
+        {
+          "surface": "schützen",
+          "hint": "schützen — захищати"
+        },
+        {
+          "surface": "funktioniert",
+          "hint": "funktionieren — працює"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/23/51ea1224-193b-42f9-b36e-aafa2e524f06.jpg?s=5f500dcfd1e23683dd0ba698fa0aefea",
+      "publishedAt": "2026-09-23T08:29:01.000Z",
+      "processedAt": "2026-09-23T08:44:21.072Z"
+    },
+    {
+      "id": "2cc29010",
+      "originalTitle": "Deutsches Reisemagazin kürt gastfreundlichsten Kanton der Schweiz",
+      "simplifiedText": "Graubünden ist der gastfreundlichste Kanton in der Schweiz. Er hat den Travelbook Award 2026 gewonnen. Der Preis kommt von einem deutschen Reisemagazin. Graubünden bekam 13,39 Prozent der Stimmen.",
+      "vocabularyHints": [
+        "Graubünden — Граубюнден",
+        "gastfreundlich — найгостинніший",
+        "Kanton — кантон",
+        "Schweiz — Швейцарія",
+        "Award — нагорода",
+        "gewinnen — виграти",
+        "Preis — нагорода",
+        "deutsch — німецький",
+        "Reisemagazin — подорожній журнал",
+        "bekommen — отримати",
+        "Prozent — відсоток",
+        "Stimme — голос"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Graubünden",
+          "hint": "Graubünden — Граубюнден"
+        },
+        {
+          "surface": "gastfreundlichste",
+          "hint": "gastfreundlich — найгостинніший"
+        },
+        {
+          "surface": "Kanton",
+          "hint": "Kanton — кантон"
+        },
+        {
+          "surface": "Schweiz",
+          "hint": "Schweiz — Швейцарія"
+        },
+        {
+          "surface": "Award",
+          "hint": "Award — нагорода"
+        },
+        {
+          "surface": "gewonnen",
+          "hint": "gewinnen — виграти"
+        },
+        {
+          "surface": "Preis",
+          "hint": "Preis — нагорода"
+        },
+        {
+          "surface": "deutschen",
+          "hint": "deutsch — німецький"
+        },
+        {
+          "surface": "Reisemagazin",
+          "hint": "Reisemagazin — подорожній журнал"
+        },
+        {
+          "surface": "bekam",
+          "hint": "bekommen — отримати"
+        },
+        {
+          "surface": "Prozent",
+          "hint": "Prozent — відсоток"
+        },
+        {
+          "surface": "Stimmen",
+          "hint": "Stimme — голос"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/09/23/ae06c009-2a4c-4cd4-b7a0-ac53202927d1.jpg?s=c2d983160942c7fcaac83523eedc53fb",
+      "publishedAt": "2026-09-23T08:36:48.000Z",
+      "processedAt": "2026-09-23T08:43:05.763Z"
+    },
+    {
+      "id": "70162c57",
+      "originalTitle": "Inkassofirma - Letterdata knickt ein: Keine Zahlungsaufforderungen mehr",
+      "simplifiedText": "Eine Schweizer Inkassofirma hat Geld für eine chinesische Firma eingetrieben. Die chinesische Firma hat die Leistungen nicht erbracht. Die Inkassofirma hat das Geld trotzdem erhalten. Die Kunden sind verärgert und haben geklagt.",
+      "vocabularyHints": [
+        "die Inkassofirma — колекторська компанія",
+        "chinesisch — китайський",
+        "eintreiben — вимагати (гроші)",
+        "die Leistung, -en — послуга",
+        "trotzdem — проте",
+        "erhalten — отримати",
+        "verärgert — розлючений",
+        "klagen — скаржитися"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Inkassofirma",
+          "hint": "die Inkassofirma — колекторська компанія"
+        },
+        {
+          "surface": "chinesische",
+          "hint": "chinesisch — китайський"
+        },
+        {
+          "surface": "eingetrieben",
+          "hint": "eintreiben — вимагати (гроші)"
+        },
+        {
+          "surface": "Leistungen",
+          "hint": "die Leistung, -en — послуга"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "erhalten",
+          "hint": "erhalten — отримати"
+        },
+        {
+          "surface": "verärgert",
+          "hint": "verärgert — розлючений"
+        },
+        {
+          "surface": "geklagt",
+          "hint": "klagen — скаржитися"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/d9308a.jpg",
+      "publishedAt": "2026-09-23T08:37:49.000Z",
+      "processedAt": "2026-09-23T08:41:24.445Z"
+    },
+    {
+      "id": "1258529e",
+      "originalTitle": "Gegen volle Wanderrouten - Reservierungspflicht und Wildcamping-Verbot am Mont Blanc",
+      "simplifiedText": "Die Gemeinden am Mont Blanc haben viele Wanderer. Sie führen jetzt Reservierungspflicht für die Wanderungen ein. Ausserdem verbieten sie Wildcamping auf den Bergen. Das soll den Grossandrang auf den Routen reduzieren.",
+      "vocabularyHints": [
+        "die Gemeinde, -n — громади",
+        "der Wanderer, - — мандрівник",
+        "die Reservierungspflicht — обов'язкове резервування",
+        "die Wanderung, -en — прогулянки",
+        "das Wildcamping — дике кемпінгування",
+        "der Berg, -e — гори",
+        "der Grossandrang — масовий потік",
+        "die Route, -n — маршрути",
+        "reduzieren — зменшити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Gemeinden",
+          "hint": "die Gemeinde, -n — громади"
+        },
+        {
+          "surface": "Wanderer",
+          "hint": "der Wanderer, - — мандрівник"
+        },
+        {
+          "surface": "Reservierungspflicht",
+          "hint": "die Reservierungspflicht — обов'язкове резервування"
+        },
+        {
+          "surface": "Wanderungen",
+          "hint": "die Wanderung, -en — прогулянки"
+        },
+        {
+          "surface": "Wildcamping",
+          "hint": "das Wildcamping — дике кемпінгування"
+        },
+        {
+          "surface": "Bergen",
+          "hint": "der Berg, -e — гори"
+        },
+        {
+          "surface": "Grossandrang",
+          "hint": "der Grossandrang — масовий потік"
+        },
+        {
+          "surface": "Routen",
+          "hint": "die Route, -n — маршрути"
+        },
+        {
+          "surface": "reduzieren",
+          "hint": "reduzieren — зменшити"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/e7507b.jpg",
+      "publishedAt": "2026-09-23T08:37:50.000Z",
+      "processedAt": "2026-09-23T08:40:39.156Z"
+    },
+    {
       "id": "003e0b5a",
       "originalTitle": "100 Jahre John Coltrane - Schub wie eine Lokomotive: Wie «Trane» Jazzgeschichte schrieb",
       "simplifiedText": "John Coltrane ist ein berühmter Jazzmusiker. Er hat die Jazzgeschichte nachhaltig geprägt. Seine Musik inspiriert Musiker weltweit. Heute hören Menschen seine Aufnahmen. John Coltrane bleibt ein Vorbild.",
@@ -1947,6 +2179,288 @@
   ],
   "A2": [
     {
+      "id": "782bdc53",
+      "originalTitle": "«Blöde Idee»: Nachfolger von Lüchzgi-Bändel kommt nicht gut an",
+      "simplifiedText": "Eltern und Lehrpersonal haben die neue Weste für die Kindergärtner auf dem Schulweg kritisiert. Sie sagen, die Weste ist nicht gut durchdacht, weil sie zu gross und zu schwer ist. Viele Eltern haben die Weste ausprobiert und fanden sie unbequem. Die Lehrpersonen haben gemerkt, die Weste leuchtet nicht genug, weil das Material zu dunkel ist. Einige Eltern haben den Kindergarten angerufen und um eine bessere Lösung gebeten. Der Kindergarten hat angekündigt, die Weste zu überarbeiten. Trotzdem bleibt die Kritik, weil die Eltern und Lehrpersonen die aktuelle Weste als unausgereift empfinden.",
+      "vocabularyHints": [
+        "die Weste — жилет",
+        "der Kindergärtner — вихователь у дитячому садку",
+        "der Schulweg — шлях до школи",
+        "kritisieren — критикувати",
+        "durchdenken — продумати",
+        "ausprobieren — випробувати",
+        "unbequem — незручний",
+        "merken — помічати",
+        "leuchten — світитися",
+        "das Material — матеріал",
+        "anrufen — телефонувати",
+        "bitten — просити",
+        "überarbeiten — переглянути",
+        "trotzdem — проте",
+        "unausgereift — незавершений",
+        "empfinden — вважати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Weste",
+          "hint": "die Weste — жилет"
+        },
+        {
+          "surface": "Kindergärtner",
+          "hint": "der Kindergärtner — вихователь у дитячому садку"
+        },
+        {
+          "surface": "Schulweg",
+          "hint": "der Schulweg — шлях до школи"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "durchdacht",
+          "hint": "durchdenken — продумати"
+        },
+        {
+          "surface": "ausprobiert",
+          "hint": "ausprobieren — випробувати"
+        },
+        {
+          "surface": "unbequem",
+          "hint": "unbequem — незручний"
+        },
+        {
+          "surface": "gemerkt",
+          "hint": "merken — помічати"
+        },
+        {
+          "surface": "leuchtet",
+          "hint": "leuchten — світитися"
+        },
+        {
+          "surface": "Material",
+          "hint": "das Material — матеріал"
+        },
+        {
+          "surface": "angerufen",
+          "hint": "anrufen — телефонувати"
+        },
+        {
+          "surface": "gebeten",
+          "hint": "bitten — просити"
+        },
+        {
+          "surface": "überarbeiten",
+          "hint": "überarbeiten — переглянути"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "unausgereift",
+          "hint": "unausgereift — незавершений"
+        },
+        {
+          "surface": "empfinden",
+          "hint": "empfinden — вважати"
+        }
+      ],
+      "category": "Verkehr",
+      "imageUrl": "https://image.20min.ch/2026/09/23/51ea1224-193b-42f9-b36e-aafa2e524f06.jpg?s=5f500dcfd1e23683dd0ba698fa0aefea",
+      "publishedAt": "2026-09-23T08:29:01.000Z",
+      "processedAt": "2026-09-23T08:44:49.062Z"
+    },
+    {
+      "id": "5101144f",
+      "originalTitle": "Deutsches Reisemagazin kürt gastfreundlichsten Kanton der Schweiz",
+      "simplifiedText": "Der Kanton Graubünden hat beim deutschen Travelbook Award 2026 den Titel „gastfreundlichster Kanton“ gewonnen. Die Jury hat die Stimmen ausgewertet und Graubünden hat 13,39 Prozent der Stimmen erhalten. Viele Gäste haben das Ergebnis gefeiert, weil sie die offene Atmosphäre im Kanton sehr schätzen. Ich habe letzte Woche in Chur ein traditionelles Restaurant besucht und die Bedienung war besonders freundlich. Trotzdem haben die Besucher das Angebot an Wanderwegen genutzt und waren begeistert. Der Kanton ist jetzt noch bekannter als andere Kantone, weil er als besonders gastfreundlich gilt. Ich würde gern im Sommer wieder nach Graubünden reisen, das wäre ein tolles Erlebnis.",
+      "vocabularyHints": [
+        "Travelbook — журнал Travelbook",
+        "gastfreundlich — найгостинніший",
+        "auswerten — проаналізувати",
+        "die Atmosphäre — атмосфера",
+        "traditionell — традиційний",
+        "die Bedienung — обслуговування",
+        "der Wanderweg — туристичний маршрут",
+        "begeistern — захоплений",
+        "bekannt — відоміший",
+        "das Erlebnis — враження"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Travelbook",
+          "hint": "Travelbook — журнал Travelbook"
+        },
+        {
+          "surface": "gastfreundlichster",
+          "hint": "gastfreundlich — найгостинніший"
+        },
+        {
+          "surface": "ausgewertet",
+          "hint": "auswerten — проаналізувати"
+        },
+        {
+          "surface": "Atmosphäre",
+          "hint": "die Atmosphäre — атмосфера"
+        },
+        {
+          "surface": "traditionelles",
+          "hint": "traditionell — традиційний"
+        },
+        {
+          "surface": "Bedienung",
+          "hint": "die Bedienung — обслуговування"
+        },
+        {
+          "surface": "Wanderwegen",
+          "hint": "der Wanderweg — туристичний маршрут"
+        },
+        {
+          "surface": "begeistert",
+          "hint": "begeistern — захоплений"
+        },
+        {
+          "surface": "bekannter",
+          "hint": "bekannt — відоміший"
+        },
+        {
+          "surface": "Erlebnis",
+          "hint": "das Erlebnis — враження"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/09/23/ae06c009-2a4c-4cd4-b7a0-ac53202927d1.jpg?s=c2d983160942c7fcaac83523eedc53fb",
+      "publishedAt": "2026-09-23T08:36:48.000Z",
+      "processedAt": "2026-09-23T08:43:32.838Z"
+    },
+    {
+      "id": "56f5baaa",
+      "originalTitle": "Inkassofirma - Letterdata knickt ein: Keine Zahlungsaufforderungen mehr",
+      "simplifiedText": "Die Schweizer Inkassofirma hat Geld von einer chinesischen Firma eingetrieben. Die chinesische Firma hat das Geld bezahlt, weil die Inkassofirma gesagt hat, die Leistungen wurden erbracht. Die chinesische Firma hat die Leistungen nie erbracht. Deshalb hat die Inkassofirma das Inkasso gestoppt. Sie hat das Geld zurückgefordert, weil sie erkannt hat, die Firma hat die Leistungen nicht erbracht. Trotzdem bleibt die Situation für beide Firmen schwierig.",
+      "vocabularyHints": [
+        "die Inkassofirma — інкасо‑фірма",
+        "einziehen — вимагати",
+        "die Leistung, -en — послуги",
+        "das Inkasso — вимоги щодо платежу",
+        "stoppen — зупинити",
+        "zurückfordern — повернути",
+        "erkennen — визнати",
+        "trotzdem — проте",
+        "die Situation — ситуація",
+        "schwierig — складний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Inkassofirma",
+          "hint": "die Inkassofirma — інкасо‑фірма"
+        },
+        {
+          "surface": "eingetrieben",
+          "hint": "einziehen — вимагати"
+        },
+        {
+          "surface": "Leistungen",
+          "hint": "die Leistung, -en — послуги"
+        },
+        {
+          "surface": "Inkasso",
+          "hint": "das Inkasso — вимоги щодо платежу"
+        },
+        {
+          "surface": "gestoppt",
+          "hint": "stoppen — зупинити"
+        },
+        {
+          "surface": "zurückgefordert",
+          "hint": "zurückfordern — повернути"
+        },
+        {
+          "surface": "erkannt",
+          "hint": "erkennen — визнати"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Situation",
+          "hint": "die Situation — ситуація"
+        },
+        {
+          "surface": "schwierig",
+          "hint": "schwierig — складний"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/d9308a.jpg",
+      "publishedAt": "2026-09-23T08:37:49.000Z",
+      "processedAt": "2026-09-23T08:41:53.923Z"
+    },
+    {
+      "id": "57f9953d",
+      "originalTitle": "Gegen volle Wanderrouten - Reservierungspflicht und Wildcamping-Verbot am Mont Blanc",
+      "simplifiedText": "Die Gemeinden rund um den Mont Blanc haben im Sommer eine Reservierungspflicht für die Wanderrouten eingeführt, weil zu viele Wanderer kommen. Sie haben ausserdem ein Wildcamping-Verbot eingeführt, weil die Natur sonst überlastet ist. Die neuen Regeln gelten an allen beliebten Wanderwegen und auf den Gipfeln. Wanderer müssen jetzt online reservieren, bevor sie starten, und sie dürfen nicht mehr draussen campen. Trotzdem bleibt das Wetter am Mont Blanc oft schön und die Wanderungen sind immer noch attraktiv. Die Besucherzahlen sollen dadurch kleiner als im Vorjahr werden, und die Gemeinden freuen sich über weniger volle Wege.",
+      "vocabularyHints": [
+        "die Gemeinde, -n — громади",
+        "die Reservierungspflicht — обов’язок резервування",
+        "die Wanderroute, -n — маршрути для піших прогулянок",
+        "einführen — ввести, запровадити",
+        "das Wildcamping-Verbot — заборона дикого кемпінгу",
+        "überlasten — перевантажити",
+        "reservieren — резервувати",
+        "attraktiv — привабливий",
+        "klein — менший",
+        "das Vorjahr — попередній рік"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Gemeinden",
+          "hint": "die Gemeinde, -n — громади"
+        },
+        {
+          "surface": "Reservierungspflicht",
+          "hint": "die Reservierungspflicht — обов’язок резервування"
+        },
+        {
+          "surface": "Wanderrouten",
+          "hint": "die Wanderroute, -n — маршрути для піших прогулянок"
+        },
+        {
+          "surface": "eingeführt",
+          "hint": "einführen — ввести, запровадити"
+        },
+        {
+          "surface": "Wildcamping-Verbot",
+          "hint": "das Wildcamping-Verbot — заборона дикого кемпінгу"
+        },
+        {
+          "surface": "überlastet",
+          "hint": "überlasten — перевантажити"
+        },
+        {
+          "surface": "reservieren",
+          "hint": "reservieren — резервувати"
+        },
+        {
+          "surface": "attraktiv",
+          "hint": "attraktiv — привабливий"
+        },
+        {
+          "surface": "kleiner",
+          "hint": "klein — менший"
+        },
+        {
+          "surface": "Vorjahr",
+          "hint": "das Vorjahr — попередній рік"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/e7507b.jpg",
+      "publishedAt": "2026-09-23T08:37:50.000Z",
+      "processedAt": "2026-09-23T08:40:50.745Z"
+    },
+    {
       "id": "17364659",
       "originalTitle": "100 Jahre John Coltrane - Schub wie eine Lokomotive: Wie «Trane» Jazzgeschichte schrieb",
       "simplifiedText": "John Coltrane hat vor hundert Jahren angefangen, Jazz zu spielen, und er war nur zehn Jahre lang Bandleader. Seine Auftritte auf der Bühne haben das Publikum begeistert, weil seine Soli sehr kraftvoll waren. Der Klang seines Saxophons war wie ein Schub einer Lokomotive, denn er hat die Jazzgeschichte stark verändert. Trotzdem inspiriert seine Musik heute noch Musiker weltweit. Viele junge Saxophonisten haben seine Stücke interessanter gefunden als die von anderen Jazzkünstlern. Ich hätte gern mehr Konzerte von ihm gehört.",
@@ -2181,7 +2695,7 @@
       "originalTitle": "Trottinettfahrer auf Zebrastreifen erfasst - Bub (10) verletzt",
       "simplifiedText": "Eine 24-jährige Frau hat am Dienstag in Wittenbach mit ihrem Auto einen zehnjährigen Trottinettfahrer auf dem Zebrastreifen erfasst. Der Junge hat sich beim Sturz leicht verletzt. Sie hat sofort die Polizei angerufen, weil sie Angst hatte, etwas Schlimmeres zu erleben. Trotzdem hat sie den Jungen beruhigt und ihm ein Taschentuch gegeben. Der Rettungsdienst ist schnell angekommen und hat den Jungen ins nächste Spital gebracht. Die Ärzte haben im Spital leichte Verletzungen festgestellt. Der Junge kann jetzt nach Hause gehen, weil er sich besser fühlt.",
       "vocabularyHints": [
-        "der Zebrastreifen — зебра‑перехід",
+        "der Zebrastreifen — зебра-перехід",
         "erfassen — задіяти",
         "anrufen — зателефонувати",
         "das Schlimmere — гірше",
@@ -2195,7 +2709,7 @@
       "vocabularyWords": [
         {
           "surface": "Zebrastreifen",
-          "hint": "der Zebrastreifen — зебра‑перехід"
+          "hint": "der Zebrastreifen — зебра-перехід"
         },
         {
           "surface": "erfasst",
@@ -2296,7 +2810,7 @@
         "technisch — технічний",
         "Defekt — дефект",
         "hindern — перешкоджати",
-        "Podest — п’єдестал",
+        "Podest — п'єдестал",
         "Medaille — медаль",
         "Maschine — машина",
         "reparieren — ремонтувати",
@@ -2325,7 +2839,7 @@
         },
         {
           "surface": "Podest",
-          "hint": "Podest — п’єдестал"
+          "hint": "Podest — п'єдестал"
         },
         {
           "surface": "Medaille",
@@ -4226,6 +4740,205 @@
     }
   ],
   "B1": [
+    {
+      "id": "6fab6c4f",
+      "originalTitle": "Deutsches Reisemagazin kürt gastfreundlichsten Kanton der Schweiz",
+      "simplifiedText": "Beim deutschen Travelbook Award 2026 wurde Graubünden zum gastfreundlichsten Kanton der Schweiz gekrönt. Der Kanton erhielt 13,39 Prozent der Stimmen, was ihn klar an die Spitze brachte. Die Auszeichnung wird jedes Jahr vom deutschen Reisemagazin Travelbook verliehen. Sie richtet sich an die Kantone, die sich durch besonders hohe Gastfreundschaft auszeichnen. Graubündens Erfolg beruht laut den Juroren auf seiner vielfältigen Kultur und den gut erhaltenen Bergdörfern. Die Wahl hat in den Medien für positive Rückmeldungen gesorgt, weil sie die touristische Attraktivität des Kantons unterstreicht. Touristen planen nun vermehrt Reisen nach Graubünden, um die freundliche Atmosphäre selbst zu erleben. Der Erfolg könnte auch andere Kantone motivieren, ihre Gastfreundschaft weiter zu verbessern.",
+      "vocabularyHints": [
+        "Travelbook — журнал Travelbook",
+        "Award — нагорода",
+        "gastfreundlich — гостинний",
+        "Auszeichnung — нагорода, відзнака",
+        "verleihen — вручати",
+        "auszeichnen — виділяти, нагороджувати",
+        "der Juror, -en — члени журі",
+        "vielfältig — різноманітний",
+        "das Bergdorf, -er — гірське село",
+        "die Rückmeldung, -en — відгуки",
+        "unterstreichen — підкреслює",
+        "vermehrt — частіше",
+        "die Atmosphäre — атмосфера",
+        "motivieren — мотивувати",
+        "verbessern — покращувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Travelbook",
+          "hint": "Travelbook — журнал Travelbook"
+        },
+        {
+          "surface": "Award",
+          "hint": "Award — нагорода"
+        },
+        {
+          "surface": "gastfreundlichsten",
+          "hint": "gastfreundlich — гостинний"
+        },
+        {
+          "surface": "Auszeichnung",
+          "hint": "Auszeichnung — нагорода, відзнака"
+        },
+        {
+          "surface": "verliehen",
+          "hint": "verleihen — вручати"
+        },
+        {
+          "surface": "auszeichnen",
+          "hint": "auszeichnen — виділяти, нагороджувати"
+        },
+        {
+          "surface": "Juroren",
+          "hint": "der Juror, -en — члени журі"
+        },
+        {
+          "surface": "vielfältigen",
+          "hint": "vielfältig — різноманітний"
+        },
+        {
+          "surface": "Bergdörfern",
+          "hint": "das Bergdorf, -er — гірське село"
+        },
+        {
+          "surface": "Rückmeldungen",
+          "hint": "die Rückmeldung, -en — відгуки"
+        },
+        {
+          "surface": "unterstreicht",
+          "hint": "unterstreichen — підкреслює"
+        },
+        {
+          "surface": "vermehrt",
+          "hint": "vermehrt — частіше"
+        },
+        {
+          "surface": "Atmosphäre",
+          "hint": "die Atmosphäre — атмосфера"
+        },
+        {
+          "surface": "motivieren",
+          "hint": "motivieren — мотивувати"
+        },
+        {
+          "surface": "verbessern",
+          "hint": "verbessern — покращувати"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/09/23/ae06c009-2a4c-4cd4-b7a0-ac53202927d1.jpg?s=c2d983160942c7fcaac83523eedc53fb",
+      "publishedAt": "2026-09-23T08:36:48.000Z",
+      "processedAt": "2026-09-23T08:43:56.718Z"
+    },
+    {
+      "id": "55a53338",
+      "originalTitle": "Inkassofirma - Letterdata knickt ein: Keine Zahlungsaufforderungen mehr",
+      "simplifiedText": "Eine Schweizer Inkassofirma hat für die chinesische Firma Letterdata Geld eingetrieben. Die Inkassofirma behauptete, dass die vereinbarten Leistungen bereits erbracht worden seien. In Wirklichkeit wurden die Leistungen jedoch nie erbracht. Letterdata hat daraufhin öffentlich erklärt, dass sie keine Zahlungsaufforderungen mehr an Kunden senden wird. Die Ankündigung von Letterdata folgt auf den Vorwurf, dass für nicht erbrachte Leistungen bezahlt werden soll. Die Situation hat in der Wirtschaftspresse Aufmerksamkeit erhalten, weil Inkassodienste normalerweise nur berechtigte Forderungen einziehen dürfen. Beobachter hoffen, dass solche Fälle künftig vermieden werden.",
+      "vocabularyHints": [
+        "die Inkassofirma, -en — інкасо‑компанія",
+        "einziehen — вимагати (гроші)",
+        "die Zahlungsaufforderung, -en — вимоги про оплату",
+        "der Vorwurf, -e — звинувачення",
+        "die Wirtschaftspresse — економічна преса",
+        "berechtigt — обґрунтований, законний",
+        "der Beobachter, - — спостерігач"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Inkassofirma",
+          "hint": "die Inkassofirma, -en — інкасо‑компанія"
+        },
+        {
+          "surface": "eingetrieben",
+          "hint": "einziehen — вимагати (гроші)"
+        },
+        {
+          "surface": "Zahlungsaufforderungen",
+          "hint": "die Zahlungsaufforderung, -en — вимоги про оплату"
+        },
+        {
+          "surface": "Vorwurf",
+          "hint": "der Vorwurf, -e — звинувачення"
+        },
+        {
+          "surface": "Wirtschaftspresse",
+          "hint": "die Wirtschaftspresse — економічна преса"
+        },
+        {
+          "surface": "berechtigte",
+          "hint": "berechtigt — обґрунтований, законний"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter, - — спостерігач"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/d9308a.jpg",
+      "publishedAt": "2026-09-23T08:37:49.000Z",
+      "processedAt": "2026-09-23T08:42:31.321Z"
+    },
+    {
+      "id": "7f209c21",
+      "originalTitle": "Gegen volle Wanderrouten - Reservierungspflicht und Wildcamping-Verbot am Mont Blanc",
+      "simplifiedText": "Die Gemeinden rund um den Mont Blanc haben wegen des grossen Andrangs auf den Wanderrouten neue Gegenmassnahmen beschlossen. Ab sofort gilt eine Reservierungspflicht für alle Wanderungen, die über die bekannten Pfade führen. Damit sollen die Besucherzahlen besser gesteuert und die Natur geschützt werden. Zusätzlich wird das Wildcamping entlang der Berge strikt verboten, weil es zu Müll und zu Störungen führt. Die Regelung wird von den lokalen Behörden überwacht und Verstösse können mit Bussgeldern belegt werden. Einige Wanderer kritisieren die neuen Vorgaben, weil sie die Flexibilität einschränken. Dennoch hoffen die Gemeinden, dass die Kombination aus Reservierungspflicht und Wildcamping-Verbot den Andrang langfristig reduziert.",
+      "vocabularyHints": [
+        "die Wanderroute, -n — маршрути для піших прогулянок",
+        "die Gegenmassnahme, -en — контрзаходи",
+        "die Reservierungspflicht — обов'язок резервування",
+        "das Wildcamping — дике кемпінг",
+        "der Verstoss, -e — порушення",
+        "das Bussgeld, -e — штраф",
+        "kritisieren — критикувати",
+        "einschränken — обмежувати",
+        "der Andrang, -e — велика кількість людей",
+        "langfristig — довгостроково"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Wanderrouten",
+          "hint": "die Wanderroute, -n — маршрути для піших прогулянок"
+        },
+        {
+          "surface": "Gegenmassnahmen",
+          "hint": "die Gegenmassnahme, -en — контрзаходи"
+        },
+        {
+          "surface": "Reservierungspflicht",
+          "hint": "die Reservierungspflicht — обов'язок резервування"
+        },
+        {
+          "surface": "Wildcamping",
+          "hint": "das Wildcamping — дике кемпінг"
+        },
+        {
+          "surface": "Verstösse",
+          "hint": "der Verstoss, -e — порушення"
+        },
+        {
+          "surface": "Bussgeldern",
+          "hint": "das Bussgeld, -e — штраф"
+        },
+        {
+          "surface": "kritisieren",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "einschränken",
+          "hint": "einschränken — обмежувати"
+        },
+        {
+          "surface": "Andrang",
+          "hint": "der Andrang, -e — велика кількість людей"
+        },
+        {
+          "surface": "langfristig",
+          "hint": "langfristig — довгостроково"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/e7507b.jpg",
+      "publishedAt": "2026-09-23T08:37:50.000Z",
+      "processedAt": "2026-09-23T08:41:01.777Z"
+    },
     {
       "id": "37b2cfc5",
       "originalTitle": "100 Jahre John Coltrane - Schub wie eine Lokomotive: Wie «Trane» Jazzgeschichte schrieb",
@@ -7030,8 +7743,86 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-23T07:51:16.510Z",
+  "updatedAt": "2026-09-23T08:45:54.576Z",
   "tsnA1": [
+    {
+      "id": "6135cde9",
+      "originalTitle": "Київ від ранку під атакою РФ: вибухи не вщухають, багато «прильотів», є загиблий і поранені — усі деталі (оновлено)",
+      "simplifiedText": "23 вересня ранок у Києві під атакою дронів. Сирени лунали двічі, вибухи не вщухали. Були «прильоти» по автозаправках і в центрі. Загинув один чоловік, ще вісім отримали поранення. Чотири поранені зараз у міських лікарнях.",
+      "vocabularyHints": [
+        "атака — der Angriff",
+        "дрон — die Drohne, -n",
+        "сирена — die Sirene, -n",
+        "вибух — die Explosion, -en",
+        "вщухати — nachlassen",
+        "прильот — der Landeangriff, -e",
+        "автозаправка — die Tankstelle, -n",
+        "загинути — sterben",
+        "отримати — erhalten",
+        "поранення — die Verletzung, -en",
+        "поранений — verletzt",
+        "міський — städtisch",
+        "лікарня — das Krankenhaus, -e"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "атакою",
+          "hint": "атака — der Angriff"
+        },
+        {
+          "surface": "дронів",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "сирени",
+          "hint": "сирена — die Sirene, -n"
+        },
+        {
+          "surface": "вибухи",
+          "hint": "вибух — die Explosion, -en"
+        },
+        {
+          "surface": "вщухали",
+          "hint": "вщухати — nachlassen"
+        },
+        {
+          "surface": "прильоти",
+          "hint": "прильот — der Landeangriff, -e"
+        },
+        {
+          "surface": "автозаправках",
+          "hint": "автозаправка — die Tankstelle, -n"
+        },
+        {
+          "surface": "загинув",
+          "hint": "загинути — sterben"
+        },
+        {
+          "surface": "отримали",
+          "hint": "отримати — erhalten"
+        },
+        {
+          "surface": "поранення",
+          "hint": "поранення — die Verletzung, -en"
+        },
+        {
+          "surface": "поранені",
+          "hint": "поранений — verletzt"
+        },
+        {
+          "surface": "міських",
+          "hint": "міський — städtisch"
+        },
+        {
+          "surface": "лікарнях",
+          "hint": "лікарня — das Krankenhaus, -e"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/798/tsn-51cb131e/thumbs/608xX/4f/ec/49eae01f8261f1faa82bffcae947ec4f.jpg",
+      "publishedAt": "2026-09-23T08:28:53.000Z",
+      "processedAt": "2026-09-23T08:45:22.976Z"
+    },
     {
       "id": "7dc7359a",
       "originalTitle": "Яке 24 вересня свято — все про цей день, яке церковне свято",
