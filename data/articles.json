@@ -1,6 +1,338 @@
 {
   "A1": [
     {
+      "id": "24d4c4c5",
+      "originalTitle": "Herbstsession 2026 - Raumfahrtgesetz und Kommunikation des Bundesrats im Parlament",
+      "simplifiedText": "Der Bundesrat spricht im Parlament über das Raumfahrtgesetz. Er erklärt die neue Kommunikationsstrategie des Bundesrats. Die Abgeordneten hören aufmerksam zu und stellen Fragen. Die Debatte findet im Herbstsession 2026 statt.",
+      "vocabularyHints": [
+        "das Parlament — парламент",
+        "das Raumfahrtgesetz — закон про космічні польоти",
+        "erklären — пояснювати",
+        "die Kommunikationsstrategie — комунікаційна стратегія",
+        "der Bundesrat — федеральна рада",
+        "der Abgeordnete — депутат",
+        "aufmerksam — уважний",
+        "die Debatte — дебата",
+        "finden — відбувається",
+        "die Herbstsession — осіння сесія",
+        "stellen — ставити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Parlament",
+          "hint": "das Parlament — парламент"
+        },
+        {
+          "surface": "Raumfahrtgesetz",
+          "hint": "das Raumfahrtgesetz — закон про космічні польоти"
+        },
+        {
+          "surface": "erklärt",
+          "hint": "erklären — пояснювати"
+        },
+        {
+          "surface": "Kommunikationsstrategie",
+          "hint": "die Kommunikationsstrategie — комунікаційна стратегія"
+        },
+        {
+          "surface": "Bundesrat",
+          "hint": "der Bundesrat — федеральна рада"
+        },
+        {
+          "surface": "Bundesrats",
+          "hint": "der Bundesrat — федеральна рада"
+        },
+        {
+          "surface": "Abgeordneten",
+          "hint": "der Abgeordnete — депутат"
+        },
+        {
+          "surface": "aufmerksam",
+          "hint": "aufmerksam — уважний"
+        },
+        {
+          "surface": "Debatte",
+          "hint": "die Debatte — дебата"
+        },
+        {
+          "surface": "findet",
+          "hint": "finden — відбувається"
+        },
+        {
+          "surface": "Herbstsession",
+          "hint": "die Herbstsession — осіння сесія"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/691348e.jpg",
+      "publishedAt": "2026-09-24T06:00:12.000Z",
+      "processedAt": "2026-09-24T07:33:20.243Z"
+    },
+    {
+      "id": "2f9aac9e",
+      "originalTitle": "SRF-Bestenliste - Die besten Bücher im Oktober 2026",
+      "simplifiedText": "SRF zeigt im Oktober 2026 die besten Bücher. Es gibt Bücher über Beziehungsfragen für Leser. Es gibt Bücher über historische Traumata. Es gibt einen unterhaltsamen Krimi für alle. Man kann die Liste im Fernsehen sehen.",
+      "vocabularyHints": [
+        "SRF — Швейцарське радіо і телебачення",
+        "zeigen — показувати",
+        "gut — найкращий",
+        "die Beziehungsfrage — питання стосунків",
+        "der Leser — читач",
+        "historisch — історичний",
+        "das Trauma — травма",
+        "unterhaltsam — розважальний",
+        "der Krimi — детективний роман",
+        "die Liste — список",
+        "das Fernsehen — телебачення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "SRF",
+          "hint": "SRF — Швейцарське радіо і телебачення"
+        },
+        {
+          "surface": "zeigt",
+          "hint": "zeigen — показувати"
+        },
+        {
+          "surface": "besten",
+          "hint": "gut — найкращий"
+        },
+        {
+          "surface": "Beziehungsfragen",
+          "hint": "die Beziehungsfrage — питання стосунків"
+        },
+        {
+          "surface": "Leser",
+          "hint": "der Leser — читач"
+        },
+        {
+          "surface": "historische",
+          "hint": "historisch — історичний"
+        },
+        {
+          "surface": "Traumata",
+          "hint": "das Trauma — травма"
+        },
+        {
+          "surface": "unterhaltsamen",
+          "hint": "unterhaltsam — розважальний"
+        },
+        {
+          "surface": "Krimi",
+          "hint": "der Krimi — детективний роман"
+        },
+        {
+          "surface": "Liste",
+          "hint": "die Liste — список"
+        },
+        {
+          "surface": "Fernsehen",
+          "hint": "das Fernsehen — телебачення"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/828134.jpg",
+      "publishedAt": "2026-09-24T06:01:50.000Z",
+      "processedAt": "2026-09-24T07:32:00.611Z"
+    },
+    {
+      "id": "57a5e629",
+      "originalTitle": "Krieg in der Ukraine - Zwei Tote nach nächtlichem Angriff auf Kiew - sechs Verletzte",
+      "simplifiedText": "In Kiew war ein nächtlicher Raketenangriff. Der Angriff kam aus Russland. Zwei Menschen sind dabei gestorben. Sechs Menschen haben Verletzungen bekommen. Viele Menschen sind sehr traurig.",
+      "vocabularyHints": [
+        "nächtlich — нічний",
+        "der Raketenangriff — ракетний удар",
+        "der Angriff — напад",
+        "sterben — помер",
+        "die Verletzung, -en — поранення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "nächtlicher",
+          "hint": "nächtlich — нічний"
+        },
+        {
+          "surface": "Raketenangriff",
+          "hint": "der Raketenangriff — ракетний удар"
+        },
+        {
+          "surface": "Angriff",
+          "hint": "der Angriff — напад"
+        },
+        {
+          "surface": "gestorben",
+          "hint": "sterben — помер"
+        },
+        {
+          "surface": "Verletzungen",
+          "hint": "die Verletzung, -en — поранення"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/5c9329.jpg",
+      "publishedAt": "2026-09-24T06:44:35.000Z",
+      "processedAt": "2026-09-24T07:30:39.335Z"
+    },
+    {
+      "id": "75c2f061",
+      "originalTitle": "Konflikt im Nahen Osten - Jordanien sieht sich durch Israels Siedlungspolitik bedroht",
+      "simplifiedText": "Jordanien warnt vor der israelischen Siedlungspolitik. Israel baut neue Siedlungen im Westjordanland. Jordanien sagt, das ist eine rote Linie. Die Siedlungen können viele Menschen zur Flucht bringen. Jordanien ist besorgt um die Zukunft.",
+      "vocabularyHints": [
+        "warnen — попереджати",
+        "Siedlungspolitik — політика поселенців",
+        "bauen — будувати",
+        "neu — новий",
+        "Siedlung, -en — поселення",
+        "rot — червоний",
+        "Flucht, -en — втеча",
+        "besorgt — стурбований",
+        "Zukunft, -en — майбутнє"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "warnt",
+          "hint": "warnen — попереджати"
+        },
+        {
+          "surface": "Siedlungspolitik",
+          "hint": "Siedlungspolitik — політика поселенців"
+        },
+        {
+          "surface": "baut",
+          "hint": "bauen — будувати"
+        },
+        {
+          "surface": "neue",
+          "hint": "neu — новий"
+        },
+        {
+          "surface": "Siedlungen",
+          "hint": "Siedlung, -en — поселення"
+        },
+        {
+          "surface": "rote",
+          "hint": "rot — червоний"
+        },
+        {
+          "surface": "Flucht",
+          "hint": "Flucht, -en — втеча"
+        },
+        {
+          "surface": "besorgt",
+          "hint": "besorgt — стурбований"
+        },
+        {
+          "surface": "Zukunft",
+          "hint": "Zukunft, -en — майбутнє"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/493261.jpg",
+      "publishedAt": "2026-09-24T06:52:30.000Z",
+      "processedAt": "2026-09-24T07:29:19.679Z"
+    },
+    {
+      "id": "59b4d13e",
+      "originalTitle": "«Habe mich wegen ihrer Meinung schon von Freunden distanziert»",
+      "simplifiedText": "Ed Sheeran will seine Konzerte unpolitisch halten. Er hat das in Interviews gesagt. Viele Menschen kritisieren ihn dafür öffentlich. Er sagt, er will keine Politik machen. Manche Fans distanzieren sich von ihm.",
+      "vocabularyHints": [
+        "unpolitisch — аполітичний",
+        "Interview — інтерв'ю",
+        "kritisieren — критикувати",
+        "öffentlich — публічний",
+        "Politik — політика",
+        "distanzieren — віддалятись"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "unpolitisch",
+          "hint": "unpolitisch — аполітичний"
+        },
+        {
+          "surface": "Interviews",
+          "hint": "Interview — інтерв'ю"
+        },
+        {
+          "surface": "kritisieren",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "öffentlich",
+          "hint": "öffentlich — публічний"
+        },
+        {
+          "surface": "Politik",
+          "hint": "Politik — політика"
+        },
+        {
+          "surface": "distanzieren",
+          "hint": "distanzieren — віддалятись"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/09/23/d2e70497-a02c-4b8c-8426-8acec6bc2306.jpg?s=591a084e9baa88fa480617b604709d29",
+      "publishedAt": "2026-09-24T06:52:56.000Z",
+      "processedAt": "2026-09-24T07:27:59.351Z"
+    },
+    {
+      "id": "03bede99",
+      "originalTitle": "Q&A zu Pflege und Gesundheit - Welche Fragen haben Sie zur Schweizer Pflegesituation?",
+      "simplifiedText": "Eine Fachrunde beantwortet Fragen zur Schweizer Pflegesituation. Die Runde ist von zehn bis elf Uhr dreissig. Sie beantworten Ihre Fragen per E-Mail oder Telefon. Schreiben Sie uns für weitere Informationen.",
+      "vocabularyHints": [
+        "die Fachrunde, -n — фахова група",
+        "schweizerisch — швейцарський",
+        "die Pflegesituation, -en — ситуація у догляді",
+        "beantworten — відповідати",
+        "die E-Mail, -s — електронна пошта",
+        "das Telefon, -s — телефон",
+        "weit — додатковий",
+        "die Information, -en — інформація"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Fachrunde",
+          "hint": "die Fachrunde, -n — фахова група"
+        },
+        {
+          "surface": "Schweizer",
+          "hint": "schweizerisch — швейцарський"
+        },
+        {
+          "surface": "Pflegesituation",
+          "hint": "die Pflegesituation, -en — ситуація у догляді"
+        },
+        {
+          "surface": "beantwortet",
+          "hint": "beantworten — відповідати"
+        },
+        {
+          "surface": "beantworten",
+          "hint": "beantworten — відповідати"
+        },
+        {
+          "surface": "E-Mail",
+          "hint": "die E-Mail, -s — електронна пошта"
+        },
+        {
+          "surface": "Telefon",
+          "hint": "das Telefon, -s — телефон"
+        },
+        {
+          "surface": "weitere",
+          "hint": "weit — додатковий"
+        },
+        {
+          "surface": "Informationen",
+          "hint": "die Information, -en — інформація"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/990076.jpg",
+      "publishedAt": "2026-09-24T07:02:26.000Z",
+      "processedAt": "2026-09-24T07:26:41.345Z"
+    },
+    {
       "id": "11de39cc",
       "originalTitle": "Medizinische Versorgung - Medikamentenversorgung: Nationalrat ist skeptisch bei Initiative",
       "simplifiedText": "Der Nationalrat empfiehlt ein Nein zur Initiative. Er unterstützt den Gegenvorschlag des Bundesrats. Die Initiative betrifft die Medikamentenversorgung in der Schweiz. Der Nationalrat ist skeptisch bei der Initiative. Der Gegenvorschlag kommt vom Bundesrat im Parlament.",
@@ -242,7 +574,7 @@
       "simplifiedText": "Ständerat und FDP-Vizepräsident Caroni sprechen gegen die Kritik. Sie sagen, die neue Bankenregulierung schadet nicht. Das grösste Risiko ist die Krise, nicht die Prävention. Caroni meint, die Krise gefährdet die Wirtschaft.",
       "vocabularyHints": [
         "der Ständerat — радник",
-        "der FDP-Vizepräsident — віце‑президент FDP",
+        "der FDP-Vizepräsident — віце-президент FDP",
         "Caroni — Кароні",
         "die Kritik — критика",
         "die Bankenregulierung — регулювання банків",
@@ -261,7 +593,7 @@
         },
         {
           "surface": "FDP-Vizepräsident",
-          "hint": "der FDP-Vizepräsident — віце‑президент FDP"
+          "hint": "der FDP-Vizepräsident — віце-президент FDP"
         },
         {
           "surface": "Caroni",
@@ -2516,6 +2848,369 @@
   ],
   "A2": [
     {
+      "id": "232a999a",
+      "originalTitle": "Herbstsession 2026 - Raumfahrtgesetz und Kommunikation des Bundesrats im Parlament",
+      "simplifiedText": "Der Bundesrat hat im Parlament das neue Raumfahrtgesetz diskutiert. Er hat dabei auch die Kommunikationsstrategie des Bundesrats vorgestellt. Die Debatte ist in Bern während der Herbstsession stattgefunden, weil das Parlament gerade im Ticker war. Die Abgeordneten haben viele Fragen gestellt und die Politiker haben geduldig geantwortet. Trotz der komplexen Themen ist die Stimmung positiv gewesen, denn die meisten Abgeordneten sind optimistischer als vorher. Ich hätte gern mehr darüber im Fernsehen gesehen, aber ich habe nur die Zusammenfassung im Radio gehört.",
+      "vocabularyHints": [
+        "der Bundesrat, -e — федеральна рада",
+        "das Parlament, -e — парламент",
+        "das Raumfahrtgesetz, -e — закон про космічні польоти",
+        "die Kommunikationsstrategie, -n — комунікаційна стратегія",
+        "die Debatte, -n — дебати",
+        "die Herbstsession, -en — осіння сесія",
+        "der Ticker — текстова стрічка новин",
+        "die Abgeordnete, -n — депутати",
+        "optimistisch — оптимістичніший",
+        "die Zusammenfassung, -en — підсумок"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Bundesrat",
+          "hint": "der Bundesrat, -e — федеральна рада"
+        },
+        {
+          "surface": "Parlament",
+          "hint": "das Parlament, -e — парламент"
+        },
+        {
+          "surface": "Raumfahrtgesetz",
+          "hint": "das Raumfahrtgesetz, -e — закон про космічні польоти"
+        },
+        {
+          "surface": "Kommunikationsstrategie",
+          "hint": "die Kommunikationsstrategie, -n — комунікаційна стратегія"
+        },
+        {
+          "surface": "Debatte",
+          "hint": "die Debatte, -n — дебати"
+        },
+        {
+          "surface": "Herbstsession",
+          "hint": "die Herbstsession, -en — осіння сесія"
+        },
+        {
+          "surface": "Ticker",
+          "hint": "der Ticker — текстова стрічка новин"
+        },
+        {
+          "surface": "Abgeordneten",
+          "hint": "die Abgeordnete, -n — депутати"
+        },
+        {
+          "surface": "optimistischer",
+          "hint": "optimistisch — оптимістичніший"
+        },
+        {
+          "surface": "Zusammenfassung",
+          "hint": "die Zusammenfassung, -en — підсумок"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/691348e.jpg",
+      "publishedAt": "2026-09-24T06:00:12.000Z",
+      "processedAt": "2026-09-24T07:33:45.434Z"
+    },
+    {
+      "id": "5da004e3",
+      "originalTitle": "SRF-Bestenliste - Die besten Bücher im Oktober 2026",
+      "simplifiedText": "Im Oktober 2026 hat das SRF die neue Bestenliste der Bücher vorgestellt. Ich habe die Liste gelesen, weil ich gern neue Buchtitel entdecke. Darunter waren Romane über Beziehungsfragen, die ich sehr interessant gefunden habe. Einige Bücher haben vererbte Traumata behandelt, und sie waren spannender als die meisten anderen Titel. Ein unterhaltsamer Krimi stand ebenfalls dabei, den ich trotz meiner müden Stimmung sofort gekauft habe. Ich habe das Buch im Buchladen neben dem Bahnhof gekauft und es gleich zu Hause gelesen. Die Auswahl war so gut, ich werde das nächste Mal wieder auf die SRF-Liste achten.",
+      "vocabularyHints": [
+        "die Bestenliste — список кращих книг",
+        "vorstellen — представив",
+        "die Beziehungsfrage, -en — питання стосунків",
+        "vererbt — успадковані",
+        "das Trauma, -s — травми",
+        "spannend — захоплюючий",
+        "unterhaltsam — розважальний",
+        "der Krimi — детектив",
+        "der Buchladen — книжковий магазин",
+        "der Bahnhof — вокзал",
+        "die Auswahl — вибір"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Bestenliste",
+          "hint": "die Bestenliste — список кращих книг"
+        },
+        {
+          "surface": "vorgestellt",
+          "hint": "vorstellen — представив"
+        },
+        {
+          "surface": "Beziehungsfragen",
+          "hint": "die Beziehungsfrage, -en — питання стосунків"
+        },
+        {
+          "surface": "vererbte",
+          "hint": "vererbt — успадковані"
+        },
+        {
+          "surface": "Traumata",
+          "hint": "das Trauma, -s — травми"
+        },
+        {
+          "surface": "spannender",
+          "hint": "spannend — захоплюючий"
+        },
+        {
+          "surface": "unterhaltsamer",
+          "hint": "unterhaltsam — розважальний"
+        },
+        {
+          "surface": "Krimi",
+          "hint": "der Krimi — детектив"
+        },
+        {
+          "surface": "Buchladen",
+          "hint": "der Buchladen — книжковий магазин"
+        },
+        {
+          "surface": "Bahnhof",
+          "hint": "der Bahnhof — вокзал"
+        },
+        {
+          "surface": "Auswahl",
+          "hint": "die Auswahl — вибір"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/828134.jpg",
+      "publishedAt": "2026-09-24T06:01:50.000Z",
+      "processedAt": "2026-09-24T07:32:28.136Z"
+    },
+    {
+      "id": "62b8d738",
+      "originalTitle": "Krieg in der Ukraine - Zwei Tote nach nächtlichem Angriff auf Kiew - sechs Verletzte",
+      "simplifiedText": "Der nächtliche russische Raketenangriff auf Kiew hat zwei Menschen getötet und sechs Personen verletzt. Viele Bewohnerinnen und Bewohner waren zu Hause, weil sie die laute Sirene gehört haben. Die Rettungsdienste sind schnell zur Stadt gekommen und haben die Verletzten ins Krankenhaus gebracht. Einige Menschen haben Angst, aber sie hoffen auf Ruhe. Trotzdem haben die Nachbarn zusammengehalten und sich gegenseitig geholfen. Der Schaden ist grösser als bei früheren Angriffen, denn die Raketen haben mehrere Wohnblöcke getroffen. Ich hätte gern, die Stadt bald wieder sicher zu sehen.",
+      "vocabularyHints": [
+        "der Raketenangriff, -e — ракетний удар",
+        "der Rettungsdienst, -e — служба порятунку",
+        "das Krankenhaus, -e — лікарня",
+        "trotzdem — проте",
+        "der Nachbar, -en — сусід",
+        "zusammenhalten — тримати разом",
+        "gross — більший",
+        "der Wohnblock, -e — житловий блок"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Raketenangriff",
+          "hint": "der Raketenangriff, -e — ракетний удар"
+        },
+        {
+          "surface": "Rettungsdienste",
+          "hint": "der Rettungsdienst, -e — служба порятунку"
+        },
+        {
+          "surface": "Krankenhaus",
+          "hint": "das Krankenhaus, -e — лікарня"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Nachbarn",
+          "hint": "der Nachbar, -en — сусід"
+        },
+        {
+          "surface": "zusammengehalten",
+          "hint": "zusammenhalten — тримати разом"
+        },
+        {
+          "surface": "grösser",
+          "hint": "gross — більший"
+        },
+        {
+          "surface": "Wohnblöcke",
+          "hint": "der Wohnblock, -e — житловий блок"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/5c9329.jpg",
+      "publishedAt": "2026-09-24T06:44:35.000Z",
+      "processedAt": "2026-09-24T07:31:04.503Z"
+    },
+    {
+      "id": "073bdf20",
+      "originalTitle": "Konflikt im Nahen Osten - Jordanien sieht sich durch Israels Siedlungspolitik bedroht",
+      "simplifiedText": "Jordanien hat gewarnt, weil die israelische Siedlungspolitik im Westjordanland eine rote Linie ist und das Land bedroht. Die Regierung hat erklärt, weil die Politik Massenflucht auslösen kann. Viele Familien haben ihr Zuhause verlassen, weil sie Angst vor den neuen Siedlungen haben. Jordanien hat darauf reagiert und die internationale Gemeinschaft um Hilfe gebeten, aber bisher hat sie keine klare Antwort erhalten. Trotzdem bleibt die Lage im Nahen Osten angespannt, und die Menschen hoffen auf eine friedliche Lösung. Die Situation ist gefährlicher als im letzten Jahr, weil die Siedlungen weiter ausgebaut werden.",
+      "vocabularyHints": [
+        "die Siedlungspolitik, -en — політика поселень",
+        "das Westjordanland — Західний берег",
+        "bedroht — загрожений",
+        "die Massenflucht — масова еміграція",
+        "auslösen — викликати",
+        "die Siedlung, -en — поселення",
+        "die Gemeinschaft, -en — спільнота",
+        "angespannt — напружений",
+        "gefährlich — небезпечніший"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Siedlungspolitik",
+          "hint": "die Siedlungspolitik, -en — політика поселень"
+        },
+        {
+          "surface": "Westjordanland",
+          "hint": "das Westjordanland — Західний берег"
+        },
+        {
+          "surface": "bedroht",
+          "hint": "bedroht — загрожений"
+        },
+        {
+          "surface": "Massenflucht",
+          "hint": "die Massenflucht — масова еміграція"
+        },
+        {
+          "surface": "auslösen",
+          "hint": "auslösen — викликати"
+        },
+        {
+          "surface": "Siedlungen",
+          "hint": "die Siedlung, -en — поселення"
+        },
+        {
+          "surface": "Gemeinschaft",
+          "hint": "die Gemeinschaft, -en — спільнота"
+        },
+        {
+          "surface": "angespannt",
+          "hint": "angespannt — напружений"
+        },
+        {
+          "surface": "gefährlicher",
+          "hint": "gefährlich — небезпечніший"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/493261.jpg",
+      "publishedAt": "2026-09-24T06:52:30.000Z",
+      "processedAt": "2026-09-24T07:29:47.124Z"
+    },
+    {
+      "id": "27ea2ae3",
+      "originalTitle": "«Habe mich wegen ihrer Meinung schon von Freunden distanziert»",
+      "simplifiedText": "Ed Sheeran hat gesagt, er will seine Konzerte unpolitisch halten. Er hat die Entscheidung getroffen, weil er keine politische Botschaft geben wollte. Viele Fans haben ihn kritisiert, weil sie eine klare Haltung erwartet haben. In der Online-Community haben einige Leute geschrieben, er muss sich nicht zu allem Stellung beziehen. Ed Sheeran hat trotzdem weitergemacht und hat auf der Bühne gesungen, wie er es geplant hatte. Seine Konzerte waren nicht so politisch wie die von anderen Künstlern.",
+      "vocabularyHints": [
+        "unpolitisch — неполітичний",
+        "die Entscheidung, -en — рішення",
+        "die Botschaft, -en — повідомлення",
+        "kritisieren — критикувати",
+        "die Haltung, -en — позиція, ставлення",
+        "erwarten — очікувати",
+        "die Community — спільнота",
+        "die Stellung, -en — позиція, становище",
+        "beziehen — звертатися, брати",
+        "weitermachen — продовжувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "unpolitisch",
+          "hint": "unpolitisch — неполітичний"
+        },
+        {
+          "surface": "Entscheidung",
+          "hint": "die Entscheidung, -en — рішення"
+        },
+        {
+          "surface": "Botschaft",
+          "hint": "die Botschaft, -en — повідомлення"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "Haltung",
+          "hint": "die Haltung, -en — позиція, ставлення"
+        },
+        {
+          "surface": "erwartet",
+          "hint": "erwarten — очікувати"
+        },
+        {
+          "surface": "Community",
+          "hint": "die Community — спільнота"
+        },
+        {
+          "surface": "Stellung",
+          "hint": "die Stellung, -en — позиція, становище"
+        },
+        {
+          "surface": "beziehen",
+          "hint": "beziehen — звертатися, брати"
+        },
+        {
+          "surface": "weitergemacht",
+          "hint": "weitermachen — продовжувати"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/09/23/d2e70497-a02c-4b8c-8426-8acec6bc2306.jpg?s=591a084e9baa88fa480617b604709d29",
+      "publishedAt": "2026-09-24T06:52:56.000Z",
+      "processedAt": "2026-09-24T07:28:25.386Z"
+    },
+    {
+      "id": "6ac832a8",
+      "originalTitle": "Q&A zu Pflege und Gesundheit - Welche Fragen haben Sie zur Schweizer Pflegesituation?",
+      "simplifiedText": "Eine Fachrunde hat von 10:00 bis 11:30 Fragen zur Schweizer Pflegesituation beantwortet. Wir haben uns im Konferenzraum getroffen, weil wir die Fragen persönlich besprechen wollten. Viele Menschen haben uns ihre Fragen geschrieben und die Experten haben sie am Telefon erklärt. Die Experten sind dabei sehr geduldig gewesen, trotzdem waren einige Teilnehmende vorher unsicher. Das Ergebnis ist hilfreicher als erwartet gewesen, aber die Teilnehmenden sind zufrieden gewesen. Ich hätte gern noch mehr Informationen erhalten, das wäre sehr nützlich. Wir haben jetzt weitere Fragen an die Fachrunde geschrieben, weil wir noch etwas klären wollen.",
+      "vocabularyHints": [
+        "die Fachrunde, -n — фахова група",
+        "die Pflegesituation, -en — ситуація у догляді",
+        "der Konferenzraum, -e — конференц-зал",
+        "geduldig — терплячий",
+        "der/die Teilnehmende, -en — учасник(ці)",
+        "hilfreich — корисніший",
+        "erwarten — очікувати",
+        "zufrieden — задоволений",
+        "klären — уточнювати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Fachrunde",
+          "hint": "die Fachrunde, -n — фахова група"
+        },
+        {
+          "surface": "Pflegesituation",
+          "hint": "die Pflegesituation, -en — ситуація у догляді"
+        },
+        {
+          "surface": "Konferenzraum",
+          "hint": "der Konferenzraum, -e — конференц-зал"
+        },
+        {
+          "surface": "geduldig",
+          "hint": "geduldig — терплячий"
+        },
+        {
+          "surface": "Teilnehmende",
+          "hint": "der/die Teilnehmende, -en — учасник(ці)"
+        },
+        {
+          "surface": "hilfreicher",
+          "hint": "hilfreich — корисніший"
+        },
+        {
+          "surface": "erwartet",
+          "hint": "erwarten — очікувати"
+        },
+        {
+          "surface": "zufrieden",
+          "hint": "zufrieden — задоволений"
+        },
+        {
+          "surface": "klären",
+          "hint": "klären — уточнювати"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/990076.jpg",
+      "publishedAt": "2026-09-24T07:02:26.000Z",
+      "processedAt": "2026-09-24T07:27:08.508Z"
+    },
+    {
       "id": "12b7aa6d",
       "originalTitle": "Medizinische Versorgung - Medikamentenversorgung: Nationalrat ist skeptisch bei Initiative",
       "simplifiedText": "Der Nationalrat hat am Mittwoch im Parlament über die Medikamenteninitiative abgestimmt. Er hat ein klares Nein gegeben, weil er die Initiative für zu teuer hielt. Gleichzeitig hat er den Gegenvorschlag des Bundesrats unterstützt, denn dieser ist günstiger. Die Abgeordneten haben die Diskussion lange geführt, aber am Ende war die Mehrheit dagegen. Trotzdem hat ein Teil des Rates die Idee nicht ganz verworfen, weil er die Versorgung verbessern will. Die neue Regelung ist jetzt weniger kostenintensiv als die ursprüngliche Initiative. Ich habe das Ergebnis im Fernsehen gesehen und war überrascht, dass die Politiker so entschieden waren.",
@@ -2628,7 +3323,7 @@
         "der Sportkomplex — спортивний комплекс",
         "der Zivilist, -en — цивільний",
         "unterscheiden — розрізняти",
-        "die Pressekonferenz — прес‑конференція",
+        "die Pressekonferenz — прес-конференція",
         "die Gemeinschaft, -en — спільнота"
       ],
       "vocabularyWords": [
@@ -2658,7 +3353,7 @@
         },
         {
           "surface": "Pressekonferenz",
-          "hint": "die Pressekonferenz — прес‑конференція"
+          "hint": "die Pressekonferenz — прес-конференція"
         },
         {
           "surface": "Gemeinschaft",
@@ -5401,6 +6096,300 @@
     }
   ],
   "B1": [
+    {
+      "id": "6ce85744",
+      "originalTitle": "Herbstsession 2026 - Raumfahrtgesetz und Kommunikation des Bundesrats im Parlament",
+      "simplifiedText": "Der Bundesrat hat im Rahmen der Herbstsession 2026 im Parlament das neue Raumfahrtgesetz vorgestellt. Gleichzeitig erläuterte er die geplante Kommunikationsstrategie des Bundesrats für die Raumfahrtpolitik. Die Abgeordneten des Nationalrates und des Ständerates diskutierten die Vorschläge mehrere Stunden lang. Einige Fraktionen stellten kritische Fragen zur Finanzierung und zu internationalen Kooperationen. Die Debatte wurde im Ticker des Parlaments live übertragen, sodass die Bevölkerung die Argumente verfolgen konnte. Am Ende der Sitzung wurde beschlossen, den Gesetzentwurf an den Ausschuss für Wissenschaft und Technologie zu verweisen. Der Ausschuss soll bis zum nächsten Monat ein Positionspapier erarbeiten. Damit bleibt das Thema Raumfahrt im politischen Fokus der Herbstsession.",
+      "vocabularyHints": [
+        "die Herbstsession, -en — осіння сесія",
+        "das Raumfahrtgesetz — закон про космічні польоти",
+        "die Kommunikationsstrategie — комунікаційна стратегія",
+        "der Nationalrat — національна рада",
+        "der Ständerat — рад кантонів",
+        "die Fraktion, -en — фракції",
+        "die Finanzierung — фінансування",
+        "die Kooperation, -en — кооперації",
+        "der Ticker — текстовий новинний потік",
+        "der Gesetzentwurf — проект закону",
+        "der Ausschuss — комітет",
+        "die Technologie — технологія",
+        "das Positionspapier — позиційний документ"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Herbstsession",
+          "hint": "die Herbstsession, -en — осіння сесія"
+        },
+        {
+          "surface": "Raumfahrtgesetz",
+          "hint": "das Raumfahrtgesetz — закон про космічні польоти"
+        },
+        {
+          "surface": "Kommunikationsstrategie",
+          "hint": "die Kommunikationsstrategie — комунікаційна стратегія"
+        },
+        {
+          "surface": "Nationalrates",
+          "hint": "der Nationalrat — національна рада"
+        },
+        {
+          "surface": "Ständerates",
+          "hint": "der Ständerat — рад кантонів"
+        },
+        {
+          "surface": "Fraktionen",
+          "hint": "die Fraktion, -en — фракції"
+        },
+        {
+          "surface": "Finanzierung",
+          "hint": "die Finanzierung — фінансування"
+        },
+        {
+          "surface": "Kooperationen",
+          "hint": "die Kooperation, -en — кооперації"
+        },
+        {
+          "surface": "Ticker",
+          "hint": "der Ticker — текстовий новинний потік"
+        },
+        {
+          "surface": "Gesetzentwurf",
+          "hint": "der Gesetzentwurf — проект закону"
+        },
+        {
+          "surface": "Ausschuss",
+          "hint": "der Ausschuss — комітет"
+        },
+        {
+          "surface": "Technologie",
+          "hint": "die Technologie — технологія"
+        },
+        {
+          "surface": "Positionspapier",
+          "hint": "das Positionspapier — позиційний документ"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/691348e.jpg",
+      "publishedAt": "2026-09-24T06:00:12.000Z",
+      "processedAt": "2026-09-24T07:34:12.021Z"
+    },
+    {
+      "id": "157f2dff",
+      "originalTitle": "SRF-Bestenliste - Die besten Bücher im Oktober 2026",
+      "simplifiedText": "Die SRF hat im Oktober 2026 ihre aktuelle Bestenliste der Bücher veröffentlicht. Auf der Liste stehen zehn Titel, die von einer Jury aus Literaturkritikerinnen ausgewählt wurden. Ein Schwerpunkt liegt auf Werken, die Beziehungsfragen aus verschiedenen Blickwinkeln beleuchten. Zwei Romane befassen sich mit historischen und vererbten Traumata, die nach dem Krieg in Familien weitergegeben wurden. Der dritte Titel ist ein unterhaltsamer Krimi, der in Zürich spielt und mit vielen überraschenden Wendungen lockt. Die SRF betont, dass die Auswahl sowohl anspruchsvolle als auch leicht zugängliche Literatur umfasst. Leserinnen und Leser können die Bücher ab sofort in Buchhandlungen und online bestellen. Die Bekanntgabe der Bestenliste erfolgt im Rahmen einer Live-Übertragung im SRF-Programm, wobei die Autoren kurz über ihre Werke sprechen.",
+      "vocabularyHints": [
+        "die Bestenliste, -n — список кращих",
+        "die Jury, -en — журі",
+        "die Literaturkritikerin, -nen — критики літератури (жінки)",
+        "die Beziehungsfrage, -n — питання стосунків",
+        "vererben — успадковувати",
+        "das Trauma, -s — травми",
+        "unterhaltsam — розважальний",
+        "der Krimi, -s — детектив",
+        "anspruchsvoll — вимогливий",
+        "die Live-Übertragung, -en — пряма трансляція"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Bestenliste",
+          "hint": "die Bestenliste, -n — список кращих"
+        },
+        {
+          "surface": "Jury",
+          "hint": "die Jury, -en — журі"
+        },
+        {
+          "surface": "Literaturkritikerinnen",
+          "hint": "die Literaturkritikerin, -nen — критики літератури (жінки)"
+        },
+        {
+          "surface": "Beziehungsfragen",
+          "hint": "die Beziehungsfrage, -n — питання стосунків"
+        },
+        {
+          "surface": "vererbten",
+          "hint": "vererben — успадковувати"
+        },
+        {
+          "surface": "Traumata",
+          "hint": "das Trauma, -s — травми"
+        },
+        {
+          "surface": "unterhaltsamer",
+          "hint": "unterhaltsam — розважальний"
+        },
+        {
+          "surface": "Krimi",
+          "hint": "der Krimi, -s — детектив"
+        },
+        {
+          "surface": "anspruchsvolle",
+          "hint": "anspruchsvoll — вимогливий"
+        },
+        {
+          "surface": "Live-Übertragung",
+          "hint": "die Live-Übertragung, -en — пряма трансляція"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/828134.jpg",
+      "publishedAt": "2026-09-24T06:01:50.000Z",
+      "processedAt": "2026-09-24T07:32:54.430Z"
+    },
+    {
+      "id": "39d30896",
+      "originalTitle": "Krieg in der Ukraine - Zwei Tote nach nächtlichem Angriff auf Kiew - sechs Verletzte",
+      "simplifiedText": "Bei einem nächtlichen russischen Raketenangriff auf Kiew wurden zwei Menschen getötet und sechs verletzt. Der Angriff ereignete sich gegen 02.00 Uhr, als die Stadt noch weitgehend im Dunkeln lag. Rettungsdienste und die Feuerwehr wurden sofort zu den betroffenen Stadtteilen gerufen. Die Behörden bestätigten, dass die Opfer Zivilisten waren, die sich in ihren Wohnungen befanden. Mehrere Gebäude wurden durch die Einschläge beschädigt, wobei Trümmer auf die Strasse fielen. Die russischen Streitkräfte haben den Angriff durchgeführt. Die Stadtverwaltung von Kiew hat ein Krisenmanagement eingerichtet, um die Sicherheit der Bevölkerung zu gewährleisten. Die Polizei sperrt das betroffene Gebiet, um die Sicherheit der Bevölkerung zu gewährleisten.",
+      "vocabularyHints": [
+        "nächtlich — нічний",
+        "Raketenangriff — ракетний удар",
+        "Rettungsdienst — служба порятунку",
+        "Zivilist — цивільний",
+        "Trümmer — руїна",
+        "Stadtverwaltung — міське управління"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "nächtlichen",
+          "hint": "nächtlich — нічний"
+        },
+        {
+          "surface": "Raketenangriff",
+          "hint": "Raketenangriff — ракетний удар"
+        },
+        {
+          "surface": "Rettungsdienste",
+          "hint": "Rettungsdienst — служба порятунку"
+        },
+        {
+          "surface": "Zivilisten",
+          "hint": "Zivilist — цивільний"
+        },
+        {
+          "surface": "Trümmer",
+          "hint": "Trümmer — руїна"
+        },
+        {
+          "surface": "Stadtverwaltung",
+          "hint": "Stadtverwaltung — міське управління"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/5c9329.jpg",
+      "publishedAt": "2026-09-24T06:44:35.000Z",
+      "processedAt": "2026-09-24T07:31:32.156Z"
+    },
+    {
+      "id": "1367d982",
+      "originalTitle": "Konflikt im Nahen Osten - Jordanien sieht sich durch Israels Siedlungspolitik bedroht",
+      "simplifiedText": "Jordanien warnt, dass Israels Siedlungspolitik im Westjordanland eine rote Linie darstellt. Die jordanische Regierung sagt, dass die fortgesetzte Expansion der Siedlungen die Gefahr einer Massenflucht erhöhen könnte. In einer Rede vor dem Parlament erklärte der Aussenminister, dass viele Palästinenser ihr Zuhause verlassen müssten, wenn die Politik weitergeht. Er betonte, dass die internationale Gemeinschaft Druck ausüben sollte, um die Siedlungen zu begrenzen. Andererseits sieht Israel die Siedlungspolitik als legitimen Teil seiner Sicherheitsstrategie. Die Spannungen im Nahen Osten könnten dadurch noch stärker werden, weil die Grenzregion bereits instabil ist. Jordanien fordert, dass die Vereinten Nationen sofort vermitteln, um eine humanitäre Katastrophe zu verhindern. Falls die rote Linie überschritten wird, könnte das eine Massenflucht auslösen, die das ganze Land destabilisiert.",
+      "vocabularyHints": [
+        "die Siedlungspolitik — політика поселень",
+        "das Westjordanland — західний берег",
+        "die Massenflucht — масова еміграція",
+        "auslösen — викликати, спричинити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Siedlungspolitik",
+          "hint": "die Siedlungspolitik — політика поселень"
+        },
+        {
+          "surface": "Westjordanland",
+          "hint": "das Westjordanland — західний берег"
+        },
+        {
+          "surface": "Massenflucht",
+          "hint": "die Massenflucht — масова еміграція"
+        },
+        {
+          "surface": "auslösen",
+          "hint": "auslösen — викликати, спричинити"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/493261.jpg",
+      "publishedAt": "2026-09-24T06:52:30.000Z",
+      "processedAt": "2026-09-24T07:30:14.957Z"
+    },
+    {
+      "id": "588bb6c1",
+      "originalTitle": "«Habe mich wegen ihrer Meinung schon von Freunden distanziert»",
+      "simplifiedText": "Ed Sheeran hat erklärt, dass er seine Konzerte bewusst unpolitisch halten wolle. Er begründete das damit, dass er Musik als Ort der Entspannung und des Zusammenkommens sehe. Kurz nach seiner Aussage erhielt er heftige Kritik aus der Musik-Community. Viele Fans und Kultur-Kommentatoren warfen ihm vor, sich nicht genug zu aktuellen gesellschaftlichen Themen zu äussern. Sie forderten eine klare Haltung, weil sie glauben, dass ein Künstler eine Vorbildfunktion hat. Andere wiederum argumentieren, dass ein Musiker nicht zu jedem politischen Ereignis Stellung beziehen müsse. Diese Gegenposition betont das Recht auf künstlerische Freiheit und die Trennung von Unterhaltung und Politik. Der Diskurs zeigt, dass das Verhältnis zwischen Pop-Kultur und politischer Verantwortung weiterhin umstritten bleibt.",
+      "vocabularyHints": [
+        "unpolitisch — неполітичний",
+        "begründen — обґрунтовувати",
+        "die Entspannung, -en — розслаблення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "unpolitisch",
+          "hint": "unpolitisch — неполітичний"
+        },
+        {
+          "surface": "begründete",
+          "hint": "begründen — обґрунтовувати"
+        },
+        {
+          "surface": "Entspannung",
+          "hint": "die Entspannung, -en — розслаблення"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://image.20min.ch/2026/09/23/d2e70497-a02c-4b8c-8426-8acec6bc2306.jpg?s=591a084e9baa88fa480617b604709d29",
+      "publishedAt": "2026-09-24T06:52:56.000Z",
+      "processedAt": "2026-09-24T07:28:53.094Z"
+    },
+    {
+      "id": "5e9c3846",
+      "originalTitle": "Q&A zu Pflege und Gesundheit - Welche Fragen haben Sie zur Schweizer Pflegesituation?",
+      "simplifiedText": "Eine Fachrunde beantwortet von 10:00 bis 11:30 Fragen zur Schweizer Pflegesituation. Die Runde ist ein offenes Q&A, bei dem Experten Ihre Anliegen aufnehmen. Sie können Ihre Fragen bereits jetzt per E-Mail an die Veranstalter senden. Während der halben Stunde werden die eingereichten Fragen nacheinander besprochen. Die Antworten sollen Klarheit über aktuelle Herausforderungen im Pflegebereich schaffen. Alle Interessierten sind eingeladen, sich aktiv zu beteiligen. Die Veranstaltung endet um 11:30, danach stehen die Antworten den Teilnehmern zur Verfügung.",
+      "vocabularyHints": [
+        "die Fachrunde, -n — експертна група",
+        "die Pflegesituation, -en — ситуація у сфері догляду",
+        "Q&A — питання та відповіді",
+        "nacheinander — по черзі",
+        "die Klarheit, -en — ясність",
+        "die Herausforderung, -en — виклики",
+        "der Pflegebereich, -e — сфера догляду",
+        "einreichen — подати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Fachrunde",
+          "hint": "die Fachrunde, -n — експертна група"
+        },
+        {
+          "surface": "Pflegesituation",
+          "hint": "die Pflegesituation, -en — ситуація у сфері догляду"
+        },
+        {
+          "surface": "Q&A",
+          "hint": "Q&A — питання та відповіді"
+        },
+        {
+          "surface": "nacheinander",
+          "hint": "nacheinander — по черзі"
+        },
+        {
+          "surface": "Klarheit",
+          "hint": "die Klarheit, -en — ясність"
+        },
+        {
+          "surface": "Herausforderungen",
+          "hint": "die Herausforderung, -en — виклики"
+        },
+        {
+          "surface": "Pflegebereich",
+          "hint": "der Pflegebereich, -e — сфера догляду"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/990076.jpg",
+      "publishedAt": "2026-09-24T07:02:26.000Z",
+      "processedAt": "2026-09-24T07:27:34.949Z"
+    },
     {
       "id": "2c32dd4b",
       "originalTitle": "Medizinische Versorgung - Medikamentenversorgung: Nationalrat ist skeptisch bei Initiative",
@@ -8758,8 +9747,595 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-23T19:01:05.579Z",
+  "updatedAt": "2026-09-24T07:46:27.284Z",
   "tsnA1": [
+    {
+      "id": "730e9c05",
+      "originalTitle": "Названо знаки зодіаку, які дуже сильні та стійкі: їх неможливо зламати",
+      "simplifiedText": "Астрологи назвали три знаки зодіаку дуже стійкими. Скорпіон часто вважають найсильнішим через здатність відновлюватися. Козоріг показує дисципліну і поступово долає перешкоди. Телець має впертість і не зупиняється перед труднощами.",
+      "vocabularyHints": [
+        "астролог — die Astrologen",
+        "знак — die Zeichen",
+        "зодіак — das Sternzeichen",
+        "стійкий — stabil",
+        "Скорпіон — der Skorpion",
+        "сильний — am stärksten",
+        "здатність — die Fähigkeit",
+        "відновлюватися — sich erholen",
+        "Козоріг — der Steinbock",
+        "дисципліна — die Disziplin",
+        "поступово — allmählich",
+        "долати — überwinden",
+        "перешкода — die Hindernisse",
+        "Телець — der Stier",
+        "впертість — die Hartnäckigkeit",
+        "труднощі — die Schwierigkeiten"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Астрологи",
+          "hint": "астролог — die Astrologen"
+        },
+        {
+          "surface": "знаки",
+          "hint": "знак — die Zeichen"
+        },
+        {
+          "surface": "зодіаку",
+          "hint": "зодіак — das Sternzeichen"
+        },
+        {
+          "surface": "стійкими",
+          "hint": "стійкий — stabil"
+        },
+        {
+          "surface": "Скорпіон",
+          "hint": "Скорпіон — der Skorpion"
+        },
+        {
+          "surface": "найсильнішим",
+          "hint": "сильний — am stärksten"
+        },
+        {
+          "surface": "здатність",
+          "hint": "здатність — die Fähigkeit"
+        },
+        {
+          "surface": "відновлюватися",
+          "hint": "відновлюватися — sich erholen"
+        },
+        {
+          "surface": "Козоріг",
+          "hint": "Козоріг — der Steinbock"
+        },
+        {
+          "surface": "дисципліну",
+          "hint": "дисципліна — die Disziplin"
+        },
+        {
+          "surface": "поступово",
+          "hint": "поступово — allmählich"
+        },
+        {
+          "surface": "долає",
+          "hint": "долати — überwinden"
+        },
+        {
+          "surface": "перешкоди",
+          "hint": "перешкода — die Hindernisse"
+        },
+        {
+          "surface": "Телець",
+          "hint": "Телець — der Stier"
+        },
+        {
+          "surface": "впертість",
+          "hint": "впертість — die Hartnäckigkeit"
+        },
+        {
+          "surface": "труднощами",
+          "hint": "труднощі — die Schwierigkeiten"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/924/tsn-0b4bc102/thumbs/608xX/69/26/9d5606835879d14c8874fc5059782669.jpg",
+      "publishedAt": "2026-09-24T07:10:05.000Z",
+      "processedAt": "2026-09-24T07:45:15.423Z"
+    },
+    {
+      "id": "11a86a59",
+      "originalTitle": "Життя перемагає смерть: у пошкодженому пологовому Києва під вибухи з’явився на світ малюк (оновлено, відео)",
+      "simplifiedText": "У нічний час 24 вересня в Києві під вогнем вибуху народився хлопчик. Це сталося в пологовому будинку Подільського району. Будівля отримала пошкодження, але пацієнти та медики не постраждали. На парковці біля будинку загинула одна людина. Попри це медики продовжили допомагати новонародженим.",
+      "vocabularyHints": [
+        "нічний — die Nacht",
+        "вересень — der September",
+        "вогонь — das Feuer",
+        "вибух — die Explosion",
+        "народитися — geboren",
+        "хлопчик — der Junge",
+        "пологовий — die Geburtsklinik",
+        "Подільський — der Bezirk Podilskij",
+        "отримати — erhalten",
+        "пошкодження — die Beschädigung",
+        "пацієнт — die Patienten",
+        "медик — die Ärzte",
+        "постраждати — verletzt",
+        "парковка — der Parkplatz",
+        "загинути — gestorben",
+        "людина — die Person",
+        "продовжити — weiterführen",
+        "допомагати — helfen",
+        "новонароджений — die Neugeborenen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "нічний",
+          "hint": "нічний — die Nacht"
+        },
+        {
+          "surface": "вересня",
+          "hint": "вересень — der September"
+        },
+        {
+          "surface": "вогнем",
+          "hint": "вогонь — das Feuer"
+        },
+        {
+          "surface": "вибуху",
+          "hint": "вибух — die Explosion"
+        },
+        {
+          "surface": "народився",
+          "hint": "народитися — geboren"
+        },
+        {
+          "surface": "хлопчик",
+          "hint": "хлопчик — der Junge"
+        },
+        {
+          "surface": "пологовому",
+          "hint": "пологовий — die Geburtsklinik"
+        },
+        {
+          "surface": "Подільського",
+          "hint": "Подільський — der Bezirk Podilskij"
+        },
+        {
+          "surface": "отримала",
+          "hint": "отримати — erhalten"
+        },
+        {
+          "surface": "пошкодження",
+          "hint": "пошкодження — die Beschädigung"
+        },
+        {
+          "surface": "пацієнти",
+          "hint": "пацієнт — die Patienten"
+        },
+        {
+          "surface": "медики",
+          "hint": "медик — die Ärzte"
+        },
+        {
+          "surface": "постраждали",
+          "hint": "постраждати — verletzt"
+        },
+        {
+          "surface": "парковці",
+          "hint": "парковка — der Parkplatz"
+        },
+        {
+          "surface": "загинула",
+          "hint": "загинути — gestorben"
+        },
+        {
+          "surface": "людина",
+          "hint": "людина — die Person"
+        },
+        {
+          "surface": "продовжили",
+          "hint": "продовжити — weiterführen"
+        },
+        {
+          "surface": "допомагати",
+          "hint": "допомагати — helfen"
+        },
+        {
+          "surface": "новонародженим",
+          "hint": "новонароджений — die Neugeborenen"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/128/tsn-0b4bc102/thumbs/608xX/26/6e/eea5eeb814dcbc274cb67a0dcbc06e26.jpg",
+      "publishedAt": "2026-09-24T07:13:29.000Z",
+      "processedAt": "2026-09-24T07:43:14.247Z"
+    },
+    {
+      "id": "0bc4be75",
+      "originalTitle": "Європа, Емірати? : де насправді живе Кравченко після виїзду з України — ЗМІ знайшли дивний нюанс",
+      "simplifiedText": "Колишній генеральний прокурор Руслан Кравченко зареєстрував проживання у Відні. Вказав адресу офісу компанії на Jordangasse 7, квартира 12. Журналісти вважають, що так він ховає реальне місце перебування. Офіс належить CS Corporate Services GmbH, яка надає юридичну адресу.",
+      "vocabularyHints": [
+        "колишній — ehemalig",
+        "генеральний — generell",
+        "прокурор — Staatsanwalt",
+        "зареєструвати — registrieren",
+        "проживання — Wohnsitz",
+        "вказати — angeben",
+        "адреса — Adresse",
+        "компанія — Firma",
+        "журналіст — Journalisten",
+        "вважати — glauben",
+        "ховати — verstecken",
+        "реальний — wirklich",
+        "перебування — Aufenthalt",
+        "офіс — Büro",
+        "належати — gehören",
+        "надавати — bieten",
+        "юридичний — juristische"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Колишній",
+          "hint": "колишній — ehemalig"
+        },
+        {
+          "surface": "генеральний",
+          "hint": "генеральний — generell"
+        },
+        {
+          "surface": "прокурор",
+          "hint": "прокурор — Staatsanwalt"
+        },
+        {
+          "surface": "зареєстрував",
+          "hint": "зареєструвати — registrieren"
+        },
+        {
+          "surface": "проживання",
+          "hint": "проживання — Wohnsitz"
+        },
+        {
+          "surface": "Вказав",
+          "hint": "вказати — angeben"
+        },
+        {
+          "surface": "адресу",
+          "hint": "адреса — Adresse"
+        },
+        {
+          "surface": "компанії",
+          "hint": "компанія — Firma"
+        },
+        {
+          "surface": "Журналісти",
+          "hint": "журналіст — Journalisten"
+        },
+        {
+          "surface": "вважають",
+          "hint": "вважати — glauben"
+        },
+        {
+          "surface": "ховає",
+          "hint": "ховати — verstecken"
+        },
+        {
+          "surface": "реальне",
+          "hint": "реальний — wirklich"
+        },
+        {
+          "surface": "перебування",
+          "hint": "перебування — Aufenthalt"
+        },
+        {
+          "surface": "офісу",
+          "hint": "офіс — Büro"
+        },
+        {
+          "surface": "Офіс",
+          "hint": "офіс — Büro"
+        },
+        {
+          "surface": "належить",
+          "hint": "належати — gehören"
+        },
+        {
+          "surface": "надає",
+          "hint": "надавати — bieten"
+        },
+        {
+          "surface": "юридичну",
+          "hint": "юридичний — juristische"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/640/tsn-51cb131e/thumbs/608xX/3d/4b/2a3bf868b5aa631394da0cc384054b3d.jpg",
+      "publishedAt": "2026-09-24T07:15:06.000Z",
+      "processedAt": "2026-09-24T07:41:24.832Z"
+    },
+    {
+      "id": "7a071cd7",
+      "originalTitle": "Сусідню країну сколихнули вибухи: виявлено уламки дрона, влада зробила заяву — усі деталі (фото, відео)",
+      "simplifiedText": "24 вересня російські безпілотники порушили повітря Молдови. У районі Флорештському лунали сильні вибухи. Після них знайшли уламки дрону біля ферми. Ніхто не постраждав, поліція просить зберігати спокій.",
+      "vocabularyHints": [
+        "вересень — September",
+        "російський — russisch",
+        "безпілотник — die Drohne, -n",
+        "порушити — verstossen",
+        "повітря — die Luft",
+        "район — der Bezirk, -e",
+        "лунати — klingen",
+        "сильний — stark",
+        "вибух — die Explosion, -en",
+        "знайти — finden",
+        "уламок — das Fragment, -e",
+        "дрон — die Drohne, -n",
+        "ферма — der Bauernhof, -e",
+        "постраждати — verletzt sein",
+        "поліція — die Polizei",
+        "просити — bitten",
+        "зберігати — behalten",
+        "спокій — die Ruhe"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вересня",
+          "hint": "вересень — September"
+        },
+        {
+          "surface": "російські",
+          "hint": "російський — russisch"
+        },
+        {
+          "surface": "безпілотники",
+          "hint": "безпілотник — die Drohne, -n"
+        },
+        {
+          "surface": "порушили",
+          "hint": "порушити — verstossen"
+        },
+        {
+          "surface": "повітря",
+          "hint": "повітря — die Luft"
+        },
+        {
+          "surface": "районі",
+          "hint": "район — der Bezirk, -e"
+        },
+        {
+          "surface": "лунали",
+          "hint": "лунати — klingen"
+        },
+        {
+          "surface": "сильні",
+          "hint": "сильний — stark"
+        },
+        {
+          "surface": "вибухи",
+          "hint": "вибух — die Explosion, -en"
+        },
+        {
+          "surface": "знайшли",
+          "hint": "знайти — finden"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — das Fragment, -e"
+        },
+        {
+          "surface": "дрону",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "ферми",
+          "hint": "ферма — der Bauernhof, -e"
+        },
+        {
+          "surface": "постраждав",
+          "hint": "постраждати — verletzt sein"
+        },
+        {
+          "surface": "поліція",
+          "hint": "поліція — die Polizei"
+        },
+        {
+          "surface": "просить",
+          "hint": "просити — bitten"
+        },
+        {
+          "surface": "зберігати",
+          "hint": "зберігати — behalten"
+        },
+        {
+          "surface": "спокій",
+          "hint": "спокій — die Ruhe"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/510/tsn-90ef87392779da7417a975ee734335dc/thumbs/608xX/37/b8/624bf93079c7d6cd0026c0b342d8b837.jpeg",
+      "publishedAt": "2026-09-24T07:16:46.000Z",
+      "processedAt": "2026-09-24T07:39:04.319Z"
+    },
+    {
+      "id": "133adf64",
+      "originalTitle": "До 600 км/год: РФ прискорює свої дрони для прориву ППО, але є слабке місце — експерт",
+      "simplifiedText": "Російські війська застосовують дрони, що розганяються до 600 км/год. Капітан 1‑го рангу запасу ВМС ЗСУ Андрій Риженко повідомив про це. Дрони літають на висоті 4‑7 км, важко знищити. Через великий розхід пального вони швидко сповільнюються. За даними експерта, їх перехоплюють лише 60 % випадків.",
+      "vocabularyHints": [
+        "російський — russisch",
+        "військо — die Truppen",
+        "застосовувати — anwenden",
+        "дрон — die Drohne, -n",
+        "розганяти — beschleunigen",
+        "капітан — der Hauptmann",
+        "ранг — der Rang",
+        "запас — der Reserve"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Російські",
+          "hint": "російський — russisch"
+        },
+        {
+          "surface": "війська",
+          "hint": "військо — die Truppen"
+        },
+        {
+          "surface": "застосовують",
+          "hint": "застосовувати — anwenden"
+        },
+        {
+          "surface": "дрони",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "розганяються",
+          "hint": "розганяти — beschleunigen"
+        },
+        {
+          "surface": "Капітан",
+          "hint": "капітан — der Hauptmann"
+        },
+        {
+          "surface": "рангу",
+          "hint": "ранг — der Rang"
+        },
+        {
+          "surface": "запасу",
+          "hint": "запас — der Reserve"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/754/tsn-51cb131e/thumbs/608xX/b6/5a/91b776795d567ae0a1511d85b45e5ab6.jpg",
+      "publishedAt": "2026-09-24T07:20:43.000Z",
+      "processedAt": "2026-09-24T07:36:51.753Z"
+    },
+    {
+      "id": "5d717f4c",
+      "originalTitle": "Якою буде зима 2026–2027 в Україні: прогноз на грудень, січень і лютий",
+      "simplifiedText": "Сезонні моделі показують, що зима 2026‑2027 буде м’якішою. Прогноз підготовив європейський сервіс Copernicus 10 вересня. Водночас в Тихому океані посилюється Ель‑Ніньо. Це може підвищити ймовірність опадів в Україні. Прогнози оновлюватимуться щомісяця протягом осені у 2026 році.",
+      "vocabularyHints": [
+        "сезонний — saisonal",
+        "модель — das Modell, -e",
+        "м’який — milder",
+        "прогноз — die Prognose",
+        "підготувати — vorbereiten",
+        "європейський — europäisch",
+        "сервіс — der Service",
+        "вересень — der September",
+        "водночас — gleichzeitig",
+        "Тихий — pazifisch",
+        "океан — der Ozean, -en",
+        "посилюватися — sich verstärken",
+        "Ель‑Ніньо — El Niño",
+        "підвищити — erhöhen",
+        "ймовірність — die Wahrscheinlichkeit",
+        "опад — der Niederschlag, -e",
+        "Україна — die Ukraine",
+        "прогноз — die Prognose, -en",
+        "оновлюватися — aktualisiert werden",
+        "щомісяць — monatlich",
+        "протягом — während",
+        "осінь — der Herbst",
+        "рік — das Jahr"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Сезонні",
+          "hint": "сезонний — saisonal"
+        },
+        {
+          "surface": "моделі",
+          "hint": "модель — das Modell, -e"
+        },
+        {
+          "surface": "м’якішою",
+          "hint": "м’який — milder"
+        },
+        {
+          "surface": "Прогноз",
+          "hint": "прогноз — die Prognose"
+        },
+        {
+          "surface": "підготовив",
+          "hint": "підготувати — vorbereiten"
+        },
+        {
+          "surface": "європейський",
+          "hint": "європейський — europäisch"
+        },
+        {
+          "surface": "сервіс",
+          "hint": "сервіс — der Service"
+        },
+        {
+          "surface": "вересня",
+          "hint": "вересень — der September"
+        },
+        {
+          "surface": "Водночас",
+          "hint": "водночас — gleichzeitig"
+        },
+        {
+          "surface": "Тихому",
+          "hint": "Тихий — pazifisch"
+        },
+        {
+          "surface": "океані",
+          "hint": "океан — der Ozean, -en"
+        },
+        {
+          "surface": "посилюється",
+          "hint": "посилюватися — sich verstärken"
+        },
+        {
+          "surface": "Ель‑Ніньо",
+          "hint": "Ель‑Ніньо — El Niño"
+        },
+        {
+          "surface": "підвищити",
+          "hint": "підвищити — erhöhen"
+        },
+        {
+          "surface": "ймовірність",
+          "hint": "ймовірність — die Wahrscheinlichkeit"
+        },
+        {
+          "surface": "опадів",
+          "hint": "опад — der Niederschlag, -e"
+        },
+        {
+          "surface": "Україні",
+          "hint": "Україна — die Ukraine"
+        },
+        {
+          "surface": "Прогнози",
+          "hint": "прогноз — die Prognose, -en"
+        },
+        {
+          "surface": "оновлюватимуться",
+          "hint": "оновлюватися — aktualisiert werden"
+        },
+        {
+          "surface": "щомісяця",
+          "hint": "щомісяць — monatlich"
+        },
+        {
+          "surface": "протягом",
+          "hint": "протягом — während"
+        },
+        {
+          "surface": "осені",
+          "hint": "осінь — der Herbst"
+        },
+        {
+          "surface": "році",
+          "hint": "рік — das Jahr"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/432/tsn-51cb131e/thumbs/608xX/18/71/8cef7883a4f2bbce2e99152c5b2c7118.jpg",
+      "publishedAt": "2026-09-24T07:26:54.000Z",
+      "processedAt": "2026-09-24T07:34:39.289Z"
+    },
     {
       "id": "039bc676",
       "originalTitle": "Осіннє рівнодення 2026 року наближається: чотири ритуали, щоб відпустити минуле та відкрити шлях новому",
@@ -9957,6 +11533,564 @@
   ],
   "tsnA2": [
     {
+      "id": "4ada369c",
+      "originalTitle": "Названо знаки зодіаку, які дуже сильні та стійкі: їх неможливо зламати",
+      "simplifiedText": "У астрології вважають, що деякі знаки зодіаку дуже стійкі до життєвих труднощів. Найчастіше про це говорять про Скорпіона, який навіть після великих втрат швидко відновлюється і не показує слабкості. Козоріг теж не здається: коли ставить собі мету, він поступово долає перешкоди, навіть якщо результат приходить лише через кілька років. Телець відомий своєю впертістю, тому його важко збити з обраного шляху, навіть коли навколо багато проблем. Усі ці знаки вміють контролювати те, що можуть, і сприймають труднощі як нові завдання, а не як причину зупинитися.",
+      "vocabularyHints": [
+        "астрологія — die Astrologie",
+        "зодіак — das Sternzeichen",
+        "стійкий — standhaft",
+        "труднощі — die Schwierigkeiten",
+        "Скорпіон — der Skorpion",
+        "втрата — der Verlust",
+        "відновлюватися — sich erholen",
+        "слабкість — die Schwäche",
+        "Козоріг — der Steinbock",
+        "мета — das Ziel",
+        "долати — überwinden",
+        "перешкода — die Hindernisse",
+        "результат — das Ergebnis",
+        "Телець — der Stier",
+        "впертість — die Hartnäckigkeit",
+        "збити — aus dem Weg räumen",
+        "обраний — ausgewählt",
+        "шлях — der Weg",
+        "контролювати — kontrollieren",
+        "завдання — die Aufgabe",
+        "причина — der Grund"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "астрології",
+          "hint": "астрологія — die Astrologie"
+        },
+        {
+          "surface": "зодіаку",
+          "hint": "зодіак — das Sternzeichen"
+        },
+        {
+          "surface": "стійкі",
+          "hint": "стійкий — standhaft"
+        },
+        {
+          "surface": "труднощів",
+          "hint": "труднощі — die Schwierigkeiten"
+        },
+        {
+          "surface": "Скорпіона",
+          "hint": "Скорпіон — der Skorpion"
+        },
+        {
+          "surface": "втрат",
+          "hint": "втрата — der Verlust"
+        },
+        {
+          "surface": "відновлюється",
+          "hint": "відновлюватися — sich erholen"
+        },
+        {
+          "surface": "слабкості",
+          "hint": "слабкість — die Schwäche"
+        },
+        {
+          "surface": "Козоріг",
+          "hint": "Козоріг — der Steinbock"
+        },
+        {
+          "surface": "мету",
+          "hint": "мета — das Ziel"
+        },
+        {
+          "surface": "долає",
+          "hint": "долати — überwinden"
+        },
+        {
+          "surface": "перешкоди",
+          "hint": "перешкода — die Hindernisse"
+        },
+        {
+          "surface": "результат",
+          "hint": "результат — das Ergebnis"
+        },
+        {
+          "surface": "Телець",
+          "hint": "Телець — der Stier"
+        },
+        {
+          "surface": "впертістю",
+          "hint": "впертість — die Hartnäckigkeit"
+        },
+        {
+          "surface": "збити",
+          "hint": "збити — aus dem Weg räumen"
+        },
+        {
+          "surface": "обраного",
+          "hint": "обраний — ausgewählt"
+        },
+        {
+          "surface": "шляху",
+          "hint": "шлях — der Weg"
+        },
+        {
+          "surface": "контролювати",
+          "hint": "контролювати — kontrollieren"
+        },
+        {
+          "surface": "завдання",
+          "hint": "завдання — die Aufgabe"
+        },
+        {
+          "surface": "причину",
+          "hint": "причина — der Grund"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/924/tsn-0b4bc102/thumbs/608xX/69/26/9d5606835879d14c8874fc5059782669.jpg",
+      "publishedAt": "2026-09-24T07:10:05.000Z",
+      "processedAt": "2026-09-24T07:45:43.028Z"
+    },
+    {
+      "id": "3ade83a6",
+      "originalTitle": "Життя перемагає смерть: у пошкодженому пологовому Києва під вибухи з’явився на світ малюк (оновлено, відео)",
+      "simplifiedText": "У нічний час 24 вересня, коли російські ракети обстріляли Київ, у підільському пологовому будинку народився хлопчик. Після падіння уламків ракети вікна, двері і частина фасаду будівлі зруйнувалися, але пацієнти та медики залишилися живі, бо перебували в укритті. На парковці біля будинку загинула одна людина, а поруч розташований клініко-діагностичний центр теж отримав пошкодження. Медики не зупинили роботу і продовжували допомагати новонародженим і мамам у післяпологовому відділенні. За добу в цьому закладі народилося дев’ять дітей, і один з них прийшов у світ саме під час вибухової хвилі. На місці працювали експерти і поліція, а будинок залишився без централізованого водопостачання.",
+      "vocabularyHints": [
+        "обстріляти — beschiessen",
+        "падіння — der Fall",
+        "уламок — die Trümmer",
+        "фасад — die Fassade",
+        "укриття — der Schutzraum",
+        "клініко-діагностичний — klinisch-diagnostisch",
+        "післяпологовий — postnatal",
+        "вибуховий — explosiv",
+        "централізований — zentralisiert",
+        "водопостачання — die Wasserversorgung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "обстріляли",
+          "hint": "обстріляти — beschiessen"
+        },
+        {
+          "surface": "падіння",
+          "hint": "падіння — der Fall"
+        },
+        {
+          "surface": "уламків",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "фасаду",
+          "hint": "фасад — die Fassade"
+        },
+        {
+          "surface": "укритті",
+          "hint": "укриття — der Schutzraum"
+        },
+        {
+          "surface": "клініко-діагностичний",
+          "hint": "клініко-діагностичний — klinisch-diagnostisch"
+        },
+        {
+          "surface": "післяпологовому",
+          "hint": "післяпологовий — postnatal"
+        },
+        {
+          "surface": "вибухової",
+          "hint": "вибуховий — explosiv"
+        },
+        {
+          "surface": "централізованого",
+          "hint": "централізований — zentralisiert"
+        },
+        {
+          "surface": "водопостачання",
+          "hint": "водопостачання — die Wasserversorgung"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/128/tsn-0b4bc102/thumbs/608xX/26/6e/eea5eeb814dcbc274cb67a0dcbc06e26.jpg",
+      "publishedAt": "2026-09-24T07:13:29.000Z",
+      "processedAt": "2026-09-24T07:43:42.327Z"
+    },
+    {
+      "id": "2bdd1cec",
+      "originalTitle": "Європа, Емірати? : де насправді живе Кравченко після виїзду з України — ЗМІ знайшли дивний нюанс",
+      "simplifiedText": "Колишній генеральний прокурор України Руслан Кравченко зареєстрував у Відні адресу, яка насправді є офісом компанії. У австрійському реєстрі вказана квартира №12 у будинку на вулиці Jordangasse, 7, хоча це приміщення не використовується як житло. За цією адресою працює фірма CS Corporate Services GmbH, яка надає юридичну адресу та послуги доміциляції для компаній. Фірма також займається секретарським і управлінським обслуговуванням і продає вже зареєстровані компанії. На цій же адресі зареєстровано ще близько двадцяти юридичних осіб, серед яких Duracell Austria GmbH і KPLER GmbH. Журналісти вважають, що Кравченко вказав офіс замість справжнього місця проживання, щоб приховати, де він дійсно живе в Австрії. Це відкриття було опубліковано в матеріалі журналіста Михайла Ткача для «Української правди».",
+      "vocabularyHints": [
+        "генеральний прокурор — der Generalstaatsanwalt",
+        "зареєструвати — registrieren",
+        "офіс — das Büro",
+        "доміциляція — die Domizilierung",
+        "секретарський — sekretariell",
+        "управлінський — administrativ",
+        "юридична особа — die juristische Person",
+        "приховати — verbergen",
+        "опублікувати — veröffentlichen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "генеральний прокурор",
+          "hint": "генеральний прокурор — der Generalstaatsanwalt"
+        },
+        {
+          "surface": "зареєстрував",
+          "hint": "зареєструвати — registrieren"
+        },
+        {
+          "surface": "офісом",
+          "hint": "офіс — das Büro"
+        },
+        {
+          "surface": "доміциляції",
+          "hint": "доміциляція — die Domizilierung"
+        },
+        {
+          "surface": "секретарським",
+          "hint": "секретарський — sekretariell"
+        },
+        {
+          "surface": "управлінським",
+          "hint": "управлінський — administrativ"
+        },
+        {
+          "surface": "юридичних осіб",
+          "hint": "юридична особа — die juristische Person"
+        },
+        {
+          "surface": "приховати",
+          "hint": "приховати — verbergen"
+        },
+        {
+          "surface": "опубліковано",
+          "hint": "опублікувати — veröffentlichen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/640/tsn-51cb131e/thumbs/608xX/3d/4b/2a3bf868b5aa631394da0cc384054b3d.jpg",
+      "publishedAt": "2026-09-24T07:15:06.000Z",
+      "processedAt": "2026-09-24T07:41:57.348Z"
+    },
+    {
+      "id": "5b135758",
+      "originalTitle": "Сусідню країну сколихнули вибухи: виявлено уламки дрона, влада зробила заяву — усі деталі (фото, відео)",
+      "simplifiedText": "Ранком 24 вересня над Молдовою пролунали вибухи, коли російські безпілотники порушили її повітряний простір кілька разів. Жителі Шолданештського та Флорештського районів чули гучні вибухи і побачили уламки дронів біля села Черниця. Пізніше поліція знайшла уламки БпЛА у полі біля ферми у Флорештському районі, проте постраждалих не виявили. Міністерство оборони Молдови заявило, що дрони прилетіли також з Одеської, Вінницької та Чернівецької областей України. Спеціалізовані підрозділи поліції продовжують моніторинг повітряного простору і закликають людей зберігати спокій і не підходити до підозрілих об’єктів.",
+      "vocabularyHints": [
+        "безпілотник — die Drohne, -n",
+        "повітряний простір — der Luftraum",
+        "уламок — die Trümmer",
+        "БпЛА — die UAV, -s",
+        "Міністерство оборони — das Verteidigungsministerium",
+        "спеціалізований підрозділ — die spezialisierten Einheiten",
+        "моніторинг — die Überwachung",
+        "зберігати спокій — Ruhe bewahren",
+        "підозрілий об’єкт — verdächtige Gegenstände"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "безпілотники",
+          "hint": "безпілотник — die Drohne, -n"
+        },
+        {
+          "surface": "повітряний простір",
+          "hint": "повітряний простір — der Luftraum"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "БпЛА",
+          "hint": "БпЛА — die UAV, -s"
+        },
+        {
+          "surface": "Міністерство оборони",
+          "hint": "Міністерство оборони — das Verteidigungsministerium"
+        },
+        {
+          "surface": "спеціалізовані підрозділи",
+          "hint": "спеціалізований підрозділ — die spezialisierten Einheiten"
+        },
+        {
+          "surface": "моніторинг",
+          "hint": "моніторинг — die Überwachung"
+        },
+        {
+          "surface": "зберігати спокій",
+          "hint": "зберігати спокій — Ruhe bewahren"
+        },
+        {
+          "surface": "підозрілих об’єктів",
+          "hint": "підозрілий об’єкт — verdächtige Gegenstände"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/510/tsn-90ef87392779da7417a975ee734335dc/thumbs/608xX/37/b8/624bf93079c7d6cd0026c0b342d8b837.jpeg",
+      "publishedAt": "2026-09-24T07:16:46.000Z",
+      "processedAt": "2026-09-24T07:39:31.117Z"
+    },
+    {
+      "id": "4b2bba83",
+      "originalTitle": "До 600 км/год: РФ прискорює свої дрони для прориву ППО, але є слабке місце — експерт",
+      "simplifiedText": "Російські війська почали використовувати безпілотники, які можуть розганятись до 500‑600 км/год, щоб пробити українську ППО. За словами капітана 1‑го рангу запасу ВМС ЗСУ Андрія Риженка, такі дрони прискорюються лише в ділянках, де їх виявляють і уражають. Через великий розхід пального вони не можуть довго тримати таку швидкість і змушені знижувати її. Нові реактивні дрони «Герань» літають на висоті 4‑7 км і їх важко знищити переносними зенітними ракетами. Через високу швидкість у захисників залишається менше часу на реакцію, тому рівень перехоплення становить близько 60 %, а у старих моделей був понад 90 %. З початку війни Росія випустила понад 13,3 тисячі ракет і понад 142,3 тисячі ударних безпілотників.",
+      "vocabularyHints": [
+        "безпілотник — die Drohne, -n",
+        "розганятись — beschleunigen",
+        "пробити — durchdringen",
+        "ППО — die Luftabwehr",
+        "виявляти — erkennen",
+        "уражати — angreifen",
+        "розхід — der Kraftstoffverbrauch",
+        "паливо — der Kraftstoff",
+        "знищити — zerstören",
+        "переносний — tragbar",
+        "зенітний — Flugabwehr-",
+        "ракета — die Rakete, -n",
+        "реакція — die Reaktion",
+        "рівень — das Niveau",
+        "перехоплення — die Abfangung",
+        "випустити — abschiessen",
+        "ударний — Kampf-",
+        "безпілотник — der Drohne, -n"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "безпілотники",
+          "hint": "безпілотник — die Drohne, -n"
+        },
+        {
+          "surface": "розганятись",
+          "hint": "розганятись — beschleunigen"
+        },
+        {
+          "surface": "пробити",
+          "hint": "пробити — durchdringen"
+        },
+        {
+          "surface": "ППО",
+          "hint": "ППО — die Luftabwehr"
+        },
+        {
+          "surface": "виявляють",
+          "hint": "виявляти — erkennen"
+        },
+        {
+          "surface": "уражають",
+          "hint": "уражати — angreifen"
+        },
+        {
+          "surface": "розхід",
+          "hint": "розхід — der Kraftstoffverbrauch"
+        },
+        {
+          "surface": "пального",
+          "hint": "паливо — der Kraftstoff"
+        },
+        {
+          "surface": "знищити",
+          "hint": "знищити — zerstören"
+        },
+        {
+          "surface": "переносними",
+          "hint": "переносний — tragbar"
+        },
+        {
+          "surface": "зенітними",
+          "hint": "зенітний — Flugabwehr-"
+        },
+        {
+          "surface": "ракетами",
+          "hint": "ракета — die Rakete, -n"
+        },
+        {
+          "surface": "реакцію",
+          "hint": "реакція — die Reaktion"
+        },
+        {
+          "surface": "рівень",
+          "hint": "рівень — das Niveau"
+        },
+        {
+          "surface": "перехоплення",
+          "hint": "перехоплення — die Abfangung"
+        },
+        {
+          "surface": "випустила",
+          "hint": "випустити — abschiessen"
+        },
+        {
+          "surface": "ударних",
+          "hint": "ударний — Kampf-"
+        },
+        {
+          "surface": "безпілотників",
+          "hint": "безпілотник — der Drohne, -n"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/754/tsn-51cb131e/thumbs/608xX/b6/5a/91b776795d567ae0a1511d85b45e5ab6.jpg",
+      "publishedAt": "2026-09-24T07:20:43.000Z",
+      "processedAt": "2026-09-24T07:37:18.548Z"
+    },
+    {
+      "id": "60775355",
+      "originalTitle": "Якою буде зима 2026–2027 в Україні: прогноз на грудень, січень і лютий",
+      "simplifiedText": "За два місяці до календарної зими сезонні моделі вже показують, що зима 2026‑2027 може бути м’якішою, ніж зазвичай, у більшій частині Європи. Проте вони ще не можуть точно передбачити, чи будуть сильні морози або снігопади в Україні. Одночасно в Тихому океані посилюється явище Ель‑Ніньо, яке, за прогнозами, залишиться активним і під час зимових місяців. Це може вплинути на температуру і кількість опадів, тому в Україні очікується трохи вища температура, а кількість опадів може бути більшою, ніж середня. Прогноз від європейської кліматичної служби Copernicus оновлювався 10 вересня і буде уточнюватися щомісяця протягом осені. Тож варто слідкувати за оновленнями, бо зима може принести як теплі дні, так і різкі короткочасні похолодання.",
+      "vocabularyHints": [
+        "сезонний — saisonale",
+        "модель — die Modelle",
+        "показувати — zeigen",
+        "м’який — milder",
+        "передбачити — vorhersagen",
+        "мороз — der Frost",
+        "снігопад — die Schneefälle",
+        "явище — das Phänomen",
+        "активний — aktiv",
+        "вплинути — beeinflussen",
+        "температура — die Temperatur",
+        "кількість — die Menge",
+        "опад — der Niederschlag",
+        "очікувати — erwartet werden",
+        "високий — höher",
+        "середній — durchschnittlich",
+        "прогноз — die Vorhersage",
+        "кліматичний — klimatischer",
+        "служба — der Dienst",
+        "оновлюватися — aktualisiert werden",
+        "уточнюватися — präzisiert werden",
+        "осінь — der Herbst",
+        "слідкувати — beobachten",
+        "оновлення — die Aktualisierungen",
+        "теплий — warme",
+        "день — die Tage",
+        "різкий — heftige",
+        "короткочасний — kurzzeitige",
+        "похолодання — die Abkühlung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "сезонні",
+          "hint": "сезонний — saisonale"
+        },
+        {
+          "surface": "моделі",
+          "hint": "модель — die Modelle"
+        },
+        {
+          "surface": "показують",
+          "hint": "показувати — zeigen"
+        },
+        {
+          "surface": "м’якішою",
+          "hint": "м’який — milder"
+        },
+        {
+          "surface": "передбачити",
+          "hint": "передбачити — vorhersagen"
+        },
+        {
+          "surface": "морози",
+          "hint": "мороз — der Frost"
+        },
+        {
+          "surface": "снігопади",
+          "hint": "снігопад — die Schneefälle"
+        },
+        {
+          "surface": "явище",
+          "hint": "явище — das Phänomen"
+        },
+        {
+          "surface": "активним",
+          "hint": "активний — aktiv"
+        },
+        {
+          "surface": "вплинути",
+          "hint": "вплинути — beeinflussen"
+        },
+        {
+          "surface": "температуру",
+          "hint": "температура — die Temperatur"
+        },
+        {
+          "surface": "кількість",
+          "hint": "кількість — die Menge"
+        },
+        {
+          "surface": "опадів",
+          "hint": "опад — der Niederschlag"
+        },
+        {
+          "surface": "очікується",
+          "hint": "очікувати — erwartet werden"
+        },
+        {
+          "surface": "вища",
+          "hint": "високий — höher"
+        },
+        {
+          "surface": "середня",
+          "hint": "середній — durchschnittlich"
+        },
+        {
+          "surface": "прогноз",
+          "hint": "прогноз — die Vorhersage"
+        },
+        {
+          "surface": "кліматичної",
+          "hint": "кліматичний — klimatischer"
+        },
+        {
+          "surface": "служби",
+          "hint": "служба — der Dienst"
+        },
+        {
+          "surface": "оновлювався",
+          "hint": "оновлюватися — aktualisiert werden"
+        },
+        {
+          "surface": "уточнюватися",
+          "hint": "уточнюватися — präzisiert werden"
+        },
+        {
+          "surface": "осені",
+          "hint": "осінь — der Herbst"
+        },
+        {
+          "surface": "слідкувати",
+          "hint": "слідкувати — beobachten"
+        },
+        {
+          "surface": "оновленнями",
+          "hint": "оновлення — die Aktualisierungen"
+        },
+        {
+          "surface": "теплі",
+          "hint": "теплий — warme"
+        },
+        {
+          "surface": "дні",
+          "hint": "день — die Tage"
+        },
+        {
+          "surface": "різкі",
+          "hint": "різкий — heftige"
+        },
+        {
+          "surface": "короткочасні",
+          "hint": "короткочасний — kurzzeitige"
+        },
+        {
+          "surface": "похолодання",
+          "hint": "похолодання — die Abkühlung"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/432/tsn-51cb131e/thumbs/608xX/18/71/8cef7883a4f2bbce2e99152c5b2c7118.jpg",
+      "publishedAt": "2026-09-24T07:26:54.000Z",
+      "processedAt": "2026-09-24T07:35:06.795Z"
+    },
+    {
       "id": "05a37339",
       "originalTitle": "Не хочеться ні гостей, ні подарунків: чому ви можете не любити свій день народження",
       "simplifiedText": "День народження часто вважають часом радості, подарунків і зустрічей з близькими, проте не всім подобається бути в центрі уваги. Деяким людям незручно у великих компаніях або коли на них дивляться, тому вони уникають святкувань. За словами сайту EgészségKalauz, це може бути пов’язано з психологічними причинами, наприклад страхом публічної уваги. Інша причина – це небажання приймати турботу, коли людина звикла допомагати іншим і відчуває ніяковість від подарунків. У такому випадку подарунок або щирі слова можуть викликати не радість, а незручність. Тому деякі люди краще проводять день народження у спокої, без гостей і без подарунків.",
@@ -10483,6 +12617,369 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "32ae6788",
+      "originalTitle": "Життя перемагає смерть: у пошкодженому пологовому Києва під вибухи з’явився на світ малюк (оновлено, відео)",
+      "simplifiedText": "У нічний час 24 вересня російські ракети вдарили по Києву, і в підрозділі підільського району пошкодився пологовий будинок. Під час падіння уламків вікна, двері та частина фасаду будівлі розбились, а вибухова хвиля викинула вікна в східну частину будинку. Попри це, пацієнти та медичний персонал залишились живі, бо вони перебували в укритті, і жодних травм не отримали. На парковці біля будинку загинула одна людина. За добу в цьому закладі народилося дев’ять дітей, і одне з новонароджених з’явилось на світ саме під час вибуху. Медики не зупинили роботу і продовжили надавати допомогу мамам і новонародженим. На місці працюють експерти та поліція, а будинок наразі без централізованого водопостачання.",
+      "vocabularyHints": [
+        "нічний — nächtlich",
+        "російський — russisch",
+        "ракета — die Rakete, -n",
+        "вдарити — schlagen",
+        "підрозділ — die Einheit, -en",
+        "пошкодитися — beschädigt werden",
+        "падіння — der Fall, -e",
+        "уламок — die Trümmer, -",
+        "фасад — die Fassade, -n",
+        "вибуховий — explosiv",
+        "хвиля — die Welle, -n",
+        "укриття — der Schutzraum, -e",
+        "травма — die Verletzung, -en",
+        "парковка — der Parkplatz, -plätze",
+        "загинути — sterben",
+        "заклад — die Einrichtung, -en",
+        "новонароджений — neugeboren",
+        "вибух — die Explosion, -en",
+        "медик — die Mediziner, -",
+        "надавати — leisten",
+        "експерт — der Experte, -n",
+        "поліція — die Polizei",
+        "централізований — zentralisiert",
+        "водопостачання — die Wasserversorgung, -",
+        "доба — der Tag, -e"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "нічний",
+          "hint": "нічний — nächtlich"
+        },
+        {
+          "surface": "російські",
+          "hint": "російський — russisch"
+        },
+        {
+          "surface": "ракети",
+          "hint": "ракета — die Rakete, -n"
+        },
+        {
+          "surface": "вдарили",
+          "hint": "вдарити — schlagen"
+        },
+        {
+          "surface": "підрозділі",
+          "hint": "підрозділ — die Einheit, -en"
+        },
+        {
+          "surface": "пошкодився",
+          "hint": "пошкодитися — beschädigt werden"
+        },
+        {
+          "surface": "падіння",
+          "hint": "падіння — der Fall, -e"
+        },
+        {
+          "surface": "уламків",
+          "hint": "уламок — die Trümmer, -"
+        },
+        {
+          "surface": "фасаду",
+          "hint": "фасад — die Fassade, -n"
+        },
+        {
+          "surface": "вибухова",
+          "hint": "вибуховий — explosiv"
+        },
+        {
+          "surface": "хвиля",
+          "hint": "хвиля — die Welle, -n"
+        },
+        {
+          "surface": "укритті",
+          "hint": "укриття — der Schutzraum, -e"
+        },
+        {
+          "surface": "травм",
+          "hint": "травма — die Verletzung, -en"
+        },
+        {
+          "surface": "парковці",
+          "hint": "парковка — der Parkplatz, -plätze"
+        },
+        {
+          "surface": "загинула",
+          "hint": "загинути — sterben"
+        },
+        {
+          "surface": "закладі",
+          "hint": "заклад — die Einrichtung, -en"
+        },
+        {
+          "surface": "новонароджених",
+          "hint": "новонароджений — neugeboren"
+        },
+        {
+          "surface": "вибуху",
+          "hint": "вибух — die Explosion, -en"
+        },
+        {
+          "surface": "медики",
+          "hint": "медик — die Mediziner, -"
+        },
+        {
+          "surface": "надавати",
+          "hint": "надавати — leisten"
+        },
+        {
+          "surface": "експерти",
+          "hint": "експерт — der Experte, -n"
+        },
+        {
+          "surface": "поліція",
+          "hint": "поліція — die Polizei"
+        },
+        {
+          "surface": "централізованого",
+          "hint": "централізований — zentralisiert"
+        },
+        {
+          "surface": "водопостачання",
+          "hint": "водопостачання — die Wasserversorgung, -"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/128/tsn-0b4bc102/thumbs/608xX/26/6e/eea5eeb814dcbc274cb67a0dcbc06e26.jpg",
+      "publishedAt": "2026-09-24T07:13:29.000Z",
+      "processedAt": "2026-09-24T07:44:48.203Z"
+    },
+    {
+      "id": "4f2b2db6",
+      "originalTitle": "Європа, Емірати? : де насправді живе Кравченко після виїзду з України — ЗМІ знайшли дивний нюанс",
+      "simplifiedText": "Колишній генеральний прокурор України Руслан Кравченко зареєстрував у Відні місце проживання за адресою, яка насправді є офісом. Журналісти припускають, що таким чином він намагається приховати своє реальне місце перебування в Австрії. У австрійському реєстрі вказана квартира №12 у будинку на Jordangasse, 7, проте це приміщення не є житлом, а офіс компанії CS Corporate Services GmbH. Фірма пропонує послуги доміциляції, тобто надає юридичну адресу для австрійських компаній, а також секретарське та управлінське обслуговування і продаж вже зареєстрованих компаній. За цією адресою компанія отримує пошту, може її пересилати, сканувати або відповідати на неї за вказівками клієнтів. Така ж адреса використовується для реєстрації в першому районі Відня в комерційному суді, податковій та магістраті. На ній зареєстровано щонайменше два десятки юридичних осіб, серед яких структури міжнародних компаній, зокрема Duracell Austria GmbH і KPLER GmbH, а також багато маловідомих фірм. Журналісти задаються питанням, навіщо Кравченко вказав саме цю адресу.",
+      "vocabularyHints": [
+        "генеральний прокурор — der Generalstaatsanwalt",
+        "зареєструвати — registrieren",
+        "місце проживання — der Wohnsitz"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "генеральний прокурор",
+          "hint": "генеральний прокурор — der Generalstaatsanwalt"
+        },
+        {
+          "surface": "зареєстрував",
+          "hint": "зареєструвати — registrieren"
+        },
+        {
+          "surface": "місце проживання",
+          "hint": "місце проживання — der Wohnsitz"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/640/tsn-51cb131e/thumbs/608xX/3d/4b/2a3bf868b5aa631394da0cc384054b3d.jpg",
+      "publishedAt": "2026-09-24T07:15:06.000Z",
+      "processedAt": "2026-09-24T07:42:31.181Z"
+    },
+    {
+      "id": "457dcd8a",
+      "originalTitle": "Сусідню країну сколихнули вибухи: виявлено уламки дрона, влада зробила заяву — усі деталі (фото, відео)",
+      "simplifiedText": "Ранком 24 вересня, під час масштабної російської атаки на Україну, повітряний простір Молдови порушили щонайменше чотири безпілотники. Після сильних вибухів у районі Шолданешт і Флорешт було виявлено уламки дронів. Міністерство оборони Молдови повідомило, що перші вибухи пролунили біля села Кам'янка на лівому березі Дністра, а інші — поблизу Черниці у Флорештському районі. Пізніше правоохоронці знайшли уламки БпЛА у полі біля ферми в тому ж районі. На даний момент про поранених немає, а спеціалізовані підрозділи поліції вже працюють на місці. Громадян закликають зберігати спокій і не підходити до підозрілих предметів, які можуть бути залишками дронів. За словами влади, подібні порушення трапляються і над Одеською, Вінницькою та Чернівецькою областями, а служба повітряних операцій продовжує моніторинг у координації з партнерами. Через загрозу безпеки північна частина Молдови тимчасово закрила свій повітряний простір.",
+      "vocabularyHints": [
+        "масштабний — umfangreich",
+        "повітряний простір — der Luftraum",
+        "безпілотник — die Drohnen",
+        "вибух — die Explosionen",
+        "уламок — die Trümmer",
+        "дрон — die Drohnen",
+        "міністерство оборони — das Verteidigungsministerium",
+        "лівий берег — dem linken Ufer",
+        "правоохоронець — die Ordnungskräfte",
+        "БпЛА — die UAVs",
+        "спеціалізований підрозділ — die spezialisierten Einheiten",
+        "зберігати спокій — Ruhe bewahren",
+        "підозрілий предмет — verdächtige Gegenstände",
+        "повітряна операція — die Luftoperationen",
+        "координація — die Koordination"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "масштабної",
+          "hint": "масштабний — umfangreich"
+        },
+        {
+          "surface": "повітряний простір",
+          "hint": "повітряний простір — der Luftraum"
+        },
+        {
+          "surface": "безпілотники",
+          "hint": "безпілотник — die Drohnen"
+        },
+        {
+          "surface": "вибухів",
+          "hint": "вибух — die Explosionen"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "дронів",
+          "hint": "дрон — die Drohnen"
+        },
+        {
+          "surface": "Міністерство оборони",
+          "hint": "міністерство оборони — das Verteidigungsministerium"
+        },
+        {
+          "surface": "лівому березі",
+          "hint": "лівий берег — dem linken Ufer"
+        },
+        {
+          "surface": "правоохоронці",
+          "hint": "правоохоронець — die Ordnungskräfte"
+        },
+        {
+          "surface": "БпЛА",
+          "hint": "БпЛА — die UAVs"
+        },
+        {
+          "surface": "спеціалізовані підрозділи",
+          "hint": "спеціалізований підрозділ — die spezialisierten Einheiten"
+        },
+        {
+          "surface": "зберігати спокій",
+          "hint": "зберігати спокій — Ruhe bewahren"
+        },
+        {
+          "surface": "підозрілих предметів",
+          "hint": "підозрілий предмет — verdächtige Gegenstände"
+        },
+        {
+          "surface": "повітряних операцій",
+          "hint": "повітряна операція — die Luftoperationen"
+        },
+        {
+          "surface": "координації",
+          "hint": "координація — die Koordination"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/510/tsn-90ef87392779da7417a975ee734335dc/thumbs/608xX/37/b8/624bf93079c7d6cd0026c0b342d8b837.jpeg",
+      "publishedAt": "2026-09-24T07:16:46.000Z",
+      "processedAt": "2026-09-24T07:40:31.668Z"
+    },
+    {
+      "id": "5e3ffdcd",
+      "originalTitle": "Якою буде зима 2026–2027 в Україні: прогноз на грудень, січень і лютий",
+      "simplifiedText": "До зимових місяців 2026‑2027 залишилось більше двох місяців, і вже є перші орієнтири від сезонних моделей. За даними Європейської кліматичної служби Copernicus, оновлених 10 вересня, очікується тепліша за звичайну зима в більшій частині Європи. Температура має бути вище середніх значень майже по всій сухопутній Європі. Крім того, моделі передбачають можливе збільшення кількості опадів, особливо в центральних і південних регіонах. Для України конкретна температура ще не вказана, проте загальна тенденція – тепліша зима, хоча можливі снігопади і різкі холодні спади. Важливим фактором є посилення Ель‑Ніньйо в Тихому океані, яке триватиме і під час зимових місяців. Прогнози оновлюються щомісяця, тому в осінній період картинка зимової погоди буде уточнюватись.",
+      "vocabularyHints": [
+        "зимовий — Winter",
+        "місяць — der Monat, -e",
+        "орієнтир — der Richtwert, -e",
+        "сезонний — saisonal",
+        "модель — das Modell, -e",
+        "європейський — europäisch",
+        "кліматичний — klimatisch",
+        "служба — der Dienst, -e",
+        "оновлений — aktualisiert",
+        "теплий — wärmer",
+        "звичайний — üblich",
+        "частина — der Teil, -e",
+        "середній — durchschnittlich",
+        "значення — der Wert, -e",
+        "сухопутний — das Festland",
+        "опад — der Niederschlag, -e",
+        "центральний — zentral",
+        "південний — südlich",
+        "регіон — die Region, -en",
+        "конкретний — konkret"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "зимових",
+          "hint": "зимовий — Winter"
+        },
+        {
+          "surface": "місяців",
+          "hint": "місяць — der Monat, -e"
+        },
+        {
+          "surface": "орієнтири",
+          "hint": "орієнтир — der Richtwert, -e"
+        },
+        {
+          "surface": "сезонних",
+          "hint": "сезонний — saisonal"
+        },
+        {
+          "surface": "моделей",
+          "hint": "модель — das Modell, -e"
+        },
+        {
+          "surface": "Європейської",
+          "hint": "європейський — europäisch"
+        },
+        {
+          "surface": "кліматичної",
+          "hint": "кліматичний — klimatisch"
+        },
+        {
+          "surface": "служби",
+          "hint": "служба — der Dienst, -e"
+        },
+        {
+          "surface": "оновлених",
+          "hint": "оновлений — aktualisiert"
+        },
+        {
+          "surface": "тепліша",
+          "hint": "теплий — wärmer"
+        },
+        {
+          "surface": "звичайну",
+          "hint": "звичайний — üblich"
+        },
+        {
+          "surface": "частині",
+          "hint": "частина — der Teil, -e"
+        },
+        {
+          "surface": "середніх",
+          "hint": "середній — durchschnittlich"
+        },
+        {
+          "surface": "значень",
+          "hint": "значення — der Wert, -e"
+        },
+        {
+          "surface": "сухопутній",
+          "hint": "сухопутний — das Festland"
+        },
+        {
+          "surface": "опадів",
+          "hint": "опад — der Niederschlag, -e"
+        },
+        {
+          "surface": "центральних",
+          "hint": "центральний — zentral"
+        },
+        {
+          "surface": "південних",
+          "hint": "південний — südlich"
+        },
+        {
+          "surface": "регіонах",
+          "hint": "регіон — die Region, -en"
+        },
+        {
+          "surface": "конкретна",
+          "hint": "конкретний — konkret"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/432/tsn-51cb131e/thumbs/608xX/18/71/8cef7883a4f2bbce2e99152c5b2c7118.jpg",
+      "publishedAt": "2026-09-24T07:26:54.000Z",
+      "processedAt": "2026-09-24T07:36:03.966Z"
+    },
     {
       "id": "4d837776",
       "originalTitle": "До України суне небезпечний циклон зі ще сильнішим похолоданням: синоптики попередили, які міста \"накриє\" (мапа)",
