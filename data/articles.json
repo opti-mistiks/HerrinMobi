@@ -1,6 +1,274 @@
 {
   "A1": [
     {
+      "id": "0d164107",
+      "originalTitle": "80 Jahre Glückskette - Der Kettenbrief, der die Schweizer Solidarität weckte",
+      "simplifiedText": "Die Glückskette sammelt seit achtzig Jahren Spenden. Sie hat vor vielen Jahren als Radiosendung begonnen. Jedes Jahr gibt es viele Spenden. Die Menschen spenden gern für die Gemeinschaft.",
+      "vocabularyHints": [
+        "die Glückskette — ланцюг щастя",
+        "die Spende — пожертва",
+        "die Radiosendung — радіо передача",
+        "die Gemeinschaft — спільнота"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Glückskette",
+          "hint": "die Glückskette — ланцюг щастя"
+        },
+        {
+          "surface": "Spenden",
+          "hint": "die Spende — пожертва"
+        },
+        {
+          "surface": "Radiosendung",
+          "hint": "die Radiosendung — радіо передача"
+        },
+        {
+          "surface": "Gemeinschaft",
+          "hint": "die Gemeinschaft — спільнота"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/f3c5c1.jpg",
+      "publishedAt": "2026-09-25T04:43:30.000Z",
+      "processedAt": "2026-09-25T07:31:08.982Z"
+    },
+    {
+      "id": "47ba3a13",
+      "originalTitle": "Neu im Kino - «Heart of the Beast»: Zwei harte Hunde mit Herz",
+      "simplifiedText": "Brad Pitt und sein Hund sind im Film «Heart of the Beast». Sie kämpfen durch die Wildnis von Alaska. Das ist ein Survival-Drama mit viel Action. Der Film ist neu im Kino.",
+      "vocabularyHints": [
+        "kämpfen — боротися",
+        "die Wildnis, -en — дика природа",
+        "Alaska — Аляска",
+        "das Survival-Drama — драматичний фільм про виживання",
+        "die Action — динаміка"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "kämpfen",
+          "hint": "kämpfen — боротися"
+        },
+        {
+          "surface": "Wildnis",
+          "hint": "die Wildnis, -en — дика природа"
+        },
+        {
+          "surface": "Alaska",
+          "hint": "Alaska — Аляска"
+        },
+        {
+          "surface": "Survival-Drama",
+          "hint": "das Survival-Drama — драматичний фільм про виживання"
+        },
+        {
+          "surface": "Action",
+          "hint": "die Action — динаміка"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/d3724f.jpg",
+      "publishedAt": "2026-09-25T05:02:21.000Z",
+      "processedAt": "2026-09-25T07:29:51.735Z"
+    },
+    {
+      "id": "7080f2a7",
+      "originalTitle": "«Können besser spielen»: Klopp mit Debüt nicht ganz zufrieden",
+      "simplifiedText": "Jürgen Klopp ist seit Donnerstag neuer DFB-Trainer. Er hat sein erstes Spiel geleitet. Viele Spieler haben im Spiel gut gespielt. Klopp ist aber nicht ganz zufrieden.",
+      "vocabularyHints": [
+        "Jürgen — Юрген",
+        "Klopp — Клопп",
+        "Donnerstag — четвер",
+        "der DFB-Trainer, -s — тренер збірної Німеччини",
+        "leiten — провів",
+        "der Spieler, - — гравець",
+        "zufrieden — задоволений"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Jürgen",
+          "hint": "Jürgen — Юрген"
+        },
+        {
+          "surface": "Klopp",
+          "hint": "Klopp — Клопп"
+        },
+        {
+          "surface": "Donnerstag",
+          "hint": "Donnerstag — четвер"
+        },
+        {
+          "surface": "DFB-Trainer",
+          "hint": "der DFB-Trainer, -s — тренер збірної Німеччини"
+        },
+        {
+          "surface": "geleitet",
+          "hint": "leiten — провів"
+        },
+        {
+          "surface": "Spieler",
+          "hint": "der Spieler, - — гравець"
+        },
+        {
+          "surface": "zufrieden",
+          "hint": "zufrieden — задоволений"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/24/d45cf4af-307c-4f76-867f-cc132667b1a3.jpg?s=b5640d9509dd79011cd684cb908b8da2",
+      "publishedAt": "2026-09-25T05:05:49.000Z",
+      "processedAt": "2026-09-25T07:28:30.664Z"
+    },
+    {
+      "id": "1fc674dd",
+      "originalTitle": "Traumtor für GC vor 30 Jahren - Als Murat Yakin aus 35 m einfach mal abzog",
+      "simplifiedText": "Murat Yakin hat am 25. September 1996 ein Tor geschossen. Das Tor war für den GC in der Champions League. Das Tor ist noch heute sehr bekannt. Viele Fans erinnern sich gern daran.",
+      "vocabularyHints": [
+        "Champion — чемпіон",
+        "League — ліга",
+        "bekannt — відомий",
+        "Fan — фанати",
+        "erinnern — пам'ятати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Champions",
+          "hint": "Champion — чемпіон"
+        },
+        {
+          "surface": "League",
+          "hint": "League — ліга"
+        },
+        {
+          "surface": "bekannt",
+          "hint": "bekannt — відомий"
+        },
+        {
+          "surface": "Fans",
+          "hint": "Fan — фанати"
+        },
+        {
+          "surface": "erinnern",
+          "hint": "erinnern — пам'ятати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/7f06561.jpg",
+      "publishedAt": "2026-09-25T06:11:57.000Z",
+      "processedAt": "2026-09-25T07:26:41.611Z"
+    },
+    {
+      "id": "3079cc1b",
+      "originalTitle": "Ärger im Strassenverkehr - Warum immer die anderen schuld sind auf der Strasse",
+      "simplifiedText": "Menschen in der Schweiz ärgern sich oft im Verkehr. Sie finden andere immer schuld im Verkehr. Sie beschweren sich mehrmals pro Woche. Das passiert häufig auf der Strasse.",
+      "vocabularyHints": [
+        "ärgern — дратувати",
+        "der Verkehr — транспорт",
+        "die Schuld — вина",
+        "beschweren — скаржитися",
+        "mehrmals — кілька разів",
+        "häufig — часто"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "ärgern",
+          "hint": "ärgern — дратувати"
+        },
+        {
+          "surface": "Verkehr",
+          "hint": "der Verkehr — транспорт"
+        },
+        {
+          "surface": "schuld",
+          "hint": "die Schuld — вина"
+        },
+        {
+          "surface": "beschweren",
+          "hint": "beschweren — скаржитися"
+        },
+        {
+          "surface": "mehrmals",
+          "hint": "mehrmals — кілька разів"
+        },
+        {
+          "surface": "häufig",
+          "hint": "häufig — часто"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/709cff.jpg",
+      "publishedAt": "2026-09-25T07:04:44.000Z",
+      "processedAt": "2026-09-25T07:25:06.676Z"
+    },
+    {
+      "id": "4efdb4b6",
+      "originalTitle": "«Club»-Q&A zu Deutschland - Welche Fragen haben Sie zum Wahlerfolg der AfD?",
+      "simplifiedText": "Fachpersonen beantworten im Club-Q&A Fragen zum Wahlerfolg der AfD. Die Sitzung dauert von zehn bis elf Uhr. Sie können Ihre Fragen per E-Mail schicken. Wir antworten dann sofort im Chat.",
+      "vocabularyHints": [
+        "die Fachperson, -en — фахівці",
+        "beantworten — відповідати",
+        "das Club-Q&A — клуб‑питання‑відповіді",
+        "der Wahlerfolg — виборчий успіх",
+        "die AfD — АФД",
+        "die Sitzung — засідання",
+        "dauern — тривати",
+        "die E-Mail — електронна пошта",
+        "schicken — надсилати",
+        "antworten — відповідати",
+        "sofort — негайно"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Fachpersonen",
+          "hint": "die Fachperson, -en — фахівці"
+        },
+        {
+          "surface": "beantworten",
+          "hint": "beantworten — відповідати"
+        },
+        {
+          "surface": "Club-Q&A",
+          "hint": "das Club-Q&A — клуб‑питання‑відповіді"
+        },
+        {
+          "surface": "Wahlerfolg",
+          "hint": "der Wahlerfolg — виборчий успіх"
+        },
+        {
+          "surface": "AfD",
+          "hint": "die AfD — АФД"
+        },
+        {
+          "surface": "Sitzung",
+          "hint": "die Sitzung — засідання"
+        },
+        {
+          "surface": "dauert",
+          "hint": "dauern — тривати"
+        },
+        {
+          "surface": "E-Mail",
+          "hint": "die E-Mail — електронна пошта"
+        },
+        {
+          "surface": "schicken",
+          "hint": "schicken — надсилати"
+        },
+        {
+          "surface": "antworten",
+          "hint": "antworten — відповідати"
+        },
+        {
+          "surface": "sofort",
+          "hint": "sofort — негайно"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/89a77a9.jpg",
+      "publishedAt": "2026-09-25T07:11:28.000Z",
+      "processedAt": "2026-09-25T07:23:48.656Z"
+    },
+    {
       "id": "24d4c4c5",
       "originalTitle": "Herbstsession 2026 - Raumfahrtgesetz und Kommunikation des Bundesrats im Parlament",
       "simplifiedText": "Der Bundesrat spricht im Parlament über das Raumfahrtgesetz. Er erklärt die neue Kommunikationsstrategie des Bundesrats. Die Abgeordneten hören aufmerksam zu und stellen Fragen. Die Debatte findet im Herbstsession 2026 statt.",
@@ -2847,6 +3115,354 @@
     }
   ],
   "A2": [
+    {
+      "id": "261792a6",
+      "originalTitle": "80 Jahre Glückskette - Der Kettenbrief, der die Schweizer Solidarität weckte",
+      "simplifiedText": "Die Glückskette sammelt seit 80 Jahren Spenden und hat als Radiosendung begonnen. Der Kettenbrief hat die Schweizer Solidarität geweckt, weil er Menschen zum Mitmachen aufgefordert hat. Viele Menschen haben seitdem gespendet und die Summe ist jedes Jahr grösser geworden. Manche sahen die Idee anfangs skeptisch, aber sie haben trotzdem weitergeholfen. Die Aktion findet jedes Jahr im Januar statt, und die gesammelten Beträge werden auf die Gemeinden verteilt. Ich habe das Projekt im Radio gehört und würde gern auch dieses Jahr spenden. Das Millionen-Hilfswerk unterstützt viele soziale Einrichtungen.",
+      "vocabularyHints": [
+        "die Glückskette — ланцюг щастя",
+        "die Radiosendung — радіо передача",
+        "der Kettenbrief — ланцюговий лист",
+        "die Solidarität — солідарність",
+        "das Mitmachen — участь",
+        "trotzdem — проте",
+        "das Millionen-Hilfswerk — мільйонний благодійний фонд"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Glückskette",
+          "hint": "die Glückskette — ланцюг щастя"
+        },
+        {
+          "surface": "Radiosendung",
+          "hint": "die Radiosendung — радіо передача"
+        },
+        {
+          "surface": "Kettenbrief",
+          "hint": "der Kettenbrief — ланцюговий лист"
+        },
+        {
+          "surface": "Solidarität",
+          "hint": "die Solidarität — солідарність"
+        },
+        {
+          "surface": "Mitmachen",
+          "hint": "das Mitmachen — участь"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Millionen-Hilfswerk",
+          "hint": "das Millionen-Hilfswerk — мільйонний благодійний фонд"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/f3c5c1.jpg",
+      "publishedAt": "2026-09-25T04:43:30.000Z",
+      "processedAt": "2026-09-25T07:31:52.411Z"
+    },
+    {
+      "id": "542ab5d2",
+      "originalTitle": "Neu im Kino - «Heart of the Beast»: Zwei harte Hunde mit Herz",
+      "simplifiedText": "Brad Pitt hat zusammen mit seinem Hund das Survival-Drama «Heart of the Beast» gedreht, weil er die raue Wildnis Alaskas zeigen wollte. Die beiden sind durch dichte Wälder und über schneebedeckte Berge gelaufen, das Wetter war sehr kalt, trotzdem sind sie weitergegangen. Sie haben ein Lager am Fluss aufgeschlagen und dort ein Feuer gemacht, um zu kochen. Brad hat dabei ein altes Foto von seinem Hund gefunden, das ihn an frühere Abenteuer erinnert hat. Trotz der Gefahr haben sie immer wieder zusammen gelacht, weil die Bindung zwischen Mensch und Tier sehr stark ist. Am Ende hat der Film viele Zuschauer begeistert, denn die Geschichte ist spannender als ein gewöhnlicher Actionfilm.",
+      "vocabularyHints": [
+        "das Survival-Drama — драматичний фільм про виживання",
+        "die Wildnis — дика природа",
+        "dicht — густий",
+        "schneebedeckt — покритий снігом",
+        "aufschlagen — розбити (намет)",
+        "die Bindung — зв’язок",
+        "spannend — захоплюючий",
+        "gewöhnlich — звичайний",
+        "der Actionfilm — бойовик"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Survival-Drama",
+          "hint": "das Survival-Drama — драматичний фільм про виживання"
+        },
+        {
+          "surface": "Wildnis",
+          "hint": "die Wildnis — дика природа"
+        },
+        {
+          "surface": "dichte",
+          "hint": "dicht — густий"
+        },
+        {
+          "surface": "schneebedeckte",
+          "hint": "schneebedeckt — покритий снігом"
+        },
+        {
+          "surface": "aufgeschlagen",
+          "hint": "aufschlagen — розбити (намет)"
+        },
+        {
+          "surface": "Bindung",
+          "hint": "die Bindung — зв’язок"
+        },
+        {
+          "surface": "Spannender",
+          "hint": "spannend — захоплюючий"
+        },
+        {
+          "surface": "gewöhnlicher",
+          "hint": "gewöhnlich — звичайний"
+        },
+        {
+          "surface": "Actionfilm",
+          "hint": "der Actionfilm — бойовик"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/d3724f.jpg",
+      "publishedAt": "2026-09-25T05:02:21.000Z",
+      "processedAt": "2026-09-25T07:30:17.466Z"
+    },
+    {
+      "id": "641076e8",
+      "originalTitle": "«Können besser spielen»: Klopp mit Debüt nicht ganz zufrieden",
+      "simplifiedText": "Jürgen Klopp hat am Donnerstag sein erstes Spiel als DFB-Trainer erlebt. Er hat die Mannschaft auf dem Platz beobachtet und viele gute Einzelleistungen gesehen. Trotzdem war er nicht ganz zufrieden, weil er mehr Einsatz erwartet hat. Nach dem Spiel hat er mit den Spielern gesprochen und ihnen gesagt, sie sollen schneller laufen. Die Fans haben im Stadion laut gejubelt und die Stimmung war besser als vorher. Trotzdem hat Klopp gesagt, er möchte in den nächsten Spielen noch besser spielen.",
+      "vocabularyHints": [
+        "der DFB-Trainer — тренер збірної Німеччини",
+        "erleben — переживати",
+        "die Mannschaft, -en — команда",
+        "beobachten — спостерігати",
+        "die Einzelleistung, -en — окремі виступи",
+        "zufrieden — задоволений",
+        "der Einsatz, -e — зусилля",
+        "das Stadion, -s — стадіон",
+        "jubeln — весело вигукувати",
+        "die Stimmung, -en — настрій"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "DFB-Trainer",
+          "hint": "der DFB-Trainer — тренер збірної Німеччини"
+        },
+        {
+          "surface": "erlebt",
+          "hint": "erleben — переживати"
+        },
+        {
+          "surface": "Mannschaft",
+          "hint": "die Mannschaft, -en — команда"
+        },
+        {
+          "surface": "beobachtet",
+          "hint": "beobachten — спостерігати"
+        },
+        {
+          "surface": "Einzelleistungen",
+          "hint": "die Einzelleistung, -en — окремі виступи"
+        },
+        {
+          "surface": "zufrieden",
+          "hint": "zufrieden — задоволений"
+        },
+        {
+          "surface": "Einsatz",
+          "hint": "der Einsatz, -e — зусилля"
+        },
+        {
+          "surface": "Stadion",
+          "hint": "das Stadion, -s — стадіон"
+        },
+        {
+          "surface": "gejubelt",
+          "hint": "jubeln — весело вигукувати"
+        },
+        {
+          "surface": "Stimmung",
+          "hint": "die Stimmung, -en — настрій"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/24/d45cf4af-307c-4f76-867f-cc132667b1a3.jpg?s=b5640d9509dd79011cd684cb908b8da2",
+      "publishedAt": "2026-09-25T05:05:49.000Z",
+      "processedAt": "2026-09-25T07:28:59.793Z"
+    },
+    {
+      "id": "2250b882",
+      "originalTitle": "Traumtor für GC vor 30 Jahren - Als Murat Yakin aus 35 m einfach mal abzog",
+      "simplifiedText": "Murat Yakin hat am 25. September 1996 für den GC ein unvergessenes Tor in der Champions League geschossen. Er war damals erst 22 Jahre alt und stand nur 35 Meter vor dem gegnerischen Tor. Weil er den Ball schnell erhalten hatte, hat er sofort zugeschossen. Der Schuss war sehr stark, aber der Torwart hat ihn nicht halten können. Trotzdem hat das Tor das Spiel entschieden und die Fans haben laut gejubelt. Heute erinnert sich jeder noch an das Tor, weil es das erste Champions-League-Tor des GC war.",
+      "vocabularyHints": [
+        "unvergessen — незабутній",
+        "Champions League — Ліга чемпіонів",
+        "schiessen — вдарити (м'яч)",
+        "Torwart — воротар",
+        "jubeln — радіти, вигукувати радість",
+        "Champions-League-Tor — гол у Лізі чемпіонів"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "unvergessenes",
+          "hint": "unvergessen — незабутній"
+        },
+        {
+          "surface": "Champions League",
+          "hint": "Champions League — Ліга чемпіонів"
+        },
+        {
+          "surface": "geschossen",
+          "hint": "schiessen — вдарити (м'яч)"
+        },
+        {
+          "surface": "Torwart",
+          "hint": "Torwart — воротар"
+        },
+        {
+          "surface": "gejubelt",
+          "hint": "jubeln — радіти, вигукувати радість"
+        },
+        {
+          "surface": "Champions-League-Tor",
+          "hint": "Champions-League-Tor — гол у Лізі чемпіонів"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/7f06561.jpg",
+      "publishedAt": "2026-09-25T06:11:57.000Z",
+      "processedAt": "2026-09-25T07:27:06.220Z"
+    },
+    {
+      "id": "0e6d31fa",
+      "originalTitle": "Ärger im Strassenverkehr - Warum immer die anderen schuld sind auf der Strasse",
+      "simplifiedText": "Menschen in der Schweiz haben sich diese Woche mehrmals über andere Verkehrsteilnehmer beschwert. Sie haben oft erlebt, dass andere zu schnell fahren, weil sie ungeduldig sind. Manche haben dann am Telefon mit Freunden darüber diskutiert. Sie sagten: Die anderen sind immer schuld. Sie kommen manchmal zu spät, trotzdem fühlen sie sich nicht verantwortlich. Im Vergleich zu anderen Ländern finden sie die Situation hier am ärgerlichsten. Ich hätte gern, wir fahren alle rücksichtsvoller.",
+      "vocabularyHints": [
+        "mehrmals — кілька разів",
+        "der Verkehrsteilnehmer, - — учасник дорожнього руху",
+        "beschweren — скаржитися",
+        "ungeduldig — нетерплячий",
+        "diskutieren — обговорював",
+        "trotzdem — проте",
+        "verantwortlich — відповідальний",
+        "der Vergleich, -e — порівняння",
+        "ärgerlich — найдратівший",
+        "rücksichtsvoll — більш уважний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "mehrmals",
+          "hint": "mehrmals — кілька разів"
+        },
+        {
+          "surface": "Verkehrsteilnehmer",
+          "hint": "der Verkehrsteilnehmer, - — учасник дорожнього руху"
+        },
+        {
+          "surface": "beschwert",
+          "hint": "beschweren — скаржитися"
+        },
+        {
+          "surface": "ungeduldig",
+          "hint": "ungeduldig — нетерплячий"
+        },
+        {
+          "surface": "diskutiert",
+          "hint": "diskutieren — обговорював"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "verantwortlich",
+          "hint": "verantwortlich — відповідальний"
+        },
+        {
+          "surface": "Vergleich",
+          "hint": "der Vergleich, -e — порівняння"
+        },
+        {
+          "surface": "ärgerlichsten",
+          "hint": "ärgerlich — найдратівший"
+        },
+        {
+          "surface": "rücksichtsvoller",
+          "hint": "rücksichtsvoll — більш уважний"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/709cff.jpg",
+      "publishedAt": "2026-09-25T07:04:44.000Z",
+      "processedAt": "2026-09-25T07:25:32.963Z"
+    },
+    {
+      "id": "4e2f3635",
+      "originalTitle": "«Club»-Q&A zu Deutschland - Welche Fragen haben Sie zum Wahlerfolg der AfD?",
+      "simplifiedText": "Am Dienstag haben Fachpersonen im «Club»-Q&A von zehn bis elf Uhr dreissig Minuten Fragen zum Wahlerfolg der AfD beantwortet. Sie haben die Fragen per E-Mail erhalten, weil viele Menschen mehr Informationen wollten. Die Teilnehmenden haben aufmerksam zugehört und haben danach noch weitere Fragen gestellt. Die Diskussion war manchmal hitzig, trotzdem haben die Fachpersonen ruhig erklärt, warum die AfD bei der letzten Wahl besser abgeschnitten hat als vorher. Einige Teilnehmende haben gesagt, sie verstehen jetzt besser, warum die AfD mehr Stimmen bekommen hat. Sie können uns schreiben, das wäre sehr hilfreich.",
+      "vocabularyHints": [
+        "die Fachperson, -en — фахівці",
+        "das Club-Q&A — клуб‑питання‑відповіді",
+        "dreissig — тридцять",
+        "der Wahlerfolg — виборчий успіх",
+        "die AfD — Альтернатива для Німеччини",
+        "zuhören — слухати",
+        "stellen — ставити, задавати",
+        "trotzdem — проте, все ж",
+        "erklären — пояснювати",
+        "abschneiden — виступити краще",
+        "der Teilnehmende, -n — учасник",
+        "hilfreich — корисний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Fachpersonen",
+          "hint": "die Fachperson, -en — фахівці"
+        },
+        {
+          "surface": "«Club»-Q&A",
+          "hint": "das Club-Q&A — клуб‑питання‑відповіді"
+        },
+        {
+          "surface": "dreissig",
+          "hint": "dreissig — тридцять"
+        },
+        {
+          "surface": "Wahlerfolg",
+          "hint": "der Wahlerfolg — виборчий успіх"
+        },
+        {
+          "surface": "AfD",
+          "hint": "die AfD — Альтернатива для Німеччини"
+        },
+        {
+          "surface": "zugehört",
+          "hint": "zuhören — слухати"
+        },
+        {
+          "surface": "gestellt",
+          "hint": "stellen — ставити, задавати"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте, все ж"
+        },
+        {
+          "surface": "erklärt",
+          "hint": "erklären — пояснювати"
+        },
+        {
+          "surface": "abgeschnitten",
+          "hint": "abschneiden — виступити краще"
+        },
+        {
+          "surface": "Teilnehmende",
+          "hint": "der Teilnehmende, -n — учасник"
+        },
+        {
+          "surface": "hilfreich",
+          "hint": "hilfreich — корисний"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/89a77a9.jpg",
+      "publishedAt": "2026-09-25T07:11:28.000Z",
+      "processedAt": "2026-09-25T07:24:15.786Z"
+    },
     {
       "id": "232a999a",
       "originalTitle": "Herbstsession 2026 - Raumfahrtgesetz und Kommunikation des Bundesrats im Parlament",
@@ -6096,6 +6712,476 @@
     }
   ],
   "B1": [
+    {
+      "id": "143f2348",
+      "originalTitle": "80 Jahre Glückskette - Der Kettenbrief, der die Schweizer Solidarität weckte",
+      "simplifiedText": "Die Glückskette, ein bekannter Kettenbrief, feiert dieses Jahr ihr 80-jähriges Jubiläum. Seit 80 Jahren sammelt die Glückskette Spenden, die an gemeinnützige Organisationen weitergeleitet werden. Ursprünglich wurde die Aktion als Radiosendung konzipiert, in der die Hörer aufgefordert wurden, einen kleinen Betrag zu geben und den Brief weiterzuleiten. Die Idee verbreitete sich schnell, weil die Menschen die Botschaft von Solidarität und gegenseitiger Hilfe ansprechend fanden. Im Lauf der Jahrzehnte hat das Projekt mehrere Millionen Franken gesammelt, was den Ruf der Glückskette als Symbol schweizerischer Wohltätigkeit stärkte. Heute wird die Glückskette sowohl über traditionelle Post als auch digital verbreitet, wobei die Grundprinzipien unverändert geblieben sind. Die Organisatoren betonen, dass jede noch so kleine Spende wichtig ist, weil sie gemeinsam grosse Hilfsprojekte ermöglicht. Zum Jubiläum wird ein Sonderbeitrag im Radio ausgestrahlt, um die Geschichte des Kettenbriefs zu würdigen und neue Unterstützer zu gewinnen.",
+      "vocabularyHints": [
+        "der Kettenbrief — ланцюговий лист",
+        "das Jubiläum — ювілей",
+        "gemeinnützig — благодійний",
+        "die Organisation, -en — організація",
+        "weiterleiten — перенаправляти",
+        "die Radiosendung — радіо передача",
+        "die Solidarität — солідарність",
+        "die Million, -en — мільйон",
+        "der Franken — франк (швейцарський)",
+        "traditionell — традиційний",
+        "das Grundprinzip, -e — базовий принцип",
+        "unverändert — незмінний",
+        "der Organisator, -en — організатор",
+        "das Hilfsprojekt, -e — благодійний проєкт",
+        "der Sonderbeitrag — спеціальний внесок",
+        "ausstrahlen — транслювати",
+        "würdigen — вшановувати",
+        "der Unterstützer — підтримувач"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Kettenbrief",
+          "hint": "der Kettenbrief — ланцюговий лист"
+        },
+        {
+          "surface": "Jubiläum",
+          "hint": "das Jubiläum — ювілей"
+        },
+        {
+          "surface": "gemeinnützige",
+          "hint": "gemeinnützig — благодійний"
+        },
+        {
+          "surface": "Organisationen",
+          "hint": "die Organisation, -en — організація"
+        },
+        {
+          "surface": "weitergeleitet",
+          "hint": "weiterleiten — перенаправляти"
+        },
+        {
+          "surface": "Radiosendung",
+          "hint": "die Radiosendung — радіо передача"
+        },
+        {
+          "surface": "Solidarität",
+          "hint": "die Solidarität — солідарність"
+        },
+        {
+          "surface": "Millionen",
+          "hint": "die Million, -en — мільйон"
+        },
+        {
+          "surface": "Franken",
+          "hint": "der Franken — франк (швейцарський)"
+        },
+        {
+          "surface": "traditionelle",
+          "hint": "traditionell — традиційний"
+        },
+        {
+          "surface": "Grundprinzipien",
+          "hint": "das Grundprinzip, -e — базовий принцип"
+        },
+        {
+          "surface": "unverändert",
+          "hint": "unverändert — незмінний"
+        },
+        {
+          "surface": "Organisatoren",
+          "hint": "der Organisator, -en — організатор"
+        },
+        {
+          "surface": "Hilfsprojekte",
+          "hint": "das Hilfsprojekt, -e — благодійний проєкт"
+        },
+        {
+          "surface": "Sonderbeitrag",
+          "hint": "der Sonderbeitrag — спеціальний внесок"
+        },
+        {
+          "surface": "ausgestrahlt",
+          "hint": "ausstrahlen — транслювати"
+        },
+        {
+          "surface": "würdigen",
+          "hint": "würdigen — вшановувати"
+        },
+        {
+          "surface": "Unterstützer",
+          "hint": "der Unterstützer — підтримувач"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/f3c5c1.jpg",
+      "publishedAt": "2026-09-25T04:43:30.000Z",
+      "processedAt": "2026-09-25T07:32:24.495Z"
+    },
+    {
+      "id": "36a6c9cc",
+      "originalTitle": "Neu im Kino - «Heart of the Beast»: Zwei harte Hunde mit Herz",
+      "simplifiedText": "Der neue Film «Heart of the Beast» zeigt Brad Pitt und seinen Hund in der Wildnis Alaskas. Sie kämpfen sich durch das raue Terrain und müssen ständig überleben. Das Survival-Drama stellt die beiden vor zahlreiche Hindernisse. Dabei müssen sie nicht nur das Wetter, sondern auch die Gefahren der Natur überwinden. Das Bildmaterial ist beeindruckend und vermittelt die Kälte der Umgebung. Kritiker beschreiben das Werk als schön, aber überraschungsarm. Der Film läuft seit dieser Woche in den Schweizer Kinos.",
+      "vocabularyHints": [
+        "die Wildnis, -en — дика природа, пустка",
+        "das Terrain, -s — місцевість, рельєф",
+        "Survival-Drama — драматичний фільм про виживання",
+        "das Hindernis, -e — перешкода",
+        "überwinden — подолати",
+        "das Bildmaterial, -e — візуальний матеріал",
+        "der Kritiker, - — критик",
+        "überraschungsarm — мало сюрпризів"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Wildnis",
+          "hint": "die Wildnis, -en — дика природа, пустка"
+        },
+        {
+          "surface": "Terrain",
+          "hint": "das Terrain, -s — місцевість, рельєф"
+        },
+        {
+          "surface": "Survival-Drama",
+          "hint": "Survival-Drama — драматичний фільм про виживання"
+        },
+        {
+          "surface": "Hindernisse",
+          "hint": "das Hindernis, -e — перешкода"
+        },
+        {
+          "surface": "überwinden",
+          "hint": "überwinden — подолати"
+        },
+        {
+          "surface": "Bildmaterial",
+          "hint": "das Bildmaterial, -e — візуальний матеріал"
+        },
+        {
+          "surface": "Kritiker",
+          "hint": "der Kritiker, - — критик"
+        },
+        {
+          "surface": "überraschungsarm",
+          "hint": "überraschungsarm — мало сюрпризів"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/d3724f.jpg",
+      "publishedAt": "2026-09-25T05:02:21.000Z",
+      "processedAt": "2026-09-25T07:30:43.901Z"
+    },
+    {
+      "id": "111e097a",
+      "originalTitle": "«Können besser spielen»: Klopp mit Debüt nicht ganz zufrieden",
+      "simplifiedText": "Jürgen Klopp stand am Donnerstag zum ersten Mal als neuer DFB-Coach an der Seitenlinie. Es war sein offizielles Debüt bei der deutschen Nationalmannschaft. Obwohl das Team in vielen Bereichen gut spielte, zeigte er sich nicht ganz zufrieden. Besonders einige Spieler lieferten überzeugende Einzelleistungen, die er im Nachhinein lobte. In der Pressekonferenz nach dem Spiel betonte er, dass die Mannschaft noch besser spielen könne. Er verwies darauf, dass die taktische Umsetzung noch nicht optimal sei und dass noch Arbeit nötig sei. Der Trainer erklärte, dass er in den kommenden Wochen an der Konstanz und am Zusammenspiel arbeiten werde. Trotz des positiven Starts bleibt er kritisch und will die Leistung weiter steigern.",
+      "vocabularyHints": [
+        "die Seitenlinie — бокова лінія",
+        "das Debüt — дебют",
+        "die Nationalmannschaft — національна збірна",
+        "die Einzelleistung, -en — індивідуальні виступи",
+        "nachhinein — після того",
+        "die Pressekonferenz — прес‑конференція",
+        "taktisch — тактичний",
+        "die Umsetzung — реалізація",
+        "die Konstanz — постійність",
+        "das Zusammenspiel — взаємодія",
+        "steigern — підвищувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Seitenlinie",
+          "hint": "die Seitenlinie — бокова лінія"
+        },
+        {
+          "surface": "Debüt",
+          "hint": "das Debüt — дебют"
+        },
+        {
+          "surface": "Nationalmannschaft",
+          "hint": "die Nationalmannschaft — національна збірна"
+        },
+        {
+          "surface": "Einzelleistungen",
+          "hint": "die Einzelleistung, -en — індивідуальні виступи"
+        },
+        {
+          "surface": "Nachhinein",
+          "hint": "nachhinein — після того"
+        },
+        {
+          "surface": "Pressekonferenz",
+          "hint": "die Pressekonferenz — прес‑конференція"
+        },
+        {
+          "surface": "taktische",
+          "hint": "taktisch — тактичний"
+        },
+        {
+          "surface": "Umsetzung",
+          "hint": "die Umsetzung — реалізація"
+        },
+        {
+          "surface": "Konstanz",
+          "hint": "die Konstanz — постійність"
+        },
+        {
+          "surface": "Zusammenspiel",
+          "hint": "das Zusammenspiel — взаємодія"
+        },
+        {
+          "surface": "steigern",
+          "hint": "steigern — підвищувати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/24/d45cf4af-307c-4f76-867f-cc132667b1a3.jpg?s=b5640d9509dd79011cd684cb908b8da2",
+      "publishedAt": "2026-09-25T05:05:49.000Z",
+      "processedAt": "2026-09-25T07:29:26.964Z"
+    },
+    {
+      "id": "1ef7f65c",
+      "originalTitle": "Traumtor für GC vor 30 Jahren - Als Murat Yakin aus 35 m einfach mal abzog",
+      "simplifiedText": "Murat Yakin schoss am 25. September 1996 ein unvergessenes Tor für den GC in der Champions League. Das Tor fiel aus einer Distanz von etwa 35 Metern und überraschte die gegnerische Abwehr. Durch den Treffer gelang es dem GC, das Spiel in die Verlängerung zu bringen. Damals war die Champions League noch relativ neu für Schweizer Vereine, sodass das Ergebnis grosse Aufmerksamkeit erregte. Viele Fans erinnern sich noch heute an den Schuss, weil er so präzise und kraftvoll war. Der Schuss wurde von den Kommentatoren als ein Traumtor bezeichnet, das die Geschichte des Clubs prägte. Heute, fast drei Jahrzehnte später, wird das Tor immer wieder in Rückblicken gezeigt, wenn über die erfolgreichsten Momente des GC gesprochen wird. Der Spieler Murat Yakin, der später Trainer wurde, spricht noch immer mit einem Lächeln über diesen Moment.",
+      "vocabularyHints": [
+        "unvergessen — незабутній",
+        "die Distanz, -en — відстань",
+        "die Abwehr, -en — захист",
+        "die Verlängerung, -en — додатковий час",
+        "die Aufmerksamkeit, -en — увага",
+        "präzise — точний",
+        "kraftvoll — могутній",
+        "der Kommentator, -en — коментатор",
+        "das Traumtor, -e — гол мрії",
+        "prägen — формувати",
+        "der Rückblick, -e — огляд"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "unvergessenes",
+          "hint": "unvergessen — незабутній"
+        },
+        {
+          "surface": "Distanz",
+          "hint": "die Distanz, -en — відстань"
+        },
+        {
+          "surface": "Abwehr",
+          "hint": "die Abwehr, -en — захист"
+        },
+        {
+          "surface": "Verlängerung",
+          "hint": "die Verlängerung, -en — додатковий час"
+        },
+        {
+          "surface": "Aufmerksamkeit",
+          "hint": "die Aufmerksamkeit, -en — увага"
+        },
+        {
+          "surface": "präzise",
+          "hint": "präzise — точний"
+        },
+        {
+          "surface": "kraftvoll",
+          "hint": "kraftvoll — могутній"
+        },
+        {
+          "surface": "Kommentatoren",
+          "hint": "der Kommentator, -en — коментатор"
+        },
+        {
+          "surface": "Traumtor",
+          "hint": "das Traumtor, -e — гол мрії"
+        },
+        {
+          "surface": "prägte",
+          "hint": "prägen — формувати"
+        },
+        {
+          "surface": "Rückblicken",
+          "hint": "der Rückblick, -e — огляд"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_sport/7f06561.jpg",
+      "publishedAt": "2026-09-25T06:11:57.000Z",
+      "processedAt": "2026-09-25T07:27:55.131Z"
+    },
+    {
+      "id": "10f3221c",
+      "originalTitle": "Ärger im Strassenverkehr - Warum immer die anderen schuld sind auf der Strasse",
+      "simplifiedText": "Menschen in der Schweiz beschweren sich mehrmals pro Woche über andere Verkehrsteilnehmer. Sie fühlen sich häufig im dichten Berufsverkehr oder an unübersichtlichen Kreuzungen gestresst. In solchen Momenten wird oft die Schuld sofort auf die anderen Fahrer geschoben. Psychologen erklären, dass das Phänomen mit der Tendenz zusammenhängt, eigene Fehler zu vernachlässigen. Gleichzeitig kann das ständige Beschweren das Verkehrsklima weiter verschlechtern. Viele Experten fordern deshalb mehr Rücksicht und ein bewussteres Fahrverhalten. Wer sich selbstkritisch hinterfragt, kann Konflikte im Strassenverkehr reduzieren. So könnte die häufige Beschwerde über andere allmählich abnehmen.",
+      "vocabularyHints": [
+        "beschweren — скаржитися",
+        "der Verkehrsteilnehmer, - — учасник дорожнього руху",
+        "der Berufsverkehr — робочий трафік",
+        "unübersichtlich — незрозумілий, заплутаний",
+        "die Kreuzung, -en — перехрестя",
+        "der Psychologe, -en — психолог",
+        "das Phänomen, -e — явище",
+        "die Tendenz, -en — тенденція",
+        "vernachlässigen — нехтувати",
+        "die Rücksicht — увага, повага",
+        "bewusst — більш свідомий",
+        "das Fahrverhalten — манера водіння",
+        "selbstkritisch — самокритичний",
+        "der Konflikt, -e — конфлікт",
+        "reduzieren — зменшувати",
+        "allmählich — поступово",
+        "hinterfragen — ставити під сумнів"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Beschweren",
+          "hint": "beschweren — скаржитися"
+        },
+        {
+          "surface": "Verkehrsteilnehmer",
+          "hint": "der Verkehrsteilnehmer, - — учасник дорожнього руху"
+        },
+        {
+          "surface": "Berufsverkehr",
+          "hint": "der Berufsverkehr — робочий трафік"
+        },
+        {
+          "surface": "unübersichtlichen",
+          "hint": "unübersichtlich — незрозумілий, заплутаний"
+        },
+        {
+          "surface": "Kreuzungen",
+          "hint": "die Kreuzung, -en — перехрестя"
+        },
+        {
+          "surface": "Psychologen",
+          "hint": "der Psychologe, -en — психолог"
+        },
+        {
+          "surface": "Phänomen",
+          "hint": "das Phänomen, -e — явище"
+        },
+        {
+          "surface": "Tendenz",
+          "hint": "die Tendenz, -en — тенденція"
+        },
+        {
+          "surface": "vernachlässigen",
+          "hint": "vernachlässigen — нехтувати"
+        },
+        {
+          "surface": "Rücksicht",
+          "hint": "die Rücksicht — увага, повага"
+        },
+        {
+          "surface": "bewussteres",
+          "hint": "bewusst — більш свідомий"
+        },
+        {
+          "surface": "Fahrverhalten",
+          "hint": "das Fahrverhalten — манера водіння"
+        },
+        {
+          "surface": "selbstkritisch",
+          "hint": "selbstkritisch — самокритичний"
+        },
+        {
+          "surface": "Konflikte",
+          "hint": "der Konflikt, -e — конфлікт"
+        },
+        {
+          "surface": "reduzieren",
+          "hint": "reduzieren — зменшувати"
+        },
+        {
+          "surface": "allmählich",
+          "hint": "allmählich — поступово"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/709cff.jpg",
+      "publishedAt": "2026-09-25T07:04:44.000Z",
+      "processedAt": "2026-09-25T07:26:07.422Z"
+    },
+    {
+      "id": "35fc6317",
+      "originalTitle": "«Club»-Q&A zu Deutschland - Welche Fragen haben Sie zum Wahlerfolg der AfD?",
+      "simplifiedText": "Im Zeitfenster von 10:00 bis 11:30 beantworten Fachpersonen im «Club»-Q&A Fragen zum Wahlerfolg der AfD. Die Veranstaltung richtet sich an alle Interessierten, die mehr über die jüngsten Wahlergebnisse wissen möchten. Dabei können die Teilnehmenden ihre Fragen im Vorfeld per E-Mail oder während der Live-Session einreichen. Die Fachpersonen kommen aus Politik- und Sozialwissenschaften und können die Zahlen sowie die Hintergründe erläutern. Ein kurzer Überblick über die Wahlergebnisse wird zu Beginn gegeben, bevor die Diskussion startet. Wenn ein Thema besonders komplex ist, wird es im Anschluss in einem separaten Bericht zusammengefasst. Die Antworten werden sowohl mündlich als auch schriftlich im Chat festgehalten, sodass Sie später noch einmal nachlesen können. Wir freuen uns auf Ihre Fragen und hoffen, dass das Q&A Klarheit über den Wahlerfolg der AfD schafft.",
+      "vocabularyHints": [
+        "das Zeitfenster, - — часовий проміжок",
+        "die Fachperson, -en — фахівець, фахівці",
+        "das Q&A — питання‑відповідь",
+        "der Wahlerfolg, -e — виборчий успіх",
+        "die AfD — Альтернатива для Німеччини",
+        "der Teilnehmende, -en — учасник, учасники",
+        "einreichen — подати, надати",
+        "die Sozialwissenschaft, -en — соціальні науки",
+        "erläutern — пояснювати",
+        "komplex — складний",
+        "der Bericht, -e — звіт, повідомлення",
+        "schriftlich — письмово",
+        "festhalten — зафіксувати",
+        "die Klarheit, -en — ясність",
+        "das Club-Q&A — клубна сесія питання‑відповідь"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Zeitfenster",
+          "hint": "das Zeitfenster, - — часовий проміжок"
+        },
+        {
+          "surface": "Fachpersonen",
+          "hint": "die Fachperson, -en — фахівець, фахівці"
+        },
+        {
+          "surface": "Q&A",
+          "hint": "das Q&A — питання‑відповідь"
+        },
+        {
+          "surface": "Wahlerfolg",
+          "hint": "der Wahlerfolg, -e — виборчий успіх"
+        },
+        {
+          "surface": "AfD",
+          "hint": "die AfD — Альтернатива для Німеччини"
+        },
+        {
+          "surface": "Teilnehmenden",
+          "hint": "der Teilnehmende, -en — учасник, учасники"
+        },
+        {
+          "surface": "einreichen",
+          "hint": "einreichen — подати, надати"
+        },
+        {
+          "surface": "Sozialwissenschaften",
+          "hint": "die Sozialwissenschaft, -en — соціальні науки"
+        },
+        {
+          "surface": "erläutern",
+          "hint": "erläutern — пояснювати"
+        },
+        {
+          "surface": "komplex",
+          "hint": "komplex — складний"
+        },
+        {
+          "surface": "Bericht",
+          "hint": "der Bericht, -e — звіт, повідомлення"
+        },
+        {
+          "surface": "schriftlich",
+          "hint": "schriftlich — письмово"
+        },
+        {
+          "surface": "festgehalten",
+          "hint": "festhalten — зафіксувати"
+        },
+        {
+          "surface": "Klarheit",
+          "hint": "die Klarheit, -en — ясність"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/89a77a9.jpg",
+      "publishedAt": "2026-09-25T07:11:28.000Z",
+      "processedAt": "2026-09-25T07:24:42.194Z"
+    },
     {
       "id": "6ce85744",
       "originalTitle": "Herbstsession 2026 - Raumfahrtgesetz und Kommunikation des Bundesrats im Parlament",
@@ -9747,8 +10833,560 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-24T07:46:27.284Z",
+  "updatedAt": "2026-09-25T07:48:48.161Z",
   "tsnA1": [
+    {
+      "id": "08208fed",
+      "originalTitle": "Україна хоче змінити роботу КПП через російські атаки: що відомо про новий план",
+      "simplifiedText": "Україна планує перенести деякі КПП на територію сусідів. Про це говорить заступник міністра Сергій Деркач. Він зазначив, що Польща вже має спільні пункти пропуску. Через російські атаки 23‑24 вересня Польща евакувала Зосин і Дорогуськ. Тому Україна шукає альтернативу, щоб забезпечити безперебійну логістику.",
+      "vocabularyHints": [
+        "планувати — planen",
+        "перенести — verlegen",
+        "деякий — einige",
+        "КПП — der Grenzübergang",
+        "територія — das Gebiet",
+        "сусід — die Nachbarn",
+        "заступник — der Stellvertreter",
+        "міністр — der Minister",
+        "зазначити — erwähnen",
+        "спільний — gemeinsam",
+        "пункт — die Grenzübergänge",
+        "пропуск — der Durchgang",
+        "російський — russisch",
+        "атака — der Angriff",
+        "евакувати — evakuieren",
+        "альтернатива — die Alternative",
+        "забезпечити — sicherstellen",
+        "безперебійний — unterbrechungsfrei",
+        "логістика — die Logistik"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "планує",
+          "hint": "планувати — planen"
+        },
+        {
+          "surface": "перенести",
+          "hint": "перенести — verlegen"
+        },
+        {
+          "surface": "деякі",
+          "hint": "деякий — einige"
+        },
+        {
+          "surface": "КПП",
+          "hint": "КПП — der Grenzübergang"
+        },
+        {
+          "surface": "територію",
+          "hint": "територія — das Gebiet"
+        },
+        {
+          "surface": "сусідів",
+          "hint": "сусід — die Nachbarn"
+        },
+        {
+          "surface": "заступник",
+          "hint": "заступник — der Stellvertreter"
+        },
+        {
+          "surface": "міністра",
+          "hint": "міністр — der Minister"
+        },
+        {
+          "surface": "зазначив",
+          "hint": "зазначити — erwähnen"
+        },
+        {
+          "surface": "спільні",
+          "hint": "спільний — gemeinsam"
+        },
+        {
+          "surface": "пункти",
+          "hint": "пункт — die Grenzübergänge"
+        },
+        {
+          "surface": "пропуску",
+          "hint": "пропуск — der Durchgang"
+        },
+        {
+          "surface": "російські",
+          "hint": "російський — russisch"
+        },
+        {
+          "surface": "атаки",
+          "hint": "атака — der Angriff"
+        },
+        {
+          "surface": "евакувала",
+          "hint": "евакувати — evakuieren"
+        },
+        {
+          "surface": "альтернативу",
+          "hint": "альтернатива — die Alternative"
+        },
+        {
+          "surface": "забезпечити",
+          "hint": "забезпечити — sicherstellen"
+        },
+        {
+          "surface": "безперебійну",
+          "hint": "безперебійний — unterbrechungsfrei"
+        },
+        {
+          "surface": "логістику",
+          "hint": "логістика — die Logistik"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/247/tsn-dc382829a98d0f40b34d312a72bcb9b7/thumbs/608xX/0e/3f/fc50606b48deeaa0e36ab246158b3f0e.jpeg",
+      "publishedAt": "2026-09-25T07:17:49.000Z",
+      "processedAt": "2026-09-25T07:46:03.507Z"
+    },
+    {
+      "id": "4280d0e0",
+      "originalTitle": "США готують зміни для українських біженців: новий поворот із захистом TPS",
+      "simplifiedText": "Декілька сенаторів США подали закон про TPS. Вони хочуть продовжити захист для українців. Термін дії закінчується 19 жовтня, тому потрібне рішення. За даними, понад 101 тисяча українців вже користуються TPS. Якщо закон пройде, вони залишаться в США без депортації.",
+      "vocabularyHints": [
+        "декілька — einige",
+        "сенатор — der Senator, -en",
+        "подати — einreichen",
+        "закон — das Gesetz",
+        "продовжити — verlängern",
+        "захист — der Schutz",
+        "українець — der Ukrainer, -",
+        "термін — die Frist",
+        "закінчуватися — ablaufen",
+        "жовтень — Oktober",
+        "потрібний — notwendig",
+        "рішення — die Entscheidung",
+        "дані — die Daten",
+        "понад — über",
+        "тисяча — tausend",
+        "користуватися — nutzen",
+        "пройти — bestehen",
+        "залишатися — bleiben",
+        "депортація — die Abschiebung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Декілька",
+          "hint": "декілька — einige"
+        },
+        {
+          "surface": "сенаторів",
+          "hint": "сенатор — der Senator, -en"
+        },
+        {
+          "surface": "подали",
+          "hint": "подати — einreichen"
+        },
+        {
+          "surface": "закон",
+          "hint": "закон — das Gesetz"
+        },
+        {
+          "surface": "продовжити",
+          "hint": "продовжити — verlängern"
+        },
+        {
+          "surface": "захист",
+          "hint": "захист — der Schutz"
+        },
+        {
+          "surface": "українців",
+          "hint": "українець — der Ukrainer, -"
+        },
+        {
+          "surface": "Термін",
+          "hint": "термін — die Frist"
+        },
+        {
+          "surface": "закінчується",
+          "hint": "закінчуватися — ablaufen"
+        },
+        {
+          "surface": "жовтня",
+          "hint": "жовтень — Oktober"
+        },
+        {
+          "surface": "потрібне",
+          "hint": "потрібний — notwendig"
+        },
+        {
+          "surface": "рішення",
+          "hint": "рішення — die Entscheidung"
+        },
+        {
+          "surface": "даними",
+          "hint": "дані — die Daten"
+        },
+        {
+          "surface": "понад",
+          "hint": "понад — über"
+        },
+        {
+          "surface": "тисяча",
+          "hint": "тисяча — tausend"
+        },
+        {
+          "surface": "користуються",
+          "hint": "користуватися — nutzen"
+        },
+        {
+          "surface": "пройде",
+          "hint": "пройти — bestehen"
+        },
+        {
+          "surface": "залишаться",
+          "hint": "залишатися — bleiben"
+        },
+        {
+          "surface": "депортації",
+          "hint": "депортація — die Abschiebung"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/219/tsn-51cb131e/thumbs/608xX/28/fc/d8e62b82cac02c19947c794a0bddfc28.jpg",
+      "publishedAt": "2026-09-25T07:20:02.000Z",
+      "processedAt": "2026-09-25T07:42:59.909Z"
+    },
+    {
+      "id": "594df97c",
+      "originalTitle": "Ніколи не змішуйте ці батарейки: звична помилка може зіпсувати техніку",
+      "simplifiedText": "Виробники Duracell і Energizer радять не змішувати батарейки АА різних брендів. Якщо їх змішати, пристрій може працювати погано і батарейки можуть перегрітись. Таке поєднання може викликати протікання і пошкодження пристрою. Тому краще замінити весь комплект батарейок одночасно.",
+      "vocabularyHints": [
+        "виробник — die Hersteller",
+        "радити — empfehlen",
+        "змішувати — mischen",
+        "різний — verschieden",
+        "бренд — die Marken",
+        "змішати — mischen",
+        "пристрій — das Gerät",
+        "працювати — arbeiten",
+        "перегрітись — ueberhitzen",
+        "поєднання — die Kombination",
+        "викликати — verursachen",
+        "протікання — das Auslaufen",
+        "пошкодження — die Beschädigung",
+        "замінити — ersetzen",
+        "комплект — das Set",
+        "батарейка — die Batterien",
+        "одночасно — gleichzeitig"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Виробники",
+          "hint": "виробник — die Hersteller"
+        },
+        {
+          "surface": "радять",
+          "hint": "радити — empfehlen"
+        },
+        {
+          "surface": "змішувати",
+          "hint": "змішувати — mischen"
+        },
+        {
+          "surface": "різних",
+          "hint": "різний — verschieden"
+        },
+        {
+          "surface": "брендів",
+          "hint": "бренд — die Marken"
+        },
+        {
+          "surface": "змішати",
+          "hint": "змішати — mischen"
+        },
+        {
+          "surface": "пристрій",
+          "hint": "пристрій — das Gerät"
+        },
+        {
+          "surface": "працювати",
+          "hint": "працювати — arbeiten"
+        },
+        {
+          "surface": "перегрітись",
+          "hint": "перегрітись — ueberhitzen"
+        },
+        {
+          "surface": "поєднання",
+          "hint": "поєднання — die Kombination"
+        },
+        {
+          "surface": "викликати",
+          "hint": "викликати — verursachen"
+        },
+        {
+          "surface": "протікання",
+          "hint": "протікання — das Auslaufen"
+        },
+        {
+          "surface": "пошкодження",
+          "hint": "пошкодження — die Beschädigung"
+        },
+        {
+          "surface": "замінити",
+          "hint": "замінити — ersetzen"
+        },
+        {
+          "surface": "комплект",
+          "hint": "комплект — das Set"
+        },
+        {
+          "surface": "батарейки",
+          "hint": "батарейка — die Batterien"
+        },
+        {
+          "surface": "батарейок",
+          "hint": "батарейка — die Batterien"
+        },
+        {
+          "surface": "одночасно",
+          "hint": "одночасно — gleichzeitig"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/342/tsn-1284f5ef/thumbs/608xX/9c/5d/18e0223fe31b9850a0bf151790fb5d9c.jpg",
+      "publishedAt": "2026-09-25T07:22:19.000Z",
+      "processedAt": "2026-09-25T07:41:01.651Z"
+    },
+    {
+      "id": "05b4ef13",
+      "originalTitle": "Нова дата Покрови Пресвятої Богородиці: що не можна робити у велике свято, головні традиції та духовний сенс",
+      "simplifiedText": "Українці святкують Покрову Пресвятої Богородиці 1 жовтня. За новоюліанським календарем це 1 жовтня. Раніше свято відзначали 14 жовтня за старим календарем. Свято символізує захист і покровительство Богородиці. Козаки вважали її покровителькою під час походів.",
+      "vocabularyHints": [
+        "Українець — die Ukrainer",
+        "святкувати — feiern",
+        "Покрова — die Schutz",
+        "Пресвята — die Heiligste",
+        "Богородиця — die Gottesmutter",
+        "новоюліанський — neujulianisch",
+        "календар — der Kalender",
+        "раніше — früher",
+        "відзначати — begehen",
+        "символізувати — symbolisieren",
+        "захист — der Schutz",
+        "покровительство — die Schirmherrschaft",
+        "козак — die Kosaken",
+        "вважати — glauben",
+        "покровителька — die Schutzpatronin",
+        "похід — der Feldzug"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Українці",
+          "hint": "Українець — die Ukrainer"
+        },
+        {
+          "surface": "святкують",
+          "hint": "святкувати — feiern"
+        },
+        {
+          "surface": "Покрову",
+          "hint": "Покрова — die Schutz"
+        },
+        {
+          "surface": "Пресвятої",
+          "hint": "Пресвята — die Heiligste"
+        },
+        {
+          "surface": "Богородиці",
+          "hint": "Богородиця — die Gottesmutter"
+        },
+        {
+          "surface": "новоюліанським",
+          "hint": "новоюліанський — neujulianisch"
+        },
+        {
+          "surface": "календарем",
+          "hint": "календар — der Kalender"
+        },
+        {
+          "surface": "Раніше",
+          "hint": "раніше — früher"
+        },
+        {
+          "surface": "відзначали",
+          "hint": "відзначати — begehen"
+        },
+        {
+          "surface": "символізує",
+          "hint": "символізувати — symbolisieren"
+        },
+        {
+          "surface": "захист",
+          "hint": "захист — der Schutz"
+        },
+        {
+          "surface": "покровительство",
+          "hint": "покровительство — die Schirmherrschaft"
+        },
+        {
+          "surface": "козаки",
+          "hint": "козак — die Kosaken"
+        },
+        {
+          "surface": "вважали",
+          "hint": "вважати — glauben"
+        },
+        {
+          "surface": "покровителькою",
+          "hint": "покровителька — die Schutzpatronin"
+        },
+        {
+          "surface": "походів",
+          "hint": "похід — der Feldzug"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/608/tsn-51cb131e/thumbs/608xX/b9/c6/0f74c3ce019427c8e4b477a5698ec6b9.jpg",
+      "publishedAt": "2026-09-25T07:23:00.000Z",
+      "processedAt": "2026-09-25T07:38:09.838Z"
+    },
+    {
+      "id": "4e5c7786",
+      "originalTitle": "Звільнили з військової служби, але статус в \"Резерв+\" не змінився: що робити",
+      "simplifiedText": "Після медичного звільнення в кабінеті з’явився статус «військовозобов’язаний». Це ще не означає, що особа виключена з обліку. Остаточний статус залежить від рішення військово‑лікарської комісії. Якщо комісія визнала непридатним, треба уточнити в ТЦК. При переогляді особа залишається в резерві і статус лишається.",
+      "vocabularyHints": [
+        "медичний — medizinisch",
+        "звільнення — die Entlassung",
+        "кабінет — das Kabinett"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "медичного",
+          "hint": "медичний — medizinisch"
+        },
+        {
+          "surface": "звільнення",
+          "hint": "звільнення — die Entlassung"
+        },
+        {
+          "surface": "кабінеті",
+          "hint": "кабінет — das Kabinett"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/878/tsn-0b4bc102/thumbs/608xX/40/af/b410d6c4a26d3521f985d32276f7af40.jpg",
+      "publishedAt": "2026-09-25T07:25:30.000Z",
+      "processedAt": "2026-09-25T07:34:43.156Z"
+    },
+    {
+      "id": "7307b97a",
+      "originalTitle": "У Хмельницькому прогриміли вибухи: стали відомі деталі (оновлено)",
+      "simplifiedText": "У Хмельницькому вранці 25 вересня пролунали вибухи. Під час тривоги ППО збила російський безпілотник. Дрон «Герань» летів над областю, потім змінив курс до центру. За даними ОВА, постраждалих і загиблих не зафіксовано.",
+      "vocabularyHints": [
+        "Хмельницький — Chmelnyzkyj",
+        "вранці — morgens",
+        "пролунати — klingen",
+        "вибух — Explosione",
+        "тривога — Alarm",
+        "ППО — die Luftverteidigung",
+        "збити — abschiessen",
+        "російський — russisch",
+        "безпілотник — die Drohne",
+        "дрон — die Drohne",
+        "літати — fliegen",
+        "область — die Region",
+        "змінити — ändern",
+        "курс — der Kurs",
+        "центр — das Zentrum",
+        "дані — die Daten",
+        "ОВА — die Regionale Verwaltungsbehörde",
+        "постраждалий — die Verletzten",
+        "загиблий — die Toten",
+        "зафіксувати — verzeichnen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Хмельницькому",
+          "hint": "Хмельницький — Chmelnyzkyj"
+        },
+        {
+          "surface": "вранці",
+          "hint": "вранці — morgens"
+        },
+        {
+          "surface": "пролунали",
+          "hint": "пролунати — klingen"
+        },
+        {
+          "surface": "вибухи",
+          "hint": "вибух — Explosione"
+        },
+        {
+          "surface": "тривоги",
+          "hint": "тривога — Alarm"
+        },
+        {
+          "surface": "ППО",
+          "hint": "ППО — die Luftverteidigung"
+        },
+        {
+          "surface": "збила",
+          "hint": "збити — abschiessen"
+        },
+        {
+          "surface": "російський",
+          "hint": "російський — russisch"
+        },
+        {
+          "surface": "безпілотник",
+          "hint": "безпілотник — die Drohne"
+        },
+        {
+          "surface": "Дрон",
+          "hint": "дрон — die Drohne"
+        },
+        {
+          "surface": "летів",
+          "hint": "літати — fliegen"
+        },
+        {
+          "surface": "областю",
+          "hint": "область — die Region"
+        },
+        {
+          "surface": "змінив",
+          "hint": "змінити — ändern"
+        },
+        {
+          "surface": "курс",
+          "hint": "курс — der Kurs"
+        },
+        {
+          "surface": "центру",
+          "hint": "центр — das Zentrum"
+        },
+        {
+          "surface": "даними",
+          "hint": "дані — die Daten"
+        },
+        {
+          "surface": "ОВА",
+          "hint": "ОВА — die Regionale Verwaltungsbehörde"
+        },
+        {
+          "surface": "постраждалих",
+          "hint": "постраждалий — die Verletzten"
+        },
+        {
+          "surface": "загиблих",
+          "hint": "загиблий — die Toten"
+        },
+        {
+          "surface": "зафіксовано",
+          "hint": "зафіксувати — verzeichnen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/326/tsn-28424b79aaed18622b3ebc9e28e9f35e/thumbs/608xX/6f/fc/a8b0f1a3157729724efb3d67f566fc6f.jpeg",
+      "publishedAt": "2026-09-25T07:26:55.000Z",
+      "processedAt": "2026-09-25T07:32:51.077Z"
+    },
     {
       "id": "730e9c05",
       "originalTitle": "Названо знаки зодіаку, які дуже сильні та стійкі: їх неможливо зламати",
@@ -11533,6 +13171,480 @@
   ],
   "tsnA2": [
     {
+      "id": "3ff30292",
+      "originalTitle": "Україна хоче змінити роботу КПП через російські атаки: що відомо про новий план",
+      "simplifiedText": "Міністр розвитку Сергій Деркач сказав, що Україна обговорює з сусідніми країнами перенесення деяких пунктів пропуску на їхню територію через російські обстріли. Це план, щоб забезпечити безперебійну роботу логістики, якщо на українському боці будуть повітряні загрози. Деркач навів приклад Польщі, де вже існують спільні КПП з Україною, і також згадав Молдову. Українська влада працює з усіма сусідами, щоб знайти альтернативні місця для пропуску. Останніми днями, 23‑24 вересня, польські війська евакуювали два КПП у Зосині та Дорогуську через російські атаки на Волинську область. Якщо повітряна загроза з’явиться, ДПСУ може тимчасово зупинити пропуск людей і транспорту. Такий підхід допоможе уникнути затримок у постачанні допомоги та товарів.",
+      "vocabularyHints": [
+        "перенесення — die Verlegung",
+        "пункт пропуску — der Grenzübergang",
+        "територія — das Gebiet",
+        "російський — russisch",
+        "обстріл — der Beschuss",
+        "логістика — die Logistik",
+        "повітряна загроза — die Luftbedrohungen",
+        "спільний КПП — die gemeinsamen Grenzübergänge",
+        "згадати — erwähnen",
+        "альтернативне місце — die alternativen Orte",
+        "евакуювати — evakuieren",
+        "атака — der Angriff",
+        "Волинська область — die Region",
+        "повітряна загроза — die Luftbedrohung",
+        "постачання — die Lieferung",
+        "товар — die Waren"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "перенесення",
+          "hint": "перенесення — die Verlegung"
+        },
+        {
+          "surface": "пунктів пропуску",
+          "hint": "пункт пропуску — der Grenzübergang"
+        },
+        {
+          "surface": "територію",
+          "hint": "територія — das Gebiet"
+        },
+        {
+          "surface": "російські",
+          "hint": "російський — russisch"
+        },
+        {
+          "surface": "обстріли",
+          "hint": "обстріл — der Beschuss"
+        },
+        {
+          "surface": "логістики",
+          "hint": "логістика — die Logistik"
+        },
+        {
+          "surface": "повітряні загрози",
+          "hint": "повітряна загроза — die Luftbedrohungen"
+        },
+        {
+          "surface": "спільні КПП",
+          "hint": "спільний КПП — die gemeinsamen Grenzübergänge"
+        },
+        {
+          "surface": "згадав",
+          "hint": "згадати — erwähnen"
+        },
+        {
+          "surface": "альтернативні місця",
+          "hint": "альтернативне місце — die alternativen Orte"
+        },
+        {
+          "surface": "евакуювали",
+          "hint": "евакуювати — evakuieren"
+        },
+        {
+          "surface": "атаки",
+          "hint": "атака — der Angriff"
+        },
+        {
+          "surface": "Волинську область",
+          "hint": "Волинська область — die Region"
+        },
+        {
+          "surface": "повітряна загроза",
+          "hint": "повітряна загроза — die Luftbedrohung"
+        },
+        {
+          "surface": "постачанні",
+          "hint": "постачання — die Lieferung"
+        },
+        {
+          "surface": "товарів",
+          "hint": "товар — die Waren"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/247/tsn-dc382829a98d0f40b34d312a72bcb9b7/thumbs/608xX/0e/3f/fc50606b48deeaa0e36ab246158b3f0e.jpeg",
+      "publishedAt": "2026-09-25T07:17:49.000Z",
+      "processedAt": "2026-09-25T07:46:48.372Z"
+    },
+    {
+      "id": "49a9b321",
+      "originalTitle": "США готують зміни для українських біженців: новий поворот із захистом TPS",
+      "simplifiedText": "Двопартійна група сенаторів США представила законопроект, який продовжить статус тимчасового захисту (TPS) для українських біженців. Це потрібно, бо дію поточного TPS закінчиться 19 жовтня, і без продовження багато людей можуть бути депортовані. Сенатори Річард Блюменталь, Ліза Мурковскі, Кріс Кунс і Білл Кессіді підкреслили, що українці тікають від ракетних ударів, викрадення дітей і холодної зими без опалення. TPS був введений у квітні 2022 року після російського вторгнення і дозволяє отримати право на роботу та захист від депортації, хоча не дає постійного проживання чи громадянства. За даними Інституту міграційної політики, у лютому 2026 року в США було більше 101 тисяч українців з TPS. Цей статус також мають громадяни Сальвадору, Лівану, Судану та Венесуели. Сенатори закликають Конгрес не змушувати українців повертатися до війни.",
+      "vocabularyHints": [
+        "двопартійний — parteiübergreifend",
+        "законопроект — Gesetzentwurf",
+        "депортований — abgefertigt",
+        "ввести — einführen",
+        "вторгнення — Invasion",
+        "право на роботу — Arbeitsrecht",
+        "депортація — Abschiebung",
+        "постійне проживання — dauerhafter Aufenthalt",
+        "громадянин — Staatsangehöriger"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "двопартійна",
+          "hint": "двопартійний — parteiübergreifend"
+        },
+        {
+          "surface": "законопроект",
+          "hint": "законопроект — Gesetzentwurf"
+        },
+        {
+          "surface": "депортовані",
+          "hint": "депортований — abgefertigt"
+        },
+        {
+          "surface": "введений",
+          "hint": "ввести — einführen"
+        },
+        {
+          "surface": "вторгнення",
+          "hint": "вторгнення — Invasion"
+        },
+        {
+          "surface": "право на роботу",
+          "hint": "право на роботу — Arbeitsrecht"
+        },
+        {
+          "surface": "депортації",
+          "hint": "депортація — Abschiebung"
+        },
+        {
+          "surface": "постійного проживання",
+          "hint": "постійне проживання — dauerhafter Aufenthalt"
+        },
+        {
+          "surface": "громадяни",
+          "hint": "громадянин — Staatsangehöriger"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/219/tsn-51cb131e/thumbs/608xX/28/fc/d8e62b82cac02c19947c794a0bddfc28.jpg",
+      "publishedAt": "2026-09-25T07:20:02.000Z",
+      "processedAt": "2026-09-25T07:43:30.713Z"
+    },
+    {
+      "id": "1736cc1d",
+      "originalTitle": "Ніколи не змішуйте ці батарейки: звична помилка може зіпсувати техніку",
+      "simplifiedText": "Батарейки типу АА мають однаковий розмір і напругу, але не варто ставити разом елементи різних брендів. Виробники, наприклад Duracell і Energizer, попереджають, що різний внутрішній опір і швидкість розряджання можуть викликати нерівномірний потік енергії. Через це пристрій може працювати гірше, а батарейки швидше втрачають заряд і можуть перегрітись. Перегрів може призвести до протікання, корозії у відсіку і навіть пошкодити сам пристрій. Особливо небезпечно змішувати старі та нові батарейки, бо старий елемент має менший заряд і швидко розряджається. Тому радять замінювати весь набір батарейок одночасно і не поєднувати лужні та літієві типи.",
+      "vocabularyHints": [
+        "напруга — Spannung",
+        "внутрішній опір — innerer Widerstand",
+        "швидкість розряджання — Entladungsrate",
+        "нерівномірний потік енергії — ungleichmässiger Energiefluss",
+        "перегрітись — überhitzen",
+        "протікання — Leckage",
+        "корозія — Korrosion",
+        "відсік — Fach",
+        "змішувати — mischen",
+        "замінювати — ersetzen",
+        "поєднувати — kombinieren",
+        "лужний та літієвий тип — Alkaline- und Lithiumtypen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "напругу",
+          "hint": "напруга — Spannung"
+        },
+        {
+          "surface": "внутрішній опір",
+          "hint": "внутрішній опір — innerer Widerstand"
+        },
+        {
+          "surface": "швидкість розряджання",
+          "hint": "швидкість розряджання — Entladungsrate"
+        },
+        {
+          "surface": "нерівномірний потік енергії",
+          "hint": "нерівномірний потік енергії — ungleichmässiger Energiefluss"
+        },
+        {
+          "surface": "перегрітись",
+          "hint": "перегрітись — überhitzen"
+        },
+        {
+          "surface": "протікання",
+          "hint": "протікання — Leckage"
+        },
+        {
+          "surface": "корозії",
+          "hint": "корозія — Korrosion"
+        },
+        {
+          "surface": "відсіку",
+          "hint": "відсік — Fach"
+        },
+        {
+          "surface": "змішувати",
+          "hint": "змішувати — mischen"
+        },
+        {
+          "surface": "замінювати",
+          "hint": "замінювати — ersetzen"
+        },
+        {
+          "surface": "поєднувати",
+          "hint": "поєднувати — kombinieren"
+        },
+        {
+          "surface": "лужні та літієві типи",
+          "hint": "лужний та літієвий тип — Alkaline- und Lithiumtypen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/342/tsn-1284f5ef/thumbs/608xX/9c/5d/18e0223fe31b9850a0bf151790fb5d9c.jpg",
+      "publishedAt": "2026-09-25T07:22:19.000Z",
+      "processedAt": "2026-09-25T07:41:44.916Z"
+    },
+    {
+      "id": "3ea1e2ce",
+      "originalTitle": "Нова дата Покрови Пресвятої Богородиці: що не можна робити у велике свято, головні традиції та духовний сенс",
+      "simplifiedText": "За новоюліанським календарем, яким користуються ПЦУ і УГКЦ з 1 вересня 2023 року, Покрову Пресвятої Богородиці святкують 1 жовтня, а в 2026 році це випаде у четвер. Раніше, за старим календарем, велике свято відзначалося 14 жовтня. За церковним переказом, під час облоги Константинополя в Х столітті Богородиця зняла покров і простягнула його над людьми, захистивши їх. Після цього вороги несподівано відступили, і подія стала символом Божого захисту. Для українців Покрова має особливе значення, бо козаки вважали Богородицю покровителькою, будували її храми і молилися перед походами. Свято нагадує, що щира молитва і віра допомагають знайти сили у важкі часи. Тому під час великого свята не варто порушувати традиції, наприклад, не варто працювати важко і не треба забувати про молитву.",
+      "vocabularyHints": [
+        "новоюліанський — neujulianisch",
+        "календар — der Kalender",
+        "облога — die Belagerung",
+        "Константинополь — Konstantinopel",
+        "покров — der Schutz",
+        "козак — die Kosaken",
+        "покровителька — die Schutzpatronin",
+        "молитва — das Gebet",
+        "традіція — die Traditionen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "новоюліанським",
+          "hint": "новоюліанський — neujulianisch"
+        },
+        {
+          "surface": "календарем",
+          "hint": "календар — der Kalender"
+        },
+        {
+          "surface": "облоги",
+          "hint": "облога — die Belagerung"
+        },
+        {
+          "surface": "Константинополя",
+          "hint": "Константинополь — Konstantinopel"
+        },
+        {
+          "surface": "покров",
+          "hint": "покров — der Schutz"
+        },
+        {
+          "surface": "козаки",
+          "hint": "козак — die Kosaken"
+        },
+        {
+          "surface": "покровителькою",
+          "hint": "покровителька — die Schutzpatronin"
+        },
+        {
+          "surface": "молитва",
+          "hint": "молитва — das Gebet"
+        },
+        {
+          "surface": "традиції",
+          "hint": "традіція — die Traditionen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/608/tsn-51cb131e/thumbs/608xX/b9/c6/0f74c3ce019427c8e4b477a5698ec6b9.jpg",
+      "publishedAt": "2026-09-25T07:23:00.000Z",
+      "processedAt": "2026-09-25T07:38:34.699Z"
+    },
+    {
+      "id": "7d0de1a5",
+      "originalTitle": "Звільнили з військової служби, але статус в \"Резерв+\" не змінився: що робити",
+      "simplifiedText": "Коли людину звільняють з військової служби через стан здоров’я, у її електронному кабінеті може з’явитися статус «військовозобов’язаний». Це не означає, що військовий комісар вже виключив її з військового обліку, бо документи можуть ще оброблятись. Якщо військово‑лікарська комісія визнала її непридатною, то після подання довідки про хворобу треба уточнити в ТЦК, чи внесено зміни. Коли зміни внесені, у військово‑реєстраційному документі має стояти запис про виключення з обліку. Якщо ж у висновку вказано «непридатність з переоглядом», людина залишається в запасі і статус «військовозобов’язаний» в «Резерв+» залишається. У такій ситуації варто звернутись до ТЦК, щоб перевірити, чи правильно оформлені документи. Якщо документи не враховані, можна подати скаргу за допомогою чіткого алгоритму дій.",
+      "vocabularyHints": [
+        "звільняти — freistellen",
+        "військова служба — der Militärdienst",
+        "стан здоров’я — der Gesundheitszustand",
+        "електронний кабінет — das Online-Portal",
+        "військовозобов’язаний — der Wehrpflichtige",
+        "військовий комісар — der Wehrkommissar",
+        "військовий облік — die Wehrpflichtregistrierung",
+        "військово‑лікарська комісія — die Wehrmedizinische Kommission",
+        "непридатний — untauglich",
+        "довідка про хворобу — die Krankheitsbescheinigung",
+        "ТЦК — das TSK",
+        "внести — eintragen",
+        "військово‑реєстраційний документ — das Wehrregistrierungsdokument",
+        "виключення — der Ausschluss",
+        "непридатність — die Untauglichkeit mit Nachprüfung",
+        "запас — die Reserve",
+        "звернутись — sich wenden",
+        "оформлений документ — die ausgefüllten Dokumente",
+        "скарга — die Beschwerde",
+        "алгоритм дій — der Handlungsablauf"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "звільняють",
+          "hint": "звільняти — freistellen"
+        },
+        {
+          "surface": "військової служби",
+          "hint": "військова служба — der Militärdienst"
+        },
+        {
+          "surface": "стан здоров’я",
+          "hint": "стан здоров’я — der Gesundheitszustand"
+        },
+        {
+          "surface": "електронному кабінеті",
+          "hint": "електронний кабінет — das Online-Portal"
+        },
+        {
+          "surface": "військовозобов’язаний",
+          "hint": "військовозобов’язаний — der Wehrpflichtige"
+        },
+        {
+          "surface": "військовий комісар",
+          "hint": "військовий комісар — der Wehrkommissar"
+        },
+        {
+          "surface": "військового обліку",
+          "hint": "військовий облік — die Wehrpflichtregistrierung"
+        },
+        {
+          "surface": "військово‑лікарська комісія",
+          "hint": "військово‑лікарська комісія — die Wehrmedizinische Kommission"
+        },
+        {
+          "surface": "непридатною",
+          "hint": "непридатний — untauglich"
+        },
+        {
+          "surface": "довідки про хворобу",
+          "hint": "довідка про хворобу — die Krankheitsbescheinigung"
+        },
+        {
+          "surface": "ТЦК",
+          "hint": "ТЦК — das TSK"
+        },
+        {
+          "surface": "внесено",
+          "hint": "внести — eintragen"
+        },
+        {
+          "surface": "військово‑реєстраційному документі",
+          "hint": "військово‑реєстраційний документ — das Wehrregistrierungsdokument"
+        },
+        {
+          "surface": "виключення",
+          "hint": "виключення — der Ausschluss"
+        },
+        {
+          "surface": "непридатність з переоглядом",
+          "hint": "непридатність — die Untauglichkeit mit Nachprüfung"
+        },
+        {
+          "surface": "запасі",
+          "hint": "запас — die Reserve"
+        },
+        {
+          "surface": "звернутись",
+          "hint": "звернутись — sich wenden"
+        },
+        {
+          "surface": "оформлені документи",
+          "hint": "оформлений документ — die ausgefüllten Dokumente"
+        },
+        {
+          "surface": "скаргу",
+          "hint": "скарга — die Beschwerde"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/878/tsn-0b4bc102/thumbs/608xX/40/af/b410d6c4a26d3521f985d32276f7af40.jpg",
+      "publishedAt": "2026-09-25T07:25:30.000Z",
+      "processedAt": "2026-09-25T07:35:36.170Z"
+    },
+    {
+      "id": "56336cbb",
+      "originalTitle": "У Хмельницькому прогриміли вибухи: стали відомі деталі (оновлено)",
+      "simplifiedText": "У ранкову пору 25 вересня в Хмельницькому під час повітряної тривоги чули вибухи. Після цього ППО збила російський безпілотник «Герань», який летів у напрямку області і потім змінив курс на центр міста. Про це повідомила кореспондентка ТСН.ua, а очільник Хмельницької ОВА Сергій Тюрін сказав, що під час атаки працювали сили протиповітряної оборони. За даними, не було повідомлень про руйнування, поранених чи загиблих. У ніч на 25 вересня російська армія запустила 295 ударних і імітаційних дронів з шести напрямків, серед яких 52 реактивних. До 07:30 ППО збила або подавила 267 безпілотників, а уламки впали у 16 місцях, зокрема в медзаклади Києва. Атака триває.",
+      "vocabularyHints": [
+        "повітряна тривога — der Luftalarm",
+        "вибух — die Explosion, -en",
+        "безпілотник — die Drohne",
+        "змінити курс — den Kurs ändern",
+        "кореспондентка — die Korrespondentin",
+        "очільник — der Vorsitzende",
+        "атака — der Angriff",
+        "протиповітряна оборона — die Luftabwehr",
+        "запустити — starten",
+        "ударний — Angriffs-",
+        "імітаційний — Simulations-",
+        "подавити — unterdrücken",
+        "уламок — die Trümmer",
+        "медзаклад — die Klinik"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "повітряної тривоги",
+          "hint": "повітряна тривога — der Luftalarm"
+        },
+        {
+          "surface": "вибухи",
+          "hint": "вибух — die Explosion, -en"
+        },
+        {
+          "surface": "безпілотник",
+          "hint": "безпілотник — die Drohne"
+        },
+        {
+          "surface": "змінив курс",
+          "hint": "змінити курс — den Kurs ändern"
+        },
+        {
+          "surface": "кореспондентка",
+          "hint": "кореспондентка — die Korrespondentin"
+        },
+        {
+          "surface": "очільник",
+          "hint": "очільник — der Vorsitzende"
+        },
+        {
+          "surface": "атаки",
+          "hint": "атака — der Angriff"
+        },
+        {
+          "surface": "протиповітряної оборони",
+          "hint": "протиповітряна оборона — die Luftabwehr"
+        },
+        {
+          "surface": "запустила",
+          "hint": "запустити — starten"
+        },
+        {
+          "surface": "ударних",
+          "hint": "ударний — Angriffs-"
+        },
+        {
+          "surface": "імітаційних",
+          "hint": "імітаційний — Simulations-"
+        },
+        {
+          "surface": "подавила",
+          "hint": "подавити — unterdrücken"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "медзаклади",
+          "hint": "медзаклад — die Klinik"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/326/tsn-28424b79aaed18622b3ebc9e28e9f35e/thumbs/608xX/6f/fc/a8b0f1a3157729724efb3d67f566fc6f.jpeg",
+      "publishedAt": "2026-09-25T07:26:55.000Z",
+      "processedAt": "2026-09-25T07:33:17.412Z"
+    },
+    {
       "id": "4ada369c",
       "originalTitle": "Названо знаки зодіаку, які дуже сильні та стійкі: їх неможливо зламати",
       "simplifiedText": "У астрології вважають, що деякі знаки зодіаку дуже стійкі до життєвих труднощів. Найчастіше про це говорять про Скорпіона, який навіть після великих втрат швидко відновлюється і не показує слабкості. Козоріг теж не здається: коли ставить собі мету, він поступово долає перешкоди, навіть якщо результат приходить лише через кілька років. Телець відомий своєю впертістю, тому його важко збити з обраного шляху, навіть коли навколо багато проблем. Усі ці знаки вміють контролювати те, що можуть, і сприймають труднощі як нові завдання, а не як причину зупинитися.",
@@ -12617,6 +14729,104 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "587f7afb",
+      "originalTitle": "Ніколи не змішуйте ці батарейки: звична помилка може зіпсувати техніку",
+      "simplifiedText": "Однаковий розмір і напруга батарейок типу АА не гарантує, що їх можна безпечно змішувати. Виробники, зокрема Duracell і Energizer, застерігають, що різні марки мають різний внутрішній опір і розряджуються по‑різному. Якщо такі батарейки використовувати одночасно, може виникнути нерівномірний потік енергії, що порушує роботу пристрою. Це скорочує термін служби батарейок, а також може призвести до їх перегріву та протікання. Протікання часто викликає корозію в батарейному відсіку і пошкодження внутрішніх деталей. Особливо небезпечно поєднувати старі та нові елементи, бо старий має значно менший заряд, а новий продовжує подавати струм після його розрядження. Через це виробники радять міняти весь комплект батарейок одночасно. Крім того, не слід змішувати різні типи батарейок, наприклад лужні та літієві, бо це підвищує ризик перегріву і протікання.",
+      "vocabularyHints": [
+        "змішувати — mischen",
+        "застерігати — warnen",
+        "внутрішній — innerlich",
+        "опір — der Widerstand",
+        "розряджатися — sich entladen",
+        "нерівномірний — ungleichmässig",
+        "потік — der Stromfluss",
+        "енергія — die Energie",
+        "порушувати — stören",
+        "термін — die Lebensdauer",
+        "служба — der Dienst",
+        "перегрів — die Überhitzung",
+        "протікання — das Auslaufen",
+        "корозія — die Korrosion",
+        "відсік — das Fach",
+        "пошкодження — die Beschädigung",
+        "поєднувати — kombinieren"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "змішувати",
+          "hint": "змішувати — mischen"
+        },
+        {
+          "surface": "застерігають",
+          "hint": "застерігати — warnen"
+        },
+        {
+          "surface": "внутрішній",
+          "hint": "внутрішній — innerlich"
+        },
+        {
+          "surface": "опір",
+          "hint": "опір — der Widerstand"
+        },
+        {
+          "surface": "розряджуються",
+          "hint": "розряджатися — sich entladen"
+        },
+        {
+          "surface": "нерівномірний",
+          "hint": "нерівномірний — ungleichmässig"
+        },
+        {
+          "surface": "потік",
+          "hint": "потік — der Stromfluss"
+        },
+        {
+          "surface": "енергії",
+          "hint": "енергія — die Energie"
+        },
+        {
+          "surface": "порушує",
+          "hint": "порушувати — stören"
+        },
+        {
+          "surface": "термін",
+          "hint": "термін — die Lebensdauer"
+        },
+        {
+          "surface": "служби",
+          "hint": "служба — der Dienst"
+        },
+        {
+          "surface": "перегріву",
+          "hint": "перегрів — die Überhitzung"
+        },
+        {
+          "surface": "протікання",
+          "hint": "протікання — das Auslaufen"
+        },
+        {
+          "surface": "корозію",
+          "hint": "корозія — die Korrosion"
+        },
+        {
+          "surface": "відсіку",
+          "hint": "відсік — das Fach"
+        },
+        {
+          "surface": "пошкодження",
+          "hint": "пошкодження — die Beschädigung"
+        },
+        {
+          "surface": "поєднувати",
+          "hint": "поєднувати — kombinieren"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/342/tsn-1284f5ef/thumbs/608xX/9c/5d/18e0223fe31b9850a0bf151790fb5d9c.jpg",
+      "publishedAt": "2026-09-25T07:22:19.000Z",
+      "processedAt": "2026-09-25T07:42:13.677Z"
+    },
     {
       "id": "32ae6788",
       "originalTitle": "Життя перемагає смерть: у пошкодженому пологовому Києва під вибухи з’явився на світ малюк (оновлено, відео)",
