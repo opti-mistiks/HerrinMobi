@@ -2,13 +2,6 @@ const https = require("https");
 
 const MODEL = "openai/gpt-oss-120b";
 
-// TSN gets its own Groq API key when GROQ_API_KEY_TSN is set. Groq's rate
-// limits (30 RPM / 1,000 RPD / 8K TPM / 200K TPD for this model, per
-// console.groq.com/docs/rate-limits) are per API key, not shared across
-// an account's models/pipelines — so a second key gives the TSN pipeline
-// its own independent 1,000 RPD budget instead of splitting one budget
-// with app/DE. Falls back to the main key if the TSN-specific one isn't
-// configured, so nothing breaks for anyone who hasn't set it up yet.
 const TSN_API_KEY = process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -35,26 +28,6 @@ function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
         const text = Buffer.concat(chunks).toString("utf8");
 
         if (res.statusCode === 429 && retries > 0) {
-          // Groq's Retry-After can be huge once you hit the DAILY quota
-          // (RPD/TPD), not just the per-minute one (RPM/TPM) — the log
-          // showed waits up to ~1.5M ms (25+ min) per single retry.
-          // Sleeping that long inline burns through the whole GitHub
-          // Actions job budget for one article, so cap the wait and fail
-          // fast instead of stalling for tens of minutes.
-          //
-          // Which limit was actually hit matters for what "giving up"
-          // even means here: x-ratelimit-remaining-requests is ALWAYS the
-          // daily (RPD) counter and x-ratelimit-remaining-tokens is ALWAYS
-          // the per-minute (TPM) one, per Groq's own docs — regardless of
-          // what the header *names* suggest. A remaining-requests of 0
-          // means the day's budget for this API key is genuinely gone
-          // (nothing this script does differently next run will help,
-          // short of using a different key or waiting for the daily
-          // reset); a low-but-nonzero remaining-tokens with remaining-
-          // requests still well above 0 means it was a TPM burst instead
-          // (a pacing problem, fixable by spacing requests out more).
-          // Surface which one it was so the log stops being ambiguous
-          // about which fix actually applies.
           const remainingRequests = res.headers["x-ratelimit-remaining-requests"];
           const remainingTokens = res.headers["x-ratelimit-remaining-tokens"];
           const isDailyExhausted = remainingRequests !== undefined && parseInt(remainingRequests, 10) <= 0;
@@ -63,7 +36,7 @@ function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
             : `per-minute (TPM) burst — remaining-tokens=${remainingTokens ?? "?"}, remaining-requests=${remainingRequests ?? "?"}`;
 
           const rawWait = parseFloat(res.headers["retry-after"] || "5") * 1000;
-          const MAX_WAIT_MS = 60000; // never sleep more than 60s on one retry
+          const MAX_WAIT_MS = 60000;
           if (rawWait > MAX_WAIT_MS) {
             reject(new Error(`Groq rate limit requests a ${Math.round(rawWait / 1000)}s wait — giving up (${limitKind})`));
             return;
@@ -91,31 +64,15 @@ function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
   });
 }
 
-
-// ─────────────────────────────────────────────────────────────────────────
-// Swiss orthography: Swiss High German has no "ß" — always "ss".
-// The prompt asks for it, but LLMs still slip, so this is enforced in code
-// as well (applied to title, text and every vocabulary hint).
-// ─────────────────────────────────────────────────────────────────────────
 function toSwiss(str) {
   if (!str) return str;
   return String(str)
     .replace(/ß/g, "ss").replace(/ẞ/g, "SS")
-    // Look-alike characters the model sometimes emits. They break exact
-    // matching between the text and the vocabulary list (e.g. "IT‑Leiterin"
-    // with a non-breaking hyphen never matched "IT-Leiterin").
-    .replace(/[\u2010\u2011\u2012\u2013]/g, "-")   // hyphens / en dash -> "-"
-    .replace(/[\u202F\u00A0\u2009]/g, " ")          // narrow / no-break spaces -> " "
-    .replace(/\u2019/g, "'");                        // curly apostrophe
+    .replace(/[\u2010\u2011\u2012\u2013]/g, "-")
+    .replace(/[\u202F\u00A0\u2009]/g, " ")
+    .replace(/\u2019/g, "'");
 }
 
-// ─────────────────────────────────────────────────────────────────────────
-// Category is decided ONCE per source article (not once per level), so the
-// same news item always shows the same tag on A1, A2 and B1. Previously
-// every level asked the model again and got e.g. "Politik" on A1 but
-// "Gesundheit" on A2 for the very same story.
-// Order matters: the first matching rule wins, most specific first.
-// ─────────────────────────────────────────────────────────────────────────
 const CATEGORIES = [
   "Wetter", "Politik", "Sport", "Wirtschaft", "Gesundheit",
   "Gesellschaft", "Verkehr", "Kultur", "Wissenschaft",
@@ -132,8 +89,6 @@ const CATEGORY_RULES = [
   ["Politik",      /\b(bundesrat|parlament|nationalrat|ständerat|regierung|abstimmung|initiative|wahl|wahlen|partei|svp|sp\b|fdp|mitte\b|grüne|gericht|urteil|bundesgericht|gesetz|verordnung|minister|präsident|eu\b|nato|krieg|ukraine|russland|putin|trump|usa|sanktion|asyl|migration)/i],
 ];
 
-// A source-specific hint from the RSS feed name is the fallback before the
-// generic "Gesellschaft" bucket.
 const SOURCE_CATEGORY = {
   "20min Sport": "Sport",
   "20min Entertainment": "Kultur",
@@ -143,7 +98,6 @@ const SOURCE_CATEGORY = {
 
 function detectCategory(article) {
   const hay = `${article.title || ""} ${(article.description || "").slice(0, 400)}`;
-  // Title counts double: it is the strongest signal of what the story is about.
   const title = article.title || "";
   for (const [cat, re] of CATEGORY_RULES) {
     if (re.test(title)) return cat;
@@ -154,20 +108,7 @@ function detectCategory(article) {
   return SOURCE_CATEGORY[article.source] || "Gesellschaft";
 }
 
-// ─────────────────────────────────────────────────────────────────────────
-// STORY CORE — resolved ONCE per source article and shared by A1, A2 and B1.
-//
-// Why: each level used to be a fully independent LLM call over the raw RSS
-// text, so the model was free to pick a different angle / different tag for
-// every level (Politik on A1, Gesundheit on A2 for the same story). Now one
-// short call decides the category AND writes a neutral "core" (the 1-2 facts
-// that every level must be about). All three level prompts get the same core,
-// so the topic cannot drift between levels.
-//
-// If this call fails, the keyword rules above are the fallback, so a Groq
-// hiccup never blocks an article — it just loses the smarter category.
-// ─────────────────────────────────────────────────────────────────────────
-const coreCache = new Map(); // key: article.title -> Promise<{category, core}>
+const coreCache = new Map();
 
 async function resolveStoryCore(article) {
   const key = article.title;
@@ -238,14 +179,7 @@ const LEVEL_CONFIG = {
 
 async function simplifyArticle(article, level) {
   const cfg = LEVEL_CONFIG[level];
-  // Decided once per source article — identical on A1/A2/B1 (see above).
   const { category, core } = await resolveStoryCore(article);
-  // resolveStoryCore and the simplify call below are two back-to-back Groq
-  // requests with nothing between them — against Groq's 30 RPM cap that's
-  // effectively 2x the intended rate for a brief burst. A small gap here
-  // (on top of the per-level/per-article pause in updateNews.js) keeps
-  // actual request spacing closer to what that outer pause is meant to
-  // provide.
   await sleep(1000);
   const cleanTitle = toSwiss(article.title);
 
@@ -321,13 +255,6 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
         model: MODEL,
         temperature: 0.1,
         max_tokens: 3000,
-        // "low" reasoning effort occasionally makes the model split
-        // simplified_text_deu into multiple quoted fragments joined by
-        // commas instead of one string (json_validate_failed — observed
-        // on "Klimawandel... Aletschgletscher"). "medium" gives it enough
-        // room to actually assemble one valid string, same fix already
-        // applied to the TSN Ukrainian pipeline above. The retry loop
-        // below still covers the rare remaining failure.
         reasoning_effort: "medium",
         response_format: { type: "json_object" },
         messages: [
@@ -342,12 +269,6 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
       try {
         parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
       } catch {
-        // The model sometimes emits simplified_text_deu as several
-        // comma-separated quoted fragments instead of one string, e.g.
-        // "simplified_text_deu":"A.","B.","C.","vocabulary":[...] — which
-        // is invalid JSON. Recover by merging any such leading string
-        // fragments back into one string before parsing again, instead of
-        // just failing straight to a retry.
         const merged = raw.replace(
           /"simplified_text_deu"\s*:\s*((?:"(?:[^"\\]|\\.)*"\s*,\s*)+"(?:[^"\\]|\\.)*")\s*,\s*"vocabulary"/,
           (_, fragments) => {
@@ -363,7 +284,6 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
         throw new Error("Missing required fields in parsed JSON");
       }
 
-      // Hard guarantee of Swiss spelling regardless of what the model did.
       const text = toSwiss(parsed.simplified_text_deu).trim();
       const { hints, words } = buildVocabulary(parsed.vocabulary, text);
 
@@ -372,8 +292,6 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
         originalTitle:   cleanTitle,
         simplifiedText:  text,
         vocabularyHints: hints,
-        // Exact in-text forms to render bold + tappable in the app.
-        // Kept SEPARATE from vocabularyHints so older app builds keep working.
         vocabularyWords: words,
         category:        category,
         imageUrl:        article.imageUrl || null,
@@ -390,13 +308,18 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
   throw lastErr;
 }
 
-// Turns the model's vocabulary objects into:
-//   hints: ["die Wahl, -en — вибори", ...]     (the existing list format)
-//   words: [{ surface, hint }, ...]             (surface = exact form in text;
-//                                                hint  = the full hint line, so the
-//                                                app can highlight the matching row)
-// A word is kept in `words` only if its surface really occurs in the text as a
-// whole word — otherwise it could never be bolded, and would just be dead data.
+// Shared by both buildVocabulary() (DE) and buildVocabularyUkrainian() (UK):
+// a "word" with no actual letters in it — a bare number, a temperature
+// range like "+10-+13", a date, a percentage — is never something a
+// vocabulary hint should cover; the model occasionally still emits one
+// (the two sides can differ enough in formatting, e.g. "+10-+13 °C" vs
+// "+10 bis +13 °C", to slip past the lemma===translation-string check).
+// Filtered here once, in code, rather than relying on the prompt to
+// reliably self-police it.
+function isLetterlessToken(str) {
+  return !/\p{L}/u.test(str);
+}
+
 function buildVocabulary(vocab, text) {
   const hints = [];
   const words = [];
@@ -409,8 +332,12 @@ function buildVocabulary(vocab, text) {
     const lemma   = toSwiss(String(v.lemma || v.surface || "")).trim();
     const ukr     = String(v.ukr || "").trim();
     if (!lemma || !ukr) continue;
-    // Guard against "die X — X" style non-translations.
     if (ukr.toLowerCase() === lemma.toLowerCase()) continue;
+    // A bare number/range/date has no place in a vocabulary list even if
+    // the model gave it a (usually trivial or self-referential) "ukr" —
+    // see isLetterlessToken() below for why this can't just rely on the
+    // lemma===translation check above.
+    if (isLetterlessToken(lemma)) continue;
 
     const hint = `${lemma} — ${ukr}`;
     if (!seenHint.has(hint)) {
@@ -424,10 +351,7 @@ function buildVocabulary(vocab, text) {
     words.push({ surface, hint });
   }
 
-  // Order everything by where the word first appears in the text, so the
-  // vocabulary list reads top-to-bottom in the same order as the article.
-  // Hints whose word could not be located keep their relative order at the end.
-  const pos = new Map(); // hint -> index in text
+  const pos = new Map();
   for (const w of words) {
     const m = new RegExp(`(^|[^\\p{L}])(${w.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})([^\\p{L}]|$)`, "iu").exec(text);
     if (m) pos.set(w.hint, m.index + m[1].length);
@@ -440,18 +364,9 @@ function buildVocabulary(vocab, text) {
 
 function containsWholeWord(text, word) {
   const esc = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  // Unicode-aware "whole word": not preceded/followed by a letter.
   return new RegExp(`(^|[^\\p{L}])${esc}([^\\p{L}]|$)`, "iu").test(text);
 }
 
-// Mirror of buildVocabulary() above, for the TSN (Ukrainian) pipeline.
-// The direction is reversed: `surface`/`lemma` are Ukrainian (found in the
-// Ukrainian article text the student reads), `deu` is the Swiss German word
-// the student will need when translating that word INTO German — so only
-// the German side goes through toSwiss(), and the hint line reads
-// "українське_слово — deutsches Wort" (Ukrainian first, matching how the
-// student encounters the word in the text, German second, what they'll
-// need to produce).
 function buildVocabularyUkrainian(vocab, text) {
   const hints = [];
   const words = [];
@@ -464,8 +379,8 @@ function buildVocabularyUkrainian(vocab, text) {
     const lemma   = String(v.lemma || v.surface || "").trim();
     const deu     = toSwiss(String(v.deu || "")).trim();
     if (!lemma || !deu) continue;
-    // Guard against "слово — Слово" style non-translations.
     if (deu.toLowerCase() === lemma.toLowerCase()) continue;
+    if (isLetterlessToken(lemma)) continue;
 
     const hint = `${lemma} — ${deu}`;
     if (!seenHint.has(hint)) {
@@ -479,7 +394,7 @@ function buildVocabularyUkrainian(vocab, text) {
     words.push({ surface, hint });
   }
 
-  const pos = new Map(); // hint -> index in text
+  const pos = new Map();
   for (const w of words) {
     const m = new RegExp(`(^|[^\\p{L}])(${w.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})([^\\p{L}]|$)`, "iu").exec(text);
     if (m) pos.set(w.hint, m.index + m[1].length);
@@ -499,31 +414,21 @@ function generateId(title, level) {
   return Math.abs(hash).toString(16).padStart(8, "0");
 }
 
-// ─────────────────────────────────────────────────────────────────────────
-// TSN.ua PIPELINE — mirrors simplifyArticle above, but the source AND the
-// simplified text stay Ukrainian (no language change here). The student
-// reads this Ukrainian text and translates it INTO German themselves; that
-// attempt is checked client-side directly against this Ukrainian original
-// (see GroqService.checkNewsTranslationToGerman in the app) — mirroring how
-// the app/DE pipeline's own German text is checked directly against a
-// Ukrainian attempt, with no separately pre-generated reference translation
-// on either side.
-// ─────────────────────────────────────────────────────────────────────────
 const UK_LEVEL_CONFIG = {
   A1: {
     textInstruction: "Напиши 4-5 речень, приблизно 6-12 слів кожне, простою українською мовою: прості розповідні речення, теперішній/минулий час у звичайній формі, без складних підрядних речень (уникай 'який/яка/яке', 'оскільки', 'незважаючи на те що'). Пов'язуй речення природно словами 'і', 'але', 'потім', 'тому' — не пиши роботизований список фактів. Залиш лише 2-3 найважливіші факти статті (хто/що сталося, і одну ключову деталь: де/коли/скільки) — опускати другорядні деталі правильно на цьому рівні, але кожне речення має описувати щось, що дійсно Є в джерельній статті. Не вигадуй іншу, простішу побутову сценку лише тому, що реальну історію важко висловити простими словами.",
-    hintExclusions: "НІКОЛИ не додавай підказку для базових слів рівня A1: sein, haben, werden, machen, gehen, kommen, sehen, sagen, wollen, können, müssen; займенники; артиклі; числа; назви країн/міст; очевидні когнати з українською чи англійською.)",
-    hintGuidance: "Словник A1-студента малий, тож більшість не-базових слів справді будуть для нього новими — але й текст найкоротший (4-5 речень), тож підказок теж не буде багато, зазвичай близько 4-6 для тексту такої довжини.",
+    hintExclusions: "НІКОЛИ не додавай підказку для: чисел, дат, діапазонів чисел (\"+10-+13\", \"15-49\"), одиниць виміру (°C, мм, м/с), власних назв (імена людей, міст, регіонів, організацій — навіть якщо їхній німецький відповідник нетривіальний, напр. \"Черкащина\"); базових іменників щоденного побуту (дощ, вітер, вода, дім, час, день); базових прикметників (сильний, теплий, холодний, великий, малий); базових дієслів (бути, йти, мати, робити, казати, хотіти, могти, чекати).",
+    hintGuidance: "Словник A1-студента малий, тож більшість не-базових слів справді будуть для нього новими — але й текст найкоротший (4-5 речень), тож підказок теж не буде багато, зазвичай близько 4-6 для тексту такої довжини. Приклад ДОБРЕ: 'циклон', 'похолодання' — рідкісні, конкретні поняття. Приклад ПОГАНО: 'дощ', 'сильний', числа — базова щоденна лексика чи не-слова.",
   },
   A2: {
     textInstruction: "Напиши 5-7 речень, які читаються як природна, зв'язна міні-історія, а не список фактів. Можна використовувати прості підрядні речення з 'тому що', 'коли', 'хоча', порівняння ('більше/менше ніж'), і трохи більше побутової лексики. Залиш головні факти статті (хто, що сталося, ключові цифри/місця/причини) — можна спрощувати чи опускати другорядні деталі, але кожне речення має описувати щось, що дійсно Є в джерельній статті, а не вигадану простішу ситуацію.",
-    hintExclusions: "НІКОЛИ не додавай підказку для базових слів рівня A1-A2; назв країн/міст; очевидних когнатів.)",
-    hintGuidance: "Цей текст довший за A1 (5-7 речень) і сягає лексики рівня A2, тому очікуй помітно більше підказок, ніж на A1 — зазвичай близько 6-9.",
+    hintExclusions: "НІКОЛИ не додавай підказку для: чисел, дат, діапазонів чисел, одиниць виміру, власних назв; базових іменників/прикметників/дієслів рівня A1 (див. приклади A1 вище).",
+    hintGuidance: "Цей текст довший за A1 (5-7 речень) і сягає лексики рівня A2, тому очікуй ПОМІТНО більше підказок, ніж на A1 — зазвичай близько 8-12, а не 4-6. На цьому рівні НЕ пропускай звичайні дієслова/прислівники, яких немає в A1-словнику, лише тому що вони виглядають \"не дуже складними\" — вони все одно нові для студента, який щойно вивчив лише найбазовіші 150-200 слів. Приклад слів, які ОБОВ'ЯЗКОВО потребують підказки на A2, якщо вони є в тексті: 'поступово', 'очікуватися', 'почати/почнеться', 'триматися', 'прояснення', 'чергуватися' — усе це вже за межами A1, навіть якщо звучить не дуже рідкісно.",
   },
   B1: {
     textInstruction: "Напиши 7-9 речень як природну, плинну розповідь — варіюй довжину та структуру речень так, як це робить справжня коротка новина. Можна використовувати складніші підрядні речення, різні часи. Збережи ключові факти, цифри, імена та реальну послідовність/причинно-наслідкові зв'язки подій з оригіналу.",
-    hintExclusions: "НІКОЛИ не додавай підказку для слів, які будь-який B1-студент вже знає; очевидних когнатів.)",
-    hintGuidance: "Це найдовший і найскладніший текст (7-9 речень, реальна новинна лексика — політика, економіка, спеціалізовані терміни), тому він зазвичай матиме найбільше підказок з усіх трьох рівнів, часто 8-12 і більше. Додавай підказку для кожного слова тексту, яке B1-студенту справді знадобиться пояснити німецьким відповідником — не зупиняйся на круглому числі, якщо лексика тексту реально складніша.",
+    hintExclusions: "НІКОЛИ не додавай підказку для: чисел, дат, діапазонів чисел, одиниць виміру, власних назв; будь-якого слова з побутового щоденного словника, яке доросла людина використовує в звичайній розмові про погоду, сім'ю чи побут — приклади слів, для яких НІКОЛИ не буде підказки на B1: дощ, вітер, сильний, гроза, регіон, область, циклон, температура, північний/південний/східний/західний, тепло, холодно.",
+    hintGuidance: "На цьому рівні критерій СТРОГІШИЙ, ніж на A1/A2, а не слабший — довжина тексту не означає більше підказок. Підказка потрібна ЛИШЕ для слова, яке саме по собі рідкісне, спеціалізоване чи книжне в УКРАЇНСЬКІЙ мові (галузева термінологія — метеорологічна, медична, юридична, фінансова; рідковживані книжні дієслова/іменники). Приклад ДОБРЕ: 'шквал', 'супроводжуватися', 'гідрометцентр' — справді рідкісні спеціалізовані слова. Приклад ПОГАНО: 'дощ', 'вітер', 'циклон', 'регіон' — це побутова лексика, яку будь-яка доросла людина знає, і на B1 такі слова НІКОЛИ не мають підказки, навіть якщо вони траплялись і в A1-тексті цієї ж статті. Якщо для конкретної статті таких дійсно рідкісних слів мало чи нема — список підказок може бути коротким (2-4 слова) або навіть порожнім, і це нормально.",
   },
 };
 
@@ -561,12 +466,16 @@ ${cfg.textInstruction}
 текст, але його завдання — самостійно перекласти його НІМЕЦЬКОЮ (рівень
 ${level}, швейцарська німецька, "ss" замість "ß"). Тому підказки тут — це
 НЕ пояснення українських слів (текст і так рідною мовою студента), а
-підказки НІМЕЦЬКОГО слова, яке знадобиться студенту під час перекладу.
+підказки НІМЕЦЬКОГО слова, яке знадобиться студенту під час перекладу —
+зокрема, для іменників це ОБОВ'ЯЗКОВО означає показати правильний артикль
+("der/die/das"), який неможливо вгадати, лише знаючи українське слово.
 - Пройдись по своєму спрощеному тексту і для кожного українського слова
   чи виразу, якому відповідає НІМЕЦЬКЕ слово, що ${level}-студент, ймовірно,
   НЕ знає, НЕ пам'ятає, або яке є рідковживаним/складним — додай підказку.
-- НЕ додавай підказку, якщо очікуваний німецький відповідник базовий,
-  дуже частотний або totally cognate/очевидний на цьому рівні (${cfg.hintExclusions}
+- НІКОЛИ не додавай підказку для чисел, дат, діапазонів чисел
+  (наприклад "+10-+13", "15-49") чи одиниць виміру (°C, мм, м/с) —
+  це не словникові слова, і студенту не потрібен їхній "переклад".
+- ${cfg.hintExclusions}
 - Do NOT target a fixed count. ${cfg.hintGuidance} Правильна кількість —
   саме стільки, скільки слів у ЦЬОМУ тексті реально відповідають цьому
   критерію — може відрізнятись від статті до статті.
@@ -597,25 +506,7 @@ Return ONLY valid JSON, nothing else:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        // Was 2000, then 3000 (matched to simplifyArticle()'s DE limit).
-        // 3000 fixed A1/A2 but B1 kept truncating (json_validate_failed /
-        // "max completion tokens reached") even though DE's own B1 at the
-        // same 3000 limit was fine. Cause: Cyrillic under this model's BPE
-        // tokenizer runs noticeably more tokens per character than Latin
-        // script (most BPE vocabularies are trained disproportionately on
-        // Latin-script text) — so a Ukrainian B1 text + its vocabulary
-        // array (surface/lemma both Cyrillic, 8-12+ entries per the
-        // B1 hintGuidance above) costs more completion tokens than the
-        // equivalent-length German output, even though the UK text is
-        // often shorter in characters. 4000 gives real headroom for that.
         max_tokens: 4000,
-        // "low" reasoning effort occasionally returns a fully empty
-        // completion for this call (json_validate_failed, empty
-        // failed_generation) on certain inputs — observed on a short,
-        // non-hard-news article (a cooking tip). "medium" gives the model
-        // enough room to actually produce the JSON instead of truncating
-        // to nothing; the retry loop below still covers the rare
-        // remaining failure.
         reasoning_effort: "medium",
         response_format: { type: "json_object" },
         messages: [
@@ -641,13 +532,6 @@ Return ONLY valid JSON, nothing else:
   throw lastErr;
 }
 
-// TSN's own editorial category (article.category, from rssParser's
-// extractCategory) is more reliable than a keyword guess — it's the real
-// section TSN filed the piece under, already used upstream to filter the
-// feed down to our 5 allowed sections. Map it straight to the app's
-// existing category set (same CATEGORIES used for German/20min articles,
-// so category chips/colors stay unified across both sources) instead of
-// re-detecting from text.
 const UK_CATEGORY_MAP = {
   "Україна":        "Politik",
   "Київ":           "Politik",
@@ -664,10 +548,6 @@ const UK_CATEGORY_MAP = {
   "Різне":          "Gesellschaft",
 };
 
-// Keyword fallback — only used if article.category is missing/unmapped
-// (shouldn't normally happen since rssParser already filters on it), kept
-// so the pipeline never crashes on an edge case rather than for everyday
-// use.
 const UK_CATEGORY_RULES = [
   ["Wissenschaft", /\b(дослідник|дослідженн|наук|університет|космос|планет|ген\b|днк|експеримент|відкритт|штучн(ий|ого) інтелект|технологі|робот)/i],
   ["Politik",      /\b(уряд|парламент|рад[аи]|верховн|вибори|парті[яї]|суд\b|закон|президент|міністр|війн|росі[яїю]|путін|санкці|мігра)/i],
@@ -685,14 +565,6 @@ function detectCategoryUkrainian(article) {
   return "Gesellschaft";
 }
 
-// The internal category codes above (Politik/Gesellschaft/Wissenschaft/...)
-// are the same taxonomy used for the German/20min articles, kept as the
-// canonical set for consistency (colors, grouping). But TSN articles are
-// Ukrainian news for a Ukrainian-reading student — the label actually shown
-// in the UI (the "pill" over the article) must be Ukrainian too, not the
-// internal German code name. This maps the internal code to its Ukrainian
-// display label; used only at the point where `category` is written into
-// the TSN article record.
 const UK_CATEGORY_LABELS = {
   Wetter:        "Погода",
   Politik:       "Політика",
@@ -708,20 +580,13 @@ const UK_CATEGORY_LABELS = {
 async function simplifyTsnArticle(article, level) {
   const { text: simplifiedUkr, vocabulary } = await simplifyArticleUkrainian(article, level);
   const internalCategory = detectCategoryUkrainian(article);
-  // "surface"/"lemma" from the model are Ukrainian (found in simplifiedUkr);
-  // only the "deu" side is Swiss German and needs the toSwiss() pass —
-  // buildVocabularyUkrainian() applies it to the right field.
   const { hints, words } = buildVocabularyUkrainian(vocabulary, simplifiedUkr);
   return {
     id:               generateId(`tsn:${article.title}`, level),
     originalTitle:    String(article.title || "").trim(),
-    simplifiedText:   simplifiedUkr,       // Ukrainian — what the student reads
-    vocabularyHints:  hints,               // "укр_слово — deutsches Wort"
-    vocabularyWords:  words,               // exact in-text Ukrainian forms to bold/tap
-    // Ukrainian label for display (the article is Ukrainian news for a
-    // Ukrainian-reading student) — see UK_CATEGORY_LABELS above. Falls back
-    // to the internal code itself in the unlikely case a new internal
-    // category is ever added here without a matching label.
+    simplifiedText:   simplifiedUkr,
+    vocabularyHints:  hints,
+    vocabularyWords:  words,
     category:         UK_CATEGORY_LABELS[internalCategory] || internalCategory,
     imageUrl:         article.imageUrl || null,
     publishedAt:      article.pubDate || null,
