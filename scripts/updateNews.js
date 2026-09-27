@@ -1,7 +1,7 @@
 const fs   = require("fs");
 const path = require("path");
 const { parseRSSFeeds, fetchOgImage, parseTsnFeed } = require("./rssParser");
-const { simplifyArticle, toSwiss, simplifyTsnArticle } = require("./groqService");
+const { simplifyArticle, toSwiss, simplifyTsnArticle, translateHintsToRussian, translateTsnToRussian } = require("./groqService");
 
 const DB_PATH       = path.join(__dirname, "..", "data", "articles.json");
 const LEVELS        = ["A1", "A2", "B1"];
@@ -73,6 +73,24 @@ function collectRotationKeys(prefix, fallback) {
 const DE_ROTATION_KEYS  = collectRotationKeys("GROQ_API_KEY_DE", process.env.GROQ_API_KEY);
 const TSN_ROTATION_KEYS = collectRotationKeys("GROQ_API_KEY_TSN", process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY);
 
+// ─────────────────────────────────────────────────────────────────
+// Russian translation pass — runs once, after DE+TSN generation, over
+// just the articles freshly generated THIS run (not the whole DB). Its
+// own key (GROQ_API_KEY_RU — singular, one account) is tried first; when
+// it hits a limit (429 TPM burst, RPD exhaustion, or 413 too-large), we
+// fall back through the DE/TSN keys IN THE ORDER THEY WERE USED EARLIER
+// IN THIS SAME RUN — i.e. the ones that have had the longest time to
+// "cool down" since their last call, oldest-used first: DE_1, DE_2, DE_3
+// (used first, early in the run), then TSN_1, TSN_2, TSN_3 (used more
+// recently, right before this pass starts). Once a fallback key is
+// picked, we STAY on it for the rest of the run rather than retrying
+// GROQ_API_KEY_RU on every subsequent article — a key that just hit a
+// per-minute TPM ceiling won't have recovered by the next article a few
+// seconds later, so retrying it every time just burns an extra failed
+// request (and RPD) each time for no benefit.
+const RU_KEY = process.env.GROQ_API_KEY_RU;
+const RU_FALLBACK_CHAIN = [RU_KEY, ...DE_ROTATION_KEYS, ...TSN_ROTATION_KEYS].filter(Boolean);
+
 // Returns the Groq key that article #articleIndex (0-based, in processing
 // order) should use: key 0 for articles 0..ARTICLES_PER_KEY-1, key 1 for
 // the next ARTICLES_PER_KEY, and so on, wrapping around if there are more
@@ -84,6 +102,82 @@ function keyForArticleIndex(rotationKeys, articleIndex) {
 }
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// Runs one Groq call via the RU fallback chain, starting at
+// `startIdx` (an index into RU_FALLBACK_CHAIN) and staying on that key
+// for every call — advancing to the next key in the chain only when the
+// current one actually fails. Returns { result, nextIdx } so the caller
+// can carry the "stay on this key" state forward to the next article.
+async function runWithRuFallback(chain, startIdx, fn) {
+  let idx = startIdx;
+  let lastErr;
+  while (idx < chain.length) {
+    try {
+      const result = await fn(chain[idx]);
+      return { result, nextIdx: idx };
+    } catch (err) {
+      lastErr = err;
+      console.warn(`  ⚠️  [RU] Key #${idx + 1}/${chain.length} failed (${err.message}) — advancing to next key in fallback chain.`);
+      idx++;
+    }
+  }
+  throw lastErr || new Error("RU fallback chain exhausted with no keys configured");
+}
+
+// Russian translation pass for this run's freshly generated articles only
+// (never the whole DB — see comment on RU_FALLBACK_CHAIN above for why).
+// `deArticles`/`tsnArticles` are the { level -> article } results just
+// produced by the app/DE and TSN loops in main(), keyed the same way the
+// DB stores them, so we know exactly which entries to add RU fields to
+// without touching anything older already in db[level]/db[tsnKey].
+async function processRuTranslation(db, deResults, tsnResults) {
+  if (RU_FALLBACK_CHAIN.length === 0) {
+    console.warn("⚠️  No GROQ_API_KEY_RU (or DE/TSN fallback) configured — skipping Russian translation pass.");
+    return { processed: 0, failed: 0 };
+  }
+
+  let processed = 0, failed = 0;
+  let keyIdx = 0; // stays put across articles unless the current key fails
+
+  // DE articles: translate only the vocabulary hints, text stays German.
+  for (const { level, article } of deResults) {
+    try {
+      const { result: hintsRu, nextIdx } = await runWithRuFallback(
+        RU_FALLBACK_CHAIN, keyIdx,
+        (key) => translateHintsToRussian(article.vocabularyHints, key)
+      );
+      keyIdx = nextIdx;
+      article.vocabularyHintsRu = hintsRu;
+      processed++;
+    } catch (err) {
+      console.error(`  ❌ [RU][DE ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
+      failed++;
+    }
+    saveDB(db);
+    await sleep(20000);
+  }
+
+  // TSN articles: translate the full text + hints together (one call).
+  for (const { level, article } of tsnResults) {
+    try {
+      const { result, nextIdx } = await runWithRuFallback(
+        RU_FALLBACK_CHAIN, keyIdx,
+        (key) => translateTsnToRussian(article.simplifiedText, article.vocabularyHints, key)
+      );
+      keyIdx = nextIdx;
+      article.simplifiedTextRu  = result.textRu;
+      article.vocabularyHintsRu = result.hintsRu;
+      processed++;
+    } catch (err) {
+      console.error(`  ❌ [RU][TSN ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
+      failed++;
+    }
+    saveDB(db);
+    await sleep(20000);
+  }
+
+  return { processed, failed };
+}
 
 function loadDB() {
   if (!fs.existsSync(DB_PATH)) return {};
@@ -223,6 +317,7 @@ async function processTsn(db) {
 
   let processed = 0;
   let failed = 0;
+  const freshArticles = []; // { level, article } for the RU pass — same objects as in db[dbKey]
   // If Groq's quota is exhausted, every single article will fail the
   // same way for the rest of this run (confirmed by logs: once it starts,
   // it doesn't recover mid-run) — burning through the whole article list
@@ -255,6 +350,7 @@ async function processTsn(db) {
         if (db[dbKey].length > MAX_PER_LEVEL_TSN) {
           db[dbKey] = db[dbKey].slice(0, MAX_PER_LEVEL_TSN);
         }
+        freshArticles.push({ level, article: result });
 
         saveDB(db);
         processed++;
@@ -281,7 +377,7 @@ async function processTsn(db) {
     }
   }
 
-  return { processed, failed };
+  return { processed, failed, freshArticles };
 }
 
 async function main() {
@@ -338,7 +434,8 @@ async function main() {
 
   let processed = 0;
   let failed    = 0;
-  let tsnResult = { processed: 0, failed: 0 };
+  let tsnResult = { processed: 0, failed: 0, freshArticles: [] };
+  const deFreshArticles = []; // { level, article } for the RU pass — same objects as in db[level]
   // Same early-bail logic as processTsn() above — see its comment.
   let quotaFailStreak = 0;
   const QUOTA_FAIL_BAIL_THRESHOLD = 3;
@@ -370,6 +467,7 @@ async function main() {
         if (db[level].length > MAX_PER_LEVEL) {
           db[level] = db[level].slice(0, MAX_PER_LEVEL);
         }
+        deFreshArticles.push({ level, article: result });
 
         // Зберігаємо після кожної статті — щоб не втратити при помилці
         saveDB(db);
@@ -410,11 +508,20 @@ async function main() {
   // dedupe/counters above, runs regardless of whether app/DE had anything new.
   tsnResult = await processTsn(db);
 
+  // Russian translation pass — only over this run's freshly generated
+  // articles (deFreshArticles from the DE loop above, tsnResult.freshArticles
+  // from TSN), never the whole existing DB. See processRuTranslation's own
+  // comment for why: re-translating everything already in articles.json
+  // every run would be both wasteful and unnecessary (older articles simply
+  // stay without RU fields, same as they lack any other field added later).
+  const ruResult = await processRuTranslation(db, deFreshArticles, tsnResult.freshArticles || []);
+
   db.updatedAt = new Date().toISOString();
   saveDB(db);
 
   console.log(`\n✅ Done! App/DE — Processed: ${processed}, Failed: ${failed}`);
   console.log(`✅ TSN — Processed: ${tsnResult.processed}, Failed: ${tsnResult.failed}`);
+  console.log(`✅ RU translation — Processed: ${ruResult.processed}, Failed: ${ruResult.failed}`);
   console.log(`📊 DB: A1=${db.A1?.length||0}, A2=${db.A2?.length||0}, B1=${db.B1?.length||0}, ` +
               `tsnA1=${db.tsnA1?.length||0}, tsnA2=${db.tsnA2?.length||0}, tsnB1=${db.tsnB1?.length||0}`);
 
