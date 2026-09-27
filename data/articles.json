@@ -1,6 +1,413 @@
 {
   "A1": [
     {
+      "id": "17dac24b",
+      "originalTitle": "Nordirland-Konflikt - Oranier-Marsch in Portadown: Alte Wunden reissen auf",
+      "simplifiedText": "In Portadown haben Gegendemonstranten den Marsch gestoppt. Der Oranier-Orden will durch die Stadt ziehen. Viele Menschen haben laut protestiert und blockiert. Die Polizei ist vor Ort und beobachtet. Der Marsch konnte nicht in Portadown stattfinden.",
+      "vocabularyHints": [
+        "die Gegendemonstrantin — протидемонстранти",
+        "der Marsch — марш",
+        "stoppen — зупинити",
+        "der Oranier-Orden — Орден Оранжер",
+        "ziehen — тягнути",
+        "protestieren — протестувати",
+        "blockieren — блокувати",
+        "beobachten — спостерігати",
+        "stattfinden — відбуватися"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Gegendemonstranten",
+          "hint": "die Gegendemonstrantin — протидемонстранти"
+        },
+        {
+          "surface": "Marsch",
+          "hint": "der Marsch — марш"
+        },
+        {
+          "surface": "gestoppt",
+          "hint": "stoppen — зупинити"
+        },
+        {
+          "surface": "Oranier-Orden",
+          "hint": "der Oranier-Orden — Орден Оранжер"
+        },
+        {
+          "surface": "ziehen",
+          "hint": "ziehen — тягнути"
+        },
+        {
+          "surface": "protestiert",
+          "hint": "protestieren — протестувати"
+        },
+        {
+          "surface": "blockiert",
+          "hint": "blockieren — блокувати"
+        },
+        {
+          "surface": "beobachtet",
+          "hint": "beobachten — спостерігати"
+        },
+        {
+          "surface": "stattfinden",
+          "hint": "stattfinden — відбуватися"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/a2c939d.jpg",
+      "publishedAt": "2026-09-27T17:22:43.000Z",
+      "processedAt": "2026-09-27T19:37:38.467Z"
+    },
+    {
+      "id": "1769bbe6",
+      "originalTitle": "Nein zu Neutralitätsinitiative - Möchte das Stimmvolk gar keine Neutralität, Herr Bundesrat?",
+      "simplifiedText": "Ignazio Cassis spricht über die Abstimmung am Sonntag. Er sagt, die Schweiz ist neutral. Er fasst das Ergebnis der Abstimmung zusammen. Die Mehrheit hat gegen die Initiative gestimmt. Die Schweiz bleibt neutral, sagt der Bundesrat.",
+      "vocabularyHints": [
+        "Cassis — Ігнаціо Кассіс",
+        "die Abstimmung, -en — голосування",
+        "neutral — нейтральний",
+        "fassen — підсумовує",
+        "das Ergebnis, -e — результат",
+        "die Mehrheit, -en — більшість",
+        "die Initiative, -n — ініціатива",
+        "stimmen — проголосував",
+        "der Bundesrat — Федеральна рада"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Cassis",
+          "hint": "Cassis — Ігнаціо Кассіс"
+        },
+        {
+          "surface": "Abstimmung",
+          "hint": "die Abstimmung, -en — голосування"
+        },
+        {
+          "surface": "neutral",
+          "hint": "neutral — нейтральний"
+        },
+        {
+          "surface": "fasst",
+          "hint": "fassen — підсумовує"
+        },
+        {
+          "surface": "Ergebnis",
+          "hint": "das Ergebnis, -e — результат"
+        },
+        {
+          "surface": "Mehrheit",
+          "hint": "die Mehrheit, -en — більшість"
+        },
+        {
+          "surface": "Initiative",
+          "hint": "die Initiative, -n — ініціатива"
+        },
+        {
+          "surface": "gestimmt",
+          "hint": "stimmen — проголосував"
+        },
+        {
+          "surface": "Bundesrat",
+          "hint": "der Bundesrat — Федеральна рада"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/8e8f646.jpg",
+      "publishedAt": "2026-09-27T17:26:03.000Z",
+      "processedAt": "2026-09-27T19:36:16.597Z"
+    },
+    {
+      "id": "5ab8d762",
+      "originalTitle": "50 Jahre kult.kino Basel - Vom Filmclub-Saal zu einem der letzten Lichtspielhäuser in Basel",
+      "simplifiedText": "Das kult.kino Basel feiert 50 Jahre. Es ist früher ein Liebhaber-Haus gewesen. Heute hat das kult.kino sieben Säle. Es zeigt jetzt Blockbuster-Filme für alle.",
+      "vocabularyHints": [
+        "kult.kino — кінотеатр kult.kino",
+        "Liebhaber-Haus — любительський кінотеатр",
+        "Saal — зали",
+        "Blockbuster-Film — блокбастер‑фільм"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "kult.kino",
+          "hint": "kult.kino — кінотеатр kult.kino"
+        },
+        {
+          "surface": "Liebhaber-Haus",
+          "hint": "Liebhaber-Haus — любительський кінотеатр"
+        },
+        {
+          "surface": "Säle",
+          "hint": "Saal — зали"
+        },
+        {
+          "surface": "Blockbuster-Filme",
+          "hint": "Blockbuster-Film — блокбастер‑фільм"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/e4ec48.jpg",
+      "publishedAt": "2026-09-27T17:42:47.000Z",
+      "processedAt": "2026-09-27T19:34:57.212Z"
+    },
+    {
+      "id": "655e0d97",
+      "originalTitle": "Wegen seiner Liebe: Fussball-Star kassiert Fahrverbot bis 2099",
+      "simplifiedText": "Mauro Icardi bekommt in Argentinien ein Fahrverbot. Das Verbot gilt bis zum Jahr 2099. Er sagt, das ist Schikane für ihn. Ein Video im Internet fordert die Behörden. Die Behörden planen eine Strafe für den Spieler.",
+      "vocabularyHints": [
+        "das Fahrverbot — заборона водіння",
+        "die Schikane — переслідування",
+        "fordern — вимагати",
+        "die Behörde — влада",
+        "planen — планувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Fahrverbot",
+          "hint": "das Fahrverbot — заборона водіння"
+        },
+        {
+          "surface": "Schikane",
+          "hint": "die Schikane — переслідування"
+        },
+        {
+          "surface": "fordert",
+          "hint": "fordern — вимагати"
+        },
+        {
+          "surface": "Behörden",
+          "hint": "die Behörde — влада"
+        },
+        {
+          "surface": "planen",
+          "hint": "planen — планувати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/27/1f9b41f2-d606-4419-9ca0-fe9f42b55711.jpg?s=c3beb16b9d885342c0a65d54ad1f7887",
+      "publishedAt": "2026-09-27T18:28:07.000Z",
+      "processedAt": "2026-09-27T19:33:28.384Z"
+    },
+    {
+      "id": "3833c729",
+      "originalTitle": "Zwei Initiativen versenkt - Doppeltes Nein und dreifache Freude in der Präsidentenrunde",
+      "simplifiedText": "Marcel Dettling ist Präsident der SVP. Er hat das Nein zur Neutralitätsinitiative erhalten. Das Nein schmerzt ihn sehr wirklich. Viele Menschen fühlen sich erleichtert und freuen sich. Die Stimmung ist jetzt gemischt und ruhig.",
+      "vocabularyHints": [
+        "der Präsident — президент",
+        "SVP — ШВП (Schweizerische Volkspartei)",
+        "die Neutralitätsinitiative — ініціатива нейтральності",
+        "schmerzen — болить, завдавати болю",
+        "erleichtern — полегшувати, полегшений",
+        "gemischt — змішаний, неоднозначний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Präsident",
+          "hint": "der Präsident — президент"
+        },
+        {
+          "surface": "SVP",
+          "hint": "SVP — ШВП (Schweizerische Volkspartei)"
+        },
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative — ініціатива нейтральності"
+        },
+        {
+          "surface": "schmerzt",
+          "hint": "schmerzen — болить, завдавати болю"
+        },
+        {
+          "surface": "erleichtert",
+          "hint": "erleichtern — полегшувати, полегшений"
+        },
+        {
+          "surface": "gemischt",
+          "hint": "gemischt — змішаний, неоднозначний"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/efd4b5.jpg",
+      "publishedAt": "2026-09-27T18:28:55.000Z",
+      "processedAt": "2026-09-27T19:32:11.545Z"
+    },
+    {
+      "id": "79b73c37",
+      "originalTitle": "Terrorverdacht in England - Anschlag auf britischen US-Stützpunkt geplant: 5 Männer verhaftet",
+      "simplifiedText": "Fünf Männer sind von der Polizei verhaftet worden. Die Männer sollen einen Terroranschlag planen. Der Anschlag soll ein US-Stützpunkt treffen. Der Vorfall ist in England passiert.",
+      "vocabularyHints": [
+        "verhaften — арештувати",
+        "der Terroranschlag — терористичний акт",
+        "planen — планувати",
+        "der US-Stützpunkt — американська військова база",
+        "der Vorfall — подія"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "verhaftet",
+          "hint": "verhaften — арештувати"
+        },
+        {
+          "surface": "Terroranschlag",
+          "hint": "der Terroranschlag — терористичний акт"
+        },
+        {
+          "surface": "planen",
+          "hint": "planen — планувати"
+        },
+        {
+          "surface": "US-Stützpunkt",
+          "hint": "der US-Stützpunkt — американська військова база"
+        },
+        {
+          "surface": "Vorfall",
+          "hint": "der Vorfall — подія"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/864a2d.jpg",
+      "publishedAt": "2026-09-27T18:56:14.000Z",
+      "processedAt": "2026-09-27T19:30:46.685Z"
+    },
+    {
+      "id": "0e1e98b3",
+      "originalTitle": "Baby Milow sollte sterben - ein Video brachte den Wendepunkt",
+      "simplifiedText": "Vater Dennis hat ein kurzes Video von Milow gesehen. Im Video strampelt sein schwer kranker Sohn. Dennis will weiterkämpfen und nach Hilfe suchen. Die Familie hat eine Behandlungsmöglichkeit in Seoul gefunden.",
+      "vocabularyHints": [
+        "strampeln — крутити педалі",
+        "weiterkämpfen — продовжувати боротися",
+        "Behandlungsmöglichkeit — можливість лікування"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "strampelt",
+          "hint": "strampeln — крутити педалі"
+        },
+        {
+          "surface": "weiterkämpfen",
+          "hint": "weiterkämpfen — продовжувати боротися"
+        },
+        {
+          "surface": "Behandlungsmöglichkeit",
+          "hint": "Behandlungsmöglichkeit — можливість лікування"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/09/27/32adf86c-84a8-452e-afdf-ae9cbac34eb1.webp?s=f555e28447d7abd9ff5ffd5102e3cc73",
+      "publishedAt": "2026-09-27T19:09:13.000Z",
+      "processedAt": "2026-09-27T19:29:27.886Z"
+    },
+    {
+      "id": "74cacfc0",
+      "originalTitle": "Krieg in der Ukraine - Wadephul zum Lawrow-Treffen: «Mit Gegnern muss man verhandeln»",
+      "simplifiedText": "Wadephul ist der deutsche Aussenminister von Berlin. Er hat mit Lawrow ein Gespräch geführt. Das Gespräch war für beide Seiten sinnvoll. Es hat aber keine Ergebnisse gebracht. Wadephul sagt, das war trotzdem wichtig.",
+      "vocabularyHints": [
+        "der Aussenminister — міністр закордонних справ",
+        "Lawrow — Лавров",
+        "das Gespräch — розмова",
+        "die Seite, -n — сторони",
+        "sinnvoll — корисний, доцільний",
+        "das Ergebnis, -se — результати",
+        "trotzdem — проте, все ж",
+        "wichtig — важливий"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Aussenminister",
+          "hint": "der Aussenminister — міністр закордонних справ"
+        },
+        {
+          "surface": "Lawrow",
+          "hint": "Lawrow — Лавров"
+        },
+        {
+          "surface": "Gespräch",
+          "hint": "das Gespräch — розмова"
+        },
+        {
+          "surface": "Seiten",
+          "hint": "die Seite, -n — сторони"
+        },
+        {
+          "surface": "sinnvoll",
+          "hint": "sinnvoll — корисний, доцільний"
+        },
+        {
+          "surface": "Ergebnisse",
+          "hint": "das Ergebnis, -se — результати"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте, все ж"
+        },
+        {
+          "surface": "wichtig",
+          "hint": "wichtig — важливий"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/76c318.jpg",
+      "publishedAt": "2026-09-27T19:09:19.000Z",
+      "processedAt": "2026-09-27T19:28:07.659Z"
+    },
+    {
+      "id": "44c3388b",
+      "originalTitle": "Regierungschef als Ziel - Serbiens Präsident Aleksandar Vucic zurückgetreten",
+      "simplifiedText": "Der Präsident von Serbien ist zurückgetreten. Er will bei der Wahl am 25. Oktober kandidieren. Er ist Spitzenkandidat seiner Partei bei der Wahl. Die Wahl findet im Oktober statt.",
+      "vocabularyHints": [
+        "der Präsident — президент",
+        "Serbien — Сербія",
+        "zurücktreten — покинути посаду",
+        "die Wahl, -en — вибори",
+        "Oktober — жовтень",
+        "kandidieren — балотуватися",
+        "der Spitzenkandidat — головний кандидат",
+        "die Partei — партія",
+        "finden — знаходити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Präsident",
+          "hint": "der Präsident — президент"
+        },
+        {
+          "surface": "Serbien",
+          "hint": "Serbien — Сербія"
+        },
+        {
+          "surface": "zurückgetreten",
+          "hint": "zurücktreten — покинути посаду"
+        },
+        {
+          "surface": "Wahl",
+          "hint": "die Wahl, -en — вибори"
+        },
+        {
+          "surface": "Oktober",
+          "hint": "Oktober — жовтень"
+        },
+        {
+          "surface": "kandidieren",
+          "hint": "kandidieren — балотуватися"
+        },
+        {
+          "surface": "Spitzenkandidat",
+          "hint": "der Spitzenkandidat — головний кандидат"
+        },
+        {
+          "surface": "Partei",
+          "hint": "die Partei — партія"
+        },
+        {
+          "surface": "findet",
+          "hint": "finden — знаходити"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/4a9d67b.jpg",
+      "publishedAt": "2026-09-27T19:16:58.000Z",
+      "processedAt": "2026-09-27T19:26:45.736Z"
+    },
+    {
       "id": "6b0592ad",
       "originalTitle": "«Das beste Team, das in den letzten 30 Jahren hier gespielt hat»",
       "simplifiedText": "Die Schweiz hat Nordmazedonien mit 3:0 besiegt. Das Spiel war der Nations-League-Auftakt letzte Woche. Der Trainer von Nordmazedonien lobt die Nati. Die Fans haben laut gejubelt und gefreut. Jetzt trainiert die Schweiz weiter für das nächste Spiel.",
@@ -352,7 +759,7 @@
       "simplifiedText": "Der Schiffsführer von der ZSG sagt, es gibt weniger Schiffe. Wegen des tiefen Wasserstands fahren weniger Schiffe auf dem Zürichsee. Der Kapitän hofft auf mehr Regen. Er betet jeden Tag für Regen. Die Schiffe fahren jetzt langsamer auf dem See.",
       "vocabularyHints": [
         "der Schiffsführer — капітан судна",
-        "die ZSG — Zürichsee‑Schifffahrtsgesellschaft",
+        "die ZSG — Zürichsee-Schifffahrtsgesellschaft",
         "weniger — менше",
         "tief — глибокий",
         "der Wasserstand — рівень води",
@@ -369,7 +776,7 @@
         },
         {
           "surface": "ZSG",
-          "hint": "die ZSG — Zürichsee‑Schifffahrtsgesellschaft"
+          "hint": "die ZSG — Zürichsee-Schifffahrtsgesellschaft"
         },
         {
           "surface": "weniger",
@@ -3863,6 +4270,523 @@
   ],
   "A2": [
     {
+      "id": "2a3c6b14",
+      "originalTitle": "Nordirland-Konflikt - Oranier-Marsch in Portadown: Alte Wunden reissen auf",
+      "simplifiedText": "Am Samstag hat der Oranier-Orden einen Marsch durch Portadown geplant. Viele Einwohner haben sich auf dem Marktplatz versammelt, weil sie die Parade provokativ fanden. Die Gegendemonstranten haben die Strasse vor dem Rathaus blockiert und die Polizisten haben versucht, den Marsch zu schützen. Trotzdem ist der Marsch nicht stattgefunden, weil die Demonstranten die Route gesperrt haben. Die Menschen vor Ort haben gesagt, die Menge war grösser als bei früheren Protesten. Die Stadt hat später angekündigt, zukünftige Veranstaltungen besser abzusprechen.",
+      "vocabularyHints": [
+        "der Oranier-Orden — Орден оранжерів",
+        "der Gegendemonstrant — протидемонстрант",
+        "das Rathaus — радна будівля",
+        "blockieren — блокувати",
+        "sperren — закривати",
+        "die Menge — натовп",
+        "die Proteste — протести",
+        "absprechen — домовлятися"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Oranier-Orden",
+          "hint": "der Oranier-Orden — Орден оранжерів"
+        },
+        {
+          "surface": "Gegendemonstranten",
+          "hint": "der Gegendemonstrant — протидемонстрант"
+        },
+        {
+          "surface": "Rathaus",
+          "hint": "das Rathaus — радна будівля"
+        },
+        {
+          "surface": "blockiert",
+          "hint": "blockieren — блокувати"
+        },
+        {
+          "surface": "gesperrt",
+          "hint": "sperren — закривати"
+        },
+        {
+          "surface": "Menge",
+          "hint": "die Menge — натовп"
+        },
+        {
+          "surface": "Protesten",
+          "hint": "die Proteste — протести"
+        },
+        {
+          "surface": "abzusprechen",
+          "hint": "absprechen — домовлятися"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/a2c939d.jpg",
+      "publishedAt": "2026-09-27T17:22:43.000Z",
+      "processedAt": "2026-09-27T19:38:04.223Z"
+    },
+    {
+      "id": "18d6107b",
+      "originalTitle": "Nein zu Neutralitätsinitiative - Möchte das Stimmvolk gar keine Neutralität, Herr Bundesrat?",
+      "simplifiedText": "Ignazio Cassis, der Bundesrat, hat am Sonntag die Abstimmung zur Neutralitätsinitiative zusammengefasst. Er hat betont, die Schweiz bleibt neutral, weil die Mehrheit Nein gesagt hat. Die Wahl war sehr wichtig, aber die Menschen haben sich für die alte Politik entschieden. Auf dem Stimmzettel stand die Frage, ob die Schweiz ihre Neutralität ändern soll, und die meisten haben Nein angekreuzt. Trotzdem bleibt die Schweiz neutraler als viele andere Länder in Europa. Cassis hat nach der Abstimmung mit den Medien telefoniert und erklärt, die Neutralität ist ein Teil der Identität. Ich hätte gern, wir leben weiterhin in Frieden.",
+      "vocabularyHints": [
+        "Bundesrat — член Федерального ради",
+        "Abstimmung — голосування",
+        "Neutralitätsinitiative — ініціатива нейтральності",
+        "zusammenfassen — підсумувати",
+        "betonen — підкреслювати",
+        "Stimmzettel — виборчий бюлетень",
+        "ankreuzen — позначити галочкою",
+        "neutral — нейтральніший",
+        "telefonieren — телефонувати",
+        "erklären — пояснювати",
+        "Identität — ідентичність",
+        "haben — мав би"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Bundesrat",
+          "hint": "Bundesrat — член Федерального ради"
+        },
+        {
+          "surface": "Abstimmung",
+          "hint": "Abstimmung — голосування"
+        },
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "Neutralitätsinitiative — ініціатива нейтральності"
+        },
+        {
+          "surface": "zusammengefasst",
+          "hint": "zusammenfassen — підсумувати"
+        },
+        {
+          "surface": "betont",
+          "hint": "betonen — підкреслювати"
+        },
+        {
+          "surface": "Stimmzettel",
+          "hint": "Stimmzettel — виборчий бюлетень"
+        },
+        {
+          "surface": "angekreuzt",
+          "hint": "ankreuzen — позначити галочкою"
+        },
+        {
+          "surface": "neutraler",
+          "hint": "neutral — нейтральніший"
+        },
+        {
+          "surface": "telefoniert",
+          "hint": "telefonieren — телефонувати"
+        },
+        {
+          "surface": "erklärt",
+          "hint": "erklären — пояснювати"
+        },
+        {
+          "surface": "Identität",
+          "hint": "Identität — ідентичність"
+        },
+        {
+          "surface": "hätte",
+          "hint": "haben — мав би"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/8e8f646.jpg",
+      "publishedAt": "2026-09-27T17:26:03.000Z",
+      "processedAt": "2026-09-27T19:36:42.818Z"
+    },
+    {
+      "id": "406433e3",
+      "originalTitle": "50 Jahre kult.kino Basel - Vom Filmclub-Saal zu einem der letzten Lichtspielhäuser in Basel",
+      "simplifiedText": "Das kult.kino Basel hat vor 50 Jahren als kleiner Filmclub-Saal begonnen. Es ist heute ein etabliertes Lichtspielhaus mit sieben Sälen. Das Kino zeigt jetzt auch Blockbuster, weil das Publikum grössere Filme wünscht. Trotzdem bleibt das kult.kino eines der letzten Lichtspielhäuser in Basel. Die Besucher sitzen gern in den Sälen, die grösser und komfortabler sind als die alten. Ich habe letzte Woche einen Film dort gesehen und war sehr zufrieden.",
+      "vocabularyHints": [
+        "der Filmclub-Saal, -e — кінофільм‑клубний зал",
+        "etablieren — встановлений, закріплений",
+        "das Lichtspielhaus, -häuser — традиційний кінотеатр",
+        "der Saal, -e — зали",
+        "der Blockbuster — блокбастер, великий комерційний фільм",
+        "das Lichtspielhaus, -häuser — традиційні кінотеатри",
+        "komfortabel — комфортний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Filmclub-Saal",
+          "hint": "der Filmclub-Saal, -e — кінофільм‑клубний зал"
+        },
+        {
+          "surface": "etabliertes",
+          "hint": "etablieren — встановлений, закріплений"
+        },
+        {
+          "surface": "Lichtspielhaus",
+          "hint": "das Lichtspielhaus, -häuser — традиційний кінотеатр"
+        },
+        {
+          "surface": "Sälen",
+          "hint": "der Saal, -e — зали"
+        },
+        {
+          "surface": "Blockbuster",
+          "hint": "der Blockbuster — блокбастер, великий комерційний фільм"
+        },
+        {
+          "surface": "Lichtspielhäuser",
+          "hint": "das Lichtspielhaus, -häuser — традиційні кінотеатри"
+        },
+        {
+          "surface": "komfortabler",
+          "hint": "komfortabel — комфортний"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/e4ec48.jpg",
+      "publishedAt": "2026-09-27T17:42:47.000Z",
+      "processedAt": "2026-09-27T19:35:23.958Z"
+    },
+    {
+      "id": "1902f648",
+      "originalTitle": "Wegen seiner Liebe: Fussball-Star kassiert Fahrverbot bis 2099",
+      "simplifiedText": "Mauro Icardi hat ein Video auf Social Media gepostet, das die Behörden aufmerksam gemacht hat. Die Behörden haben daraufhin ein Fahrverbot bis 2099 für ihn in Argentinien ausgestellt. Icardi sagt, er ist schikaniert, weil das Verbot sehr lange dauert. Er hat das Verbot als sehr ungerecht empfunden, aber er akzeptiert die Entscheidung. Trotzdem fährt er noch mit dem Auto, denn das Verbot gilt erst ab nächstem Monat. Er hat das Video auf seinem Handy angesehen, bevor er zur Arbeit gegangen ist. Er findet das Verbot härter als das, was andere Spieler bekommen haben.",
+      "vocabularyHints": [
+        "aufmerksam — уважний",
+        "das Fahrverbot, -e — заборона на водіння",
+        "ausstellen — виписати",
+        "schikanieren — знущатися",
+        "ungerecht — несправедливий",
+        "hart — жорсткіший"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "aufmerksam",
+          "hint": "aufmerksam — уважний"
+        },
+        {
+          "surface": "Fahrverbot",
+          "hint": "das Fahrverbot, -e — заборона на водіння"
+        },
+        {
+          "surface": "ausgestellt",
+          "hint": "ausstellen — виписати"
+        },
+        {
+          "surface": "schikaniert",
+          "hint": "schikanieren — знущатися"
+        },
+        {
+          "surface": "ungerecht",
+          "hint": "ungerecht — несправедливий"
+        },
+        {
+          "surface": "härter",
+          "hint": "hart — жорсткіший"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/27/1f9b41f2-d606-4419-9ca0-fe9f42b55711.jpg?s=c3beb16b9d885342c0a65d54ad1f7887",
+      "publishedAt": "2026-09-27T18:28:07.000Z",
+      "processedAt": "2026-09-27T19:34:00.399Z"
+    },
+    {
+      "id": "213b8c2a",
+      "originalTitle": "Zwei Initiativen versenkt - Doppeltes Nein und dreifache Freude in der Präsidentenrunde",
+      "simplifiedText": "SVP-Präsident Marcel Dettling hat das Nein zur Neutralitätsinitiative erhalten und war sehr enttäuscht. Er hat die Ablehnung schmerzlich gefunden, weil er lange dafür gekämpft hat. Trotzdem hat er versucht, ruhig zu bleiben und hat seine Gedanken mit den anderen Präsidenten geteilt. Die anderen Präsidenten haben sich gefreut, weil das Ergebnis für sie positiv war. Allgemein herrscht jetzt Erleichterung, denn die Mehrheit der Initiativen ist gescheitert. Viele Menschen haben die Diskussion im Fernsehen verfolgt und waren erleichtert, weil die Neutralität nicht gefährdet wird. Am Abend haben einige Politiker in der Runde noch ein Glas Wein getrunken, denn die Stimmung war noch etwas angespannt.",
+      "vocabularyHints": [
+        "die Neutralitätsinitiative, -en — ініціатива нейтральності",
+        "schmerzlich — болісний",
+        "kämpfen — боротися",
+        "teilen — ділити",
+        "herrschen — панувати",
+        "die Initiative, -en — ініціативи",
+        "scheitern — зазнав невдачі",
+        "verfolgen — стежити",
+        "erleichtern — полегшений",
+        "gefährden — загрожувати",
+        "angespannt — напружений"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative, -en — ініціатива нейтральності"
+        },
+        {
+          "surface": "schmerzlich",
+          "hint": "schmerzlich — болісний"
+        },
+        {
+          "surface": "gekämpft",
+          "hint": "kämpfen — боротися"
+        },
+        {
+          "surface": "geteilt",
+          "hint": "teilen — ділити"
+        },
+        {
+          "surface": "herrscht",
+          "hint": "herrschen — панувати"
+        },
+        {
+          "surface": "Initiativen",
+          "hint": "die Initiative, -en — ініціативи"
+        },
+        {
+          "surface": "gescheitert",
+          "hint": "scheitern — зазнав невдачі"
+        },
+        {
+          "surface": "verfolgt",
+          "hint": "verfolgen — стежити"
+        },
+        {
+          "surface": "erleichtert",
+          "hint": "erleichtern — полегшений"
+        },
+        {
+          "surface": "gefährdet",
+          "hint": "gefährden — загрожувати"
+        },
+        {
+          "surface": "angespannt",
+          "hint": "angespannt — напружений"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/efd4b5.jpg",
+      "publishedAt": "2026-09-27T18:28:55.000Z",
+      "processedAt": "2026-09-27T19:32:37.006Z"
+    },
+    {
+      "id": "5170fbf6",
+      "originalTitle": "Terrorverdacht in England - Anschlag auf britischen US-Stützpunkt geplant: 5 Männer verhaftet",
+      "simplifiedText": "Die Polizei hat fünf Männer in England verhaftet, weil sie verdächtigt werden, einen Terroranschlag auf einen britischen US-Stusspunkt zu planen. Der US-Stusspunkt liegt in Grossbritannien. Die Polizei hat die Männer sofort nach der Festnahme befragt und sie in Gewahrsam genommen. Die Behörden haben erklärt, sie halten die Männer wegen des Verdachts fest. Trotzdem hat die Polizei die Lage unter Kontrolle gehalten. Die Polizei hat die Öffentlichkeit über die Verhaftungen informiert, und die Ermittlungen gehen weiter.",
+      "vocabularyHints": [
+        "verhaften — арештувати",
+        "verdächtigen — підозрювати",
+        "der Terroranschlag, -e — терористичний акт",
+        "der US-Stusspunkt, -e — американський військовий пункт",
+        "der Gewahrsam, -e — арешт, під вартою",
+        "die Behörde, -n — влада, органи влади",
+        "die Öffentlichkeit, -en — громадськість",
+        "die Verhaftung, -en — арешти",
+        "die Ermittlung, -en — розслідування"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "verhaftet",
+          "hint": "verhaften — арештувати"
+        },
+        {
+          "surface": "verdächtigt",
+          "hint": "verdächtigen — підозрювати"
+        },
+        {
+          "surface": "Terroranschlag",
+          "hint": "der Terroranschlag, -e — терористичний акт"
+        },
+        {
+          "surface": "US-Stusspunkt",
+          "hint": "der US-Stusspunkt, -e — американський військовий пункт"
+        },
+        {
+          "surface": "Gewahrsam",
+          "hint": "der Gewahrsam, -e — арешт, під вартою"
+        },
+        {
+          "surface": "Behörden",
+          "hint": "die Behörde, -n — влада, органи влади"
+        },
+        {
+          "surface": "Öffentlichkeit",
+          "hint": "die Öffentlichkeit, -en — громадськість"
+        },
+        {
+          "surface": "Verhaftungen",
+          "hint": "die Verhaftung, -en — арешти"
+        },
+        {
+          "surface": "Ermittlungen",
+          "hint": "die Ermittlung, -en — розслідування"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/864a2d.jpg",
+      "publishedAt": "2026-09-27T18:56:14.000Z",
+      "processedAt": "2026-09-27T19:31:17.671Z"
+    },
+    {
+      "id": "5da2f7ae",
+      "originalTitle": "Baby Milow sollte sterben - ein Video brachte den Wendepunkt",
+      "simplifiedText": "Vater Dennis hat ein kurzes Video gesehen, in dem sein schwer kranker Sohn strampelt. Er hat sofort gemerkt, weil das Bild ihm Hoffnung gab. Er hat weiterkämpfen wollen. Deshalb hat er nach einer Behandlung gesucht und hat im Internet nach einer Klinik gesucht. Die Suche hat die Familie bis nach Seoul geführt, wo sie eine Spezialklinik gefunden haben. Sie sind mit dem Flugzeug nach Seoul geflogen, haben im Krankenhaus auf der Intensivstation sofort einen Termin bekommen und waren trotz der langen Reise erleichtert, weil die Ärzte sehr freundlich waren. Jetzt fühlt sich der Sohn ein bisschen besser als vorher, aber die Behandlung dauert noch.",
+      "vocabularyHints": [
+        "strampeln — тягнути педалі, крутити педалі, педалювати",
+        "weiterkämpfen — продовжувати боротися",
+        "die Spezialklinik, -en — спеціальна клініка",
+        "die Intensivstation, -en — відділення інтенсивної терапії",
+        "trotzdem — проте, незважаючи на це",
+        "erleichtert — полегшений, полегшення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "strampelt",
+          "hint": "strampeln — тягнути педалі, крутити педалі, педалювати"
+        },
+        {
+          "surface": "weiterkämpfen",
+          "hint": "weiterkämpfen — продовжувати боротися"
+        },
+        {
+          "surface": "Spezialklinik",
+          "hint": "die Spezialklinik, -en — спеціальна клініка"
+        },
+        {
+          "surface": "Intensivstation",
+          "hint": "die Intensivstation, -en — відділення інтенсивної терапії"
+        },
+        {
+          "surface": "trotz",
+          "hint": "trotzdem — проте, незважаючи на це"
+        },
+        {
+          "surface": "erleichtert",
+          "hint": "erleichtert — полегшений, полегшення"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/09/27/32adf86c-84a8-452e-afdf-ae9cbac34eb1.webp?s=f555e28447d7abd9ff5ffd5102e3cc73",
+      "publishedAt": "2026-09-27T19:09:13.000Z",
+      "processedAt": "2026-09-27T19:29:55.341Z"
+    },
+    {
+      "id": "0643be7f",
+      "originalTitle": "Krieg in der Ukraine - Wadephul zum Lawrow-Treffen: «Mit Gegnern muss man verhandeln»",
+      "simplifiedText": "Der deutsche Aussenminister Robert Wadephul hat sich in Berlin mit dem russischen Aussenminister Sergej Lawrow getroffen. Er hat über den Krieg in der Ukraine gesprochen. Wadephul hat gesagt, das Gespräch war sinnvoll, weil man mit Gegnern verhandeln muss. Trotzdem hat das Gespräch keine konkreten Ergebnisse gebracht. Er hat betont, man soll weiter im Dialog bleiben. Das Treffen war wichtiger als das vorherige, weil es neue Kontakte eröffnet hat. Wadephul hat danach ein Interview gegeben und seine Meinung noch einmal bestätigt.",
+      "vocabularyHints": [
+        "der Aussenminister — міністр закордонних справ",
+        "russisch — російський",
+        "verhandeln — переговорювати",
+        "konkret — конкретний",
+        "das Ergebnis, -e — результати",
+        "betonen — підкреслює",
+        "der Dialog, -e — діалог",
+        "der Kontakt, -e — контакти",
+        "eröffnen — відкриває",
+        "das Interview, -s — інтерв'ю",
+        "bestätigen — підтверджує"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Aussenminister",
+          "hint": "der Aussenminister — міністр закордонних справ"
+        },
+        {
+          "surface": "russischen",
+          "hint": "russisch — російський"
+        },
+        {
+          "surface": "verhandeln",
+          "hint": "verhandeln — переговорювати"
+        },
+        {
+          "surface": "konkreten",
+          "hint": "konkret — конкретний"
+        },
+        {
+          "surface": "Ergebnisse",
+          "hint": "das Ergebnis, -e — результати"
+        },
+        {
+          "surface": "betont",
+          "hint": "betonen — підкреслює"
+        },
+        {
+          "surface": "Dialog",
+          "hint": "der Dialog, -e — діалог"
+        },
+        {
+          "surface": "Kontakte",
+          "hint": "der Kontakt, -e — контакти"
+        },
+        {
+          "surface": "eröffnet",
+          "hint": "eröffnen — відкриває"
+        },
+        {
+          "surface": "Interview",
+          "hint": "das Interview, -s — інтерв'ю"
+        },
+        {
+          "surface": "bestätigt",
+          "hint": "bestätigen — підтверджує"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/76c318.jpg",
+      "publishedAt": "2026-09-27T19:09:19.000Z",
+      "processedAt": "2026-09-27T19:28:33.292Z"
+    },
+    {
+      "id": "2bc1e6ec",
+      "originalTitle": "Regierungschef als Ziel - Serbiens Präsident Aleksandar Vucic zurückgetreten",
+      "simplifiedText": "Serbiens Präsident Aleksandar Vucic hat gestern seinen Rücktritt erklärt. Er hat erklärt, weil er nicht mehr Ministerpräsident sein will. Trotzdem bleibt er wichtig für seine Partei. Vucic wird am 25. Oktober als Spitzenkandidat bei der vorgezogenen Parlamentswahl antreten. Die Medien haben die Entscheidung auf der Hauptstrasse berichtet. Viele Bürgerinnen und Bürger haben sich darüber gefreut, weil sie die Wahl als Chance sehen.",
+      "vocabularyHints": [
+        "der Rücktritt, -e — відставка",
+        "der Ministerpräsident, -en — міністр‑президент",
+        "trotzdem — проте",
+        "der Spitzenkandidat, -en — провідний кандидат",
+        "vorgezogen — передзапланований",
+        "die Parlamentswahl — парламентські вибори",
+        "die Entscheidung, -en — рішення",
+        "die Hauptstrasse — головна вулиця",
+        "berichten — повідомляв",
+        "sich freuen — радів"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Rücktritt",
+          "hint": "der Rücktritt, -e — відставка"
+        },
+        {
+          "surface": "Ministerpräsident",
+          "hint": "der Ministerpräsident, -en — міністр‑президент"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Spitzenkandidat",
+          "hint": "der Spitzenkandidat, -en — провідний кандидат"
+        },
+        {
+          "surface": "vorgezogenen",
+          "hint": "vorgezogen — передзапланований"
+        },
+        {
+          "surface": "Parlamentswahl",
+          "hint": "die Parlamentswahl — парламентські вибори"
+        },
+        {
+          "surface": "Entscheidung",
+          "hint": "die Entscheidung, -en — рішення"
+        },
+        {
+          "surface": "Hauptstrasse",
+          "hint": "die Hauptstrasse — головна вулиця"
+        },
+        {
+          "surface": "berichtet",
+          "hint": "berichten — повідомляв"
+        },
+        {
+          "surface": "gefreut",
+          "hint": "sich freuen — радів"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/4a9d67b.jpg",
+      "publishedAt": "2026-09-27T19:16:58.000Z",
+      "processedAt": "2026-09-27T19:27:12.175Z"
+    },
+    {
       "id": "2acae534",
       "originalTitle": "«Das beste Team, das in den letzten 30 Jahren hier gespielt hat»",
       "simplifiedText": "Die Schweiz hat am Nations-League-Auftakt Nordmazedonien mit 3:0 besiegt. Die Spieler haben sehr gut auf dem Platz gespielt, weil sie viel trainiert haben. Der Trainer hat die Mannschaft nach dem Spiel gelobt. Er hat gesagt, sie ist das beste Team der letzten 30 Jahre. Die Fans haben laut gesungen, das Wetter war kühl, trotzdem waren sie sehr glücklich. Im Vergleich zum letzten Auftritt war die Schweiz schneller und stärker als zuvor. Ich hätte gern das nächste Spiel im Stadion gesehen, denn das wäre ein tolles Erlebnis.",
@@ -4047,7 +4971,7 @@
         "kritisieren — критикував",
         "die Kontrolle, -en — контроль",
         "streng — строгіший",
-        "die Pressekonferenz — прес‑конференція",
+        "die Pressekonferenz — прес-конференція",
         "versprechen — пообіцяв",
         "die Massnahme, -en — заходи",
         "verbessern — покращений"
@@ -4087,7 +5011,7 @@
         },
         {
           "surface": "Pressekonferenz",
-          "hint": "die Pressekonferenz — прес‑конференція"
+          "hint": "die Pressekonferenz — прес-конференція"
         },
         {
           "surface": "versprochen",
@@ -8081,6 +9005,685 @@
     }
   ],
   "B1": [
+    {
+      "id": "170c43ca",
+      "originalTitle": "Nordirland-Konflikt - Oranier-Marsch in Portadown: Alte Wunden reissen auf",
+      "simplifiedText": "Erstmals seit den 1990er-Jahren wollte der Oranier-Orden einen Marsch durch die Stadt Portadown durchführen. Der Marsch war für die Mitglieder des Ordens von grosser Bedeutung. Gegendemonstranten stellten sich dem Marsch entgegen. Sie verhinderten, dass der Oranier-Orden die geplante Route entlang von Portadown nutzte. Durch den Widerstand konnte der Marsch nicht stattfinden. Die Absage des Marsches hat alte Konfliktlinien wieder in den Vordergrund gerückt. Die Ereignisse zeigen, dass die Spannungen in Nordirland weiterhin hoch sind.",
+      "vocabularyHints": [
+        "die 1990er-Jahre — 1990‑ті роки",
+        "der Oranier-Orden — Орден Оранжерії",
+        "Portadown — Портедоун",
+        "der Gegendemonstrant — протидемонстрант",
+        "verhindern — запобігати",
+        "der Widerstand — опір",
+        "die Absage, -n — скасування",
+        "die Konfliktlinie, -n — лінії конфлікту",
+        "rücken — переміститися",
+        "die Spannung, -en — напруження"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "1990er-Jahren",
+          "hint": "die 1990er-Jahre — 1990‑ті роки"
+        },
+        {
+          "surface": "Oranier-Orden",
+          "hint": "der Oranier-Orden — Орден Оранжерії"
+        },
+        {
+          "surface": "Portadown",
+          "hint": "Portadown — Портедоун"
+        },
+        {
+          "surface": "Gegendemonstranten",
+          "hint": "der Gegendemonstrant — протидемонстрант"
+        },
+        {
+          "surface": "verhinderten",
+          "hint": "verhindern — запобігати"
+        },
+        {
+          "surface": "Widerstand",
+          "hint": "der Widerstand — опір"
+        },
+        {
+          "surface": "Absage",
+          "hint": "die Absage, -n — скасування"
+        },
+        {
+          "surface": "Konfliktlinien",
+          "hint": "die Konfliktlinie, -n — лінії конфлікту"
+        },
+        {
+          "surface": "gerückt",
+          "hint": "rücken — переміститися"
+        },
+        {
+          "surface": "Spannungen",
+          "hint": "die Spannung, -en — напруження"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/a2c939d.jpg",
+      "publishedAt": "2026-09-27T17:22:43.000Z",
+      "processedAt": "2026-09-27T19:38:35.362Z"
+    },
+    {
+      "id": "3faffc27",
+      "originalTitle": "Nein zu Neutralitätsinitiative - Möchte das Stimmvolk gar keine Neutralität, Herr Bundesrat?",
+      "simplifiedText": "Bundesrat Ignazio Cassis hat am Sonntag nach der Abstimmung zur Neutralitätsinitiative eine Bilanz gezogen. Er betonte, dass die Schweiz seit jeher neutral war, heute neutral ist und auch künftig neutral bleiben wird. Cassis erklärte, dass das Ergebnis der Abstimmung das bestehende aussenpolitische Prinzip bestätigt. Das Stimmvolk habe klar gezeigt, dass es die neutrale Position des Landes unterstützt. Die Initiative zielte darauf ab, die Neutralität verfassungsrechtlich zu verankern. Cassis forderte die politischen Akteure auf, die neutrale Aussenpolitik konsequent umzusetzen. Er wies darauf hin, dass die Schweiz ihre Unabhängigkeit und Friedensrolle im internationalen Umfeld bewahren müsse. Damit soll das Vertrauen des Stimmvolkes in die neutrale Ausrichtung des Landes gestärkt werden.",
+      "vocabularyHints": [
+        "Neutralitätsinitiative — ініціатива нейтральності",
+        "Bilanz — баланс",
+        "betonen — підкреслив",
+        "künftig — в майбутньому",
+        "aussenpolitisch — зовнішньополітичний",
+        "Stimmvolk — виборці",
+        "verfassungsrechtlich — конституційно-правовий",
+        "verankern — закріпити",
+        "Akteur — актори",
+        "konsequent — послідовний",
+        "umsetzen — реалізувати",
+        "Unabhängigkeit — незалежність",
+        "Friedensrolle — роль у миротворчості",
+        "Umfeld — середовище",
+        "bewahren — зберігати",
+        "Ausrichtung — напрямок"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "Neutralitätsinitiative — ініціатива нейтральності"
+        },
+        {
+          "surface": "Bilanz",
+          "hint": "Bilanz — баланс"
+        },
+        {
+          "surface": "betonte",
+          "hint": "betonen — підкреслив"
+        },
+        {
+          "surface": "künftig",
+          "hint": "künftig — в майбутньому"
+        },
+        {
+          "surface": "aussenpolitische",
+          "hint": "aussenpolitisch — зовнішньополітичний"
+        },
+        {
+          "surface": "Stimmvolk",
+          "hint": "Stimmvolk — виборці"
+        },
+        {
+          "surface": "verfassungsrechtlich",
+          "hint": "verfassungsrechtlich — конституційно-правовий"
+        },
+        {
+          "surface": "verankern",
+          "hint": "verankern — закріпити"
+        },
+        {
+          "surface": "Akteure",
+          "hint": "Akteur — актори"
+        },
+        {
+          "surface": "konsequent",
+          "hint": "konsequent — послідовний"
+        },
+        {
+          "surface": "umzusetzen",
+          "hint": "umsetzen — реалізувати"
+        },
+        {
+          "surface": "Unabhängigkeit",
+          "hint": "Unabhängigkeit — незалежність"
+        },
+        {
+          "surface": "Friedensrolle",
+          "hint": "Friedensrolle — роль у миротворчості"
+        },
+        {
+          "surface": "Umfeld",
+          "hint": "Umfeld — середовище"
+        },
+        {
+          "surface": "bewahren",
+          "hint": "bewahren — зберігати"
+        },
+        {
+          "surface": "Ausrichtung",
+          "hint": "Ausrichtung — напрямок"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/8e8f646.jpg",
+      "publishedAt": "2026-09-27T17:26:03.000Z",
+      "processedAt": "2026-09-27T19:37:10.990Z"
+    },
+    {
+      "id": "2a790b01",
+      "originalTitle": "50 Jahre kult.kino Basel - Vom Filmclub-Saal zu einem der letzten Lichtspielhäuser in Basel",
+      "simplifiedText": "Das kult.kino Basel feiert sein 50-jähriges Jubiläum und blickt auf eine bewegte Geschichte zurück. Gegründet wurde es 1973 als kleiner Filmclub-Saal, ein Liebhaber-Haus für anspruchsvolle Zuschauer. In den folgenden Jahrzehnten entwickelte sich das Haus zu einem etablierten Lichtspielhaus mit sieben Sälen. Heute zeigt das kult.kino neben Arthouse-Filmen auch aktuelle Blockbuster und zieht ein breites Publikum an. Damit gehört es zu den letzten unabhängigen Lichtspielhäusern in Basel, die noch ein vielfältiges Programm anbieten. Die Jubiläumsfeier umfasst Sondervorstellungen, Diskussionen mit Regisseuren und ein Fest für die lokale Kulturszene. Der Vorstand hofft, dass das kult.kino auch in den nächsten Jahrzehnten seine Rolle als Treffpunkt für Film-Liebhaber behalten kann. Besucher können an speziellen Aktionen teilnehmen und das 50-jährige Erbe des Kinos hautnah erleben. Das Projekt wird von der Stadt Basel unterstützt, weil Kultur ein wichtiger Pfeiler des öffentlichen Lebens ist.",
+      "vocabularyHints": [
+        "das Jubiläum, -e — ювілей",
+        "der Filmclub-Saal — фільмклубний зал",
+        "das Liebhaber-Haus — будинок любителів",
+        "etabliert — встановлений",
+        "das Lichtspielhaus — кінотеатр",
+        "der Arthouse-Film, -e — артхаус‑фільми",
+        "der Blockbuster — блокбастер",
+        "unabhängig — незалежний",
+        "vielfältig — різноманітний",
+        "die Sondervorstellung, -en — спеціальні покази",
+        "der Regisseur, -en — режисер",
+        "die Kulturszene — культурна сцена",
+        "der Vorstand, -e — правління",
+        "der Treffpunkt — місце зустрічі",
+        "der Film-Liebhaber, - — любитель кіно",
+        "das Erbe, -e — спадок",
+        "hautnah — вживу, безпосередньо",
+        "der Pfeiler, - — опора"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Jubiläum",
+          "hint": "das Jubiläum, -e — ювілей"
+        },
+        {
+          "surface": "Filmclub-Saal",
+          "hint": "der Filmclub-Saal — фільмклубний зал"
+        },
+        {
+          "surface": "Liebhaber-Haus",
+          "hint": "das Liebhaber-Haus — будинок любителів"
+        },
+        {
+          "surface": "etablierten",
+          "hint": "etabliert — встановлений"
+        },
+        {
+          "surface": "Lichtspielhaus",
+          "hint": "das Lichtspielhaus — кінотеатр"
+        },
+        {
+          "surface": "Arthouse-Filmen",
+          "hint": "der Arthouse-Film, -e — артхаус‑фільми"
+        },
+        {
+          "surface": "Blockbuster",
+          "hint": "der Blockbuster — блокбастер"
+        },
+        {
+          "surface": "unabhängigen",
+          "hint": "unabhängig — незалежний"
+        },
+        {
+          "surface": "vielfältiges",
+          "hint": "vielfältig — різноманітний"
+        },
+        {
+          "surface": "Sondervorstellungen",
+          "hint": "die Sondervorstellung, -en — спеціальні покази"
+        },
+        {
+          "surface": "Regisseuren",
+          "hint": "der Regisseur, -en — режисер"
+        },
+        {
+          "surface": "Kulturszene",
+          "hint": "die Kulturszene — культурна сцена"
+        },
+        {
+          "surface": "Vorstand",
+          "hint": "der Vorstand, -e — правління"
+        },
+        {
+          "surface": "Treffpunkt",
+          "hint": "der Treffpunkt — місце зустрічі"
+        },
+        {
+          "surface": "Film-Liebhaber",
+          "hint": "der Film-Liebhaber, - — любитель кіно"
+        },
+        {
+          "surface": "Erbe",
+          "hint": "das Erbe, -e — спадок"
+        },
+        {
+          "surface": "hautnah",
+          "hint": "hautnah — вживу, безпосередньо"
+        },
+        {
+          "surface": "Pfeiler",
+          "hint": "der Pfeiler, - — опора"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/e4ec48.jpg",
+      "publishedAt": "2026-09-27T17:42:47.000Z",
+      "processedAt": "2026-09-27T19:35:50.849Z"
+    },
+    {
+      "id": "179e9596",
+      "originalTitle": "Wegen seiner Liebe: Fussball-Star kassiert Fahrverbot bis 2099",
+      "simplifiedText": "Der argentinische Fussballstar Mauro Icardi hat ein Fahrverbot erhalten, das bis zum Jahr 2099 gilt. Das Verbot wurde nach einem Social-Media-Video erlassen, in dem Zuschauer die Behörden aufforderten, zu handeln. Die zuständige Verkehrsbehörde hat daraufhin beschlossen, Icardi das Führen von Kraftfahrzeugen zu untersagen. Icardi bezeichnete die Massnahme öffentlich als Schikane und kritisierte die unverhältnismässige Strafe. Das Fahrverbot ist aussergewoehnlich lang und wird voraussichtlich das gesamte restliche Leben des Spielers betreffen. In einer Stellungnahme erklärte Icardi, dass er die Entscheidung nicht nachvollziehen könne. Die Behörden betonten, dass das Verbot rechtlich bindend sei und sofort in Kraft trete. Beobachter fragen sich, ob ein solches Verbot in Zukunft noch einmal ausgesprochen werden könnte.",
+      "vocabularyHints": [
+        "das Fahrverbot, -e — заборона водіння",
+        "die Verkehrsbehörde, -en — транспортна інспекція",
+        "das Kraftfahrzeug, -e — моторний транспортний засіб",
+        "untersagen — забороняти",
+        "die Schikane, -n — переслідування, утиски",
+        "unverhältnismässig — непропорційний",
+        "aussergewoehnlich — надзвичайний",
+        "die Stellungnahme, -n — заява, коментар",
+        "nachvollziehen — розуміти, усвідомлювати",
+        "bindend — обов’язковий",
+        "der Beobachter, - — спостерігач",
+        "aussprechen — висловлювати, проголошувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Fahrverbot",
+          "hint": "das Fahrverbot, -e — заборона водіння"
+        },
+        {
+          "surface": "Verkehrsbehörde",
+          "hint": "die Verkehrsbehörde, -en — транспортна інспекція"
+        },
+        {
+          "surface": "Kraftfahrzeugen",
+          "hint": "das Kraftfahrzeug, -e — моторний транспортний засіб"
+        },
+        {
+          "surface": "untersagen",
+          "hint": "untersagen — забороняти"
+        },
+        {
+          "surface": "Schikane",
+          "hint": "die Schikane, -n — переслідування, утиски"
+        },
+        {
+          "surface": "unverhältnismässige",
+          "hint": "unverhältnismässig — непропорційний"
+        },
+        {
+          "surface": "aussergewoehnlich",
+          "hint": "aussergewoehnlich — надзвичайний"
+        },
+        {
+          "surface": "Stellungnahme",
+          "hint": "die Stellungnahme, -n — заява, коментар"
+        },
+        {
+          "surface": "nachvollziehen",
+          "hint": "nachvollziehen — розуміти, усвідомлювати"
+        },
+        {
+          "surface": "bindend",
+          "hint": "bindend — обов’язковий"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter, - — спостерігач"
+        },
+        {
+          "surface": "ausgesprochen",
+          "hint": "aussprechen — висловлювати, проголошувати"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/27/1f9b41f2-d606-4419-9ca0-fe9f42b55711.jpg?s=c3beb16b9d885342c0a65d54ad1f7887",
+      "publishedAt": "2026-09-27T18:28:07.000Z",
+      "processedAt": "2026-09-27T19:34:30.989Z"
+    },
+    {
+      "id": "7024a248",
+      "originalTitle": "Zwei Initiativen versenkt - Doppeltes Nein und dreifache Freude in der Präsidentenrunde",
+      "simplifiedText": "In der gestrigen Präsidentenrunde wurden zwei Initiativen versenkt. Das Ergebnis war ein doppeltes Nein zur Neutralitätsinitiative, das besonders die SVP stark traf. SVP-Präsident Marcel Dettling reagierte darauf schmerzlich und betonte, dass die Ablehnung ein Rückschlag für die Partei sei. Gleichzeitig herrschte allgemeine Erleichterung bei den Befürwortern der anderen Initiative, weil sie nun nicht mehr blockiert sei. Die Abstimmung zeigte, dass die Mehrheit der Stimmberechtigten die beiden Vorlagen abgelehnt hat. Politische Analysten erklärten, dass das doppelte Nein die Debatte über die Neutralität der Schweiz neu beleben könnte. Die dreifache Freude in den Reihen der Gegner der Neutralitätsinitiative war deutlich zu spüren. Trotz des schmerzlichen Moments für die SVP bleibt die politische Landschaft im Land weiterhin dynamisch.",
+      "vocabularyHints": [
+        "die Präsidentenrunde — коло президентів",
+        "versenken — потопити, знищити",
+        "das Doppelte — подвійний",
+        "die Neutralitätsinitiative — ініціатива нейтральності",
+        "die Ablehnung — відмова, відхилення",
+        "die Stimmberechtigten — право голосу",
+        "beleben — оживляти",
+        "das Dreifache — потрійний",
+        "schmerzlich — болісний"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Präsidentenrunde",
+          "hint": "die Präsidentenrunde — коло президентів"
+        },
+        {
+          "surface": "versenkt",
+          "hint": "versenken — потопити, знищити"
+        },
+        {
+          "surface": "doppeltes",
+          "hint": "das Doppelte — подвійний"
+        },
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative — ініціатива нейтральності"
+        },
+        {
+          "surface": "Ablehnung",
+          "hint": "die Ablehnung — відмова, відхилення"
+        },
+        {
+          "surface": "Stimmberechtigten",
+          "hint": "die Stimmberechtigten — право голосу"
+        },
+        {
+          "surface": "beleben",
+          "hint": "beleben — оживляти"
+        },
+        {
+          "surface": "dreifache",
+          "hint": "das Dreifache — потрійний"
+        },
+        {
+          "surface": "schmerzlich",
+          "hint": "schmerzlich — болісний"
+        },
+        {
+          "surface": "schmerzlichen",
+          "hint": "schmerzlich — болісний"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/efd4b5.jpg",
+      "publishedAt": "2026-09-27T18:28:55.000Z",
+      "processedAt": "2026-09-27T19:33:02.966Z"
+    },
+    {
+      "id": "66ca8ba8",
+      "originalTitle": "Terrorverdacht in England - Anschlag auf britischen US-Stützpunkt geplant: 5 Männer verhaftet",
+      "simplifiedText": "Fünf Männer wurden von der Polizei in England verhaftet, weil sie verdächtigt werden, einen Terroranschlag auf einen britischen US-Stutzpunkt zu planen. Die Festnahme erfolgte nach einer längeren Ermittlung, bei der die Behörden Hinweise auf eine mögliche Vorbereitung erhalten hatten. Die Männer sollen laut den Ermittlern Kontakte zu extremistischen Gruppen gehabt haben. Die Polizei betont, dass die Sicherheit des Stutzpunkts und der umliegenden Bevölkerung oberste Priorität habe. Die Ermittler prüfen nun, ob weitere Personen in die Planung involviert sind. Ein Sprecher des Innenministeriums erklärte, dass die Behörden eng mit den US-Partnern zusammenarbeiten. Bis jetzt wurden keine konkreten Anschlagspläne öffentlich gemacht. Die fünf Beschuldigten bleiben in Untersuchungshaft, während das Verfahren weiterläuft.",
+      "vocabularyHints": [
+        "verhaften — заарештувати",
+        "verdächtigen — підозрювати",
+        "der Terroranschlag — терористичний акт",
+        "der Stutzpunkt — військова база",
+        "die Ermittlung — розслідування",
+        "der Hinweis — вказівки",
+        "extremistisch — екстремістський",
+        "die Priorität — пріоритет",
+        "der Ermittler — розслідувач",
+        "der Sprecher — прес‑секретар",
+        "das Innenministerium — міністерство внутрішніх справ",
+        "der Partner — партнер",
+        "zusammenarbeiten — співпрацювати",
+        "der Anschlagsplan — план терористичного акту",
+        "der Beschuldigte — обвинувачений",
+        "die Untersuchungshaft — слідчий арешт",
+        "das Verfahren — процедура"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "verhaftet",
+          "hint": "verhaften — заарештувати"
+        },
+        {
+          "surface": "verdächtigt",
+          "hint": "verdächtigen — підозрювати"
+        },
+        {
+          "surface": "Terroranschlag",
+          "hint": "der Terroranschlag — терористичний акт"
+        },
+        {
+          "surface": "Stutzpunkt",
+          "hint": "der Stutzpunkt — військова база"
+        },
+        {
+          "surface": "Ermittlung",
+          "hint": "die Ermittlung — розслідування"
+        },
+        {
+          "surface": "Hinweise",
+          "hint": "der Hinweis — вказівки"
+        },
+        {
+          "surface": "extremistischen",
+          "hint": "extremistisch — екстремістський"
+        },
+        {
+          "surface": "Priorität",
+          "hint": "die Priorität — пріоритет"
+        },
+        {
+          "surface": "Ermittlern",
+          "hint": "der Ermittler — розслідувач"
+        },
+        {
+          "surface": "Ermittler",
+          "hint": "der Ermittler — розслідувач"
+        },
+        {
+          "surface": "Sprecher",
+          "hint": "der Sprecher — прес‑секретар"
+        },
+        {
+          "surface": "Innenministeriums",
+          "hint": "das Innenministerium — міністерство внутрішніх справ"
+        },
+        {
+          "surface": "Partnern",
+          "hint": "der Partner — партнер"
+        },
+        {
+          "surface": "zusammenarbeiten",
+          "hint": "zusammenarbeiten — співпрацювати"
+        },
+        {
+          "surface": "Anschlagspläne",
+          "hint": "der Anschlagsplan — план терористичного акту"
+        },
+        {
+          "surface": "Beschuldigten",
+          "hint": "der Beschuldigte — обвинувачений"
+        },
+        {
+          "surface": "Untersuchungshaft",
+          "hint": "die Untersuchungshaft — слідчий арешт"
+        },
+        {
+          "surface": "Verfahren",
+          "hint": "das Verfahren — процедура"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/864a2d.jpg",
+      "publishedAt": "2026-09-27T18:56:14.000Z",
+      "processedAt": "2026-09-27T19:31:45.978Z"
+    },
+    {
+      "id": "01ae1cf4",
+      "originalTitle": "Baby Milow sollte sterben - ein Video brachte den Wendepunkt",
+      "simplifiedText": "Dennis, ein alleinerziehender Vater, sah in einem kurzen Video, wie sein schwer kranker Sohn Milow verzweifelt strampelte. Der Anblick liess ihn nicht aufgeben, sondern weiterkämpfen für das Leben seines Kindes. Er begann sofort, nach einer spezialisierten Behandlungsmöglichkeit zu recherchieren. Mehrere Ärzte in der Schweiz konnten dem kritischen Zustand nicht gerecht werden. Er stiess schliesslich auf eine experimentelle Therapie, die nur in Südkorea angeboten wurde. Nach intensiven Gesprächen mit den Spezialisten reiste die Familie, trotz grosser Unsicherheit, nach Seoul. In Seoul wurde Milow sofort in ein führendes Kinderklinikzentrum aufgenommen. Dank des Eingreifens hat sich sein Zustand deutlich verbessert, und die Familie sieht nun einen Wendepunkt.",
+      "vocabularyHints": [
+        "alleinerziehend — одинокий батько, який виховує дитину сам",
+        "strampeln — підстрибував, крутнув ногами",
+        "weiterkämpfen — продовжувати боротися",
+        "Behandlungsmöglichkeit — можливість лікування",
+        "experimentell — експериментальна",
+        "Kinderklinikzentrum — дитяча клінічна установа",
+        "Wendepunkt — поворотний момент"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "alleinerziehender",
+          "hint": "alleinerziehend — одинокий батько, який виховує дитину сам"
+        },
+        {
+          "surface": "strampelte",
+          "hint": "strampeln — підстрибував, крутнув ногами"
+        },
+        {
+          "surface": "weiterkämpfen",
+          "hint": "weiterkämpfen — продовжувати боротися"
+        },
+        {
+          "surface": "Behandlungsmöglichkeit",
+          "hint": "Behandlungsmöglichkeit — можливість лікування"
+        },
+        {
+          "surface": "experimentelle",
+          "hint": "experimentell — експериментальна"
+        },
+        {
+          "surface": "Kinderklinikzentrum",
+          "hint": "Kinderklinikzentrum — дитяча клінічна установа"
+        },
+        {
+          "surface": "Wendepunkt",
+          "hint": "Wendepunkt — поворотний момент"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://image.20min.ch/2026/09/27/32adf86c-84a8-452e-afdf-ae9cbac34eb1.webp?s=f555e28447d7abd9ff5ffd5102e3cc73",
+      "publishedAt": "2026-09-27T19:09:13.000Z",
+      "processedAt": "2026-09-27T19:30:21.285Z"
+    },
+    {
+      "id": "126fb8e1",
+      "originalTitle": "Krieg in der Ukraine - Wadephul zum Lawrow-Treffen: «Mit Gegnern muss man verhandeln»",
+      "simplifiedText": "Der deutsche Aussenminister Robert Wadephul traf sich am Mittwoch in Berlin mit dem russischen Aussenminister Sergej Lawrow, um über den Krieg in der Ukraine zu reden. Beide betonten, dass ein direkter Dialog trotz des anhaltenden Konflikts notwendig sei. Wadephul erklärte, dass das Gespräch zwar keine konkreten Ergebnisse gebracht habe, aber dennoch sinnvoll gewesen sei. Er fügte hinzu, dass man mit Gegnern verhandeln müsse, weil sonst die Gefahr einer weiteren Eskalation bestehe. Lawrow hingegen wies darauf hin, dass Russland bereit sei, über humanitäre Fragen zu diskutieren, jedoch keine politischen Zugeständnisse machen wolle. Die deutsche Regierung sieht das Treffen als Teil einer langfristigen Diplomatie-Strategie, die auf Verhandlungsbasis beruhen soll. Kritiker bemängeln jedoch, dass die Gespräche bislang ergebnislos blieben und keine Sanktionen aufgehoben wurden. Trotzdem bleibt die Hoffnung, dass zukünftige Gespräche zu einer Deeskalation führen könnten.",
+      "vocabularyHints": [
+        "der Dialog — діалог",
+        "die Eskalation — ескалація",
+        "humanitär — гуманітарний",
+        "das Zugeständnis, -e — компроміси",
+        "die Diplomatie, die Strategie — дипломатична стратегія",
+        "die Verhandlungsbasis — переговорна база",
+        "bemängeln — критикувати",
+        "ergebnislos — безрезультатний",
+        "die Sanktion, -en — санкції",
+        "die Deeskalation — деескалація"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Dialog",
+          "hint": "der Dialog — діалог"
+        },
+        {
+          "surface": "Eskalation",
+          "hint": "die Eskalation — ескалація"
+        },
+        {
+          "surface": "humanitäre",
+          "hint": "humanitär — гуманітарний"
+        },
+        {
+          "surface": "Zugeständnisse",
+          "hint": "das Zugeständnis, -e — компроміси"
+        },
+        {
+          "surface": "Diplomatie-Strategie",
+          "hint": "die Diplomatie, die Strategie — дипломатична стратегія"
+        },
+        {
+          "surface": "Verhandlungsbasis",
+          "hint": "die Verhandlungsbasis — переговорна база"
+        },
+        {
+          "surface": "bemängeln",
+          "hint": "bemängeln — критикувати"
+        },
+        {
+          "surface": "ergebnislos",
+          "hint": "ergebnislos — безрезультатний"
+        },
+        {
+          "surface": "Sanktionen",
+          "hint": "die Sanktion, -en — санкції"
+        },
+        {
+          "surface": "Deeskalation",
+          "hint": "die Deeskalation — деескалація"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/76c318.jpg",
+      "publishedAt": "2026-09-27T19:09:19.000Z",
+      "processedAt": "2026-09-27T19:29:01.217Z"
+    },
+    {
+      "id": "3d9a564a",
+      "originalTitle": "Regierungschef als Ziel - Serbiens Präsident Aleksandar Vucic zurückgetreten",
+      "simplifiedText": "Serbiens Präsident Aleksandar Vucic hat seinen Rücktritt vom Amt des Regierungschefs erklärt. Er trat damit von seiner bisherigen Führungsposition zurück. Gleichzeitig kündigte er an, dass er bei der vorgezogenen Parlamentswahl am 25. Oktober als Spitzenkandidat seiner Partei antreten wird. Die Parlamentswahl wurde vom Parlament auf den 25. Oktober vorgezogen. Damit bleibt Vucic weiterhin politisch aktiv, jedoch nicht mehr als Regierungschef. Seine Partei wird ihn als Listenführer in der Wahl aufstellen. Der Termin am 25. Oktober ist nun das zentrale Datum für die serbische Politik.",
+      "vocabularyHints": [
+        "der Rücktritt — відставка",
+        "die Führungsposition — посада керівника",
+        "vorziehen — перенесений вперед",
+        "die Parlamentswahl — парламентські вибори",
+        "der Spitzenkandidat — головний кандидат",
+        "vorziehen — перенести вперед",
+        "der Regierungschef — голова уряду",
+        "der Listenführer — головний у списку",
+        "aufstellen — призначати",
+        "zentral — центральний",
+        "das Datum — дата"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Rücktritt",
+          "hint": "der Rücktritt — відставка"
+        },
+        {
+          "surface": "Führungsposition",
+          "hint": "die Führungsposition — посада керівника"
+        },
+        {
+          "surface": "vorgezogenen",
+          "hint": "vorziehen — перенесений вперед"
+        },
+        {
+          "surface": "Parlamentswahl",
+          "hint": "die Parlamentswahl — парламентські вибори"
+        },
+        {
+          "surface": "Spitzenkandidat",
+          "hint": "der Spitzenkandidat — головний кандидат"
+        },
+        {
+          "surface": "vorgezogen",
+          "hint": "vorziehen — перенести вперед"
+        },
+        {
+          "surface": "Regierungschefs",
+          "hint": "der Regierungschef — голова уряду"
+        },
+        {
+          "surface": "Regierungschef",
+          "hint": "der Regierungschef — голова уряду"
+        },
+        {
+          "surface": "Listenführer",
+          "hint": "der Listenführer — головний у списку"
+        },
+        {
+          "surface": "aufstellen",
+          "hint": "aufstellen — призначати"
+        },
+        {
+          "surface": "zentrale",
+          "hint": "zentral — центральний"
+        },
+        {
+          "surface": "Datum",
+          "hint": "das Datum — дата"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/4a9d67b.jpg",
+      "publishedAt": "2026-09-27T19:16:58.000Z",
+      "processedAt": "2026-09-27T19:27:41.382Z"
+    },
     {
       "id": "46c70e6e",
       "originalTitle": "«Das beste Team, das in den letzten 30 Jahren hier gespielt hat»",
@@ -12915,8 +14518,480 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-27T08:14:49.206Z",
+  "updatedAt": "2026-09-27T19:48:45.232Z",
   "tsnA1": [
+    {
+      "id": "38046a0c",
+      "originalTitle": "Трамп запросив Путіна на саміт G20 у США: у Кремлі зробили заяву",
+      "simplifiedText": "Трамп запросив Путіна на саміт G20 у США. Кремль цінує запрошення, але поки не робить висновків. Пресекретар Пєсков сказав, що рішення про участь ще не ухвалене. Росія планує брати активну участь у роботі G20 у грудні.",
+      "vocabularyHints": [
+        "запросити — einladen",
+        "саміт — das Gipfeltreffen",
+        "Кремль — der Kreml",
+        "цінувати — schätzen",
+        "висновок — die Schlussfolgerung",
+        "пресекретар — der Pressesprecher",
+        "рішення — die Entscheidung",
+        "участь — die Teilnahme",
+        "активний — aktiv"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "запросив",
+          "hint": "запросити — einladen"
+        },
+        {
+          "surface": "саміт",
+          "hint": "саміт — das Gipfeltreffen"
+        },
+        {
+          "surface": "Кремль",
+          "hint": "Кремль — der Kreml"
+        },
+        {
+          "surface": "цінує",
+          "hint": "цінувати — schätzen"
+        },
+        {
+          "surface": "висновків",
+          "hint": "висновок — die Schlussfolgerung"
+        },
+        {
+          "surface": "пресекретар",
+          "hint": "пресекретар — der Pressesprecher"
+        },
+        {
+          "surface": "рішення",
+          "hint": "рішення — die Entscheidung"
+        },
+        {
+          "surface": "участь",
+          "hint": "участь — die Teilnahme"
+        },
+        {
+          "surface": "активну",
+          "hint": "активний — aktiv"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/050/tsn-1284f5ef/thumbs/608xX/db/5b/c21a30f59d6e0868504646afb8b55bdb.jpg",
+      "publishedAt": "2026-09-27T15:51:00.000Z",
+      "processedAt": "2026-09-27T19:47:42.327Z"
+    },
+    {
+      "id": "68ba8944",
+      "originalTitle": "З вікон більше не дутиме взимку: найкращі методи утеплення домашніми засобами",
+      "simplifiedText": "У вікнах є щілини, через які дме холод. Якщо нові вікна замінити не можна, можна утеплити їх ватою і тканиною. Для ширших щілин підходять смужки поролону, їх просто вкладають у проріз. Також можна накласти теплову плівку на раму, щоб зменшити втрати тепла. Ці способи допомагають залишити тепло в квартирі взимку.",
+      "vocabularyHints": [
+        "щілина — die Ritze",
+        "утеплення — die Isolierung",
+        "вата — die Watte",
+        "поролон — der Schaumstoff",
+        "плівка — die Folie"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "щілини",
+          "hint": "щілина — die Ritze"
+        },
+        {
+          "surface": "утеплити",
+          "hint": "утеплення — die Isolierung"
+        },
+        {
+          "surface": "ватою",
+          "hint": "вата — die Watte"
+        },
+        {
+          "surface": "поролону",
+          "hint": "поролон — der Schaumstoff"
+        },
+        {
+          "surface": "плівку",
+          "hint": "плівка — die Folie"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/042/tsn-51cb131e/thumbs/608xX/00/e0/1e3995219c7aa679d66275b238a5e000.png",
+      "publishedAt": "2026-09-27T16:01:53.000Z",
+      "processedAt": "2026-09-27T19:46:37.065Z"
+    },
+    {
+      "id": "01d12782",
+      "originalTitle": "Прихована держава, яку Росія будує всередині України: що відбувається на окупованих територіях",
+      "simplifiedText": "Росія створює нову систему управління на окупованих територіях України. Вона змушує людей отримувати російські паспорти і без них не отримати пенсію. Також конфіскує будинки, які залишили власники. Близько 1,6 мільйона дітей переводять до російських шкіл.",
+      "vocabularyHints": [
+        "окупований — das besetzte Gebiet",
+        "територія — die Region",
+        "пенсія — die Rente",
+        "конфіскувати — konfiszieren",
+        "будинок — das Haus",
+        "переводити — verlegen",
+        "паспорт — der Pass"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "окупованих",
+          "hint": "окупований — das besetzte Gebiet"
+        },
+        {
+          "surface": "територіях",
+          "hint": "територія — die Region"
+        },
+        {
+          "surface": "пенсію",
+          "hint": "пенсія — die Rente"
+        },
+        {
+          "surface": "конфіскує",
+          "hint": "конфіскувати — konfiszieren"
+        },
+        {
+          "surface": "будинки",
+          "hint": "будинок — das Haus"
+        },
+        {
+          "surface": "переводять",
+          "hint": "переводити — verlegen"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/533/tsn-51cb131e/thumbs/608xX/b8/af/8aa34cdfc90b878d29e9273fee7cafb8.jpg",
+      "publishedAt": "2026-09-27T16:15:46.000Z",
+      "processedAt": "2026-09-27T19:45:32.018Z"
+    },
+    {
+      "id": "3f4cced2",
+      "originalTitle": "Виграти за будь-яку ціну: як Росія готує атаки на країни НАТО для зупинки допомоги Україні",
+      "simplifiedText": "Колишній директор RUSI попередив, що Путін планує ескалацію війни. Він хоче мобілізувати від трьохсот до чотирьохсот тисяч нових солдатів. Росія також може залучити війська Північної Кореї. Це має змусити Захід зупинити військову допомогу Україні. Американська розвідка попереджає про можливі диверсії в країнах НАТО.",
+      "vocabularyHints": [
+        "директор — der Direktor",
+        "ескалація — die Eskalation",
+        "мобілізувати — mobilisieren",
+        "розвідка — die Aufklärung",
+        "підготовка — die Vorbereitung",
+        "резерв — die Reserve",
+        "залякування — die Einschüchterung",
+        "гибридний — hybrid"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "директор",
+          "hint": "директор — der Direktor"
+        },
+        {
+          "surface": "ескалацію",
+          "hint": "ескалація — die Eskalation"
+        },
+        {
+          "surface": "мобілізувати",
+          "hint": "мобілізувати — mobilisieren"
+        },
+        {
+          "surface": "розвідка",
+          "hint": "розвідка — die Aufklärung"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/871/tsn-51cb131e/thumbs/608xX/39/73/bdfa19fd65bbcb64a19370a295197339.png",
+      "publishedAt": "2026-09-27T16:26:23.000Z",
+      "processedAt": "2026-09-27T19:44:26.101Z"
+    },
+    {
+      "id": "4856399b",
+      "originalTitle": "Сонце може створювати надпотужні спалахи: вчені знайшли нові докази",
+      "simplifiedText": "Вчені виявили великий сонячний спалах 1947 року. Він був у 40 разів ширший за діаметр Землі. Це показало, що Сонце може створювати надпотужні спалахи. Такі спалахи називаються суперспалахами. Вони можуть впливати на електромережі.",
+      "vocabularyHints": [
+        "вчений — die Wissenschaftler",
+        "виявити — entdecken",
+        "надпотужний — übermächtig",
+        "суперспалах — die Superflare, -s",
+        "впливати — beeinflussen",
+        "електромережа — das Stromnetz, -e"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Вчені",
+          "hint": "вчений — die Wissenschaftler"
+        },
+        {
+          "surface": "виявили",
+          "hint": "виявити — entdecken"
+        },
+        {
+          "surface": "надпотужні",
+          "hint": "надпотужний — übermächtig"
+        },
+        {
+          "surface": "суперспалахами",
+          "hint": "суперспалах — die Superflare, -s"
+        },
+        {
+          "surface": "впливати",
+          "hint": "впливати — beeinflussen"
+        },
+        {
+          "surface": "електромережі",
+          "hint": "електромережа — das Stromnetz, -e"
+        }
+      ],
+      "category": "Наука",
+      "imageUrl": "https://img.tsn.ua/cached/781/tsn-51cb131e/thumbs/608xX/ff/77/1bc6e316dd6725ffa42a345e742b77ff.jpg",
+      "publishedAt": "2026-09-27T16:46:33.000Z",
+      "processedAt": "2026-09-27T19:43:20.858Z"
+    },
+    {
+      "id": "0252b843",
+      "originalTitle": "Жінка три роки не сходить з круїзного лайнера: туристка розкрила переваги життя у VIP-статусі",
+      "simplifiedText": "Ліббі Ром вже більше трьох років живе на круїзному лайнері Sky Princess і подорожує океанами. Вона має VIP‑статус, який дає безкоштовне прання і мінібар. За цей статус треба зробити щонайменше п’ятнадцять круїзів або плавати сто п’ятдесят днів. Власники статусу можуть ходити на закриті вечірки і замовляти коньяк замість пива.",
+      "vocabularyHints": [
+        "круїзний лайнер — das Kreuzfahrtschiff",
+        "VIP‑статус — der VIP-Status",
+        "прання — die Wäsche",
+        "мінібар — die Minibar",
+        "круїз — die Kreuzfahrt",
+        "плавати — das Schwimmen",
+        "закрита вечірка — die geschlossene Party",
+        "коньяк — der Cognac"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "круїзному лайнері",
+          "hint": "круїзний лайнер — das Kreuzfahrtschiff"
+        },
+        {
+          "surface": "VIP‑статус",
+          "hint": "VIP‑статус — der VIP-Status"
+        },
+        {
+          "surface": "прання",
+          "hint": "прання — die Wäsche"
+        },
+        {
+          "surface": "мінібар",
+          "hint": "мінібар — die Minibar"
+        },
+        {
+          "surface": "круїзів",
+          "hint": "круїз — die Kreuzfahrt"
+        },
+        {
+          "surface": "плавати",
+          "hint": "плавати — das Schwimmen"
+        },
+        {
+          "surface": "закриті вечірки",
+          "hint": "закрита вечірка — die geschlossene Party"
+        },
+        {
+          "surface": "коньяк",
+          "hint": "коньяк — der Cognac"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/298/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/30/fe/121254b002f711644668b45b8f1cfe30.jpeg",
+      "publishedAt": "2026-09-27T16:57:54.000Z",
+      "processedAt": "2026-09-27T19:42:15.320Z"
+    },
+    {
+      "id": "12626991",
+      "originalTitle": "Помилка коштувала 140 мільйонів: в США ліквідовують найгірший екологічний проєкт в історії",
+      "simplifiedText": "У Флориді, США, уряд вирішив зупинити проєкт зі штучним рифом. У 1970‑х роках у море було скинуто близько двох мільйонів шин. Тепер підводники піднімають їх, вже більше шістсот тисяч шини. За оцінками, очищення коштує 140 мільйонів доларів. Проєкт вважають найгіршим екологічним помилкою в історії.",
+      "vocabularyHints": [
+        "штучний — künstlich",
+        "риф — das Riff",
+        "шина — die Reifen",
+        "підводник — die Taucher",
+        "оцінка — die Schätzung",
+        "екологічний — ökologisch",
+        "помилка — der Fehler",
+        "історія — die Geschichte"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "штучним",
+          "hint": "штучний — künstlich"
+        },
+        {
+          "surface": "рифом",
+          "hint": "риф — das Riff"
+        },
+        {
+          "surface": "шин",
+          "hint": "шина — die Reifen"
+        },
+        {
+          "surface": "підводники",
+          "hint": "підводник — die Taucher"
+        },
+        {
+          "surface": "оцінками",
+          "hint": "оцінка — die Schätzung"
+        },
+        {
+          "surface": "екологічним",
+          "hint": "екологічний — ökologisch"
+        },
+        {
+          "surface": "помилкою",
+          "hint": "помилка — der Fehler"
+        },
+        {
+          "surface": "історії",
+          "hint": "історія — die Geschichte"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/512/tsn-51cb131e/thumbs/608xX/a8/43/40bdf8c807a4484fd78b8b4c0b8d43a8.png",
+      "publishedAt": "2026-09-27T18:13:00.000Z",
+      "processedAt": "2026-09-27T19:41:10.558Z"
+    },
+    {
+      "id": "0accff4e",
+      "originalTitle": "Чи врятують автономні котельні міста від перебоїв з опаленням: що каже експерт",
+      "simplifiedText": "Експерт Олександр Сігал каже, що блочно‑модульні котельні можуть підстрахувати окремі райони. Вони потрібні, коли велика ТЕЦ виходить з ладу, і працюють самостійно. Однак для котельні потужністю 100 МВт треба майданчик розміром половина футбольного стадіону. У щільних районах знайти таку ділянку важко через шум і газові вимоги. Тому експерт вважає, що автономні котельні не замінять централізоване опалення у великих містах.",
+      "vocabularyHints": [
+        "блочно‑модульний — das Block-Modul-Heizkraftwerk",
+        "котельня — die Kessel",
+        "підстрахувати — absichern",
+        "потужність — die Leistung",
+        "майданчик — der Bauplatz",
+        "футбольний — der Fussball",
+        "стадіон — das Stadion",
+        "щільний — dicht",
+        "район — der Bezirk",
+        "ділянка — das Grundstück",
+        "газовий — gasförmig",
+        "вимога — die Anforderung, -en",
+        "автономний — autonom",
+        "централізований — zentralisiert",
+        "опалення — die Heizung",
+        "великий — gross",
+        "місто — die Stadt"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "блочно‑модульні",
+          "hint": "блочно‑модульний — das Block-Modul-Heizkraftwerk"
+        },
+        {
+          "surface": "котельні",
+          "hint": "котельня — die Kessel"
+        },
+        {
+          "surface": "підстрахувати",
+          "hint": "підстрахувати — absichern"
+        },
+        {
+          "surface": "потужністю",
+          "hint": "потужність — die Leistung"
+        },
+        {
+          "surface": "майданчик",
+          "hint": "майданчик — der Bauplatz"
+        },
+        {
+          "surface": "футбольного",
+          "hint": "футбольний — der Fussball"
+        },
+        {
+          "surface": "стадіону",
+          "hint": "стадіон — das Stadion"
+        },
+        {
+          "surface": "щільних",
+          "hint": "щільний — dicht"
+        },
+        {
+          "surface": "районах",
+          "hint": "район — der Bezirk"
+        },
+        {
+          "surface": "ділянку",
+          "hint": "ділянка — das Grundstück"
+        },
+        {
+          "surface": "газові",
+          "hint": "газовий — gasförmig"
+        },
+        {
+          "surface": "вимоги",
+          "hint": "вимога — die Anforderung, -en"
+        },
+        {
+          "surface": "автономні",
+          "hint": "автономний — autonom"
+        },
+        {
+          "surface": "централізоване",
+          "hint": "централізований — zentralisiert"
+        },
+        {
+          "surface": "опалення",
+          "hint": "опалення — die Heizung"
+        },
+        {
+          "surface": "великих",
+          "hint": "великий — gross"
+        },
+        {
+          "surface": "містах",
+          "hint": "місто — die Stadt"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/012/tsn-51cb131e/thumbs/608xX/50/eb/eb6071bef13020e61e3581ebadf6eb50.jpg",
+      "publishedAt": "2026-09-27T18:34:19.000Z",
+      "processedAt": "2026-09-27T19:40:05.027Z"
+    },
+    {
+      "id": "3326a226",
+      "originalTitle": "Росія ввечері вдарила по Києву: уламки впали в трьох районах, є постраждалі",
+      "simplifiedText": "Увечері 27 вересня російські війська атакували Київ. Уламки безпілотників впали в трьох районах – Подільському, Дарницькому і Дніпровському. У Дніпровському районі пошкодили двоповерхову будівлю і виникла пожежа. Через падіння уламків поранено двох людей. На місце приїхали швидка та рятувальники.",
+      "vocabularyHints": [
+        "атакувати — angreifen",
+        "уламок — die Trümmer, -",
+        "безпілотник — die Drohnen, -",
+        "пошкодити — beschädigen",
+        "пожежа — das Feuer",
+        "поранений — verletzt",
+        "швидка — der Rettungswagen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "атакували",
+          "hint": "атакувати — angreifen"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer, -"
+        },
+        {
+          "surface": "безпілотників",
+          "hint": "безпілотник — die Drohnen, -"
+        },
+        {
+          "surface": "пошкодили",
+          "hint": "пошкодити — beschädigen"
+        },
+        {
+          "surface": "пожежа",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "поранено",
+          "hint": "поранений — verletzt"
+        },
+        {
+          "surface": "швидка",
+          "hint": "швидка — der Rettungswagen"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/174/tsn-51cb131e/thumbs/608xX/6b/bd/9fd34a88f99a02b7623795df1388bd6b.jpg",
+      "publishedAt": "2026-09-27T18:40:22.000Z",
+      "processedAt": "2026-09-27T19:38:57.695Z"
+    },
     {
       "id": "48e2b657",
       "originalTitle": "Путін змінився: експерт шокував новою заявою про очільника Кремля",
@@ -16173,6 +18248,647 @@
   ],
   "tsnA2": [
     {
+      "id": "00dbf693",
+      "originalTitle": "Трамп запросив Путіна на саміт G20 у США: у Кремлі зробили заяву",
+      "simplifiedText": "Президент США Дональд Трамп запросив російського президента Володимира Путіна на саміт G20 у Флориді. У Кремлі прессекретар Дмитро Пєсков сказав, що Росія цінує це запрошення, але вважає за потрібне не робити передчасних висновків. Він додав, що рішення про участь Путіна ще не прийняте і буде враховувати всі обставини. У той же час Кремль підкреслив, що Росія братиме активну участь у роботі G20. За словами Пєскова, навіть під час масштабної гібридної війни між Росією і країнами НАТО, діалог залишиться важливим. Саміт заплановано на грудень у місті Маямі.",
+      "vocabularyHints": [
+        "запросити — der einladen",
+        "прессекретар — der Pressesprecher",
+        "цінувати — schätzen",
+        "передчасний — vorzeitig",
+        "висновок — die Schlussfolgerung",
+        "участь — die Teilnahme",
+        "враховувати — berücksichtigen",
+        "активний — aktiv",
+        "масштабний — umfangreich",
+        "гібридний — hybrid",
+        "війна — der Krieg",
+        "діалог — der Dialog"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "запросив",
+          "hint": "запросити — der einladen"
+        },
+        {
+          "surface": "прессекретар",
+          "hint": "прессекретар — der Pressesprecher"
+        },
+        {
+          "surface": "цінує",
+          "hint": "цінувати — schätzen"
+        },
+        {
+          "surface": "передчасних",
+          "hint": "передчасний — vorzeitig"
+        },
+        {
+          "surface": "висновків",
+          "hint": "висновок — die Schlussfolgerung"
+        },
+        {
+          "surface": "участь",
+          "hint": "участь — die Teilnahme"
+        },
+        {
+          "surface": "враховувати",
+          "hint": "враховувати — berücksichtigen"
+        },
+        {
+          "surface": "активну",
+          "hint": "активний — aktiv"
+        },
+        {
+          "surface": "масштабної",
+          "hint": "масштабний — umfangreich"
+        },
+        {
+          "surface": "гібридної",
+          "hint": "гібридний — hybrid"
+        },
+        {
+          "surface": "війни",
+          "hint": "війна — der Krieg"
+        },
+        {
+          "surface": "діалог",
+          "hint": "діалог — der Dialog"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/050/tsn-1284f5ef/thumbs/608xX/db/5b/c21a30f59d6e0868504646afb8b55bdb.jpg",
+      "publishedAt": "2026-09-27T15:51:00.000Z",
+      "processedAt": "2026-09-27T19:48:03.802Z"
+    },
+    {
+      "id": "10366305",
+      "originalTitle": "З вікон більше не дутиме взимку: найкращі методи утеплення домашніми засобами",
+      "simplifiedText": "У старих вікнах часто є щілини, через які холодне повітря дме, особливо біля підвіконня. Коли немає можливості купити нові вікна, можна закласти ці щілини вати і закрити їх смужками тканини, яку фіксує мильний розчин. Якщо щілина ширша, підходять смужки поролону, які заповнюють порожнину, не заважаючи закривати вікно. Для ще кращого утеплення можна накласти теплопізберігаючу плівку на внутрішню сторону рами, створюючи додатковий повітряний шар. Як тимчасовий варіант часто використовують прозору поліетиленову плівку, яка не замінює повноцінне енергозбереження, а лише зменшує відчуття холоду.",
+      "vocabularyHints": [
+        "щілина — die Lücke",
+        "тканина — der Stoff",
+        "мильний розчин — die Seifenlauge",
+        "поролон — der Schaumstoff",
+        "теплопізберігаючий — die wärmesparende",
+        "плівка — die Folie",
+        "повітряний шар — die Luftschicht",
+        "прозорий — die transparente",
+        "поліетиленовий — die Polyethylen-",
+        "енергозбереження — die Energieeinsparung",
+        "протяг — die Zugluft",
+        "вата — die Watte"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "щілини",
+          "hint": "щілина — die Lücke"
+        },
+        {
+          "surface": "тканини",
+          "hint": "тканина — der Stoff"
+        },
+        {
+          "surface": "мильний розчин",
+          "hint": "мильний розчин — die Seifenlauge"
+        },
+        {
+          "surface": "поролону",
+          "hint": "поролон — der Schaumstoff"
+        },
+        {
+          "surface": "теплопізберігаючу",
+          "hint": "теплопізберігаючий — die wärmesparende"
+        },
+        {
+          "surface": "плівку",
+          "hint": "плівка — die Folie"
+        },
+        {
+          "surface": "повітряний шар",
+          "hint": "повітряний шар — die Luftschicht"
+        },
+        {
+          "surface": "прозору",
+          "hint": "прозорий — die transparente"
+        },
+        {
+          "surface": "поліетиленову",
+          "hint": "поліетиленовий — die Polyethylen-"
+        },
+        {
+          "surface": "енергозбереження",
+          "hint": "енергозбереження — die Energieeinsparung"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/042/tsn-51cb131e/thumbs/608xX/00/e0/1e3995219c7aa679d66275b238a5e000.png",
+      "publishedAt": "2026-09-27T16:01:53.000Z",
+      "processedAt": "2026-09-27T19:46:59.001Z"
+    },
+    {
+      "id": "45a2181f",
+      "originalTitle": "Прихована держава, яку Росія будує всередині України: що відбувається на окупованих територіях",
+      "simplifiedText": "Росія поступово створює на окупованих частинах Донбасу і Херсонщини власну систему управління, щоб довго тримати ці землі під своїм контролем. Коли люди отримують російські паспорти, вони можуть працювати, отримувати пенсії, соціальні виплати та ходити до школи, а без них виникають проблеми. Російські структури замінюють українські інституції, вводять нові правила і навіть конфіскують будинки, які залишили власники. Близько дев’яносто відсотків промислових об’єктів закриті або перепрофільовані для оборонного виробництва, а через порти вивозять українські ресурси. На окупованих територіях живе близько 1,6 мільйона дітей, яких переводять до російських шкіл. Усе це показує, як Москва перебудовує повсякденне життя українців під своїм впливом.",
+      "vocabularyHints": [
+        "поступово — allmählich",
+        "створювати — schafft",
+        "управління — die Verwaltung",
+        "тримати — halten",
+        "контроль — die Kontrolle",
+        "паспорт — der Pass",
+        "інституція — die Institution",
+        "конфіскувати — beschlagnahmen",
+        "промисловий — industriell",
+        "перепрофільовувати — umwidmen",
+        "вивозити — ausführen",
+        "ресурс — die Ressource",
+        "переводити — verlegen",
+        "перебудовувати — umgestalten",
+        "система — das System",
+        "пенсія — die Rente",
+        "соціальний — sozial",
+        "виплата — die Leistung",
+        "оборона — die Verteidigung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "поступово",
+          "hint": "поступово — allmählich"
+        },
+        {
+          "surface": "створює",
+          "hint": "створювати — schafft"
+        },
+        {
+          "surface": "управління",
+          "hint": "управління — die Verwaltung"
+        },
+        {
+          "surface": "тримати",
+          "hint": "тримати — halten"
+        },
+        {
+          "surface": "контролем",
+          "hint": "контроль — die Kontrolle"
+        },
+        {
+          "surface": "паспорти",
+          "hint": "паспорт — der Pass"
+        },
+        {
+          "surface": "інституції",
+          "hint": "інституція — die Institution"
+        },
+        {
+          "surface": "конфіскують",
+          "hint": "конфіскувати — beschlagnahmen"
+        },
+        {
+          "surface": "промислових",
+          "hint": "промисловий — industriell"
+        },
+        {
+          "surface": "перепрофільовані",
+          "hint": "перепрофільовувати — umwidmen"
+        },
+        {
+          "surface": "вивозять",
+          "hint": "вивозити — ausführen"
+        },
+        {
+          "surface": "ресурси",
+          "hint": "ресурс — die Ressource"
+        },
+        {
+          "surface": "переводять",
+          "hint": "переводити — verlegen"
+        },
+        {
+          "surface": "перебудовує",
+          "hint": "перебудовувати — umgestalten"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/533/tsn-51cb131e/thumbs/608xX/b8/af/8aa34cdfc90b878d29e9273fee7cafb8.jpg",
+      "publishedAt": "2026-09-27T16:15:46.000Z",
+      "processedAt": "2026-09-27T19:45:54.292Z"
+    },
+    {
+      "id": "5ecb06f3",
+      "originalTitle": "Виграти за будь-яку ціну: як Росія готує атаки на країни НАТО для зупинки допомоги Україні",
+      "simplifiedText": "Колишній директор оборонного інституту Майкл Кларк попередив західні уряди, що Росія готує нову фазу війни. Путін, за його словами, може збільшити інтенсивність бойових дій протягом наступних шести місяців, щоб виграти за будь‑яку ціну. Кремль планує мобілізувати від трьохсот до чотирьохсот тисяч нових солдатів і залучити війська Північної Кореї. Одночасно російське командування готує гібридні атаки, включаючи кібератаки, саботаж і запуск безпілотників з комерційних суден у Середземному морі. Ці дії мають змусити Європу відмовитися від військової допомоги Україні, бо Росія хоче залякати її партнерів. Американська розвідка вже попередила про високу ймовірність диверсій на території країн НАТО, зокрема в Іспанії, Франції та Італії.",
+      "vocabularyHints": [
+        "попередити — der Hinweis geben",
+        "фаза — die Phase",
+        "інтенсивність — die Intensität",
+        "мобілізувати — mobilisieren",
+        "гібридний — hybrid",
+        "кібератака — der Cyberangriff",
+        "саботаж — der Sabotage",
+        "безпілотник — die Drohne",
+        "судно — das Schiff",
+        "залякати — verängstigen",
+        "ймовірність — die Wahrscheinlichkeit",
+        "диверсія — die Sabotageaktion",
+        "підготовка — die Vorbereitung",
+        "резерв — die Reserve",
+        "інфраструктура — die Infrastruktur"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "попередив",
+          "hint": "попередити — der Hinweis geben"
+        },
+        {
+          "surface": "фазу",
+          "hint": "фаза — die Phase"
+        },
+        {
+          "surface": "інтенсивність",
+          "hint": "інтенсивність — die Intensität"
+        },
+        {
+          "surface": "мобілізувати",
+          "hint": "мобілізувати — mobilisieren"
+        },
+        {
+          "surface": "гібридні",
+          "hint": "гібридний — hybrid"
+        },
+        {
+          "surface": "кібератаки",
+          "hint": "кібератака — der Cyberangriff"
+        },
+        {
+          "surface": "саботаж",
+          "hint": "саботаж — der Sabotage"
+        },
+        {
+          "surface": "безпілотників",
+          "hint": "безпілотник — die Drohne"
+        },
+        {
+          "surface": "суден",
+          "hint": "судно — das Schiff"
+        },
+        {
+          "surface": "залякати",
+          "hint": "залякати — verängstigen"
+        },
+        {
+          "surface": "ймовірність",
+          "hint": "ймовірність — die Wahrscheinlichkeit"
+        },
+        {
+          "surface": "диверсій",
+          "hint": "диверсія — die Sabotageaktion"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/871/tsn-51cb131e/thumbs/608xX/39/73/bdfa19fd65bbcb64a19370a295197339.png",
+      "publishedAt": "2026-09-27T16:26:23.000Z",
+      "processedAt": "2026-09-27T19:44:48.621Z"
+    },
+    {
+      "id": "7eb5ad66",
+      "originalTitle": "Сонце може створювати надпотужні спалахи: вчені знайшли нові докази",
+      "simplifiedText": "Вчені з Інституту досліджень Сонячної системи Макса Планка виявили, що Сонце може створювати надпотужні спалахи, які в десятки разів перевищують енергію найсильніших відомих бур. Вони проаналізували велику сонячну пляму 1947 року, яка була більше ніж удвічі ширша за пляму, що спричинила Керрінгтонську подію 1859 року. Ширина цієї плями була приблизно в 40 разів більша за діаметр Землі, а її площа становила близько 0,6 % поверхні Сонця. Такі спалахи можуть викликати перебої в роботі електромереж і впливати на іоносферу, а також породжувати полярні сяйва навіть на низьких широтах. Науковці назвали це явище «суперспалахом», бо воно випромінює енергію в 10‑100 разів більше, ніж звичайні потужні спалахи.",
+      "vocabularyHints": [
+        "вчений — die Wissenschaftler",
+        "Інститут досліджень Сонячної системи Макса Планка — das Max-Planck-Institut für Sonnensystemforschung",
+        "надпотужний — übermächtig",
+        "спалах — die Sonneneruption",
+        "велика сонячна пляма — der grosse Sonnenfleck",
+        "удвічі — doppelt so breit",
+        "Керрінгтонська подія — das Carrington-Ereignis",
+        "електромережа — das Stromnetz",
+        "іоносфера — die Ionosphäre",
+        "полярне сяйво — die Polarlichter",
+        "суперспалах — der Superflare",
+        "потужність — die Stärke"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вчені",
+          "hint": "вчений — die Wissenschaftler"
+        },
+        {
+          "surface": "Інституту досліджень Сонячної системи Макса Планка",
+          "hint": "Інститут досліджень Сонячної системи Макса Планка — das Max-Planck-Institut für Sonnensystemforschung"
+        },
+        {
+          "surface": "надпотужні",
+          "hint": "надпотужний — übermächtig"
+        },
+        {
+          "surface": "спалахи",
+          "hint": "спалах — die Sonneneruption"
+        },
+        {
+          "surface": "велику сонячну пляму",
+          "hint": "велика сонячна пляма — der grosse Sonnenfleck"
+        },
+        {
+          "surface": "удвічі",
+          "hint": "удвічі — doppelt so breit"
+        },
+        {
+          "surface": "Керрінгтонську подію",
+          "hint": "Керрінгтонська подія — das Carrington-Ereignis"
+        },
+        {
+          "surface": "електромереж",
+          "hint": "електромережа — das Stromnetz"
+        },
+        {
+          "surface": "іоносферу",
+          "hint": "іоносфера — die Ionosphäre"
+        },
+        {
+          "surface": "полярні сяйва",
+          "hint": "полярне сяйво — die Polarlichter"
+        },
+        {
+          "surface": "суперспалахом",
+          "hint": "суперспалах — der Superflare"
+        }
+      ],
+      "category": "Наука",
+      "imageUrl": "https://img.tsn.ua/cached/781/tsn-51cb131e/thumbs/608xX/ff/77/1bc6e316dd6725ffa42a345e742b77ff.jpg",
+      "publishedAt": "2026-09-27T16:46:33.000Z",
+      "processedAt": "2026-09-27T19:43:42.987Z"
+    },
+    {
+      "id": "210cf004",
+      "originalTitle": "Жінка три роки не сходить з круїзного лайнера: туристка розкрила переваги життя у VIP-статусі",
+      "simplifiedText": "Ліббі Ром, п’ятдесятидворічна мандрівниця, вже більше трьох років живе на борту розкішного круїзного лайнера Sky Princess. Вона отримала найвищий елітний статус лояльності, бо за три роки здійснила понад п’ятнадцять круїзів і провела в плаванні сто п’ятдесят днів. Завдяки цьому статусу вона користується безкоштовним пранням – просто кладе брудний одяг у спеціальний пакет, а персонал повертає його чистим наступного дня. У мінібарі завжди є напої, які можна замінити на коньяк або ігристе вино, і запаси оновлюються на початку кожної нової подорожі. Власники елітного статусу мають доступ до закритих зон відпочинку та ексклюзивних заходів, куди не допускаються звичайні пасажири. Ліббі часто розповідає про ці переваги, бо вважає, що життя на морі стало для неї комфортнішим, ніж будь‑яке наземне проживання.",
+      "vocabularyHints": [
+        "мандрівниця — die Reisende",
+        "круїзний — die Kreuzfahrt",
+        "лайнер — das Kreuzfahrtschiff",
+        "елітний — die exklusive",
+        "лояльність — die Loyalität",
+        "статус — der Status",
+        "безкоштовний — kostenlos",
+        "мінібар — die Minibar",
+        "оновлюватися — sich erneuern",
+        "закритий — die geschlossene",
+        "зона — die Zone",
+        "відпочинок — die Erholung",
+        "ексклюзивний — exklusiv",
+        "заходи — die Veranstaltung",
+        "прання — die Wäsche",
+        "напій — das Getränk"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "мандрівниця",
+          "hint": "мандрівниця — die Reisende"
+        },
+        {
+          "surface": "круїзного",
+          "hint": "круїзний — die Kreuzfahrt"
+        },
+        {
+          "surface": "лайнера",
+          "hint": "лайнер — das Kreuzfahrtschiff"
+        },
+        {
+          "surface": "елітний",
+          "hint": "елітний — die exklusive"
+        },
+        {
+          "surface": "лояльності",
+          "hint": "лояльність — die Loyalität"
+        },
+        {
+          "surface": "статусу",
+          "hint": "статус — der Status"
+        },
+        {
+          "surface": "безкоштовним",
+          "hint": "безкоштовний — kostenlos"
+        },
+        {
+          "surface": "мінібарі",
+          "hint": "мінібар — die Minibar"
+        },
+        {
+          "surface": "оновлюються",
+          "hint": "оновлюватися — sich erneuern"
+        },
+        {
+          "surface": "закритих",
+          "hint": "закритий — die geschlossene"
+        },
+        {
+          "surface": "зон",
+          "hint": "зона — die Zone"
+        },
+        {
+          "surface": "відпочинку",
+          "hint": "відпочинок — die Erholung"
+        },
+        {
+          "surface": "ексклюзивних",
+          "hint": "ексклюзивний — exklusiv"
+        },
+        {
+          "surface": "заходів",
+          "hint": "заходи — die Veranstaltung"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/298/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/30/fe/121254b002f711644668b45b8f1cfe30.jpeg",
+      "publishedAt": "2026-09-27T16:57:54.000Z",
+      "processedAt": "2026-09-27T19:42:37.249Z"
+    },
+    {
+      "id": "31e0a1b2",
+      "originalTitle": "Помилка коштувала 140 мільйонів: в США ліквідовують найгірший екологічний проєкт в історії",
+      "simplifiedText": "У Флориді, США, водолази вже багато років піднімають з океану шини, які в 1970‑х роках уряд навмисно викинув, щоб створити штучний риф. Тоді було скинуто близько двох мільйонів покришок, а зараз вже вилучено понад шістсот тисяч. Процес виявився дуже дорогим – за одну шину платять близько тридцяти доларів, і загальні витрати вже склали 140 мільйонів доларів. Шини розпадалися, їх металеві частини іржавіли, а пластик розривався, тому течії розносили їх по великій площі океану. Через це постраждали природні рифи і корали, тому влада вирішила повністю ліквідувати проєкт.",
+      "vocabularyHints": [
+        "викинути — das Auswerfen",
+        "штучний риф — das künstliche Riff",
+        "покришка — der Reifen",
+        "вилучити — entfernt",
+        "дорогий — teuer",
+        "долар — der Dollar",
+        "постраждати — geschädigt werden",
+        "влада — die Behörde",
+        "проєкт — das Projekt",
+        "вилучати — die Entfernung",
+        "корал — das Korallenriff",
+        "лікувати — die Beseitigung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "викинув",
+          "hint": "викинути — das Auswerfen"
+        },
+        {
+          "surface": "штучний риф",
+          "hint": "штучний риф — das künstliche Riff"
+        },
+        {
+          "surface": "покришок",
+          "hint": "покришка — der Reifen"
+        },
+        {
+          "surface": "вилучено",
+          "hint": "вилучити — entfernt"
+        },
+        {
+          "surface": "дорогим",
+          "hint": "дорогий — teuer"
+        },
+        {
+          "surface": "доларів",
+          "hint": "долар — der Dollar"
+        },
+        {
+          "surface": "постраждали",
+          "hint": "постраждати — geschädigt werden"
+        },
+        {
+          "surface": "влада",
+          "hint": "влада — die Behörde"
+        },
+        {
+          "surface": "проєкт",
+          "hint": "проєкт — das Projekt"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/512/tsn-51cb131e/thumbs/608xX/a8/43/40bdf8c807a4484fd78b8b4c0b8d43a8.png",
+      "publishedAt": "2026-09-27T18:13:00.000Z",
+      "processedAt": "2026-09-27T19:41:31.877Z"
+    },
+    {
+      "id": "52cc5dad",
+      "originalTitle": "Чи врятують автономні котельні міста від перебоїв з опаленням: що каже експерт",
+      "simplifiedText": "У Україні часто бояться, що великі електростанції і теплові станції можуть вийти з ладу, тому шукають інші способи опалення. Одним із таких способів є автономні блочно‑модульні котельні, які можуть працювати самостійно для окремих районів. Але встановити їх у центрі міста важко, бо для котельні потужністю 100 мВт потрібен майданчик розміром приблизно половина футбольного стадіону. У щільній забудові знайти таку ділянку складно, а ще треба дотримуватися норм щодо шуму і викидів. Крім того, такі котельні потребують газопровід середнього тиску, бо побутова газова мережа не забезпечує достатньо палива. Тому експерт радить планувати їх заздалегідь і враховувати технічні труднощі.",
+      "vocabularyHints": [
+        "блочно‑модульний — die Block-Modul-Kessel",
+        "потужність — die Leistung",
+        "майданчик — der Standort",
+        "забудова — die Bebauung",
+        "викид — die Emission",
+        "газопровід — die Gasleitung",
+        "тиск — der Druck",
+        "технічний — technisch",
+        "децентралізований — das dezentralisierte",
+        "норма — die Norm"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "блочно‑модульні",
+          "hint": "блочно‑модульний — die Block-Modul-Kessel"
+        },
+        {
+          "surface": "потужністю",
+          "hint": "потужність — die Leistung"
+        },
+        {
+          "surface": "майданчик",
+          "hint": "майданчик — der Standort"
+        },
+        {
+          "surface": "забудові",
+          "hint": "забудова — die Bebauung"
+        },
+        {
+          "surface": "викидів",
+          "hint": "викид — die Emission"
+        },
+        {
+          "surface": "газопровід",
+          "hint": "газопровід — die Gasleitung"
+        },
+        {
+          "surface": "тиску",
+          "hint": "тиск — der Druck"
+        },
+        {
+          "surface": "технічні",
+          "hint": "технічний — technisch"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/012/tsn-51cb131e/thumbs/608xX/50/eb/eb6071bef13020e61e3581ebadf6eb50.jpg",
+      "publishedAt": "2026-09-27T18:34:19.000Z",
+      "processedAt": "2026-09-27T19:40:26.559Z"
+    },
+    {
+      "id": "139ff827",
+      "originalTitle": "Росія ввечері вдарила по Києву: уламки впали в трьох районах, є постраждалі",
+      "simplifiedText": "У неділю ввечері російські війська атакували Київ і з дронів впали уламки в трьох районах. У Подільському районі уламки підпалили трав'яний настил і пошкодили вікна в кількох будинках. У Дарницькому районі частина уламків впала біля магазину, але серйозних пошкоджень не стало. У Дніпровському районі уламки влучили у двоповерхову нежитлову будівлю, спричинивши сильну пожежу і вибухову хвилю. На місце швидко приїхали рятувальники та бригади швидкої медичної допомоги. Через падіння дронів постраждало дві особи, яким надали медичну допомогу.",
+      "vocabularyHints": [
+        "ввечері — am Abend",
+        "атакувати — angreifen",
+        "уламок — die Trümmer",
+        "підпалити — entzünden",
+        "пошкодити — beschädigen",
+        "пожежа — das Feuer",
+        "вибухова хвиля — die Explosionswelle",
+        "рятувальник — die Rettungskräfte",
+        "швидка медична допомога — die Notfallmedizin",
+        "постраждати — verletzt werden",
+        "надати — gewähren",
+        "потрапити — treffen"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "ввечері",
+          "hint": "ввечері — am Abend"
+        },
+        {
+          "surface": "атакували",
+          "hint": "атакувати — angreifen"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "підпалили",
+          "hint": "підпалити — entzünden"
+        },
+        {
+          "surface": "пошкодили",
+          "hint": "пошкодити — beschädigen"
+        },
+        {
+          "surface": "пожежу",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "вибухову хвилю",
+          "hint": "вибухова хвиля — die Explosionswelle"
+        },
+        {
+          "surface": "рятувальники",
+          "hint": "рятувальник — die Rettungskräfte"
+        },
+        {
+          "surface": "швидкої медичної допомоги",
+          "hint": "швидка медична допомога — die Notfallmedizin"
+        },
+        {
+          "surface": "постраждало",
+          "hint": "постраждати — verletzt werden"
+        },
+        {
+          "surface": "надали",
+          "hint": "надати — gewähren"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/174/tsn-51cb131e/thumbs/608xX/6b/bd/9fd34a88f99a02b7623795df1388bd6b.jpg",
+      "publishedAt": "2026-09-27T18:40:22.000Z",
+      "processedAt": "2026-09-27T19:39:19.292Z"
+    },
+    {
       "id": "65b70316",
       "originalTitle": "Путін змінився: експерт шокував новою заявою про очільника Кремля",
       "simplifiedText": "Політичний експерт Вадим Денисенко сказав, що образ Путіна змінився: тепер він виглядає більш жорстким і впевненим, а не боязким, як раніше. За словами експерта, раніше Путін часто уникав бою і ховався, але за останній місяць він почав виходити зі свого «кутка» і показувати силу. Денисенко вважає, що це пов’язано з кількома проблемами Росії, зокрема нестачею ракет Patriot, бюджетною кризою і корупційними скандалами. Через відсутність можливості збивати «шахеди» і економічні труднощі, Росія може втратити контроль над своїм тилом. Експерт попереджає, що в найближчі місяці в Україні може статися серйозний зрив у тилу, можливо навіть державний переворот. Він також зазначив, що зустріч Дональда Трампа з Кім Чен‑уном може вплинути на ситуацію.",
@@ -19026,6 +21742,420 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "54d8b6cb",
+      "originalTitle": "Трамп запросив Путіна на саміт G20 у США: у Кремлі зробили заяву",
+      "simplifiedText": "У Кремлі підтвердили, що Росія цінує запрошення президента Володимира Путіна на саміт G20 у Сполучених Штатах. Прессекретар Путіна Дмитро Пєсков зазначив, що раді запрошенню, проте робити передчасні висновки про поїздку було б недоречно. За його словами, рішення про участь Путіна ще не прийняте і буде враховувати всі обставини. У той же час Кремль підкреслив, що Росія завжди братиме активну участь у роботі G20. У США державний секретар Марко Рубіо оголосив про запрошення Путіна під час Генеральної асамблеї ООН. Саміт «Групи двадцяти» заплановано на грудень у місті Маямі, Флорида. Президент Дональд Трамп офіційно запросив російського лідера, незважаючи на триваючу гібридну війну РФ проти країн НАТО.",
+      "vocabularyHints": [
+        "прессекретар — der Pressesprecher",
+        "Група двадцяти — die G20",
+        "гібридний — hybrid",
+        "пропагандистський — propagandistisch",
+        "заявлення — die Erklärung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "прессекретар",
+          "hint": "прессекретар — der Pressesprecher"
+        },
+        {
+          "surface": "групи двадцяти",
+          "hint": "Група двадцяти — die G20"
+        },
+        {
+          "surface": "гібридну",
+          "hint": "гібридний — hybrid"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/050/tsn-1284f5ef/thumbs/608xX/db/5b/c21a30f59d6e0868504646afb8b55bdb.jpg",
+      "publishedAt": "2026-09-27T15:51:00.000Z",
+      "processedAt": "2026-09-27T19:48:25.208Z"
+    },
+    {
+      "id": "4f46185d",
+      "originalTitle": "З вікон більше не дутиме взимку: найкращі методи утеплення домашніми засобами",
+      "simplifiedText": "У багатьох квартирах холод проникає через щілини у вікнах, особливо біля підвіконня, і без нових вікон можна лише частково захиститися. Найпростіший спосіб – заповнити ці щілини вати, яку акуратно притискають між рамою і стіною. Щоб вата не вислизала, її закривають смужками тканини, яку фіксує мильний розчин і після висихання тримає матеріал на місці. Для ширших прорізів підходять смужки поролону, які заповнюють порожнину, не заважаючи закривати вікно. Якщо протяг дуже сильний, можна накласти теплову плівку на внутрішню сторону рами, створюючи додатковий повітряний шар. У домашніх умовах часто використовують прозору поліетиленову плівку – вона не замінить справжню енергоефективність, але зменшить відчуття холоду. Таким чином, навіть без великих витрат можна значно підвищити комфорт у зимовий період.",
+      "vocabularyHints": [
+        "щілина — die Ritze",
+        "підвіконня — die Fensterbank",
+        "мильний розчин — die Seifenlauge",
+        "поліетиленова плівка — die Polyethylenfolie",
+        "утеплення — die Dämmung",
+        "поролон — der Schaumstoff",
+        "теплова плівка — die Wärmedämmfolie"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "щілини",
+          "hint": "щілина — die Ritze"
+        },
+        {
+          "surface": "підвіконня",
+          "hint": "підвіконня — die Fensterbank"
+        },
+        {
+          "surface": "мильний розчин",
+          "hint": "мильний розчин — die Seifenlauge"
+        },
+        {
+          "surface": "поліетиленову плівку",
+          "hint": "поліетиленова плівка — die Polyethylenfolie"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/042/tsn-51cb131e/thumbs/608xX/00/e0/1e3995219c7aa679d66275b238a5e000.png",
+      "publishedAt": "2026-09-27T16:01:53.000Z",
+      "processedAt": "2026-09-27T19:47:20.721Z"
+    },
+    {
+      "id": "5adc7303",
+      "originalTitle": "Прихована держава, яку Росія будує всередині України: що відбувається на окупованих територіях",
+      "simplifiedText": "Росія поступово створює на окупованих частинах Донеччини, Луганщини, Запоріжжя та Херсонщини власну систему управління, щоб довгостроково прив’язати ці землі до РФ. Окрім військового контролю, вона перебудовує повсякденне життя українців за російськими правилами. На місцях російські структури замінюють українські інституції, змушуючи людей отримувати російські паспорти, без яких важко отримати пенсію, роботу чи освіту. Документи потрібні також для оформлення SIM‑карток у місцевих операторів. Будинки, залишені власниками, часто оголошують безхазяйними і конфіскують. За даними The Atlantic, з 2024 року вже конфісковано щонайменше 34 тисячі об’єктів нерухомості, а близько 90 % промислових підприємств закрито або перепрофільовано для оборонного виробництва. Через окуповані порти Росія вивозить українські ресурси, а на цих територіях перебуває приблизно 1,6 млн українських дітей, яких переводять до російських шкіл.",
+      "vocabularyHints": [
+        "перебудовувати — die Umgestaltung",
+        "інституція — die Institution",
+        "паспорт — der Pass",
+        "конфіскувати — beschlagnahmen",
+        "нерухомість — die Immobilie",
+        "перепрофільовувати — umwidmen",
+        "оборонний — die Verteidigung",
+        "вивозити — ausführen",
+        "перебувати — sich befinden"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "перебудовує",
+          "hint": "перебудовувати — die Umgestaltung"
+        },
+        {
+          "surface": "інституції",
+          "hint": "інституція — die Institution"
+        },
+        {
+          "surface": "паспорти",
+          "hint": "паспорт — der Pass"
+        },
+        {
+          "surface": "конфіскують",
+          "hint": "конфіскувати — beschlagnahmen"
+        },
+        {
+          "surface": "нерухомості",
+          "hint": "нерухомість — die Immobilie"
+        },
+        {
+          "surface": "перепрофільовано",
+          "hint": "перепрофільовувати — umwidmen"
+        },
+        {
+          "surface": "оборонного",
+          "hint": "оборонний — die Verteidigung"
+        },
+        {
+          "surface": "вивозить",
+          "hint": "вивозити — ausführen"
+        },
+        {
+          "surface": "перебуває",
+          "hint": "перебувати — sich befinden"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/533/tsn-51cb131e/thumbs/608xX/b8/af/8aa34cdfc90b878d29e9273fee7cafb8.jpg",
+      "publishedAt": "2026-09-27T16:15:46.000Z",
+      "processedAt": "2026-09-27T19:46:15.908Z"
+    },
+    {
+      "id": "0f959ad1",
+      "originalTitle": "Виграти за будь-яку ціну: як Росія готує атаки на країни НАТО для зупинки допомоги Україні",
+      "simplifiedText": "Колишній генеральний директор Королівського об'єднаного інституту оборонних досліджень Майкл Кларк попередив західні уряди, що Росія готує новий етап війни. За його словами, президент Владімір Путін може підвищити інтенсивність бойових дій протягом наступних шести місяців, щоб виграти за будь‑яку ціну. Кремль планує мобілізувати від трьохсот до чотирьохсот тисяч нових солдатів і залучити війська КНДР. Разом із цим очікуються гібридні атаки, зокрема кібератаки, саботаж і запуск безпілотників «Гербера» з комерційних суден у Середземному морі. Американська розвідка вже повідомила про можливі диверсії на території країн НАТО, зокрема в Іспанії, Франції та Італії. Ці дії мають змусити Захід відмовитися від подальшої військової допомоги Україні. У відповідь Кремль посилює ракетний терор проти української інфраструктури.",
+      "vocabularyHints": [
+        "генеральний директор — der Generaldirektor",
+        "об'єднаний інститут оборонних досліджень — das vereinigte Institut für Verteidigungsforschung",
+        "мобілізувати — mobilisieren",
+        "КНДР — die Demokratische Volksrepublik Korea",
+        "гібридна атака — die hybride Attacke",
+        "кібератака — die Cyberattacke",
+        "саботаж — der Sabotage",
+        "безпілотник — die Drohne",
+        "розвідка — die Aufklärung",
+        "диверсія — die Sabotageaktion",
+        "ракетний терор — der Raketenterror"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "генеральний директор",
+          "hint": "генеральний директор — der Generaldirektor"
+        },
+        {
+          "surface": "об'єднаного інституту оборонних досліджень",
+          "hint": "об'єднаний інститут оборонних досліджень — das vereinigte Institut für Verteidigungsforschung"
+        },
+        {
+          "surface": "мобілізувати",
+          "hint": "мобілізувати — mobilisieren"
+        },
+        {
+          "surface": "КНДР",
+          "hint": "КНДР — die Demokratische Volksrepublik Korea"
+        },
+        {
+          "surface": "гібридні атаки",
+          "hint": "гібридна атака — die hybride Attacke"
+        },
+        {
+          "surface": "кібератаки",
+          "hint": "кібератака — die Cyberattacke"
+        },
+        {
+          "surface": "саботаж",
+          "hint": "саботаж — der Sabotage"
+        },
+        {
+          "surface": "безпілотників",
+          "hint": "безпілотник — die Drohne"
+        },
+        {
+          "surface": "розвідка",
+          "hint": "розвідка — die Aufklärung"
+        },
+        {
+          "surface": "диверсії",
+          "hint": "диверсія — die Sabotageaktion"
+        },
+        {
+          "surface": "ракетний терор",
+          "hint": "ракетний терор — der Raketenterror"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/871/tsn-51cb131e/thumbs/608xX/39/73/bdfa19fd65bbcb64a19370a295197339.png",
+      "publishedAt": "2026-09-27T16:26:23.000Z",
+      "processedAt": "2026-09-27T19:45:10.679Z"
+    },
+    {
+      "id": "2de5407c",
+      "originalTitle": "Сонце може створювати надпотужні спалахи: вчені знайшли нові докази",
+      "simplifiedText": "Вчені з Інституту досліджень Сонячної системи Макса Планка проаналізували найбільшу сонячну пляму минулого століття і виявили, що вона могла викликати надпотужний спалах. За їхніми оцінками, ця пляма була вдвічі ширшою за ту, що стала причиною Керрінгтонської події 1859 року, і її ширина становила близько 40 діаметрів Землі. Такі спалахи можуть порушувати роботу електромереж, впливати на іоносферу та супроводжуватися викидами плазми, які створюють полярні сяйва навіть у помірних широтах. Науковці назвали подібне явище «суперспалахом», оскільки воно виділяє більше ніж 10³⁴ ергів енергії. Це в 10‑100 разів більше, ніж енергія звичайних потужних сонячних спалахів. За даними дослідження, сучасний найпотужніший спалах 25‑го сонячного циклу мав клас X9.0 і стався 3 жовтня 2024 року. Вчені вважають, що наше Сонце потенційно може створювати ще більш потужні спалахи в майбутньому. Подальші дослідження допоможуть зрозуміти, чи можливо таке явище відбудеться знову.",
+      "vocabularyHints": [
+        "надпотужний — der übermächtige",
+        "спалах — der Ausbruch",
+        "іоносфера — die Ionosphäre",
+        "плазма — die Plasma",
+        "полярне сяйво — die Polarlichter",
+        "суперспалах — der Superflare",
+        "ергій — das Erg"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "надпотужний",
+          "hint": "надпотужний — der übermächtige"
+        },
+        {
+          "surface": "спалах",
+          "hint": "спалах — der Ausbruch"
+        },
+        {
+          "surface": "іоносферу",
+          "hint": "іоносфера — die Ionosphäre"
+        },
+        {
+          "surface": "плазми",
+          "hint": "плазма — die Plasma"
+        },
+        {
+          "surface": "полярні сяйва",
+          "hint": "полярне сяйво — die Polarlichter"
+        },
+        {
+          "surface": "суперспалахом",
+          "hint": "суперспалах — der Superflare"
+        },
+        {
+          "surface": "ергів",
+          "hint": "ергій — das Erg"
+        }
+      ],
+      "category": "Наука",
+      "imageUrl": "https://img.tsn.ua/cached/781/tsn-51cb131e/thumbs/608xX/ff/77/1bc6e316dd6725ffa42a345e742b77ff.jpg",
+      "publishedAt": "2026-09-27T16:46:33.000Z",
+      "processedAt": "2026-09-27T19:44:04.854Z"
+    },
+    {
+      "id": "4520875e",
+      "originalTitle": "Жінка три роки не сходить з круїзного лайнера: туристка розкрила переваги життя у VIP-статусі",
+      "simplifiedText": "Ліббі Ром, 55‑річна мандрівниця, вже понад три роки живе на борту розкішного круїзного лайнера Sky Princess. Вона отримала найвищий елітний статус лояльності, який відкриває доступ до безкоштовних послуг. Однією з улюблених переваг є безкоштовне прання: достатньо залишити брудний одяг у спеціальному пакеті, а персонал повертає його чистим наступного дня. Також у пасажирів є безкоштовний мінібар, який поповнюється на початку кожної нової подорожі. За бажанням можна зателефонувати до служби обслуговування і замінити стандартний набір напоїв на коньяк або ігристе вино. Власники елітного статусу мають доступ до закритих зон відпочинку, де проводяться ексклюзивні заходи. Ці події організовуються лише для VIP‑пасажирів і не відкриті для звичайних туристів.",
+      "vocabularyHints": [
+        "елітний — der exklusive",
+        "лояльність — die Loyalität",
+        "мінібар — die Minibar",
+        "закритий — die geschlossene",
+        "зона — die Zone",
+        "захід — die Veranstaltung",
+        "ексклюзивний — die exklusive"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "елітний",
+          "hint": "елітний — der exklusive"
+        },
+        {
+          "surface": "лояльності",
+          "hint": "лояльність — die Loyalität"
+        },
+        {
+          "surface": "мінібар",
+          "hint": "мінібар — die Minibar"
+        },
+        {
+          "surface": "закритих",
+          "hint": "закритий — die geschlossene"
+        },
+        {
+          "surface": "зон",
+          "hint": "зона — die Zone"
+        },
+        {
+          "surface": "заходи",
+          "hint": "захід — die Veranstaltung"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/298/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/30/fe/121254b002f711644668b45b8f1cfe30.jpeg",
+      "publishedAt": "2026-09-27T16:57:54.000Z",
+      "processedAt": "2026-09-27T19:42:58.702Z"
+    },
+    {
+      "id": "1d54ca70",
+      "originalTitle": "Помилка коштувала 140 мільйонів: в США ліквідовують найгірший екологічний проєкт в історії",
+      "simplifiedText": "У Флориді, США, вже багато років водолази виводять з океану величезну кількість старих автомобільних шин. У 1970‑х роках місцева влада навмисно закинула близько двох мільйонів покришок, сподіваючись, що вони стануть штучним рифом і підтримають морське життя. Через корозію металевих кріплень і розриви пластикових ременів шини розлетілися по дну, пошкодивши природні рифи і вбивши багато коралів. За останні роки уряд і приватні підрядники підняли понад шістсот тисяч шин, але процес залишився дуже дорогим. За оцінками експертів, вартість вилучення однієї покришки становить близько тридцяти доларів. Загальні витрати на ліквідацію цього проєкту вже перевищують сто сорок мільйонів доларів. Тепер планується повністю закрити цю «екологічну катастрофу» і знайти інший спосіб утилізації відходів.",
+      "vocabularyHints": [
+        "водолаз — der Taucher",
+        "штучний риф — das künstliche Riff",
+        "пластиковий ремінь — der Kunststoffgurt",
+        "експерт — der Experte",
+        "катастрофа — die Katastrophe",
+        "корозія — die Korrosion",
+        "підрядник — der Auftragnehmer"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "водолази",
+          "hint": "водолаз — der Taucher"
+        },
+        {
+          "surface": "штучним рифом",
+          "hint": "штучний риф — das künstliche Riff"
+        },
+        {
+          "surface": "пластикових ременів",
+          "hint": "пластиковий ремінь — der Kunststoffgurt"
+        },
+        {
+          "surface": "експертів",
+          "hint": "експерт — der Experte"
+        },
+        {
+          "surface": "катастрофу",
+          "hint": "катастрофа — die Katastrophe"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/512/tsn-51cb131e/thumbs/608xX/a8/43/40bdf8c807a4484fd78b8b4c0b8d43a8.png",
+      "publishedAt": "2026-09-27T18:13:00.000Z",
+      "processedAt": "2026-09-27T19:41:53.444Z"
+    },
+    {
+      "id": "3d469331",
+      "originalTitle": "Чи врятують автономні котельні міста від перебоїв з опаленням: що каже експерт",
+      "simplifiedText": "На фоні постійної загрози ударів по енергетичній інфраструктурі в Україні дедалі більше говорять про децентралізоване теплопостачання. Одним із можливих рішень є блочно‑модульні котельні, які можуть підстрахувати окремі райони, коли велика ТЕЦ виходить з ладу. За словами кандидата технічних наук Олександра Сігала, інженера та керівника Інституту промислової екології, такі котельні мають потужність близько 100 МВт. Для їх розміщення потрібен майданчик розміром приблизно половина футбольного стадіону, що в щільній міській забудові важко знайти. Крім простору, треба враховувати норми щодо шуму та викидів, а також забезпечити газопровід середнього тиску, бо побутова газова мережа не підходить. Прокладання нового газопроводу в уже забудованих районах часто є технічно складним або навіть неможливим. Тому автономні котельні можуть стати лише додатковим резервом, а не повною заміною централізованих систем опалення.",
+      "vocabularyHints": [
+        "децентралізований — die Dezentralisierung",
+        "блочно‑модульний — die Block-Modul-Kesselanlage",
+        "ТЕЦ — das Kraftwerk",
+        "Інститут промислової екології — das Institut für Industrieökologie",
+        "потужність — die Leistung",
+        "шум — der Lärm",
+        "викид — die Emission",
+        "газопровід середнього тиску — die Mittelspannungs-Gasleitung",
+        "технічний — technisch"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "децентралізоване",
+          "hint": "децентралізований — die Dezentralisierung"
+        },
+        {
+          "surface": "блочно‑модульні",
+          "hint": "блочно‑модульний — die Block-Modul-Kesselanlage"
+        },
+        {
+          "surface": "ТЕЦ",
+          "hint": "ТЕЦ — das Kraftwerk"
+        },
+        {
+          "surface": "Інституту промислової екології",
+          "hint": "Інститут промислової екології — das Institut für Industrieökologie"
+        },
+        {
+          "surface": "потужність",
+          "hint": "потужність — die Leistung"
+        },
+        {
+          "surface": "шуму",
+          "hint": "шум — der Lärm"
+        },
+        {
+          "surface": "викидів",
+          "hint": "викид — die Emission"
+        },
+        {
+          "surface": "газопровід середнього тиску",
+          "hint": "газопровід середнього тиску — die Mittelspannungs-Gasleitung"
+        },
+        {
+          "surface": "технічно",
+          "hint": "технічний — technisch"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/012/tsn-51cb131e/thumbs/608xX/50/eb/eb6071bef13020e61e3581ebadf6eb50.jpg",
+      "publishedAt": "2026-09-27T18:34:19.000Z",
+      "processedAt": "2026-09-27T19:40:48.397Z"
+    },
+    {
+      "id": "61d80c45",
+      "originalTitle": "Росія ввечері вдарила по Києву: уламки впали в трьох районах, є постраждалі",
+      "simplifiedText": "У неділю ввечері, 27 вересня, російські війська здійснили повітряну атаку на Київ, і уламки безпілотників впали в трьох районах міста. У Подільському районі уламки спричинили загоряння трав’яного настилу і пошкодили вікна в кількох будинках. У Дарницькому районі частина дронів впала на відкриту територію біля магазину, не завдавши серйозних ушкоджень. Найбільші руйнування зафіксовано в Дніпровському районі, де уламки вразили двоповерхову нежитлову будівлю і викликали сильну пожежу. Мер міста Віталій Кличко повідомив, що екстрені служби вже працюють на місцях у всіх трьох районах. На відкритій місцевості в Дніпровському районі влучив безпілотник, внаслідок чого отримали травми дві особи. Їм надали швидку медичну допомогу і продовжують спостерігати за станом постраждалих.",
+      "vocabularyHints": [
+        "повітряна атака — der Luftangriff",
+        "уламок — die Trümmer",
+        "нежитловий — das nichtwohnlich",
+        "окупаційний — die Besatzungs-",
+        "безпілотний літальний апарат — das unbemannte Fluggerät",
+        "вибухова хвиля — die Explosionswelle",
+        "постраждалий — die Verletzten"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "повітряну атаку",
+          "hint": "повітряна атака — der Luftangriff"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "нежитлову",
+          "hint": "нежитловий — das nichtwohnlich"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/174/tsn-51cb131e/thumbs/608xX/6b/bd/9fd34a88f99a02b7623795df1388bd6b.jpg",
+      "publishedAt": "2026-09-27T18:40:22.000Z",
+      "processedAt": "2026-09-27T19:39:41.234Z"
+    },
     {
       "id": "3967fe88",
       "originalTitle": "Путін змінився: експерт шокував новою заявою про очільника Кремля",
