@@ -104,4 +104,28 @@ jobs:
           git add data/articles.json
           # Пушимо тільки якщо є зміни
           git diff --staged --quiet || git commit -m "chore: update news $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          # Якщо між checkout цього job'у і зараз хтось інший (ручний push,
+          # редагування на GitHub UI тощо) встиг запушити в main, звичайний
+          # `git push` впаде з "rejected ... fetch first" — і 20+ хвилин
+          # генерації новин пропадуть безслідно, бо контейнер раннера
+          # знищується одразу після завершення job'у. concurrency-group
+          # вище виключає паралельні запуски ЦЬОГО workflow, але не захищає
+          # від стороннього коміту в main з якогось іншого джерела.
+          # Ретраїмо push кілька разів: rebase підтягує чужий коміт (наш
+          # коміт міняє лише articles.json, тож конфлікти малоймовірні —
+          # а якщо все ж стануться, rebase просто впаде і цикл нижче це
+          # вже не "виправить", job почервоніє видимо, замість тихо загубити
+          # роботу).
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "✅ Pushed successfully"
+              break
+            fi
+            if [ "$i" -eq 5 ]; then
+              echo "❌ Push failed after 5 attempts — giving up."
+              exit 1
+            fi
+            echo "⚠️  Push rejected (attempt $i/5) — pulling remote changes and retrying..."
+            git pull --rebase origin main
+            sleep 5
+          done
