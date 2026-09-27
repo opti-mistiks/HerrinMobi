@@ -285,8 +285,8 @@ async function processTsn(db) {
 }
 
 async function main() {
-  if (!process.env.GROQ_API_KEY) {
-    console.error("❌ GROQ_API_KEY is not set!");
+  if (DE_ROTATION_KEYS.length === 0) {
+    console.error("❌ No Groq API key set for the app/DE pipeline! Set either GROQ_API_KEY, or GROQ_API_KEY_DE_1 (and optionally _2, _3, ...).");
     process.exit(1);
   }
 
