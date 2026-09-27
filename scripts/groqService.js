@@ -669,9 +669,112 @@ async function simplifyTsnArticle(article, level, apiKey = TSN_API_KEY) {
   };
 }
 
+// ─────────────────────────────────────────────────────────────────
+// Russian translation pass — runs as a separate step after DE+TSN
+// generation, translating already-generated content (never re-simplifying
+// from the source article), so the RU text/hints stay 100% aligned with
+// what's already in the DB. Two shapes, matching the two source pipelines:
+//
+//  - DE articles (app/20min): the simplified text STAYS German — only the
+//    vocabulary hints get a parallel Russian line, since a UK<->DE learner
+//    and a RU<->DE learner read the exact same German text, just need
+//    their own-language hint. Hint format stays "<lemma> — <translation>";
+//    the lemma is German in both, only the translation half changes.
+//  - TSN articles (Ukrainian source): the WHOLE simplified text is
+//    translated (Ukrainian -> Russian), since Russian is the reading
+//    language for that learner track. Hints keep their "<lemma> — <deu>"
+//    shape; only the lemma (Ukrainian word) becomes its Russian
+//    equivalent — the German half of the hint is unchanged, since it's
+//    the same German word regardless of which Slavic language the
+//    student's UI is in.
+
+function parseHintLemma(hint) {
+  const idx = hint.indexOf(" — ");
+  if (idx === -1) return { lemma: hint, rest: "" };
+  return { lemma: hint.slice(0, idx), rest: hint.slice(idx + 3) };
+}
+
+// DE articles: translate only the non-German half of each hint
+// ("die Wahl, -en — вибір" -> "die Wahl, -en — выбор"). The German lemma
+// half is never touched — only whichever half is the OTHER language.
+async function translateHintsToRussian(vocabularyHints, apiKey) {
+  if (!vocabularyHints || vocabularyHints.length === 0) return [];
+
+  const system = `Ти перекладач. Тобі дають масив підказок формату
+"<німецьке_слово> — <переклад_українською>". Твоє завдання: перекласти
+ТІЛЬКИ частину після " — " на російську мову, зберігаючи німецьку
+частину БЕЗ ЗМІН. Порядок елементів масиву має лишитись тим самим.
+Output: single minified JSON object, no markdown, no backticks.
+{"hints":["<same German part> — <russian translation>", ...]}`;
+
+  const data = await groqRequest({
+    model: MODEL,
+    temperature: 0,
+    max_tokens: 2000,
+    reasoning_effort: "low",
+    response_format: { type: "json_object" },
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: JSON.stringify(vocabularyHints) },
+    ],
+  }, 3, apiKey);
+
+  const raw = data.choices?.[0]?.message?.content || "";
+  if (!raw.trim()) throw new Error("Groq returned an empty completion");
+  const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+  if (!Array.isArray(parsed.hints)) throw new Error("Missing hints array in parsed JSON");
+  return parsed.hints;
+}
+
+// TSN articles: translate the full Ukrainian simplifiedText to Russian,
+// AND translate just the Ukrainian-lemma half of each hint
+// ("вибір — die Wahl, -en" -> "выбор — die Wahl, -en"). One Groq call
+// covers both, since they're the same UK->RU translation direction and
+// keeping them together halves the number of requests for this pass
+// (fewer calls = less pressure on the TPM ceiling that TSN generation
+// itself already runs close to — see MAX_TOKENS_BY_LEVEL_TSN above).
+async function translateTsnToRussian(simplifiedTextUkr, vocabularyHints, apiKey) {
+  const system = `Ти перекладач з української на російську мову.
+Тобі дають:
+1. Текст українською мовою.
+2. Масив підказок формату "<українське_слово> — <німецьке_слово>".
+
+Завдання:
+1. Перекласти текст на російську мову. Зберігай той самий зміст, стиль
+і рівень складності — це НЕ переказ і не спрощення, а точний переклад.
+2. Для кожної підказки перекласти ТІЛЬКИ частину ДО " — " (українське
+слово/лему) на російську, а частину після " — " (німецьке слово) лишити
+БЕЗ ЗМІН. Порядок підказок має лишитись тим самим.
+
+Output: single minified JSON object, no markdown, no backticks.
+{"text_ru":"...","hints_ru":["<russian lemma> — <same German part>", ...]}`;
+
+  const data = await groqRequest({
+    model: MODEL,
+    temperature: 0.1,
+    max_tokens: 4000,
+    reasoning_effort: "low",
+    response_format: { type: "json_object" },
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: JSON.stringify({ text: simplifiedTextUkr, hints: vocabularyHints || [] }) },
+    ],
+  }, 3, apiKey);
+
+  const raw = data.choices?.[0]?.message?.content || "";
+  if (!raw.trim()) throw new Error("Groq returned an empty completion");
+  const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+  if (!parsed.text_ru || !Array.isArray(parsed.hints_ru)) {
+    throw new Error("Missing text_ru/hints_ru in parsed JSON");
+  }
+  return { textRu: parsed.text_ru.trim(), hintsRu: parsed.hints_ru };
+}
+
 module.exports = {
   simplifyArticle,
   toSwiss,
   detectCategory,
   simplifyTsnArticle,
+  translateHintsToRussian,
+  translateTsnToRussian,
 };
