@@ -1,791 +1,546 @@
-const https = require("https");
+const fs   = require("fs");
+const path = require("path");
+const { parseRSSFeeds, fetchOgImage, parseTsnFeed } = require("./rssParser");
+const { simplifyArticle, toSwiss, simplifyTsnArticle, translateHintsToRussian, translateTsnToRussian } = require("./groqService");
 
-const MODEL = "openai/gpt-oss-120b";
+const DB_PATH       = path.join(__dirname, "..", "data", "articles.json");
+const LEVELS        = ["A1", "A2", "B1"];
+const MAX_PER_LEVEL = 100;
+// TSN articles are stored under their own keys (tsnA1/tsnA2/tsnB1) so the
+// existing app/DE sections (A1/A2/B1) stay untouched — an app build that
+// doesn't know about TSN yet just ignores the extra keys.
+const TSN_LEVEL_KEYS = { A1: "tsnA1", A2: "tsnA2", B1: "tsnB1" };
+const MAX_PER_LEVEL_TSN = 100;
 
-const TSN_API_KEY = process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY;
+// How many NEW source articles (not levels — articles) to process per run,
+// per pipeline (app/DE and TSN each get their own budget).
+//
+// Groq free tier for openai/gpt-oss-120b (confirmed via console.groq.com/
+// docs/rate-limits, Sep 2026): 30 RPM, 1,000 RPD, 8K TPM, 200K TPD. Token
+// caps (TPM/TPD) are NOT the bottleneck here — Metrics dashboard shows
+// actual token usage far below both. The binding constraint is RPD: each
+// article costs ~1 Groq call per level (simplify only for both app/DE and
+// TSN — TSN's separate reference-translation call was removed) x 3 levels
+// = ~3 calls/article in the normal case; failed attempts retry up to 3x
+// per level and each retry still counts against the RPD budget, so a run
+// with a lot of json_validate_failed/truncated-JSON errors burns through
+// RPD much faster than this "normal case" estimate.
+// The scheduled workflow runs once/day, so the full 1,000 RPD budget goes
+// to a single run, split across 2 pipelines (app/DE + TSN): ~500 requests
+// each ≈ 150+ articles/pipeline in theory. In practice keep well under that
+// — RPM (30/min) means a run this size takes 15-20+ min regardless, and
+// leaving headroom avoids a single slow day (retries, longer articles)
+// tipping the whole run into RPD exhaustion. 6 is a conservative starting
+// point with room to raise once you've watched a few runs against the
+// Metrics dashboard. Override via env, e.g. NEWS_BATCH_SIZE=15, to speed
+// up backfill once the daily budget is confirmed comfortable.
+// 9 = 3 keys x 3 articles/key (see rotation below) — with fewer than 9,
+// the later keys in rotation would never actually get used in a run.
+const BATCH_SIZE = parseInt(process.env.NEWS_BATCH_SIZE || "9", 10);
+
+// --- Groq API key rotation (per-account daily quota, not per-key within
+// one account) -------------------------------------------------------
+//
+// Each Groq ACCOUNT (not each key) gets its own independent 1,000 RPD
+// budget. To get more than one account's worth of daily budget, you need
+// several separate Groq accounts, each contributing one key here. This
+// does NOT change how articles are generated — still one article at a
+// time, sequentially, same as before — it only switches which key is used
+// every ARTICLES_PER_KEY articles, so the daily total is spread across
+// several accounts' quotas instead of hammering a single one.
+//
+// Setup: create N Groq accounts, generate one API key in each, add them
+// as repo secrets (Settings -> Secrets and variables -> Actions):
+//   GROQ_API_KEY_DE_1, GROQ_API_KEY_DE_2, GROQ_API_KEY_DE_3, ...
+//   GROQ_API_KEY_TSN_1, GROQ_API_KEY_TSN_2, GROQ_API_KEY_TSN_3, ...
+// and pass them through as env vars in update-news.yml (see that file).
+// Only the keys that are actually set are used — if none of the numbered
+// secrets exist, both pipelines fall back to the single GROQ_API_KEY /
+// GROQ_API_KEY_TSN exactly as before, so this is fully backward-compatible
+// with the current 1-key setup.
+const ARTICLES_PER_KEY = parseInt(process.env.NEWS_ARTICLES_PER_KEY || "3", 10);
+
+function collectRotationKeys(prefix, fallback) {
+  const keys = [];
+  for (let i = 1; ; i++) {
+    const v = process.env[`${prefix}_${i}`];
+    if (!v) break;
+    keys.push(v);
+  }
+  return keys.length > 0 ? keys : (fallback ? [fallback] : []);
+}
+
+const DE_ROTATION_KEYS  = collectRotationKeys("GROQ_API_KEY_DE", process.env.GROQ_API_KEY);
+const TSN_ROTATION_KEYS = collectRotationKeys("GROQ_API_KEY_TSN", process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY);
+
+// ─────────────────────────────────────────────────────────────────
+// Russian translation pass — runs once, after DE+TSN generation, over
+// just the articles freshly generated THIS run (not the whole DB). Its
+// own key (GROQ_API_KEY_RU — singular, one account) is tried first; when
+// it hits a limit (429 TPM burst, RPD exhaustion, or 413 too-large), we
+// fall back through the DE/TSN keys IN THE ORDER THEY WERE USED EARLIER
+// IN THIS SAME RUN — i.e. the ones that have had the longest time to
+// "cool down" since their last call, oldest-used first: DE_1, DE_2, DE_3
+// (used first, early in the run), then TSN_1, TSN_2, TSN_3 (used more
+// recently, right before this pass starts). Once a fallback key is
+// picked, we STAY on it for the rest of the run rather than retrying
+// GROQ_API_KEY_RU on every subsequent article — a key that just hit a
+// per-minute TPM ceiling won't have recovered by the next article a few
+// seconds later, so retrying it every time just burns an extra failed
+// request (and RPD) each time for no benefit.
+const RU_KEY = process.env.GROQ_API_KEY_RU;
+const RU_FALLBACK_CHAIN = [RU_KEY, ...DE_ROTATION_KEYS, ...TSN_ROTATION_KEYS].filter(Boolean);
+
+// Returns the Groq key that article #articleIndex (0-based, in processing
+// order) should use: key 0 for articles 0..ARTICLES_PER_KEY-1, key 1 for
+// the next ARTICLES_PER_KEY, and so on, wrapping around if there are more
+// articles than keys x ARTICLES_PER_KEY can cover in one run.
+function keyForArticleIndex(rotationKeys, articleIndex) {
+  if (rotationKeys.length === 0) return undefined; // let groqService fall back to its own default
+  const keyIdx = Math.floor(articleIndex / ARTICLES_PER_KEY) % rotationKeys.length;
+  return rotationKeys[keyIdx];
+}
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-// Fallback used whenever a caller doesn't pass its own apiKey (e.g. code
-// paths not yet wired into the key-rotation scheme in updateNews.js).
-const DEFAULT_DE_API_KEY = () => process.env.GROQ_API_KEY;
-
-function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
-  return new Promise((resolve, reject) => {
-    const payload = JSON.stringify(body);
-    const options = {
-      hostname: "api.groq.com",
-      path: "/openai/v1/chat/completions",
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${apiKey}`,
-        "Content-Length": Buffer.byteLength(payload),
-      },
-      timeout: 30000,
-    };
-
-    const req = https.request(options, res => {
-      const chunks = [];
-      res.on("data", c => chunks.push(c));
-      res.on("end", async () => {
-        const text = Buffer.concat(chunks).toString("utf8");
-
-        if (res.statusCode === 429 && retries > 0) {
-          const remainingRequests = res.headers["x-ratelimit-remaining-requests"];
-          const remainingTokens = res.headers["x-ratelimit-remaining-tokens"];
-          const isDailyExhausted = remainingRequests !== undefined && parseInt(remainingRequests, 10) <= 0;
-          const limitKind = isDailyExhausted
-            ? "DAILY (RPD) quota exhausted for this API key — will not recover until Groq's daily reset; retrying sooner or pacing requests differently won't help"
-            : `per-minute (TPM) burst — remaining-tokens=${remainingTokens ?? "?"}, remaining-requests=${remainingRequests ?? "?"}`;
-
-          const rawWait = parseFloat(res.headers["retry-after"] || "5") * 1000;
-          const MAX_WAIT_MS = 60000;
-          if (rawWait > MAX_WAIT_MS) {
-            reject(new Error(`Groq rate limit requests a ${Math.round(rawWait / 1000)}s wait — giving up (${limitKind})`));
-            return;
-          }
-          console.warn(`[groq] Rate limit, retrying in ${rawWait}ms... (${limitKind})`);
-          await sleep(rawWait);
-          groqRequest(body, retries - 1, apiKey).then(resolve).catch(reject);
-          return;
-        }
-
-        // 413 is Groq's up-front rejection: prompt_tokens + max_tokens already
-        // exceeds the model's per-request TPM ceiling before any generation
-        // starts, so it's a distinct failure mode from the 429 bursts above
-        // (those recover on their own after a wait; this one never will —
-        // the request itself is the wrong shape). The error body always
-        // names the exact numbers ("Limit 8000, Requested 10426"), so rather
-        // than guessing a fixed cut (halving risks trimming far more than
-        // needed on a request that only overshot by a few hundred tokens,
-        // or too little on one that overshot by a lot), parse those numbers
-        // and shrink max_tokens by exactly the overshoot plus a small
-        // safety margin, then retry the same request once with the
-        // corrected size. This only ever reduces the completion-length
-        // budget, never the actual prompt content, so it can't change what
-        // article text/vocabulary comes back — only gives the model less
-        // slack for hidden reasoning before it has to write the JSON.
-        if (res.statusCode === 413 && retries > 0) {
-          const m = /Limit (\d+), Requested (\d+)/.exec(text);
-          if (m && body.max_tokens) {
-            const limit = parseInt(m[1], 10);
-            const requested = parseInt(m[2], 10);
-            const overshoot = requested - limit;
-            const SAFETY_MARGIN = 200;
-            const newMaxTokens = Math.max(500, body.max_tokens - overshoot - SAFETY_MARGIN);
-            console.warn(`[groq] 413 too-large request (limit=${limit}, requested=${requested}) — retrying with max_tokens ${body.max_tokens} -> ${newMaxTokens}`);
-            groqRequest({ ...body, max_tokens: newMaxTokens }, retries - 1, apiKey).then(resolve).catch(reject);
-            return;
-          }
-        }
-
-        if (res.statusCode < 200 || res.statusCode >= 300) {
-          reject(new Error(`Groq HTTP ${res.statusCode}: ${text.slice(0, 500)}`));
-          return;
-        }
-
-        try { resolve(JSON.parse(text)); }
-        catch { reject(new Error("Failed to parse Groq response")); }
-      });
-    });
-
-    req.on("error", reject);
-    req.on("timeout", () => { req.destroy(); reject(new Error("Timeout")); });
-    req.write(payload);
-    req.end();
-  });
-}
-
-function toSwiss(str) {
-  if (!str) return str;
-  return String(str)
-    .replace(/ß/g, "ss").replace(/ẞ/g, "SS")
-    .replace(/[\u2010\u2011\u2012\u2013]/g, "-")
-    .replace(/[\u202F\u00A0\u2009]/g, " ")
-    .replace(/\u2019/g, "'");
-}
-
-const CATEGORIES = [
-  "Wetter", "Politik", "Sport", "Wirtschaft", "Gesundheit",
-  "Gesellschaft", "Verkehr", "Kultur", "Wissenschaft",
-];
-
-const CATEGORY_RULES = [
-  ["Wetter",       /\b(wetter|unwetter|sturm|gewitter|hitze|kälte|schnee|regen|hagel|nebel|meteo|temperatur|orkan|überschwemm)/i],
-  ["Sport",        /\b(fussball|football|eishockey|hockey|tennis|ski|skifahr|biathlon|kanu|rudern|velo|radrennen|tour de|olympi|meisterschaft|em\b|wm\b|super league|cup|trainer|spieler|match|sieg|niederlage|turnier|formel 1|f1\b|marathon|schwing|nati\b)/i],
-  ["Verkehr",      /\b(verkehr|stau|sbb|zug|züge|bahn|autobahn|strasse|strassen|flughafen|flug|tunnel|gotthard|fahrplan|unfall|velo|bus\b|tram|lastwagen|lkw|sperrung|baustelle)/i],
-  ["Gesundheit",   /\b(spital|spitäler|krankenhaus|krankenkasse|krankenkassen|prämie|arzt|ärzte|ärztin|patient|medizin|medikament|impf|virus|grippe|krebs|therapie|gesundheit|pflege|operation|klinik|psych|diagnose)/i],
-  ["Wissenschaft", /\b(forscher|forschung|studie|wissenschaft|universität|eth\b|epfl|klima|weltraum|nasa|esa\b|planet|gen\b|dna|experiment|entdeck|künstliche intelligenz|ki\b|technologie|roboter)/i],
-  ["Kultur",       /\b(film|kino|musik|konzert|festival|theater|buch|roman|künstler|kunst|museum|ausstellung|serie|star|sänger|schauspiel|oper|album|netflix|promi|show)/i],
-  ["Wirtschaft",   /\b(wirtschaft|firma|firmen|unternehmen|konzern|börse|aktie|franken|euro|dollar|inflation|zoll|zölle|handel|bank|ubs|nestlé|novartis|roche|swiss\b|stellen|entlass|umsatz|gewinn|preis|preise|miete|mieten|lohn|löhne|steuer|steuern|konkurs|sparen|kosten|export|import)/i],
-  ["Politik",      /\b(bundesrat|parlament|nationalrat|ständerat|regierung|abstimmung|initiative|wahl|wahlen|partei|svp|sp\b|fdp|mitte\b|grüne|gericht|urteil|bundesgericht|gesetz|verordnung|minister|präsident|eu\b|nato|krieg|ukraine|russland|putin|trump|usa|sanktion|asyl|migration)/i],
-];
-
-const SOURCE_CATEGORY = {
-  "20min Sport": "Sport",
-  "20min Entertainment": "Kultur",
-  "20min Wissen": "Wissenschaft",
-  "20min Lifestyle": "Gesellschaft",
-};
-
-function detectCategory(article) {
-  const hay = `${article.title || ""} ${(article.description || "").slice(0, 400)}`;
-  const title = article.title || "";
-  for (const [cat, re] of CATEGORY_RULES) {
-    if (re.test(title)) return cat;
-  }
-  for (const [cat, re] of CATEGORY_RULES) {
-    if (re.test(hay)) return cat;
-  }
-  return SOURCE_CATEGORY[article.source] || "Gesellschaft";
-}
-
-const coreCache = new Map();
-
-async function resolveStoryCore(article, apiKey = DEFAULT_DE_API_KEY()) {
-  const key = article.title;
-  if (coreCache.has(key)) return coreCache.get(key);
-
-  const p = (async () => {
-    const fallback = { category: detectCategory(article), core: "" };
-    const system = `You classify Swiss news articles. Output a single minified JSON object, no markdown.
-Never use the letter "ß" (Swiss spelling: always "ss").
-
-Return:
-{"category":"<one of: ${CATEGORIES.join(" / ")}>","core":"<ONE plain German sentence, max 25 words, stating the single main fact of the article: who did/what happened. Only facts present in the source. No opinions, no invented details.>"}
-
-Category rules: choose by what the story is MAINLY about.
-- Sport: any athlete, team, match, competition, sports figure (even if the news is about death, health or money).
-- Gesundheit: hospitals, doctors, illness, health insurance, medicine.
-- Politik: government, parliament, courts, elections, laws, war, international politics.
-- Wirtschaft: companies, prices, jobs, money, housing costs, consumer topics.
-- Wissenschaft: research, studies, nature, animals, climate science, technology.
-- Kultur: film, music, art, celebrities, entertainment.
-- Verkehr: traffic, trains, roads, accidents on roads/rails, airports.
-- Wetter: weather events.
-- Gesellschaft: everyday life, people stories, crime, social topics that fit none of the others.`;
-    try {
-      const data = await groqRequest({
-        model: MODEL,
-        temperature: 0,
-        max_tokens: 400,
-        reasoning_effort: "low",
-        response_format: { type: "json_object" },
-        messages: [
-          { role: "system", content: system },
-          { role: "user", content: `Title: ${toSwiss(article.title)}\nArticle: ${toSwiss(article.description.slice(0, 1200))}` },
-        ],
-      }, 3, apiKey);
-      const raw = data.choices?.[0]?.message?.content || "";
-      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-      const category = CATEGORIES.includes(parsed.category) ? parsed.category : fallback.category;
-      const core = toSwiss(String(parsed.core || "")).trim();
-      return { category, core };
-    } catch (err) {
-      console.warn(`  ⚠️  Story-core lookup failed, using keyword fallback: ${err.message}`);
-      return fallback;
-    }
-  })();
-
-  coreCache.set(key, p);
-  return p;
-}
-
-const LEVEL_CONFIG = {
-  A1: {
-    textInstruction: "Write 4-5 sentences, roughly 6-12 words each, using ONLY grammar from an A1 course (Lektion 1-14 level): Präsens of regular and irregular verbs (sein, haben, and verbs with vowel change like sprechen/fahren/sehen), separable verbs (aufstehen, einkaufen, anrufen — verb splits: 'Er kauft ... ein'), Perfekt with haben/sein for simple facts ('Er ist gegangen', 'Sie hat gearbeitet'), modal verbs können/wollen/müssen/dürfen/sollen, definite/indefinite/negative articles, possessive articles (mein/dein/sein/ihr), Akkusativ and Dativ of definite/indefinite articles, simple prepositions (in, an, bei, mit, nach, seit, vor, für, zu) with their case, and basic W-questions. Connect clauses naturally with 'und', 'aber', 'dann', or 'oder' where it fits — don't write a robotic list of isolated facts. Do NOT use Nebensätze (weil/dass/wenn), Konjunktiv, or Passiv. Avoid compound nouns when a simpler word exists. Keep only the article's MOST IMPORTANT 2-3 facts (who/what happened, and one key detail like where/when/how much) — dropping minor details is correct at this level, but every sentence you write must still describe something that is actually IN the source article. Do not invent a different, simpler everyday scene just because the real story is hard to express in A1 grammar.",
-    hintExclusions: 'NEVER include: sein, haben, werden, machen, gehen, kommen, sehen, sagen, wollen, können, müssen; all pronouns; all articles; all numbers; country/city names; obvious cognates with Ukrainian or English.',
-    hintGuidance: 'An A1 learner\'s vocabulary is small, so most non-basic words in the text will be genuinely new to them — but this is also the shortest text (4-5 sentences), so there is a hard ceiling on how many distinct hint-worthy words even exist. Include every word in the text that a real A1 learner would not yet know, typically around 4-6 words for a text this length — do not pad the list with basic words just to hit a number, and do not skip a genuinely unfamiliar word just to keep the list short.',
-  },
-  A2: {
-    textInstruction: "Write 5-7 sentences that read as a natural, connected mini-story, not a checklist of facts, using grammar from an A2 course: Perfekt (including separable verbs like 'eingekauft', non-separable verbs like 'erlebt/verstanden', and -ieren verbs like 'telefoniert' without ge-), the subordinating conjunction 'weil' for reasons, coordinating conjunctions und/aber/oder/denn, the connector 'trotzdem', Wechselpräpositionen (an/auf/in/neben/vor/hinter + Dativ for location or Akkusativ for direction), comparison (Komparativ/Superlativ, 'als'/'wie'), simple adjective endings after der/ein (definiter/indefiniter Artikel), and simple Konjunktiv II only for polite requests or wishes ('Ich hätte gern...', 'Das wäre...') if it fits naturally — don't force it. Do NOT use complex Nebensätze with dass/wenn/obwohl, Passiv, or Konjunktiv II for hypotheticals. Vocabulary: daily life, work, shopping, weather, feelings. Keep the article's main facts (who, what happened, key numbers/places/reasons) — you may simplify or drop minor details, but every sentence must describe something that is actually IN the source article, not a different, easier-to-write scenario you made up.",
-    hintExclusions: 'NEVER include: basic everyday A1-A2 words; country/city names; obvious cognates.',
-    hintGuidance: 'This text is longer than the A1 one (5-7 sentences) and reaches into A2-specific vocabulary, so expect noticeably more hint-worthy words than A1 — typically around 6-9. Include every word in the text an A2 learner would not yet reliably know; don\'t artificially cap the list, and don\'t include words an A2 learner already knows just to fill it out.',
-  },
-  B1: {
-    textInstruction: "Write 7-9 sentences as a natural, flowing narrative — vary sentence length and structure the way a real short news piece would. You may use Nebensätze (weil, dass, wenn, obwohl), Konjunktiv II for hypotheticals, and simple Passiv. Preserve the article's key facts, numbers, names, and the actual sequence/cause-effect of events from the original — a B1 reader can handle real complexity, so there is no need to simplify away real content here.",
-    hintExclusions: "NEVER include: words any B1 student already knows; obvious cognates.",
-    hintGuidance: 'This is the longest and most advanced text (7-9 sentences, real news vocabulary — politics, economy, specialized terms), so it will typically contain the most hint-worthy words of the three levels, often 8-12 or more. List every word in the text a B1 student would genuinely need explained — do not stop at a round number if more of the text\'s vocabulary is actually unfamiliar at this level, and do not list something a B1 student already knows just to lengthen it.',
-  },
-};
-
-// B1 produces the longest simplified text AND the longest vocabulary list
-// (often 8-12+ entries vs. 4-6 for A1), and reasoning_effort spends part of
-// the token budget on hidden reasoning before the JSON answer even starts —
-// the harder B1 is to write well, the more of that budget it eats. A single
-// shared max_tokens sized for A1 routinely left B1 short, causing truncated/
-// unparseable JSON. Give each level its own headroom instead.
-//
-// These were previously 1800/2400/4000 — tight enough that on articles where
-// the model's hidden reasoning phase ran longer than usual, it could burn
-// through the whole budget before finishing the JSON, causing Groq's
-// server-side json_validate_failed ("max completion tokens reached before
-// generating a valid document"). openai/gpt-oss-120b's real ceiling on Groq
-// is 65,536 max completion tokens (confirmed via Groq's model docs) — far
-// above what a single simplify call needs even in the worst case — so there
-// was no real reason to keep these tight. Raised with generous headroom
-// (~3-4x the old values) so a longer-than-usual reasoning pass no longer
-// starves the actual answer; this does not change output length or
-// content, only how much slack the model has to reason before writing it.
-const MAX_TOKENS_BY_LEVEL = { A1: 6000, A2: 8000, B1: 12000 };
-
-// TSN uses a Ukrainian-language system prompt, which is measurably heavier
-// in tokens than the DE prompt for the same content (Cyrillic + longer UK
-// word forms tokenize worse) — before Groq has generated a single output
-// token, it already counts prompt_tokens + max_tokens against the 8,000
-// TPM per-request ceiling. With DE's max_tokens values reused as-is, this
-// occasionally pushed the total over 8,000 and Groq rejected the request
-// outright with HTTP 413 ("Request too large ... tokens per minute"),
-// rather than a normal 429 — confirmed in production logs, hitting A1/B1
-// (the largest max_tokens) more than A2.
-// These smaller ceilings do NOT touch textInstruction/hintGuidance, so the
-// actual A1/A2/B1 simplified-text length and vocabulary count this
-// produces are unchanged — this only trims the slack reserved for hidden
-// reasoning before the JSON answer, which was oversized for TSN's heavier
-// prompt. If a real 413 recurs even after this cut, tighten further.
-const MAX_TOKENS_BY_LEVEL_TSN = { A1: 3200, A2: 4200, B1: 5200 };
-
-async function simplifyArticle(article, level, apiKey = DEFAULT_DE_API_KEY()) {
-  const cfg = LEVEL_CONFIG[level];
-  const { category, core } = await resolveStoryCore(article, apiKey);
-  await sleep(1000);
-  const cleanTitle = toSwiss(article.title);
-
-  const systemPrompt = `You are a teacher of SWISS High German (Schweizer Hochdeutsch) creating reading exercises.
-
-=== SWISS ORTHOGRAPHY (MANDATORY) ===
-- The letter "ß" does NOT exist in Swiss Standard German. NEVER output "ß" anywhere
-  (text, vocabulary, everywhere). Always write "ss": "Strasse" (not "Straße"),
-  "heissen", "Fussball", "gross", "beschliessen", "Massnahme", "weiss", "draussen".
-- Use Swiss written conventions: "Velo" (not Fahrrad) only if the source uses it;
-  keep Swiss proper names and places exactly as in the source (e.g. "Kanton Schwyz",
-  "Bundesrat", "SBB", "Franken").
-- Otherwise standard grammar and spelling (no dialect words like "Znüni", no Mundart).
-Output: single minified JSON object. No markdown, no backticks.
-
-=== CRITICAL RULE: STAY FAITHFUL TO THE SOURCE ===
-The simplified text must describe the SAME real event(s) as the source
-article below — same topic, same people/organizations/places involved, same
-basic outcome. You are allowed to CUT details that are too complex for the
-level (numbers, sub-clauses, background context) — you are NEVER allowed to
-INVENT a different, easier scene (e.g. turning a political/economic/health
-news story into an everyday personal anecdote about shopping, chores, or
-a walk in the park) just because the real story is hard to phrase within
-the level's grammar. If the source is too dense to compress fully, simplify
-by cutting to the single most important fact and stating just that in
-correct level-appropriate grammar — never by substituting fiction for it.
-
-=== SAME STORY ON EVERY LEVEL ===
-This exact article is rewritten three times (A1, A2, B1) for different learners.
-The topic, main actors and core fact MUST be the same on all three; only the
-language complexity and the amount of detail change. The topic is: "${category}".
-The headline is: "${cleanTitle}".${core ? `\nThe core fact every level must express (in some form): "${core}"` : ""}
-Your text MUST clearly be about that headline and core fact — the key subject
-(who/what) must appear in the first sentence. Do not add facts, places, or names
-that are not in the source. Do not turn it into a different theme.
-
-=== TASK ===
-1. SIMPLIFIED TEXT ("simplified_text_deu"):
-${cfg.textInstruction}
-Write in Swiss High German (no "ß").
-
-2. VOCABULARY ("vocabulary") — array of objects:
-- Pick words that APPEAR IN YOUR SIMPLIFIED TEXT
-- Pick words a ${level} learner genuinely does NOT know
-- ${cfg.hintExclusions}
-- Do NOT target a fixed count. ${cfg.hintGuidance} The right number is however
-  many words in THIS text actually meet that bar — it will vary article to
-  article depending on how much unfamiliar vocabulary the text happens to use.
-- Each object has THREE fields:
-  * "surface": the word EXACTLY as it is written in your simplified text
-    (same inflection and capitalization, e.g. "geklagt", "Leiturteil", "Spitalplanung").
-    It must be findable in the text by exact match. For a separable verb whose two
-    parts are apart in the text (e.g. "kauft ... ein"), use only the part that
-    carries the meaning as it appears ("kauft").
-  * "lemma": dictionary form for the vocabulary list. Nouns with article + plural if
-    useful: "die Wahl, -en"; verbs in infinitive: "klagen"; adjectives base form.
-  * "ukr": the real Ukrainian meaning (NEVER copy the German word).
-- Each word once only. Never list the same surface twice.
-
-3. Do NOT return a category — it is already decided.
-
-=== OUTPUT ===
-Return ONLY valid JSON, nothing else, no explanation, no markdown:
-{"simplified_text_deu":"...","vocabulary":[{"surface":"...","lemma":"...","ukr":"..."}]}`;
-
-  const truncatedDescription = toSwiss(article.description.slice(0, 1500));
-  const maxAttempts = 3;
+// Runs one Groq call via the RU fallback chain, starting at
+// `startIdx` (an index into RU_FALLBACK_CHAIN) and staying on that key
+// for every call — advancing to the next key in the chain only when the
+// current one actually fails. Returns { result, nextIdx } so the caller
+// can carry the "stay on this key" state forward to the next article.
+async function runWithRuFallback(chain, startIdx, fn) {
+  let idx = startIdx;
   let lastErr;
-
-  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+  while (idx < chain.length) {
     try {
-      const data = await groqRequest({
-        model: MODEL,
-        temperature: 0.1,
-        max_tokens: MAX_TOKENS_BY_LEVEL[level] || 3000,
-        reasoning_effort: "medium",
-        response_format: { type: "json_object" },
-        messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user",   content: `Title: ${cleanTitle}\nArticle: ${truncatedDescription}` },
-        ],
-      }, 3, apiKey);
+      const result = await fn(chain[idx]);
+      return { result, nextIdx: idx };
+    } catch (err) {
+      lastErr = err;
+      console.warn(`  ⚠️  [RU] Key #${idx + 1}/${chain.length} failed (${err.message}) — advancing to next key in fallback chain.`);
+      idx++;
+    }
+  }
+  throw lastErr || new Error("RU fallback chain exhausted with no keys configured");
+}
 
-      const raw = data.choices?.[0]?.message?.content || "";
-      if (data.choices?.[0]?.finish_reason === "length") {
-        console.warn(`  ⚠️  [${level}] Groq cut off the response at max_tokens (finish_reason=length) — raising MAX_TOKENS_BY_LEVEL.${level} may help.`);
+// Russian translation pass for this run's freshly generated articles only
+// (never the whole DB — see comment on RU_FALLBACK_CHAIN above for why).
+// `deArticles`/`tsnArticles` are the { level -> article } results just
+// produced by the app/DE and TSN loops in main(), keyed the same way the
+// DB stores them, so we know exactly which entries to add RU fields to
+// without touching anything older already in db[level]/db[tsnKey].
+async function processRuTranslation(db, deResults, tsnResults) {
+  if (RU_FALLBACK_CHAIN.length === 0) {
+    console.warn("⚠️  No GROQ_API_KEY_RU (or DE/TSN fallback) configured — skipping Russian translation pass.");
+    return { processed: 0, failed: 0 };
+  }
+
+  let processed = 0, failed = 0;
+  let keyIdx = 0; // stays put across articles unless the current key fails
+
+  // DE articles: translate only the vocabulary hints, text stays German.
+  for (const { level, article } of deResults) {
+    try {
+      const { result: hintsRu, nextIdx } = await runWithRuFallback(
+        RU_FALLBACK_CHAIN, keyIdx,
+        (key) => translateHintsToRussian(article.vocabularyHints, key)
+      );
+      keyIdx = nextIdx;
+      article.vocabularyHintsRu = hintsRu;
+      processed++;
+    } catch (err) {
+      console.error(`  ❌ [RU][DE ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
+      failed++;
+    }
+    saveDB(db);
+    await sleep(20000);
+  }
+
+  // TSN articles: translate the full text + hints together (one call).
+  for (const { level, article } of tsnResults) {
+    try {
+      const { result, nextIdx } = await runWithRuFallback(
+        RU_FALLBACK_CHAIN, keyIdx,
+        (key) => translateTsnToRussian(article.simplifiedText, article.vocabularyHints, key, article.originalTitle)
+      );
+      keyIdx = nextIdx;
+      article.originalTitleRu   = result.titleRu;
+      article.simplifiedTextRu  = result.textRu;
+      article.vocabularyHintsRu = result.hintsRu;
+      processed++;
+    } catch (err) {
+      console.error(`  ❌ [RU][TSN ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
+      failed++;
+    }
+    saveDB(db);
+    await sleep(20000);
+  }
+
+  return { processed, failed };
+}
+
+function loadDB() {
+  if (!fs.existsSync(DB_PATH)) return {};
+  try { return JSON.parse(fs.readFileSync(DB_PATH, "utf8")); }
+  catch { return {}; }
+}
+
+function saveDB(db) {
+  fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
+  fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), "utf8");
+}
+
+
+
+// ── Word ↔ text matching for articles generated before `vocabularyWords`
+// existed. Mirrors NewsArticle.resolveWords in the app (same rules).
+function cleanLemma(s) {
+  let t = s.split(",")[0].trim();
+  t = t.replace(/^(der|die|das|sich|ein|eine)\s+/i, "").replace(/^(der|die|das|sich)\s+/i, "");
+  const parts = t.trim().split(/\s+/);
+  return parts[parts.length - 1];
+}
+function stemOf(w) {
+  let x = w;
+  if (x.startsWith("ge") && x.length > 6) x = x.slice(2);
+  for (const suf of ["ungen", "ung", "en", "er", "es", "em", "st", "te", "ten", "e", "n", "t", "s"]) {
+    if (x.length > suf.length + 4 && x.endsWith(suf)) { x = x.slice(0, -suf.length); break; }
+  }
+  return x;
+}
+function stemOverlap(lemma, word) {
+  const a = stemOf(lemma), b = stemOf(word);
+  const n = Math.min(a.length, b.length);
+  let i = 0;
+  while (i < n && a[i] === b[i]) i++;
+  if (i < 5) return 0;
+  return i / Math.min(a.length, b.length) >= 0.7 ? i : 0;
+}
+function resolveWords(text, hints) {
+  const tokens = [...new Set(text.match(/[\p{L}]+(?:-[\p{L}]+)*/gu) || [])];
+  const used = new Set();
+  const out = [];
+  for (const hint of hints) {
+    const lemma = cleanLemma(hint.split(" — ")[0].trim());
+    if (lemma.length < 3) continue;
+    let best = tokens.find(t => t.toLowerCase() === lemma.toLowerCase()) || null;
+    if (!best) {
+      let bs = 0;
+      for (const t of tokens) {
+        const sc = stemOverlap(lemma.toLowerCase(), t.toLowerCase());
+        if (sc > bs) { bs = sc; best = t; }
       }
-      if (!raw.trim()) throw new Error("Groq returned an empty completion");
-      let parsed;
+      if (bs < 5) best = null;
+    }
+    if (best && !used.has(best.toLowerCase())) { used.add(best.toLowerCase()); out.push({ surface: best, hint }); }
+  }
+  return out;
+}
+function firstIndex(text, surface) {
+  const esc = surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const m = new RegExp(`(^|[^\\p{L}])(${esc})([^\\p{L}]|$)`, "iu").exec(text);
+  return m ? m.index + m[1].length : -1;
+}
+
+// One-time / idempotent cleanup of articles already in the DB:
+//  - "ß" → "ss" everywhere (Swiss spelling) — older runs stored plenty of them
+//  - make the category of the same story identical across A1/A2/B1. Older runs
+//    asked the model per level, so the same headline could carry different tags.
+//    We keep the tag from the B1 version (longest/most reliable text) and copy
+//    it to A1 and A2 of the same headline.
+function migrateDB(db) {
+  let fixed = 0;
+  for (const level of LEVELS) {
+    for (const a of db[level] || []) {
+      const before = JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints, a.vocabularyWords || null]);
+      a.originalTitle   = toSwiss(a.originalTitle);
+      a.simplifiedText  = toSwiss(a.simplifiedText);
+      a.vocabularyHints = (a.vocabularyHints || []).map(toSwiss);
+      if (Array.isArray(a.vocabularyWords)) {
+        a.vocabularyWords = a.vocabularyWords.map(w => ({ surface: toSwiss(w.surface), hint: toSwiss(w.hint) }));
+      }
+      // Older articles have no exact in-text forms yet — derive them, then put
+      // both the words and the vocabulary list in the order they occur in the text.
+      if (!a.vocabularyWords || a.vocabularyWords.length === 0) {
+        a.vocabularyWords = resolveWords(a.simplifiedText, a.vocabularyHints);
+      }
+      const pos = new Map();
+      for (const w of a.vocabularyWords) {
+        const i = firstIndex(a.simplifiedText, w.surface);
+        if (i >= 0) pos.set(w.hint, i);
+      }
+      const order = h => (pos.has(h) ? pos.get(h) : Number.MAX_SAFE_INTEGER);
+      a.vocabularyHints = [...a.vocabularyHints].sort((x, y) => order(x) - order(y));
+      a.vocabularyWords = [...a.vocabularyWords].sort((x, y) => order(x.hint) - order(y.hint));
+      if (JSON.stringify([a.originalTitle, a.simplifiedText, a.vocabularyHints, a.vocabularyWords || null]) !== before) fixed++;
+    }
+  }
+
+  const canonical = new Map(); // title -> category from B1 (else A2, else A1)
+  for (const level of ["A1", "A2", "B1"]) {
+    for (const a of db[level] || []) canonical.set(a.originalTitle, a.category);
+  }
+  let recat = 0;
+  for (const level of LEVELS) {
+    for (const a of db[level] || []) {
+      const c = canonical.get(a.originalTitle);
+      if (c && a.category !== c) { a.category = c; recat++; }
+    }
+  }
+  if (fixed || recat) console.log(`🧹 Migration: ß→ss in ${fixed} articles, unified category in ${recat} articles`);
+}
+
+// Processes the TSN.ua (Ukrainian) pipeline: fetch -> filter to new -> for
+// each new article, simplify UK text per level + generate the DE reference
+// translation -> save. Mirrors the app/DE loop in main() below, but kept
+// separate since the two pipelines don't share dedupe state (different
+// language, different source) or a level-config shape (no vocabulary here).
+async function processTsn(db) {
+  console.log("📡 Fetching TSN.ua RSS...");
+  let rawArticles;
+  try {
+    rawArticles = await parseTsnFeed();
+  } catch (err) {
+    console.error("❌ TSN RSS fetch failed:", err.message);
+    return { processed: 0, failed: 0 };
+  }
+  console.log(`✅ Fetched ${rawArticles.length} articles from TSN.ua`);
+
+  const existingTitles = new Set();
+  for (const key of Object.values(TSN_LEVEL_KEYS)) {
+    (db[key] || []).forEach(a => existingTitles.add(a.originalTitle));
+  }
+
+  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, BATCH_SIZE);
+  console.log(`🆕 ${newArticles.length} new TSN articles to process`);
+  if (newArticles.length === 0) return { processed: 0, failed: 0 };
+
+  let processed = 0;
+  let failed = 0;
+  const freshArticles = []; // { level, article } for the RU pass — same objects as in db[dbKey]
+  // If Groq's quota is exhausted, every single article will fail the
+  // same way for the rest of this run (confirmed by logs: once it starts,
+  // it doesn't recover mid-run) — burning through the whole article list
+  // anyway just wastes CI minutes and produces a wall of identical log
+  // lines. Bail out of the loop early once this happens repeatedly, so
+  // the run ends quickly instead of grinding through every remaining
+  // article for no benefit.
+  let quotaFailStreak = 0;
+  const QUOTA_FAIL_BAIL_THRESHOLD = 3;
+
+  for (let articleIdx = 0; articleIdx < newArticles.length; articleIdx++) {
+    const article = newArticles[articleIdx];
+    if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) {
+      console.warn(`⏭️  [TSN] Skipping remaining articles — Groq quota appears exhausted for this run.`);
+      break;
+    }
+    const apiKey = keyForArticleIndex(TSN_ROTATION_KEYS, articleIdx);
+    if (TSN_ROTATION_KEYS.length > 1) {
+      const keyIdx = Math.floor(articleIdx / ARTICLES_PER_KEY) % TSN_ROTATION_KEYS.length;
+      console.log(`🔑 [TSN] article ${articleIdx + 1}/${newArticles.length} using key #${keyIdx + 1}/${TSN_ROTATION_KEYS.length}`);
+    }
+    for (const level of LEVELS) {
+      const dbKey = TSN_LEVEL_KEYS[level];
       try {
-        parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-      } catch {
-        const merged = raw.replace(
-          /"simplified_text_deu"\s*:\s*((?:"(?:[^"\\]|\\.)*"\s*,\s*)+"(?:[^"\\]|\\.)*")\s*,\s*"vocabulary"/,
-          (_, fragments) => {
-            const parts = fragments.match(/"(?:[^"\\]|\\.)*"/g) || [];
-            const joined = parts.map(p => JSON.parse(p)).join(" ");
-            return `"simplified_text_deu":${JSON.stringify(joined)},"vocabulary"`;
-          }
-        );
-        parsed = JSON.parse(merged.replace(/```json|```/g, "").trim());
+        console.log(`⚙️  [TSN ${level}] "${article.title.slice(0, 50)}..."`);
+        const result = await simplifyTsnArticle(article, level, apiKey);
+
+        if (!db[dbKey]) db[dbKey] = [];
+        db[dbKey].unshift(result);
+        if (db[dbKey].length > MAX_PER_LEVEL_TSN) {
+          db[dbKey] = db[dbKey].slice(0, MAX_PER_LEVEL_TSN);
+        }
+        freshArticles.push({ level, article: result });
+
+        saveDB(db);
+        processed++;
+        quotaFailStreak = 0;
+      } catch (err) {
+        console.error(`❌ [TSN ${level}] "${article.title.slice(0, 30)}": ${err.message}`);
+        failed++;
+        // Only bail early on a genuine DAILY (RPD) exhaustion — that
+        // won't recover this run no matter what. A TPM burst is
+        // transient (resets within a minute), so don't count it toward
+        // the bail streak; just move on and let the next request's own
+        // pacing/retry handle it.
+        if (/DAILY \(RPD\) quota exhausted/.test(err.message)) {
+          quotaFailStreak++;
+          if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) break;
+        }
+      }
+      // Same TPM reasoning as the app/DE loop above — see its comment.
+      // TSN's simplify call is the same size class (long prompt with its
+      // own vocabulary section + article text in, up to 3000-token
+      // completion out), so it needs the same real pause, not the RPM-only
+      // 4s this used to be.
+      await sleep(20000);
+    }
+  }
+
+  return { processed, failed, freshArticles };
+}
+
+async function main() {
+  if (DE_ROTATION_KEYS.length === 0) {
+    console.error("❌ No Groq API key set for the app/DE pipeline! Set either GROQ_API_KEY, or GROQ_API_KEY_DE_1 (and optionally _2, _3, ...).");
+    process.exit(1);
+  }
+
+  console.log("📡 Fetching RSS feeds...");
+  let rawArticles;
+  try {
+    rawArticles = await parseRSSFeeds();
+  } catch (err) {
+    console.error("❌ RSS fetch failed:", err.message);
+    process.exit(1);
+  }
+  console.log(`✅ Fetched ${rawArticles.length} articles from RSS`);
+
+  const db = loadDB();
+  migrateDB(db);
+
+  // Збираємо заголовки що вже є в базі
+  const existingTitles = new Set();
+  LEVELS.forEach(l => {
+    (db[l] || []).forEach(a => existingTitles.add(a.originalTitle));
+  });
+
+  // Тільки нові статті
+  const newArticles = rawArticles.filter(a => !existingTitles.has(toSwiss(a.title))).slice(0, BATCH_SIZE);
+  console.log(`🆕 ${newArticles.length} new articles to process`);
+
+  // Фолбек на картинки: RSS дав imageUrl не для всіх статей, а для деяких
+  // джерел (SRF) дає лише маленьке прев'ю (URL виду .../320ws/....webp —
+  // фіксована ширина 320px, помітно менш чітка за повнорозмірні фото інших
+  // джерел типу 20min). Для статей без картинки взагалі, а тепер і для
+  // статей з таким маленьким прев'ю, заходимо на сторінку статті й беремо
+  // og:image/twitter:image — це, як правило, повнорозмірне фото.
+  // Best-effort — якщо сторінка не відповіла чи там немає og:image, просто
+  // лишаємо те, що вже було (маленьке прев'ю або null), на обробку це не
+  // впливає.
+  const isLowResUrl = (url) => !!url && /\/\d{2,3}ws\//i.test(url);
+
+  let imagesFetched = 0;
+  for (const article of newArticles) {
+    if ((!article.imageUrl || isLowResUrl(article.imageUrl)) && article.link) {
+      const og = await fetchOgImage(article.link);
+      if (og) {
+        article.imageUrl = og;
+        imagesFetched++;
+      }
+    }
+  }
+  console.log(`🖼️  Догенеровано og:image для ${imagesFetched} статей`);
+
+  let processed = 0;
+  let failed    = 0;
+  let tsnResult = { processed: 0, failed: 0, freshArticles: [] };
+  const deFreshArticles = []; // { level, article } for the RU pass — same objects as in db[level]
+  // Same early-bail logic as processTsn() above — see its comment.
+  let quotaFailStreak = 0;
+  const QUOTA_FAIL_BAIL_THRESHOLD = 3;
+
+  if (newArticles.length === 0) {
+    console.log("✅ Nothing new from app/DE sources.");
+  } else {
+
+  for (let articleIdx = 0; articleIdx < newArticles.length; articleIdx++) {
+    const article = newArticles[articleIdx];
+    if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) {
+      console.warn(`⏭️  [DE] Skipping remaining articles — Groq quota appears exhausted for this run.`);
+      break;
+    }
+    const apiKey = keyForArticleIndex(DE_ROTATION_KEYS, articleIdx);
+    if (DE_ROTATION_KEYS.length > 1) {
+      const keyIdx = Math.floor(articleIdx / ARTICLES_PER_KEY) % DE_ROTATION_KEYS.length;
+      console.log(`🔑 [DE] article ${articleIdx + 1}/${newArticles.length} using key #${keyIdx + 1}/${DE_ROTATION_KEYS.length}`);
+    }
+    for (const level of LEVELS) {
+      try {
+        console.log(`⚙️  [${level}] "${article.title.slice(0, 50)}..."`);
+        const result = await simplifyArticle(article, level, apiKey);
+
+        if (!db[level]) db[level] = [];
+        db[level].unshift(result);
+
+        // Обрізаємо до MAX
+        if (db[level].length > MAX_PER_LEVEL) {
+          db[level] = db[level].slice(0, MAX_PER_LEVEL);
+        }
+        deFreshArticles.push({ level, article: result });
+
+        // Зберігаємо після кожної статті — щоб не втратити при помилці
+        saveDB(db);
+        processed++;
+        quotaFailStreak = 0;
+      } catch (err) {
+        console.error(`❌ [${level}] "${article.title.slice(0, 30)}": ${err.message}`);
+        failed++;
+        // Same distinction as the TSN loop above: only a genuine DAILY
+        // (RPD) exhaustion is worth bailing the whole run for.
+        if (/DAILY \(RPD\) quota exhausted/.test(err.message)) {
+          quotaFailStreak++;
+          if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) break;
+        }
       }
 
-      if (!parsed.simplified_text_deu || !Array.isArray(parsed.vocabulary)) {
-        throw new Error("Missing required fields in parsed JSON");
-      }
-
-      const text = toSwiss(parsed.simplified_text_deu).trim();
-      const { hints, words } = buildVocabulary(parsed.vocabulary, text);
-
-      return {
-        id:              generateId(article.title, level),
-        originalTitle:   cleanTitle,
-        simplifiedText:  text,
-        vocabularyHints: hints,
-        vocabularyWords: words,
-        category:        category,
-        imageUrl:        article.imageUrl || null,
-        publishedAt:     article.pubDate || null,
-        processedAt:     new Date().toISOString(),
-      };
-    } catch (err) {
-      lastErr = err;
-      console.warn(`  ⚠️  Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
-      if (attempt < maxAttempts) await sleep(2000);
+      // Pause between levels. 4s only accounts for RPM (30/min — 2s/request
+      // is already comfortable), which is NOT the real bottleneck here:
+      // Groq's free tier for this model also caps at 8,000 TPM (tokens/min),
+      // and a single simplify call (long system prompt with the vocabulary
+      // section + article text in, up to 3000-token completion out) can
+      // easily run 2,500-3,500 tokens on its own — so 2-3 such calls back
+      // to back already exhausts the whole minute's token budget regardless
+      // of how many *requests* that is. When TPM is hit, Groq's Retry-After
+      // is measured in minutes, not seconds (confirmed in production logs:
+      // waits of 600-1600+s), which is what was repeatedly tipping runs
+      // into "quota exhausted" well before the 1,000 RPD ceiling was ever
+      // reached. 20s leaves realistic headroom under 8K TPM for a
+      // few-thousand-token call; the built-in retry in groqRequest() still
+      // covers any remaining short 429s from RPM bursts.
+      await sleep(20000);
     }
   }
 
-  throw lastErr;
-}
+  } // end app/DE processing (newArticles.length === 0 short-circuit above)
 
-// Shared by both buildVocabulary() (DE) and buildVocabularyUkrainian() (UK):
-// a "word" with no actual letters in it — a bare number, a temperature
-// range like "+10-+13", a date, a percentage — is never something a
-// vocabulary hint should cover; the model occasionally still emits one
-// (the two sides can differ enough in formatting, e.g. "+10-+13 °C" vs
-// "+10 bis +13 °C", to slip past the lemma===translation-string check).
-// Filtered here once, in code, rather than relying on the prompt to
-// reliably self-police it.
-function isLetterlessToken(str) {
-  return !/\p{L}/u.test(str);
-}
+  // TSN.ua (Ukrainian -> German) pipeline — independent of the app/DE
+  // dedupe/counters above, runs regardless of whether app/DE had anything new.
+  tsnResult = await processTsn(db);
 
-function buildVocabulary(vocab, text) {
-  const hints = [];
-  const words = [];
-  const seenSurface = new Set();
-  const seenHint = new Set();
+  // Russian translation pass — only over this run's freshly generated
+  // articles (deFreshArticles from the DE loop above, tsnResult.freshArticles
+  // from TSN), never the whole existing DB. See processRuTranslation's own
+  // comment for why: re-translating everything already in articles.json
+  // every run would be both wasteful and unnecessary (older articles simply
+  // stay without RU fields, same as they lack any other field added later).
+  const ruResult = await processRuTranslation(db, deFreshArticles, tsnResult.freshArticles || []);
 
-  for (const v of vocab) {
-    if (!v || typeof v !== "object") continue;
-    const surface = toSwiss(String(v.surface || "")).trim();
-    const lemma   = toSwiss(String(v.lemma || v.surface || "")).trim();
-    const ukr     = String(v.ukr || "").trim();
-    if (!lemma || !ukr) continue;
-    if (ukr.toLowerCase() === lemma.toLowerCase()) continue;
-    // A bare number/range/date has no place in a vocabulary list even if
-    // the model gave it a (usually trivial or self-referential) "ukr" —
-    // see isLetterlessToken() below for why this can't just rely on the
-    // lemma===translation check above.
-    if (isLetterlessToken(lemma)) continue;
+  db.updatedAt = new Date().toISOString();
+  saveDB(db);
 
-    const hint = `${lemma} — ${ukr}`;
-    if (!seenHint.has(hint)) {
-      seenHint.add(hint);
-      hints.push(hint);
-    }
+  console.log(`\n✅ Done! App/DE — Processed: ${processed}, Failed: ${failed}`);
+  console.log(`✅ TSN — Processed: ${tsnResult.processed}, Failed: ${tsnResult.failed}`);
+  console.log(`✅ RU translation — Processed: ${ruResult.processed}, Failed: ${ruResult.failed}`);
+  console.log(`📊 DB: A1=${db.A1?.length||0}, A2=${db.A2?.length||0}, B1=${db.B1?.length||0}, ` +
+              `tsnA1=${db.tsnA1?.length||0}, tsnA2=${db.tsnA2?.length||0}, tsnB1=${db.tsnB1?.length||0}`);
 
-    if (!surface || seenSurface.has(surface.toLowerCase())) continue;
-    if (!containsWholeWord(text, surface)) continue;
-    seenSurface.add(surface.toLowerCase());
-    words.push({ surface, hint });
+  // Якщо ЖОДНА стаття не оброблена успішно (наприклад модель Groq
+  // decommissioned, квота вичерпана, чи ключ невалідний) — валимо job
+  // з ненульовим кодом. Раніше скрипт мовчки "succeeded" навіть коли
+  // всі виклики Groq падали, і поломка непомітно тривала два тижні,
+  // поки articles.json просто переставав поповнюватись.
+  // Рахуємо провалом лише випадок, коли БУЛИ спроби (з будь-якого джерела)
+  // і ЖОДНА не вдалась — якщо просто не було нових статей, це не помилка.
+  const totalAttempts = newArticles.length * LEVELS.length + (tsnResult.processed + tsnResult.failed);
+  if (processed === 0 && tsnResult.processed === 0 && totalAttempts > 0) {
+    console.error("💥 All articles failed to process — failing the job so it's visible in Actions.");
+    process.exit(1);
   }
-
-  const pos = new Map();
-  for (const w of words) {
-    const m = new RegExp(`(^|[^\\p{L}])(${w.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})([^\\p{L}]|$)`, "iu").exec(text);
-    if (m) pos.set(w.hint, m.index + m[1].length);
-  }
-  const order = h => (pos.has(h) ? pos.get(h) : Number.MAX_SAFE_INTEGER);
-  hints.sort((a, b) => order(a) - order(b));
-  words.sort((a, b) => order(a.hint) - order(b.hint));
-  return { hints, words };
 }
 
-function containsWholeWord(text, word) {
-  const esc = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return new RegExp(`(^|[^\\p{L}])${esc}([^\\p{L}]|$)`, "iu").test(text);
-}
-
-function buildVocabularyUkrainian(vocab, text) {
-  const hints = [];
-  const words = [];
-  const seenSurface = new Set();
-  const seenHint = new Set();
-
-  for (const v of vocab) {
-    if (!v || typeof v !== "object") continue;
-    const surface = String(v.surface || "").trim();
-    const lemma   = String(v.lemma || v.surface || "").trim();
-    const deu     = toSwiss(String(v.deu || "")).trim();
-    if (!lemma || !deu) continue;
-    if (deu.toLowerCase() === lemma.toLowerCase()) continue;
-    if (isLetterlessToken(lemma)) continue;
-
-    const hint = `${lemma} — ${deu}`;
-    if (!seenHint.has(hint)) {
-      seenHint.add(hint);
-      hints.push(hint);
-    }
-
-    if (!surface || seenSurface.has(surface.toLowerCase())) continue;
-    if (!containsWholeWord(text, surface)) continue;
-    seenSurface.add(surface.toLowerCase());
-    words.push({ surface, hint });
-  }
-
-  const pos = new Map();
-  for (const w of words) {
-    const m = new RegExp(`(^|[^\\p{L}])(${w.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})([^\\p{L}]|$)`, "iu").exec(text);
-    if (m) pos.set(w.hint, m.index + m[1].length);
-  }
-  const order = h => (pos.has(h) ? pos.get(h) : Number.MAX_SAFE_INTEGER);
-  hints.sort((a, b) => order(a) - order(b));
-  words.sort((a, b) => order(a.hint) - order(b.hint));
-  return { hints, words };
-}
-
-function generateId(title, level) {
-  const str = `${level}:${title}`;
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = (Math.imul(31, hash) + str.charCodeAt(i)) | 0;
-  }
-  return Math.abs(hash).toString(16).padStart(8, "0");
-}
-
-const UK_LEVEL_CONFIG = {
-  A1: {
-    textInstruction: "Напиши 4-5 речень, приблизно 6-12 слів кожне, простою українською мовою: прості розповідні речення, теперішній/минулий час у звичайній формі, без складних підрядних речень (уникай 'який/яка/яке', 'оскільки', 'незважаючи на те що'). Пов'язуй речення природно словами 'і', 'але', 'потім', 'тому' — не пиши роботизований список фактів. Залиш лише 2-3 найважливіші факти статті (хто/що сталося, і одну ключову деталь: де/коли/скільки) — опускати другорядні деталі правильно на цьому рівні, але кожне речення має описувати щось, що дійсно Є в джерельній статті. Не вигадуй іншу, простішу побутову сценку лише тому, що реальну історію важко висловити простими словами.",
-    hintExclusions: "НІКОЛИ не додавай підказку для: чисел, дат, діапазонів чисел (\"+10-+13\", \"15-49\"), одиниць виміру (°C, мм, м/с), власних назв (імена людей, міст, регіонів, організацій — навіть якщо їхній німецький відповідник нетривіальний, напр. \"Черкащина\"); базових іменників щоденного побуту (дощ, вітер, вода, дім, час, день); базових прикметників (сильний, теплий, холодний, великий, малий); базових дієслів (бути, йти, мати, робити, казати, хотіти, могти, чекати).",
-    hintGuidance: "Словник A1-студента малий, тож більшість не-базових слів справді будуть для нього новими — але й текст найкоротший (4-5 речень), тож підказок теж не буде багато, зазвичай близько 4-6 для тексту такої довжини. Приклад ДОБРЕ: 'циклон', 'похолодання' — рідкісні, конкретні поняття. Приклад ПОГАНО: 'дощ', 'сильний', числа — базова щоденна лексика чи не-слова.",
-  },
-  A2: {
-    textInstruction: "Напиши 5-7 речень, які читаються як природна, зв'язна міні-історія, а не список фактів. Можна використовувати прості підрядні речення з 'тому що', 'коли', 'хоча', порівняння ('більше/менше ніж'), і трохи більше побутової лексики. Залиш головні факти статті (хто, що сталося, ключові цифри/місця/причини) — можна спрощувати чи опускати другорядні деталі, але кожне речення має описувати щось, що дійсно Є в джерельній статті, а не вигадану простішу ситуацію.",
-    hintExclusions: "НІКОЛИ не додавай підказку для: чисел, дат, діапазонів чисел, одиниць виміру, власних назв; базових іменників/прикметників/дієслів рівня A1 (див. приклади A1 вище).",
-    hintGuidance: "Цей текст довший за A1 (5-7 речень) і сягає лексики рівня A2, тому очікуй ПОМІТНО більше підказок, ніж на A1 — зазвичай близько 8-12, а не 4-6. На цьому рівні НЕ пропускай звичайні дієслова/прислівники, яких немає в A1-словнику, лише тому що вони виглядають \"не дуже складними\" — вони все одно нові для студента, який щойно вивчив лише найбазовіші 150-200 слів. Приклад слів, які ОБОВ'ЯЗКОВО потребують підказки на A2, якщо вони є в тексті: 'поступово', 'очікуватися', 'почати/почнеться', 'триматися', 'прояснення', 'чергуватися' — усе це вже за межами A1, навіть якщо звучить не дуже рідкісно.",
-  },
-  B1: {
-    textInstruction: "Напиши 7-9 речень як природну, плинну розповідь — варіюй довжину та структуру речень так, як це робить справжня коротка новина. Можна використовувати складніші підрядні речення, різні часи. Збережи ключові факти, цифри, імена та реальну послідовність/причинно-наслідкові зв'язки подій з оригіналу.",
-    hintExclusions: "НІКОЛИ не додавай підказку для: чисел, дат, діапазонів чисел, одиниць виміру, власних назв; будь-якого слова з побутового щоденного словника, яке доросла людина використовує в звичайній розмові про погоду, сім'ю чи побут — приклади слів, для яких НІКОЛИ не буде підказки на B1: дощ, вітер, сильний, гроза, регіон, область, циклон, температура, північний/південний/східний/західний, тепло, холодно.",
-    hintGuidance: "На цьому рівні критерій СТРОГІШИЙ, ніж на A1/A2, а не слабший — довжина тексту не означає більше підказок. Підказка потрібна ЛИШЕ для слова, яке саме по собі рідкісне, спеціалізоване чи книжне в УКРАЇНСЬКІЙ мові (галузева термінологія — метеорологічна, медична, юридична, фінансова; рідковживані книжні дієслова/іменники). Приклад ДОБРЕ: 'шквал', 'супроводжуватися', 'гідрометцентр' — справді рідкісні спеціалізовані слова. Приклад ПОГАНО: 'дощ', 'вітер', 'циклон', 'регіон' — це побутова лексика, яку будь-яка доросла людина знає, і на B1 такі слова НІКОЛИ не мають підказки, навіть якщо вони траплялись і в A1-тексті цієї ж статті. Якщо для конкретної статті таких дійсно рідкісних слів мало чи нема — список підказок може бути коротким (2-4 слова) або навіть порожнім, і це нормально.",
-  },
-};
-
-async function simplifyArticleUkrainian(article, level, apiKey = TSN_API_KEY) {
-  const cfg = UK_LEVEL_CONFIG[level];
-  const cleanTitle = String(article.title || "").trim();
-
-  const systemPrompt = `Ти редактор, який спрощує українські новини для вивчаючих німецьку мову.
-Output: single minified JSON object. No markdown, no backticks.
-
-=== КРИТИЧНЕ ПРАВИЛО: ВІРНІСТЬ ДЖЕРЕЛУ ===
-Спрощений текст має описувати ТІ САМІ реальні події, що й стаття-джерело
-нижче — та сама тема, ті самі люди/організації/місця, той самий базовий
-результат. Можна СКОРОЧУВАТИ деталі, занадто складні для рівня (цифри,
-підрядні частини, контекст) — але НІКОЛИ не можна ВИГАДУВАТИ іншу, простішу
-сцену замість реальної.
-Числа, дати, імена людей/організацій і географічні назви, які ти
-ЗАЛИШАЄШ у тексті, мають бути передані ТОЧНО як у джерелі — не округлюй,
-не змінюй і не плутай їх. Якщо конкретна цифра чи дата не влізає в рівень
-складності — краще повністю прибрати деталь, ніж написати її неточно.
-
-=== ПРИРОДНІСТЬ МОВИ ===
-Уникай "телеграфного" новинного стилю (сухий переказ фактів одним
-реченням за іншим без зв'язків). Пиши як зв'язну, природну міні-розповідь
-із логічними переходами між реченнями — так, як реально говорить/пише
-носій мови цього рівня, а не як стиснутий підрядковий переклад.
-
-=== ЗАВДАННЯ ===
-Заголовок: "${cleanTitle}"
-1. СПРОЩЕНИЙ ТЕКСТ ("simplified_text_ukr"):
-${cfg.textInstruction}
-Пиши літературною українською мовою.
-
-2. СЛОВНИК ("vocabulary") — масив об'єктів. Студент читає цей УКРАЇНСЬКИЙ
-текст, але його завдання — самостійно перекласти його НІМЕЦЬКОЮ (рівень
-${level}, швейцарська німецька, "ss" замість "ß"). Тому підказки тут — це
-НЕ пояснення українських слів (текст і так рідною мовою студента), а
-підказки НІМЕЦЬКОГО слова, яке знадобиться студенту під час перекладу —
-зокрема, для іменників це ОБОВ'ЯЗКОВО означає показати правильний артикль
-("der/die/das"), який неможливо вгадати, лише знаючи українське слово.
-- Пройдись по своєму спрощеному тексту і для кожного українського слова
-  чи виразу, якому відповідає НІМЕЦЬКЕ слово, що ${level}-студент, ймовірно,
-  НЕ знає, НЕ пам'ятає, або яке є рідковживаним/складним — додай підказку.
-- НІКОЛИ не додавай підказку для чисел, дат, діапазонів чисел
-  (наприклад "+10-+13", "15-49") чи одиниць виміру (°C, мм, м/с) —
-  це не словникові слова, і студенту не потрібен їхній "переклад".
-- ${cfg.hintExclusions}
-- Do NOT target a fixed count. ${cfg.hintGuidance} Правильна кількість —
-  саме стільки, скільки слів у ЦЬОМУ тексті реально відповідають цьому
-  критерію — може відрізнятись від статті до статті.
-- Кожен об'єкт має ТРИ поля:
-  * "surface": українське слово/вираз ТОЧНО як воно написане в твоєму
-    спрощеному тексті (та сама форма, той самий відмінок/число), щоб його
-    можна було знайти в тексті точним збігом.
-  * "lemma": те саме українське слово в словниковій формі (називний
-    відмінок однини для іменників, інфінітив для дієслів), якщо форма в
-    тексті відмінюється — інакше те саме, що surface.
-  * "deu": НІМЕЦЬКИЙ відповідник цього слова швейцарською німецькою
-    (те слово/вираз, яке студенту знадобиться при перекладі на німецьку).
-    Іменники — з артиклем і, якщо доречно, множиною: "die Wahl, -en".
-    Дієслова — в інфінітиві: "klagen". НІКОЛИ не копіюй українське слово
-    замість перекладу.
-- Кожне слово лише один раз. Ніколи не дублюй один і той самий surface.
-
-=== OUTPUT ===
-Return ONLY valid JSON, nothing else:
-{"simplified_text_ukr":"...","vocabulary":[{"surface":"...","lemma":"...","deu":"..."}]}`;
-
-  const truncatedDescription = String(article.description || "").slice(0, 1500);
-  const maxAttempts = 3;
-  let lastErr;
-
-  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-    try {
-      const data = await groqRequest({
-        model: MODEL,
-        temperature: 0.1,
-        max_tokens: MAX_TOKENS_BY_LEVEL_TSN[level] || 3200,
-        reasoning_effort: "low",
-        response_format: { type: "json_object" },
-        messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: `Заголовок: ${cleanTitle}\nСтаття: ${truncatedDescription}` },
-        ],
-      }, 3, apiKey);
-
-      const raw = data.choices?.[0]?.message?.content || "";
-      if (data.choices?.[0]?.finish_reason === "length") {
-        console.warn(`  ⚠️  [TSN ${level}] Groq cut off the response at max_tokens (finish_reason=length) — raising MAX_TOKENS_BY_LEVEL_TSN.${level} may help.`);
-      }
-      if (!raw.trim()) throw new Error("Groq returned an empty completion");
-      const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-      if (!parsed.simplified_text_ukr) throw new Error("Missing simplified_text_ukr in parsed JSON");
-      return {
-        text: parsed.simplified_text_ukr.trim(),
-        vocabulary: Array.isArray(parsed.vocabulary) ? parsed.vocabulary : [],
-      };
-    } catch (err) {
-      lastErr = err;
-      console.warn(`  ⚠️  [TSN ${level}] Attempt ${attempt}/${maxAttempts} failed: ${err.message}`);
-      if (attempt < maxAttempts) await sleep(2000);
-    }
-  }
-  throw lastErr;
-}
-
-const UK_CATEGORY_MAP = {
-  "Україна":        "Politik",
-  "Київ":           "Politik",
-  "Львів":          "Politik",
-  "Події":          "Gesellschaft",
-  "Світ":           "Politik",
-  "За кордоном":    "Politik",
-  "Туризм":         "Gesellschaft",
-  "Наука та IT":    "Wissenschaft",
-  "Наука та ІТ":    "Wissenschaft",
-  "Технології":     "Wissenschaft",
-  "Технологія":     "Wissenschaft",
-  "Цікавинки":      "Gesellschaft",
-  "Різне":          "Gesellschaft",
-};
-
-const UK_CATEGORY_RULES = [
-  ["Wissenschaft", /\b(дослідник|дослідженн|наук|університет|космос|планет|ген\b|днк|експеримент|відкритт|штучн(ий|ого) інтелект|технологі|робот)/i],
-  ["Politik",      /\b(уряд|парламент|рад[аи]|верховн|вибори|парті[яї]|суд\b|закон|президент|міністр|війн|росі[яїю]|путін|санкці|мігра)/i],
-  ["Gesellschaft", /\b(туризм|туристи|подорож|курорт|готел|пляж|відпочин)/i],
-];
-
-function detectCategoryUkrainian(article) {
-  const mapped = UK_CATEGORY_MAP[article.category];
-  if (mapped) return mapped;
-
-  const hay = `${article.title || ""} ${(article.description || "").slice(0, 400)}`;
-  for (const [cat, re] of UK_CATEGORY_RULES) {
-    if (re.test(hay)) return cat;
-  }
-  return "Gesellschaft";
-}
-
-const UK_CATEGORY_LABELS = {
-  Wetter:        "Погода",
-  Politik:       "Політика",
-  Sport:         "Спорт",
-  Wirtschaft:    "Економіка",
-  Gesundheit:    "Здоров'я",
-  Gesellschaft:  "Суспільство",
-  Verkehr:       "Транспорт",
-  Kultur:        "Культура",
-  Wissenschaft:  "Наука",
-};
-
-async function simplifyTsnArticle(article, level, apiKey = TSN_API_KEY) {
-  const { text: simplifiedUkr, vocabulary } = await simplifyArticleUkrainian(article, level, apiKey);
-  const internalCategory = detectCategoryUkrainian(article);
-  const { hints, words } = buildVocabularyUkrainian(vocabulary, simplifiedUkr);
-  return {
-    id:               generateId(`tsn:${article.title}`, level),
-    originalTitle:    String(article.title || "").trim(),
-    simplifiedText:   simplifiedUkr,
-    vocabularyHints:  hints,
-    vocabularyWords:  words,
-    category:         UK_CATEGORY_LABELS[internalCategory] || internalCategory,
-    imageUrl:         article.imageUrl || null,
-    publishedAt:      article.pubDate || null,
-    processedAt:      new Date().toISOString(),
-  };
-}
-
-// ─────────────────────────────────────────────────────────────────
-// Russian translation pass — runs as a separate step after DE+TSN
-// generation, translating already-generated content (never re-simplifying
-// from the source article), so the RU text/hints stay 100% aligned with
-// what's already in the DB. Two shapes, matching the two source pipelines:
-//
-//  - DE articles (app/20min): the simplified text STAYS German — only the
-//    vocabulary hints get a parallel Russian line, since a UK<->DE learner
-//    and a RU<->DE learner read the exact same German text, just need
-//    their own-language hint. Hint format stays "<lemma> — <translation>";
-//    the lemma is German in both, only the translation half changes.
-//  - TSN articles (Ukrainian source): the WHOLE simplified text is
-//    translated (Ukrainian -> Russian), since Russian is the reading
-//    language for that learner track. Hints keep their "<lemma> — <deu>"
-//    shape; only the lemma (Ukrainian word) becomes its Russian
-//    equivalent — the German half of the hint is unchanged, since it's
-//    the same German word regardless of which Slavic language the
-//    student's UI is in.
-
-function parseHintLemma(hint) {
-  const idx = hint.indexOf(" — ");
-  if (idx === -1) return { lemma: hint, rest: "" };
-  return { lemma: hint.slice(0, idx), rest: hint.slice(idx + 3) };
-}
-
-// DE articles: translate only the non-German half of each hint
-// ("die Wahl, -en — вибір" -> "die Wahl, -en — выбор"). The German lemma
-// half is never touched — only whichever half is the OTHER language.
-async function translateHintsToRussian(vocabularyHints, apiKey) {
-  if (!vocabularyHints || vocabularyHints.length === 0) return [];
-
-  const system = `Ти перекладач. Тобі дають масив підказок формату
-"<німецьке_слово> — <переклад_українською>". Твоє завдання: перекласти
-ТІЛЬКИ частину після " — " на російську мову, зберігаючи німецьку
-частину БЕЗ ЗМІН. Порядок елементів масиву має лишитись тим самим.
-Output: single minified JSON object, no markdown, no backticks.
-{"hints":["<same German part> — <russian translation>", ...]}`;
-
-  const data = await groqRequest({
-    model: MODEL,
-    temperature: 0,
-    max_tokens: 2000,
-    reasoning_effort: "low",
-    response_format: { type: "json_object" },
-    messages: [
-      { role: "system", content: system },
-      { role: "user", content: JSON.stringify(vocabularyHints) },
-    ],
-  }, 3, apiKey);
-
-  const raw = data.choices?.[0]?.message?.content || "";
-  if (!raw.trim()) throw new Error("Groq returned an empty completion");
-  const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-  if (!Array.isArray(parsed.hints)) throw new Error("Missing hints array in parsed JSON");
-  return parsed.hints;
-}
-
-// TSN articles: translate the full Ukrainian simplifiedText to Russian,
-// AND translate just the Ukrainian-lemma half of each hint
-// ("вибір — die Wahl, -en" -> "выбор — die Wahl, -en"). One Groq call
-// covers both, since they're the same UK->RU translation direction and
-// keeping them together halves the number of requests for this pass
-// (fewer calls = less pressure on the TPM ceiling that TSN generation
-// itself already runs close to — see MAX_TOKENS_BY_LEVEL_TSN above).
-async function translateTsnToRussian(simplifiedTextUkr, vocabularyHints, apiKey, originalTitleUkr) {
-  const system = `Ти перекладач з української на російську мову.
-Тобі дають:
-1. Заголовок статті українською мовою (може бути порожнім).
-2. Текст українською мовою.
-3. Масив підказок формату "<українське_слово> — <німецьке_слово>".
-
-Завдання:
-1. Перекласти заголовок на російську мову (якщо він порожній — залиш
-"" у відповіді). Зберігай стиль заголовка новини.
-2. Перекласти текст на російську мову. Зберігай той самий зміст, стиль
-і рівень складності — це НЕ переказ і не спрощення, а точний переклад.
-3. Для кожної підказки перекласти ТІЛЬКИ частину ДО " — " (українське
-слово/лему) на російську, а частину після " — " (німецьке слово) лишити
-БЕЗ ЗМІН. Порядок підказок має лишитись тим самим.
-
-Output: single minified JSON object, no markdown, no backticks.
-{"title_ru":"...","text_ru":"...","hints_ru":["<russian lemma> — <same German part>", ...]}`;
-
-  const data = await groqRequest({
-    model: MODEL,
-    temperature: 0.1,
-    max_tokens: 4000,
-    reasoning_effort: "low",
-    response_format: { type: "json_object" },
-    messages: [
-      { role: "system", content: system },
-      { role: "user", content: JSON.stringify({
-          title: originalTitleUkr || "",
-          text: simplifiedTextUkr,
-          hints: vocabularyHints || [],
-        }) },
-    ],
-  }, 3, apiKey);
-
-  const raw = data.choices?.[0]?.message?.content || "";
-  if (!raw.trim()) throw new Error("Groq returned an empty completion");
-  const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-  if (!parsed.text_ru || !Array.isArray(parsed.hints_ru)) {
-    throw new Error("Missing text_ru/hints_ru in parsed JSON");
-  }
-  return {
-    titleRu: typeof parsed.title_ru === "string" ? parsed.title_ru.trim() : "",
-    textRu: parsed.text_ru.trim(),
-    hintsRu: parsed.hints_ru,
-  };
-}
-
-module.exports = {
-  simplifyArticle,
-  toSwiss,
-  detectCategory,
-  simplifyTsnArticle,
-  translateHintsToRussian,
-  translateTsnToRussian,
-};
+main().catch(err => {
+  console.error("Fatal error:", err);
+  process.exit(1);
+});
