@@ -34,7 +34,54 @@ const MAX_PER_LEVEL_TSN = 100;
 // point with room to raise once you've watched a few runs against the
 // Metrics dashboard. Override via env, e.g. NEWS_BATCH_SIZE=15, to speed
 // up backfill once the daily budget is confirmed comfortable.
-const BATCH_SIZE = parseInt(process.env.NEWS_BATCH_SIZE || "6", 10);
+// 9 = 3 keys x 3 articles/key (see rotation below) — with fewer than 9,
+// the later keys in rotation would never actually get used in a run.
+const BATCH_SIZE = parseInt(process.env.NEWS_BATCH_SIZE || "9", 10);
+
+// --- Groq API key rotation (per-account daily quota, not per-key within
+// one account) -------------------------------------------------------
+//
+// Each Groq ACCOUNT (not each key) gets its own independent 1,000 RPD
+// budget. To get more than one account's worth of daily budget, you need
+// several separate Groq accounts, each contributing one key here. This
+// does NOT change how articles are generated — still one article at a
+// time, sequentially, same as before — it only switches which key is used
+// every ARTICLES_PER_KEY articles, so the daily total is spread across
+// several accounts' quotas instead of hammering a single one.
+//
+// Setup: create N Groq accounts, generate one API key in each, add them
+// as repo secrets (Settings -> Secrets and variables -> Actions):
+//   GROQ_API_KEY_DE_1, GROQ_API_KEY_DE_2, GROQ_API_KEY_DE_3, ...
+//   GROQ_API_KEY_TSN_1, GROQ_API_KEY_TSN_2, GROQ_API_KEY_TSN_3, ...
+// and pass them through as env vars in update-news.yml (see that file).
+// Only the keys that are actually set are used — if none of the numbered
+// secrets exist, both pipelines fall back to the single GROQ_API_KEY /
+// GROQ_API_KEY_TSN exactly as before, so this is fully backward-compatible
+// with the current 1-key setup.
+const ARTICLES_PER_KEY = parseInt(process.env.NEWS_ARTICLES_PER_KEY || "3", 10);
+
+function collectRotationKeys(prefix, fallback) {
+  const keys = [];
+  for (let i = 1; ; i++) {
+    const v = process.env[`${prefix}_${i}`];
+    if (!v) break;
+    keys.push(v);
+  }
+  return keys.length > 0 ? keys : (fallback ? [fallback] : []);
+}
+
+const DE_ROTATION_KEYS  = collectRotationKeys("GROQ_API_KEY_DE", process.env.GROQ_API_KEY);
+const TSN_ROTATION_KEYS = collectRotationKeys("GROQ_API_KEY_TSN", process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY);
+
+// Returns the Groq key that article #articleIndex (0-based, in processing
+// order) should use: key 0 for articles 0..ARTICLES_PER_KEY-1, key 1 for
+// the next ARTICLES_PER_KEY, and so on, wrapping around if there are more
+// articles than keys x ARTICLES_PER_KEY can cover in one run.
+function keyForArticleIndex(rotationKeys, articleIndex) {
+  if (rotationKeys.length === 0) return undefined; // let groqService fall back to its own default
+  const keyIdx = Math.floor(articleIndex / ARTICLES_PER_KEY) % rotationKeys.length;
+  return rotationKeys[keyIdx];
+}
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -186,16 +233,22 @@ async function processTsn(db) {
   let quotaFailStreak = 0;
   const QUOTA_FAIL_BAIL_THRESHOLD = 3;
 
-  for (const article of newArticles) {
+  for (let articleIdx = 0; articleIdx < newArticles.length; articleIdx++) {
+    const article = newArticles[articleIdx];
     if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) {
       console.warn(`⏭️  [TSN] Skipping remaining articles — Groq quota appears exhausted for this run.`);
       break;
+    }
+    const apiKey = keyForArticleIndex(TSN_ROTATION_KEYS, articleIdx);
+    if (TSN_ROTATION_KEYS.length > 1) {
+      const keyIdx = Math.floor(articleIdx / ARTICLES_PER_KEY) % TSN_ROTATION_KEYS.length;
+      console.log(`🔑 [TSN] article ${articleIdx + 1}/${newArticles.length} using key #${keyIdx + 1}/${TSN_ROTATION_KEYS.length}`);
     }
     for (const level of LEVELS) {
       const dbKey = TSN_LEVEL_KEYS[level];
       try {
         console.log(`⚙️  [TSN ${level}] "${article.title.slice(0, 50)}..."`);
-        const result = await simplifyTsnArticle(article, level);
+        const result = await simplifyTsnArticle(article, level, apiKey);
 
         if (!db[dbKey]) db[dbKey] = [];
         db[dbKey].unshift(result);
@@ -294,15 +347,21 @@ async function main() {
     console.log("✅ Nothing new from app/DE sources.");
   } else {
 
-  for (const article of newArticles) {
+  for (let articleIdx = 0; articleIdx < newArticles.length; articleIdx++) {
+    const article = newArticles[articleIdx];
     if (quotaFailStreak >= QUOTA_FAIL_BAIL_THRESHOLD) {
       console.warn(`⏭️  [DE] Skipping remaining articles — Groq quota appears exhausted for this run.`);
       break;
     }
+    const apiKey = keyForArticleIndex(DE_ROTATION_KEYS, articleIdx);
+    if (DE_ROTATION_KEYS.length > 1) {
+      const keyIdx = Math.floor(articleIdx / ARTICLES_PER_KEY) % DE_ROTATION_KEYS.length;
+      console.log(`🔑 [DE] article ${articleIdx + 1}/${newArticles.length} using key #${keyIdx + 1}/${DE_ROTATION_KEYS.length}`);
+    }
     for (const level of LEVELS) {
       try {
         console.log(`⚙️  [${level}] "${article.title.slice(0, 50)}..."`);
-        const result = await simplifyArticle(article, level);
+        const result = await simplifyArticle(article, level, apiKey);
 
         if (!db[level]) db[level] = [];
         db[level].unshift(result);
