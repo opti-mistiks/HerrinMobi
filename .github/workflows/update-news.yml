@@ -67,6 +67,34 @@ jobs:
           # automatically (see groqService.js) and behaves exactly as
           # before.
           GROQ_API_KEY_TSN: ${{ secrets.GROQ_API_KEY_TSN }}
+
+          # --- Optional multi-account key rotation ---------------------
+          # Groq's daily quota (1,000 RPD) is per ACCOUNT, not per key —
+          # so splitting one account's traffic across several keys does
+          # NOT get you more requests/day. To actually get more, create
+          # several separate Groq ACCOUNTS, generate one key in each, and
+          # add them here as GROQ_API_KEY_DE_1/_2/_3 (app/DE pipeline) and
+          # GROQ_API_KEY_TSN_1/_2/_3 (Ukrainian pipeline). Articles are
+          # still generated one at a time, in order, exactly as before —
+          # the script just switches to the next key every 3 articles
+          # (configurable via NEWS_ARTICLES_PER_KEY below), so the daily
+          # total is spread across multiple accounts' quotas instead of
+          # one. Add as many _N secrets as you have accounts for that
+          # pipeline (1, 2, 3, ... — must be consecutive, no gaps). Any
+          # of these that aren't set as repo secrets are simply empty
+          # here and ignored — with none set, both pipelines fall back
+          # to the single GROQ_API_KEY / GROQ_API_KEY_TSN above and
+          # behave exactly as they do today.
+          GROQ_API_KEY_DE_1: ${{ secrets.GROQ_API_KEY_DE_1 }}
+          GROQ_API_KEY_DE_2: ${{ secrets.GROQ_API_KEY_DE_2 }}
+          GROQ_API_KEY_DE_3: ${{ secrets.GROQ_API_KEY_DE_3 }}
+          GROQ_API_KEY_TSN_1: ${{ secrets.GROQ_API_KEY_TSN_1 }}
+          GROQ_API_KEY_TSN_2: ${{ secrets.GROQ_API_KEY_TSN_2 }}
+          GROQ_API_KEY_TSN_3: ${{ secrets.GROQ_API_KEY_TSN_3 }}
+          # How many articles to process before switching to the next key
+          # in rotation. Default 3, matching "3 news per account" from the
+          # setup above (3 accounts x 3 articles = 9 articles/pipeline/run).
+          NEWS_ARTICLES_PER_KEY: 3
         run: node scripts/updateNews.js
 
       - name: Commit and push updated JSON
