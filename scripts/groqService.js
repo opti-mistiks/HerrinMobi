@@ -6,6 +6,10 @@ const TSN_API_KEY = process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// Fallback used whenever a caller doesn't pass its own apiKey (e.g. code
+// paths not yet wired into the key-rotation scheme in updateNews.js).
+const DEFAULT_DE_API_KEY = () => process.env.GROQ_API_KEY;
+
 function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
   return new Promise((resolve, reject) => {
     const payload = JSON.stringify(body);
@@ -110,7 +114,7 @@ function detectCategory(article) {
 
 const coreCache = new Map();
 
-async function resolveStoryCore(article) {
+async function resolveStoryCore(article, apiKey = DEFAULT_DE_API_KEY()) {
   const key = article.title;
   if (coreCache.has(key)) return coreCache.get(key);
 
@@ -143,7 +147,7 @@ Category rules: choose by what the story is MAINLY about.
           { role: "system", content: system },
           { role: "user", content: `Title: ${toSwiss(article.title)}\nArticle: ${toSwiss(article.description.slice(0, 1200))}` },
         ],
-      });
+      }, 3, apiKey);
       const raw = data.choices?.[0]?.message?.content || "";
       const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
       const category = CATEGORIES.includes(parsed.category) ? parsed.category : fallback.category;
@@ -185,9 +189,9 @@ const LEVEL_CONFIG = {
 // unparseable JSON. Give each level its own headroom instead.
 const MAX_TOKENS_BY_LEVEL = { A1: 1800, A2: 2400, B1: 4000 };
 
-async function simplifyArticle(article, level) {
+async function simplifyArticle(article, level, apiKey = DEFAULT_DE_API_KEY()) {
   const cfg = LEVEL_CONFIG[level];
-  const { category, core } = await resolveStoryCore(article);
+  const { category, core } = await resolveStoryCore(article, apiKey);
   await sleep(1000);
   const cleanTitle = toSwiss(article.title);
 
@@ -269,7 +273,7 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
           { role: "system", content: systemPrompt },
           { role: "user",   content: `Title: ${cleanTitle}\nArticle: ${truncatedDescription}` },
         ],
-      });
+      }, 3, apiKey);
 
       const raw = data.choices?.[0]?.message?.content || "";
       if (data.choices?.[0]?.finish_reason === "length") {
@@ -443,7 +447,7 @@ const UK_LEVEL_CONFIG = {
   },
 };
 
-async function simplifyArticleUkrainian(article, level) {
+async function simplifyArticleUkrainian(article, level, apiKey = TSN_API_KEY) {
   const cfg = UK_LEVEL_CONFIG[level];
   const cleanTitle = String(article.title || "").trim();
 
@@ -524,7 +528,7 @@ Return ONLY valid JSON, nothing else:
           { role: "system", content: systemPrompt },
           { role: "user", content: `Заголовок: ${cleanTitle}\nСтаття: ${truncatedDescription}` },
         ],
-      }, 3, TSN_API_KEY);
+      }, 3, apiKey);
 
       const raw = data.choices?.[0]?.message?.content || "";
       if (!raw.trim()) throw new Error("Groq returned an empty completion");
@@ -588,8 +592,8 @@ const UK_CATEGORY_LABELS = {
   Wissenschaft:  "Наука",
 };
 
-async function simplifyTsnArticle(article, level) {
-  const { text: simplifiedUkr, vocabulary } = await simplifyArticleUkrainian(article, level);
+async function simplifyTsnArticle(article, level, apiKey = TSN_API_KEY) {
+  const { text: simplifiedUkr, vocabulary } = await simplifyArticleUkrainian(article, level, apiKey);
   const internalCategory = detectCategoryUkrainian(article);
   const { hints, words } = buildVocabularyUkrainian(vocabulary, simplifiedUkr);
   return {
