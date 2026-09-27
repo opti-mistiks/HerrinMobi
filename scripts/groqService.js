@@ -733,21 +733,24 @@ Output: single minified JSON object, no markdown, no backticks.
 // keeping them together halves the number of requests for this pass
 // (fewer calls = less pressure on the TPM ceiling that TSN generation
 // itself already runs close to — see MAX_TOKENS_BY_LEVEL_TSN above).
-async function translateTsnToRussian(simplifiedTextUkr, vocabularyHints, apiKey) {
+async function translateTsnToRussian(simplifiedTextUkr, vocabularyHints, apiKey, originalTitleUkr) {
   const system = `Ти перекладач з української на російську мову.
 Тобі дають:
-1. Текст українською мовою.
-2. Масив підказок формату "<українське_слово> — <німецьке_слово>".
+1. Заголовок статті українською мовою (може бути порожнім).
+2. Текст українською мовою.
+3. Масив підказок формату "<українське_слово> — <німецьке_слово>".
 
 Завдання:
-1. Перекласти текст на російську мову. Зберігай той самий зміст, стиль
+1. Перекласти заголовок на російську мову (якщо він порожній — залиш
+"" у відповіді). Зберігай стиль заголовка новини.
+2. Перекласти текст на російську мову. Зберігай той самий зміст, стиль
 і рівень складності — це НЕ переказ і не спрощення, а точний переклад.
-2. Для кожної підказки перекласти ТІЛЬКИ частину ДО " — " (українське
+3. Для кожної підказки перекласти ТІЛЬКИ частину ДО " — " (українське
 слово/лему) на російську, а частину після " — " (німецьке слово) лишити
 БЕЗ ЗМІН. Порядок підказок має лишитись тим самим.
 
 Output: single minified JSON object, no markdown, no backticks.
-{"text_ru":"...","hints_ru":["<russian lemma> — <same German part>", ...]}`;
+{"title_ru":"...","text_ru":"...","hints_ru":["<russian lemma> — <same German part>", ...]}`;
 
   const data = await groqRequest({
     model: MODEL,
@@ -757,7 +760,11 @@ Output: single minified JSON object, no markdown, no backticks.
     response_format: { type: "json_object" },
     messages: [
       { role: "system", content: system },
-      { role: "user", content: JSON.stringify({ text: simplifiedTextUkr, hints: vocabularyHints || [] }) },
+      { role: "user", content: JSON.stringify({
+          title: originalTitleUkr || "",
+          text: simplifiedTextUkr,
+          hints: vocabularyHints || [],
+        }) },
     ],
   }, 3, apiKey);
 
@@ -767,7 +774,11 @@ Output: single minified JSON object, no markdown, no backticks.
   if (!parsed.text_ru || !Array.isArray(parsed.hints_ru)) {
     throw new Error("Missing text_ru/hints_ru in parsed JSON");
   }
-  return { textRu: parsed.text_ru.trim(), hintsRu: parsed.hints_ru };
+  return {
+    titleRu: typeof parsed.title_ru === "string" ? parsed.title_ru.trim() : "",
+    textRu: parsed.text_ru.trim(),
+    hintsRu: parsed.hints_ru,
+  };
 }
 
 module.exports = {
