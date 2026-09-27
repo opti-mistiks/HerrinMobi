@@ -177,6 +177,14 @@ const LEVEL_CONFIG = {
   },
 };
 
+// B1 produces the longest simplified text AND the longest vocabulary list
+// (often 8-12+ entries vs. 4-6 for A1), and reasoning_effort spends part of
+// the token budget on hidden reasoning before the JSON answer even starts —
+// the harder B1 is to write well, the more of that budget it eats. A single
+// shared max_tokens sized for A1 routinely left B1 short, causing truncated/
+// unparseable JSON. Give each level its own headroom instead.
+const MAX_TOKENS_BY_LEVEL = { A1: 1800, A2: 2400, B1: 4000 };
+
 async function simplifyArticle(article, level) {
   const cfg = LEVEL_CONFIG[level];
   const { category, core } = await resolveStoryCore(article);
@@ -254,7 +262,7 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        max_tokens: 3000,
+        max_tokens: MAX_TOKENS_BY_LEVEL[level] || 3000,
         reasoning_effort: "medium",
         response_format: { type: "json_object" },
         messages: [
@@ -264,6 +272,9 @@ Return ONLY valid JSON, nothing else, no explanation, no markdown:
       });
 
       const raw = data.choices?.[0]?.message?.content || "";
+      if (data.choices?.[0]?.finish_reason === "length") {
+        console.warn(`  ⚠️  [${level}] Groq cut off the response at max_tokens (finish_reason=length) — raising MAX_TOKENS_BY_LEVEL.${level} may help.`);
+      }
       if (!raw.trim()) throw new Error("Groq returned an empty completion");
       let parsed;
       try {
@@ -506,7 +517,7 @@ Return ONLY valid JSON, nothing else:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        max_tokens: 4000,
+        max_tokens: MAX_TOKENS_BY_LEVEL[level] || 4000,
         reasoning_effort: "medium",
         response_format: { type: "json_object" },
         messages: [
