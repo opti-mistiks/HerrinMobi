@@ -1,0 +1,78 @@
+name: Backfill RU Translation
+
+# On-demand only — no schedule. Run this manually from the Actions tab
+# whenever you want to add Russian translations to existing articles
+# without waiting for the next full update-news.yml run (which only
+# translates articles it generates fresh in that same run).
+#
+# To REMOVE this later: just delete this file (and, if you don't want
+# the backfill capability at all anymore, scripts/backfillRuTranslation.js
+# too) — it has no schedule and touches nothing else, so deleting it has
+# no side effects on update-news.yml or the app.
+on:
+  workflow_dispatch:
+    inputs:
+      max_articles:
+        description: 'Max number of articles to translate this run (across DE+TSN combined)'
+        required: false
+        default: '20'
+
+concurrency:
+  group: update-news # same group as update-news.yml — both write to
+                      # data/articles.json and push to main, so they must
+                      # never run at the same time (see update-news.yml's
+                      # own comment on this).
+  cancel-in-progress: false
+
+jobs:
+  backfill-ru:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci --prefix scripts
+
+      - name: Run RU backfill
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_TSN: ${{ secrets.GROQ_API_KEY_TSN }}
+          GROQ_API_KEY_DE_1: ${{ secrets.GROQ_API_KEY_DE_1 }}
+          GROQ_API_KEY_DE_2: ${{ secrets.GROQ_API_KEY_DE_2 }}
+          GROQ_API_KEY_DE_3: ${{ secrets.GROQ_API_KEY_DE_3 }}
+          GROQ_API_KEY_TSN_1: ${{ secrets.GROQ_API_KEY_TSN_1 }}
+          GROQ_API_KEY_TSN_2: ${{ secrets.GROQ_API_KEY_TSN_2 }}
+          GROQ_API_KEY_TSN_3: ${{ secrets.GROQ_API_KEY_TSN_3 }}
+          GROQ_API_KEY_RU: ${{ secrets.GROQ_API_KEY_RU }}
+        run: node scripts/backfillRuTranslation.js ${{ github.event.inputs.max_articles }}
+
+      - name: Commit and push updated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json
+          git diff --staged --quiet || git commit -m "chore: RU translation backfill $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "✅ Pushed successfully"
+              break
+            fi
+            if [ "$i" -eq 5 ]; then
+              echo "❌ Push failed after 5 attempts — giving up."
+              exit 1
+            fi
+            echo "⚠️  Push rejected (attempt $i/5) — pulling remote changes and retrying..."
+            git pull --rebase origin main
+            sleep 5
+          done
