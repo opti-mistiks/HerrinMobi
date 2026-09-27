@@ -56,7 +56,18 @@
       "category": "Politik",
       "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/a2c939d.jpg",
       "publishedAt": "2026-09-27T17:22:43.000Z",
-      "processedAt": "2026-09-27T19:37:38.467Z"
+      "processedAt": "2026-09-27T19:37:38.467Z",
+      "vocabularyHintsRu": [
+        "die Gegendemonstrantin — противодемонстранты",
+        "der Marsch — марш",
+        "stoppen — остановить",
+        "der Oranier-Orden — Орден Оранжер",
+        "ziehen — тянуть",
+        "protestieren — протестовать",
+        "blockieren — блокировать",
+        "beobachten — наблюдать",
+        "stattfinden — происходить"
+      ]
     },
     {
       "id": "1769bbe6",
@@ -114,7 +125,18 @@
       "category": "Politik",
       "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/8e8f646.jpg",
       "publishedAt": "2026-09-27T17:26:03.000Z",
-      "processedAt": "2026-09-27T19:36:16.597Z"
+      "processedAt": "2026-09-27T19:36:16.597Z",
+      "vocabularyHintsRu": [
+        "Cassis — Игнацио Кассис",
+        "die Abstimmung, -en — голосование",
+        "neutral — нейтральный",
+        "fassen — подытоживает",
+        "das Ergebnis, -e — результат",
+        "die Mehrheit, -en — большинство",
+        "die Initiative, -n — инициатива",
+        "stimmen — проголосовал",
+        "der Bundesrat — Федеральный совет"
+      ]
     },
     {
       "id": "5ab8d762",
@@ -147,7 +169,13 @@
       "category": "Kultur",
       "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/e4ec48.jpg",
       "publishedAt": "2026-09-27T17:42:47.000Z",
-      "processedAt": "2026-09-27T19:34:57.212Z"
+      "processedAt": "2026-09-27T19:34:57.212Z",
+      "vocabularyHintsRu": [
+        "kult.kino — кинотеатр",
+        "Liebhaber-Haus — любительский кинотеатр",
+        "Saal — залы",
+        "Blockbuster-Film — блокбастер‑фильм"
+      ]
     },
     {
       "id": "655e0d97",
@@ -185,7 +213,14 @@
       "category": "Sport",
       "imageUrl": "https://image.20min.ch/2026/09/27/1f9b41f2-d606-4419-9ca0-fe9f42b55711.jpg?s=c3beb16b9d885342c0a65d54ad1f7887",
       "publishedAt": "2026-09-27T18:28:07.000Z",
-      "processedAt": "2026-09-27T19:33:28.384Z"
+      "processedAt": "2026-09-27T19:33:28.384Z",
+      "vocabularyHintsRu": [
+        "das Fahrverbot — запрет вождения",
+        "die Schikane — преследование",
+        "fordern — требовать",
+        "die Behörde — власть",
+        "planen — планировать"
+      ]
     },
     {
       "id": "3833c729",
@@ -228,7 +263,15 @@
       "category": "Politik",
       "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/efd4b5.jpg",
       "publishedAt": "2026-09-27T18:28:55.000Z",
-      "processedAt": "2026-09-27T19:32:11.545Z"
+      "processedAt": "2026-09-27T19:32:11.545Z",
+      "vocabularyHintsRu": [
+        "der Präsident — президент",
+        "SVP — ШВП (Schweizerische Volkspartei)",
+        "die Neutralitätsinitiative — инициатива нейтральности",
+        "schmerzen — болит, причинять боль",
+        "erleichtern — облегчать, облегченный",
+        "gemischt — смешанный, неоднозначный"
+      ]
     },
     {
       "id": "79b73c37",
@@ -266,7 +309,14 @@
       "category": "Politik",
       "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/864a2d.jpg",
       "publishedAt": "2026-09-27T18:56:14.000Z",
-      "processedAt": "2026-09-27T19:30:46.685Z"
+      "processedAt": "2026-09-27T19:30:46.685Z",
+      "vocabularyHintsRu": [
+        "verhaften — арестовать",
+        "der Terroranschlag — террористический акт",
+        "planen — планировать",
+        "der US-Stützpunkt — американская военная база",
+        "der Vorfall — событие"
+      ]
     },
     {
       "id": "0e1e98b3",
@@ -294,7 +344,12 @@
       "category": "Gesundheit",
       "imageUrl": "https://image.20min.ch/2026/09/27/32adf86c-84a8-452e-afdf-ae9cbac34eb1.webp?s=f555e28447d7abd9ff5ffd5102e3cc73",
       "publishedAt": "2026-09-27T19:09:13.000Z",
-      "processedAt": "2026-09-27T19:29:27.886Z"
+      "processedAt": "2026-09-27T19:29:27.886Z",
+      "vocabularyHintsRu": [
+        "strampeln — крутить педали",
+        "weiterkämpfen — продолжать бороться",
+        "Behandlungsmöglichkeit — возможность лечения"
+      ]
     },
     {
       "id": "74cacfc0",
@@ -347,7 +402,17 @@
       "category": "Politik",
       "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/76c318.jpg",
       "publishedAt": "2026-09-27T19:09:19.000Z",
-      "processedAt": "2026-09-27T19:28:07.659Z"
+      "processedAt": "2026-09-27T19:28:07.659Z",
+      "vocabularyHintsRu": [
+        "der Aussenminister — міністр закордонних справ",
+        "Lawrow — Лавров",
+        "das Gespräch — розмова",
+        "die Seite, -n — сторони",
+        "sinnvoll — корисний, доцільний",
+        "das Ergebnis, -se — результати",
+        "trotzdem — проте, все ж",
+        "wichtig — важливий"
+      ]
     },
     {
       "id": "44c3388b",
@@ -405,7 +470,18 @@
       "category": "Politik",
       "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/4a9d67b.jpg",
       "publishedAt": "2026-09-27T19:16:58.000Z",
-      "processedAt": "2026-09-27T19:26:45.736Z"
+      "processedAt": "2026-09-27T19:26:45.736Z",
+      "vocabularyHintsRu": [
+        "der Präsident — президент",
+        "Serbien — Сербия",
+        "zurücktreten — уйти в отставку",
+        "die Wahl, -en — выборы",
+        "Oktober — октябрь",
+        "kandidieren — баллотироваться",
+        "der Spitzenкandidat — главный кандидат",
+        "die Partei — партия",
+        "finden — находить"
+      ]
     },
     {
       "id": "6b0592ad",
@@ -14576,7 +14652,19 @@
       "category": "Політика",
       "imageUrl": "https://img.tsn.ua/cached/050/tsn-1284f5ef/thumbs/608xX/db/5b/c21a30f59d6e0868504646afb8b55bdb.jpg",
       "publishedAt": "2026-09-27T15:51:00.000Z",
-      "processedAt": "2026-09-27T19:47:42.327Z"
+      "processedAt": "2026-09-27T19:47:42.327Z",
+      "simplifiedTextRu": "Трамп пригласил Путина на саммит G20 в США. Кремль ценит приглашение, но пока не делает выводов. Прессекретарь Песков сказал, что решение об участии ещё не принято. Россия планирует принимать активное участие в работе G20 в декабре.",
+      "vocabularyHintsRu": [
+        "пригласить — einladen",
+        "саммит — das Gipfeltreffen",
+        "Кремль — der Kreml",
+        "ценить — schätzen",
+        "вывод — die Schlussfolgerung",
+        "прессекретарь — der Pressesprecher",
+        "решение — die Entscheidung",
+        "участие — die Teilnahme",
+        "активный — aktiv"
+      ]
     },
     {
       "id": "68ba8944",
@@ -14614,7 +14702,15 @@
       "category": "Суспільство",
       "imageUrl": "https://img.tsn.ua/cached/042/tsn-51cb131e/thumbs/608xX/00/e0/1e3995219c7aa679d66275b238a5e000.png",
       "publishedAt": "2026-09-27T16:01:53.000Z",
-      "processedAt": "2026-09-27T19:46:37.065Z"
+      "processedAt": "2026-09-27T19:46:37.065Z",
+      "simplifiedTextRu": "В окнах есть щели, через которые дует холод. Если новые окна заменить нельзя, их можно утеплить ватой и тканью. Для более широких щелей подходят полоски поролона, их просто вкладывают в зазор. Также можно наклеить тепловую пленку на раму, чтобы уменьшить потери тепла. Эти способы помогают сохранить тепло в квартире зимой.",
+      "vocabularyHintsRu": [
+        "щель — die Ritze",
+        "утепление — die Isolierung",
+        "вата — die Watte",
+        "поролон — der Schaumstoff",
+        "пленка — die Folie"
+      ]
     },
     {
       "id": "01d12782",
@@ -14658,7 +14754,17 @@
       "category": "Суспільство",
       "imageUrl": "https://img.tsn.ua/cached/533/tsn-51cb131e/thumbs/608xX/b8/af/8aa34cdfc90b878d29e9273fee7cafb8.jpg",
       "publishedAt": "2026-09-27T16:15:46.000Z",
-      "processedAt": "2026-09-27T19:45:32.018Z"
+      "processedAt": "2026-09-27T19:45:32.018Z",
+      "simplifiedTextRu": "Россия создает новую систему управления на оккупированных территориях Украины. Она заставляет людей получать российские паспорта и без них не получить пенсию. Также конфискует дома, которые оставили владельцы. Около 1,6 миллиона детей переводят в российские школы.",
+      "vocabularyHintsRu": [
+        "оккупированный — das besetzte Gebiet",
+        "территория — die Region",
+        "пенсия — die Rente",
+        "конфисковать — konfiszieren",
+        "дом — das Haus",
+        "переводить — verlegen",
+        "паспорт — der Pass"
+      ]
     },
     {
       "id": "3f4cced2",
@@ -14695,7 +14801,18 @@
       "category": "Політика",
       "imageUrl": "https://img.tsn.ua/cached/871/tsn-51cb131e/thumbs/608xX/39/73/bdfa19fd65bbcb64a19370a295197339.png",
       "publishedAt": "2026-09-27T16:26:23.000Z",
-      "processedAt": "2026-09-27T19:44:26.101Z"
+      "processedAt": "2026-09-27T19:44:26.101Z",
+      "simplifiedTextRu": "Бывший директор RUSI предупредил, что Путин планирует эскалацию войны. Он хочет мобилизовать от трехсот до четырехсот тысяч новых солдат. Россия также может привлечь войска Северной Кореи. Это должно заставить Запад остановить военную помощь Украине. Американская разведка предупреждает о возможных диверсиях в странах НАТО.",
+      "vocabularyHintsRu": [
+        "директор — der Direktor",
+        "эскалация — die Eskalation",
+        "мобилизовать — mobilisieren",
+        "разведка — die Aufklärung",
+        "подготовка — die Vorbereitung",
+        "резерв — die Reserve",
+        "запугивание — die Einschüchterung",
+        "гибридный — hybrid"
+      ]
     },
     {
       "id": "4856399b",
@@ -14738,7 +14855,16 @@
       "category": "Наука",
       "imageUrl": "https://img.tsn.ua/cached/781/tsn-51cb131e/thumbs/608xX/ff/77/1bc6e316dd6725ffa42a345e742b77ff.jpg",
       "publishedAt": "2026-09-27T16:46:33.000Z",
-      "processedAt": "2026-09-27T19:43:20.858Z"
+      "processedAt": "2026-09-27T19:43:20.858Z",
+      "simplifiedTextRu": "Учёные обнаружили большой солнечный всплеск 1947 года. Он был в 40 раз шире диаметра Земли. Это показало, что Солнце может создавать сверхмощные всплески. Такие всплески называют супервсплесками. Они могут влиять на электросети.",
+      "vocabularyHintsRu": [
+        "учёный — die Wissenschaftler",
+        "обнаружить — entdecken",
+        "сверхмощный — übermächtig",
+        "супервсплеск — die Superflare, -s",
+        "влиять — beeinflussen",
+        "электросеть — das Stromnetz, -e"
+      ]
     },
     {
       "id": "0252b843",
@@ -14791,7 +14917,18 @@
       "category": "Суспільство",
       "imageUrl": "https://img.tsn.ua/cached/298/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/30/fe/121254b002f711644668b45b8f1cfe30.jpeg",
       "publishedAt": "2026-09-27T16:57:54.000Z",
-      "processedAt": "2026-09-27T19:42:15.320Z"
+      "processedAt": "2026-09-27T19:42:15.320Z",
+      "simplifiedTextRu": "Либби Ром уже более трех лет живет на круизном лайнере Sky Princess и путешествует океанами. У нее VIP‑статус, который дает бесплатную стирку и мини-бар. За этот статус нужно совершить как минимум пятнадцать круизов или плавать сто пятьдесят дней. Владельцы статуса могут ходить на закрытые вечеринки и заказывать коньяк вместо пива.",
+      "vocabularyHintsRu": [
+        "круизный лайнер — das Kreuzfahrtschiff",
+        "VIP‑статус — der VIP-Status",
+        "стирка — die Wäsche",
+        "мини-бар — die Minibar",
+        "круиз — die Kreuzfahrt",
+        "плавать — das Schwimmen",
+        "закрытая вечеринка — die geschlossene Party",
+        "коньяк — der Cognac"
+      ]
     },
     {
       "id": "12626991",
@@ -14844,7 +14981,18 @@
       "category": "Політика",
       "imageUrl": "https://img.tsn.ua/cached/512/tsn-51cb131e/thumbs/608xX/a8/43/40bdf8c807a4484fd78b8b4c0b8d43a8.png",
       "publishedAt": "2026-09-27T18:13:00.000Z",
-      "processedAt": "2026-09-27T19:41:10.558Z"
+      "processedAt": "2026-09-27T19:41:10.558Z",
+      "simplifiedTextRu": "Во Флориде, США, правительство решило остановить проект с искусственным рифом. В 1970‑х годах в море было сброшено около двух миллионов шин. Теперь подводники поднимают их, уже более шести сот тысяч шин. По оценкам, очистка стоит 140 миллионов долларов. Проект считают худшей экологической ошибкой в истории.",
+      "vocabularyHintsRu": [
+        "искусственный — künstlich",
+        "риф — das Riff",
+        "шина — die Reifen",
+        "подводник — die Taucher",
+        "оценка — die Schätzung",
+        "экологический — ökologisch",
+        "ошибка — der Fehler",
+        "история — die Geschichte"
+      ]
     },
     {
       "id": "0accff4e",
@@ -14942,7 +15090,27 @@
       "category": "Суспільство",
       "imageUrl": "https://img.tsn.ua/cached/012/tsn-51cb131e/thumbs/608xX/50/eb/eb6071bef13020e61e3581ebadf6eb50.jpg",
       "publishedAt": "2026-09-27T18:34:19.000Z",
-      "processedAt": "2026-09-27T19:40:05.027Z"
+      "processedAt": "2026-09-27T19:40:05.027Z",
+      "simplifiedTextRu": "Эксперт Александр Сигал говорит, что блочно‑модульные котельные могут подстраховать отдельные районы. Они нужны, когда большая ТЭЦ выходит из строя, и работают самостоятельно. Однако для котельной мощностью 100 МВт нужен участок размером половина футбольного стадиона. В плотных районах найти такой участок трудно из‑за шума и газовых требований. Поэтому эксперт считает, что автономные котельные не заменят централизованное отопление в больших городах.",
+      "vocabularyHintsRu": [
+        "блочно‑модульный — das Block-Modul-Heizkraftwerk",
+        "котельня — die Kessel",
+        "подстраховать — absichern",
+        "мощность — die Leistung",
+        "участок — der Bauplatz",
+        "футбольный — der Fussball",
+        "стадион — das Stadion",
+        "плотный — dicht",
+        "район — der Bezirk",
+        "участок — das Grundstück",
+        "газовый — gasförmig",
+        "требование — die Anforderung, -en",
+        "автономный — autonom",
+        "централизованный — zentralisiert",
+        "отопление — die Heizung",
+        "большой — gross",
+        "город — die Stadt"
+      ]
     },
     {
       "id": "3326a226",
@@ -14990,7 +15158,17 @@
       "category": "Політика",
       "imageUrl": "https://img.tsn.ua/cached/174/tsn-51cb131e/thumbs/608xX/6b/bd/9fd34a88f99a02b7623795df1388bd6b.jpg",
       "publishedAt": "2026-09-27T18:40:22.000Z",
-      "processedAt": "2026-09-27T19:38:57.695Z"
+      "processedAt": "2026-09-27T19:38:57.695Z",
+      "simplifiedTextRu": "Вечером 27 сентября российские войска атаковали Киев. Осколки беспилотников упали в трёх районах – Подольском, Дарницком и Днепровском. В Днепровском районе повредили двухэтажное здание и возник пожар. Из‑за падения осколков ранено два человека. На место приехали скорая и спасатели.",
+      "vocabularyHintsRu": [
+        "атаковать — angreifen",
+        "обломок — die Trümmer, -",
+        "беспилотник — die Drohnen, -",
+        "повредить — beschädigen",
+        "пожар — das Feuer",
+        "раненый — verletzt",
+        "скорая — der Rettungswagen"
+      ]
     },
     {
       "id": "48e2b657",
