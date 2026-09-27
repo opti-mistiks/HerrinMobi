@@ -1,6 +1,415 @@
 {
   "A1": [
     {
+      "id": "6b0592ad",
+      "originalTitle": "«Das beste Team, das in den letzten 30 Jahren hier gespielt hat»",
+      "simplifiedText": "Die Schweiz hat Nordmazedonien mit 3:0 besiegt. Das Spiel war der Nations-League-Auftakt letzte Woche. Der Trainer von Nordmazedonien lobt die Nati. Die Fans haben laut gejubelt und gefreut. Jetzt trainiert die Schweiz weiter für das nächste Spiel.",
+      "vocabularyHints": [
+        "besiegen — перемогти",
+        "Nations-League-Auftakt — початок Національної ліги",
+        "Trainer — тренер",
+        "loben — хвалити",
+        "Nati — національна команда",
+        "Fan — вболівальники",
+        "laut — гучно",
+        "jubeln — веселитися, вигукувати радість",
+        "freuen — радіти",
+        "trainieren — тренувати",
+        "weiter — далі",
+        "nächste — наступна"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "besiegt",
+          "hint": "besiegen — перемогти"
+        },
+        {
+          "surface": "Nations-League-Auftakt",
+          "hint": "Nations-League-Auftakt — початок Національної ліги"
+        },
+        {
+          "surface": "Trainer",
+          "hint": "Trainer — тренер"
+        },
+        {
+          "surface": "lobt",
+          "hint": "loben — хвалити"
+        },
+        {
+          "surface": "Nati",
+          "hint": "Nati — національна команда"
+        },
+        {
+          "surface": "Fans",
+          "hint": "Fan — вболівальники"
+        },
+        {
+          "surface": "laut",
+          "hint": "laut — гучно"
+        },
+        {
+          "surface": "gejubelt",
+          "hint": "jubeln — веселитися, вигукувати радість"
+        },
+        {
+          "surface": "gefreut",
+          "hint": "freuen — радіти"
+        },
+        {
+          "surface": "trainiert",
+          "hint": "trainieren — тренувати"
+        },
+        {
+          "surface": "weiter",
+          "hint": "weiter — далі"
+        },
+        {
+          "surface": "nächste",
+          "hint": "nächste — наступна"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/27/41e7db8e-63bb-4678-8263-93a02f969317.jpg?s=c3e66e102f7be0b8ee3ef94357fddeb3",
+      "publishedAt": "2026-09-27T06:23:50.000Z",
+      "processedAt": "2026-09-27T08:00:13.415Z"
+    },
+    {
+      "id": "11b38a82",
+      "originalTitle": "Mit Stirnlampe in den Schacht - Das Rätsel der New Yorker Kanalkletterer",
+      "simplifiedText": "Unbekannte klettern nachts in den New Yorker Kanal. Sie benutzen Stirnlampen und gehen tief hinunter. Polizei hat diese Woche mehrere Personen festgenommen. Die Festnahmen sind in verschiedenen Stadtteilen passiert.",
+      "vocabularyHints": [
+        "Unbekannte — невідомі",
+        "klettern — лазити",
+        "nachts — вночі",
+        "der Kanal — канал",
+        "die Stirnlampe, -n — ліхтарики на голову",
+        "die Polizei — поліція",
+        "mehrere — кілька",
+        "festnehmen — заставити",
+        "die Festnahme, -n — затримання",
+        "verschieden — різний",
+        "das Stadtteil, -e — район",
+        "passieren — відбутися"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Unbekannte",
+          "hint": "Unbekannte — невідомі"
+        },
+        {
+          "surface": "klettern",
+          "hint": "klettern — лазити"
+        },
+        {
+          "surface": "nachts",
+          "hint": "nachts — вночі"
+        },
+        {
+          "surface": "Kanal",
+          "hint": "der Kanal — канал"
+        },
+        {
+          "surface": "Stirnlampen",
+          "hint": "die Stirnlampe, -n — ліхтарики на голову"
+        },
+        {
+          "surface": "Polizei",
+          "hint": "die Polizei — поліція"
+        },
+        {
+          "surface": "mehrere",
+          "hint": "mehrere — кілька"
+        },
+        {
+          "surface": "festgenommen",
+          "hint": "festnehmen — заставити"
+        },
+        {
+          "surface": "Festnahmen",
+          "hint": "die Festnahme, -n — затримання"
+        },
+        {
+          "surface": "verschiedenen",
+          "hint": "verschieden — різний"
+        },
+        {
+          "surface": "Stadtteilen",
+          "hint": "das Stadtteil, -e — район"
+        },
+        {
+          "surface": "passiert",
+          "hint": "passieren — відбутися"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/3fbc54f.jpg",
+      "publishedAt": "2026-09-27T06:25:54.000Z",
+      "processedAt": "2026-09-27T07:58:38.314Z"
+    },
+    {
+      "id": "191a4967",
+      "originalTitle": "KI und andere digitale Helfer - «Bequeme neue Welt»: Prompt für Prompt in die Hilflosigkeit?",
+      "simplifiedText": "Eine Philosophin spricht über digitale Helfer. Sie sagt: Menschen sollen mehr selbst denken. Digitale Helfer sind zum Beispiel KI und Thermomix. Viele Menschen benutzen die Helfer jeden Tag. Die Philosophin will mehr Denken von Menschen.",
+      "vocabularyHints": [
+        "die Philosophin — філософиня",
+        "sprechen — говорити",
+        "digital — цифровий",
+        "der Helfer — помічник",
+        "die Menschen — люди",
+        "sollen — повинні",
+        "selbst — самостійно",
+        "denken — думати",
+        "das Beispiel — приклад",
+        "KI — штучний інтелект",
+        "Thermomix — Thermomix (кухонний прилад)",
+        "benutzen — використовувати",
+        "jeder — кожен",
+        "der Tag — день",
+        "das Denken — мислення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Philosophin",
+          "hint": "die Philosophin — філософиня"
+        },
+        {
+          "surface": "spricht",
+          "hint": "sprechen — говорити"
+        },
+        {
+          "surface": "digitale",
+          "hint": "digital — цифровий"
+        },
+        {
+          "surface": "Helfer",
+          "hint": "der Helfer — помічник"
+        },
+        {
+          "surface": "Menschen",
+          "hint": "die Menschen — люди"
+        },
+        {
+          "surface": "sollen",
+          "hint": "sollen — повинні"
+        },
+        {
+          "surface": "selbst",
+          "hint": "selbst — самостійно"
+        },
+        {
+          "surface": "denken",
+          "hint": "denken — думати"
+        },
+        {
+          "surface": "Beispiel",
+          "hint": "das Beispiel — приклад"
+        },
+        {
+          "surface": "KI",
+          "hint": "KI — штучний інтелект"
+        },
+        {
+          "surface": "Thermomix",
+          "hint": "Thermomix — Thermomix (кухонний прилад)"
+        },
+        {
+          "surface": "benutzen",
+          "hint": "benutzen — використовувати"
+        },
+        {
+          "surface": "jeden",
+          "hint": "jeder — кожен"
+        },
+        {
+          "surface": "Tag",
+          "hint": "der Tag — день"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/f76472.jpg",
+      "publishedAt": "2026-09-27T06:40:17.000Z",
+      "processedAt": "2026-09-27T07:56:46.155Z"
+    },
+    {
+      "id": "03da858f",
+      "originalTitle": "Darf er das? Diesen Hunde-Grundsatz kennen viel zu wenige",
+      "simplifiedText": "Trainer Cyrill Matter erklärt den wichtigsten Grundsatz. Er spricht über Hunde im Alltag. Der Grundsatz heisst: Hunde dürfen nicht springen. Viele Halter ignorieren diese Regel oft. Sie sollen die Regel jetzt befolgen.",
+      "vocabularyHints": [
+        "der Trainer — тренер",
+        "der Grundsatz — принцип",
+        "der Alltag — повсякденне життя",
+        "der Halter — власник (тварини)",
+        "ignorieren — ігнорувати",
+        "befolgen — дотримуватись"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Trainer",
+          "hint": "der Trainer — тренер"
+        },
+        {
+          "surface": "Grundsatz",
+          "hint": "der Grundsatz — принцип"
+        },
+        {
+          "surface": "Alltag",
+          "hint": "der Alltag — повсякденне життя"
+        },
+        {
+          "surface": "Halter",
+          "hint": "der Halter — власник (тварини)"
+        },
+        {
+          "surface": "ignorieren",
+          "hint": "ignorieren — ігнорувати"
+        },
+        {
+          "surface": "befolgen",
+          "hint": "befolgen — дотримуватись"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/09/24/aee1ac30-76eb-475e-bd19-3e5c7c4e113d.jpg?s=97f2134ea4118217a674f9dceb9b5d58",
+      "publishedAt": "2026-09-27T06:42:29.000Z",
+      "processedAt": "2026-09-27T07:53:31.962Z"
+    },
+    {
+      "id": "0c6c07ea",
+      "originalTitle": "Skandal um Sammelfirmen - Tun Sie genug gegen den «Unterschriften-Bschiss», Herr Rossi?",
+      "simplifiedText": "Bundeskanzler Rossi lobt die Fortschritte nach dem Skandal. Er ist schockiert über die Unterschriftenfälschungen. Die Sammelfirmen haben falsche Unterschriften gesammelt. Rossi fordert mehr Kontrolle bei den Firmen. Die Bevölkerung kann jetzt besser vertrauen.",
+      "vocabularyHints": [
+        "der Bundeskanzler — канцлер",
+        "Rossi — Россі",
+        "loben — хвалити",
+        "die Fortschritte — прогрес",
+        "der Skandal — скандал",
+        "schockieren — шокований",
+        "die Unterschriftenfälschungen — фальсифікація підписів",
+        "die Sammelfirmen — збірна компанія",
+        "falsch — хибний",
+        "die Kontrolle — контроль",
+        "die Bevölkerung — населення",
+        "vertrauen — довіряти"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Bundeskanzler",
+          "hint": "der Bundeskanzler — канцлер"
+        },
+        {
+          "surface": "Rossi",
+          "hint": "Rossi — Россі"
+        },
+        {
+          "surface": "lobt",
+          "hint": "loben — хвалити"
+        },
+        {
+          "surface": "Fortschritte",
+          "hint": "die Fortschritte — прогрес"
+        },
+        {
+          "surface": "Skandal",
+          "hint": "der Skandal — скандал"
+        },
+        {
+          "surface": "schockiert",
+          "hint": "schockieren — шокований"
+        },
+        {
+          "surface": "Unterschriftenfälschungen",
+          "hint": "die Unterschriftenfälschungen — фальсифікація підписів"
+        },
+        {
+          "surface": "Sammelfirmen",
+          "hint": "die Sammelfirmen — збірна компанія"
+        },
+        {
+          "surface": "falsche",
+          "hint": "falsch — хибний"
+        },
+        {
+          "surface": "Kontrolle",
+          "hint": "die Kontrolle — контроль"
+        },
+        {
+          "surface": "Bevölkerung",
+          "hint": "die Bevölkerung — населення"
+        },
+        {
+          "surface": "vertrauen",
+          "hint": "vertrauen — довіряти"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/c73c46.jpg",
+      "publishedAt": "2026-09-27T07:06:22.000Z",
+      "processedAt": "2026-09-27T07:52:15.599Z"
+    },
+    {
+      "id": "7be32a74",
+      "originalTitle": "Historisch tiefer Wasserstand - Schiffskapitän auf dem Zürichsee: «Ich bete jeden Tag für Regen»",
+      "simplifiedText": "Der Schiffsführer von der ZSG sagt, es gibt weniger Schiffe. Wegen des tiefen Wasserstands fahren weniger Schiffe auf dem Zürichsee. Der Kapitän hofft auf mehr Regen. Er betet jeden Tag für Regen. Die Schiffe fahren jetzt langsamer auf dem See.",
+      "vocabularyHints": [
+        "der Schiffsführer — капітан судна",
+        "die ZSG — Zürichsee‑Schifffahrtsgesellschaft",
+        "weniger — менше",
+        "tief — глибокий",
+        "der Wasserstand — рівень води",
+        "der Zürichsee — Цюрихське озеро",
+        "der Kapitän — командир",
+        "der Regen — дощ",
+        "beten — молитися",
+        "langsam — повільніше"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Schiffsführer",
+          "hint": "der Schiffsführer — капітан судна"
+        },
+        {
+          "surface": "ZSG",
+          "hint": "die ZSG — Zürichsee‑Schifffahrtsgesellschaft"
+        },
+        {
+          "surface": "weniger",
+          "hint": "weniger — менше"
+        },
+        {
+          "surface": "tiefen",
+          "hint": "tief — глибокий"
+        },
+        {
+          "surface": "Wasserstands",
+          "hint": "der Wasserstand — рівень води"
+        },
+        {
+          "surface": "Zürichsee",
+          "hint": "der Zürichsee — Цюрихське озеро"
+        },
+        {
+          "surface": "Kapitän",
+          "hint": "der Kapitän — командир"
+        },
+        {
+          "surface": "Regen",
+          "hint": "der Regen — дощ"
+        },
+        {
+          "surface": "betet",
+          "hint": "beten — молитися"
+        },
+        {
+          "surface": "langsamer",
+          "hint": "langsam — повільніше"
+        }
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/7354dc.jpg",
+      "publishedAt": "2026-09-27T07:28:46.000Z",
+      "processedAt": "2026-09-27T07:50:54.830Z"
+    },
+    {
       "id": "19219b2c",
       "originalTitle": "Alter Flieger, neue Luxuskabine: So baut Swiss ihre A330 um",
       "simplifiedText": "Swiss lässt den ersten A330 in Hongkong umbauen. Die neue Kabine heisst Swiss Senses. Das Flugzeug bleibt im Hangar von Haeco. Ingenieure arbeiten dort seit vielen Tagen. Die Umbauarbeiten kosten jetzt viel Geld.",
@@ -3453,6 +3862,310 @@
     }
   ],
   "A2": [
+    {
+      "id": "2acae534",
+      "originalTitle": "«Das beste Team, das in den letzten 30 Jahren hier gespielt hat»",
+      "simplifiedText": "Die Schweiz hat am Nations-League-Auftakt Nordmazedonien mit 3:0 besiegt. Die Spieler haben sehr gut auf dem Platz gespielt, weil sie viel trainiert haben. Der Trainer hat die Mannschaft nach dem Spiel gelobt. Er hat gesagt, sie ist das beste Team der letzten 30 Jahre. Die Fans haben laut gesungen, das Wetter war kühl, trotzdem waren sie sehr glücklich. Im Vergleich zum letzten Auftritt war die Schweiz schneller und stärker als zuvor. Ich hätte gern das nächste Spiel im Stadion gesehen, denn das wäre ein tolles Erlebnis.",
+      "vocabularyHints": [
+        "der Nations-League-Auftakt — перший матч Національної ліги",
+        "loben — хвалив",
+        "trotzdem — проте",
+        "das Erlebnis — враження"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Nations-League-Auftakt",
+          "hint": "der Nations-League-Auftakt — перший матч Національної ліги"
+        },
+        {
+          "surface": "gelobt",
+          "hint": "loben — хвалив"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Erlebnis",
+          "hint": "das Erlebnis — враження"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/27/41e7db8e-63bb-4678-8263-93a02f969317.jpg?s=c3e66e102f7be0b8ee3ef94357fddeb3",
+      "publishedAt": "2026-09-27T06:23:50.000Z",
+      "processedAt": "2026-09-27T08:00:48.266Z"
+    },
+    {
+      "id": "2c2483a1",
+      "originalTitle": "Mit Stirnlampe in den Schacht - Das Rätsel der New Yorker Kanalkletterer",
+      "simplifiedText": "Unbekannte Personen haben in der Nacht in die New Yorker Kanalisation geklettert. Sie haben Stirnlampen benutzt, weil es dort sehr dunkel war. Die Polizei hat sie am Freitag am Eingang des Kanals festgenommen. Am Samstag hat die Polizei wieder zwei weitere Personen am selben Ort festgenommen, trotzdem war die Gefahr gross. Die Festnahmen haben viele Menschen in der Stadt überrascht, denn die meisten glaubten, die Kanalisation sei sicher. Ich habe gehört, die Polizei macht jetzt mehr Kontrollen.",
+      "vocabularyHints": [
+        "unbekannt — невідомий",
+        "die Kanalisation, -en — каналізація",
+        "die Stirnlampe, -n — ліхтарик на голові",
+        "die Gefahr, -en — небезпека",
+        "die Festnahme, -n — затримання",
+        "überraschen — здивувати",
+        "die Kontrolle, -en — контроль"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Unbekannte",
+          "hint": "unbekannt — невідомий"
+        },
+        {
+          "surface": "Kanalisation",
+          "hint": "die Kanalisation, -en — каналізація"
+        },
+        {
+          "surface": "Stirnlampen",
+          "hint": "die Stirnlampe, -n — ліхтарик на голові"
+        },
+        {
+          "surface": "Gefahr",
+          "hint": "die Gefahr, -en — небезпека"
+        },
+        {
+          "surface": "Festnahmen",
+          "hint": "die Festnahme, -n — затримання"
+        },
+        {
+          "surface": "überrascht",
+          "hint": "überraschen — здивувати"
+        },
+        {
+          "surface": "Kontrollen",
+          "hint": "die Kontrolle, -en — контроль"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/3fbc54f.jpg",
+      "publishedAt": "2026-09-27T06:25:54.000Z",
+      "processedAt": "2026-09-27T07:59:04.367Z"
+    },
+    {
+      "id": "172582fa",
+      "originalTitle": "KI und andere digitale Helfer - «Bequeme neue Welt»: Prompt für Prompt in die Hilflosigkeit?",
+      "simplifiedText": "Eine Philosophin hat gefordert, Menschen sollen trotz digitaler Helfer wieder mehr selbst denken. Sie hat beobachtet, viele Menschen benutzen immer mehr Prompt-nach-Prompt, weil die Technik sehr bequem ist. Die Helfer wie Navi oder Thermomix haben ihr Leben einfacher gemacht, aber die Eigeninitiative geht verloren. Manche Leute fühlen sich hilflos, weil die KI sofort eine Antwort gibt, trotzdem versuchen sie, selbst zu überlegen. Ich habe das Buch auf den Tisch gelegt, weil ich darüber nachdenken wollte. Ich habe gestern mit einer Freundin telefoniert und wir haben beschlossen, öfter ohne digitale Unterstützung zu denken. Vielleicht wird das nächste Jahr weniger von Prompt-nach-Prompt dominiert, weil wir mehr üben.",
+      "vocabularyHints": [
+        "die Philosophin — філософиня",
+        "fordern — вимагати",
+        "digital — цифровий",
+        "beobachten — спостерігати",
+        "Prompt-nach-Prompt — підказка за підказкою",
+        "die Eigeninitiative — самоініціатива",
+        "hilflos — безпорадний",
+        "die KI — штучний інтелект",
+        "überlegen — розмірковувати",
+        "nachdenken — роздумувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Philosophin",
+          "hint": "die Philosophin — філософиня"
+        },
+        {
+          "surface": "gefordert",
+          "hint": "fordern — вимагати"
+        },
+        {
+          "surface": "digitaler",
+          "hint": "digital — цифровий"
+        },
+        {
+          "surface": "beobachtet",
+          "hint": "beobachten — спостерігати"
+        },
+        {
+          "surface": "Prompt-nach-Prompt",
+          "hint": "Prompt-nach-Prompt — підказка за підказкою"
+        },
+        {
+          "surface": "Eigeninitiative",
+          "hint": "die Eigeninitiative — самоініціатива"
+        },
+        {
+          "surface": "hilflos",
+          "hint": "hilflos — безпорадний"
+        },
+        {
+          "surface": "KI",
+          "hint": "die KI — штучний інтелект"
+        },
+        {
+          "surface": "überlegen",
+          "hint": "überlegen — розмірковувати"
+        },
+        {
+          "surface": "nachdenken",
+          "hint": "nachdenken — роздумувати"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/f76472.jpg",
+      "publishedAt": "2026-09-27T06:40:17.000Z",
+      "processedAt": "2026-09-27T07:57:34.277Z"
+    },
+    {
+      "id": "0cdb4732",
+      "originalTitle": "Darf er das? Diesen Hunde-Grundsatz kennen viel zu wenige",
+      "simplifiedText": "Trainer Cyrill Matter hat den wichtigsten Grundsatz für Hundehalter erklärt. Viele Hundehalter haben sich an alte Regeln gehalten, zum Beispiel der Hund darf nicht auf dem Bett oder an der Türschwelle springen. Diese Regeln sind überholt, weil sie den Alltag mit dem Hund unnötig erschweren. Matter hat gesagt, ein neuer Grundsatz ist wichtiger als die alten Regeln. Er hat erklärt, der Hund soll immer in der Nähe des Menschen bleiben, denn das stärkt das Vertrauen. Trotzdem behalten manche Halter die alten Regeln bei. Ich habe das Gespräch mit ihm am Wochenende erlebt und finde den neuen Grundsatz sehr hilfreich.",
+      "vocabularyHints": [
+        "der Grundsatz, -e — принцип",
+        "der Hundehalter, - — власник собаки",
+        "überholt — застарілий"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Grundsatz",
+          "hint": "der Grundsatz, -e — принцип"
+        },
+        {
+          "surface": "Hundehalter",
+          "hint": "der Hundehalter, - — власник собаки"
+        },
+        {
+          "surface": "überholt",
+          "hint": "überholt — застарілий"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://image.20min.ch/2026/09/24/aee1ac30-76eb-475e-bd19-3e5c7c4e113d.jpg?s=97f2134ea4118217a674f9dceb9b5d58",
+      "publishedAt": "2026-09-27T06:42:29.000Z",
+      "processedAt": "2026-09-27T07:54:34.811Z"
+    },
+    {
+      "id": "0a8c3315",
+      "originalTitle": "Skandal um Sammelfirmen - Tun Sie genug gegen den «Unterschriften-Bschiss», Herr Rossi?",
+      "simplifiedText": "Der Bundeskanzler hat gestern die Fortschritte gelobt, weil er nach dem Schock über Unterschriftenfälschungen zufrieden ist. Er hat erklärt, dass die Regierung mehr gegen die Sammelfirmen unternommen hat. Die Opposition hat kritisiert, dass noch zu viele falsche Unterschriften gesammelt wurden, aber die Ministerin hat darauf hingewiesen, dass die Kontrollen jetzt strenger sind. Herr Rossi hat in einer Pressekonferenz gefragt, ob genug getan wird, und der Kanzler hat versprochen, dass die Massnahmen weiter verbessert werden. Trotzdem fühlen viele Bürgerinnen und Bürger mehr Vertrauen in die Politik.",
+      "vocabularyHints": [
+        "der Bundeskanzler — канцлер",
+        "der Fortschritt, -e — прогрес",
+        "der Schock — шок",
+        "die Unterschriftenfälschung, -en — фальсифікація підписів",
+        "die Sammelfirma, -en — компанії-агрегатори",
+        "kritisieren — критикував",
+        "die Kontrolle, -en — контроль",
+        "streng — строгіший",
+        "die Pressekonferenz — прес‑конференція",
+        "versprechen — пообіцяв",
+        "die Massnahme, -en — заходи",
+        "verbessern — покращений"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Bundeskanzler",
+          "hint": "der Bundeskanzler — канцлер"
+        },
+        {
+          "surface": "Fortschritte",
+          "hint": "der Fortschritt, -e — прогрес"
+        },
+        {
+          "surface": "Schock",
+          "hint": "der Schock — шок"
+        },
+        {
+          "surface": "Unterschriftenfälschungen",
+          "hint": "die Unterschriftenfälschung, -en — фальсифікація підписів"
+        },
+        {
+          "surface": "Sammelfirmen",
+          "hint": "die Sammelfirma, -en — компанії-агрегатори"
+        },
+        {
+          "surface": "kritisiert",
+          "hint": "kritisieren — критикував"
+        },
+        {
+          "surface": "Kontrollen",
+          "hint": "die Kontrolle, -en — контроль"
+        },
+        {
+          "surface": "strenger",
+          "hint": "streng — строгіший"
+        },
+        {
+          "surface": "Pressekonferenz",
+          "hint": "die Pressekonferenz — прес‑конференція"
+        },
+        {
+          "surface": "versprochen",
+          "hint": "versprechen — пообіцяв"
+        },
+        {
+          "surface": "Massnahmen",
+          "hint": "die Massnahme, -en — заходи"
+        },
+        {
+          "surface": "verbessert",
+          "hint": "verbessern — покращений"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/c73c46.jpg",
+      "publishedAt": "2026-09-27T07:06:22.000Z",
+      "processedAt": "2026-09-27T07:52:40.417Z"
+    },
+    {
+      "id": "43127693",
+      "originalTitle": "Historisch tiefer Wasserstand - Schiffskapitän auf dem Zürichsee: «Ich bete jeden Tag für Regen»",
+      "simplifiedText": "Wegen des historisch tiefen Wasserstands fahren weniger Schiffe auf dem Zürichsee, sagt der Schiffsführer der ZSG. Der Kapitän hat jeden Tag für Regen gebetet, weil er hofft, das Wasser wieder steigt. Er hat beobachtet, das Wasser ist heute noch tiefer als im Sommer. Trotzdem hat er die Fahrt am Morgen weitergeführt und ist mit dem Schiff an der Seepromenade vorbeigefahren. Viele Fahrgäste haben gemerkt, die Fahrten sind seltener, aber sie freuen sich trotzdem auf die schöne Aussicht. Die ZSG hat angekündigt, im Sommer mehr Schiffe einzusetzen.",
+      "vocabularyHints": [
+        "historisch — історичний",
+        "der Wasserstand — рівень води",
+        "der Schiffsführer — керманець судна",
+        "die ZSG — Zürcher Schifffahrtsgesellschaft",
+        "beten — молитися",
+        "weiterführen — продовжувати",
+        "die Seepromenade — набережна",
+        "der Fahrgast — пасажир",
+        "einsetzen — використовувати",
+        "ankündigen — оголошувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "historisch",
+          "hint": "historisch — історичний"
+        },
+        {
+          "surface": "Wasserstands",
+          "hint": "der Wasserstand — рівень води"
+        },
+        {
+          "surface": "Schiffsführer",
+          "hint": "der Schiffsführer — керманець судна"
+        },
+        {
+          "surface": "ZSG",
+          "hint": "die ZSG — Zürcher Schifffahrtsgesellschaft"
+        },
+        {
+          "surface": "gebetet",
+          "hint": "beten — молитися"
+        },
+        {
+          "surface": "weitergeführt",
+          "hint": "weiterführen — продовжувати"
+        },
+        {
+          "surface": "Seepromenade",
+          "hint": "die Seepromenade — набережна"
+        },
+        {
+          "surface": "Fahrgäste",
+          "hint": "der Fahrgast — пасажир"
+        },
+        {
+          "surface": "einzusetzen",
+          "hint": "einsetzen — використовувати"
+        }
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/7354dc.jpg",
+      "publishedAt": "2026-09-27T07:28:46.000Z",
+      "processedAt": "2026-09-27T07:51:20.894Z"
+    },
     {
       "id": "5eabfaab",
       "originalTitle": "Alter Flieger, neue Luxuskabine: So baut Swiss ihre A330 um",
@@ -7368,6 +8081,335 @@
     }
   ],
   "B1": [
+    {
+      "id": "46c70e6e",
+      "originalTitle": "«Das beste Team, das in den letzten 30 Jahren hier gespielt hat»",
+      "simplifiedText": "Die Schweiz besiegte Nordmazedonien mit 3:0 beim Nations-League-Auftakt. Das Spiel war das Eröffnungsspiel der Nations-League. Die Schweizer Nationalmannschaft zeigte eine starke Leistung und erzielte drei Tore. Der erste Treffer kam in der ersten Halbzeit, die beiden weiteren folgten kurz danach. In der zweiten Halbzeit behielt die Schweiz die Oberhand und liess keine Torchance für die Gegner zu. Der nordmazedonische Trainer lobte die Nati und sagte, sie habe über den grünen Klee gespielt. Er bezeichnete das Schweizer Team als das beste Team, das in den letzten dreissig Jahren hier gespielt habe. Mit dem klaren 3:0-Sieg startete die Schweiz selbstbewusst in die Nations-League. Für Nordmazedonien bedeutet die Niederlage einen schwierigen Beginn der Vorrunde.",
+      "vocabularyHints": [
+        "die Nations-League — Національна ліга",
+        "das Eröffnungsspiel — перший матч",
+        "die Nationalmannschaft — національна збірна",
+        "die Oberhand — перевага",
+        "die Torchance — шанс на гол",
+        "die Nati — національна збірна (скорочено)",
+        "grün — зелений",
+        "der Klee — конюшина",
+        "dreissig — тридцять",
+        "selbstbewusst — впевнений",
+        "die Vorrunde — перша групова раунда"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Nations-League",
+          "hint": "die Nations-League — Національна ліга"
+        },
+        {
+          "surface": "Eröffnungsspiel",
+          "hint": "das Eröffnungsspiel — перший матч"
+        },
+        {
+          "surface": "Nationalmannschaft",
+          "hint": "die Nationalmannschaft — національна збірна"
+        },
+        {
+          "surface": "Oberhand",
+          "hint": "die Oberhand — перевага"
+        },
+        {
+          "surface": "Torchance",
+          "hint": "die Torchance — шанс на гол"
+        },
+        {
+          "surface": "Nati",
+          "hint": "die Nati — національна збірна (скорочено)"
+        },
+        {
+          "surface": "grünen",
+          "hint": "grün — зелений"
+        },
+        {
+          "surface": "Klee",
+          "hint": "der Klee — конюшина"
+        },
+        {
+          "surface": "dreissig",
+          "hint": "dreissig — тридцять"
+        },
+        {
+          "surface": "selbstbewusst",
+          "hint": "selbstbewusst — впевнений"
+        },
+        {
+          "surface": "Vorrunde",
+          "hint": "die Vorrunde — перша групова раунда"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/27/41e7db8e-63bb-4678-8263-93a02f969317.jpg?s=c3e66e102f7be0b8ee3ef94357fddeb3",
+      "publishedAt": "2026-09-27T06:23:50.000Z",
+      "processedAt": "2026-09-27T08:01:14.668Z"
+    },
+    {
+      "id": "4561b543",
+      "originalTitle": "Mit Stirnlampe in den Schacht - Das Rätsel der New Yorker Kanalkletterer",
+      "simplifiedText": "Unbekannte Personen klettern seit Mai nachts in die Kanalisation von New York. Die Polizei hat festgestellt, dass die Täter mit Stirnlampen in enge Schächte hinabsteigen. Die Ermittlungen zeigen, dass die Aktionen meist in den späten Abendstunden stattfinden. In dieser Woche wurden mehrere Verdächtige von den Beamten festgenommen. Die Festnahmen erfolgten in verschiedenen Stadtteilen, weil die Täter immer wieder neue Zugänge benutzen. Die Behörden warnen die Bevölkerung, nicht in die Kanalisation zu gehen, weil die Gefahr von Verletzungen hoch ist. Die Polizei prüft, ob die Kletterer aus einer organisierten Gruppe stammen oder aus reiner Neugier handeln. Weitere Festnahmen werden erwartet, solange die Ermittlungen andauern.",
+      "vocabularyHints": [
+        "die Kanalisation — каналізація",
+        "die Stirnlampe — ліхтарик на голові",
+        "der Schacht, -e — шахти",
+        "die Ermittlung, -en — розслідування",
+        "der Verdächtige, -n — підозрюваний",
+        "der Beamte, -en — службовець",
+        "die Festnahme, -n — затримання",
+        "das Stadtteil, -e — район міста",
+        "der Zugang, -e — вхід, доступ",
+        "die Behörde, -n — влада, орган",
+        "die Verletzung, -en — травма",
+        "organisiert — організований",
+        "die Neugier — цікавість",
+        "erwarten — очікувати",
+        "andauern — тривати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Kanalisation",
+          "hint": "die Kanalisation — каналізація"
+        },
+        {
+          "surface": "Stirnlampen",
+          "hint": "die Stirnlampe — ліхтарик на голові"
+        },
+        {
+          "surface": "Schächte",
+          "hint": "der Schacht, -e — шахти"
+        },
+        {
+          "surface": "Ermittlungen",
+          "hint": "die Ermittlung, -en — розслідування"
+        },
+        {
+          "surface": "Verdächtige",
+          "hint": "der Verdächtige, -n — підозрюваний"
+        },
+        {
+          "surface": "Beamten",
+          "hint": "der Beamte, -en — службовець"
+        },
+        {
+          "surface": "Festnahmen",
+          "hint": "die Festnahme, -n — затримання"
+        },
+        {
+          "surface": "Stadtteilen",
+          "hint": "das Stadtteil, -e — район міста"
+        },
+        {
+          "surface": "Zugänge",
+          "hint": "der Zugang, -e — вхід, доступ"
+        },
+        {
+          "surface": "Behörden",
+          "hint": "die Behörde, -n — влада, орган"
+        },
+        {
+          "surface": "Verletzungen",
+          "hint": "die Verletzung, -en — травма"
+        },
+        {
+          "surface": "organisierten",
+          "hint": "organisiert — організований"
+        },
+        {
+          "surface": "Neugier",
+          "hint": "die Neugier — цікавість"
+        },
+        {
+          "surface": "erwartet",
+          "hint": "erwarten — очікувати"
+        },
+        {
+          "surface": "andauern",
+          "hint": "andauern — тривати"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/3fbc54f.jpg",
+      "publishedAt": "2026-09-27T06:25:54.000Z",
+      "processedAt": "2026-09-27T07:59:47.146Z"
+    },
+    {
+      "id": "416089a8",
+      "originalTitle": "KI und andere digitale Helfer - «Bequeme neue Welt»: Prompt für Prompt in die Hilflosigkeit?",
+      "simplifiedText": "Digitale Helfer wie das Navi im Auto, der Thermomix in der Küche oder Künstliche Intelligenz im Alltag erleichtern vielen Menschen das Leben. Sie übernehmen Aufgaben, die früher viel Zeit und Nachdenken erforderten. Eine Philosophin hat jedoch gewarnt, dass diese Bequemlichkeit die Eigeninitiative schwächen könnte. In einem Interview forderte sie die Bevölkerung ausdrücklich dazu auf, wieder mehr selbst zu denken, anstatt alles an die Technik zu delegieren. Sie argumentiert, dass kritisches Denken und persönliche Verantwortung nicht durch Algorithmen ersetzt werden können. Der Philosophin zufolge führt die unreflektierte Nutzung von KI zu einer Art geistiger Hilflosigkeit. Sie ruft zu einem bewussten Umgang mit digitalen Hilfsmitteln auf, bei dem Menschen die Kontrolle behalten.",
+      "vocabularyHints": [
+        "Thermomix — кухонний процесор Thermomix",
+        "künstlich — штучний",
+        "die Intelligenz — інтелект",
+        "die Eigeninitiative — самоініціатива",
+        "das Denken — мислення",
+        "delegieren — делегувати",
+        "kritisch — критичний",
+        "die Verantwortung — відповідальність",
+        "der Algorithmus — алгоритми",
+        "unreflektiert — необдуманий"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Thermomix",
+          "hint": "Thermomix — кухонний процесор Thermomix"
+        },
+        {
+          "surface": "Künstliche",
+          "hint": "künstlich — штучний"
+        },
+        {
+          "surface": "Intelligenz",
+          "hint": "die Intelligenz — інтелект"
+        },
+        {
+          "surface": "Eigeninitiative",
+          "hint": "die Eigeninitiative — самоініціатива"
+        },
+        {
+          "surface": "Denken",
+          "hint": "das Denken — мислення"
+        },
+        {
+          "surface": "delegieren",
+          "hint": "delegieren — делегувати"
+        },
+        {
+          "surface": "kritisches",
+          "hint": "kritisch — критичний"
+        },
+        {
+          "surface": "Verantwortung",
+          "hint": "die Verantwortung — відповідальність"
+        },
+        {
+          "surface": "Algorithmen",
+          "hint": "der Algorithmus — алгоритми"
+        },
+        {
+          "surface": "unreflektierte",
+          "hint": "unreflektiert — необдуманий"
+        }
+      ],
+      "category": "Gesellschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/f76472.jpg",
+      "publishedAt": "2026-09-27T06:40:17.000Z",
+      "processedAt": "2026-09-27T07:58:05.105Z"
+    },
+    {
+      "id": "445ce309",
+      "originalTitle": "Skandal um Sammelfirmen - Tun Sie genug gegen den «Unterschriften-Bschiss», Herr Rossi?",
+      "simplifiedText": "Bundeskanzler lobt die Fortschritte, die nach dem Schock über Unterschriftenfälschungen in den letzten Jahren erzielt wurden. Der Skandal betrifft mehrere Sammelfirmen, die systematisch Unterschriften gefälscht haben. Die Öffentlichkeit reagierte mit Empörung, weil das Vertrauen in das Wahlsystem erschüttert wurde. In einer Pressekonferenz fragte der Bundeskanzler Herrn Rossi, ob genug gegen den sogenannten «Unterschriften-Bschiss» unternommen wird. Rossi betonte, dass die Behörden bereits strengere Kontrollen einführen und die Verantwortlichen strafrechtlich verfolgen wollen. Gleichzeitig kritisierte er, dass die bisherigen Massnahmen noch nicht ausreichend seien, um weitere Fälschungen zu verhindern. Die Opposition fordert ein unabhängiges Untersuchungsgremium, das die Vorgänge transparent aufklärt. Trotz der Kritik bleibt der Bundeskanzler zuversichtlich, dass die Reformen das Vertrauen wiederherstellen werden. Beobachter sehen die aktuelle Debatte als Chance, das Wahlsystem langfristig zu stärken.",
+      "vocabularyHints": [
+        "die Unterschriftenfälschung, -en — підробка підписів",
+        "die Sammelfirma, -en — компанії-агрегатори",
+        "erschüttern — потрясати",
+        "der Unterschriften-Bschiss — підписний безглуздий скандал",
+        "strafrechtlich — кримінальний",
+        "kritisieren — критикувати",
+        "das Untersuchungsgremium, - — комісія з розслідування"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Unterschriftenfälschungen",
+          "hint": "die Unterschriftenfälschung, -en — підробка підписів"
+        },
+        {
+          "surface": "Sammelfirmen",
+          "hint": "die Sammelfirma, -en — компанії-агрегатори"
+        },
+        {
+          "surface": "erschüttert",
+          "hint": "erschüttern — потрясати"
+        },
+        {
+          "surface": "Unterschriften-Bschiss",
+          "hint": "der Unterschriften-Bschiss — підписний безглуздий скандал"
+        },
+        {
+          "surface": "strafrechtlich",
+          "hint": "strafrechtlich — кримінальний"
+        },
+        {
+          "surface": "kritisierte",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "Untersuchungsgremium",
+          "hint": "das Untersuchungsgremium, - — комісія з розслідування"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/c73c46.jpg",
+      "publishedAt": "2026-09-27T07:06:22.000Z",
+      "processedAt": "2026-09-27T07:53:06.905Z"
+    },
+    {
+      "id": "65629dcb",
+      "originalTitle": "Historisch tiefer Wasserstand - Schiffskapitän auf dem Zürichsee: «Ich bete jeden Tag für Regen»",
+      "simplifiedText": "Wegen des historisch tiefen Wasserstands fahren seit dieser Woche deutlich weniger Schiffe auf dem Zürichsee, sagt der Schiffsführer der ZSG. Der Wasserstand liegt laut Messungen an der Uferpromenade bei einem Rekordwert, der seit über 50 Jahren nicht mehr erreicht wurde. Durch die geringe Tiefe können einige grössere Passagierschiffe nicht mehr ihre übliche Route befahren, weil das Risiko besteht, dass sie auf Grund laufen. Die Zürcher Schifffahrtsgesellschaft hat deshalb den Fahrplan vorübergehend angepasst und nur noch die kleineren Fähren eingesetzt. Der betroffene Schiffsführer, der seit mehr als zwanzig Jahren das Kommando über die Hauptverbindung zwischen Zürich und Rapperswil hat, äusserte seine Besorgnis. Er erklärte, dass er jeden Tag für Regen betet, weil nur mehr Niederschlag den Wasserstand wieder anheben könnte. Gleichzeitig warnt die ZSG vor möglichen wirtschaftlichen Folgen, weil der Tourismus am See stark vom Schiffsverkehr abhängt. Experten gehen davon aus, dass sich die Lage erst im späten Herbst bessert, wenn die Regenmengen wieder zunehmen.",
+      "vocabularyHints": [
+        "historisch — історичний",
+        "der Schiffsführer — керманець судна",
+        "der Wasserstand — рівень води",
+        "der Rekordwert — рекордне значення",
+        "das Passagierschiff — пасажирський корабель",
+        "die Schifffahrtsgesellschaft — транспортна компанія (водний транспорт)",
+        "der Fahrplan — розклад",
+        "die Fähre — паром",
+        "das Kommando — командування"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "historisch",
+          "hint": "historisch — історичний"
+        },
+        {
+          "surface": "Schiffsführer",
+          "hint": "der Schiffsführer — керманець судна"
+        },
+        {
+          "surface": "Wasserstands",
+          "hint": "der Wasserstand — рівень води"
+        },
+        {
+          "surface": "Wasserstand",
+          "hint": "der Wasserstand — рівень води"
+        },
+        {
+          "surface": "Rekordwert",
+          "hint": "der Rekordwert — рекордне значення"
+        },
+        {
+          "surface": "Passagierschiffe",
+          "hint": "das Passagierschiff — пасажирський корабель"
+        },
+        {
+          "surface": "Schifffahrtsgesellschaft",
+          "hint": "die Schifffahrtsgesellschaft — транспортна компанія (водний транспорт)"
+        },
+        {
+          "surface": "Fahrplan",
+          "hint": "der Fahrplan — розклад"
+        },
+        {
+          "surface": "Fähren",
+          "hint": "die Fähre — паром"
+        },
+        {
+          "surface": "Kommando",
+          "hint": "das Kommando — командування"
+        }
+      ],
+      "category": "Wetter",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/7354dc.jpg",
+      "publishedAt": "2026-09-27T07:28:46.000Z",
+      "processedAt": "2026-09-27T07:51:48.432Z"
+    },
     {
       "id": "7b1cd473",
       "originalTitle": "Alter Flieger, neue Luxuskabine: So baut Swiss ihre A330 um",
@@ -11873,8 +12915,504 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-26T07:42:41.127Z",
+  "updatedAt": "2026-09-27T08:14:49.206Z",
   "tsnA1": [
+    {
+      "id": "48e2b657",
+      "originalTitle": "Путін змінився: експерт шокував новою заявою про очільника Кремля",
+      "simplifiedText": "Володимир Путін змінив риторику і став впевненішим. Експерт Вадим Денисенко сказав, що Путін діє активніше. Він вважає, що Україна скоро втратить контроль у тилі. За його словами, це пов’язано з економічною кризою та корупцією. Денисенко попереджає можливий державний переворот у Росії.",
+      "vocabularyHints": [
+        "змінити — ändern",
+        "риторика — die Rhetorie, -n",
+        "стати — werden",
+        "впевнений — sicherer",
+        "експерт — der Experte, -n",
+        "сказати — sagen",
+        "діяти — handeln",
+        "активний — aktiver",
+        "вважати — glauben",
+        "втратити — verlieren",
+        "контроль — die Kontrolle, -n",
+        "тиль — der Hinterland",
+        "пов’язати — verbinden",
+        "економічний — wirtschaftlich",
+        "криза — die Krise, -n",
+        "корупція — die Korruption, -en",
+        "попереджати — warnen",
+        "можливий — möglich",
+        "державний — staatlich",
+        "переворот — der Umsturz, -e"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "змінив",
+          "hint": "змінити — ändern"
+        },
+        {
+          "surface": "риторику",
+          "hint": "риторика — die Rhetorie, -n"
+        },
+        {
+          "surface": "став",
+          "hint": "стати — werden"
+        },
+        {
+          "surface": "впевненішим",
+          "hint": "впевнений — sicherer"
+        },
+        {
+          "surface": "Експерт",
+          "hint": "експерт — der Experte, -n"
+        },
+        {
+          "surface": "сказав",
+          "hint": "сказати — sagen"
+        },
+        {
+          "surface": "діє",
+          "hint": "діяти — handeln"
+        },
+        {
+          "surface": "активніше",
+          "hint": "активний — aktiver"
+        },
+        {
+          "surface": "вважає",
+          "hint": "вважати — glauben"
+        },
+        {
+          "surface": "втратить",
+          "hint": "втратити — verlieren"
+        },
+        {
+          "surface": "контроль",
+          "hint": "контроль — die Kontrolle, -n"
+        },
+        {
+          "surface": "тилі",
+          "hint": "тиль — der Hinterland"
+        },
+        {
+          "surface": "пов’язано",
+          "hint": "пов’язати — verbinden"
+        },
+        {
+          "surface": "економічною",
+          "hint": "економічний — wirtschaftlich"
+        },
+        {
+          "surface": "кризою",
+          "hint": "криза — die Krise, -n"
+        },
+        {
+          "surface": "корупцією",
+          "hint": "корупція — die Korruption, -en"
+        },
+        {
+          "surface": "попереджає",
+          "hint": "попереджати — warnen"
+        },
+        {
+          "surface": "можливий",
+          "hint": "можливий — möglich"
+        },
+        {
+          "surface": "державний",
+          "hint": "державний — staatlich"
+        },
+        {
+          "surface": "переворот",
+          "hint": "переворот — der Umsturz, -e"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/421/tsn-51cb131e/thumbs/608xX/b9/e3/61e71edbba429856533fb421986de3b9.jpg",
+      "publishedAt": "2026-09-27T06:50:06.000Z",
+      "processedAt": "2026-09-27T08:12:53.470Z"
+    },
+    {
+      "id": "7d140b34",
+      "originalTitle": "В Одесі сталася ДТП за участю 5 автівок: постраждали копи та військові ТЦК (фото)",
+      "simplifiedText": "У Одесі сталася серйозна аварія з п’ятьма автівками. Поліцейські та військові ТЦК працювали на мобільному блокпості. Один водій BMW врезався в чотири стоячі машини. Через зіткнення поранено двох поліцейських і трьох військових. П’ять постраждалих доставили до лікарні для огляду.",
+      "vocabularyHints": [
+        "аварія — der Unfall",
+        "автівка — das Auto",
+        "мобільний блокпост — der mobile Kontrollpunkt",
+        "врезатися — zusammenstossen",
+        "поранити — verletzt werden",
+        "поліцейський — die Polizisten",
+        "військовий — die Soldaten",
+        "постраждалий — die Verletzten",
+        "лікарня — das Krankenhaus",
+        "огляд — die Untersuchung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "аварія",
+          "hint": "аварія — der Unfall"
+        },
+        {
+          "surface": "автівками",
+          "hint": "автівка — das Auto"
+        },
+        {
+          "surface": "мобільному блокпості",
+          "hint": "мобільний блокпост — der mobile Kontrollpunkt"
+        },
+        {
+          "surface": "врезався",
+          "hint": "врезатися — zusammenstossen"
+        },
+        {
+          "surface": "поранено",
+          "hint": "поранити — verletzt werden"
+        },
+        {
+          "surface": "Поліцейські",
+          "hint": "поліцейський — die Polizisten"
+        },
+        {
+          "surface": "поліцейських",
+          "hint": "поліцейський — die Polizisten"
+        },
+        {
+          "surface": "військові",
+          "hint": "військовий — die Soldaten"
+        },
+        {
+          "surface": "військових",
+          "hint": "військовий — die Soldaten"
+        },
+        {
+          "surface": "постраждалих",
+          "hint": "постраждалий — die Verletzten"
+        },
+        {
+          "surface": "лікарні",
+          "hint": "лікарня — das Krankenhaus"
+        },
+        {
+          "surface": "огляду",
+          "hint": "огляд — die Untersuchung"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/964/tsn-51cb131e/thumbs/608xX/7e/90/ba67438c5e04aba6fba8c09c8873907e.jpeg",
+      "publishedAt": "2026-09-27T07:10:31.000Z",
+      "processedAt": "2026-09-27T08:10:59.769Z"
+    },
+    {
+      "id": "700575f6",
+      "originalTitle": "Коли Україна почне масово збивати реактивні дрони: Буданов назвав термін",
+      "simplifiedText": "Кирило Буданов сказав, що Україна готова збивати реактивні дрони. Він передбачає масове застосування перехоплювачів протягом кількох місяців. Тести вже йдуть під час бойових завдань і дають успішні результати. Тому українські війська можуть швидко збільшити виробництво таких систем.",
+      "vocabularyHints": [
+        "готовий — bereit",
+        "збивати — abschiessen",
+        "реактивний — reaktiv",
+        "дрон — die Drohne, -n",
+        "масовий — massiv",
+        "застосування — die Anwendung, -en",
+        "перехоплювач — der Abfangjäger, -",
+        "місяць — der Monat, -e",
+        "тест — der Test, -e",
+        "бойовий — kämpfend",
+        "завдання — die Aufgabe, -n",
+        "успішний — erfolgreich",
+        "результат — das Ergebnis, -e",
+        "український — ukrainisch",
+        "військо — die Truppe, -n",
+        "швидко — schnell",
+        "збільшити — vergrössern",
+        "виробництво — die Produktion, -en",
+        "система — das System, -e"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "готова",
+          "hint": "готовий — bereit"
+        },
+        {
+          "surface": "збивати",
+          "hint": "збивати — abschiessen"
+        },
+        {
+          "surface": "реактивні",
+          "hint": "реактивний — reaktiv"
+        },
+        {
+          "surface": "дрони",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "масове",
+          "hint": "масовий — massiv"
+        },
+        {
+          "surface": "застосування",
+          "hint": "застосування — die Anwendung, -en"
+        },
+        {
+          "surface": "перехоплювачів",
+          "hint": "перехоплювач — der Abfangjäger, -"
+        },
+        {
+          "surface": "місяців",
+          "hint": "місяць — der Monat, -e"
+        },
+        {
+          "surface": "Тести",
+          "hint": "тест — der Test, -e"
+        },
+        {
+          "surface": "бойових",
+          "hint": "бойовий — kämpfend"
+        },
+        {
+          "surface": "завдань",
+          "hint": "завдання — die Aufgabe, -n"
+        },
+        {
+          "surface": "успішні",
+          "hint": "успішний — erfolgreich"
+        },
+        {
+          "surface": "результати",
+          "hint": "результат — das Ergebnis, -e"
+        },
+        {
+          "surface": "українські",
+          "hint": "український — ukrainisch"
+        },
+        {
+          "surface": "війська",
+          "hint": "військо — die Truppe, -n"
+        },
+        {
+          "surface": "швидко",
+          "hint": "швидко — schnell"
+        },
+        {
+          "surface": "збільшити",
+          "hint": "збільшити — vergrössern"
+        },
+        {
+          "surface": "виробництво",
+          "hint": "виробництво — die Produktion, -en"
+        },
+        {
+          "surface": "систем",
+          "hint": "система — das System, -e"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/428/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/06/fa/3f29aac2cb0dfa0972847e1558ccfa06.jpeg",
+      "publishedAt": "2026-09-27T07:12:13.000Z",
+      "processedAt": "2026-09-27T08:09:01.205Z"
+    },
+    {
+      "id": "64dbb3f6",
+      "originalTitle": "Тривога та винищувачі біля кордону з Україною: що сталося у сусідній країні",
+      "simplifiedText": "У ніч 27 вересня невідома повітряна ціль увійшла в повітряний простір Румунії. Через це в повіті Тулча оголосили повітряну тривогу і підняли винищувачі. У небі також працював румунський гелікоптер IAR‑330 SOCAT. Тривогу скасували близько півночі, о 00:48.",
+      "vocabularyHints": [
+        "повітряна ціль — das Luftziel",
+        "повітряний простір — der Luftraum",
+        "повітряна тривога — der Luftalarm",
+        "підняти — abheben",
+        "винищувач — die Jagdflugzeuge",
+        "гелікоптер — der Hubschrauber"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "повітряна ціль",
+          "hint": "повітряна ціль — das Luftziel"
+        },
+        {
+          "surface": "повітряний простір",
+          "hint": "повітряний простір — der Luftraum"
+        },
+        {
+          "surface": "повітряну тривогу",
+          "hint": "повітряна тривога — der Luftalarm"
+        },
+        {
+          "surface": "підняли",
+          "hint": "підняти — abheben"
+        },
+        {
+          "surface": "винищувачі",
+          "hint": "винищувач — die Jagdflugzeuge"
+        },
+        {
+          "surface": "гелікоптер",
+          "hint": "гелікоптер — der Hubschrauber"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/914/tsn-ece9ab99d04961a5269827276738cd23/thumbs/608xX/a5/58/0a6e35ebc795f22820201e2f381258a5.jpg",
+      "publishedAt": "2026-09-27T07:26:03.000Z",
+      "processedAt": "2026-09-27T08:06:59.585Z"
+    },
+    {
+      "id": "5e8acd87",
+      "originalTitle": "Підірвав гранату під час суперечки: на Львівщині пролунав сильний вибух, є поранені",
+      "simplifiedText": "У Шептицькому ввечері 26 вересня вибухнула граната. Під час суперечки її кинував 36‑річний військовослужбовець. Вибух пошкодив чотирьох місцевих мешканців. Троє жінок і один чоловік отримали поранення. Поліція затримала підозрюваного і відкрила справу.",
+      "vocabularyHints": [
+        "вибухнути — explodieren",
+        "граната — die Granate",
+        "суперечка — der Streit",
+        "військовослужбовець — der Soldat",
+        "місцевий — lokal",
+        "мешканець — der Einwohner",
+        "поранення — die Verletzung",
+        "поліція — die Polizei",
+        "затримати — verhaften",
+        "підозрюваний — der Verdächtige",
+        "справа — der Fall"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вибухнула",
+          "hint": "вибухнути — explodieren"
+        },
+        {
+          "surface": "граната",
+          "hint": "граната — die Granate"
+        },
+        {
+          "surface": "суперечки",
+          "hint": "суперечка — der Streit"
+        },
+        {
+          "surface": "військовослужбовець",
+          "hint": "військовослужбовець — der Soldat"
+        },
+        {
+          "surface": "місцевих",
+          "hint": "місцевий — lokal"
+        },
+        {
+          "surface": "мешканців",
+          "hint": "мешканець — der Einwohner"
+        },
+        {
+          "surface": "поранення",
+          "hint": "поранення — die Verletzung"
+        },
+        {
+          "surface": "поліція",
+          "hint": "поліція — die Polizei"
+        },
+        {
+          "surface": "затримала",
+          "hint": "затримати — verhaften"
+        },
+        {
+          "surface": "підозрюваного",
+          "hint": "підозрюваний — der Verdächtige"
+        },
+        {
+          "surface": "справу",
+          "hint": "справа — der Fall"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/326/tsn-51cb131e/thumbs/608xX/e6/b5/bb31b8f845db387929c1cb4025ebb5e6.jpeg",
+      "publishedAt": "2026-09-27T07:36:54.000Z",
+      "processedAt": "2026-09-27T08:04:16.208Z"
+    },
+    {
+      "id": "41bb59e9",
+      "originalTitle": "120 тисяч уже не ті: у НГУ закликали терміново переглянути зарплати військових — сержант вразив новою сумою",
+      "simplifiedText": "Сержант Владислав Первухін закликав терміново підвищити зарплати військових. Він сказав, що мінімальна зарплата має бути 2000 доларів. За його прикладом військовий отримує 120 тисяч гривень на місяць. Тоді ця сума купувала близько 4500 хлібів, а зараз лише 2000. Тому він вважає, що треба переглянути базову виплату.",
+      "vocabularyHints": [
+        "закликати — aufrufen",
+        "терміново — dringend",
+        "підвищити — erhöhen",
+        "зарплата — die Gehälter",
+        "військовий — die Soldaten",
+        "мінімальний — minimal",
+        "зарплата — das Gehalt",
+        "приклад — das Beispiel",
+        "військовий — der Soldat",
+        "отримати — bekommen",
+        "купувати — kaufen",
+        "хліб — die Brote",
+        "вважати — glauben",
+        "переглянути — überprüfen",
+        "базовий — grundlegend",
+        "виплата — die Zahlung"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "закликав",
+          "hint": "закликати — aufrufen"
+        },
+        {
+          "surface": "терміново",
+          "hint": "терміново — dringend"
+        },
+        {
+          "surface": "підвищити",
+          "hint": "підвищити — erhöhen"
+        },
+        {
+          "surface": "зарплати",
+          "hint": "зарплата — die Gehälter"
+        },
+        {
+          "surface": "військових",
+          "hint": "військовий — die Soldaten"
+        },
+        {
+          "surface": "мінімальна",
+          "hint": "мінімальний — minimal"
+        },
+        {
+          "surface": "зарплата",
+          "hint": "зарплата — das Gehalt"
+        },
+        {
+          "surface": "прикладом",
+          "hint": "приклад — das Beispiel"
+        },
+        {
+          "surface": "військовий",
+          "hint": "військовий — der Soldat"
+        },
+        {
+          "surface": "отримує",
+          "hint": "отримати — bekommen"
+        },
+        {
+          "surface": "купувала",
+          "hint": "купувати — kaufen"
+        },
+        {
+          "surface": "хлібів",
+          "hint": "хліб — die Brote"
+        },
+        {
+          "surface": "вважає",
+          "hint": "вважати — glauben"
+        },
+        {
+          "surface": "переглянути",
+          "hint": "переглянути — überprüfen"
+        },
+        {
+          "surface": "базову",
+          "hint": "базовий — grundlegend"
+        },
+        {
+          "surface": "виплату",
+          "hint": "виплата — die Zahlung"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/242/tsn-135859377404ec64163c97d964721c31/thumbs/608xX/2b/5a/51069cce4b9511841c3bf3cec2d85a2b.jpeg",
+      "publishedAt": "2026-09-27T07:57:14.000Z",
+      "processedAt": "2026-09-27T08:01:42.301Z"
+    },
     {
       "id": "5e8e5288",
       "originalTitle": "РФ масовано лупила просто по житлових будинках — деталі атаки",
@@ -14635,6 +16173,758 @@
   ],
   "tsnA2": [
     {
+      "id": "65b70316",
+      "originalTitle": "Путін змінився: експерт шокував новою заявою про очільника Кремля",
+      "simplifiedText": "Політичний експерт Вадим Денисенко сказав, що образ Путіна змінився: тепер він виглядає більш жорстким і впевненим, а не боязким, як раніше. За словами експерта, раніше Путін часто уникав бою і ховався, але за останній місяць він почав виходити зі свого «кутка» і показувати силу. Денисенко вважає, що це пов’язано з кількома проблемами Росії, зокрема нестачею ракет Patriot, бюджетною кризою і корупційними скандалами. Через відсутність можливості збивати «шахеди» і економічні труднощі, Росія може втратити контроль над своїм тилом. Експерт попереджає, що в найближчі місяці в Україні може статися серйозний зрив у тилу, можливо навіть державний переворот. Він також зазначив, що зустріч Дональда Трампа з Кім Чен‑уном може вплинути на ситуацію.",
+      "vocabularyHints": [
+        "політичний — politisch",
+        "експерт — der Experte",
+        "змінитися — sich ändern",
+        "жорсткий — hart",
+        "впевнений — zuversichtlich",
+        "боязкий — ängstlich",
+        "уникати — ausweichen",
+        "бій — der Kampf",
+        "ховатися — sich verstecken",
+        "місяць — der Monat",
+        "виходити — herauskommen",
+        "куток — die Ecke",
+        "показувати — zeigen",
+        "пов’язати — zusammenhängen",
+        "проблема — die Probleme",
+        "нестача — der Mangel",
+        "ракета — die Raketen",
+        "бюджетний — budgetär",
+        "криза — die Krise",
+        "корупційний — korrupt",
+        "скандал — die Skandale",
+        "збивати — abschiessen",
+        "економічний — wirtschaftlich",
+        "труднощі — die Schwierigkeiten",
+        "контроль — die Kontrolle",
+        "тил — der Hinterland",
+        "серйозний — ernst",
+        "зрив — der Zusammenbruch",
+        "державний — staatlich",
+        "переворот — der Umsturz",
+        "зустріч — das Treffen",
+        "впливати — beeinflussen",
+        "ситуація — die Situation"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "політичний",
+          "hint": "політичний — politisch"
+        },
+        {
+          "surface": "експерт",
+          "hint": "експерт — der Experte"
+        },
+        {
+          "surface": "змінився",
+          "hint": "змінитися — sich ändern"
+        },
+        {
+          "surface": "жорстким",
+          "hint": "жорсткий — hart"
+        },
+        {
+          "surface": "впевненим",
+          "hint": "впевнений — zuversichtlich"
+        },
+        {
+          "surface": "боязким",
+          "hint": "боязкий — ängstlich"
+        },
+        {
+          "surface": "уникав",
+          "hint": "уникати — ausweichen"
+        },
+        {
+          "surface": "бою",
+          "hint": "бій — der Kampf"
+        },
+        {
+          "surface": "ховався",
+          "hint": "ховатися — sich verstecken"
+        },
+        {
+          "surface": "місяць",
+          "hint": "місяць — der Monat"
+        },
+        {
+          "surface": "виходити",
+          "hint": "виходити — herauskommen"
+        },
+        {
+          "surface": "кутка",
+          "hint": "куток — die Ecke"
+        },
+        {
+          "surface": "показувати",
+          "hint": "показувати — zeigen"
+        },
+        {
+          "surface": "пов’язано",
+          "hint": "пов’язати — zusammenhängen"
+        },
+        {
+          "surface": "проблемами",
+          "hint": "проблема — die Probleme"
+        },
+        {
+          "surface": "нестачею",
+          "hint": "нестача — der Mangel"
+        },
+        {
+          "surface": "ракет",
+          "hint": "ракета — die Raketen"
+        },
+        {
+          "surface": "бюджетною",
+          "hint": "бюджетний — budgetär"
+        },
+        {
+          "surface": "кризою",
+          "hint": "криза — die Krise"
+        },
+        {
+          "surface": "корупційними",
+          "hint": "корупційний — korrupt"
+        },
+        {
+          "surface": "скандалами",
+          "hint": "скандал — die Skandale"
+        },
+        {
+          "surface": "збивати",
+          "hint": "збивати — abschiessen"
+        },
+        {
+          "surface": "економічні",
+          "hint": "економічний — wirtschaftlich"
+        },
+        {
+          "surface": "труднощі",
+          "hint": "труднощі — die Schwierigkeiten"
+        },
+        {
+          "surface": "контроль",
+          "hint": "контроль — die Kontrolle"
+        },
+        {
+          "surface": "тилом",
+          "hint": "тил — der Hinterland"
+        },
+        {
+          "surface": "серйозний",
+          "hint": "серйозний — ernst"
+        },
+        {
+          "surface": "зрив",
+          "hint": "зрив — der Zusammenbruch"
+        },
+        {
+          "surface": "державний",
+          "hint": "державний — staatlich"
+        },
+        {
+          "surface": "переворот",
+          "hint": "переворот — der Umsturz"
+        },
+        {
+          "surface": "зустріч",
+          "hint": "зустріч — das Treffen"
+        },
+        {
+          "surface": "вплинути",
+          "hint": "впливати — beeinflussen"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/421/tsn-51cb131e/thumbs/608xX/b9/e3/61e71edbba429856533fb421986de3b9.jpg",
+      "publishedAt": "2026-09-27T06:50:06.000Z",
+      "processedAt": "2026-09-27T08:13:46.115Z"
+    },
+    {
+      "id": "0e8cf9f3",
+      "originalTitle": "В Одесі сталася ДТП за участю 5 автівок: постраждали копи та військові ТЦК (фото)",
+      "simplifiedText": "Увечері в Одесі стався великий дорожньо‑транспортний інцидент, у якому зіткнулися п’ять автівок. Причина аварії – поліцейські та військові ТЦК працювали на мобільному блокпості і здійснювали оповіщення. 52‑річний іноземець у BMW зіткнувся з чотирма машинами, які стояли в заторі біля залізничного вокзалу. Внаслідок зіткнення постраждали два поліцейські і три військові, а також пошкодилося п’ять автомобілів. Усі постраждалі були доставлені до лікарні, де лікарі визначають тяжкість їхніх травм. Поліція продовжує розслідування, перевіряючи, чи були учасники у стані сп’яніння, і готує правову кваліфікацію випадку.",
+      "vocabularyHints": [
+        "вечір — der Abend",
+        "інцидент — der Vorfall",
+        "мобільний — mobil",
+        "блокпост — der Blockpost"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Увечері",
+          "hint": "вечір — der Abend"
+        },
+        {
+          "surface": "інцидент",
+          "hint": "інцидент — der Vorfall"
+        },
+        {
+          "surface": "мобільному",
+          "hint": "мобільний — mobil"
+        },
+        {
+          "surface": "блокпості",
+          "hint": "блокпост — der Blockpost"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/964/tsn-51cb131e/thumbs/608xX/7e/90/ba67438c5e04aba6fba8c09c8873907e.jpeg",
+      "publishedAt": "2026-09-27T07:10:31.000Z",
+      "processedAt": "2026-09-27T08:11:28.460Z"
+    },
+    {
+      "id": "57042457",
+      "originalTitle": "Коли Україна почне масово збивати реактивні дрони: Буданов назвав термін",
+      "simplifiedText": "Офіс президента повідомив, що Україна планує почати масове збивання російських реактивних дронів вже за кілька місяців. Керівник офісу, Кирило Буданов, сказав, що випробування нових перехоплювачів вже тривають під час бойових завдань. За його словами, прототипи працюють краще, ніж у лабораторіях, і вже знищують повітряні цілі ворога. Президент поставив завдання суттєво збільшити виробництво таких комплексів. Раніше, у липні, випробування «Шахедів» завершились невдало через проблеми з керуванням на швидкості понад 400 км/год. Проте тепер результати тестів виглядають успішними, і очікується, що великі маси дронів‑перехоплювачів будуть використані найближчим часом.",
+      "vocabularyHints": [
+        "повідомити — mitteilen",
+        "планувати — planen",
+        "почати — beginnen",
+        "масовий — massiv",
+        "збивання — das Abschiessen",
+        "реактивний — reaktiv",
+        "дрон — die Drohne, -n",
+        "місяць — der Monat, -e",
+        "керівник — der Leiter",
+        "офіс — das Büro",
+        "сказати — sagen",
+        "випробування — die Prüfung, -en",
+        "новий — neu",
+        "перехоплювач — der Abfangjäger, -",
+        "тривати — andauern",
+        "бойовий — militärisch",
+        "прототип — der Prototyp, -en",
+        "працювати — arbeiten",
+        "краще — besser",
+        "лабораторія — das Labor",
+        "знищувати — zerstören",
+        "повітряний — die Luft-",
+        "ціль — das Ziel, -e",
+        "ворог — der Feind",
+        "президент — der Präsident",
+        "поставити — setzen",
+        "завдання — die Aufgabe, -n",
+        "суттєвий — wesentlich"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "повідомив",
+          "hint": "повідомити — mitteilen"
+        },
+        {
+          "surface": "планує",
+          "hint": "планувати — planen"
+        },
+        {
+          "surface": "почати",
+          "hint": "почати — beginnen"
+        },
+        {
+          "surface": "масове",
+          "hint": "масовий — massiv"
+        },
+        {
+          "surface": "збивання",
+          "hint": "збивання — das Abschiessen"
+        },
+        {
+          "surface": "реактивних",
+          "hint": "реактивний — reaktiv"
+        },
+        {
+          "surface": "дронів",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "місяців",
+          "hint": "місяць — der Monat, -e"
+        },
+        {
+          "surface": "Керівник",
+          "hint": "керівник — der Leiter"
+        },
+        {
+          "surface": "Офіс",
+          "hint": "офіс — das Büro"
+        },
+        {
+          "surface": "офісу",
+          "hint": "офіс — das Büro"
+        },
+        {
+          "surface": "сказав",
+          "hint": "сказати — sagen"
+        },
+        {
+          "surface": "випробування",
+          "hint": "випробування — die Prüfung, -en"
+        },
+        {
+          "surface": "нових",
+          "hint": "новий — neu"
+        },
+        {
+          "surface": "перехоплювачів",
+          "hint": "перехоплювач — der Abfangjäger, -"
+        },
+        {
+          "surface": "тривають",
+          "hint": "тривати — andauern"
+        },
+        {
+          "surface": "бойових",
+          "hint": "бойовий — militärisch"
+        },
+        {
+          "surface": "прототипи",
+          "hint": "прототип — der Prototyp, -en"
+        },
+        {
+          "surface": "працюють",
+          "hint": "працювати — arbeiten"
+        },
+        {
+          "surface": "краще",
+          "hint": "краще — besser"
+        },
+        {
+          "surface": "лабораторіях",
+          "hint": "лабораторія — das Labor"
+        },
+        {
+          "surface": "знищують",
+          "hint": "знищувати — zerstören"
+        },
+        {
+          "surface": "повітряні",
+          "hint": "повітряний — die Luft-"
+        },
+        {
+          "surface": "цілі",
+          "hint": "ціль — das Ziel, -e"
+        },
+        {
+          "surface": "ворога",
+          "hint": "ворог — der Feind"
+        },
+        {
+          "surface": "президента",
+          "hint": "президент — der Präsident"
+        },
+        {
+          "surface": "Президент",
+          "hint": "президент — der Präsident"
+        },
+        {
+          "surface": "поставив",
+          "hint": "поставити — setzen"
+        },
+        {
+          "surface": "завдань",
+          "hint": "завдання — die Aufgabe, -n"
+        },
+        {
+          "surface": "завдання",
+          "hint": "завдання — die Aufgabe, -n"
+        },
+        {
+          "surface": "суттєво",
+          "hint": "суттєвий — wesentlich"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/428/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/06/fa/3f29aac2cb0dfa0972847e1558ccfa06.jpeg",
+      "publishedAt": "2026-09-27T07:12:13.000Z",
+      "processedAt": "2026-09-27T08:09:46.190Z"
+    },
+    {
+      "id": "7b9da20b",
+      "originalTitle": "Тривога та винищувачі біля кордону з Україною: що сталося у сусідній країні",
+      "simplifiedText": "У ніч на 27 вересня над Румунією, неподалік кордону з Україною, радіолокації виявили невідому повітряну ціль. Через можливу небезпеку для людей у повіті Тулча оголосили повітряну тривогу. Щоб стежити за об’єктом, румунські військові підняли два винищувачі F‑18 і гелікоптер IAR‑330. Ціль пролетала над селищем Кілія‑Веке і потім пройшла повз село Пардіна, після чого радіолокація втратила контакт. О 23:32 жителям надіслали повідомлення через систему RO‑Alert, а о 00:48 тривогу скасували. За словами Міністерства оборони, такі інциденти показують, що Росія випробовує захисні системи ЄС і НАТО.",
+      "vocabularyHints": [
+        "кордон — die Grenze",
+        "радіолокація — die Radarerfassung",
+        "невідомий — unbekannt",
+        "ціль — das Ziel",
+        "можливий — möglich",
+        "небезпека — die Gefahr",
+        "повіт — der Bezirk",
+        "тривога — der Alarm",
+        "підняти — heben",
+        "винищувач — die Jagdflugzeuge",
+        "гелікоптер — der Hubschrauber",
+        "пролетіти — überfliegen",
+        "селище — die Ortschaft",
+        "пройти — vorbeigehen",
+        "втратити — verlieren",
+        "повідомлення — die Nachricht",
+        "випробовувати — testen",
+        "захисний — verteidigend",
+        "система — die Systeme"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "кордону",
+          "hint": "кордон — die Grenze"
+        },
+        {
+          "surface": "радіолокації",
+          "hint": "радіолокація — die Radarerfassung"
+        },
+        {
+          "surface": "невідому",
+          "hint": "невідомий — unbekannt"
+        },
+        {
+          "surface": "ціль",
+          "hint": "ціль — das Ziel"
+        },
+        {
+          "surface": "можливу",
+          "hint": "можливий — möglich"
+        },
+        {
+          "surface": "небезпеку",
+          "hint": "небезпека — die Gefahr"
+        },
+        {
+          "surface": "повіті",
+          "hint": "повіт — der Bezirk"
+        },
+        {
+          "surface": "тривогу",
+          "hint": "тривога — der Alarm"
+        },
+        {
+          "surface": "підняли",
+          "hint": "підняти — heben"
+        },
+        {
+          "surface": "винищувачі",
+          "hint": "винищувач — die Jagdflugzeuge"
+        },
+        {
+          "surface": "гелікоптер",
+          "hint": "гелікоптер — der Hubschrauber"
+        },
+        {
+          "surface": "пролетала",
+          "hint": "пролетіти — überfliegen"
+        },
+        {
+          "surface": "селищем",
+          "hint": "селище — die Ortschaft"
+        },
+        {
+          "surface": "пройшла",
+          "hint": "пройти — vorbeigehen"
+        },
+        {
+          "surface": "втратила",
+          "hint": "втратити — verlieren"
+        },
+        {
+          "surface": "повідомлення",
+          "hint": "повідомлення — die Nachricht"
+        },
+        {
+          "surface": "випробовує",
+          "hint": "випробовувати — testen"
+        },
+        {
+          "surface": "захисні",
+          "hint": "захисний — verteidigend"
+        },
+        {
+          "surface": "системи",
+          "hint": "система — die Systeme"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/914/tsn-ece9ab99d04961a5269827276738cd23/thumbs/608xX/a5/58/0a6e35ebc795f22820201e2f381258a5.jpg",
+      "publishedAt": "2026-09-27T07:26:03.000Z",
+      "processedAt": "2026-09-27T08:07:48.020Z"
+    },
+    {
+      "id": "75830886",
+      "originalTitle": "Підірвав гранату під час суперечки: на Львівщині пролунав сильний вибух, є поранені",
+      "simplifiedText": "Пізно ввечері 26 вересня в селі Шептицьке на Львівщині стався вибух гранати під час суперечки. Четверо місцевих жителів отримали поранення – три жінки 17, 18 і 56 років і один 26‑річний чоловік. За словами поліції, гранату підірвав 36‑річний військовослужбовець, який був у відпустці. Після вибуху на місце приїхали вибухотехніки, слідчі та інші правоохоронці, які надали пораненим медичну допомогу. Підозрюваного швидко знайшли, затримали і відкрили кримінальне провадження за хуліганство, що може призвести до позбавлення волі на три‑сем років.",
+      "vocabularyHints": [
+        "пізно — spät",
+        "ввечері — abends",
+        "село — das Dorf",
+        "стати — geschehen",
+        "суперечка — der Streit",
+        "місцевий — örtlich",
+        "житель — der Einwohner",
+        "отримати — erhalten",
+        "поранення — die Verletzung",
+        "жінка — die Frau",
+        "чоловік — der Mann",
+        "поліція — die Polizei",
+        "граната — die Granate",
+        "підірвати — zünden",
+        "військовослужбовець — der Soldat",
+        "відпустка — der Urlaub",
+        "вибух — die Explosion",
+        "місце — der Ort",
+        "приїхати — ankommen",
+        "вибухотехніка — der Sprengstofftechniker",
+        "слідчий — der Ermittler"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "пізно",
+          "hint": "пізно — spät"
+        },
+        {
+          "surface": "ввечері",
+          "hint": "ввечері — abends"
+        },
+        {
+          "surface": "селі",
+          "hint": "село — das Dorf"
+        },
+        {
+          "surface": "стався",
+          "hint": "стати — geschehen"
+        },
+        {
+          "surface": "суперечки",
+          "hint": "суперечка — der Streit"
+        },
+        {
+          "surface": "місцевих",
+          "hint": "місцевий — örtlich"
+        },
+        {
+          "surface": "жителів",
+          "hint": "житель — der Einwohner"
+        },
+        {
+          "surface": "отримали",
+          "hint": "отримати — erhalten"
+        },
+        {
+          "surface": "поранення",
+          "hint": "поранення — die Verletzung"
+        },
+        {
+          "surface": "жінки",
+          "hint": "жінка — die Frau"
+        },
+        {
+          "surface": "чоловік",
+          "hint": "чоловік — der Mann"
+        },
+        {
+          "surface": "поліції",
+          "hint": "поліція — die Polizei"
+        },
+        {
+          "surface": "гранати",
+          "hint": "граната — die Granate"
+        },
+        {
+          "surface": "гранату",
+          "hint": "граната — die Granate"
+        },
+        {
+          "surface": "підірвав",
+          "hint": "підірвати — zünden"
+        },
+        {
+          "surface": "військовослужбовець",
+          "hint": "військовослужбовець — der Soldat"
+        },
+        {
+          "surface": "відпустці",
+          "hint": "відпустка — der Urlaub"
+        },
+        {
+          "surface": "вибух",
+          "hint": "вибух — die Explosion"
+        },
+        {
+          "surface": "вибуху",
+          "hint": "вибух — die Explosion"
+        },
+        {
+          "surface": "місце",
+          "hint": "місце — der Ort"
+        },
+        {
+          "surface": "приїхали",
+          "hint": "приїхати — ankommen"
+        },
+        {
+          "surface": "вибухотехніки",
+          "hint": "вибухотехніка — der Sprengstofftechniker"
+        },
+        {
+          "surface": "слідчі",
+          "hint": "слідчий — der Ermittler"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/326/tsn-51cb131e/thumbs/608xX/e6/b5/bb31b8f845db387929c1cb4025ebb5e6.jpeg",
+      "publishedAt": "2026-09-27T07:36:54.000Z",
+      "processedAt": "2026-09-27T08:05:36.071Z"
+    },
+    {
+      "id": "71bdb818",
+      "originalTitle": "120 тисяч уже не ті: у НГУ закликали терміново переглянути зарплати військових — сержант вразив новою сумою",
+      "simplifiedText": "Серйозний сержант батальйону «Свобода» у НГУ закликав терміново переглянути базове фінансове забезпечення військових. За його словами, мінімальна зарплата захисника має бути 2000 доларів, а зараз більшість отримує лише 120 тисяч гривень на місяць. Він підкреслив, що надбавки за особливі завдання важливі, проте головне – гарантована базова виплата. За його оцінкою, у 2022 році за 120 тисяч гривень можна було купити близько 4500 одиниць хліба, а зараз – лише 2000–2100. Серйозний сержант вважає, що це лише перший етап реформи виплат і закликає до швидкого прояснення ситуації.",
+      "vocabularyHints": [
+        "терміново — dringend",
+        "переглянути — überprüfen",
+        "фінансовий — finanziell",
+        "забезпечення — die Versorgung, -en",
+        "мінімальний — minimal",
+        "зарплата — der Lohn, -e",
+        "захисник — der Verteidiger, -",
+        "отримати — erhalten",
+        "підкреслити — hervorheben",
+        "надбавка — die Zulage, -n",
+        "особливий — besonders",
+        "завдання — die Aufgabe, -n",
+        "гарантований — garantiert",
+        "базовий — grundlegend",
+        "оцінка — die Bewertung, -en",
+        "купити — kaufen",
+        "одиниця — die Einheit, -en",
+        "хліб — das Brot, -",
+        "вважати — glauben",
+        "реформа — die Reform, -en",
+        "виплата — die Auszahlung, -en",
+        "закликати — aufrufen",
+        "швидкий — schnell",
+        "прояснення — die Klärung, -en",
+        "ситуація — die Situation, -en"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "терміново",
+          "hint": "терміново — dringend"
+        },
+        {
+          "surface": "переглянути",
+          "hint": "переглянути — überprüfen"
+        },
+        {
+          "surface": "фінансове",
+          "hint": "фінансовий — finanziell"
+        },
+        {
+          "surface": "забезпечення",
+          "hint": "забезпечення — die Versorgung, -en"
+        },
+        {
+          "surface": "мінімальна",
+          "hint": "мінімальний — minimal"
+        },
+        {
+          "surface": "зарплата",
+          "hint": "зарплата — der Lohn, -e"
+        },
+        {
+          "surface": "захисника",
+          "hint": "захисник — der Verteidiger, -"
+        },
+        {
+          "surface": "отримує",
+          "hint": "отримати — erhalten"
+        },
+        {
+          "surface": "підкреслив",
+          "hint": "підкреслити — hervorheben"
+        },
+        {
+          "surface": "надбавки",
+          "hint": "надбавка — die Zulage, -n"
+        },
+        {
+          "surface": "особливі",
+          "hint": "особливий — besonders"
+        },
+        {
+          "surface": "завдання",
+          "hint": "завдання — die Aufgabe, -n"
+        },
+        {
+          "surface": "гарантована",
+          "hint": "гарантований — garantiert"
+        },
+        {
+          "surface": "базове",
+          "hint": "базовий — grundlegend"
+        },
+        {
+          "surface": "базова",
+          "hint": "базовий — grundlegend"
+        },
+        {
+          "surface": "оцінкою",
+          "hint": "оцінка — die Bewertung, -en"
+        },
+        {
+          "surface": "купити",
+          "hint": "купити — kaufen"
+        },
+        {
+          "surface": "одиниць",
+          "hint": "одиниця — die Einheit, -en"
+        },
+        {
+          "surface": "хліба",
+          "hint": "хліб — das Brot, -"
+        },
+        {
+          "surface": "вважає",
+          "hint": "вважати — glauben"
+        },
+        {
+          "surface": "реформи",
+          "hint": "реформа — die Reform, -en"
+        },
+        {
+          "surface": "виплата",
+          "hint": "виплата — die Auszahlung, -en"
+        },
+        {
+          "surface": "виплат",
+          "hint": "виплата — die Auszahlung, -en"
+        },
+        {
+          "surface": "закликає",
+          "hint": "закликати — aufrufen"
+        },
+        {
+          "surface": "швидкого",
+          "hint": "швидкий — schnell"
+        },
+        {
+          "surface": "прояснення",
+          "hint": "прояснення — die Klärung, -en"
+        },
+        {
+          "surface": "ситуації",
+          "hint": "ситуація — die Situation, -en"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/242/tsn-135859377404ec64163c97d964721c31/thumbs/608xX/2b/5a/51069cce4b9511841c3bf3cec2d85a2b.jpeg",
+      "publishedAt": "2026-09-27T07:57:14.000Z",
+      "processedAt": "2026-09-27T08:02:48.031Z"
+    },
+    {
       "id": "3a4fce49",
       "originalTitle": "РФ масовано лупила просто по житлових будинках — деталі атаки",
       "simplifiedText": "У ніч на 26 вересня російські війська атакували Одеську область, використовуючи понад сто безпілотників типу Shahed і інші дрони. За словами очільника ОВА Олега Кіпера, пошкоджено фасади і скління більше десяти житлових будинків, а також готельно-ресторанний комплекс і адміністративні будівлі на підприємстві. Постраждалих людей не виявили, проте на місцях триває ліквідація наслідків. У той же час над Києвом, у районі Святошин, впав безпілотник, що спричинив пожежу в торговому центрі і пошкодив один магазин. Пожежу швидко згасили, а міський голова Віталій Кличко повідомив про чотири поранені людини.",
@@ -16736,6 +19026,324 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "3967fe88",
+      "originalTitle": "Путін змінився: експерт шокував новою заявою про очільника Кремля",
+      "simplifiedText": "Останніми днями Володимир Путін змінив свою риторику і тепер виглядає впевненим диктатором, а не «переляканим Путіном» 9 травня. Політичний експерт Вадим Денисенко стверджує, що за своєю натурою Путін – боягуз, який, коли відчуває силу, уникає відкритих боїв. За словами експерта, протягом більшої частини 2026 року президент ховався в куточку і мовчки чекав. Однак за останній місяць він почав активно виходити зі свого кутка і демонструвати нову енергію. Денисенко пояснює, що ситуація змінилася через кілька факторів, зокрема нестачу ракет Patriot і неможливість збивати шахеди. До того ж в Росії триває бюджетна криза, зупинка багатьох галузей і серйозна проблема з експортом. Експерт також згадує корупційні скандали та можливе обмеження європейського фінансування після виборів у Франції і, можливо, у Німеччині. За його словами, найближчі місяці можуть принести в Україні «держпереворот», і країна розвалиться не на фронті, а в тилу. Ще один фактор – зустріч Дональда Трампа з Сі Цзіньпіном, яку Денисенко вважає важливою для розуміння позиції Путіна.",
+      "vocabularyHints": [
+        "риторика — die Rhetorik",
+        "натура — die Natur",
+        "боягуз — der Feigling",
+        "шахед — die Shaheds",
+        "корупційний скандал — die Korruptionsskandale",
+        "європейське фінансування — die europäische Finanzierung",
+        "держпереворот — der Staatsstreich"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "риторику",
+          "hint": "риторика — die Rhetorik"
+        },
+        {
+          "surface": "натурою",
+          "hint": "натура — die Natur"
+        },
+        {
+          "surface": "боягуз",
+          "hint": "боягуз — der Feigling"
+        },
+        {
+          "surface": "шахеди",
+          "hint": "шахед — die Shaheds"
+        },
+        {
+          "surface": "корупційні скандали",
+          "hint": "корупційний скандал — die Korruptionsskandale"
+        },
+        {
+          "surface": "європейського фінансування",
+          "hint": "європейське фінансування — die europäische Finanzierung"
+        },
+        {
+          "surface": "держпереворот",
+          "hint": "держпереворот — der Staatsstreich"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/421/tsn-51cb131e/thumbs/608xX/b9/e3/61e71edbba429856533fb421986de3b9.jpg",
+      "publishedAt": "2026-09-27T06:50:06.000Z",
+      "processedAt": "2026-09-27T08:14:29.193Z"
+    },
+    {
+      "id": "1ab8f455",
+      "originalTitle": "В Одесі сталася ДТП за участю 5 автівок: постраждали копи та військові ТЦК (фото)",
+      "simplifiedText": "Увечері в Одесі стався великий дорожньо‑транспортний інцидент, у якому зіткнулися п’ять автівок. За даними поліції, 52‑річний іноземець у BMW, що під'їхав зі сторони залізничного вокзалу, вдарився в чотири автомобілі, які стояли в заторі. У результаті наїзду отримали травми два поліцейські та три військові, які працювали на мобільному блокпості ТЦК. П’ять машин зазнали пошкоджень, а всіх постраждалих — п’ять осіб — доставили до медичного закладу. На даний момент лікарі встановлюють ступінь тяжкості їхніх ушкоджень. Поліцейські продовжують розслідування, перевіряючи учасників на наявність алкоголю. Після завершення слідства їм буде присвоєно правову кваліфікацію. Нагадаємо, що раніше в Одеській області в ДТП загинуло три чоловіки, коли водій втратив контроль над автомобілем.",
+      "vocabularyHints": [
+        "дорожньо‑транспортний інцидент — der Verkehrsunfall",
+        "затор — der Stau",
+        "наїзд — der Aufprall",
+        "мобільний блокпост — der mobile Kontrollposten",
+        "ТЦК — die TSK",
+        "медичний заклад — die medizinische Einrichtung",
+        "ступінь тяжкості — der Schweregrad",
+        "розслідування — die Ermittlung",
+        "правова кваліфікація — die rechtliche Qualifikation"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "дорожньо‑транспортний інцидент",
+          "hint": "дорожньо‑транспортний інцидент — der Verkehrsunfall"
+        },
+        {
+          "surface": "заторі",
+          "hint": "затор — der Stau"
+        },
+        {
+          "surface": "наїзду",
+          "hint": "наїзд — der Aufprall"
+        },
+        {
+          "surface": "мобільному блокпості",
+          "hint": "мобільний блокпост — der mobile Kontrollposten"
+        },
+        {
+          "surface": "ТЦК",
+          "hint": "ТЦК — die TSK"
+        },
+        {
+          "surface": "медичного закладу",
+          "hint": "медичний заклад — die medizinische Einrichtung"
+        },
+        {
+          "surface": "ступінь тяжкості",
+          "hint": "ступінь тяжкості — der Schweregrad"
+        },
+        {
+          "surface": "розслідування",
+          "hint": "розслідування — die Ermittlung"
+        },
+        {
+          "surface": "правову кваліфікацію",
+          "hint": "правова кваліфікація — die rechtliche Qualifikation"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/964/tsn-51cb131e/thumbs/608xX/7e/90/ba67438c5e04aba6fba8c09c8873907e.jpeg",
+      "publishedAt": "2026-09-27T07:10:31.000Z",
+      "processedAt": "2026-09-27T08:12:20.920Z"
+    },
+    {
+      "id": "68dc93b5",
+      "originalTitle": "Коли Україна почне масово збивати реактивні дрони: Буданов назвав термін",
+      "simplifiedText": "Офіс Президента України повідомив, що армія готується до масового використання дронів‑перехоплювачів. За словами керівника офісу, Кирила Буданова, повне збиття російських реактивних дронів може розпочатися вже за кілька місяців. Тепер випробування нових зразків проводяться безпосередньо під час бойових завдань, а не в лабораторіях. Буданов зазначив, що вже є успішні результати у знищенні повітряних цілей противника. Ключовим завданням є суттєве розширення масштабів виготовлення таких комплексів, що стоїть у пріоритеті президента. У липні минулого року військові випробували перехоплювачі проти «Шахедів», проте ті не змогли впоратися з швидкостями понад 400 км/год. За даними Reuters, під час випробувань виявилися труднощі з керуванням і деякі дрони впали. Проте нові прототипи, які тестуються зараз, вже демонструють роботу в реальних умовах.",
+      "vocabularyHints": [
+        "дрон‑перехоплювач — die Abfangdrohne",
+        "випробування — die Prüfung, -en",
+        "повітряна ціль — das Luftziel",
+        "завдання — die Aufgabe, -n",
+        "масштаб — der Massstab, -e",
+        "комплекс — der Komplex, -e",
+        "прототип — der Prototyp, -en"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "дронів‑перехоплювачів",
+          "hint": "дрон‑перехоплювач — die Abfangdrohne"
+        },
+        {
+          "surface": "випробування",
+          "hint": "випробування — die Prüfung, -en"
+        },
+        {
+          "surface": "повітряних цілей",
+          "hint": "повітряна ціль — das Luftziel"
+        },
+        {
+          "surface": "завданням",
+          "hint": "завдання — die Aufgabe, -n"
+        },
+        {
+          "surface": "масштабів",
+          "hint": "масштаб — der Massstab, -e"
+        },
+        {
+          "surface": "комплексів",
+          "hint": "комплекс — der Komplex, -e"
+        },
+        {
+          "surface": "прототипи",
+          "hint": "прототип — der Prototyp, -en"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/428/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/06/fa/3f29aac2cb0dfa0972847e1558ccfa06.jpeg",
+      "publishedAt": "2026-09-27T07:12:13.000Z",
+      "processedAt": "2026-09-27T08:10:11.103Z"
+    },
+    {
+      "id": "362a49d7",
+      "originalTitle": "Тривога та винищувачі біля кордону з Україною: що сталося у сусідній країні",
+      "simplifiedText": "У ніч на 27 вересня невідома повітряна ціль увійшла в повітряний простір Румунії біля кордону з Україною. Через можливу загрозу для населення в повіті Тулча оголосили повітряну тривогу. Міністерство оборони повідомило, що для спостереження підняли два винищувачі F‑18 та гелікоптер IAR‑330 SOCAT. Радари зафіксували ціль у селищі Кілія‑Веке, неподалік від річкового кордону, і вона пролітала вздовж Кілійського гирла. Після втрати радіолокаційного контакту в селі Пардіна, ранок о 00:48 повітряну тривогу скасували. Національний центр військового управління поінформував Генеральну інспекцію з надзвичайних ситуацій, яка передала повідомлення жителям через систему RO‑Alert. За словами румунського Міноборони, інцидент є частиною зростаючої російської активності біля кордонів ЄС.",
+      "vocabularyHints": [
+        "повітряна ціль — das Luftziel",
+        "повітряний простір — der Luftraum",
+        "повітряна тривога — der Luftalarm",
+        "Кілійське гирло — die Kiliysche Mündung",
+        "радіолокаційний контакт — der Radarkontakt",
+        "національний центр військового управління — das Nationale Zentrum für militärische Führung",
+        "генеральна інспекція з надзвичайних ситуацій — die Generalinspektion für den Katastrophenfall"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "повітряна ціль",
+          "hint": "повітряна ціль — das Luftziel"
+        },
+        {
+          "surface": "повітряний простір",
+          "hint": "повітряний простір — der Luftraum"
+        },
+        {
+          "surface": "повітряну тривогу",
+          "hint": "повітряна тривога — der Luftalarm"
+        },
+        {
+          "surface": "Кілійського гирла",
+          "hint": "Кілійське гирло — die Kiliysche Mündung"
+        },
+        {
+          "surface": "радіолокаційного контакту",
+          "hint": "радіолокаційний контакт — der Radarkontakt"
+        },
+        {
+          "surface": "Національний центр військового управління",
+          "hint": "національний центр військового управління — das Nationale Zentrum für militärische Führung"
+        },
+        {
+          "surface": "Генеральну інспекцію з надзвичайних ситуацій",
+          "hint": "генеральна інспекція з надзвичайних ситуацій — die Generalinspektion für den Katastrophenfall"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/914/tsn-ece9ab99d04961a5269827276738cd23/thumbs/608xX/a5/58/0a6e35ebc795f22820201e2f381258a5.jpg",
+      "publishedAt": "2026-09-27T07:26:03.000Z",
+      "processedAt": "2026-09-27T08:08:13.998Z"
+    },
+    {
+      "id": "2699f268",
+      "originalTitle": "Підірвав гранату під час суперечки: на Львівщині пролунав сильний вибух, є поранені",
+      "simplifiedText": "У вечірній час 26 вересня в селі Шептицьке на Львівщині стався вибух гранати. За попередньою інформацією, вибух стався через необережне поводження з вибухонебезпечним предметом під час суперечки з перехожими. У результаті вибуху отримали поранення чотири місцевих жителя: три жінки 17, 18 і 56 років і 26‑річний чоловік. Їх госпіталізували, лікарі надали необхідну медичну допомогу. Після розслідування з'ясувалося, що гранату підірвав 36‑річний житель Шептицького, військовослужбовець, який був у відпустці. Поліція швидко визначила його місце перебування і затримала підозрюваного. Слідчі відкрили кримінальне провадження за хуліганство, передбачене частиною 4 статті 296 ККУ, що передбачає покарання від трьох до семи років. Досудове розслідування триває, а суд найближчим часом визначить запобіжний захід.",
+      "vocabularyHints": [
+        "вибухонебезпечний — explosionsgefährlich",
+        "перехожий — der Fussgänger",
+        "госпіталізувати — ins Krankenhaus einweisen",
+        "медична допомога — die medizinische Hilfe",
+        "військовослужбовець — der Soldat",
+        "відпустка — der Urlaub",
+        "кримінальне провадження — das Strafverfahren",
+        "хуліганство — die Ruhestörung",
+        "досудове розслідування — das Vorverfahren",
+        "запобіжний захід — die Sicherheitsmassnahme"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вибухонебезпечним",
+          "hint": "вибухонебезпечний — explosionsgefährlich"
+        },
+        {
+          "surface": "перехожими",
+          "hint": "перехожий — der Fussgänger"
+        },
+        {
+          "surface": "госпіталізували",
+          "hint": "госпіталізувати — ins Krankenhaus einweisen"
+        },
+        {
+          "surface": "медичну допомогу",
+          "hint": "медична допомога — die medizinische Hilfe"
+        },
+        {
+          "surface": "військовослужбовець",
+          "hint": "військовослужбовець — der Soldat"
+        },
+        {
+          "surface": "відпустці",
+          "hint": "відпустка — der Urlaub"
+        },
+        {
+          "surface": "кримінальне провадження",
+          "hint": "кримінальне провадження — das Strafverfahren"
+        },
+        {
+          "surface": "хуліганство",
+          "hint": "хуліганство — die Ruhestörung"
+        },
+        {
+          "surface": "досудове розслідування",
+          "hint": "досудове розслідування — das Vorverfahren"
+        },
+        {
+          "surface": "запобіжний захід",
+          "hint": "запобіжний захід — die Sicherheitsmassnahme"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/326/tsn-51cb131e/thumbs/608xX/e6/b5/bb31b8f845db387929c1cb4025ebb5e6.jpeg",
+      "publishedAt": "2026-09-27T07:36:54.000Z",
+      "processedAt": "2026-09-27T08:06:30.875Z"
+    },
+    {
+      "id": "79edd436",
+      "originalTitle": "120 тисяч уже не ті: у НГУ закликали терміново переглянути зарплати військових — сержант вразив новою сумою",
+      "simplifiedText": "У Національному гірничому університеті (НГУ) закликали терміново переглянути зарплати військових. За словами сержанта батальйону «Свобода» Владислава Первухіна, мінімальна зарплата захисника має бути близько 2000 доларів. Він зазначив, що реформа виплат вже розпочалася, проте це лише перший етап. Основна проблема, за його словами, – це гарантована базова виплата, а не надбавки за особливі завдання. Приклад: військовослужбовець отримує 120 тисяч гривень на місяць, але їхня купівельна спроможність різко впала. У 2022 році на цю суму можна було купити близько 4500 одиниць хліба, а зараз – лише 2000‑2100. Тому Первухін вимагає прив’язати мінімальну зарплату до курсу валют, щоб вона залишалася стабільною. Він закликав владу вжити термінових кроків і забезпечити гідний рівень фінансового забезпечення для всіх військових.",
+      "vocabularyHints": [
+        "переглянути — überprüfen",
+        "батальйон — das Bataillon",
+        "реформа — die Reform",
+        "гарантований — garantiert",
+        "надбавка — die Zulage, -n",
+        "купівельна спроможність — die Kaufkraft",
+        "одиниця — die Einheit, -en",
+        "прив’язати — anbinden"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "переглянути",
+          "hint": "переглянути — überprüfen"
+        },
+        {
+          "surface": "батальйону",
+          "hint": "батальйон — das Bataillon"
+        },
+        {
+          "surface": "реформа",
+          "hint": "реформа — die Reform"
+        },
+        {
+          "surface": "гарантована",
+          "hint": "гарантований — garantiert"
+        },
+        {
+          "surface": "надбавки",
+          "hint": "надбавка — die Zulage, -n"
+        },
+        {
+          "surface": "купівельна спроможність",
+          "hint": "купівельна спроможність — die Kaufkraft"
+        },
+        {
+          "surface": "одиниць",
+          "hint": "одиниця — die Einheit, -en"
+        },
+        {
+          "surface": "прив’язати",
+          "hint": "прив’язати — anbinden"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/242/tsn-135859377404ec64163c97d964721c31/thumbs/608xX/2b/5a/51069cce4b9511841c3bf3cec2d85a2b.jpeg",
+      "publishedAt": "2026-09-27T07:57:14.000Z",
+      "processedAt": "2026-09-27T08:03:38.905Z"
+    },
     {
       "id": "0503b119",
       "originalTitle": "РФ масовано лупила просто по житлових будинках — деталі атаки",
