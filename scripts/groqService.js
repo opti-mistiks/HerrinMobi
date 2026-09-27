@@ -51,6 +51,35 @@ function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
           return;
         }
 
+        // 413 is Groq's up-front rejection: prompt_tokens + max_tokens already
+        // exceeds the model's per-request TPM ceiling before any generation
+        // starts, so it's a distinct failure mode from the 429 bursts above
+        // (those recover on their own after a wait; this one never will —
+        // the request itself is the wrong shape). The error body always
+        // names the exact numbers ("Limit 8000, Requested 10426"), so rather
+        // than guessing a fixed cut (halving risks trimming far more than
+        // needed on a request that only overshot by a few hundred tokens,
+        // or too little on one that overshot by a lot), parse those numbers
+        // and shrink max_tokens by exactly the overshoot plus a small
+        // safety margin, then retry the same request once with the
+        // corrected size. This only ever reduces the completion-length
+        // budget, never the actual prompt content, so it can't change what
+        // article text/vocabulary comes back — only gives the model less
+        // slack for hidden reasoning before it has to write the JSON.
+        if (res.statusCode === 413 && retries > 0) {
+          const m = /Limit (\d+), Requested (\d+)/.exec(text);
+          if (m && body.max_tokens) {
+            const limit = parseInt(m[1], 10);
+            const requested = parseInt(m[2], 10);
+            const overshoot = requested - limit;
+            const SAFETY_MARGIN = 200;
+            const newMaxTokens = Math.max(500, body.max_tokens - overshoot - SAFETY_MARGIN);
+            console.warn(`[groq] 413 too-large request (limit=${limit}, requested=${requested}) — retrying with max_tokens ${body.max_tokens} -> ${newMaxTokens}`);
+            groqRequest({ ...body, max_tokens: newMaxTokens }, retries - 1, apiKey).then(resolve).catch(reject);
+            return;
+          }
+        }
+
         if (res.statusCode < 200 || res.statusCode >= 300) {
           reject(new Error(`Groq HTTP ${res.statusCode}: ${text.slice(0, 500)}`));
           return;
@@ -200,6 +229,22 @@ const LEVEL_CONFIG = {
 // starves the actual answer; this does not change output length or
 // content, only how much slack the model has to reason before writing it.
 const MAX_TOKENS_BY_LEVEL = { A1: 6000, A2: 8000, B1: 12000 };
+
+// TSN uses a Ukrainian-language system prompt, which is measurably heavier
+// in tokens than the DE prompt for the same content (Cyrillic + longer UK
+// word forms tokenize worse) — before Groq has generated a single output
+// token, it already counts prompt_tokens + max_tokens against the 8,000
+// TPM per-request ceiling. With DE's max_tokens values reused as-is, this
+// occasionally pushed the total over 8,000 and Groq rejected the request
+// outright with HTTP 413 ("Request too large ... tokens per minute"),
+// rather than a normal 429 — confirmed in production logs, hitting A1/B1
+// (the largest max_tokens) more than A2.
+// These smaller ceilings do NOT touch textInstruction/hintGuidance, so the
+// actual A1/A2/B1 simplified-text length and vocabulary count this
+// produces are unchanged — this only trims the slack reserved for hidden
+// reasoning before the JSON answer, which was oversized for TSN's heavier
+// prompt. If a real 413 recurs even after this cut, tighten further.
+const MAX_TOKENS_BY_LEVEL_TSN = { A1: 3200, A2: 4200, B1: 5200 };
 
 async function simplifyArticle(article, level, apiKey = DEFAULT_DE_API_KEY()) {
   const cfg = LEVEL_CONFIG[level];
@@ -533,8 +578,8 @@ Return ONLY valid JSON, nothing else:
       const data = await groqRequest({
         model: MODEL,
         temperature: 0.1,
-        max_tokens: MAX_TOKENS_BY_LEVEL[level] || 4000,
-        reasoning_effort: "medium",
+        max_tokens: MAX_TOKENS_BY_LEVEL_TSN[level] || 3200,
+        reasoning_effort: "low",
         response_format: { type: "json_object" },
         messages: [
           { role: "system", content: systemPrompt },
@@ -543,6 +588,9 @@ Return ONLY valid JSON, nothing else:
       }, 3, apiKey);
 
       const raw = data.choices?.[0]?.message?.content || "";
+      if (data.choices?.[0]?.finish_reason === "length") {
+        console.warn(`  ⚠️  [TSN ${level}] Groq cut off the response at max_tokens (finish_reason=length) — raising MAX_TOKENS_BY_LEVEL_TSN.${level} may help.`);
+      }
       if (!raw.trim()) throw new Error("Groq returned an empty completion");
       const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
       if (!parsed.simplified_text_ukr) throw new Error("Missing simplified_text_ukr in parsed JSON");
