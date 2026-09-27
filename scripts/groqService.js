@@ -305,7 +305,11 @@ Write in Swiss High German (no "ß").
     carries the meaning as it appears ("kauft").
   * "lemma": dictionary form for the vocabulary list. Nouns with article + plural if
     useful: "die Wahl, -en"; verbs in infinitive: "klagen"; adjectives base form.
-  * "ukr": the real Ukrainian meaning (NEVER copy the German word).
+  * "ukr": the real Ukrainian meaning of the word AS USED IN YOUR TEXT
+    (never copy the German word) — if the word is ambiguous or has
+    multiple possible translations, pick the one that matches the
+    specific sense it has in the sentence you wrote, not just any
+    dictionary entry for it.
 - Each word once only. Never list the same surface twice.
 
 3. Do NOT return a category — it is already decided.
@@ -559,7 +563,10 @@ ${level}, швейцарська німецька, "ss" замість "ß"). Т
     відмінок однини для іменників, інфінітив для дієслів), якщо форма в
     тексті відмінюється — інакше те саме, що surface.
   * "deu": НІМЕЦЬКИЙ відповідник цього слова швейцарською німецькою
-    (те слово/вираз, яке студенту знадобиться при перекладі на німецьку).
+    САМЕ В ТОМУ ЗНАЧЕННІ, в якому воно вжите в твоєму реченні (те
+    слово/вираз, яке студенту знадобиться при перекладі на німецьку;
+    якщо українське слово багатозначне, обирай відповідник саме під
+    той конкретний сенс, а не перший словниковий варіант).
     Іменники — з артиклем і, якщо доречно, множиною: "die Wahl, -en".
     Дієслова — в інфінітиві: "klagen". НІКОЛИ не копіюй українське слово
     замість перекладу.
@@ -734,51 +741,90 @@ Output: single minified JSON object, no markdown, no backticks.
 // (fewer calls = less pressure on the TPM ceiling that TSN generation
 // itself already runs close to — see MAX_TOKENS_BY_LEVEL_TSN above).
 async function translateTsnToRussian(simplifiedTextUkr, vocabularyHints, apiKey, originalTitleUkr) {
-  const system = `Ти перекладач з української на російську мову.
+  const hintsIn = vocabularyHints || [];
+  const system = `Ти професійний перекладач з української на російську мову.
 Тобі дають:
 1. Заголовок статті українською мовою (може бути порожнім).
-2. Текст українською мовою.
-3. Масив підказок формату "<українське_слово> — <німецьке_слово>".
+2. Текст статті українською мовою.
+3. Масив підказок формату "<українське_слово> — <німецьке_слово>" —
+це слова/лексика, вжиті САМЕ В ЦЬОМУ ТЕКСТІ (в тому самому значенні,
+формі й контексті, в якому вони там зустрічаються).
 
 Завдання:
 1. Перекласти заголовок на російську мову (якщо він порожній — залиш
 "" у відповіді). Зберігай стиль заголовка новини.
 2. Перекласти текст на російську мову. Зберігай той самий зміст, стиль
 і рівень складності — це НЕ переказ і не спрощення, а точний переклад.
-3. Для кожної підказки перекласти ТІЛЬКИ частину ДО " — " (українське
-слово/лему) на російську, а частину після " — " (німецьке слово) лишити
-БЕЗ ЗМІН. Порядок підказок має лишитись тим самим.
+3. Для КОЖНОЇ підказки з вхідного масиву — без винятку, нічого не
+пропускай і нічого не додавай — перекласти ТІЛЬКИ частину ДО " — "
+(українське слово/лему) на російську, а частину після " — " (німецьке
+слово) лишити БЕЗ ЗМІН. Це НЕ ізольований словниковий переклад: бери
+до уваги, в якому значенні це слово вжите САМЕ В ЦІЙ СТАТТІ (дивись
+на текст статті вище), і перекладай саме те значення — а не перше-
+ліпше словникове, якщо слово багатозначне чи омонімічне. Вихідний
+масив "hints_ru" МАЄ мати РІВНО ${hintsIn.length} елемент(и/ів) —
+стільки ж, скільки у вхідному масиві, в тому самому порядку,
+один-в-один відповідно позиції.
 
 Output: single minified JSON object, no markdown, no backticks.
 {"title_ru":"...","text_ru":"...","hints_ru":["<russian lemma> — <same German part>", ...]}`;
 
-  const data = await groqRequest({
-    model: MODEL,
-    temperature: 0.1,
-    max_tokens: 4000,
-    reasoning_effort: "low",
-    response_format: { type: "json_object" },
-    messages: [
-      { role: "system", content: system },
-      { role: "user", content: JSON.stringify({
-          title: originalTitleUkr || "",
-          text: simplifiedTextUkr,
-          hints: vocabularyHints || [],
-        }) },
-    ],
-  }, 3, apiKey);
+  const userPayload = JSON.stringify({
+    title: originalTitleUkr || "",
+    text: simplifiedTextUkr,
+    hints: hintsIn,
+  });
 
-  const raw = data.choices?.[0]?.message?.content || "";
-  if (!raw.trim()) throw new Error("Groq returned an empty completion");
-  const parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
-  if (!parsed.text_ru || !Array.isArray(parsed.hints_ru)) {
-    throw new Error("Missing text_ru/hints_ru in parsed JSON");
+  // A couple of extra attempts specifically for the hints_ru length
+  // mismatch case: the "each field only checked for existence, not
+  // completeness" version of this validation let a truncated/short
+  // hints_ru silently through (Groq occasionally drops a trailing hint
+  // when it's under token pressure), which is how some TSN articles
+  // ended up with Ukrainian hints but no/partial Russian ones even
+  // though the run logged success. Retrying here, before the caller's
+  // own outer retry/fallback-key logic, keeps that failure mode from
+  // reaching saved data at all.
+  let lastErr;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    const data = await groqRequest({
+      model: MODEL,
+      temperature: 0.1,
+      max_tokens: 4000,
+      reasoning_effort: "low",
+      response_format: { type: "json_object" },
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: userPayload },
+      ],
+    }, 3, apiKey);
+
+    const raw = data.choices?.[0]?.message?.content || "";
+    if (!raw.trim()) { lastErr = new Error("Groq returned an empty completion"); continue; }
+    let parsed;
+    try {
+      parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+    } catch (err) {
+      lastErr = new Error(`Failed to parse JSON: ${err.message}`);
+      continue;
+    }
+    if (!parsed.text_ru || !Array.isArray(parsed.hints_ru)) {
+      lastErr = new Error("Missing text_ru/hints_ru in parsed JSON");
+      continue;
+    }
+    if (parsed.hints_ru.length !== hintsIn.length) {
+      lastErr = new Error(
+        `hints_ru length mismatch: expected ${hintsIn.length}, got ${parsed.hints_ru.length}`
+      );
+      console.warn(`  ⚠️  [RU][TSN] ${lastErr.message} — retrying (attempt ${attempt}/3)`);
+      continue;
+    }
+    return {
+      titleRu: typeof parsed.title_ru === "string" ? parsed.title_ru.trim() : "",
+      textRu: parsed.text_ru.trim(),
+      hintsRu: parsed.hints_ru,
+    };
   }
-  return {
-    titleRu: typeof parsed.title_ru === "string" ? parsed.title_ru.trim() : "",
-    textRu: parsed.text_ru.trim(),
-    hintsRu: parsed.hints_ru,
-  };
+  throw lastErr;
 }
 
 module.exports = {
