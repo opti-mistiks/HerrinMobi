@@ -187,7 +187,19 @@ const LEVEL_CONFIG = {
 // the harder B1 is to write well, the more of that budget it eats. A single
 // shared max_tokens sized for A1 routinely left B1 short, causing truncated/
 // unparseable JSON. Give each level its own headroom instead.
-const MAX_TOKENS_BY_LEVEL = { A1: 1800, A2: 2400, B1: 4000 };
+//
+// These were previously 1800/2400/4000 — tight enough that on articles where
+// the model's hidden reasoning phase ran longer than usual, it could burn
+// through the whole budget before finishing the JSON, causing Groq's
+// server-side json_validate_failed ("max completion tokens reached before
+// generating a valid document"). openai/gpt-oss-120b's real ceiling on Groq
+// is 65,536 max completion tokens (confirmed via Groq's model docs) — far
+// above what a single simplify call needs even in the worst case — so there
+// was no real reason to keep these tight. Raised with generous headroom
+// (~3-4x the old values) so a longer-than-usual reasoning pass no longer
+// starves the actual answer; this does not change output length or
+// content, only how much slack the model has to reason before writing it.
+const MAX_TOKENS_BY_LEVEL = { A1: 6000, A2: 8000, B1: 12000 };
 
 async function simplifyArticle(article, level, apiKey = DEFAULT_DE_API_KEY()) {
   const cfg = LEVEL_CONFIG[level];
