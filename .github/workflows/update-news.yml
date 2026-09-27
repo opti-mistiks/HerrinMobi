@@ -91,6 +91,21 @@ jobs:
           GROQ_API_KEY_TSN_1: ${{ secrets.GROQ_API_KEY_TSN_1 }}
           GROQ_API_KEY_TSN_2: ${{ secrets.GROQ_API_KEY_TSN_2 }}
           GROQ_API_KEY_TSN_3: ${{ secrets.GROQ_API_KEY_TSN_3 }}
+
+          # Russian translation pass (separate step, runs after DE+TSN
+          # generation, only on this run's freshly generated articles —
+          # see updateNews.js processRuTranslation). Just ONE account here
+          # (no _1/_2/_3 numbering — it's not a rotation-by-article-count
+          # scheme like DE/TSN above). When this key hits a limit, the
+          # script automatically falls back through GROQ_API_KEY_DE_1/2/3
+          # then GROQ_API_KEY_TSN_1/2/3 in that order (oldest-used-first —
+          # those accounts have had the longest time to "cool down" since
+          # their own generation work earlier in this same run), staying
+          # on whichever fallback key it lands on for the rest of the
+          # pass. If GROQ_API_KEY_RU isn't set, RU translation is skipped
+          # entirely (a warning is logged) — DE/TSN generation is
+          # unaffected either way.
+          GROQ_API_KEY_RU: ${{ secrets.GROQ_API_KEY_RU }}
           # How many articles to process before switching to the next key
           # in rotation. Default 3, matching "3 news per account" from the
           # setup above (3 accounts x 3 articles = 9 articles/pipeline/run).
