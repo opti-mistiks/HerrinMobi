@@ -1,6 +1,633 @@
 {
   "A1": [
     {
+      "id": "2cd854ba",
+      "originalTitle": "- Ist Kaffee nun gesund oder ungesund?",
+      "simplifiedText": "Frühere Studien sagen, Kaffee ist ungesund. Jetzt wissen wir, das ist falsch. Kaffee kann gut für die Gesundheit sein. Er gibt uns Energie und Konzentration. Wir trinken Kaffee gern jeden Tag.",
+      "vocabularyHints": [
+        "früh — ранній",
+        "die Studie, -n — дослідження",
+        "ungesund — нездоровий",
+        "jetzt — зараз",
+        "wissen — знати",
+        "falsch — неправильний",
+        "die Gesundheit — здоров'я",
+        "geben — дає",
+        "die Energie — енергія",
+        "die Konzentration — концентрація",
+        "gern — з задоволенням",
+        "jeder — кожен",
+        "der Tag — день"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Frühere",
+          "hint": "früh — ранній"
+        },
+        {
+          "surface": "Studien",
+          "hint": "die Studie, -n — дослідження"
+        },
+        {
+          "surface": "ungesund",
+          "hint": "ungesund — нездоровий"
+        },
+        {
+          "surface": "Jetzt",
+          "hint": "jetzt — зараз"
+        },
+        {
+          "surface": "wissen",
+          "hint": "wissen — знати"
+        },
+        {
+          "surface": "falsch",
+          "hint": "falsch — неправильний"
+        },
+        {
+          "surface": "Gesundheit",
+          "hint": "die Gesundheit — здоров'я"
+        },
+        {
+          "surface": "gibt",
+          "hint": "geben — дає"
+        },
+        {
+          "surface": "Energie",
+          "hint": "die Energie — енергія"
+        },
+        {
+          "surface": "Konzentration",
+          "hint": "die Konzentration — концентрація"
+        },
+        {
+          "surface": "gern",
+          "hint": "gern — з задоволенням"
+        },
+        {
+          "surface": "jeden",
+          "hint": "jeder — кожен"
+        },
+        {
+          "surface": "Tag",
+          "hint": "der Tag — день"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/04260c.jpg",
+      "publishedAt": "2026-09-28T03:29:32.000Z",
+      "processedAt": "2026-09-28T06:45:04.151Z",
+      "vocabularyHintsRu": [
+        "früh — ранний",
+        "die Studie, -n — исследование",
+        "ungesund — нездоровый",
+        "jetzt — сейчас",
+        "wissen — знать",
+        "falsch — неправильный",
+        "die Gesundheit — здоровье",
+        "geben — дает",
+        "die Energie — энергия",
+        "die Konzentration — концентрация",
+        "gern — с удовольствием",
+        "jeder — каждый",
+        "der Tag — день"
+      ]
+    },
+    {
+      "id": "68d3d39c",
+      "originalTitle": "Kaffeegenuss ohne Reue - Ist Kaffee nun gesund oder ungesund?",
+      "simplifiedText": "Frühere Studien haben Kaffee zu Unrecht verurteilt. Sie sagen, Kaffee ist immer ungesund. Neue Forschung zeigt, Kaffee ist gesund. Viele Menschen trinken jetzt Kaffee ohne Reue.",
+      "vocabularyHints": [
+        "früh — попередній",
+        "Unrecht — несправедливість",
+        "verurteilen — осуджувати",
+        "neu — новий",
+        "die Forschung — дослідження",
+        "zeigen — показує",
+        "gesund — здоровий",
+        "der Mensch, -en — люди",
+        "die Reue — жаль"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Frühere",
+          "hint": "früh — попередній"
+        },
+        {
+          "surface": "Unrecht",
+          "hint": "Unrecht — несправедливість"
+        },
+        {
+          "surface": "verurteilt",
+          "hint": "verurteilen — осуджувати"
+        },
+        {
+          "surface": "Neue",
+          "hint": "neu — новий"
+        },
+        {
+          "surface": "Forschung",
+          "hint": "die Forschung — дослідження"
+        },
+        {
+          "surface": "zeigt",
+          "hint": "zeigen — показує"
+        },
+        {
+          "surface": "gesund",
+          "hint": "gesund — здоровий"
+        },
+        {
+          "surface": "Menschen",
+          "hint": "der Mensch, -en — люди"
+        },
+        {
+          "surface": "Reue",
+          "hint": "die Reue — жаль"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/04260c.jpg",
+      "publishedAt": "2026-09-28T03:29:32.000Z",
+      "processedAt": "2026-09-28T06:43:42.569Z",
+      "vocabularyHintsRu": [
+        "früh — предыдущий",
+        "Unrecht — несправедливость",
+        "verurteilen — осудить",
+        "neu — новый",
+        "die Forschung — исследование",
+        "zeigen — показывает",
+        "gesund — здоровый",
+        "der Mensch, -en — люди",
+        "die Reue — жалость"
+      ]
+    },
+    {
+      "id": "36dc5e00",
+      "originalTitle": "Nein zu Neutralitätsinitiative - SVP zeigt sich kämpferisch - SP will klare Kante zeigen",
+      "simplifiedText": "Die SVP will nach dem Scheitern der Initiative handeln. Sie will das Vertragspaket mit der EU weiterführen. Die SP will klare Position zeigen. Beide Parteien reden jetzt über die Zukunft.",
+      "vocabularyHints": [
+        "die SVP — Швейцарська народна партія",
+        "scheitern — невдача",
+        "die Initiative — ініціатива",
+        "das Vertragspaket — пакет договорів",
+        "die EU — Європейський Союз",
+        "weiterführen — продовжувати",
+        "die SP — Соціал-демократична партія",
+        "klar — чітка",
+        "die Position — позиція",
+        "die Partei, -en — партиї",
+        "die Zukunft — майбутнє"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "SVP",
+          "hint": "die SVP — Швейцарська народна партія"
+        },
+        {
+          "surface": "Scheitern",
+          "hint": "scheitern — невдача"
+        },
+        {
+          "surface": "Initiative",
+          "hint": "die Initiative — ініціатива"
+        },
+        {
+          "surface": "Vertragspaket",
+          "hint": "das Vertragspaket — пакет договорів"
+        },
+        {
+          "surface": "EU",
+          "hint": "die EU — Європейський Союз"
+        },
+        {
+          "surface": "weiterführen",
+          "hint": "weiterführen — продовжувати"
+        },
+        {
+          "surface": "SP",
+          "hint": "die SP — Соціал-демократична партія"
+        },
+        {
+          "surface": "klare",
+          "hint": "klar — чітка"
+        },
+        {
+          "surface": "Position",
+          "hint": "die Position — позиція"
+        },
+        {
+          "surface": "Parteien",
+          "hint": "die Partei, -en — партиї"
+        },
+        {
+          "surface": "Zukunft",
+          "hint": "die Zukunft — майбутнє"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/cfe587f.jpg",
+      "publishedAt": "2026-09-28T03:51:41.000Z",
+      "processedAt": "2026-09-28T06:42:24.406Z",
+      "vocabularyHintsRu": [
+        "die SVP — Швейцарская народная партия",
+        "scheitern — неудача",
+        "die Initiative — инициатива",
+        "das Vertragspaket — пакет договоров",
+        "die EU — Европейский Союз",
+        "weiterführen — продолжать",
+        "die SP — Социал-демократическая партия",
+        "klar — чёткая",
+        "die Position — позиция",
+        "die Partei, -en — партии",
+        "die Zukunft — будущее"
+      ]
+    },
+    {
+      "id": "6dcfb7fa",
+      "originalTitle": "Krieg in der Ukraine - Wadephul trifft Lawrow: «Mit Gegnern muss man verhandeln»",
+      "simplifiedText": "Deutschlands Aussenminister Wadephul trifft den russischen Aussenminister Lawrow. Das Treffen ist das erste seit der russischen Invasion. Beide Minister sprechen über den Krieg in der Ukraine. Sie wollen eine Lösung für den Frieden finden. Das Treffen findet in Berlin statt.",
+      "vocabularyHints": [
+        "Deutschland — Німеччина",
+        "Aussenminister — міністр закордонних справ",
+        "russisch — російський",
+        "Treffen — зустріч",
+        "Invasion — вторгнення",
+        "Minister — міністр",
+        "sprechen — говорити",
+        "Lösung — рішення",
+        "Frieden — мир",
+        "statt — замість"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Deutschlands",
+          "hint": "Deutschland — Німеччина"
+        },
+        {
+          "surface": "Aussenminister",
+          "hint": "Aussenminister — міністр закордонних справ"
+        },
+        {
+          "surface": "russischen",
+          "hint": "russisch — російський"
+        },
+        {
+          "surface": "Treffen",
+          "hint": "Treffen — зустріч"
+        },
+        {
+          "surface": "Invasion",
+          "hint": "Invasion — вторгнення"
+        },
+        {
+          "surface": "Minister",
+          "hint": "Minister — міністр"
+        },
+        {
+          "surface": "sprechen",
+          "hint": "sprechen — говорити"
+        },
+        {
+          "surface": "Lösung",
+          "hint": "Lösung — рішення"
+        },
+        {
+          "surface": "Frieden",
+          "hint": "Frieden — мир"
+        },
+        {
+          "surface": "statt",
+          "hint": "statt — замість"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/76c318.jpg",
+      "publishedAt": "2026-09-28T04:06:20.000Z",
+      "processedAt": "2026-09-28T06:41:02.545Z",
+      "vocabularyHintsRu": [
+        "Deutschland — Германия",
+        "Aussenminister — министр иностранных дел",
+        "russisch — русский",
+        "Treffen — встреча",
+        "Invasion — вторжение",
+        "Minister — министр",
+        "sprechen — говорить",
+        "Lösung — решение",
+        "Frieden — мир",
+        "statt — вместо"
+      ]
+    },
+    {
+      "id": "22861c30",
+      "originalTitle": "Krieg im Nahen Osten - Ölpreise steigen nach Trumps Absage an Iran",
+      "simplifiedText": "Donald Trump hat den iranischen Friedensplan abgelehnt. Der Plan sollte die Strasse von Hormus öffnen. Nach der Ablehnung sind die Ölpreise gestiegen. Die Preise steigen jetzt weiter in der Welt. Viele Länder beobachten die Lage genau.",
+      "vocabularyHints": [
+        "Trump — Трамп",
+        "iranisch — іранський",
+        "Friedensplan — план миру",
+        "ablehnen — відхилити",
+        "sollen — повинно був",
+        "Hormus — Хормуз",
+        "öffnen — відкрити",
+        "Ablehnung — відмова",
+        "Ölpreis — ціни на нафту",
+        "beobachten — спостерігати",
+        "genau — точно"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Trump",
+          "hint": "Trump — Трамп"
+        },
+        {
+          "surface": "iranischen",
+          "hint": "iranisch — іранський"
+        },
+        {
+          "surface": "Friedensplan",
+          "hint": "Friedensplan — план миру"
+        },
+        {
+          "surface": "abgelehnt",
+          "hint": "ablehnen — відхилити"
+        },
+        {
+          "surface": "sollte",
+          "hint": "sollen — повинно був"
+        },
+        {
+          "surface": "Hormus",
+          "hint": "Hormus — Хормуз"
+        },
+        {
+          "surface": "öffnen",
+          "hint": "öffnen — відкрити"
+        },
+        {
+          "surface": "Ablehnung",
+          "hint": "Ablehnung — відмова"
+        },
+        {
+          "surface": "Ölpreise",
+          "hint": "Ölpreis — ціни на нафту"
+        },
+        {
+          "surface": "beobachten",
+          "hint": "beobachten — спостерігати"
+        },
+        {
+          "surface": "genau",
+          "hint": "genau — точно"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/58faea8.jpg",
+      "publishedAt": "2026-09-28T04:37:34.000Z",
+      "processedAt": "2026-09-28T06:39:29.642Z",
+      "vocabularyHintsRu": [
+        "Trump — Трамп",
+        "iranisch — иранский",
+        "Friedensplan — план мира",
+        "ablehnen — отклонить",
+        "sollen — должен был",
+        "Hormus — Хормуз",
+        "öffnen — открыть",
+        "Ablehnung — отказ",
+        "Ölpreis — цены на нефть",
+        "beobachten — наблюдать",
+        "genau — точно"
+      ]
+    },
+    {
+      "id": "26286b29",
+      "originalTitle": "MTV Video Music Awards - Hauptpreis für Taylor Swift - doch Madonna räumt ab",
+      "simplifiedText": "Taylor Swift gewinnt mehrere Preise bei den VMA. Sie hat jetzt 31 Auszeichnungen insgesamt. Damit ist sie die meistgeehrte Künstlerin. Madonna bekommt auch einen Preis bei der Show.",
+      "vocabularyHints": [
+        "gewinnen — вигравати",
+        "mehrere — кілька",
+        "die Auszeichnung, -en — нагорода, відзнака",
+        "meistgeehrt — найбільш вшанована",
+        "die Künstlerin, -nen — художниця, співачка",
+        "bekommen — отримувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "gewinnt",
+          "hint": "gewinnen — вигравати"
+        },
+        {
+          "surface": "mehrere",
+          "hint": "mehrere — кілька"
+        },
+        {
+          "surface": "Auszeichnungen",
+          "hint": "die Auszeichnung, -en — нагорода, відзнака"
+        },
+        {
+          "surface": "meistgeehrte",
+          "hint": "meistgeehrt — найбільш вшанована"
+        },
+        {
+          "surface": "Künstlerin",
+          "hint": "die Künstlerin, -nen — художниця, співачка"
+        },
+        {
+          "surface": "bekommt",
+          "hint": "bekommen — отримувати"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/d47552.jpg",
+      "publishedAt": "2026-09-28T04:39:07.000Z",
+      "processedAt": "2026-09-28T06:38:10.901Z",
+      "vocabularyHintsRu": [
+        "gewinnen — выигрывать",
+        "mehrere — несколько",
+        "die Auszeichnung, -en — награда, отличие",
+        "meistgeehrt — наиболее почитаемая",
+        "die Künstlerin, -nen — художница, певица",
+        "bekommen — получать"
+      ]
+    },
+    {
+      "id": "51dbea9f",
+      "originalTitle": "Bilder zeigen Federer bei Schwatz mit Hollywood-Star",
+      "simplifiedText": "Roger Federer ist beim Laver Cup in London. Er posiert mit einem Hollywood-Star auf dem Platz. Die Bilder zeigen die beiden zusammen. Viele Fans sehen die Fotos im Internet.",
+      "vocabularyHints": [
+        "posieren — позиціонувати",
+        "Hollywood-Star — голлівудська зірка"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "posiert",
+          "hint": "posieren — позиціонувати"
+        },
+        {
+          "surface": "Hollywood-Star",
+          "hint": "Hollywood-Star — голлівудська зірка"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/28/2638c9cf-6c63-4521-b2d3-3043c1530ea8.jpg?s=e00acb122790ec6876c874720b6e8f93",
+      "publishedAt": "2026-09-28T05:17:20.000Z",
+      "processedAt": "2026-09-28T06:36:52.580Z",
+      "vocabularyHintsRu": [
+        "posieren — позиционировать",
+        "Hollywood-Star — голливудская звезда"
+      ]
+    },
+    {
+      "id": "4a1dc570",
+      "originalTitle": "Autoindustrie im Wandel - Die neuen Automarken fordern die gestandenen Konzerne heraus",
+      "simplifiedText": "Neue Automarken fordern die grossen Konzerne heraus. Sie kommen aus der Schweiz und nutzen neue Technologie. Die etablierten Firmen müssen ihre Produkte verbessern. Kunden wählen jetzt Elektroautos und digitale Dienste. Der Markt verändert sich schnell in der Autoindustrie.",
+      "vocabularyHints": [
+        "die Automarke, -n — автомобільні марки",
+        "fordern — вимагати, кидати виклик",
+        "heraus — викликати",
+        "nutzen — використовувати",
+        "die Technologie — технологія",
+        "etabliert — встановлений, усталений",
+        "die Firma, -n — компанії",
+        "das Produkt, -e — продукти",
+        "verbessern — покращувати",
+        "das Elektroauto, -s — електромобілі",
+        "digital — цифровий",
+        "der Dienst, -e — послуги",
+        "verändern — змінювати",
+        "die Autoindustrie — автомобільна індустрія"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Automarken",
+          "hint": "die Automarke, -n — автомобільні марки"
+        },
+        {
+          "surface": "fordern",
+          "hint": "fordern — вимагати, кидати виклик"
+        },
+        {
+          "surface": "heraus",
+          "hint": "heraus — викликати"
+        },
+        {
+          "surface": "nutzen",
+          "hint": "nutzen — використовувати"
+        },
+        {
+          "surface": "Technologie",
+          "hint": "die Technologie — технологія"
+        },
+        {
+          "surface": "etablierten",
+          "hint": "etabliert — встановлений, усталений"
+        },
+        {
+          "surface": "Firmen",
+          "hint": "die Firma, -n — компанії"
+        },
+        {
+          "surface": "Produkte",
+          "hint": "das Produkt, -e — продукти"
+        },
+        {
+          "surface": "verbessern",
+          "hint": "verbessern — покращувати"
+        },
+        {
+          "surface": "Elektroautos",
+          "hint": "das Elektroauto, -s — електромобілі"
+        },
+        {
+          "surface": "digitale",
+          "hint": "digital — цифровий"
+        },
+        {
+          "surface": "Dienste",
+          "hint": "der Dienst, -e — послуги"
+        },
+        {
+          "surface": "verändert",
+          "hint": "verändern — змінювати"
+        },
+        {
+          "surface": "Autoindustrie",
+          "hint": "die Autoindustrie — автомобільна індустрія"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/f9997f.jpg",
+      "publishedAt": "2026-09-28T05:17:45.000Z",
+      "processedAt": "2026-09-28T06:35:28.161Z",
+      "vocabularyHintsRu": [
+        "die Automarke, -n — автомобильные марки",
+        "fordern — требовать, бросать вызов",
+        "heraus — вызывать",
+        "nutzen — использовать",
+        "die Technologie — технология",
+        "etabliert — установленный, устоявшийся",
+        "die Firma, -n — компании",
+        "das Produkt, -e — продукты",
+        "verbessern — улучшать",
+        "das Elektroauto, -s — электромобили",
+        "digital — цифровой",
+        "der Dienst, -e — услуги",
+        "verändern — изменять",
+        "die Autoindustrie — автомобильная индустрия"
+      ]
+    },
+    {
+      "id": "2cdf6777",
+      "originalTitle": "Neutralitätsinitiative - Internationale Medien reagieren auf Entscheid zu Neutralität",
+      "simplifiedText": "Internationale Medien kommentieren das Ergebnis der Neutralitätsinitiative. Das Ergebnis zeigt Sanktionen gegen Russland. Es zeigt das Nato-Verhältnis in der Politik. Die Medien berichten darüber in vielen Ländern.",
+      "vocabularyHints": [
+        "kommentieren — коментувати",
+        "das Ergebnis, -e — результат",
+        "die Neutralitätsinitiative, -en — ініціатива нейтральності",
+        "die Sanktion, -en — санкції",
+        "das Nato-Verhältnis — відношення до НАТО",
+        "berichten — повідомляти"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "kommentieren",
+          "hint": "kommentieren — коментувати"
+        },
+        {
+          "surface": "Ergebnis",
+          "hint": "das Ergebnis, -e — результат"
+        },
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative, -en — ініціатива нейтральності"
+        },
+        {
+          "surface": "Sanktionen",
+          "hint": "die Sanktion, -en — санкції"
+        },
+        {
+          "surface": "Nato-Verhältnis",
+          "hint": "das Nato-Verhältnis — відношення до НАТО"
+        },
+        {
+          "surface": "berichten",
+          "hint": "berichten — повідомляти"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/9b1b70.jpg",
+      "publishedAt": "2026-09-28T06:21:52.000Z",
+      "processedAt": "2026-09-28T06:34:01.030Z",
+      "vocabularyHintsRu": [
+        "kommentieren — комментировать",
+        "das Ergebnis, -e — результат",
+        "die Neutralitätsinitiative, -en — инициатива нейтральности",
+        "die Sanktion, -en — санкции",
+        "das Nato-Verhältnis — отношение к НАТО",
+        "berichten — сообщать"
+      ]
+    },
+    {
       "id": "17dac24b",
       "originalTitle": "Nordirland-Konflikt - Oranier-Marsch in Portadown: Alte Wunden reissen auf",
       "simplifiedText": "In Portadown haben Gegendemonstranten den Marsch gestoppt. Der Oranier-Orden will durch die Stadt ziehen. Viele Menschen haben laut protestiert und blockiert. Die Polizei ist vor Ort und beobachtet. Der Marsch konnte nicht in Portadown stattfinden.",
@@ -146,7 +773,7 @@
         "kult.kino — кінотеатр kult.kino",
         "Liebhaber-Haus — любительський кінотеатр",
         "Saal — зали",
-        "Blockbuster-Film — блокбастер‑фільм"
+        "Blockbuster-Film — блокбастер-фільм"
       ],
       "vocabularyWords": [
         {
@@ -163,7 +790,7 @@
         },
         {
           "surface": "Blockbuster-Filme",
-          "hint": "Blockbuster-Film — блокбастер‑фільм"
+          "hint": "Blockbuster-Film — блокбастер-фільм"
         }
       ],
       "category": "Kultur",
@@ -4346,6 +4973,727 @@
   ],
   "A2": [
     {
+      "id": "2a459c25",
+      "originalTitle": "- Ist Kaffee nun gesund oder ungesund?",
+      "simplifiedText": "Früher hatte Kaffee einen schlechten Ruf, weil viele Menschen glaubten, er war ungesund. Wissenschaftler haben damals Studien durchgeführt und sie haben Kaffee zu Unrecht als ungesund verurteilt. Wissenschaftler haben die Ergebnisse in Fachzeitschriften veröffentlicht und die Artikel standen auf dem Schreibtisch der Leser. Viele Leser haben die Artikel gelesen, aber sie haben die falsche Einschätzung trotzdem übernommen. Kaffee ist weniger schädlich als früher gedacht, und heute trinken viele Menschen ihn aus Freude am Geschmack. Einige Ärzte haben später bemerkt, dass die alten Studien fehlerhaft waren, und sie haben die Meinung geändert.",
+      "vocabularyHints": [
+        "der Wissenschaftler, - — вчений",
+        "durchführen — проведений",
+        "verurteilen — осуджений",
+        "die Fachzeitschrift, -en — фаховий журнал",
+        "der Schreibtisch, -e — письмовий стіл",
+        "der Leser, - — читач",
+        "trotzdem — проте",
+        "übernehmen — прийнятий",
+        "schädlich — шкідливий",
+        "fehlerhaft — помилковий",
+        "ändern — змінений"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Wissenschaftler",
+          "hint": "der Wissenschaftler, - — вчений"
+        },
+        {
+          "surface": "durchgeführt",
+          "hint": "durchführen — проведений"
+        },
+        {
+          "surface": "verurteilt",
+          "hint": "verurteilen — осуджений"
+        },
+        {
+          "surface": "Fachzeitschriften",
+          "hint": "die Fachzeitschrift, -en — фаховий журнал"
+        },
+        {
+          "surface": "Schreibtisch",
+          "hint": "der Schreibtisch, -e — письмовий стіл"
+        },
+        {
+          "surface": "Leser",
+          "hint": "der Leser, - — читач"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "übernommen",
+          "hint": "übernehmen — прийнятий"
+        },
+        {
+          "surface": "schädlich",
+          "hint": "schädlich — шкідливий"
+        },
+        {
+          "surface": "fehlerhaft",
+          "hint": "fehlerhaft — помилковий"
+        },
+        {
+          "surface": "geändert",
+          "hint": "ändern — змінений"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/04260c.jpg",
+      "publishedAt": "2026-09-28T03:29:32.000Z",
+      "processedAt": "2026-09-28T06:45:30.020Z",
+      "vocabularyHintsRu": [
+        "der Wissenschaftler, - — учёный",
+        "durchführen — проведённый",
+        "verurteilen — осуждённый",
+        "die Fachzeitschrift, -en — профессиональный журнал",
+        "der Schreibtisch, -e — письменный стол",
+        "der Leser, - — читатель",
+        "trotzdem — однако",
+        "übernehmen — принятый",
+        "schädlich — вредный",
+        "fehlerhaft — ошибочный",
+        "ändern — изменённый"
+      ]
+    },
+    {
+      "id": "75444f5b",
+      "originalTitle": "Kaffeegenuss ohne Reue - Ist Kaffee nun gesund oder ungesund?",
+      "simplifiedText": "Frühere Studien haben Kaffee zu Unrecht verurteilt, weil sie nur kurze Beobachtungen gemacht haben. Heute haben Forscher neue Messungen durchgeführt und gezeigt, Kaffee das Herz nicht stärker belastet als ein Spaziergang. Ich habe gestern einen Kaffee im Büro getrunken und den Becher auf den Tisch gestellt. Meine Kollegin schläft besser, weil sie nur einen kleinen Becher am Nachmittag trinkt. Wir haben uns danach im Pausenraum zusammengesetzt und darüber diskutiert, ob Kaffee gesund ist oder nicht. Trotzdem trinken wir jetzt öfter Kaffee, weil er uns Energie gibt.",
+      "vocabularyHints": [
+        "verurteilen — осуджувати",
+        "die Beobachtung, -en — спостереження",
+        "der Forscher, - — дослідник",
+        "die Messung, -en — вимірювання",
+        "durchführen — провести",
+        "zeigen — показати",
+        "belasten — навантажувати",
+        "der Spaziergang, -e — прогулянка",
+        "der Pausenraum, -e — перерва́льна кімната",
+        "zusammensetzen — збирати разом",
+        "trotzdem — проте",
+        "die Energie — енергія"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "verurteilt",
+          "hint": "verurteilen — осуджувати"
+        },
+        {
+          "surface": "Beobachtungen",
+          "hint": "die Beobachtung, -en — спостереження"
+        },
+        {
+          "surface": "Forscher",
+          "hint": "der Forscher, - — дослідник"
+        },
+        {
+          "surface": "Messungen",
+          "hint": "die Messung, -en — вимірювання"
+        },
+        {
+          "surface": "durchgeführt",
+          "hint": "durchführen — провести"
+        },
+        {
+          "surface": "gezeigt",
+          "hint": "zeigen — показати"
+        },
+        {
+          "surface": "belastet",
+          "hint": "belasten — навантажувати"
+        },
+        {
+          "surface": "Spaziergang",
+          "hint": "der Spaziergang, -e — прогулянка"
+        },
+        {
+          "surface": "Pausenraum",
+          "hint": "der Pausenraum, -e — перерва́льна кімната"
+        },
+        {
+          "surface": "zusammengesetzt",
+          "hint": "zusammensetzen — збирати разом"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Energie",
+          "hint": "die Energie — енергія"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/04260c.jpg",
+      "publishedAt": "2026-09-28T03:29:32.000Z",
+      "processedAt": "2026-09-28T06:44:11.839Z",
+      "vocabularyHintsRu": [
+        "verurteilen — осудить",
+        "die Beobachtung, -en — наблюдение",
+        "der Forscher, - — исследователь",
+        "die Messung, -en — измерение",
+        "durchführen — провести",
+        "zeigen — показать",
+        "belasten — нагружать",
+        "der Spaziergang, -e — прогулка",
+        "die Pausenraum, -e — комната отдыха",
+        "zusammensetzen — собирать вместе",
+        "trotzdem — однако",
+        "die Energie — энергия"
+      ]
+    },
+    {
+      "id": "01147d1f",
+      "originalTitle": "Nein zu Neutralitätsinitiative - SVP zeigt sich kämpferisch - SP will klare Kante zeigen",
+      "simplifiedText": "Die SVP hat nach dem Scheitern der Neutralitätsinitiative das Vertragspaket mit der EU voranzutreiben versprochen. Sie hat sich dabei sehr kämpferisch gezeigt. Die SP hat darauf reagiert und will eine klare Kante zeigen. Die beiden Parteien haben im Parlament darüber diskutiert, weil das Thema wichtig ist. Trotzdem bleibt die Zukunft des Pakets unklar. Viele Bürger haben die Diskussion verfolgt und hoffen, dass eine Lösung gefunden wird.",
+      "vocabularyHints": [
+        "die Neutralitätsinitiative, -en — ініціатива нейтральності",
+        "das Vertragspaket, -e — пакет угод",
+        "vorantreiben — просувати вперед",
+        "kämpferisch — боротливий",
+        "die Kante, -n — край",
+        "das Parlament, -e — парламент",
+        "diskutieren — обговорювати",
+        "unklar — неясний",
+        "verfolgen — стежити",
+        "hoffen — сподіватися",
+        "die Lösung, -en — рішення"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative, -en — ініціатива нейтральності"
+        },
+        {
+          "surface": "Vertragspaket",
+          "hint": "das Vertragspaket, -e — пакет угод"
+        },
+        {
+          "surface": "voranzutreiben",
+          "hint": "vorantreiben — просувати вперед"
+        },
+        {
+          "surface": "kämpferisch",
+          "hint": "kämpferisch — боротливий"
+        },
+        {
+          "surface": "Kante",
+          "hint": "die Kante, -n — край"
+        },
+        {
+          "surface": "Parlament",
+          "hint": "das Parlament, -e — парламент"
+        },
+        {
+          "surface": "diskutiert",
+          "hint": "diskutieren — обговорювати"
+        },
+        {
+          "surface": "unklar",
+          "hint": "unklar — неясний"
+        },
+        {
+          "surface": "verfolgt",
+          "hint": "verfolgen — стежити"
+        },
+        {
+          "surface": "hoffen",
+          "hint": "hoffen — сподіватися"
+        },
+        {
+          "surface": "Lösung",
+          "hint": "die Lösung, -en — рішення"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/cfe587f.jpg",
+      "publishedAt": "2026-09-28T03:51:41.000Z",
+      "processedAt": "2026-09-28T06:42:50.222Z",
+      "vocabularyHintsRu": [
+        "die Neutralitätsinitiative, -en — инициатива нейтральности",
+        "das Vertragspaket, -e — пакет соглашений",
+        "vorantreiben — продвигать вперёд",
+        "kämpferisch — боевой",
+        "die Kante, -n — край",
+        "das Parlament, -e — парламент",
+        "diskutieren — обсуждать",
+        "unklar — неясный",
+        "verfolgen — следить",
+        "hoffen — надеяться",
+        "die Lösung, -en — решение"
+      ]
+    },
+    {
+      "id": "637edde7",
+      "originalTitle": "Krieg in der Ukraine - Wadephul trifft Lawrow: «Mit Gegnern muss man verhandeln»",
+      "simplifiedText": "Deutschlands Aussenminister Wadephul hat sich mit dem russischen Aussenminister Lawrow getroffen und ein Gespräch geführt. Das Treffen ist das erste seit der russischen Invasion in die Ukraine. Sie haben über den Krieg in der Ukraine gesprochen, weil die Situation beide Länder beschäftigt. Wadephul hat gesagt, man muss mit Gegnern verhandeln. Trotzdem bleibt die Lage sehr schwierig.",
+      "vocabularyHints": [
+        "der Aussenminister, -en — міністр закордонних справ",
+        "die Invasion, -en — вторгнення",
+        "der Gegner, -n — противникам",
+        "verhandeln — вести переговори",
+        "trotzdem — проте",
+        "die Lage, -n — ситуація"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Aussenminister",
+          "hint": "der Aussenminister, -en — міністр закордонних справ"
+        },
+        {
+          "surface": "Invasion",
+          "hint": "die Invasion, -en — вторгнення"
+        },
+        {
+          "surface": "Gegnern",
+          "hint": "der Gegner, -n — противникам"
+        },
+        {
+          "surface": "verhandeln",
+          "hint": "verhandeln — вести переговори"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Lage",
+          "hint": "die Lage, -n — ситуація"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/76c318.jpg",
+      "publishedAt": "2026-09-28T04:06:20.000Z",
+      "processedAt": "2026-09-28T06:41:31.680Z",
+      "vocabularyHintsRu": [
+        "der Aussenminister, -en — министр иностранных дел",
+        "die Invasion, -en — вторжение",
+        "der Gegner, -n — противникам",
+        "verhandeln — вести переговоры",
+        "trotzdem — но",
+        "die Lage, -n — ситуация"
+      ]
+    },
+    {
+      "id": "79e7e02f",
+      "originalTitle": "Krieg im Nahen Osten - Ölpreise steigen nach Trumps Absage an Iran",
+      "simplifiedText": "Donald Trump hat den iranischen Friedensplan zur Öffnung der Strasse von Hormus abgelehnt. Kurz darauf sind die Ölpreise gestiegen, weil die Märkte die Ablehnung als Risiko sehen. An der Tankstelle haben die Kunden die höheren Preise bemerkt und waren überrascht. Die Preise sind jetzt höher als noch vor einer Woche, und das kostet die Autofahrer mehr. Trotzdem fahren viele weiter, denn sie brauchen das Auto für die Arbeit. Ich habe heute an der Tankstelle getankt und habe mehr bezahlt als sonst.",
+      "vocabularyHints": [
+        "die Öffnung, -en — відкриття",
+        "ablehnen — відхилити",
+        "die Ölpreise, - — ціни на нафту",
+        "steigen — зростати",
+        "die Märkte, - — ринки",
+        "die Ablehnung, -en — відмова",
+        "das Risiko, -s — ризик",
+        "die Tankstelle, -n — заправна станція",
+        "hoch — вищих",
+        "bemerken — зауважити",
+        "überraschen — здивувати",
+        "hoch — вищий",
+        "der Autofahrer, - — водій автомобіля",
+        "tanken — заправити",
+        "bezahlen — оплатити"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Öffnung",
+          "hint": "die Öffnung, -en — відкриття"
+        },
+        {
+          "surface": "abgelehnt",
+          "hint": "ablehnen — відхилити"
+        },
+        {
+          "surface": "Ölpreise",
+          "hint": "die Ölpreise, - — ціни на нафту"
+        },
+        {
+          "surface": "gestiegen",
+          "hint": "steigen — зростати"
+        },
+        {
+          "surface": "Märkte",
+          "hint": "die Märkte, - — ринки"
+        },
+        {
+          "surface": "Ablehnung",
+          "hint": "die Ablehnung, -en — відмова"
+        },
+        {
+          "surface": "Risiko",
+          "hint": "das Risiko, -s — ризик"
+        },
+        {
+          "surface": "Tankstelle",
+          "hint": "die Tankstelle, -n — заправна станція"
+        },
+        {
+          "surface": "höheren",
+          "hint": "hoch — вищих"
+        },
+        {
+          "surface": "bemerkt",
+          "hint": "bemerken — зауважити"
+        },
+        {
+          "surface": "überrascht",
+          "hint": "überraschen — здивувати"
+        },
+        {
+          "surface": "höher",
+          "hint": "hoch — вищий"
+        },
+        {
+          "surface": "Autofahrer",
+          "hint": "der Autofahrer, - — водій автомобіля"
+        },
+        {
+          "surface": "getankt",
+          "hint": "tanken — заправити"
+        },
+        {
+          "surface": "bezahlt",
+          "hint": "bezahlen — оплатити"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/58faea8.jpg",
+      "publishedAt": "2026-09-28T04:37:34.000Z",
+      "processedAt": "2026-09-28T06:40:00.324Z",
+      "vocabularyHintsRu": [
+        "die Öffnung, -en — открытие",
+        "ablehnen — отклонить",
+        "die Ölpreise, - — цены на нефть",
+        "steigen — расти",
+        "die Märkte, - — рынки",
+        "die Ablehnung, -en — отказ",
+        "das Risiko, -s — риск",
+        "die Tankstelle, -n — заправка",
+        "hoch — высоких",
+        "bemerken — заметить",
+        "überraschen — удивить",
+        "hoch — высокий",
+        "der Autofahrer, - — водитель автомобиля",
+        "tanken — заправить",
+        "bezahlen — оплатить"
+      ]
+    },
+    {
+      "id": "3f29bcc8",
+      "originalTitle": "MTV Video Music Awards - Hauptpreis für Taylor Swift - doch Madonna räumt ab",
+      "simplifiedText": "Taylor Swift hat bei den MTV Video Music Awards mehrere Preise gewonnen, weil sie viele Hits hatte. Sie hat insgesamt 31 Auszeichnungen erhalten und ist damit die meistgeehrte Künstlerin. Madonna war ebenfalls auf der Bühne und hat einen Preis bekommen, aber Taylor hat mehr gewonnen. Die Show fand in Los Angeles statt, und die Fans standen dicht an der Bühne. Trotzdem war die Stimmung locker und die Künstler haben zusammen gefeiert. Ich habe das Ereignis im Fernsehen verfolgt, weil ich die Musik gern höre.",
+      "vocabularyHints": [
+        "insgesamt — всього",
+        "die Auszeichnung, -en — нагорода, нагороди",
+        "geehrt — найвшанована",
+        "trotzdem — проте",
+        "das Ereignis, -e — подія",
+        "verfolgen — спостерігати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "insgesamt",
+          "hint": "insgesamt — всього"
+        },
+        {
+          "surface": "Auszeichnungen",
+          "hint": "die Auszeichnung, -en — нагорода, нагороди"
+        },
+        {
+          "surface": "meistgeehrte",
+          "hint": "geehrt — найвшанована"
+        },
+        {
+          "surface": "Trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Ereignis",
+          "hint": "das Ereignis, -e — подія"
+        },
+        {
+          "surface": "verfolgt",
+          "hint": "verfolgen — спостерігати"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/d47552.jpg",
+      "publishedAt": "2026-09-28T04:39:07.000Z",
+      "processedAt": "2026-09-28T06:38:36.528Z",
+      "vocabularyHintsRu": [
+        "insgesamt — всего",
+        "die Auszeichnung, -en — награда, награды",
+        "geehrt — почетная",
+        "trotzdem — однако",
+        "das Ereignis, -e — событие",
+        "verfolgen — наблюдать"
+      ]
+    },
+    {
+      "id": "6bf7693e",
+      "originalTitle": "Bilder zeigen Federer bei Schwatz mit Hollywood-Star",
+      "simplifiedText": "Der Laver Cup hat am Sonntag in London geendet. Auf dem Platz hat Sascha Zverev für viel Furore gesorgt. Roger Federer hat neben dem Platz mit vielen Promis posiert, weil er die Stimmung teilen wollte. Unter den Promis war ein Hollywood-Star, der mit ihm ein Foto gemacht hat. Die beiden haben zusammen ein Bild aufgenommen, das später in den Medien gezeigt wurde. Trotzdem war das Publikum noch lauter als vorher, denn die Fans wollten den Moment feiern. Am Ende hat Federer das Event als sehr erfolgreich empfunden.",
+      "vocabularyHints": [
+        "Laver Cup — турнір Лавер Кап",
+        "Furore — сенсація",
+        "Promi — знаменитість",
+        "posieren — позувати",
+        "Hollywood-Star — голлівудська зірка",
+        "aufnehmen — зняв",
+        "Medium, -e — зМІ",
+        "empfinden — відчув"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Laver Cup",
+          "hint": "Laver Cup — турнір Лавер Кап"
+        },
+        {
+          "surface": "Furore",
+          "hint": "Furore — сенсація"
+        },
+        {
+          "surface": "Promis",
+          "hint": "Promi — знаменитість"
+        },
+        {
+          "surface": "posiert",
+          "hint": "posieren — позувати"
+        },
+        {
+          "surface": "Hollywood-Star",
+          "hint": "Hollywood-Star — голлівудська зірка"
+        },
+        {
+          "surface": "aufgenommen",
+          "hint": "aufnehmen — зняв"
+        },
+        {
+          "surface": "Medien",
+          "hint": "Medium, -e — зМІ"
+        },
+        {
+          "surface": "empfunden",
+          "hint": "empfinden — відчув"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/28/2638c9cf-6c63-4521-b2d3-3043c1530ea8.jpg?s=e00acb122790ec6876c874720b6e8f93",
+      "publishedAt": "2026-09-28T05:17:20.000Z",
+      "processedAt": "2026-09-28T06:37:19.206Z",
+      "vocabularyHintsRu": [
+        "Laver Cup — турнир Лавер Кап",
+        "Furore — сенсация",
+        "Promi — знаменититость",
+        "posieren — позировать",
+        "Hollywood-Star — голливудская звезда",
+        "aufnehmen — снял",
+        "Medium, -e — зМІ",
+        "empfinden — ощутил"
+      ]
+    },
+    {
+      "id": "183d516f",
+      "originalTitle": "Autoindustrie im Wandel - Die neuen Automarken fordern die gestandenen Konzerne heraus",
+      "simplifiedText": "Neue Automarken haben in den letzten Jahren die etablierten Konzerne in der Schweizer Autoindustrie herausgefordert. Sie haben innovative Elektro- und Hybridmodelle auf den Markt gebracht, weil die Kunden umweltfreundliche Fahrzeuge wollen. Die traditionellen Hersteller haben darauf reagiert und schnell neue Modelle entwickelt, aber sie können nicht mehr die einzigen Anbieter sein. Durch die starke Schweizer Technologie, die in den Batterien und der Software steckt, sind die neuen Marken oft schneller als die alten. Trotzdem bleibt die Konkurrenz spannend, denn die Kunden können jetzt zwischen vielen verschiedenen Marken wählen. Ich habe letzte Woche eine Probefahrt im Showroom mit einem Modell von einer neuen Marke gemacht und war begeistert von der Leistung. Ich hätte gern ein solches Auto, wenn es bald in meiner Nähe erhältlich ist.",
+      "vocabularyHints": [
+        "herausfordern — викликати, кидати виклик",
+        "innovativ — інноваційний",
+        "Hybridmodell, -e — гібридні моделі",
+        "umweltfreundlich — екологічно чистий, дружній до довкілля",
+        "Batterie, -n — батареї",
+        "Software — програмне забезпечення",
+        "Konkurrenz, -en — конкуренція",
+        "spannend — захоплюючий, цікавий",
+        "Probefahrt, -en — тест‑драйв",
+        "begeistern — захоплений",
+        "erhältlich — доступний, у продажу"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "herausgefordert",
+          "hint": "herausfordern — викликати, кидати виклик"
+        },
+        {
+          "surface": "innovative",
+          "hint": "innovativ — інноваційний"
+        },
+        {
+          "surface": "Hybridmodelle",
+          "hint": "Hybridmodell, -e — гібридні моделі"
+        },
+        {
+          "surface": "umweltfreundliche",
+          "hint": "umweltfreundlich — екологічно чистий, дружній до довкілля"
+        },
+        {
+          "surface": "Batterien",
+          "hint": "Batterie, -n — батареї"
+        },
+        {
+          "surface": "Software",
+          "hint": "Software — програмне забезпечення"
+        },
+        {
+          "surface": "Konkurrenz",
+          "hint": "Konkurrenz, -en — конкуренція"
+        },
+        {
+          "surface": "spannend",
+          "hint": "spannend — захоплюючий, цікавий"
+        },
+        {
+          "surface": "Probefahrt",
+          "hint": "Probefahrt, -en — тест‑драйв"
+        },
+        {
+          "surface": "begeistert",
+          "hint": "begeistern — захоплений"
+        },
+        {
+          "surface": "erhältlich",
+          "hint": "erhältlich — доступний, у продажу"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/f9997f.jpg",
+      "publishedAt": "2026-09-28T05:17:45.000Z",
+      "processedAt": "2026-09-28T06:35:54.180Z",
+      "vocabularyHintsRu": [
+        "herausfordern — вызвать, бросать вызов",
+        "innovativ — инновационный",
+        "Hybridmodell, -e — гибридные модели",
+        "umweltfreundlich — экологически чистый, дружелюбный к окружающей среде",
+        "Batterie, -n — батареи",
+        "Software — программное обеспечение",
+        "Konkurrenz, -en — конкуренция",
+        "spannend — захватывающий, интересный",
+        "Probefahrt, -en — тест‑драйв",
+        "begeistern — вдохновлять",
+        "erhältlich — доступный, в продаже"
+      ]
+    },
+    {
+      "id": "41a7a9ca",
+      "originalTitle": "Neutralitätsinitiative - Internationale Medien reagieren auf Entscheid zu Neutralität",
+      "simplifiedText": "Die internationalen Medien haben das Ergebnis der Neutralitätsinitiative kommentiert. Sie haben berichtet, weil die Sanktionen gegen Russland das Ergebnis stark beeinflusst haben. Sie haben erklärt, weil das Nato-Verhältnis ein wichtiges Thema war. Die Medien haben die Diskussion trotzdem als wichtig für die Schweiz bezeichnet. Viele Leser haben die Berichte gelesen, weil sie die Folgen für die Aussenpolitik verstehen wollten. Einige Kommentatoren haben gesagt, die Schweiz soll neutral bleiben, aber sie haben auch die Risiken betont. Insgesamt hat die Berichterstattung gezeigt, das Ergebnis hat viele unterschiedliche Meinungen hervorgerufen.",
+      "vocabularyHints": [
+        "die Medien — засоби масової інформації",
+        "die Neutralitätsinitiative — ініціатива нейтральності",
+        "kommentieren — прокоментував",
+        "berichten — повідомив",
+        "die Sanktion — санкції",
+        "beeinflussen — вплинув",
+        "erklären — пояснив",
+        "das Nato-Verhältnis — відношення до НАТО",
+        "die Diskussion — дискусія",
+        "trotzdem — проте",
+        "die Aussenpolitik — зовнішня політика",
+        "verstehen — розуміти",
+        "der Kommentator — коментатори",
+        "das Risiko — ризики",
+        "betonen — підкреслив",
+        "die Berichterstattung — звітність",
+        "hervorrufen — викликав",
+        "international — міжнародний",
+        "wichtig — важливий"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Medien",
+          "hint": "die Medien — засоби масової інформації"
+        },
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative — ініціатива нейтральності"
+        },
+        {
+          "surface": "kommentiert",
+          "hint": "kommentieren — прокоментував"
+        },
+        {
+          "surface": "berichtet",
+          "hint": "berichten — повідомив"
+        },
+        {
+          "surface": "Sanktionen",
+          "hint": "die Sanktion — санкції"
+        },
+        {
+          "surface": "beeinflusst",
+          "hint": "beeinflussen — вплинув"
+        },
+        {
+          "surface": "erklärt",
+          "hint": "erklären — пояснив"
+        },
+        {
+          "surface": "Nato-Verhältnis",
+          "hint": "das Nato-Verhältnis — відношення до НАТО"
+        },
+        {
+          "surface": "Diskussion",
+          "hint": "die Diskussion — дискусія"
+        },
+        {
+          "surface": "trotzdem",
+          "hint": "trotzdem — проте"
+        },
+        {
+          "surface": "Aussenpolitik",
+          "hint": "die Aussenpolitik — зовнішня політика"
+        },
+        {
+          "surface": "verstehen",
+          "hint": "verstehen — розуміти"
+        },
+        {
+          "surface": "Kommentatoren",
+          "hint": "der Kommentator — коментатори"
+        },
+        {
+          "surface": "Risiken",
+          "hint": "das Risiko — ризики"
+        },
+        {
+          "surface": "betont",
+          "hint": "betonen — підкреслив"
+        },
+        {
+          "surface": "Berichterstattung",
+          "hint": "die Berichterstattung — звітність"
+        },
+        {
+          "surface": "hervorgerufen",
+          "hint": "hervorrufen — викликав"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/9b1b70.jpg",
+      "publishedAt": "2026-09-28T06:21:52.000Z",
+      "processedAt": "2026-09-28T06:34:29.774Z",
+      "vocabularyHintsRu": [
+        "die Medien — средства массовой информации",
+        "die Neutralitätsinitiative — инициатива нейтральности",
+        "kommentieren — прокомментировал",
+        "berichten — сообщил",
+        "die Sanktion — санкции",
+        "beeinflussen — влиял",
+        "erklären — объяснил",
+        "das Nato-Verhältnis — отношение к НАТО",
+        "die Diskussion — дискуссия",
+        "trotzdem — однако",
+        "die Aussenpolitik — внешняя политика",
+        "verstehen — понимать",
+        "der Kommentator — комментаторы",
+        "das Risiko — риски",
+        "betonen — подчеркнул",
+        "die Berichterstattung — отчетность",
+        "hervorrufen — вызвал",
+        "international — международный",
+        "wichtig — важный"
+      ]
+    },
+    {
       "id": "2a3c6b14",
       "originalTitle": "Nordirland-Konflikt - Oranier-Marsch in Portadown: Alte Wunden reissen auf",
       "simplifiedText": "Am Samstag hat der Oranier-Orden einen Marsch durch Portadown geplant. Viele Einwohner haben sich auf dem Marktplatz versammelt, weil sie die Parade provokativ fanden. Die Gegendemonstranten haben die Strasse vor dem Rathaus blockiert und die Polizisten haben versucht, den Marsch zu schützen. Trotzdem ist der Marsch nicht stattgefunden, weil die Demonstranten die Route gesperrt haben. Die Menschen vor Ort haben gesagt, die Menge war grösser als bei früheren Protesten. Die Stadt hat später angekündigt, zukünftige Veranstaltungen besser abzusprechen.",
@@ -4476,7 +5824,7 @@
       "originalTitle": "50 Jahre kult.kino Basel - Vom Filmclub-Saal zu einem der letzten Lichtspielhäuser in Basel",
       "simplifiedText": "Das kult.kino Basel hat vor 50 Jahren als kleiner Filmclub-Saal begonnen. Es ist heute ein etabliertes Lichtspielhaus mit sieben Sälen. Das Kino zeigt jetzt auch Blockbuster, weil das Publikum grössere Filme wünscht. Trotzdem bleibt das kult.kino eines der letzten Lichtspielhäuser in Basel. Die Besucher sitzen gern in den Sälen, die grösser und komfortabler sind als die alten. Ich habe letzte Woche einen Film dort gesehen und war sehr zufrieden.",
       "vocabularyHints": [
-        "der Filmclub-Saal, -e — кінофільм‑клубний зал",
+        "der Filmclub-Saal, -e — кінофільм-клубний зал",
         "etablieren — встановлений, закріплений",
         "das Lichtspielhaus, -häuser — традиційний кінотеатр",
         "der Saal, -e — зали",
@@ -4487,7 +5835,7 @@
       "vocabularyWords": [
         {
           "surface": "Filmclub-Saal",
-          "hint": "der Filmclub-Saal, -e — кінофільм‑клубний зал"
+          "hint": "der Filmclub-Saal, -e — кінофільм-клубний зал"
         },
         {
           "surface": "etabliertes",
@@ -4805,7 +6153,7 @@
       "simplifiedText": "Serbiens Präsident Aleksandar Vucic hat gestern seinen Rücktritt erklärt. Er hat erklärt, weil er nicht mehr Ministerpräsident sein will. Trotzdem bleibt er wichtig für seine Partei. Vucic wird am 25. Oktober als Spitzenkandidat bei der vorgezogenen Parlamentswahl antreten. Die Medien haben die Entscheidung auf der Hauptstrasse berichtet. Viele Bürgerinnen und Bürger haben sich darüber gefreut, weil sie die Wahl als Chance sehen.",
       "vocabularyHints": [
         "der Rücktritt, -e — відставка",
-        "der Ministerpräsident, -en — міністр‑президент",
+        "der Ministerpräsident, -en — міністр-президент",
         "trotzdem — проте",
         "der Spitzenkandidat, -en — провідний кандидат",
         "vorgezogen — передзапланований",
@@ -4822,7 +6170,7 @@
         },
         {
           "surface": "Ministerpräsident",
-          "hint": "der Ministerpräsident, -en — міністр‑президент"
+          "hint": "der Ministerpräsident, -en — міністр-президент"
         },
         {
           "surface": "trotzdem",
@@ -9082,11 +10430,690 @@
   ],
   "B1": [
     {
+      "id": "5fc7d647",
+      "originalTitle": "- Ist Kaffee nun gesund oder ungesund?",
+      "simplifiedText": "Der Ruf von Kaffee war über viele Jahrzehnte hinweg sehr schlecht. In den vergangenen Jahrzehnten veröffentlichten Wissenschaftler Studien, die das Getränk als ungesund bezeichneten. Diese Untersuchungen stellten Kaffee in ein schlechtes Licht. Später prüften andere Forscher die Methoden der frühen Studien genauer. Sie kamen zu dem Ergebnis, dass die früheren Analysen methodische Mängel aufwiesen. Deshalb wird heute angenommen, dass die früheren Urteile zu Unrecht waren. Aktuelle Übersichtsarbeiten betonen, dass moderater Kaffeekonsum sogar gesundheitliche Vorteile haben kann. Trotzdem bleibt die Debatte offen, weil weitere Langzeitstudien nötig sind. Die Öffentlichkeit sollte die neuen Erkenntnisse berücksichtigen, ohne sofort zu einer einseitigen Meinung zurückzukehren.",
+      "vocabularyHints": [
+        "methodisch — методичний",
+        "der Mangel, -e — недоліки",
+        "die Übersichtsarbeit, -en — оглядові роботи",
+        "die Langzeitstudie, -n — довгострокові дослідження",
+        "die Erkenntnis, -en — висновки",
+        "einseitig — однобічний",
+        "veröffentlichen — публікувати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "methodische",
+          "hint": "methodisch — методичний"
+        },
+        {
+          "surface": "Mängel",
+          "hint": "der Mangel, -e — недоліки"
+        },
+        {
+          "surface": "Übersichtsarbeiten",
+          "hint": "die Übersichtsarbeit, -en — оглядові роботи"
+        },
+        {
+          "surface": "Langzeitstudien",
+          "hint": "die Langzeitstudie, -n — довгострокові дослідження"
+        },
+        {
+          "surface": "Erkenntnisse",
+          "hint": "die Erkenntnis, -en — висновки"
+        },
+        {
+          "surface": "einseitigen",
+          "hint": "einseitig — однобічний"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/04260c.jpg",
+      "publishedAt": "2026-09-28T03:29:32.000Z",
+      "processedAt": "2026-09-28T06:45:56.843Z",
+      "vocabularyHintsRu": [
+        "methodisch — методический",
+        "der Mangel, -e — недостатки",
+        "die Übersichtsarbeit, -en — обзорные работы",
+        "die Langzeitstudie, -n — долгосрочные исследования",
+        "die Erkenntnis, -en — выводы",
+        "einseitig — односторонний",
+        "veröffentlichen — публиковать"
+      ]
+    },
+    {
+      "id": "158d3043",
+      "originalTitle": "Kaffeegenuss ohne Reue - Ist Kaffee nun gesund oder ungesund?",
+      "simplifiedText": "Der Kaffeegenuss hat in der Schweiz seit vielen Jahrzehnten einen schlechten Ruf gehabt. Viele Menschen glaubten, dass das Trinken von Kaffee gesundheitliche Risiken birgt. Diese Meinung beruhte vor allem auf wissenschaftlichen Studien, die Kaffee stark kritisierten. Heute wissen Experten, dass diese frühen Untersuchungen den Kaffee zu Unrecht verurteilten. Die Studien wiesen methodische Schwächen auf, weil sie zum Beispiel nur kleine Personengruppen betrachteten. Ausserdem wurden wichtige Einflussfaktoren wie Lebensstil und Ernährung nicht berücksichtigt. Deshalb wird die frühere Bewertung des Kaffees von Fachleuten inzwischen als überholt angesehen. Der Konsum von Kaffee bleibt jedoch weiterhin ein individuelles Entscheidungsthema.",
+      "vocabularyHints": [
+        "gesundheitlich — пов’язаний зі здоров’ям",
+        "wissenschaftlich — науковий",
+        "kritisieren — критикувати",
+        "methodisch — методичний",
+        "die Schwäche, -n — недоліки",
+        "die Personengruppe, -n — група людей",
+        "der Einflussfaktor, -e — фактор впливу",
+        "die Fachleute — фахівці",
+        "überholt — застарілий",
+        "das Entscheidungsthema — тема вибору"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "gesundheitliche",
+          "hint": "gesundheitlich — пов’язаний зі здоров’ям"
+        },
+        {
+          "surface": "wissenschaftlichen",
+          "hint": "wissenschaftlich — науковий"
+        },
+        {
+          "surface": "kritisierten",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "methodische",
+          "hint": "methodisch — методичний"
+        },
+        {
+          "surface": "Schwächen",
+          "hint": "die Schwäche, -n — недоліки"
+        },
+        {
+          "surface": "Personengruppen",
+          "hint": "die Personengruppe, -n — група людей"
+        },
+        {
+          "surface": "Einflussfaktoren",
+          "hint": "der Einflussfaktor, -e — фактор впливу"
+        },
+        {
+          "surface": "Fachleuten",
+          "hint": "die Fachleute — фахівці"
+        },
+        {
+          "surface": "überholt",
+          "hint": "überholt — застарілий"
+        },
+        {
+          "surface": "Entscheidungsthema",
+          "hint": "das Entscheidungsthema — тема вибору"
+        }
+      ],
+      "category": "Gesundheit",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf/04260c.jpg",
+      "publishedAt": "2026-09-28T03:29:32.000Z",
+      "processedAt": "2026-09-28T06:44:36.530Z",
+      "vocabularyHintsRu": [
+        "gesundheitlich — связанный со здоровьем",
+        "wissenschaftlich — научный",
+        "kritisieren — критиковать",
+        "methodisch — методический",
+        "die Schwäche, -n — недостатки",
+        "die Personengruppe, -n — группа людей",
+        "der Einflussfaktor, -e — фактор влияния",
+        "die Fachleute — специалисты",
+        "überholt — устаревший",
+        "das Entscheidungsthema — тема выбора"
+      ]
+    },
+    {
+      "id": "70b1d53f",
+      "originalTitle": "Nein zu Neutralitätsinitiative - SVP zeigt sich kämpferisch - SP will klare Kante zeigen",
+      "simplifiedText": "Die SVP hat nach dem Scheitern der Neutralitätsinitiative angekündigt, das Vertragspaket mit der EU vorantreiben. Damit will die Partei die Verhandlungen beschleunigen, weil sie die wirtschaftlichen Vorteile für die Schweiz betont. Die SP kritisiert das Vorgehen der SVP und fordert eine klare Kante in der Aussenpolitik. Sie warnt, dass ein zu schnelles Vorgehen die Beziehungen zu den Nachbarländern belasten könnte. Die SVP reagiert kämpferisch und betont, dass das Paket ein wichtiger Schritt zur Integration in den europäischen Binnenmarkt sei. Gleichzeitig weist sie darauf hin, dass das Parlament noch über einzelne Punkte entscheiden muss. Die Debatte im Nationalrat wird voraussichtlich nächste Woche beginnen, wobei beide Parteien ihre Standpunkte klar darstellen wollen. Analysten sehen das Scheitern der Initiative als Chance für die SVP, ihr Profil in der Europapolitik zu schärfen.",
+      "vocabularyHints": [
+        "die Neutralitätsinitiative, -en — ініціатива нейтральності",
+        "das Vertragspaket, -e — пакет договорів",
+        "vorantreiben — просувати вперед",
+        "die Kante, -n — межа, лінія",
+        "die Aussenpolitik — зовнішня політика",
+        "belasten — обтяжувати, навантажувати",
+        "kämpferisch — бойовий, агресивний",
+        "der Binnenmarkt, -e — внутрішній ринок",
+        "der Nationalrat — Національна рада",
+        "der Analyst, -en — аналітики"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative, -en — ініціатива нейтральності"
+        },
+        {
+          "surface": "Vertragspaket",
+          "hint": "das Vertragspaket, -e — пакет договорів"
+        },
+        {
+          "surface": "vorantreiben",
+          "hint": "vorantreiben — просувати вперед"
+        },
+        {
+          "surface": "Kante",
+          "hint": "die Kante, -n — межа, лінія"
+        },
+        {
+          "surface": "Aussenpolitik",
+          "hint": "die Aussenpolitik — зовнішня політика"
+        },
+        {
+          "surface": "belasten",
+          "hint": "belasten — обтяжувати, навантажувати"
+        },
+        {
+          "surface": "kämpferisch",
+          "hint": "kämpferisch — бойовий, агресивний"
+        },
+        {
+          "surface": "Binnenmarkt",
+          "hint": "der Binnenmarkt, -e — внутрішній ринок"
+        },
+        {
+          "surface": "Nationalrat",
+          "hint": "der Nationalrat — Національна рада"
+        },
+        {
+          "surface": "Analysten",
+          "hint": "der Analyst, -en — аналітики"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/cfe587f.jpg",
+      "publishedAt": "2026-09-28T03:51:41.000Z",
+      "processedAt": "2026-09-28T06:43:16.186Z",
+      "vocabularyHintsRu": [
+        "die Neutralitätsinitiative, -en — инициатива нейтральности",
+        "das Vertragspaket, -e — пакет договоров",
+        "vorantreiben — продвигать вперёд",
+        "die Kante, -n — граница, линия",
+        "die Aussenpolitik — внешняя политика",
+        "belasten — обременять, нагружать",
+        "kämpferisch — боевой, агрессивный",
+        "der Binnenmarkt, -e — внутренний рынок",
+        "der Nationalrat — Национальный совет",
+        "der Analyst, -en — аналитики"
+      ]
+    },
+    {
+      "id": "154b91bb",
+      "originalTitle": "Krieg in der Ukraine - Wadephul trifft Lawrow: «Mit Gegnern muss man verhandeln»",
+      "simplifiedText": "Deutschlands Aussenminister Robert Wadephul traf sich erstmals seit der russischen Invasion mit dem russischen Aussenminister Sergej Lawrow. Das Treffen war das erste direkte Gespräch zwischen den beiden Ministerien seit fast zwei Jahren. Beide Politiker kamen zu einem kurzen Austausch zusammen, um die aktuelle Lage zu erörtern. Sie betonten, dass ein direkter Dialog trotz des Konflikts wichtig sei. Wadephul erklärte, dass Deutschland weiterhin für eine friedliche Lösung einstehe. Lawrow wies darauf hin, dass Russland ebenfalls an einem Dialog interessiert sei. Das Treffen wurde von internationalen Beobachtern als möglicher erster Schritt zu Verhandlungen gesehen. Es bleibt abzuwarten, welche konkreten Ergebnisse daraus folgen. Die Situation in der Ukraine bleibt weiterhin angespannt.",
+      "vocabularyHints": [
+        "die Invasion, -en — військове вторгнення",
+        "der Austausch, -e — обмін",
+        "erörtern — обговорювати",
+        "die Verhandlung, -en — переговори",
+        "konkret — конкретний",
+        "angespannt — напружений",
+        "der Beobachter, - — спостерігач"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Invasion",
+          "hint": "die Invasion, -en — військове вторгнення"
+        },
+        {
+          "surface": "Austausch",
+          "hint": "der Austausch, -e — обмін"
+        },
+        {
+          "surface": "erörtern",
+          "hint": "erörtern — обговорювати"
+        },
+        {
+          "surface": "Verhandlungen",
+          "hint": "die Verhandlung, -en — переговори"
+        },
+        {
+          "surface": "konkreten",
+          "hint": "konkret — конкретний"
+        },
+        {
+          "surface": "angespannt",
+          "hint": "angespannt — напружений"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/76c318.jpg",
+      "publishedAt": "2026-09-28T04:06:20.000Z",
+      "processedAt": "2026-09-28T06:41:59.427Z",
+      "vocabularyHintsRu": [
+        "die Invasion, -en — военное вторжение",
+        "der Austausch, -e — обмен",
+        "erörtern — обсуждать",
+        "die Verhandlung, -en — переговоры",
+        "konkret — конкретный",
+        "angespannt — напряжённый",
+        "der Beobachter, - — наблюдатель"
+      ]
+    },
+    {
+      "id": "31348caf",
+      "originalTitle": "Krieg im Nahen Osten - Ölpreise steigen nach Trumps Absage an Iran",
+      "simplifiedText": "Die Ölpreise sind am Montag stark gestiegen, nachdem US-Präsident Donald Trump den iranischen Friedensplan zur Öffnung der Strasse von Hormus abgelehnt hatte. Der Plan sah vor, dass der Iran die enge Meerenge für die internationale Schifffahrt freigibt, um die Spannungen im Nahen Osten zu verringern. Trumps Ablehnung löste sofort Besorgnis bei den internationalen Märkten aus, weil die Strasse von Hormus einer der wichtigsten Transportwege für Erdöl ist. Analysten warnen, dass ein länger anhaltender Konflikt die Ölversorgung weiter gefährden könnte. In der Folge haben die Terminbörsen in New York und London die Preise für Rohöl um mehrere Prozent nach oben korrigiert. Die europäischen Energieversorger erwarten höhere Kosten für ihre Kunden, wenn die Preise weiter steigen. Die US-Regierung betont, dass sie die Sicherheit der Schifffahrt in der Region gewährleisten will, ohne dem iranischen Vorschlag zuzustimmen. Beobachter hoffen, dass diplomatische Gespräche bald wieder aufgenommen werden, um die Lage zu beruhigen. Bis dahin bleibt die Entwicklung der Ölpreise ein zentrales Thema für die Weltwirtschaft.",
+      "vocabularyHints": [
+        "der Friedensplan — план миру",
+        "Hormus — Хормуз",
+        "die Meerenge — протока",
+        "die Schifffahrt — морський транспорт",
+        "der Analyst — аналіст",
+        "die Terminbörse — ф'ючерсний ринок",
+        "das Rohöl — неперероблена нафта",
+        "der Energieversorger — енергетичний постачальник",
+        "zustimmen — погоджуватись",
+        "der Beobachter — спостерігач",
+        "beruhigen — заспокоювати",
+        "die Entwicklung — розвиток",
+        "die Weltwirtschaft — світова економіка"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Friedensplan",
+          "hint": "der Friedensplan — план миру"
+        },
+        {
+          "surface": "Hormus",
+          "hint": "Hormus — Хормуз"
+        },
+        {
+          "surface": "Meerenge",
+          "hint": "die Meerenge — протока"
+        },
+        {
+          "surface": "Schifffahrt",
+          "hint": "die Schifffahrt — морський транспорт"
+        },
+        {
+          "surface": "Analysten",
+          "hint": "der Analyst — аналіст"
+        },
+        {
+          "surface": "Terminbörsen",
+          "hint": "die Terminbörse — ф'ючерсний ринок"
+        },
+        {
+          "surface": "Rohöl",
+          "hint": "das Rohöl — неперероблена нафта"
+        },
+        {
+          "surface": "Energieversorger",
+          "hint": "der Energieversorger — енергетичний постачальник"
+        },
+        {
+          "surface": "zuzustimmen",
+          "hint": "zustimmen — погоджуватись"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter — спостерігач"
+        },
+        {
+          "surface": "beruhigen",
+          "hint": "beruhigen — заспокоювати"
+        },
+        {
+          "surface": "Entwicklung",
+          "hint": "die Entwicklung — розвиток"
+        },
+        {
+          "surface": "Weltwirtschaft",
+          "hint": "die Weltwirtschaft — світова економіка"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/58faea8.jpg",
+      "publishedAt": "2026-09-28T04:37:34.000Z",
+      "processedAt": "2026-09-28T06:40:28.396Z",
+      "vocabularyHintsRu": [
+        "der Friedensplan — план мира",
+        "Hormus — Хормуз",
+        "die Meerenge — протока",
+        "die Schifffahrt — морской транспорт",
+        "der Analyst — аналитик",
+        "die Terminbörse — фьючерсный рынок",
+        "das Rohöl — непереработанная нефть",
+        "der Energieversorger — энергетический поставщик",
+        "zustimmen — согласиться",
+        "der Beobachter — наблюдатель",
+        "beruhigen — успокаивать",
+        "die Entwicklung — развитие",
+        "die Weltwirtschaft — мировая экономика"
+      ]
+    },
+    {
+      "id": "2d514d6a",
+      "originalTitle": "MTV Video Music Awards - Hauptpreis für Taylor Swift - doch Madonna räumt ab",
+      "simplifiedText": "Taylor Swift hat bei den MTV Video Music Awards mehrere Preise gewonnen. Sie erhielt den Hauptpreis für ihr Video \"Anti-Hero\". Darüber hinaus wurde ihr noch mehrere weitere Auszeichnungen verliehen. Insgesamt hat sie nun 31 Preise erhalten. Damit ist sie die meistgeehrte Künstlerin in der Geschichte der VMA. Die Verleihung wurde von der MTV-Organisation durchgeführt. Das Ereignis wurde von vielen Fans und Medien live verfolgt.",
+      "vocabularyHints": [
+        "der Hauptpreis — головна нагорода",
+        "die Auszeichnung — нагороди",
+        "verleihen — вручити",
+        "insgesamt — всього",
+        "meistgeehrt — найбільш вшанована",
+        "die Verleihung — церемонія вручення",
+        "die MTV-Organisation — організація MTV",
+        "durchführen — провести",
+        "das Ereignis — подія",
+        "verfolgen — спостерігати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Hauptpreis",
+          "hint": "der Hauptpreis — головна нагорода"
+        },
+        {
+          "surface": "Auszeichnungen",
+          "hint": "die Auszeichnung — нагороди"
+        },
+        {
+          "surface": "verliehen",
+          "hint": "verleihen — вручити"
+        },
+        {
+          "surface": "Insgesamt",
+          "hint": "insgesamt — всього"
+        },
+        {
+          "surface": "meistgeehrte",
+          "hint": "meistgeehrt — найбільш вшанована"
+        },
+        {
+          "surface": "Verleihung",
+          "hint": "die Verleihung — церемонія вручення"
+        },
+        {
+          "surface": "MTV-Organisation",
+          "hint": "die MTV-Organisation — організація MTV"
+        },
+        {
+          "surface": "durchgeführt",
+          "hint": "durchführen — провести"
+        },
+        {
+          "surface": "Ereignis",
+          "hint": "das Ereignis — подія"
+        },
+        {
+          "surface": "verfolgt",
+          "hint": "verfolgen — спостерігати"
+        }
+      ],
+      "category": "Kultur",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/d47552.jpg",
+      "publishedAt": "2026-09-28T04:39:07.000Z",
+      "processedAt": "2026-09-28T06:39:03.172Z",
+      "vocabularyHintsRu": [
+        "der Hauptpreis — главная награда",
+        "die Auszeichnung — наград",
+        "verleihen — вручить",
+        "insgesamt — всего",
+        "meistgeehrt — наиболее почитаемая",
+        "die Verleihung — церемония вручения",
+        "die MTV-Organisation — организация MTV",
+        "durchführen — провести",
+        "das Ereignis — событие",
+        "verfolgen — наблюдать"
+      ]
+    },
+    {
+      "id": "7b303fe0",
+      "originalTitle": "Bilder zeigen Federer bei Schwatz mit Hollywood-Star",
+      "simplifiedText": "Roger Federer posierte beim Laver Cup in London zusammen mit einer bekannten Hollywood-Star. Der Laver Cup ist ein prestigeträchtiger Tenniskampf, bei dem Team Europe gegen Team World spielt. Am Sonntag endete das Turnier nach drei spannenden Tagen. Auf dem Platz sorgte Sascha Zverev für Furore, weil er mehrere spektakuläre Schläge zeigte. Neben den sportlichen Highlights war das Rahmenprogramm von Prominenten geprägt. Federer stand dabei mit dem Schauspieler neben dem Spielfeld und lächelte für die Kameras. Die Fotos wurden sofort in den sozialen Medien verbreitet und lösten viele Kommentare aus. Viele Fans freuten sich, weil sie selten die Gelegenheit haben, ihre Idole zusammen zu sehen.",
+      "vocabularyHints": [
+        "posieren — поставив позу",
+        "prestigeträchtig — престижний",
+        "Tenniskampf — тенісний поєдинок",
+        "Furore — сенсація",
+        "spektakulär — вражаючий",
+        "Rahmenprogramm — додаткова програма",
+        "Prominente — знаменитості",
+        "Schauspieler — актор",
+        "verbreiten — поширювати",
+        "Kommentar — коментарі",
+        "Gelegenheit — можливість",
+        "Idol — кумир"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "posierte",
+          "hint": "posieren — поставив позу"
+        },
+        {
+          "surface": "prestigeträchtiger",
+          "hint": "prestigeträchtig — престижний"
+        },
+        {
+          "surface": "Tenniskampf",
+          "hint": "Tenniskampf — тенісний поєдинок"
+        },
+        {
+          "surface": "Furore",
+          "hint": "Furore — сенсація"
+        },
+        {
+          "surface": "spektakuläre",
+          "hint": "spektakulär — вражаючий"
+        },
+        {
+          "surface": "Rahmenprogramm",
+          "hint": "Rahmenprogramm — додаткова програма"
+        },
+        {
+          "surface": "Prominenten",
+          "hint": "Prominente — знаменитості"
+        },
+        {
+          "surface": "Schauspieler",
+          "hint": "Schauspieler — актор"
+        },
+        {
+          "surface": "verbreitet",
+          "hint": "verbreiten — поширювати"
+        },
+        {
+          "surface": "Kommentare",
+          "hint": "Kommentar — коментарі"
+        },
+        {
+          "surface": "Gelegenheit",
+          "hint": "Gelegenheit — можливість"
+        },
+        {
+          "surface": "Idole",
+          "hint": "Idol — кумир"
+        }
+      ],
+      "category": "Sport",
+      "imageUrl": "https://image.20min.ch/2026/09/28/2638c9cf-6c63-4521-b2d3-3043c1530ea8.jpg?s=e00acb122790ec6876c874720b6e8f93",
+      "publishedAt": "2026-09-28T05:17:20.000Z",
+      "processedAt": "2026-09-28T06:37:45.804Z",
+      "vocabularyHintsRu": [
+        "posieren — принял позу",
+        "prestigeträchtig — престижный",
+        "Tenniskampf — теннисный матч",
+        "Furore — сенсация",
+        "spektakulär — впечатляющий",
+        "Rahmenprogramm — дополнительная программа",
+        "Prominente — знаменитости",
+        "Schauspieler — актер",
+        "verbreiten — распространять",
+        "Kommentar — комментарии",
+        "Gelegenheit — возможность",
+        "Idol — кумир"
+      ]
+    },
+    {
+      "id": "6116006f",
+      "originalTitle": "Autoindustrie im Wandel - Die neuen Automarken fordern die gestandenen Konzerne heraus",
+      "simplifiedText": "Neue Automarken drängen seit Anfang des Jahres in die Schweizer Autoindustrie ein. Sie setzen vor allem auf die fortschrittliche Schweizer Technologie, die in den letzten Jahren stark weiterentwickelt wurde. Durch die Nutzung von Elektromobilität und digitaler Vernetzung können die Start-ups die etablierten Konzerne unter Druck setzen. Die grossen Hersteller reagieren, indem sie eigene Innovationsprogramme starten und ihre Produktpalette erweitern. Einige Analysten erwarten, dass der Marktanteil der Neugründungen bis 2025 auf zehn Prozent steigen könnte. Gleichzeitig wird von der Regierung mehr Förderung für Forschung und Entwicklung bereitgestellt, weil die Wirtschaft von dieser Dynamik profitieren soll. Ob die traditionellen Hersteller ihre Führungsposition halten können, hängt davon ab, wie schnell sie ihre Produktionsprozesse digitalisieren. Der Wandel wird von vielen als Chance für mehr Arbeitsplätze im High-Tech-Sektor gesehen.",
+      "vocabularyHints": [
+        "drängen — тиснути, наполягати",
+        "weiterentwickeln — додатково розвивати",
+        "Elektromobilität — електромобільність",
+        "Vernetzung — зв’язування, мережа",
+        "Innovationsprogramm — програма інновацій",
+        "Produktpalette — асортимент продукції",
+        "Marktanteil — частка ринку",
+        "bereitstellen — забезпечувати, надавати",
+        "Dynamik — динаміка",
+        "Führungsposition — керівна позиція",
+        "Produktionsprozess — виробничий процес",
+        "digitalisieren — цифрувати, цифровізувати",
+        "High-Tech-Sektor — сектор високих технологій"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "drängen",
+          "hint": "drängen — тиснути, наполягати"
+        },
+        {
+          "surface": "weiterentwickelt",
+          "hint": "weiterentwickeln — додатково розвивати"
+        },
+        {
+          "surface": "Elektromobilität",
+          "hint": "Elektromobilität — електромобільність"
+        },
+        {
+          "surface": "Vernetzung",
+          "hint": "Vernetzung — зв’язування, мережа"
+        },
+        {
+          "surface": "Innovationsprogramme",
+          "hint": "Innovationsprogramm — програма інновацій"
+        },
+        {
+          "surface": "Produktpalette",
+          "hint": "Produktpalette — асортимент продукції"
+        },
+        {
+          "surface": "Marktanteil",
+          "hint": "Marktanteil — частка ринку"
+        },
+        {
+          "surface": "bereitgestellt",
+          "hint": "bereitstellen — забезпечувати, надавати"
+        },
+        {
+          "surface": "Dynamik",
+          "hint": "Dynamik — динаміка"
+        },
+        {
+          "surface": "Führungsposition",
+          "hint": "Führungsposition — керівна позиція"
+        },
+        {
+          "surface": "Produktionsprozesse",
+          "hint": "Produktionsprozess — виробничий процес"
+        },
+        {
+          "surface": "digitalisieren",
+          "hint": "digitalisieren — цифрувати, цифровізувати"
+        },
+        {
+          "surface": "High-Tech-Sektor",
+          "hint": "High-Tech-Sektor — сектор високих технологій"
+        }
+      ],
+      "category": "Wirtschaft",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/f9997f.jpg",
+      "publishedAt": "2026-09-28T05:17:45.000Z",
+      "processedAt": "2026-09-28T06:36:22.765Z",
+      "vocabularyHintsRu": [
+        "drängen — нажимать, настаивать",
+        "weiterentwickeln — дополнительно развивать",
+        "Elektromobilität — электромобильность",
+        "Vernetzung — связывание, сеть",
+        "Innovationsprogramm — программа инноваций",
+        "Produktpalette — ассортимент продукции",
+        "Marktanteil — доля рынка",
+        "bereitstellen — обеспечивать, предоставлять",
+        "Dynamik — динамика",
+        "Führungsposition — руководящая позиция",
+        "Produktionsprozess — производственный процесс",
+        "digitalisieren — цифровать, оцифровывать",
+        "High-Tech-Sektor — сектор высоких технологий"
+      ]
+    },
+    {
+      "id": "357baf68",
+      "originalTitle": "Neutralitätsinitiative - Internationale Medien reagieren auf Entscheid zu Neutralität",
+      "simplifiedText": "Internationale Medien haben nach dem Ergebnis der Schweizer Neutralitätsinitiative zahlreiche Kommentare veröffentlicht. Das Ergebnis zeigt, dass die Schweiz ihre Neutralität weiter betont, während gleichzeitig Sanktionen gegen Russland und das Nato-Verhältnis thematisiert werden. Einige Zeitungen betonen, dass die Sanktionen ein Zeichen für die Solidarität mit der Ukraine seien. Andere Medien kritisieren, dass das Nato-Verhältnis der Schweiz dadurch belastet werden könnte. Die Reaktionen aus Europa, den USA und Asien verdeutlichen, dass das Thema weit über die Landesgrenzen hinausreicht. In der Schweiz selbst wird diskutiert, ob die aktuelle Sicherheitsstrategie gefährdet wird. Beobachter warnen, dass weitere Sanktionen das Verhältnis zu Russland verschärfen und die Neutralität der Schweiz auf die Probe stellen könnten. Trotz dieser Bedenken bleibt die offizielle Position, dass die Neutralität ein zentrales Element der Schweizer Aussenpolitik ist. Experten gehen davon aus, dass die internationale Berichterstattung das politische Klima in den kommenden Monaten beeinflussen wird.",
+      "vocabularyHints": [
+        "die Neutralitätsinitiative, -en — ініціатива нейтралітету",
+        "die Sanktion, -en — санкції",
+        "das Nato-Verhältnis, -e — відносини зі НАТО",
+        "die Solidarität — солідарність",
+        "kritisieren — критикувати",
+        "belasten — обтяжувати",
+        "verdeutlichen — пояснювати",
+        "die Sicherheitsstrategie, -en — стратегія безпеки",
+        "der Beobachter, - — спостерігач",
+        "verschärfen — загострювати"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Neutralitätsinitiative",
+          "hint": "die Neutralitätsinitiative, -en — ініціатива нейтралітету"
+        },
+        {
+          "surface": "Sanktionen",
+          "hint": "die Sanktion, -en — санкції"
+        },
+        {
+          "surface": "Nato-Verhältnis",
+          "hint": "das Nato-Verhältnis, -e — відносини зі НАТО"
+        },
+        {
+          "surface": "Solidarität",
+          "hint": "die Solidarität — солідарність"
+        },
+        {
+          "surface": "kritisieren",
+          "hint": "kritisieren — критикувати"
+        },
+        {
+          "surface": "belastet",
+          "hint": "belasten — обтяжувати"
+        },
+        {
+          "surface": "verdeutlichen",
+          "hint": "verdeutlichen — пояснювати"
+        },
+        {
+          "surface": "Sicherheitsstrategie",
+          "hint": "die Sicherheitsstrategie, -en — стратегія безпеки"
+        },
+        {
+          "surface": "Beobachter",
+          "hint": "der Beobachter, - — спостерігач"
+        },
+        {
+          "surface": "verschärfen",
+          "hint": "verschärfen — загострювати"
+        }
+      ],
+      "category": "Politik",
+      "imageUrl": "https://www.srf.ch/static/cms/images/branded_srf_news/9b1b70.jpg",
+      "publishedAt": "2026-09-28T06:21:52.000Z",
+      "processedAt": "2026-09-28T06:34:59.770Z",
+      "vocabularyHintsRu": [
+        "die Neutralitätsinitiative, -en — инициатива нейтралитета",
+        "die Sanktion, -en — санкции",
+        "das Nato-Verhältnis, -e — отношения с НАТО",
+        "die Solidarität — солидарность",
+        "kritisieren — критиковать",
+        "belasten — обременять",
+        "verdeutlichen — объяснять",
+        "die Sicherheitsstrategie, -en — стратегия безопасности",
+        "der Beobachter, - — наблюдатель",
+        "verschärfen — усугублять"
+      ]
+    },
+    {
       "id": "170c43ca",
       "originalTitle": "Nordirland-Konflikt - Oranier-Marsch in Portadown: Alte Wunden reissen auf",
       "simplifiedText": "Erstmals seit den 1990er-Jahren wollte der Oranier-Orden einen Marsch durch die Stadt Portadown durchführen. Der Marsch war für die Mitglieder des Ordens von grosser Bedeutung. Gegendemonstranten stellten sich dem Marsch entgegen. Sie verhinderten, dass der Oranier-Orden die geplante Route entlang von Portadown nutzte. Durch den Widerstand konnte der Marsch nicht stattfinden. Die Absage des Marsches hat alte Konfliktlinien wieder in den Vordergrund gerückt. Die Ereignisse zeigen, dass die Spannungen in Nordirland weiterhin hoch sind.",
       "vocabularyHints": [
-        "die 1990er-Jahre — 1990‑ті роки",
+        "die 1990er-Jahre — 1990-ті роки",
         "der Oranier-Orden — Орден Оранжерії",
         "Portadown — Портедоун",
         "der Gegendemonstrant — протидемонстрант",
@@ -9100,7 +11127,7 @@
       "vocabularyWords": [
         {
           "surface": "1990er-Jahren",
-          "hint": "die 1990er-Jahre — 1990‑ті роки"
+          "hint": "die 1990er-Jahre — 1990-ті роки"
         },
         {
           "surface": "Oranier-Orden",
@@ -9247,7 +11274,7 @@
         "das Liebhaber-Haus — будинок любителів",
         "etabliert — встановлений",
         "das Lichtspielhaus — кінотеатр",
-        "der Arthouse-Film, -e — артхаус‑фільми",
+        "der Arthouse-Film, -e — артхаус-фільми",
         "der Blockbuster — блокбастер",
         "unabhängig — незалежний",
         "vielfältig — різноманітний",
@@ -9284,7 +11311,7 @@
         },
         {
           "surface": "Arthouse-Filmen",
-          "hint": "der Arthouse-Film, -e — артхаус‑фільми"
+          "hint": "der Arthouse-Film, -e — артхаус-фільми"
         },
         {
           "surface": "Blockbuster",
@@ -9354,7 +11381,7 @@
         "aussergewoehnlich — надзвичайний",
         "die Stellungnahme, -n — заява, коментар",
         "nachvollziehen — розуміти, усвідомлювати",
-        "bindend — обов’язковий",
+        "bindend — обов'язковий",
         "der Beobachter, - — спостерігач",
         "aussprechen — висловлювати, проголошувати"
       ],
@@ -9397,7 +11424,7 @@
         },
         {
           "surface": "bindend",
-          "hint": "bindend — обов’язковий"
+          "hint": "bindend — обов'язковий"
         },
         {
           "surface": "Beobachter",
@@ -9489,7 +11516,7 @@
         "extremistisch — екстремістський",
         "die Priorität — пріоритет",
         "der Ermittler — розслідувач",
-        "der Sprecher — прес‑секретар",
+        "der Sprecher — прес-секретар",
         "das Innenministerium — міністерство внутрішніх справ",
         "der Partner — партнер",
         "zusammenarbeiten — співпрацювати",
@@ -9541,7 +11568,7 @@
         },
         {
           "surface": "Sprecher",
-          "hint": "der Sprecher — прес‑секретар"
+          "hint": "der Sprecher — прес-секретар"
         },
         {
           "surface": "Innenministeriums",
@@ -14594,8 +16621,545 @@
       "processedAt": "2026-09-20T10:21:49.938Z"
     }
   ],
-  "updatedAt": "2026-09-27T19:48:45.232Z",
+  "updatedAt": "2026-09-28T07:06:30.098Z",
   "tsnA1": [
+    {
+      "id": "71b64a56",
+      "originalTitle": "РФ атакує Київ дронами: \"прильоти\" по АЗС, офісних будівлях - деталі",
+      "simplifiedText": "У ніч на 28 вересня російські дрони атакували Київ і створили небезпеку. В Оболонському районі дрон влучив у колонку АЗС і спалахнула пожежа. У Шевченківському районі дрон влучив у офісну будівлю. Троє людей отримали поранення, двох лікували на місці, одного госпіталізували. Екстрені служби швидко приїхали на місце події.",
+      "vocabularyHints": [
+        "дрон — die Drohne, -n",
+        "влучити — treffen",
+        "колонка — die Zapfsäule",
+        "пожежа — das Feuer",
+        "офісна будівля — das Bürogebäude",
+        "поранення — die Verletzung",
+        "госпіталізувати — ins Krankenhaus bringen",
+        "екстрена служба — die Rettungsdienste"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "дрони",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "влучив",
+          "hint": "влучити — treffen"
+        },
+        {
+          "surface": "колонку",
+          "hint": "колонка — die Zapfsäule"
+        },
+        {
+          "surface": "пожежа",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "офісну будівлю",
+          "hint": "офісна будівля — das Bürogebäude"
+        },
+        {
+          "surface": "поранення",
+          "hint": "поранення — die Verletzung"
+        },
+        {
+          "surface": "госпіталізували",
+          "hint": "госпіталізувати — ins Krankenhaus bringen"
+        },
+        {
+          "surface": "екстрені служби",
+          "hint": "екстрена служба — die Rettungsdienste"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/174/tsn-51cb131e/thumbs/608xX/1c/60/a5a390e13617d9dd122e6b1ebca0601c.jpg",
+      "publishedAt": "2026-09-28T04:53:02.000Z",
+      "processedAt": "2026-09-28T06:55:06.151Z",
+      "originalTitleRu": "РФ атакует Киев дронами: \"прилёты\" по АЗС, офисных зданиях - детали",
+      "simplifiedTextRu": "Ночью 28 сентября российские дроны атаковали Киев и создали опасность. В Оболонском районе дрон попал в топливную колонку АЗС, и вспыхнул пожар. В Шевченковском районе дрон попал в офисное здание. Трое людей получили ранения, двоих лечили на месте, одного госпитализировали. Службы спасения быстро прибыли на место происшествия.",
+      "vocabularyHintsRu": [
+        "дрон — die Drohne, -n",
+        "попасть — treffen",
+        "топливная колонка — die Zapfsäule",
+        "пожар — das Feuer",
+        "офисное здание — das Bürogebäude",
+        "ранения — die Verletzung",
+        "госпитализировать — ins Krankenhaus bringen",
+        "служба спасения — die Rettungsdienste"
+      ]
+    },
+    {
+      "id": "48bb33dc",
+      "originalTitle": "Кого вшановує церква в Україні 29 вересня",
+      "simplifiedText": "У православній церкві 29 вересня вшановують преподобного Киріяка. Він народився у 448 році в місті Коринт і став монахом. У молодому віці він залишив батьківський дім і вирушив до Єрусалиму. Там він жив у пустелі, молився і постився під керівництвом преподобного Євфимія. Після смерті свого наставника Киріяк повернувся до лаври в Україні.",
+      "vocabularyHints": [
+        "преподобний — der heilige",
+        "монах — der Mönch",
+        "пустеля — die Wüste",
+        "молитися — beten",
+        "поститися — fasten",
+        "лавра — das Kloster"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "преподобного",
+          "hint": "преподобний — der heilige"
+        },
+        {
+          "surface": "монахом",
+          "hint": "монах — der Mönch"
+        },
+        {
+          "surface": "пустелі",
+          "hint": "пустеля — die Wüste"
+        },
+        {
+          "surface": "молився",
+          "hint": "молитися — beten"
+        },
+        {
+          "surface": "постився",
+          "hint": "поститися — fasten"
+        },
+        {
+          "surface": "лаври",
+          "hint": "лавра — das Kloster"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/293/tsn-1284f5ef/thumbs/608xX/e6/89/74a8431c429c9cf84f603f9f37e889e6.jpg",
+      "publishedAt": "2026-09-28T05:00:00.000Z",
+      "processedAt": "2026-09-28T06:54:00.852Z",
+      "originalTitleRu": "Кого почитает церковь в Украине 29 сентября",
+      "simplifiedTextRu": "В православной церкви 29 сентября почитают преподобного Кирияка. Он родился в 448 году в городе Коринф и стал монахом. В молодом возрасте он покинул родительский дом и отправился в Иерусалим. Там он жил в пустыне, молился и постился под руководством преподобного Евфимия. После смерти своего наставника Кирияк вернулся в лавру в Украине.",
+      "vocabularyHintsRu": [
+        "преподобный — der heilige",
+        "монах — der Mönch",
+        "пустыня — die Wüste",
+        "молиться — beten",
+        "поститься — fasten",
+        "лавра — das Kloster"
+      ]
+    },
+    {
+      "id": "4c7afbe5",
+      "originalTitle": "Кривава ніч на Харківщині: ворог накрив з РСЗВ ринок, багато пошкоджень, є поранені (фото)",
+      "simplifiedText": "Уночі 28 вересня російські війська вистрілили з РСЗВ по ринку в Ізюмі. Вибух спричинив пожежу і пошкодив понад двадцять магазинів. У кількох багатоквартирних будинках вибило вікна і травмували людей. Медики надали постраждалим необхідну допомогу, їх двоє. Наслідки атаки ще уточнюються, але вже є пошкодження.",
+      "vocabularyHints": [
+        "вистріляти — schiessen",
+        "РСЗВ — das Mehrfachraketenwerfersystem",
+        "пожежа — das Feuer",
+        "пошкодити — beschädigen",
+        "багатоквартирний — Mehrfamilien-",
+        "будинок — die Häuser",
+        "травмувати — verletzen",
+        "медик — die Ärzte",
+        "необхідний — notwendig",
+        "допомога — die Hilfe"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "вистрілили",
+          "hint": "вистріляти — schiessen"
+        },
+        {
+          "surface": "РСЗВ",
+          "hint": "РСЗВ — das Mehrfachraketenwerfersystem"
+        },
+        {
+          "surface": "пожежу",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "пошкодив",
+          "hint": "пошкодити — beschädigen"
+        },
+        {
+          "surface": "багатоквартирних",
+          "hint": "багатоквартирний — Mehrfamilien-"
+        },
+        {
+          "surface": "будинках",
+          "hint": "будинок — die Häuser"
+        },
+        {
+          "surface": "травмували",
+          "hint": "травмувати — verletzen"
+        },
+        {
+          "surface": "медики",
+          "hint": "медик — die Ärzte"
+        },
+        {
+          "surface": "необхідну",
+          "hint": "необхідний — notwendig"
+        },
+        {
+          "surface": "допомогу",
+          "hint": "допомога — die Hilfe"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/872/tsn-51cb131e/thumbs/608xX/02/97/412c4f2eeaccfd5891a25fd952389702.jpeg",
+      "publishedAt": "2026-09-28T05:20:00.000Z",
+      "processedAt": "2026-09-28T06:52:56.569Z",
+      "originalTitleRu": "Кровавая ночь в Харьковщине: враг обстрелял рынок из РСЗВ, много повреждений, есть раненые (фото)",
+      "simplifiedTextRu": "Ночью 28 сентября российские войска открыли огонь из РСЗВ по рынку в Изюме. Взрыв вызвал пожар и повредил более двадцати магазинов. В нескольких многоквартирных домах выбило окна и травмировали людей. Медики оказали пострадавшим необходимую помощь, их двое. Последствия атаки ещё уточняются, но уже есть повреждения.",
+      "vocabularyHintsRu": [
+        "стрелять — schiessen",
+        "РСЗВ — das Mehrfachraketenwerfersystem",
+        "пожар — das Feuer",
+        "повредить — beschädigen",
+        "многоквартирный — Mehrfamilien-",
+        "дом — die Häuser",
+        "травмировать — verletzen",
+        "врач — die Ärzte",
+        "необходимый — notwendig",
+        "помощь — die Hilfe"
+      ]
+    },
+    {
+      "id": "17dc9e80",
+      "originalTitle": "Літнє тепло не відступає: прогноз погоди в Україні на 28 вересня здивує високими градусами",
+      "simplifiedText": "28 вересня в Україні буде тепло і комфортно, і температура підніметься до +24°. Більшість регіонів матиме мінливу хмарність без суттєвих опадів. У західних областях вночі може бути туман, а на півдні можливі пориви вітру. У Києві очікується погожий день без дощу, і вітер буде північно‑східний. Тому варто одягнути легку куртку, бо буде приємно тепло.",
+      "vocabularyHints": [
+        "комфортний — das Komfort",
+        "хмарність — die Bewölkung",
+        "опади — der Niederschlag",
+        "туман — der Nebel",
+        "порив — die Böe",
+        "погожий — heiter",
+        "мінливий — wechselhaft"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "комфортно",
+          "hint": "комфортний — das Komfort"
+        },
+        {
+          "surface": "хмарність",
+          "hint": "хмарність — die Bewölkung"
+        },
+        {
+          "surface": "опадів",
+          "hint": "опади — der Niederschlag"
+        },
+        {
+          "surface": "туман",
+          "hint": "туман — der Nebel"
+        },
+        {
+          "surface": "пориви",
+          "hint": "порив — die Böe"
+        },
+        {
+          "surface": "погожий",
+          "hint": "погожий — heiter"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/012/tsn-0b4bc102/thumbs/608xX/52/a5/895cd3d51a7fec011504988cf3a4a552.jpg",
+      "publishedAt": "2026-09-28T05:33:34.000Z",
+      "processedAt": "2026-09-28T06:51:49.048Z",
+      "originalTitleRu": "Летнее тепло не отступает: прогноз погоды в Украине на 28 сентября удивит высокими градусами",
+      "simplifiedTextRu": "28 сентября в Украине будет тепло и комфортно, температура поднимется до +24°. Большинство регионов будет иметь переменчивую облачность без существенных осадков. В западных областях ночью может быть туман, а на юге возможны порывы ветра. В Киеве ожидается ясный день без дождя, и ветер будет северо‑восточный. Поэтому стоит надеть лёгкую куртку, потому что будет приятно тепло.",
+      "vocabularyHintsRu": [
+        "комфортный — das Komfort",
+        "облачность — die Bewölkung",
+        "осадки — der Niederschlag",
+        "туман — der Nebel",
+        "порыв — die Böe",
+        "ясный — heiter",
+        "переменчивый — wechselhaft"
+      ]
+    },
+    {
+      "id": "680d98ce",
+      "originalTitle": "Кривавий удар дронами по Київщині: руйнування у п’яти районах, є загиблі та поранені",
+      "simplifiedText": "У Київській області сьогодні пройшла атака дронів. Троє людей загинули, а вісім отримали поранення. Бій відбувся у п’яти районах області. Руйнування сталися в будинках, складах і на ринках. Після атаки працюють рятувальники і лікарі.",
+      "vocabularyHints": [
+        "атака — der Angriff",
+        "дрон — die Drohne",
+        "поранення — die Verletzung",
+        "район — der Bezirk",
+        "руйнування — die Zerstörung",
+        "рятувальник — der Retter"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "атака",
+          "hint": "атака — der Angriff"
+        },
+        {
+          "surface": "дронів",
+          "hint": "дрон — die Drohne"
+        },
+        {
+          "surface": "поранення",
+          "hint": "поранення — die Verletzung"
+        },
+        {
+          "surface": "районах",
+          "hint": "район — der Bezirk"
+        },
+        {
+          "surface": "руйнування",
+          "hint": "руйнування — die Zerstörung"
+        },
+        {
+          "surface": "рятувальники",
+          "hint": "рятувальник — der Retter"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/767/tsn-0b4bc102/thumbs/608xX/4e/02/9afe6cfc1af8d2ab4f15c14fd3c4024e.jpg",
+      "publishedAt": "2026-09-28T05:50:57.000Z",
+      "processedAt": "2026-09-28T06:50:43.885Z",
+      "originalTitleRu": "Кровавый удар дронами по Киевской области: разрушения в пяти районах, есть погибшие и раненые",
+      "simplifiedTextRu": "В Киевской области сегодня произошла атака дронов. Трое человек погибли, а восемь получили ранения. Бой произошёл в пяти районах области. Разрушения произошли в домах, складах и на рынках. После атаки работают спасатели и врачи.",
+      "vocabularyHintsRu": [
+        "атака — der Angriff",
+        "дрон — die Drohne",
+        "поранення — die Verletzung",
+        "район — der Bezirk",
+        "руйнування — die Zerstörung",
+        "рятувальник — der Retter"
+      ]
+    },
+    {
+      "id": "177ddcde",
+      "originalTitle": "Рік після ракетної атаки та пожежі: будівлю Кабміну досі ремонтують — який вигляд вона має (відео)",
+      "simplifiedText": "Прем’єр‑міністр Сергій Корецький сказав, що будівля Кабміну ще ремонтують. Ремонт триває більше року після ракетної атаки. Під час атаки пожежа залила багато поверхів водою. Корецький зазначив, що Кабмін живе в економ‑режимі через довгі роботи.",
+      "vocabularyHints": [
+        "економ‑режим — der Sparmodus",
+        "приміщення — der Raum",
+        "атака — der Angriff"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "економ‑режимі",
+          "hint": "економ‑режим — der Sparmodus"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/236/tsn-0b4bc102/thumbs/608xX/4d/c5/7a6ef0e6d50184cb5bb53c152008c54d.jpg",
+      "publishedAt": "2026-09-28T05:55:12.000Z",
+      "processedAt": "2026-09-28T06:49:38.674Z",
+      "originalTitleRu": "Год после ракетной атаки и пожара: здание Кабмина до сих пор ремонтируют — как выглядит оно (видео)",
+      "simplifiedTextRu": "Премьер‑министр Сергей Корецкий сказал, что здание Кабмина ещё ремонтируют. Ремонт продолжается более года после ракетной атаки. Во время атаки пожар залил многие этажи водой. Корецкий отметил, что Кабмин живёт в эконом‑режиме из‑за длительных работ.",
+      "vocabularyHintsRu": [
+        "эконом‑режим — der Sparmodus",
+        "помещение — der Raum",
+        "атака — der Angriff"
+      ]
+    },
+    {
+      "id": "76bced18",
+      "originalTitle": "Як підготуватися до блекаутів: експерти пояснили, чи врятує Starlink у багатоквартирному будинку",
+      "simplifiedText": "У Києві можуть бути довгі блекаути взимку. Сергій Стерненко радить розглянути термінали Starlink для зв’язку. Павло Бєлоусов сказав, що Starlink допоможе жителям багатоквартирки в екстреній ситуації. Але один термінал не забезпечить інтернетом сотні квартир. Тому варто мати радіоприймач на батарейках як запасний спосіб отримання новин.",
+      "vocabularyHints": [
+        "блекаут — die Blackout, -s",
+        "термінал — das Terminal, -e",
+        "зв’язок — die Verbindung, -en",
+        "багатоквартирка — das Mehrfamilienhaus, -häuser",
+        "забезпечити — versorgen",
+        "радіоприймач — der Radioempfänger, -"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "блекаути",
+          "hint": "блекаут — die Blackout, -s"
+        },
+        {
+          "surface": "термінали",
+          "hint": "термінал — das Terminal, -e"
+        },
+        {
+          "surface": "зв’язку",
+          "hint": "зв’язок — die Verbindung, -en"
+        },
+        {
+          "surface": "багатоквартирки",
+          "hint": "багатоквартирка — das Mehrfamilienhaus, -häuser"
+        },
+        {
+          "surface": "забезпечить",
+          "hint": "забезпечити — versorgen"
+        },
+        {
+          "surface": "радіоприймач",
+          "hint": "радіоприймач — der Radioempfänger, -"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/364/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/d4/72/5a5e66965bbc0fc7fe9e1267efbf72d4.jpeg",
+      "publishedAt": "2026-09-28T05:59:41.000Z",
+      "processedAt": "2026-09-28T06:48:32.185Z",
+      "originalTitleRu": "Как подготовиться к блэкаутам: эксперты объяснили, спасет ли Starlink в многоквартирном доме",
+      "simplifiedTextRu": "В Киеве могут быть длительные блэкауты зимой. Сергей Стерненко советует рассмотреть терминалы Starlink для связи. Павел Белоусов сказал, что Starlink поможет жителям многоквартирки в экстренной ситуации. Но один терминал не обеспечит интернетом сотни квартир. Поэтому стоит иметь радиоприёмник на батарейках как запасный способ получения новостей.",
+      "vocabularyHintsRu": [
+        "блэкаут — die Blackout, -s",
+        "терминал — das Terminal, -e",
+        "связь — die Verbindung, -en",
+        "многоквартирка — das Mehrfamilienhaus, -häuser",
+        "обеспечить — versorgen",
+        "радиоприёмник — der Radioempfänger, -"
+      ]
+    },
+    {
+      "id": "560121a9",
+      "originalTitle": "Який 29 вересня день — все про важливі події, кого вшановує церква",
+      "simplifiedText": "29 вересня в Україні вшановують День пам’яті Киріяка. Він був монахом, жив у пустелі і в монастирях. У той же день пам’ятають жертви Бабиного Яру 1941 року. Нацисти розстріляли 33 771 єврея в цьому місці. Також 29 вересня святкують Всесвітній день серця.",
+      "vocabularyHints": [
+        "пам’ять — die Erinnerung, -en",
+        "Киріяк — der Kyriyak",
+        "монах — der Mönch, -e",
+        "пустеля — die Wüste, -n",
+        "монастир — das Kloster, -s",
+        "жертва — das Opfer, -e",
+        "Бабин Яр — der Babiń Jaru",
+        "нацист — der Nazi, -s",
+        "розстріляти — erschiessen",
+        "єврей — der Jude, -n",
+        "Всесвітній — der Welttag des Herzens",
+        "серце — das Herz, -e"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "пам’яті",
+          "hint": "пам’ять — die Erinnerung, -en"
+        },
+        {
+          "surface": "Киріяка",
+          "hint": "Киріяк — der Kyriyak"
+        },
+        {
+          "surface": "монахом",
+          "hint": "монах — der Mönch, -e"
+        },
+        {
+          "surface": "пустелі",
+          "hint": "пустеля — die Wüste, -n"
+        },
+        {
+          "surface": "монастирях",
+          "hint": "монастир — das Kloster, -s"
+        },
+        {
+          "surface": "жертви",
+          "hint": "жертва — das Opfer, -e"
+        },
+        {
+          "surface": "Бабиного Яру",
+          "hint": "Бабин Яр — der Babiń Jaru"
+        },
+        {
+          "surface": "нацисти",
+          "hint": "нацист — der Nazi, -s"
+        },
+        {
+          "surface": "розстріляли",
+          "hint": "розстріляти — erschiessen"
+        },
+        {
+          "surface": "єврея",
+          "hint": "єврей — der Jude, -n"
+        },
+        {
+          "surface": "Всесвітній",
+          "hint": "Всесвітній — der Welttag des Herzens"
+        },
+        {
+          "surface": "серця",
+          "hint": "серце — das Herz, -e"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/179/tsn-51cb131e/thumbs/608xX/47/d4/e635e4162518f82623a30435e384d447.png",
+      "publishedAt": "2026-09-28T06:00:00.000Z",
+      "processedAt": "2026-09-28T06:47:26.488Z",
+      "originalTitleRu": "Какой день 29 сентября — всё о важных событиях, кого почитает церковь",
+      "simplifiedTextRu": "29 сентября в Украине отмечают День памяти Кирияка. Он был монахом, жил в пустыне и в монастырях. В тот же день вспоминают жертв Бабьего Яра 1941 года. Нацисты расстреляли 33 771 еврея в этом месте. Также 29 сентября празднуют Всемирный день сердца.",
+      "vocabularyHintsRu": [
+        "память — die Erinnerung, -en",
+        "Кирияк — der Kyriyak",
+        "монах — der Mönch, -e",
+        "пустыня — die Wüste, -n",
+        "монастырь — das Kloster, -s",
+        "жертва — das Opfer, -e",
+        "Бабий Яр — der Babiń Jaru",
+        "нацист — der Nazi, -s",
+        "расстрелять — erschiessen",
+        "еврей — der Jude, -n",
+        "Всемирный — der Welttag des Herzens",
+        "сердце — das Herz, -e"
+      ]
+    },
+    {
+      "id": "2add3e3c",
+      "originalTitle": "Руйнівний шторм накрив країну: блекаут у затоплених містах, вітер вириває дерева, є жертви (фото)",
+      "simplifiedText": "Потужний шторм пройшов узбережжя США і створив велику хвилю. Вітер досяг 128 км/год, зламав дерева і пошкодив лінії електропередач. Через шторм у Нью-Йорку, Нью-Джерсі, Коннектикуті та Пенсильванії залишилося без електрики понад 114 тисяч споживачів. У Брукліні загинув 56‑річний працівник житлового управління, коли дерево впало на нього. Це перша підтверджена жертва шторму.",
+      "vocabularyHints": [
+        "шторм — der Sturm",
+        "узбережжя — die Küste",
+        "хвиля — die Welle",
+        "лінія електропередач — die Stromleitung, -en",
+        "споживач — der Verbraucher, -",
+        "житлове управління — die Wohnungsverwaltung",
+        "підтверджений — bestätigt",
+        "жертва — das Opfer"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "шторм",
+          "hint": "шторм — der Sturm"
+        },
+        {
+          "surface": "узбережжя",
+          "hint": "узбережжя — die Küste"
+        },
+        {
+          "surface": "хвилю",
+          "hint": "хвиля — die Welle"
+        },
+        {
+          "surface": "лінії електропередач",
+          "hint": "лінія електропередач — die Stromleitung, -en"
+        },
+        {
+          "surface": "споживачів",
+          "hint": "споживач — der Verbraucher, -"
+        },
+        {
+          "surface": "житлового управління",
+          "hint": "житлове управління — die Wohnungsverwaltung"
+        },
+        {
+          "surface": "підтверджена",
+          "hint": "підтверджений — bestätigt"
+        },
+        {
+          "surface": "жертва",
+          "hint": "жертва — das Opfer"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/911/tsn-51cb131e/thumbs/608xX/f9/97/b4e73b1cdd9e5a32be79177dd1d797f9.jpg",
+      "publishedAt": "2026-09-28T06:22:23.000Z",
+      "processedAt": "2026-09-28T06:46:19.852Z",
+      "originalTitleRu": "Разрушительный шторм накрыл страну: блэкаут в затопленных городах, ветер вырывает деревья, есть жертвы (фото)",
+      "simplifiedTextRu": "Мощный шторм прошёл по береговой линии США и создал большую волну. Ветер достиг 128 км/ч, сломал деревья и повредил линии электропередач. Из‑за шторма в Нью‑Йорке, Нью‑Джерси, Коннектикуте и Пенсильвании осталось без электроэнергии более 114 тысяч потребителей. В Бруклине погиб 56‑летний сотрудник жилищного управления, когда дерево упало на него. Это первая подтверждённая жертва шторма.",
+      "vocabularyHintsRu": [
+        "шторм — der Sturm",
+        "береговая линия — die Küste",
+        "волна — die Welle",
+        "линия электропередач — die Stromleitung, -en",
+        "потребитель — der Verbraucher, -",
+        "жилищное управление — die Wohnungsverwaltung",
+        "подтверждённый — bestätigt",
+        "жертва — das Opfer"
+      ]
+    },
     {
       "id": "38046a0c",
       "originalTitle": "Трамп запросив Путіна на саміт G20 у США: у Кремлі зробили заяву",
@@ -18426,6 +20990,921 @@
   ],
   "tsnA2": [
     {
+      "id": "73d8bc8b",
+      "originalTitle": "РФ атакує Київ дронами: \"прильоти\" по АЗС, офісних будівлях - деталі",
+      "simplifiedText": "У ніч на 28 вересня російські дрони знову атакували Київ, і в кількох районах були влучання. У Оболонському районі внаслідок падіння дрону пошкоджені колонки на автозаправній станції і виникла пожежа. У Шевченківському районі дрон влучив у офісну будівлю, а в Голосіївському – у кафе біля іншої автозаправки. У Дарницькому районі на відкритій території сталося загоряння через уламки дрону. За словами мера Віталія Кличка, троє людей отримали поранення, двох лікували на місці, а одного госпіталізували. Екстрені служби вже приїхали на всі постраждалі місця, щоб допомогти.",
+      "vocabularyHints": [
+        "атакувати — angreifen",
+        "влучання — der Treffer",
+        "пошкоджений — beschädigt",
+        "пожежа — das Feuer",
+        "офісна будівля — das Bürogebäude",
+        "кафе — das Café",
+        "загоряння — die Brandursache",
+        "уламок — die Trümmer",
+        "госпіталізувати — ins Krankenhaus bringen",
+        "екстрена служба — der Rettungsdienst",
+        "постраждалий — der Verletzte",
+        "медик — der Sanitäter"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "атакували",
+          "hint": "атакувати — angreifen"
+        },
+        {
+          "surface": "влучання",
+          "hint": "влучання — der Treffer"
+        },
+        {
+          "surface": "пошкоджені",
+          "hint": "пошкоджений — beschädigt"
+        },
+        {
+          "surface": "пожежа",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "офісну будівлю",
+          "hint": "офісна будівля — das Bürogebäude"
+        },
+        {
+          "surface": "кафе",
+          "hint": "кафе — das Café"
+        },
+        {
+          "surface": "загоряння",
+          "hint": "загоряння — die Brandursache"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "госпіталізували",
+          "hint": "госпіталізувати — ins Krankenhaus bringen"
+        },
+        {
+          "surface": "екстрені служби",
+          "hint": "екстрена служба — der Rettungsdienst"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/174/tsn-51cb131e/thumbs/608xX/1c/60/a5a390e13617d9dd122e6b1ebca0601c.jpg",
+      "publishedAt": "2026-09-28T04:53:02.000Z",
+      "processedAt": "2026-09-28T06:55:27.803Z",
+      "originalTitleRu": "РФ атакует Киев дронами: «прилёты» по АЗС, офисным зданиям — детали",
+      "simplifiedTextRu": "Ночью 28 сентября российские дроны вновь атаковали Киев, и в нескольких районах произошли попадания. В Оболонском районе из‑за падения дрона повреждены колонки на автозаправочной станции и возник пожар. В Шевченковском районе дрон попал в офисное здание, а в Голосеевском — в кафе рядом с другой автозаправкой. В Дарницком районе на открытой территории произошло возгорание из‑за обломков дрона. По словам мэра Виталия Кличка, трое человек получили ранения, двоих лечили на месте, а одного госпитализировали. Службы экстренного реагирования уже прибыли ко всем пострадавшим местам, чтобы помочь.",
+      "vocabularyHintsRu": [
+        "атаковать — angreifen",
+        "попадание — der Treffer",
+        "повреждённый — beschädigt",
+        "пожар — das Feuer",
+        "офисное здание — das Bürogebäude",
+        "кафе — das Café",
+        "возгорание — die Brandursache",
+        "обломок — die Trümmer",
+        "госпитализировать — ins Krankenhaus bringen",
+        "служба экстренного реагирования — der Rettungsdienst",
+        "пострадавший — der Verletzte",
+        "медик — der Sanitäter"
+      ]
+    },
+    {
+      "id": "2cbef265",
+      "originalTitle": "Кого вшановує церква в Україні 29 вересня",
+      "simplifiedText": "29 вересня в Україні відзначають день пам’яті преподобного Киріяка, який був відомим пустельником. Він народився у 448 році в місті Коринт, а його батько був священником. У 18‑річному віці Киріяк залишив батьківський дім і вирушив до Єрусалиму, де став чернецем під керівництвом преподобного Євфимія Великого. Після навчання у монастирі преподобного Герасима Киріяк жив у пустелі, де багато молився, постився і вчився смиренню. Він не шукав високих посад, а служив братії і уникав марнославства. Після смерті Герасима Киріяк повернувся до лаври, де продовжив свій духовний шлях.",
+      "vocabularyHints": [
+        "преподобний — der heilige",
+        "пустельник — der Einsiedler",
+        "священник — der Priester",
+        "чернець — der Mönch",
+        "монастир — das Kloster",
+        "пустеля — die Wüste",
+        "поститися — fasten",
+        "смирення — die Demut",
+        "братія — die Bruderschaft",
+        "марнославство — der Ehrgeiz",
+        "лавара — die Laube"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "преподобного",
+          "hint": "преподобний — der heilige"
+        },
+        {
+          "surface": "пустельником",
+          "hint": "пустельник — der Einsiedler"
+        },
+        {
+          "surface": "священником",
+          "hint": "священник — der Priester"
+        },
+        {
+          "surface": "чернецем",
+          "hint": "чернець — der Mönch"
+        },
+        {
+          "surface": "монастирі",
+          "hint": "монастир — das Kloster"
+        },
+        {
+          "surface": "пустелі",
+          "hint": "пустеля — die Wüste"
+        },
+        {
+          "surface": "постився",
+          "hint": "поститися — fasten"
+        },
+        {
+          "surface": "смиренню",
+          "hint": "смирення — die Demut"
+        },
+        {
+          "surface": "братії",
+          "hint": "братія — die Bruderschaft"
+        },
+        {
+          "surface": "марнославства",
+          "hint": "марнославство — der Ehrgeiz"
+        },
+        {
+          "surface": "лаври",
+          "hint": "лавара — die Laube"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/293/tsn-1284f5ef/thumbs/608xX/e6/89/74a8431c429c9cf84f603f9f37e889e6.jpg",
+      "publishedAt": "2026-09-28T05:00:00.000Z",
+      "processedAt": "2026-09-28T06:54:22.344Z",
+      "originalTitleRu": "Кого почитает церковь в Украине 29 сентября",
+      "simplifiedTextRu": "29 сентября в Украине отмечают день памяти преподобного Кирияка, который был известным пустынником. Он родился в 448 году в городе Коринф, а его отец был священником. В 18‑летнем возрасте Кирияк покинул родительский дом и отправился в Иерусалим, где стал монахом под руководством преподобного Евфимия Великого. После обучения в монастыре преподобного Герасима Кирияк жил в пустыне, где много молился, постился и учился смирению. Он не искал высоких должностей, а служил братии и избегал тщеславия. После смерти Герасима Кирияк вернулся в лавру, где продолжил свой духовный путь.",
+      "vocabularyHintsRu": [
+        "преподобный — der heilige",
+        "пустельник — der Einsiedler",
+        "священник — der Priester",
+        "чернец — der Mönch",
+        "монастырь — das Kloster",
+        "пустыня — die Wüste",
+        "поститься — fasten",
+        "смирение — die Demut",
+        "братия — die Bruderschaft",
+        "тщеславие — der Ehrgeiz",
+        "лавара — die Laube"
+      ]
+    },
+    {
+      "id": "6bf93406",
+      "originalTitle": "Кривава ніч на Харківщині: ворог накрив з РСЗВ ринок, багато пошкоджень, є поранені (фото)",
+      "simplifiedText": "У ніч на 28 вересня російські війська вдарили по Ізюму на Харківщині, використовуючи реактивну систему залпового вогню. При влученні вибухнув вогонь на Центральному ринку, де спалахнула пожежа і постраждали люди. Пошкоджено більше двадцяти торгових пунктів, а в кількох багатоквартирних будинках вибито вікна. На щастя, лише двоє людей отримали поранення і отримали необхідну медичну допомогу. Поки що точна кількість збитків уточнюється, а в іншій частині Харкова в ту ж ніч вороги застосували керовані авіабомби, що також спричинило пошкодження будинків.",
+      "vocabularyHints": [
+        "пожежа — das Feuer",
+        "пошкодити — beschädigen",
+        "багатоквартирний — mehrfamilien",
+        "вікно — das Fenster",
+        "необхідний — notwendig",
+        "допомога — die Hilfe",
+        "уточнювати — klären",
+        "будинок — das Haus",
+        "ніч — die Nacht",
+        "завдати — verursachen",
+        "удар — der Schlag",
+        "постраждалий — der Verletzte",
+        "медик — der Arzt",
+        "надати — geben",
+        "керований — gelenkt",
+        "авіабомба — die Luftbombe"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "пожежа",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "пошкоджено",
+          "hint": "пошкодити — beschädigen"
+        },
+        {
+          "surface": "багатоквартирних",
+          "hint": "багатоквартирний — mehrfamilien"
+        },
+        {
+          "surface": "вікна",
+          "hint": "вікно — das Fenster"
+        },
+        {
+          "surface": "необхідну",
+          "hint": "необхідний — notwendig"
+        },
+        {
+          "surface": "допомогу",
+          "hint": "допомога — die Hilfe"
+        },
+        {
+          "surface": "уточнюється",
+          "hint": "уточнювати — klären"
+        },
+        {
+          "surface": "будинків",
+          "hint": "будинок — das Haus"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/872/tsn-51cb131e/thumbs/608xX/02/97/412c4f2eeaccfd5891a25fd952389702.jpeg",
+      "publishedAt": "2026-09-28T05:20:00.000Z",
+      "processedAt": "2026-09-28T06:53:18.316Z",
+      "originalTitleRu": "Кровавая ночь в Харьковской области: враг обстрелял рынок РСЗВ, много повреждений, есть раненые (фото)",
+      "simplifiedTextRu": "В ночь на 28 сентября российские войска нанесли удар по Изюму в Харьковской области, используя реактивную систему залпового огня. При попадании вспыхнул огонь на Центральном рынке, где возник пожар и пострадали люди. Повреждено более двадцати торговых пунктов, а в нескольких многоквартирных домах выбиты окна. К счастью, лишь двое человек получили ранения и получили необходимую медицинскую помощь. Пока точное количество убытков уточняется, а в другой части Харькова в ту же ночь враги применили управляемые авиабомбы, что также вызвало повреждение домов.",
+      "vocabularyHintsRu": [
+        "пожар — das Feuer",
+        "повредить — beschädigen",
+        "многоквартирный — mehrfamilien",
+        "окно — das Fenster",
+        "необходимый — notwendig",
+        "помощь — die Hilfe",
+        "уточнять — klären",
+        "дом — das Haus",
+        "ночь — die Nacht",
+        "нанести — verursachen",
+        "удар — der Schlag",
+        "пострадавший — der Verletzte",
+        "врач — der Arzt",
+        "предоставить — geben",
+        "управляемый — gelenkt",
+        "авиабомба — die Luftbombe"
+      ]
+    },
+    {
+      "id": "07a199a1",
+      "originalTitle": "Літнє тепло не відступає: прогноз погоди в Україні на 28 вересня здивує високими градусами",
+      "simplifiedText": "28 вересня в Україні буде тепло, як влітку. У більшості областей буде мінлива хмарність, але без дощу, хоча вночі на півдні можливі короткі дощі. Температура вдень підніметься до +24°C у Закарпатті і до +20°C у Києві. Вітер буде північно‑східний зі швидкістю 5‑10 м/с, а на півдні можуть бути пориви до 15‑20 м/с. У західних областях вранці і вночі буде туман. Усе це повідомив Укргідрометцентр у своїй прогнозі.",
+      "vocabularyHints": [
+        "тепло — die Wärme",
+        "область — die Region, -en",
+        "мінливий — wechselhaft",
+        "хмарність — die Bewölkung",
+        "короткий дощ — kurze Regenfälle",
+        "підніматися — steigen",
+        "північно‑східний — nordostlich",
+        "порив — die Böen",
+        "туман — der Nebel",
+        "повідомляти — mitteilen",
+        "прогноз — die Vorhersage"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "тепло",
+          "hint": "тепло — die Wärme"
+        },
+        {
+          "surface": "областей",
+          "hint": "область — die Region, -en"
+        },
+        {
+          "surface": "мінлива",
+          "hint": "мінливий — wechselhaft"
+        },
+        {
+          "surface": "хмарність",
+          "hint": "хмарність — die Bewölkung"
+        },
+        {
+          "surface": "короткі дощі",
+          "hint": "короткий дощ — kurze Regenfälle"
+        },
+        {
+          "surface": "підніметься",
+          "hint": "підніматися — steigen"
+        },
+        {
+          "surface": "північно‑східний",
+          "hint": "північно‑східний — nordostlich"
+        },
+        {
+          "surface": "пориви",
+          "hint": "порив — die Böen"
+        },
+        {
+          "surface": "туман",
+          "hint": "туман — der Nebel"
+        },
+        {
+          "surface": "повідомив",
+          "hint": "повідомляти — mitteilen"
+        },
+        {
+          "surface": "прогнозі",
+          "hint": "прогноз — die Vorhersage"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/012/tsn-0b4bc102/thumbs/608xX/52/a5/895cd3d51a7fec011504988cf3a4a552.jpg",
+      "publishedAt": "2026-09-28T05:33:34.000Z",
+      "processedAt": "2026-09-28T06:52:11.112Z",
+      "originalTitleRu": "Летнее тепло не отступает: прогноз погоды в Украине на 28 сентября удивит высокими градусами",
+      "simplifiedTextRu": "28 сентября в Украине будет тепло, как летом. В большинстве регионов будет переменная облачность, но без дождя, хотя ночью на юге возможны краткие дожди. Температура днём поднимется до +24°C в Закарпатье и до +20°C в Киеве. Ветер будет северо‑восточный со скоростью 5‑10 м/с, а на юге могут быть порывы до 15‑20 м/с. В западных регионах утром и ночью будет туман. Всё это сообщил Укргидрометцентр в своём прогнозе.",
+      "vocabularyHintsRu": [
+        "тепло — die Wärme",
+        "область — die Region, -en",
+        "мінливий — переменный",
+        "хмарність — die Bewölkung",
+        "короткий дощ — kurze Regenfälle",
+        "підніматися — steigen",
+        "північно‑східний — nordostlich",
+        "порив — die Böen",
+        "туман — der Nebel",
+        "повідомляти — mitteilen",
+        "прогноз — die Vorhersage"
+      ]
+    },
+    {
+      "id": "60018c13",
+      "originalTitle": "Кривавий удар дронами по Київщині: руйнування у п’яти районах, є загиблі та поранені",
+      "simplifiedText": "У ніч на вчорашню добу російські дрони атакували Київську область і влучили у п’ять районів, внаслідок чого загинули троє мирних жителів і ще вісім отримали поранення. Ворог цілеспрямовано вдарив лише цивільні об’єкти, тому будинки, склади та інші будівлі зазнали пошкоджень. У Броварському районі пошкоджено дві склади і дві адміністративні будівлі, а в Бучанському — приватне домоволодіння, місцевий ринок і шість автівок. У Фастівському районі було зруйновано виробниче приміщення і ще шість транспортних засобів, а в Бориспільському — один автомобіль. У Білоцерківському районі постраждало сільськогосподарське підприємство і багатоквартирний будинок. Тимур Ткаченко, голова Київської ОВА, висловив співчуття родинам загиблих і пообіцяв надати медичну допомогу пораненим.",
+      "vocabularyHints": [
+        "дрон — die Drohne, -n",
+        "загинути — sterben",
+        "мирний — zivil",
+        "поранення — die Verletzung, -en",
+        "об’єкт — das Objekt, -e",
+        "пошкоджений — beschädigt",
+        "приватний — privat",
+        "домоволодіння — das Eigentum",
+        "ринок — der Markt",
+        "виробничий — die Produktionsstätte",
+        "транспортний засіб — das Fahrzeug, -e",
+        "сільськогосподарський — die landwirtschaftliche Einrichtung",
+        "багатоквартирний — das Mehrfamilienhaus",
+        "співчуття — das Mitgefühl",
+        "атака — der Angriff",
+        "район — der Bezirk, -e"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "дрони",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "загинули",
+          "hint": "загинути — sterben"
+        },
+        {
+          "surface": "мирних",
+          "hint": "мирний — zivil"
+        },
+        {
+          "surface": "поранення",
+          "hint": "поранення — die Verletzung, -en"
+        },
+        {
+          "surface": "об’єкти",
+          "hint": "об’єкт — das Objekt, -e"
+        },
+        {
+          "surface": "пошкоджено",
+          "hint": "пошкоджений — beschädigt"
+        },
+        {
+          "surface": "приватне",
+          "hint": "приватний — privat"
+        },
+        {
+          "surface": "домоволодіння",
+          "hint": "домоволодіння — das Eigentum"
+        },
+        {
+          "surface": "ринок",
+          "hint": "ринок — der Markt"
+        },
+        {
+          "surface": "виробниче",
+          "hint": "виробничий — die Produktionsstätte"
+        },
+        {
+          "surface": "транспортних засобів",
+          "hint": "транспортний засіб — das Fahrzeug, -e"
+        },
+        {
+          "surface": "сільськогосподарське",
+          "hint": "сільськогосподарський — die landwirtschaftliche Einrichtung"
+        },
+        {
+          "surface": "багатоквартирний",
+          "hint": "багатоквартирний — das Mehrfamilienhaus"
+        },
+        {
+          "surface": "співчуття",
+          "hint": "співчуття — das Mitgefühl"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/767/tsn-0b4bc102/thumbs/608xX/4e/02/9afe6cfc1af8d2ab4f15c14fd3c4024e.jpg",
+      "publishedAt": "2026-09-28T05:50:57.000Z",
+      "processedAt": "2026-09-28T06:51:05.814Z",
+      "originalTitleRu": "Кровавый удар дронами по Киевской области: разрушения в пяти районах, есть погибшие и раненые",
+      "simplifiedTextRu": "В ночь на вчерашний день российские дроны атаковали Киевскую область и попали в пять районов, в результате чего погибли трое мирных жителей и ещё восемь получили ранения. Враг целенаправленно ударил только гражданские объекты, поэтому дома, склады и другие здания получили повреждения. В Броварском районе повреждены два склада и два административных здания, а в Бучанском — частное имущество, местный рынок и шесть автомобилей. В Фастовском районе было разрушено производственное помещение и ещё шесть транспортных средств, а в Бориспольском — один автомобиль. В Белоцерковском районе пострадало сельскохозяйственное предприятие и многоквартирный дом. Тимур Ткаченко, глава Киевской ОВА, выразил соболезнования семьям погибших и пообещал предоставить медицинскую помощь раненым.",
+      "vocabularyHintsRu": [
+        "дрон — die Drohne, -n",
+        "погибнуть — sterben",
+        "мирный — zivil",
+        "раны — die Verletzung, -en",
+        "объект — das Objekt, -e",
+        "повреждённый — beschädigt",
+        "частный — privat",
+        "имущество — das Eigentum",
+        "рынок — der Markt",
+        "производственный — die Produktionsstätte",
+        "транспортное средство — das Fahrzeug, -e",
+        "сельскохозяйственный — die landwirtschaftliche Einrichtung",
+        "многоквартирный — das Mehrfamilienhaus",
+        "соболезнование — das Mitgefühl",
+        "атака — der Angriff",
+        "район — der Bezirk, -e"
+      ]
+    },
+    {
+      "id": "11e99c01",
+      "originalTitle": "Рік після ракетної атаки та пожежі: будівлю Кабміну досі ремонтують — який вигляд вона має (відео)",
+      "simplifiedText": "Прем’єр‑міністр Сергій Корецький сказав, що будівля Кабінету Міністрів України досі ремонтується, бо ракетна атака сталася більше року тому. Під час атаки вікна та стіни були пошкоджені, а під час гасіння пожежі вода залила багато поверхів. Роботи тривають вже рік, тому чиновники змушені працювати в так званому економ‑режимі, коли простір обмежений. Представник Кабміну вибачився за незручності, які створюються під час будівельних робіт. За словами прем’єра, ремонт включає заміну пошкоджених вікон, відновлення електропостачання і очищення залитих приміщень. На сьогодні будівля виглядає частково відновленою, але ще видно сліди пожежі та руйнувань.",
+      "vocabularyHints": [
+        "ремонтувати — repariert werden",
+        "пошкоджений — beschädigt",
+        "залити — überflutet",
+        "змушений — gezwungen",
+        "економ‑режим — Sparmodus",
+        "вибачитися — entschuldigt sich",
+        "незручність — Unannehmlichkeiten",
+        "відновлення — Wiederherstellung",
+        "очищення — Reinigung",
+        "залитий — überflutet",
+        "слід — Spuren"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "ремонтується",
+          "hint": "ремонтувати — repariert werden"
+        },
+        {
+          "surface": "пошкоджені",
+          "hint": "пошкоджений — beschädigt"
+        },
+        {
+          "surface": "залила",
+          "hint": "залити — überflutet"
+        },
+        {
+          "surface": "змушені",
+          "hint": "змушений — gezwungen"
+        },
+        {
+          "surface": "економ‑режимі",
+          "hint": "економ‑режим — Sparmodus"
+        },
+        {
+          "surface": "вибачився",
+          "hint": "вибачитися — entschuldigt sich"
+        },
+        {
+          "surface": "незручності",
+          "hint": "незручність — Unannehmlichkeiten"
+        },
+        {
+          "surface": "відновлення",
+          "hint": "відновлення — Wiederherstellung"
+        },
+        {
+          "surface": "очищення",
+          "hint": "очищення — Reinigung"
+        },
+        {
+          "surface": "залитих",
+          "hint": "залитий — überflutet"
+        },
+        {
+          "surface": "сліди",
+          "hint": "слід — Spuren"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/236/tsn-0b4bc102/thumbs/608xX/4d/c5/7a6ef0e6d50184cb5bb53c152008c54d.jpg",
+      "publishedAt": "2026-09-28T05:55:12.000Z",
+      "processedAt": "2026-09-28T06:50:00.991Z",
+      "originalTitleRu": "Год после ракетного удара и пожара: здание Кабмина до сих пор ремонтируют — как выглядит оно (видео)",
+      "simplifiedTextRu": "Премьер‑министр Сергей Корецький сказал, что здание Кабинета Министров Украины до сих пор ремонтируется, потому что ракетный удар произошёл более года назад. Во время удара окна и стены были повреждены, а при тушении пожара вода затопила многие этажи. Работы продолжаются уже год, поэтому чиновники вынуждены работать в так называемом эконом‑режиме, когда пространство ограничено. Представитель Кабмина извинился за неудобства, которые создаются во время строительных работ. По словам премьера, ремонт включает замену повреждённых окон, восстановление электроснабжения и очистку затопленных помещений. На сегодня здание выглядит частично восстановленным, но ещё видны следы пожара и разрушений.",
+      "vocabularyHintsRu": [
+        "ремонтировать — repariert werden",
+        "повреждённый — beschädigt",
+        "залить — überflutet",
+        "вынужден — gezwungen",
+        "эконом‑режим — Sparmodus",
+        "извиниться — entschuldigt sich",
+        "неудобство — Unannehmlichkeiten",
+        "восстановление — Wiederherstellung",
+        "очистка — Reinigung",
+        "залитый — überflutet",
+        "след — Spuren"
+      ]
+    },
+    {
+      "id": "51a13787",
+      "originalTitle": "Як підготуватися до блекаутів: експерти пояснили, чи врятує Starlink у багатоквартирному будинку",
+      "simplifiedText": "У зимовий час у Києві часто бувають тривалі блекаути, тому мешканцям варто мати резервний спосіб зв’язку. Громадський діяч Сергій Стерненко порадив розглянути термінали Starlink як один із варіантів. За словами експерта з цифрової безпеки Павла Бєлоусова, Starlink може стати рятівником для жителів багатоповерхових будинків, якщо його встановити на даху або у дворі. Однак один термінал не зможе забезпечити стабільний інтернет для сотень квартир одночасно. Тому експерти радять мати ще інші засоби, наприклад автономний радіоприймач на батарейках. Такий приймач дозволить слухати новини навіть без електрики та мобільного зв’язку.",
+      "vocabularyHints": [
+        "зимовий — der Winter",
+        "тривалий — lang",
+        "блекаут — die Stromausfälle",
+        "мешканець — die Bewohner",
+        "резервний — die Reserve",
+        "спосіб — die Methode",
+        "зв’язок — die Verbindung",
+        "громадський — der öffentliche",
+        "діяч — der Aktivist",
+        "порадити — empfehlen",
+        "розглядати — erwägen",
+        "термінал — die Terminals",
+        "варіант — die Option",
+        "цифровий — digital",
+        "безпека — die Sicherheit",
+        "рятівник — der Retter",
+        "багатоповерховий — hoch­geschossig",
+        "будинок — das Gebäude",
+        "встановити — installieren",
+        "дах — das Dach",
+        "двор — der Hof",
+        "забезпечити — sicherstellen",
+        "стабільний — stabil",
+        "інтернет — das Internet",
+        "одночасний — gleichzeitig",
+        "радити — empfehlen",
+        "автономний — autonom",
+        "радіоприймач — der Radioempfänger",
+        "батарейка — die Batterie",
+        "слухати — hören",
+        "новина — die Nachrichten",
+        "електрика — der Strom",
+        "мобільний — mobil",
+        "експерт — der Experte"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "зимовий",
+          "hint": "зимовий — der Winter"
+        },
+        {
+          "surface": "тривалі",
+          "hint": "тривалий — lang"
+        },
+        {
+          "surface": "блекаути",
+          "hint": "блекаут — die Stromausfälle"
+        },
+        {
+          "surface": "мешканцям",
+          "hint": "мешканець — die Bewohner"
+        },
+        {
+          "surface": "резервний",
+          "hint": "резервний — die Reserve"
+        },
+        {
+          "surface": "спосіб",
+          "hint": "спосіб — die Methode"
+        },
+        {
+          "surface": "зв’язку",
+          "hint": "зв’язок — die Verbindung"
+        },
+        {
+          "surface": "громадський",
+          "hint": "громадський — der öffentliche"
+        },
+        {
+          "surface": "діяч",
+          "hint": "діяч — der Aktivist"
+        },
+        {
+          "surface": "порадив",
+          "hint": "порадити — empfehlen"
+        },
+        {
+          "surface": "розглянути",
+          "hint": "розглядати — erwägen"
+        },
+        {
+          "surface": "термінали",
+          "hint": "термінал — die Terminals"
+        },
+        {
+          "surface": "варіантів",
+          "hint": "варіант — die Option"
+        },
+        {
+          "surface": "цифрової",
+          "hint": "цифровий — digital"
+        },
+        {
+          "surface": "безпеки",
+          "hint": "безпека — die Sicherheit"
+        },
+        {
+          "surface": "рятівником",
+          "hint": "рятівник — der Retter"
+        },
+        {
+          "surface": "багатоповерхових",
+          "hint": "багатоповерховий — hoch­geschossig"
+        },
+        {
+          "surface": "будинків",
+          "hint": "будинок — das Gebäude"
+        },
+        {
+          "surface": "встановити",
+          "hint": "встановити — installieren"
+        },
+        {
+          "surface": "даху",
+          "hint": "дах — das Dach"
+        },
+        {
+          "surface": "дворі",
+          "hint": "двор — der Hof"
+        },
+        {
+          "surface": "забезпечити",
+          "hint": "забезпечити — sicherstellen"
+        },
+        {
+          "surface": "стабільний",
+          "hint": "стабільний — stabil"
+        },
+        {
+          "surface": "інтернет",
+          "hint": "інтернет — das Internet"
+        },
+        {
+          "surface": "одночасно",
+          "hint": "одночасний — gleichzeitig"
+        },
+        {
+          "surface": "радять",
+          "hint": "радити — empfehlen"
+        },
+        {
+          "surface": "автономний",
+          "hint": "автономний — autonom"
+        },
+        {
+          "surface": "радіоприймач",
+          "hint": "радіоприймач — der Radioempfänger"
+        },
+        {
+          "surface": "батарейках",
+          "hint": "батарейка — die Batterie"
+        },
+        {
+          "surface": "слухати",
+          "hint": "слухати — hören"
+        },
+        {
+          "surface": "новини",
+          "hint": "новина — die Nachrichten"
+        },
+        {
+          "surface": "електрики",
+          "hint": "електрика — der Strom"
+        },
+        {
+          "surface": "мобільного",
+          "hint": "мобільний — mobil"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/364/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/d4/72/5a5e66965bbc0fc7fe9e1267efbf72d4.jpeg",
+      "publishedAt": "2026-09-28T05:59:41.000Z",
+      "processedAt": "2026-09-28T06:48:55.514Z",
+      "originalTitleRu": "Как подготовиться к блэкаутам: эксперты объяснили, спасёт ли Starlink в многоквартирном доме",
+      "simplifiedTextRu": "В зимний период в Киеве часто происходят длительные блэкауты, поэтому жителям стоит иметь резервный способ связи. Общественный деятель Сергей Стерненко посоветовал рассмотреть терминалы Starlink как один из вариантов. По словам эксперта по цифровой безопасности Павла Белоусова, Starlink может стать спасателем для жителей многоэтажных зданий, если его установить на крыше или во дворе. Однако один терминал не сможет обеспечить стабильный интернет для сотен квартир одновременно. Поэтому эксперты советуют иметь и другие средства, например автономный радиоприёмник на батареях. Такой приёмник позволит слушать новости даже без электроэнергии и мобильной связи.",
+      "vocabularyHintsRu": [
+        "зимний — der Winter",
+        "длительный — lang",
+        "блэкаут — die Stromausfälle",
+        "житель — die Bewohner",
+        "резервный — die Reserve",
+        "способ — die Methode",
+        "связь — die Verbindung",
+        "общественный — der öffentliche",
+        "деятель — der Aktivist",
+        "посоветовать — empfehlen",
+        "рассматривать — erwägen",
+        "терминал — die Terminals",
+        "вариант — die Option",
+        "цифровой — digital",
+        "безопасность — die Sicherheit",
+        "спасатель — der Retter",
+        "многоэтажный — hoch­geschossig",
+        "здание — das Gebäude",
+        "установить — installieren",
+        "крыша — das Dach",
+        "двор — der Hof",
+        "обеспечить — sicherstellen",
+        "стабильный — stabil",
+        "интернет — das Internet",
+        "одновременный — gleichzeitig",
+        "советовать — empfehlen",
+        "автономный — autonom",
+        "радиоприёмник — der Radioempfänger",
+        "батарея — die Batterie",
+        "слушать — hören",
+        "новость — die Nachrichten",
+        "электроэнергия — der Strom",
+        "мобильный — mobil",
+        "эксперт — der Experte"
+      ]
+    },
+    {
+      "id": "2c499336",
+      "originalTitle": "Який 29 вересня день — все про важливі події, кого вшановує церква",
+      "simplifiedText": "29 вересня 2026 року – вівторок, і це 1678‑й день війни в Україні. У цей день віряни вшановують День пам’яті преподобного Киріяка‑самітника, який жив у Палестині, народився в Коринфі і багато років провів у монастирях і пустелі, присвятивши життя молитві, посту та усамітненню. За легендами, поруч із ним у пустелі жив лев, який не шкодив й навіть охороняв його. 29 вересня також відзначають День пам’яті трагедії Бабиного Яру, коли у 1941 р. нацисти розстріляли 33 771 єврея та інші жертви. Окрім того, це Всесвітній день серця, коли Федерація серця закликає людей піклуватися про здоров’я серця і запобігати хворобам.",
+      "vocabularyHints": [
+        "преподобний — der heilige",
+        "самітник — der Einsiedler",
+        "монастир — das Kloster, -e",
+        "пустеля — die Wüste, -n",
+        "пост — die Fastenzeit",
+        "усамітнення — die Einsiedelei",
+        "легенда — die Legende, -n",
+        "трагедія — die Tragödie, -n",
+        "нацист — der Nazi, -s",
+        "розстріляти — erschiessen",
+        "федерація — die Föderation",
+        "вшанувати — die ehren",
+        "переважно — vorwiegend",
+        "психіатричний — psychiatrisch",
+        "профілактика — die Prävention",
+        "серцево‑судинний — kardiovaskulär"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "преподобного",
+          "hint": "преподобний — der heilige"
+        },
+        {
+          "surface": "самітника",
+          "hint": "самітник — der Einsiedler"
+        },
+        {
+          "surface": "монастирях",
+          "hint": "монастир — das Kloster, -e"
+        },
+        {
+          "surface": "пустелі",
+          "hint": "пустеля — die Wüste, -n"
+        },
+        {
+          "surface": "посту",
+          "hint": "пост — die Fastenzeit"
+        },
+        {
+          "surface": "усамітненню",
+          "hint": "усамітнення — die Einsiedelei"
+        },
+        {
+          "surface": "легендами",
+          "hint": "легенда — die Legende, -n"
+        },
+        {
+          "surface": "трагедії",
+          "hint": "трагедія — die Tragödie, -n"
+        },
+        {
+          "surface": "нацисти",
+          "hint": "нацист — der Nazi, -s"
+        },
+        {
+          "surface": "розстріляли",
+          "hint": "розстріляти — erschiessen"
+        },
+        {
+          "surface": "Федерація",
+          "hint": "федерація — die Föderation"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/179/tsn-51cb131e/thumbs/608xX/47/d4/e635e4162518f82623a30435e384d447.png",
+      "publishedAt": "2026-09-28T06:00:00.000Z",
+      "processedAt": "2026-09-28T06:47:48.328Z",
+      "originalTitleRu": "Какой день 29 сентября — всё о важных событиях, кого почитает церковь",
+      "simplifiedTextRu": "29 сентября 2026 года — вторник, и это 1678‑й день войны в Украине. В этот день верующие отмечают День памяти преподобного Кирияка‑отшельника, который жил в Палестине, родился в Коринфе и многие годы провёл в монастырях и пустыне, посвятив жизнь молитве, посту и уединению. По легендам, рядом с ним в пустыне жил лев, который не вредил и даже охранял его. 29 сентября также отмечают День памяти трагедии Бабьего Яра, когда в 1941 году нацисты расстреляли 33 771 еврея и другие жертвы. Кроме того, это Всемирный день сердца, когда Федерация сердца призывает людей заботиться о здоровье сердца и предотвращать болезни.",
+      "vocabularyHintsRu": [
+        "преподобный — der heilige",
+        "отшельник — der Einsiedler",
+        "монастырь — das Kloster, -e",
+        "пустыня — die Wüste, -n",
+        "пост — die Fastenzeit",
+        "уединение — die Einsiedelei",
+        "легенда — die Legende, -n",
+        "трагедия — die Tragödie, -n",
+        "нацист — der Nazi, -s",
+        "расстрелять — erschiessen",
+        "федерация — die Föderation",
+        "почитать — die ehren",
+        "преимущественно — vorwiegend",
+        "психиатрический — psychiatrisch",
+        "профилактика — die Prävention",
+        "сердечно-сосудистый — kardiovaskulär"
+      ]
+    },
+    {
+      "id": "6e43ad7d",
+      "originalTitle": "Руйнівний шторм накрив країну: блекаут у затоплених містах, вітер вириває дерева, є жертви (фото)",
+      "simplifiedText": "Потужний шторм, який назвали нор’істер, пройшов по східному узбережжю США і приніс вітри до 128 км/год, великі хвилі і сильні повені. Через сильний вітер і підйом води залишилося без електрики понад 114 тисяч домогосподарств у Нью‑Йорку, Нью‑Джерсі, Коннектикуті та Пенсильванії. Дерева падали і ламали опори ліній електропередач, через що багато людей залишилися в темряві. Першою підтвердженою жертвою став 56‑річний житель Нью‑Йорка, який загинув, коли дерево впало на його будинок у Брукліні. Медики доставили його до лікарні, але не змогли врятувати життя. Мер міста висловив співчуття родині і пообіцяв, що памʼять про померлого не буде забута.",
+      "vocabularyHints": [
+        "потужний — der starke",
+        "шторм — der Sturm",
+        "вітер — der Wind",
+        "хвиля — die Welle",
+        "повінь — die Flut",
+        "електрика — der Strom",
+        "домогосподарство — der Haushalt",
+        "опора — die Stütze",
+        "жертва — das Opfer",
+        "медик — der Arzt",
+        "мер — der Bürgermeister",
+        "співчуття — das Mitgefühl"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "потужний",
+          "hint": "потужний — der starke"
+        },
+        {
+          "surface": "шторм",
+          "hint": "шторм — der Sturm"
+        },
+        {
+          "surface": "вітри",
+          "hint": "вітер — der Wind"
+        },
+        {
+          "surface": "хвилі",
+          "hint": "хвиля — die Welle"
+        },
+        {
+          "surface": "повені",
+          "hint": "повінь — die Flut"
+        },
+        {
+          "surface": "електрики",
+          "hint": "електрика — der Strom"
+        },
+        {
+          "surface": "домогосподарств",
+          "hint": "домогосподарство — der Haushalt"
+        },
+        {
+          "surface": "опори",
+          "hint": "опора — die Stütze"
+        },
+        {
+          "surface": "жертвою",
+          "hint": "жертва — das Opfer"
+        },
+        {
+          "surface": "медики",
+          "hint": "медик — der Arzt"
+        },
+        {
+          "surface": "мер",
+          "hint": "мер — der Bürgermeister"
+        },
+        {
+          "surface": "співчуття",
+          "hint": "співчуття — das Mitgefühl"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/911/tsn-51cb131e/thumbs/608xX/f9/97/b4e73b1cdd9e5a32be79177dd1d797f9.jpg",
+      "publishedAt": "2026-09-28T06:22:23.000Z",
+      "processedAt": "2026-09-28T06:46:41.500Z",
+      "originalTitleRu": "Разрушительный шторм накрыл страну: блэкаут в затопленных городах, ветер срывает деревья, есть жертвы (фото)",
+      "simplifiedTextRu": "Мощный шторм, названный нор’истером, прошёл по восточному побережью США и принёс ветра до 128 км/ч, большие волны и сильные наводнения. Из‑за сильного ветра и подъёма воды более 114 тысяч домохозяйств остались без электричества в Нью‑Йорке, Нью‑Джерси, Коннектикуте и Пенсильвании. Деревья падали и ломали опоры линий электропередач, из‑за чего многие люди остались во тьме. Первой подтверждённой жертвой стал 56‑летний житель Нью‑Йорка, который погиб, когда дерево упало на его дом в Бруклине. Врачи доставили его в больницу, но не смогли спасти жизнь. Мэр города выразил сочувствие семье и пообещал, что память о погибшем не будет забыта.",
+      "vocabularyHintsRu": [
+        "мощный — der starke",
+        "шторм — der Sturm",
+        "ветер — der Wind",
+        "волна — die Welle",
+        "наводнение — die Flut",
+        "электричество — der Strom",
+        "домохозяйство — der Haushalt",
+        "опора — die Stütze",
+        "жертва — das Opfer",
+        "врач — der Arzt",
+        "мэр — der Bürgermeister",
+        "сочувствие — das Mitgefühl"
+      ]
+    },
+    {
       "id": "00dbf693",
       "originalTitle": "Трамп запросив Путіна на саміт G20 у США: у Кремлі зробили заяву",
       "simplifiedText": "Президент США Дональд Трамп запросив російського президента Володимира Путіна на саміт G20 у Флориді. У Кремлі прессекретар Дмитро Пєсков сказав, що Росія цінує це запрошення, але вважає за потрібне не робити передчасних висновків. Він додав, що рішення про участь Путіна ще не прийняте і буде враховувати всі обставини. У той же час Кремль підкреслив, що Росія братиме активну участь у роботі G20. За словами Пєскова, навіть під час масштабної гібридної війни між Росією і країнами НАТО, діалог залишиться важливим. Саміт заплановано на грудень у місті Маямі.",
@@ -21920,6 +25399,555 @@
     }
   ],
   "tsnB1": [
+    {
+      "id": "5a9b8ae9",
+      "originalTitle": "РФ атакує Київ дронами: \"прильоти\" по АЗС, офісних будівлях - деталі",
+      "simplifiedText": "У ніч на 28 вересня російські «Шахеди» знову атакували Київ. У Оболонському районі влучання безпілотника пошкодило колонку на автозаправній станції і спричинило пожежу. У Шевченківському районі той самий тип дрону влучив у офісну будівлю, а в Голосіївському — у кафе біля заправки. У Дарницькому районі уламки впали на відкриту територію, де розгорілась невелика пожежа. Екстрені служби швидко приїхали на місце і надали допомогу трьом постраждалим, двох з них — підліткам, а одного госпіталізували. За даними мера Віталія Кличка, всі постраждалі мешкають у Подільському районі. Попередня атака 27 вересня також залишила кілька поранених і двох загиблих на ринку в Софіївській Борщагівці.",
+      "vocabularyHints": [
+        "Шахед — die Shahed-Drohnen",
+        "Оболонський район — im Bezirk Obolon",
+        "безпілотник — das unbemannte Luftfahrzeug",
+        "колонка — die Zapfsäulen",
+        "пожежа — das Feuer",
+        "офісна будівля — das Bürogebäude",
+        "кафе — das Café",
+        "уламок — die Trümmer",
+        "екстрена служба — die Rettungsdienste",
+        "постраждалий — die Verletzten",
+        "госпіталізувати — ins Krankenhaus bringen",
+        "Подільський район — im Bezirk Podil",
+        "мер — der Bürgermeister"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "Шахеди",
+          "hint": "Шахед — die Shahed-Drohnen"
+        },
+        {
+          "surface": "Оболонському районі",
+          "hint": "Оболонський район — im Bezirk Obolon"
+        },
+        {
+          "surface": "безпілотника",
+          "hint": "безпілотник — das unbemannte Luftfahrzeug"
+        },
+        {
+          "surface": "колонку",
+          "hint": "колонка — die Zapfsäulen"
+        },
+        {
+          "surface": "пожежу",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "офісну будівлю",
+          "hint": "офісна будівля — das Bürogebäude"
+        },
+        {
+          "surface": "кафе",
+          "hint": "кафе — das Café"
+        },
+        {
+          "surface": "уламки",
+          "hint": "уламок — die Trümmer"
+        },
+        {
+          "surface": "екстрені служби",
+          "hint": "екстрена служба — die Rettungsdienste"
+        },
+        {
+          "surface": "постраждалим",
+          "hint": "постраждалий — die Verletzten"
+        },
+        {
+          "surface": "госпіталізували",
+          "hint": "госпіталізувати — ins Krankenhaus bringen"
+        },
+        {
+          "surface": "Подільському районі",
+          "hint": "Подільський район — im Bezirk Podil"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/174/tsn-51cb131e/thumbs/608xX/1c/60/a5a390e13617d9dd122e6b1ebca0601c.jpg",
+      "publishedAt": "2026-09-28T04:53:02.000Z",
+      "processedAt": "2026-09-28T06:55:50.064Z",
+      "originalTitleRu": "РФ атакует Киев дронами: «прилёты» по АЗС, офисным зданиям — детали",
+      "simplifiedTextRu": "Ночью 28 сентября российские «Шахеды» вновь атаковали Киев. В Оболонском районе попадание беспилотника повредило колонку на автозаправочной станции и вызвало пожар. В Шевченковском районе тот же тип дрона попал в офисное здание, а в Голосиевском — в кафе рядом с заправкой. В Дарницком районе обломки упали на открытую территорию, где разгорелся небольшой пожар. Службы экстренного реагирования быстро прибыли на место и оказали помощь трем пострадавшим, двоим из них — подросткам, одного госпитализировали. По данным мэра Виталия Кличка, все пострадавшие проживают в Подольском районе. Предыдущая атака 27 сентября также оставила несколько раненых и двух погибших на рынке в Софиевской Борщаговке.",
+      "vocabularyHintsRu": [
+        "Шахед — die Shahed-Drohnen",
+        "Оболонский район — im Bezirk Obolon",
+        "беспилотник — das unbemannte Luftfahrzeug",
+        "колонка — die Zapfsäulen",
+        "пожар — das Feuer",
+        "офисное здание — das Bürogebäude",
+        "кафе — das Café",
+        "обломок — die Trümmer",
+        "служба экстренного реагирования — die Rettungsdienste",
+        "пострадавший — die Verletzten",
+        "госпитализировать — ins Krankenhaus bringen",
+        "Подольский район — im Bezirk Podil",
+        "мэр — der Bürgermeister"
+      ]
+    },
+    {
+      "id": "0ef091fd",
+      "originalTitle": "Кого вшановує церква в Україні 29 вересня",
+      "simplifiedText": "29 вересня в православному календарі відзначається день пам’яті преподобного Киріяка‑самітника. Він народився у 448 році в місті Коринт, де його батько Іоанн служив священником, а мати Євдоксія виховувала його в християнській вірі. У 18‑річному віці Киріяк залишив батьківський дім і вирушив до Єрусалиму, де став учнем преподобного Євфимія Великого, відомого пустельника. Євфимій пострізав його в чернецтво і направив до монастиря преподобного Герасима Йорданського, де Киріяк дотримувався суворого посту і вчився смиренню. Молодий чернець не шукав особливих посад, а прагнув служити братії і уникати марнославства. Після смерті Герасима він повернувся до лаври Євфимія, а згодом оселився в лаврі преподобного Харитона. Такі події підкреслюють духовний шлях і покірність, якими вшановують Киріяка в Україні.",
+      "vocabularyHints": [
+        "преподобний — der Äbte",
+        "самітник — der Einsiedler",
+        "Єрусалим — Jerusalem",
+        "пустельник — der Einsiedler",
+        "чернецтво — die Mönchsweihe",
+        "пост — die Fastenzeit",
+        "братія — die Bruderschaft",
+        "марнославство — der Eitelkeit",
+        "лавра — die Laube",
+        "смирення — die Demut"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "преподобного",
+          "hint": "преподобний — der Äbte"
+        },
+        {
+          "surface": "самітника",
+          "hint": "самітник — der Einsiedler"
+        },
+        {
+          "surface": "Єрусалиму",
+          "hint": "Єрусалим — Jerusalem"
+        },
+        {
+          "surface": "пустельника",
+          "hint": "пустельник — der Einsiedler"
+        },
+        {
+          "surface": "чернецтво",
+          "hint": "чернецтво — die Mönchsweihe"
+        },
+        {
+          "surface": "посту",
+          "hint": "пост — die Fastenzeit"
+        },
+        {
+          "surface": "братії",
+          "hint": "братія — die Bruderschaft"
+        },
+        {
+          "surface": "марнославства",
+          "hint": "марнославство — der Eitelkeit"
+        },
+        {
+          "surface": "лаври",
+          "hint": "лавра — die Laube"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/293/tsn-1284f5ef/thumbs/608xX/e6/89/74a8431c429c9cf84f603f9f37e889e6.jpg",
+      "publishedAt": "2026-09-28T05:00:00.000Z",
+      "processedAt": "2026-09-28T06:54:43.977Z",
+      "originalTitleRu": "Кого почитает церковь в Украине 29 сентября",
+      "simplifiedTextRu": "29 сентября в православном календаре отмечается день памяти преподобного Кирияка‑отшельника. Он родился в 448 году в городе Коринф, где его отец Иоанн служил священником, а мать Евдоксия воспитывала его в христианской вере. В 18‑летнем возрасте Кирияк покинул родительский дом и отправился в Иерусалим, где стал учеником преподобного Евфимия Великого, известного пустынника. Евфимий посвятил его в монашество и направил в монастырь преподобного Герасима Иорданского, где Кирияк соблюдал строгий пост и учился смирению. Молодой монах не искал особых должностей, а стремился служить братии и избегать тщеславия. После смерти Герасима он вернулся в лавру Евфимия, а затем обосновался в лавре преподобного Харитона. Такие события подчёркивают духовный путь и покорность, которыми почитают Кирияка в Украине.",
+      "vocabularyHintsRu": [
+        "преподобный — der Äbte",
+        "отшельник — der Einsiedler",
+        "Иерусалим — Jerusalem",
+        "пустынник — der Einsiedler",
+        "монашество — die Mönchsweihe",
+        "пост — die Fastenzeit",
+        "братия — die Bruderschaft",
+        "тщеславие — der Eitelkeit",
+        "лавра — die Laube",
+        "смирение — die Demut"
+      ]
+    },
+    {
+      "id": "1cc3c7e4",
+      "originalTitle": "Кривава ніч на Харківщині: ворог накрив з РСЗВ ринок, багато пошкоджень, є поранені (фото)",
+      "simplifiedText": "У ніч на 28 вересня російські війська вдарили по Ізюму на Харківщині. Приблизно о 00:40 у районі Центрального ринку вибухнула пожежа після влучання реактивної системи залпового вогню. Пожежа пошкодила більше двадцяти торговельних об’єктів і частково вибила вікна в кількох багатоквартирних будинках. На місці працювали медики, яким надали допомогу двом пораненим. Того ж вечора російські окупанти застосували керовані авіабомби проти Київського та Салтівського районів Харкова. За словами міського голови Ігора Терехова, у Харкові також є двоє постраждалих. Наслідки атак ще уточнюються, але вже відомо про значні руйнування житлових будинків і комерційних приміщень.",
+      "vocabularyHints": [
+        "пожежа — das Feuer",
+        "торговельний об’єкт — die Handelsobjekte",
+        "керований авіабомб — die gelenkten Luftbomben",
+        "міський голова — der Bürgermeister",
+        "реактивна система залпового вогню — das Mehrfachraketenwerfersystem",
+        "комерційне призначення — die gewerbliche Nutzung",
+        "багатоквартирний будинок — die Mehrfamilienhäuser"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "пожежа",
+          "hint": "пожежа — das Feuer"
+        },
+        {
+          "surface": "торговельних об’єктів",
+          "hint": "торговельний об’єкт — die Handelsobjekte"
+        },
+        {
+          "surface": "керовані авіабомби",
+          "hint": "керований авіабомб — die gelenkten Luftbomben"
+        },
+        {
+          "surface": "міського голови",
+          "hint": "міський голова — der Bürgermeister"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/872/tsn-51cb131e/thumbs/608xX/02/97/412c4f2eeaccfd5891a25fd952389702.jpeg",
+      "publishedAt": "2026-09-28T05:20:00.000Z",
+      "processedAt": "2026-09-28T06:53:39.839Z",
+      "originalTitleRu": "Кровавая ночь в Харьковской области: враг обстрелял рынок РСЗВ, множество повреждений, есть раненые (фото)",
+      "simplifiedTextRu": "В ночь на 28 сентября российские войска нанесли удар по Изюму в Харьковской области. Около 00:40 в районе Центрального рынка вспыхнула пожара после попадания реактивной системы залпового огня. Пожара повредила более двадцати торговых объектов и частично выбила окна в нескольких многоквартирных домах. На месте работали медики, которым оказали помощь двум раненым. В тот же вечер российские оккупанты применили управляемые авиабомбы против Киевского и Салтовского районов Харькова. По словам городского главы Игора Терехова, в Харькове также есть двое пострадавших. Последствия атак уточняются, но уже известны значительные разрушения жилых домов и коммерческих помещений.",
+      "vocabularyHintsRu": [
+        "пожар — das Feuer",
+        "торговый объект — die Handelsobjekte",
+        "управляемая авиабомба — die gelenkten Luftbomben",
+        "городской глава — der Bürgermeister",
+        "реактивная система залпового огня — das Mehrfachraketenwerfersystem",
+        "коммерческое назначение — die gewerbliche Nutzung",
+        "многоквартирный дом — die Mehrfamilienhäuser"
+      ]
+    },
+    {
+      "id": "4793d281",
+      "originalTitle": "Літнє тепло не відступає: прогноз погоди в Україні на 28 вересня здивує високими градусами",
+      "simplifiedText": "28 вересня в Україні буде тепло, як влітку, і комфортно. У більшості областей очікується мінлива хмарність без суттєвих опадів, а термометри піднімуться до +24 °C. На півдні, у Харківській області та в центральних регіонах можливі короткочасні дощі лише вночі, тоді як вдень погода буде суха. У західних областях вночі та вранці місцями з’явиться туман. Вітер переважно північно‑східний зі швидкістю 5‑10 м/с, а на півдні та південному сході можуть бути пориви до 15‑20 м/с. Температури по країні вночі коливатимуться від +5 °C до +10 °C, удень – від +15 °C до +20 °C, у Закарпатті навіть до +24 °C. У Києві та області очікується ясний день без опадів, температура вночі +8…+10 °C, вдень – від +18 °C до +20 °C.",
+      "vocabularyHints": [
+        "мінливий — wechselhaft",
+        "хмарність — die Bewölkung",
+        "утримуватись — bleiben",
+        "істотний — wesentlich",
+        "стовпчик — die Thermometeranzeige",
+        "підскочати — steigen",
+        "погожий — sonnig"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "мінлива",
+          "hint": "мінливий — wechselhaft"
+        },
+        {
+          "surface": "хмарність",
+          "hint": "хмарність — die Bewölkung"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/012/tsn-0b4bc102/thumbs/608xX/52/a5/895cd3d51a7fec011504988cf3a4a552.jpg",
+      "publishedAt": "2026-09-28T05:33:34.000Z",
+      "processedAt": "2026-09-28T06:52:32.742Z",
+      "originalTitleRu": "Летнее тепло не отступает: прогноз погоды в Украине на 28 сентября удивит высокими градусами",
+      "simplifiedTextRu": "28 сентября в Украине будет тепло, как летом, и комфортно. В большинстве областей ожидается переменная облачность без существенных осадков, а термометры поднимутся до +24 °C. На юге, в Харьковской области и в центральных регионах возможны кратковременные дожди только ночью, тогда как днём погода будет сухой. В западных областях ночью и утром местами появится туман. Ветер преимущественно северо‑восточный со скоростью 5‑10 м/с, а на юге и юго‑востоке могут быть порывы до 15‑20 м/с. Температуры по стране ночью будут колебаться от +5 °C до +10 °C, днём – от +15 °C до +20 °C, в Закарпатье даже до +24 °C. В Киеве и области ожидается ясный день без осадков, температура ночью +8…+10 °C, днём – от +18 °C до +20 °C.",
+      "vocabularyHintsRu": [
+        "переменный — wechselhaft",
+        "облачность — die Bewölkung",
+        "удерживаться — bleiben",
+        "существенный — wesentlich",
+        "столбик — die Thermometeranzeige",
+        "подскочить — steigen",
+        "солнечный — sonnig"
+      ]
+    },
+    {
+      "id": "2e38218f",
+      "originalTitle": "Кривавий удар дронами по Київщині: руйнування у п’яти районах, є загиблі та поранені",
+      "simplifiedText": "Черговий удар дронів по Київській області залишив трьох загиблих і вісім поранених. Ворог цілеспрямовано обстріляв лише цивільні об’єкти в п’яти районах. Голова Київської ОВА Тимур Ткаченко зазначив, що атаки спрямовані проти мирного населення. Під час обстрілу пошкоджено два складські і два адміністративні будинки в Броварському районі, а також приватне домоволодіння, ринок і шість автівок у Бучанському. У Фастівському районі зафіксовано пошкодження виробничого приміщення і шести транспортних засобів, а в Бориспільському — один автомобіль. Білоцерківський район зазнав руйнувань сільськогосподарського підприємства і багатоквартирного будинку. Профільні служби на місці надають необхідну медичну допомогу постраждалим і фіксують наслідки ударів.",
+      "vocabularyHints": [
+        "дрон — die Drohne, -n",
+        "цілеспрямовано — zielgerichtet",
+        "обстріляти — beschiessen",
+        "цивільний — zivil",
+        "об’єкт — das Objekt, -e",
+        "профільна служба — der Fachdienst",
+        "медична допомога — die medizinische Hilfe",
+        "багатоквартирний — mehrfamilienhaus"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "дронів",
+          "hint": "дрон — die Drohne, -n"
+        },
+        {
+          "surface": "цілеспрямовано",
+          "hint": "цілеспрямовано — zielgerichtet"
+        },
+        {
+          "surface": "обстріляв",
+          "hint": "обстріляти — beschiessen"
+        },
+        {
+          "surface": "цивільні",
+          "hint": "цивільний — zivil"
+        },
+        {
+          "surface": "об’єкти",
+          "hint": "об’єкт — das Objekt, -e"
+        },
+        {
+          "surface": "профільні служби",
+          "hint": "профільна служба — der Fachdienst"
+        },
+        {
+          "surface": "медичну допомогу",
+          "hint": "медична допомога — die medizinische Hilfe"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/767/tsn-0b4bc102/thumbs/608xX/4e/02/9afe6cfc1af8d2ab4f15c14fd3c4024e.jpg",
+      "publishedAt": "2026-09-28T05:50:57.000Z",
+      "processedAt": "2026-09-28T06:51:27.825Z",
+      "originalTitleRu": "Кровавый удар дронами по Киевской области: разрушения в пяти районах, есть погибшие и раненые",
+      "simplifiedTextRu": "Очередной удар дронов по Киевской области оставил три погибших и восемь раненых. Враг целенаправленно обстреливал только гражданские объекты в пяти районах. Глава Киевской ОВА Тимур Ткаченко отметил, что атаки направлены против мирного населения. Во время обстрела повреждены два складских и два административных здания в Броварском районе, а также частное домовладение, рынок и шесть автомобилей в Бучанском. В Фастовском районе зафиксированы повреждения производственного помещения и шести транспортных средств, а в Бориспольском — один автомобиль. Белоцерковский район понёс разрушения сельскохозяйственного предприятия и многоквартирного дома. Профильные службы на месте оказывают необходимую медицинскую помощь пострадавшим и фиксируют последствия ударов.",
+      "vocabularyHintsRu": [
+        "дрон — die Drohne, -n",
+        "целенаправленно — zielgerichtet",
+        "обстрелять — beschiessen",
+        "гражданский — zivil",
+        "объект — das Objekt, -e",
+        "профильная служба — der Fachdienst",
+        "медицинская помощь — die medizinische Hilfe",
+        "многоквартирный — mehrfamilienhaus"
+      ]
+    },
+    {
+      "id": "13f639dd",
+      "originalTitle": "Рік після ракетної атаки та пожежі: будівлю Кабміну досі ремонтують — який вигляд вона має (відео)",
+      "simplifiedText": "У будівлі Кабінету Міністрів України вже більше року тривають ремонтні роботи після ракетної атаки. Під час атаки пошкодили приміщення, а під час гасіння пожежі вода залила багато поверхів. Про це розповів прем’єр‑міністр Сергій Корецький у інтерв’ю ведучій ТСН‑Тижня Аллі Мазур. Він підтвердив, що ремонт пов’язаний саме з наслідками удару, і вибачився за незручності, які створює будівля. Мазур зазначила, що Кабмін живе в «економ‑режимі», бо роботи тривають цілий рік. У 2025 року російські війська вдарили по Кабміну крилатою ракетою «Іскандер‑К». Бойова частина ракети вагою 450 кг не вибухнула, проте запалилося паливо, і виникла пожежа на даху. Тепер будівля поступово відновлюється, хоча ремонт ще не завершений.",
+      "vocabularyHints": [
+        "економ‑режим — der Sparmodus",
+        "крилатий — die Lenkwaffe",
+        "Іскандер‑К — Iskander-K",
+        "бойова частина — die Sprengkopf",
+        "атака — der Angriff"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "економ‑режимі",
+          "hint": "економ‑режим — der Sparmodus"
+        },
+        {
+          "surface": "крилатою",
+          "hint": "крилатий — die Lenkwaffe"
+        },
+        {
+          "surface": "Іскандер‑К",
+          "hint": "Іскандер‑К — Iskander-K"
+        },
+        {
+          "surface": "бойова частина",
+          "hint": "бойова частина — die Sprengkopf"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/236/tsn-0b4bc102/thumbs/608xX/4d/c5/7a6ef0e6d50184cb5bb53c152008c54d.jpg",
+      "publishedAt": "2026-09-28T05:55:12.000Z",
+      "processedAt": "2026-09-28T06:50:22.607Z",
+      "originalTitleRu": "Год после ракетного удара и пожара: здание Кабмина до сих пор ремонтируют — как выглядит оно (видео)",
+      "simplifiedTextRu": "В здании Кабинета Министров Украины уже более года продолжаются ремонтные работы после ракетного удара. Во время удара повредили помещения, а при тушении пожара вода затопила многие этажи. Об этом рассказал премьер‑министр Сергей Корецкий в интервью ведущей ТСН‑Недели Алле Мазур. Он подтвердил, что ремонт связан именно с последствиями удара, и извинился за неудобства, которые создает здание. Мазур отметила, что Кабмин живёт в «эконом‑режиме», потому что работы тянутся целый год. В 2025 году российские войска нанесли удар по Кабмину крылатой ракетой «Искандер‑К». Боевой элемент ракеты весом 450 кг не взорвался, однако загорелось топливо, и возник пожар на крыше. Сейчас здание постепенно восстанавливается, хотя ремонт ещё не завершён.",
+      "vocabularyHintsRu": [
+        "эконом‑режим — der Sparmodus",
+        "крылатый — die Lenkwaffe",
+        "Иcкандер‑К — Iskander-K",
+        "боевая часть — die Sprengkopf",
+        "атака — der Angriff"
+      ]
+    },
+    {
+      "id": "33567dd7",
+      "originalTitle": "Як підготуватися до блекаутів: експерти пояснили, чи врятує Starlink у багатоквартирному будинку",
+      "simplifiedText": "Українцям, особливо жителям Києва, радять заздалегідь підготуватися до довгих зимових блекаутів і мати резервні канали зв’язку. Громадський діяч і волонтер Сергій Стерненко закликав киян розглянути термінали Starlink як один із способів підтримки зв’язку під час відключень електроенергії. За словами експерта з цифрової безпеки Павла Бєлоусова, Starlink може стати точкою порятунку для жителів багатоповерхових будинків, якщо його встановити у дворі або на даху. Однак один термінал не зможе забезпечити повноцінний інтернет для сотень квартир одночасно. Тому фахівці радять мати запасні засоби отримання інформації, наприклад автономний радіоприймач на батарейках. Такий приймач працює без електромережі і дозволяє слухати новини під час повного знеструмлення. Крім того, варто зберігати заряджений акумулятор, щоб мати можливість користуватися мобільним телефоном, якщо мережа працює частково.",
+      "vocabularyHints": [
+        "громадський діяч — der Aktivist",
+        "термінал — das Terminal, -e",
+        "цифрова безпека — die digitale Sicherheit",
+        "повноцінний — vollständig",
+        "автономний — autonom",
+        "радіоприймач — der Radioempfänger",
+        "знеструмлення — der Stromausfall",
+        "супутниковий інтернет — das Satelliteninternet",
+        "екстрений — der Notfall"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "громадський діяч",
+          "hint": "громадський діяч — der Aktivist"
+        },
+        {
+          "surface": "термінали",
+          "hint": "термінал — das Terminal, -e"
+        },
+        {
+          "surface": "цифрової безпеки",
+          "hint": "цифрова безпека — die digitale Sicherheit"
+        },
+        {
+          "surface": "повноцінний",
+          "hint": "повноцінний — vollständig"
+        },
+        {
+          "surface": "автономний",
+          "hint": "автономний — autonom"
+        },
+        {
+          "surface": "радіоприймач",
+          "hint": "радіоприймач — der Radioempfänger"
+        },
+        {
+          "surface": "знеструмлення",
+          "hint": "знеструмлення — der Stromausfall"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/364/tsn-7a7afafe7a64cd96a891771cf6bf5b51/thumbs/608xX/d4/72/5a5e66965bbc0fc7fe9e1267efbf72d4.jpeg",
+      "publishedAt": "2026-09-28T05:59:41.000Z",
+      "processedAt": "2026-09-28T06:49:17.166Z",
+      "originalTitleRu": "Как подготовиться к блэкаутам: эксперты объяснили, спасет ли Starlink в многоквартирном доме",
+      "simplifiedTextRu": "Украинцам, особенно жителям Киева, советуют заранее подготовиться к длительным зимним блэкаутам и иметь резервные каналы связи. Общественный деятель и волонтёр Сергей Стерненко призвал киевлян рассмотреть терминалы Starlink как один из способов поддержания связи во время отключений электроэнергии. По словам эксперта по цифровой безопасности Павла Белоусова, Starlink может стать точкой спасения для жителей многоквартирных домов, если его установить во дворе или на крыше. Однако один терминал не сможет обеспечить полноценный интернет для сотен квартир одновременно. Поэтому специалисты советуют иметь запасные средства получения информации, например автономный радиоприёмник на батарейках. Такой приёмник работает без электросети и позволяет слушать новости во время полного отключения электроэнергии. Кроме того, стоит хранить заряженный аккумулятор, чтобы иметь возможность пользоваться мобильным телефоном, если сеть работает частично.",
+      "vocabularyHintsRu": [
+        "общественный деятель — der Aktivist",
+        "терминал — das Terminal, -e",
+        "цифровая безопасность — die digitale Sicherheit",
+        "полноценный — vollständig",
+        "автономный — autonom",
+        "радиоприёмник — der Radioempfänger",
+        "отключение электроэнергии — der Stromausfall",
+        "спутниковый интернет — das Satelliteninternet",
+        "экстренный — der Notfall"
+      ]
+    },
+    {
+      "id": "710ac558",
+      "originalTitle": "Який 29 вересня день — все про важливі події, кого вшановує церква",
+      "simplifiedText": "29 вересня 2026 року – вівторок, 1678‑й день війни в Україні. У цей день віряни вшановують День пам’яті преподобного Киріяка‑самітника, який жив у Палестині, народився в Коринфі і ще юнаком вирушив до Єрусалиму. Він провів більшу частину життя в монастирях і пустелі, присвятивши себе молитві, посту та усамітненню, і, за переказами, дожив до 107 років. Особливо його шанували за смирення, духовну мудрість і суворе подвижницьке життя, а в пустелі, за легендою, жив лев, що охороняв його. 29 вересня в Україні і світі відзначають День пам’яті трагедії Бабиного Яру – місця масових вбивств нацистів у 1941 році. Той же день є Всесвітнім днем серця, ініційованим Всесвітньою федерацією серця для підвищення обізнаності про серцево‑судинні захворювання.",
+      "vocabularyHints": [
+        "преподобний — der heilige",
+        "самітник — der Einsiedler",
+        "монастир — das Kloster, -e",
+        "пустеля — die Wüste",
+        "пост — die Fastenzeit",
+        "усамітнення — die Einsiedelei",
+        "смирення — die Demut",
+        "подвижницький — das asketische",
+        "трагедія — die Tragödie",
+        "Бабин Яр — der Babyn-Jar",
+        "нацистський — der nationalsozialistische",
+        "урочище — die Niederung",
+        "психіатричний — die psychiatrische",
+        "Всесвітній — die weltweite",
+        "федерація — die Föderation"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "преподобного",
+          "hint": "преподобний — der heilige"
+        },
+        {
+          "surface": "самітника",
+          "hint": "самітник — der Einsiedler"
+        },
+        {
+          "surface": "монастирях",
+          "hint": "монастир — das Kloster, -e"
+        },
+        {
+          "surface": "пустелі",
+          "hint": "пустеля — die Wüste"
+        },
+        {
+          "surface": "посту",
+          "hint": "пост — die Fastenzeit"
+        },
+        {
+          "surface": "усамітненню",
+          "hint": "усамітнення — die Einsiedelei"
+        },
+        {
+          "surface": "смирення",
+          "hint": "смирення — die Demut"
+        },
+        {
+          "surface": "подвижницьке",
+          "hint": "подвижницький — das asketische"
+        },
+        {
+          "surface": "трагедії",
+          "hint": "трагедія — die Tragödie"
+        },
+        {
+          "surface": "Бабиного Яру",
+          "hint": "Бабин Яр — der Babyn-Jar"
+        }
+      ],
+      "category": "Суспільство",
+      "imageUrl": "https://img.tsn.ua/cached/179/tsn-51cb131e/thumbs/608xX/47/d4/e635e4162518f82623a30435e384d447.png",
+      "publishedAt": "2026-09-28T06:00:00.000Z",
+      "processedAt": "2026-09-28T06:48:10.315Z",
+      "originalTitleRu": "Какой 29 сентября день — всё про важные события, кого почитает церковь",
+      "simplifiedTextRu": "29 сентября 2026 года — вторник, 1678‑й день войны в Украине. В этот день верующие отмечают День памяти преподобного Кирияка‑отшельника, который жил в Палестине, родился в Коринфе и ещё юношей отправился в Иерусалим. Он провёл большую часть жизни в монастырях и пустыне, посвятив себя молитве, посту и уединению, и, по преданиям, дожил до 107 лет. Особенно его почитали за смирение, духовную мудрость и строгую аскетическую жизнь, а в пустыне, по легенде, жил лев, охранявший его. 29 сентября в Украине и в мире отмечают День памяти трагедии Бабьего Яра — места массовых убийств нацистов в 1941 году. Тот же день является Всемирным днём сердца, инициированным Всемирной федерацией сердца для повышения осведомлённости о сердечно‑сосудистых заболеваниях.",
+      "vocabularyHintsRu": [
+        "преподобный — der heilige",
+        "отшельник — der Einsiedler",
+        "монастырь — das Kloster, -e",
+        "пустыня — die Wüste",
+        "пост — die Fastenzeit",
+        "уединение — die Einsiedelei",
+        "смирение — die Demut",
+        "аскетический — das asketische",
+        "трагедия — die Tragödie",
+        "Бабий Яр — der Babyn-Jar",
+        "нацистский — der nationalsozialistische",
+        "урочище — die Niederung",
+        "психиатрический — die psychiatrische",
+        "всемирный — die weltweite",
+        "федерация — die Föderation"
+      ]
+    },
+    {
+      "id": "5444b71b",
+      "originalTitle": "Руйнівний шторм накрив країну: блекаут у затоплених містах, вітер вириває дерева, є жертви (фото)",
+      "simplifiedText": "Потужний шторм, який назвали нор’істер, пройшов узбережжям східних штатів США, піднявши вітри до 128 км/год і хвилі висотою шість метрів. Через сильні дощі та підйом води в містах Нью‑Йорк, Нью‑Джерсі, Коннектикут і Пенсильванія залишилося без електрики понад 114 тисяч споживачів. Стихія зламала дерева, які впали на лінії електропередач і на будинки. Першою підтвердженою жертвою став 56‑річний житель Нью‑Йорка, який працював в Управлінні житлового господарства і загинув, коли дерево впало на його квартиру. Травмованого доставили до лікарні Brookdale, але медики не змогли його врятувати. Мер Нью‑Йорка Зохран Мамдані опублікував у соцмережі X свої співчуття родині загиблого. Через падіння дерев постраждали ще кілька людей, а транспорт і великі спортивні заходи зазнали серйозних перебоїв.",
+      "vocabularyHints": [
+        "нор’істер — der Sturm",
+        "управління житлового господарства — die Wohnungsverwaltung",
+        "медик — der Arzt",
+        "співчуття — das Mitgefühl",
+        "перебій — die Störung",
+        "громадське сполучення — der öffentliche Verkehr"
+      ],
+      "vocabularyWords": [
+        {
+          "surface": "нор’істер",
+          "hint": "нор’істер — der Sturm"
+        },
+        {
+          "surface": "Управлінні житлового господарства",
+          "hint": "управління житлового господарства — die Wohnungsverwaltung"
+        },
+        {
+          "surface": "медики",
+          "hint": "медик — der Arzt"
+        },
+        {
+          "surface": "співчуття",
+          "hint": "співчуття — das Mitgefühl"
+        }
+      ],
+      "category": "Політика",
+      "imageUrl": "https://img.tsn.ua/cached/911/tsn-51cb131e/thumbs/608xX/f9/97/b4e73b1cdd9e5a32be79177dd1d797f9.jpg",
+      "publishedAt": "2026-09-28T06:22:23.000Z",
+      "processedAt": "2026-09-28T06:47:03.658Z",
+      "originalTitleRu": "Разрушительный шторм накрыл страну: блэкаут в затопленных городах, ветер вырывает деревья, есть жертвы (фото)",
+      "simplifiedTextRu": "Мощный шторм, названный нор’істер, прошёл по побережью восточных штатов США, подняв ветры до 128 км/ч и волны высотой шесть метров. Из‑за сильных дождей и подъёма воды в городах Нью‑Йорк, Нью‑Джерси, Коннектикут и Пенсильвания более 114 тысяч потребителей остались без электроэнергии. Стихия повалила деревья, которые упали на линии электропередач и на дома. Первой подтверждённой жертвой стал 56‑летний житель Нью‑Йорка, работавший в Управлении жилищным хозяйством и погибший, когда дерево упало на его квартиру. Пострадавшего доставили в больницу Brookdale, но медики не смогли его спасти. Мэр Нью‑Йорка Зохран Мамдани опубликовал в социальной сети X свои соболезнования семье погибшего. Из‑за падения деревьев пострадали ещё несколько человек, а транспорт и крупные спортивные мероприятия испытали серьёзные перебои.",
+      "vocabularyHintsRu": [
+        "нор’істер — der Sturm",
+        "управление жилищным хозяйством — die Wohnungsverwaltung",
+        "врач — der Arzt",
+        "сочувствие — das Mitgefühl",
+        "перебой — die Störung",
+        "общественный транспорт — der öffentliche Verkehr"
+      ]
+    },
     {
       "id": "54d8b6cb",
       "originalTitle": "Трамп запросив Путіна на саміт G20 у США: у Кремлі зробили заяву",
