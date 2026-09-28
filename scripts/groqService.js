@@ -6,6 +6,47 @@ const TSN_API_KEY = process.env.GROQ_API_KEY_TSN || process.env.GROQ_API_KEY;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// ── Client-side TPM pacer ───────────────────────────────────────────
+// Remembers how many tokens (usage.total_tokens from real responses)
+// each API key spent in the last 60s, so callers can wait exactly as
+// long as needed instead of a fixed sleep. Groq's free tier is 8K TPM
+// per key; we aim for TPM_TARGET (well under that) as headroom.
+const TPM_TARGET = 6400; // 80% of the 8K TPM limit; 429 backoff in groqRequest is the safety net
+const tokenWindows = new Map(); // apiKey -> [{ t, n }]
+const lastUsageByKey = new Map(); // apiKey -> tokens of most recent successful call
+function getLastUsage(apiKey) { return lastUsageByKey.get(apiKey) || 0; }
+
+function recordUsage(apiKey, n) {
+  if (!apiKey || !n) return;
+  lastUsageByKey.set(apiKey, n);
+  if (!tokenWindows.has(apiKey)) tokenWindows.set(apiKey, []);
+  tokenWindows.get(apiKey).push({ t: Date.now(), n });
+}
+
+function pruneWindow(apiKey) {
+  const w = (tokenWindows.get(apiKey) || []).filter(e => Date.now() - e.t < 60000);
+  tokenWindows.set(apiKey, w);
+  return w;
+}
+
+// Waits until `needed` more tokens fit under TPM_TARGET for this key
+// (plus a small minimum gap after the previous call). Returns ms waited.
+async function waitForTokenBudget(apiKey, needed, minGapMs = 2000) {
+  const start = Date.now();
+  for (;;) {
+    const w = pruneWindow(apiKey);
+    const used = w.reduce((s, e) => s + e.n, 0);
+    const last = w.length ? w[w.length - 1].t : 0;
+    const gapLeft = minGapMs - (Date.now() - last);
+    if (used + needed <= TPM_TARGET || w.length === 0) {
+      if (gapLeft > 0) await sleep(gapLeft);
+      return Date.now() - start;
+    }
+    // Wait until the oldest entry drops out of the 60s window.
+    await sleep(Math.max(500, 60000 - (Date.now() - w[0].t) + 250));
+  }
+}
+
 // Fallback used whenever a caller doesn't pass its own apiKey (e.g. code
 // paths not yet wired into the key-rotation scheme in updateNews.js).
 const DEFAULT_DE_API_KEY = () => process.env.GROQ_API_KEY;
@@ -85,7 +126,11 @@ function groqRequest(body, retries = 3, apiKey = process.env.GROQ_API_KEY) {
           return;
         }
 
-        try { resolve(JSON.parse(text)); }
+        try {
+          const parsed = JSON.parse(text);
+          recordUsage(apiKey, parsed?.usage?.total_tokens);
+          resolve(parsed);
+        }
         catch { reject(new Error("Failed to parse Groq response")); }
       });
     });
@@ -834,4 +879,6 @@ module.exports = {
   simplifyTsnArticle,
   translateHintsToRussian,
   translateTsnToRussian,
+  waitForTokenBudget,
+  getLastUsage,
 };
