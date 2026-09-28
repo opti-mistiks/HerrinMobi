@@ -1,7 +1,7 @@
 const fs   = require("fs");
 const path = require("path");
 const { parseRSSFeeds, fetchOgImage, parseTsnFeed } = require("./rssParser");
-const { simplifyArticle, toSwiss, simplifyTsnArticle, translateHintsToRussian, translateTsnToRussian } = require("./groqService");
+const { simplifyArticle, toSwiss, simplifyTsnArticle, translateHintsToRussian, translateTsnToRussian, waitForTokenBudget, getLastUsage } = require("./groqService");
 
 const DB_PATH       = path.join(__dirname, "..", "data", "articles.json");
 const LEVELS        = ["A1", "A2", "B1"];
@@ -140,7 +140,15 @@ async function processRuTranslation(db, deResults, tsnResults) {
   let keyIdx = 0; // stays put across articles unless the current key fails
 
   // DE articles: translate only the vocabulary hints, text stays German.
+  let n = 0; const total = deResults.length + tsnResults.length;
+  // Per-call token estimates start as rough guesses and are replaced by the
+  // REAL usage of the previous call of the same kind (from Groq's response).
+  let deEst = 1000, tsnEst = 2000;
   for (const { level, article } of deResults) {
+    n++;
+    // Wait only as long as this key's real token usage requires (starts at ~1K
+    // tokens, then uses the real usage of the previous call) instead of a fixed 20s.
+    const waited = await waitForTokenBudget(RU_FALLBACK_CHAIN[keyIdx], deEst);
     try {
       const { result: hintsRu, nextIdx } = await runWithRuFallback(
         RU_FALLBACK_CHAIN, keyIdx,
@@ -148,17 +156,21 @@ async function processRuTranslation(db, deResults, tsnResults) {
       );
       keyIdx = nextIdx;
       article.vocabularyHintsRu = hintsRu;
+      deEst = getLastUsage(RU_FALLBACK_CHAIN[keyIdx]) || deEst;
       processed++;
+      console.log(`  🇷🇺 [RU ${n}/${total}][DE ${level}] "${article.originalTitle.slice(0, 40)}..." ok (key #${keyIdx + 1}, waited ${Math.round(waited / 1000)}s)`);
     } catch (err) {
       console.error(`  ❌ [RU][DE ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
       failed++;
     }
     saveDB(db);
-    await sleep(20000);
   }
 
   // TSN articles: translate the full text + hints together (one call).
   for (const { level, article } of tsnResults) {
+    n++;
+    // TSN translation is heavier — the pacer spaces these out by real usage.
+    const waited = await waitForTokenBudget(RU_FALLBACK_CHAIN[keyIdx], tsnEst);
     try {
       const { result, nextIdx } = await runWithRuFallback(
         RU_FALLBACK_CHAIN, keyIdx,
@@ -168,13 +180,14 @@ async function processRuTranslation(db, deResults, tsnResults) {
       article.originalTitleRu   = result.titleRu;
       article.simplifiedTextRu  = result.textRu;
       article.vocabularyHintsRu = result.hintsRu;
+      tsnEst = getLastUsage(RU_FALLBACK_CHAIN[keyIdx]) || tsnEst;
       processed++;
+      console.log(`  🇷🇺 [RU ${n}/${total}][TSN ${level}] "${article.originalTitle.slice(0, 40)}..." ok (key #${keyIdx + 1}, waited ${Math.round(waited / 1000)}s)`);
     } catch (err) {
       console.error(`  ❌ [RU][TSN ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
       failed++;
     }
     saveDB(db);
-    await sleep(20000);
   }
 
   return { processed, failed };
