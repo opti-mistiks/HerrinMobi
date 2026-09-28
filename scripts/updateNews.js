@@ -103,6 +103,23 @@ function keyForArticleIndex(rotationKeys, articleIndex) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// ── Log helpers ─────────────────────────────────────────────────
+// fmtDur(ms) -> "8s" / "1m 12s" / "1h 03m"
+function fmtDur(ms) {
+  const t = Math.round(ms / 1000);
+  if (t < 60) return `${t}s`;
+  const m = Math.floor(t / 60), sec = t % 60;
+  if (m < 60) return `${m}m ${String(sec).padStart(2, "0")}s`;
+  return `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, "0")}m`;
+}
+// Only the model call is timed ("work"); the deliberate 20s pauses between
+// calls are reported separately ("pause") so the numbers stay meaningful.
+const PAUSE_MS = 20000;
+const SEP = "─".repeat(60);
+function logHeader(icon, title) {
+  console.log(`\n${SEP}\n${icon} ${title}\n${SEP}`);
+}
+
 // Runs one Groq call via the RU fallback chain, starting at
 // `startIdx` (an index into RU_FALLBACK_CHAIN) and staying on that key
 // for every call — advancing to the next key in the chain only when the
@@ -139,6 +156,10 @@ async function processRuTranslation(db, deResults, tsnResults) {
   let processed = 0, failed = 0;
   let keyIdx = 0; // stays put across articles unless the current key fails
 
+  logHeader("🇷🇺", "RU translation pass");
+  console.log(`🆕 ${deResults.length} DE + ${tsnResults.length} TSN items to translate (${deResults.length + tsnResults.length} total)`);
+  const keyLabel = (i) => (RU_KEY && i === 0 ? "RU key" : `fallback key #${RU_KEY ? i : i + 1}`);
+
   // DE articles: translate only the vocabulary hints, text stays German.
   let n = 0; const total = deResults.length + tsnResults.length;
   // Per-call token estimates start as rough guesses and are replaced by the
@@ -149,6 +170,7 @@ async function processRuTranslation(db, deResults, tsnResults) {
     // Wait only as long as this key's real token usage requires (starts at ~1K
     // tokens, then uses the real usage of the previous call) instead of a fixed 20s.
     const waited = await waitForTokenBudget(RU_FALLBACK_CHAIN[keyIdx], deEst);
+    const t0 = Date.now();
     try {
       const { result: hintsRu, nextIdx } = await runWithRuFallback(
         RU_FALLBACK_CHAIN, keyIdx,
@@ -158,7 +180,7 @@ async function processRuTranslation(db, deResults, tsnResults) {
       article.vocabularyHintsRu = hintsRu;
       deEst = getLastUsage(RU_FALLBACK_CHAIN[keyIdx]) || deEst;
       processed++;
-      console.log(`  🇷🇺 [RU ${n}/${total}][DE ${level}] "${article.originalTitle.slice(0, 40)}..." ok (key #${keyIdx + 1}, waited ${Math.round(waited / 1000)}s)`);
+      console.log(`  🇷🇺 [RU ${n}/${total}][DE ${level}] "${article.originalTitle.slice(0, 40)}..." ok · ${fmtDur(Date.now() - t0)} · ${hintsRu.length} hints · ${keyLabel(keyIdx)} · waited ${fmtDur(waited)}`);
     } catch (err) {
       console.error(`  ❌ [RU][DE ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
       failed++;
@@ -171,6 +193,7 @@ async function processRuTranslation(db, deResults, tsnResults) {
     n++;
     // TSN translation is heavier — the pacer spaces these out by real usage.
     const waited = await waitForTokenBudget(RU_FALLBACK_CHAIN[keyIdx], tsnEst);
+    const t0 = Date.now();
     try {
       const { result, nextIdx } = await runWithRuFallback(
         RU_FALLBACK_CHAIN, keyIdx,
@@ -183,7 +206,7 @@ async function processRuTranslation(db, deResults, tsnResults) {
       article.vocabularyWordsRu = result.wordsRu;
       tsnEst = getLastUsage(RU_FALLBACK_CHAIN[keyIdx]) || tsnEst;
       processed++;
-      console.log(`  🇷🇺 [RU ${n}/${total}][TSN ${level}] "${article.originalTitle.slice(0, 40)}..." ok (key #${keyIdx + 1}, waited ${Math.round(waited / 1000)}s)`);
+      console.log(`  🇷🇺 [RU ${n}/${total}][TSN ${level}] "${article.originalTitle.slice(0, 40)}..." ok · ${fmtDur(Date.now() - t0)} · hints ${result.hintsRu.length} · underlined ${result.wordsRu.length}/${(article.vocabularyWords || []).length} · ${keyLabel(keyIdx)} · waited ${fmtDur(waited)}`);
     } catch (err) {
       console.error(`  ❌ [RU][TSN ${level}] "${article.originalTitle.slice(0, 30)}": ${err.message}`);
       failed++;
@@ -311,6 +334,7 @@ function migrateDB(db) {
 // separate since the two pipelines don't share dedupe state (different
 // language, different source) or a level-config shape (no vocabulary here).
 async function processTsn(db) {
+  logHeader("🇺🇦", "TSN pipeline");
   console.log("📡 Fetching TSN.ua RSS...");
   let rawArticles;
   try {
@@ -354,11 +378,17 @@ async function processTsn(db) {
       const keyIdx = Math.floor(articleIdx / ARTICLES_PER_KEY) % TSN_ROTATION_KEYS.length;
       console.log(`🔑 [TSN] article ${articleIdx + 1}/${newArticles.length} using key #${keyIdx + 1}/${TSN_ROTATION_KEYS.length}`);
     }
+    const artStart = Date.now();
+    const levelTimes = [];
     for (const level of LEVELS) {
       const dbKey = TSN_LEVEL_KEYS[level];
+      const lvlStart = Date.now();
       try {
         console.log(`⚙️  [TSN ${level}] "${article.title.slice(0, 50)}..."`);
         const result = await simplifyTsnArticle(article, level, apiKey);
+        const dt = Date.now() - lvlStart;
+        levelTimes.push(`${level} ${fmtDur(dt)}`);
+        console.log(`   ✔ [TSN ${level}] ${fmtDur(dt)} · ${result.vocabularyHints.length} hints`);
 
         if (!db[dbKey]) db[dbKey] = [];
         db[dbKey].unshift(result);
@@ -371,6 +401,7 @@ async function processTsn(db) {
         processed++;
         quotaFailStreak = 0;
       } catch (err) {
+        levelTimes.push(`${level} ✗ ${fmtDur(Date.now() - lvlStart)}`);
         console.error(`❌ [TSN ${level}] "${article.title.slice(0, 30)}": ${err.message}`);
         failed++;
         // Only bail early on a genuine DAILY (RPD) exhaustion — that
@@ -388,8 +419,9 @@ async function processTsn(db) {
       // own vocabulary section + article text in, up to 3000-token
       // completion out), so it needs the same real pause, not the RPM-only
       // 4s this used to be.
-      await sleep(20000);
+      await sleep(PAUSE_MS);
     }
+    console.log(`⏱  [TSN] article ${articleIdx + 1}/${newArticles.length} done in ${fmtDur(Date.now() - artStart)} (${levelTimes.join(" · ")}; incl. ${LEVELS.length}×${PAUSE_MS / 1000}s pauses)`);
   }
 
   return { processed, failed, freshArticles };
@@ -401,6 +433,8 @@ async function main() {
     process.exit(1);
   }
 
+  const runStart = Date.now();
+  logHeader("📰", "DE / app pipeline");
   console.log("📡 Fetching RSS feeds...");
   let rawArticles;
   try {
@@ -470,10 +504,16 @@ async function main() {
       const keyIdx = Math.floor(articleIdx / ARTICLES_PER_KEY) % DE_ROTATION_KEYS.length;
       console.log(`🔑 [DE] article ${articleIdx + 1}/${newArticles.length} using key #${keyIdx + 1}/${DE_ROTATION_KEYS.length}`);
     }
+    const artStart = Date.now();
+    const levelTimes = [];
     for (const level of LEVELS) {
+      const lvlStart = Date.now();
       try {
         console.log(`⚙️  [${level}] "${article.title.slice(0, 50)}..."`);
         const result = await simplifyArticle(article, level, apiKey);
+        const dt = Date.now() - lvlStart;
+        levelTimes.push(`${level} ${fmtDur(dt)}`);
+        console.log(`   ✔ [${level}] ${fmtDur(dt)} · ${result.vocabularyHints.length} hints`);
 
         if (!db[level]) db[level] = [];
         db[level].unshift(result);
@@ -489,6 +529,7 @@ async function main() {
         processed++;
         quotaFailStreak = 0;
       } catch (err) {
+        levelTimes.push(`${level} ✗ ${fmtDur(Date.now() - lvlStart)}`);
         console.error(`❌ [${level}] "${article.title.slice(0, 30)}": ${err.message}`);
         failed++;
         // Same distinction as the TSN loop above: only a genuine DAILY
@@ -513,15 +554,21 @@ async function main() {
       // reached. 20s leaves realistic headroom under 8K TPM for a
       // few-thousand-token call; the built-in retry in groqRequest() still
       // covers any remaining short 429s from RPM bursts.
-      await sleep(20000);
+      await sleep(PAUSE_MS);
     }
+    console.log(`⏱  [DE] article ${articleIdx + 1}/${newArticles.length} done in ${fmtDur(Date.now() - artStart)} (${levelTimes.join(" · ")}; incl. ${LEVELS.length}×${PAUSE_MS / 1000}s pauses)`);
   }
 
   } // end app/DE processing (newArticles.length === 0 short-circuit above)
 
   // TSN.ua (Ukrainian -> German) pipeline — independent of the app/DE
   // dedupe/counters above, runs regardless of whether app/DE had anything new.
+  const deMs = Date.now() - runStart;
+  console.log(`\n⏱  DE pipeline finished in ${fmtDur(deMs)}`);
+  const tsnStart = Date.now();
   tsnResult = await processTsn(db);
+  const tsnMs = Date.now() - tsnStart;
+  console.log(`\n⏱  TSN pipeline finished in ${fmtDur(tsnMs)}`);
 
   // Russian translation pass — only over this run's freshly generated
   // articles (deFreshArticles from the DE loop above, tsnResult.freshArticles
@@ -529,14 +576,18 @@ async function main() {
   // comment for why: re-translating everything already in articles.json
   // every run would be both wasteful and unnecessary (older articles simply
   // stay without RU fields, same as they lack any other field added later).
+  const ruStart = Date.now();
   const ruResult = await processRuTranslation(db, deFreshArticles, tsnResult.freshArticles || []);
+  const ruMs = Date.now() - ruStart;
 
   db.updatedAt = new Date().toISOString();
   saveDB(db);
 
-  console.log(`\n✅ Done! App/DE — Processed: ${processed}, Failed: ${failed}`);
-  console.log(`✅ TSN — Processed: ${tsnResult.processed}, Failed: ${tsnResult.failed}`);
-  console.log(`✅ RU translation — Processed: ${ruResult.processed}, Failed: ${ruResult.failed}`);
+  logHeader("🏁", "Summary");
+  console.log(`✅ App/DE          — processed: ${processed}, failed: ${failed}  (${fmtDur(deMs)})`);
+  console.log(`✅ TSN             — processed: ${tsnResult.processed}, failed: ${tsnResult.failed}  (${fmtDur(tsnMs)})`);
+  console.log(`✅ RU translation  — processed: ${ruResult.processed}, failed: ${ruResult.failed}  (${fmtDur(ruMs)})`);
+  console.log(`⏱  Total run time: ${fmtDur(Date.now() - runStart)}`);
   console.log(`📊 DB: A1=${db.A1?.length||0}, A2=${db.A2?.length||0}, B1=${db.B1?.length||0}, ` +
               `tsnA1=${db.tsnA1?.length||0}, tsnA2=${db.tsnA2?.length||0}, tsnB1=${db.tsnB1?.length||0}`);
 
