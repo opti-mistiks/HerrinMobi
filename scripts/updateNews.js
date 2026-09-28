@@ -1,6 +1,6 @@
 const fs   = require("fs");
 const path = require("path");
-const { parseRSSFeeds, fetchOgImage, parseTsnFeed } = require("./rssParser");
+const { parseRSSFeeds, fetchOgImage, parseTsnFeed, parseItcFeed } = require("./rssParser");
 const { simplifyArticle, toSwiss, simplifyTsnArticle, translateHintsToRussian, translateTsnToRussian, waitForTokenBudget, getLastUsage } = require("./groqService");
 
 const DB_PATH       = path.join(__dirname, "..", "data", "articles.json");
@@ -37,6 +37,11 @@ const MAX_PER_LEVEL_TSN = 100;
 // 9 = 3 keys x 3 articles/key (see rotation below) — with fewer than 9,
 // the later keys in rotation would never actually get used in a run.
 const BATCH_SIZE = parseInt(process.env.NEWS_BATCH_SIZE || "9", 10);
+// Скільки нових українських статей брати з кожного джерела за прогін.
+// ITC — довгі пояснювальні "Статті" (тут більше граматичного матеріалу),
+// TSN — короткі новини без війни. Разом = BATCH_SIZE (9).
+const ITC_QUOTA = parseInt(process.env.ITC_QUOTA || "6", 10);
+const TSN_QUOTA = parseInt(process.env.TSN_QUOTA || "3", 10);
 
 // --- Groq API key rotation (per-account daily quota, not per-key within
 // one account) -------------------------------------------------------
@@ -335,23 +340,40 @@ function migrateDB(db) {
 // language, different source) or a level-config shape (no vocabulary here).
 async function processTsn(db) {
   logHeader("🇺🇦", "TSN pipeline");
-  console.log("📡 Fetching TSN.ua RSS...");
-  let rawArticles;
+  console.log("📡 Fetching TSN.ua RSS (war-related news filtered out)...");
+  let tsnRaw = [];
   try {
-    rawArticles = await parseTsnFeed();
+    tsnRaw = await parseTsnFeed();
   } catch (err) {
     console.error("❌ TSN RSS fetch failed:", err.message);
-    return { processed: 0, failed: 0 };
   }
-  console.log(`✅ Fetched ${rawArticles.length} articles from TSN.ua`);
+  console.log(`✅ TSN.ua: ${tsnRaw.length} articles after category + war filter`);
+
+  console.log("📡 Fetching ITC.ua RSS (Статті)...");
+  let itcRaw = [];
+  try {
+    itcRaw = await parseItcFeed();
+  } catch (err) {
+    console.error("❌ ITC RSS fetch failed:", err.message);
+  }
+  console.log(`✅ ITC.ua: ${itcRaw.length} articles after length + war filter`);
 
   const existingTitles = new Set();
   for (const key of Object.values(TSN_LEVEL_KEYS)) {
     (db[key] || []).forEach(a => existingTitles.add(a.originalTitle));
   }
 
-  const newArticles = rawArticles.filter(a => !existingTitles.has(a.title)).slice(0, BATCH_SIZE);
-  console.log(`🆕 ${newArticles.length} new TSN articles to process`);
+  const itcNew = itcRaw.filter(a => !existingTitles.has(a.title));
+  const tsnNew = tsnRaw.filter(a => !existingTitles.has(a.title));
+  // Квоти 6 ITC + 3 TSN. Якщо в одного джерела не вистачає нових статей
+  // (або RSS ITC недоступний), решту місць добирає інше — прогін не
+  // залишається порожнім і загальна кількість лишається BATCH_SIZE.
+  const itcPick = itcNew.slice(0, ITC_QUOTA);
+  const tsnWant = Math.max(TSN_QUOTA, BATCH_SIZE - itcPick.length);
+  const tsnPick = tsnNew.slice(0, tsnWant);
+  const newArticles = [...itcPick, ...tsnPick].slice(0, BATCH_SIZE);
+  console.log(`🆕 ${newArticles.length} new UK articles to process  (ITC ${itcPick.length}/${ITC_QUOTA} · TSN ${tsnPick.length}/${TSN_QUOTA}${tsnPick.length > TSN_QUOTA ? " +fill" : ""})`);
+  if (itcRaw.length === 0) console.warn("⚠️  ITC gave 0 articles — check ITC_RSS_URL / workflow logs; TSN fills the whole batch.");
   if (newArticles.length === 0) return { processed: 0, failed: 0 };
 
   let processed = 0;
