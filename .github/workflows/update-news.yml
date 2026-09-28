@@ -34,10 +34,9 @@ concurrency:
 jobs:
   update-news:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # was unbounded (defaults to 360min) — Groq quota
-                         # waits could stall the job for hours; the script
-                         # now bails out early on quota exhaustion, so 30min
-                         # covers normal RSS+429-backoff runs with margin.
+    timeout-minutes: 90  # DE (~12min) + TSN (~10min) + RU pass (~10-30min) with
+                         # Groq 429 backoffs can exceed 30min; 30 cancelled the
+                         # job mid-RU and lost the whole run's output.
 
     permissions:
       contents: write  # щоб пушити JSON назад у репо
