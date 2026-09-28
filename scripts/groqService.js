@@ -621,7 +621,13 @@ ${level}, швейцарська німецька, "ss" замість "ß"). Т
 Return ONLY valid JSON, nothing else:
 {"simplified_text_ukr":"...","vocabulary":[{"surface":"...","lemma":"...","deu":"..."}]}`;
 
-  const truncatedDescription = String(article.description || "").slice(0, 1500);
+  // ITC "Статті" — довгі пояснювальні тексти (5-10k символів). Обрізка до
+  // 1500 залишила б моделі тільки вступ, тож для них беремо більше вхідного
+  // тексту. Для коротких TSN-новин поведінка не змінюється (1500).
+  // Вихід моделі при цьому лишається тих самих 4-9 речень (див. UK_LEVEL_CONFIG),
+  // тож збільшується лише вхід (~+600 токенів), а не відповідь.
+  const inputLimit = article.source === "ITC.ua" ? 3500 : 1500;
+  const truncatedDescription = String(article.description || "").slice(0, inputLimit);
   const maxAttempts = 3;
   let lastErr;
 
