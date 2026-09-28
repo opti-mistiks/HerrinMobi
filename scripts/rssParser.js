@@ -37,6 +37,77 @@ const TSN_ALLOWED_CATEGORIES = new Set([
   "Цікавинки", "Різне",
 ]);
 
+// ── ITC.ua ("Статті") ────────────────────────────────────────────
+// Довгі пояснювальні матеріали (історія технологій, українські винахідники,
+// як щось працює) — це саме те, що потрібно для граматичної практики.
+// Сторінка розділу для читачів: https://itc.ua/ua/statti/ ; самі статті
+// живуть за адресами /ua/articles/<slug>/ (новини — /ua/novini/).
+//
+// Підтверджена адреса RSS (з футера сайту) — загальна стрічка
+// https://itc.ua/ua/feed/, де статті змішані з десятками новин на день.
+// Тому пробуємо ще й "розділові" адреси (WordPress віддає /feed/ для
+// будь-якого архіву — але це припущення, не підтверджено). Беремо всі, що
+// відповіли справжнім RSS, зливаємо без дублікатів і лишаємо тільки
+// посилання /ua/articles/. Змінна ITC_RSS_URL (одна адреса) переозначає список.
+const ITC_FEED_URLS = process.env.ITC_RSS_URL
+  ? [process.env.ITC_RSS_URL]
+  : [
+      "https://itc.ua/ua/statti/feed/",
+      "https://itc.ua/ua/articles/feed/",
+      "https://itc.ua/ua/feed/",
+    ];
+const ITC_ARTICLE_PATH = "/ua/articles/";
+
+// Формати, які ITC публікує в розділі "Статті", але вони погано підходять
+// для граматики: щомісячні добірки ігор/фільмів/серіалів (суцільні власні
+// назви), огляди пристроїв, рейтинги "ТОП N". Легко прибрати/змінити тут.
+const ITC_SKIP_TITLE = [
+  // Кирилиця + \b не працює в JS (\b бачить лише латиницю), тому замість
+  // межі слова — початок рядка й явний пробіл/двокрапка після слова.
+  /^огляд(\s|:|$)/i,
+  /найцікавіші нові/i,
+  /ps plus і game pass/i,
+  /пк місяця/i,
+  /^топ[\s-]*\d+/i,
+  /^перш(ий|і)\s+(погляд|враження)/i,
+];
+
+// ── Антивоєнний фільтр (TSN та ITC) ─────────────────────────────
+// Відкидає новини про війну, удари, загиблих — ще ДО виклику Groq,
+// тож токени на них не витрачаються. Перевіряється заголовок + перші
+// ~600 символів тексту, щоб не спрацьовувати на випадкову згадку
+// в кінці довгої статті. Основи слів (без закінчень), регістр не важливий.
+const WAR_STEMS = [
+  // прямі бойові дії
+  "війна в україні", "війна з росі", "російсько-українськ", "повномасштабн", "під час війни", "через війну", "війна триває", "воєнн", "військов", "фронт", "окупац", "окупант", "окупов",
+  "обстр", "прильот", "приліт", "ракетн удар", "ракетн атак", "ракетн обстр", "ракетний удар", "ракетна атака", "ракетного удару", "ракетної атаки", "ракетами по", "ракети по", "запуск ракет по",
+  "дрон", "шахед", "безпілот", "бпла", "кабами", "авіаудар", "авіаналіт",
+  "вибух", "вибуч", "удар по", "удари по", "ударів", "атакув", "атака рф",
+  "штурм", "наступ ", "контрнаступ", "оборон", "деокупац", "мобілізац",
+  "тцк", "зсу", "збройних сил", "ппо", "протиповітр", "повітряна тривога",
+  "тривог", "укритт", "евакуац", "блекаут", " реб ", "реб \"", "засоби реб", "радіоелектронн", "сирен", "сирена",
+  // сторони й політика війни
+  "рф ", " рф", "росі", "російськ", "кремл", "путін", "лавров", "рашист",
+  "ворог", "загарбник", "переговори про мир", "перемир", "капітуляц",
+  "санкці", "зброя", "зброї", "озброєн", "гаубиц", "хімарс", "himars",
+  "patriot", "f-16", "ataсms", "танк", "бронетехнік",
+  // наслідки
+  "загинул", "загибл", "загинув", "убит", "вбит", "вбивств", "є жертви", "жертв атак", "жертв удар",
+  "поранен", "постраждал", "тіла загиблих", "поховання", "полонен", "полон ",
+  "зруйнов", "руйнуван", "знищен", "терорист", "теракт", "розстріляв", "розстрілян",
+  "масовий обстріл", "трагеді", "катастроф", "аварі", "нещасний випад",
+  "зґвалт", "розбещ", "педофіл", "насильств", "самогубств",
+  // країни-фронти/тематика
+  "курщин", "бєлгород", "крим", "донбас", "маріуполь", "бахмут", "авдіївк",
+  "покровськ", "куп'янськ", "вугледар", "херсонщин", "запоріж",
+  "ізраїл", "хамас", "газа ", "сектор газа", "іран", "близькому сході",
+];
+
+function isWarRelated(title, text) {
+  const hay = `${title || ""} ${String(text || "").slice(0, 600)}`.toLowerCase();
+  return WAR_STEMS.some(w => hay.includes(w));
+}
+
 function extractCategory(item) {
   const cat = item.category;
   if (!cat) return null;
@@ -239,7 +310,85 @@ async function parseTsnFeed() {
       category:    extractCategory(item),
     }))
     .filter(a => a.title && a.description)
-    .filter(a => a.category && TSN_ALLOWED_CATEGORIES.has(a.category));
+    .filter(a => a.category && TSN_ALLOWED_CATEGORIES.has(a.category))
+    // без війни, ударів, загиблих, катастроф тощо — не витрачаємо токени
+    .filter(a => !isWarRelated(a.title, a.description));
 }
 
-module.exports = { parseRSSFeeds, fetchOgImage, parseTsnFeed };
+// ITC.ua "Статті" — WordPress RSS. Повний текст лежить у <content:encoded>
+// (fallback: description). Категорію віддаємо як "Наука та ІТ", бо саме
+// такий розділ уже є в апці для TSN. Той самий антивоєнний фільтр.
+async function parseItcFeed() {
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: "@_",
+    allowBooleanAttributes: true,
+  });
+
+  const byLink = new Map();      // link -> item (дедуп між адресами)
+  let workingFeeds = 0;
+
+  for (const url of ITC_FEED_URLS) {
+    let xml;
+    try {
+      xml = await fetchURL(url);
+    } catch (err) {
+      console.warn(`[rss] ITC ${url}: ${err.message}`);
+      continue;
+    }
+    // Якщо замість RSS прийшла HTML-сторінка (403/блок/редірект) — не парсимо.
+    if (!/<rss[\s>]|<feed[\s>]/i.test(xml.slice(0, 2000))) {
+      console.warn(`[rss] ITC ${url}: не RSS (початок: ${JSON.stringify(xml.slice(0, 60))})`);
+      continue;
+    }
+    let result;
+    try { result = parser.parse(xml); }
+    catch { console.warn(`[rss] ITC ${url}: XML не розібрався`); continue; }
+
+    const items = result?.rss?.channel?.item || [];
+    const arr = Array.isArray(items) ? items : [items];
+    let inSection = 0;
+    for (const item of arr) {
+      const link = extractLink(item);
+      if (!link || !link.includes(ITC_ARTICLE_PATH)) continue;
+      inSection++;
+      if (!byLink.has(link)) byLink.set(link, item);
+    }
+    workingFeeds++;
+    console.log(`   ITC feed OK: ${url} → ${arr.length} items, ${inSection} у ${ITC_ARTICLE_PATH}`);
+  }
+
+  if (workingFeeds === 0) {
+    console.warn("[rss] ITC.ua: жодна адреса не віддала RSS — задай робочу через ITC_RSS_URL");
+    return [];
+  }
+
+  let tooShort = 0, skippedFormat = 0, war = 0;
+  const out = [];
+  let index = 0;
+  for (const item of byLink.values()) {
+    const title = stripHTML(item.title || "");
+    const description = stripHTML(item["content:encoded"] || item.description || "");
+    if (!title || !description) continue;
+    if (ITC_SKIP_TITLE.some(re => re.test(title))) { skippedFormat++; continue; }
+    if (description.length < 400) { tooShort++; continue; }
+    if (isWarRelated(title, description)) { war++; continue; }
+    out.push({
+      title,
+      description,
+      imageUrl:  extractImageUrl(item),
+      link:      extractLink(item),
+      pubDate:   parsePubDate(item.pubDate),
+      feedOrder: index++,
+      source:    "ITC.ua",
+      category:  "Наука та ІТ",
+    });
+  }
+  console.log(`   ITC: ${byLink.size} статей у стрічках → ${out.length} придатних (відсіяно: війна ${war}, формат-добірка/огляд ${skippedFormat}, закороткі ${tooShort})`);
+  if (tooShort > 0 && out.length === 0) {
+    console.warn("   ⚠️  ITC: усі статті закороткі — стрічка, схоже, віддає лише анонси (excerpt) без повного тексту.");
+  }
+  return out;
+}
+
+module.exports = { parseRSSFeeds, fetchOgImage, parseTsnFeed, parseItcFeed, isWarRelated };
