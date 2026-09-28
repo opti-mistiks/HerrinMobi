@@ -778,63 +778,142 @@ Output: single minified JSON object, no markdown, no backticks.
   return parsed.hints;
 }
 
+// ── Russian vocabularyWords for TSN ──────────────────────────────
+// The app highlights a word in the text by its exact `surface` form.
+// For Ukrainian that's vocabularyWords[{surface, hint}]. For Russian the
+// SAME hints must underline the SAME words, so we need the Russian
+// counterpart of every surface as it stands in the Russian text
+// (vocabularyWordsRu). Without it the app has nothing to underline in the
+// Russian text — which is exactly why Russian TSN articles showed 0-2
+// hints instead of the same ones as the Ukrainian version.
+
+const RU_STEM_ENDINGS = [
+  "ыми","ими","его","ого","ому","ему","ешь","ете","ают","яют","ает","яет",
+  "ами","ями","ать","ять","ить","еть","уть","ся","ов","ев","ей","ом","ем",
+  "ах","ях","ую","юю","ая","яя","ое","ее","ые","ие","ый","ий","ой","ам","ям",
+  "ка","ки","ку","ой","ым","им","а","я","ы","и","у","ю","о","е","ь","й",
+];
+
+function ruStem(w) {
+  let x = String(w).toLowerCase().replace(/ё/g, "е");
+  for (const suf of RU_STEM_ENDINGS) {
+    if (x.length > suf.length + 3 && x.endsWith(suf)) { x = x.slice(0, -suf.length); break; }
+  }
+  return x;
+}
+
+function normRu(s) {
+  return String(s).toLowerCase().replace(/ё/g, "е").replace(/[’ʼ]/g, "'").replace(/[\u2011\u2010]/g, "-");
+}
+
+// Find `surfaceRu` in `text` as a whole word/phrase; if the model's form
+// isn't literally there (case ending drifted, ё/е, etc.) fall back to the
+// token in the text sharing the longest common stem. Returns the EXACT
+// substring as written in the text (so the app's whole-word search hits it),
+// or null if nothing reasonable matches.
+function locateRuSurface(text, surfaceRu, lemmaRu) {
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const wholeWord = (needle) => {
+    if (!needle) return null;
+    const m = new RegExp(`(^|[^\\p{L}])(${esc(needle)})([^\\p{L}]|$)`, "iu").exec(text);
+    return m ? m[2] : null;
+  };
+  // 1) exact, then apostrophe (' <-> ’ <-> ʼ) and ё<->е variants
+  let hit = wholeWord(surfaceRu);
+  if (hit) return hit;
+  if (/['’ʼ]/.test(surfaceRu)) {
+    // build a pattern where any apostrophe matches any apostrophe glyph
+    const parts = String(surfaceRu).split(/['’ʼ]/).map(esc);
+    const m = new RegExp(`(^|[^\\p{L}])(${parts.join("['’ʼ]")})([^\\p{L}]|$)`, "iu").exec(text);
+    if (m) return m[2];
+  }
+  if (/ё/i.test(surfaceRu)) { hit = wholeWord(surfaceRu.replace(/ё/gi, m => (m === "Ё" ? "Е" : "е"))); if (hit) return hit; }
+  if (/е/i.test(surfaceRu)) { hit = wholeWord(surfaceRu.replace(/е/gi, m => (m === "Е" ? "Ё" : "ё"))); if (hit) return hit; }
+
+  // 2) multi-word phrase: locate each word and rebuild the contiguous span
+  const words = String(surfaceRu).trim().split(/\s+/);
+  const tokens = [...text.matchAll(/[\p{L}]+(?:['’ʼ\-\u2011][\p{L}]+)*/gu)].map(m => ({ t: m[0], i: m.index }));
+  const bestToken = (w) => {
+    const sw = ruStem(w);
+    if (sw.length < 3) return null;
+    let best = null, bestScore = 0;
+    for (const tk of tokens) {
+      const st = ruStem(tk.t);
+      const n = Math.min(sw.length, st.length);
+      let k = 0; while (k < n && sw[k] === st[k]) k++;
+      const score = k / Math.max(sw.length, st.length);
+      if (k >= 4 && score >= 0.7 && score > bestScore) { bestScore = score; best = tk; }
+    }
+    return best;
+  };
+  if (words.length === 1) {
+    const b = bestToken(words[0]) || (lemmaRu ? bestToken(String(lemmaRu).split(/\s+/)[0]) : null);
+    return b ? b.t : null;
+  }
+  // phrase: anchor on the first word, then require the following tokens to follow directly
+  const first = bestToken(words[0]);
+  if (!first) return null;
+  const fi = tokens.findIndex(tk => tk.i === first.i);
+  const span = tokens.slice(fi, fi + words.length);
+  if (span.length < words.length) return null;
+  const from = span[0].i, last = span[span.length - 1];
+  const out = text.slice(from, last.i + last.t.length);
+  return out;
+}
+
 // TSN articles: translate the full Ukrainian simplifiedText to Russian,
-// AND translate just the Ukrainian-lemma half of each hint
-// ("вибір — die Wahl, -en" -> "выбор — die Wahl, -en"). One Groq call
-// covers both, since they're the same UK->RU translation direction and
-// keeping them together halves the number of requests for this pass
-// (fewer calls = less pressure on the TPM ceiling that TSN generation
-// itself already runs close to — see MAX_TOKENS_BY_LEVEL_TSN above).
-async function translateTsnToRussian(simplifiedTextUkr, vocabularyHints, apiKey, originalTitleUkr) {
+// the hints (Ukrainian lemma half -> Russian lemma), AND for every
+// vocabularyWords entry the Russian surface form as it appears in the
+// Russian text. One Groq call covers everything (same UK->RU direction).
+async function translateTsnToRussian(simplifiedTextUkr, vocabularyHints, apiKey, originalTitleUkr, vocabularyWords) {
   const hintsIn = vocabularyHints || [];
+  const wordsIn = (vocabularyWords || []).map(w => ({ surface: w.surface, hint: w.hint }));
+
   const system = `Ти професійний перекладач з української на російську мову.
-Тобі дають:
-1. Заголовок статті українською мовою (може бути порожнім).
-2. Текст статті українською мовою.
-3. Масив підказок формату "<українське_слово> — <німецьке_слово>" —
-це слова/лексика, вжиті САМЕ В ЦЬОМУ ТЕКСТІ (в тому самому значенні,
-формі й контексті, в якому вони там зустрічаються).
+Тобі дають JSON з полями:
+- "title": заголовок статті українською (може бути порожнім).
+- "text": текст статті українською.
+- "hints": масив підказок формату "<українське_слово> — <німецьке_слово>".
+- "words": масив об'єктів {"surface","hint"}: "surface" — точна форма
+  слова так, як воно стоїть в українському тексті, "hint" — його підказка
+  (один з елементів масиву "hints").
 
 Завдання:
-1. Перекласти заголовок на російську мову (якщо він порожній — залиш
-"" у відповіді). Зберігай стиль заголовка новини.
-2. Перекласти текст на російську мову. Зберігай той самий зміст, стиль
-і рівень складності — це НЕ переказ і не спрощення, а точний переклад.
-3. Для КОЖНОЇ підказки з вхідного масиву — без винятку, нічого не
-пропускай і нічого не додавай — перекласти ТІЛЬКИ частину ДО " — "
-(українське слово/лему) на російську, а частину після " — " (німецьке
-слово) лишити БЕЗ ЗМІН. Це НЕ ізольований словниковий переклад: бери
-до уваги, в якому значенні це слово вжите САМЕ В ЦІЙ СТАТТІ (дивись
-на текст статті вище), і перекладай саме те значення — а не перше-
-ліпше словникове, якщо слово багатозначне чи омонімічне. Вихідний
-масив "hints_ru" МАЄ мати РІВНО ${hintsIn.length} елемент(и/ів) —
-стільки ж, скільки у вхідному масиві, в тому самому порядку,
-один-в-один відповідно позиції.
+1. Перекласти заголовок на російську мову (порожній -> "").
+2. Перекласти текст на російську мову. Це НЕ переказ і не спрощення, а
+   точний переклад зі збереженням змісту, стилю й рівня складності.
+3. Для КОЖНОЇ підказки з "hints" — без винятку, нічого не пропускай і
+   нічого не додавай — перекласти ТІЛЬКИ частину ДО " — " (українське
+   слово) на російську у ПОЧАТКОВІЙ формі (називний відмінок, інфінітив),
+   а частину після " — " (німецьке слово) лишити БЕЗ ЗМІН. Враховуй
+   значення слова САМЕ В ЦІЙ СТАТТІ. Масив "hints_ru" МАЄ мати РІВНО
+   ${hintsIn.length} елемент(и/ів), у тому самому порядку, один-в-один.
+4. Для КОЖНОГО елемента "words" вказати "surface_ru" — те саме слово
+   (або словосполучення) у тій ФОРМІ, в якій воно стоїть у ТВОЄМУ
+   російському тексті "text_ru" (з тим самим відмінком/числом/родом,
+   БУКВА В БУКВУ як у text_ru). Це має бути точний підрядок text_ru.
+   Якщо в українському тексті слово переведене в російському тексті
+   іншим словом — візьми те, що реально стоїть у text_ru. Масив
+   "words_ru" МАЄ мати РІВНО ${wordsIn.length} елемент(и/ів), у тому
+   самому порядку. У кожному елементі "hint_index" — індекс
+   відповідної підказки в масиві "hints" (0-based).
 
 Output: single minified JSON object, no markdown, no backticks.
-{"title_ru":"...","text_ru":"...","hints_ru":["<russian lemma> — <same German part>", ...]}`;
+{"title_ru":"...","text_ru":"...","hints_ru":["<russian lemma> — <same German part>", ...],"words_ru":[{"surface_ru":"...","hint_index":0}, ...]}`;
 
   const userPayload = JSON.stringify({
     title: originalTitleUkr || "",
     text: simplifiedTextUkr,
     hints: hintsIn,
+    words: wordsIn,
   });
 
-  // A couple of extra attempts specifically for the hints_ru length
-  // mismatch case: the "each field only checked for existence, not
-  // completeness" version of this validation let a truncated/short
-  // hints_ru silently through (Groq occasionally drops a trailing hint
-  // when it's under token pressure), which is how some TSN articles
-  // ended up with Ukrainian hints but no/partial Russian ones even
-  // though the run logged success. Retrying here, before the caller's
-  // own outer retry/fallback-key logic, keeps that failure mode from
-  // reaching saved data at all.
   let lastErr;
   for (let attempt = 1; attempt <= 3; attempt++) {
     const data = await groqRequest({
       model: MODEL,
       temperature: 0.1,
-      max_tokens: 4000,
+      max_tokens: 5000,
       reasoning_effort: "low",
       response_format: { type: "json_object" },
       messages: [
@@ -863,10 +942,51 @@ Output: single minified JSON object, no markdown, no backticks.
       console.warn(`  ⚠️  [RU][TSN] ${lastErr.message} — retrying (attempt ${attempt}/3)`);
       continue;
     }
+
+    const textRu = parsed.text_ru.trim();
+    const hintsRu = parsed.hints_ru.map(h => String(h).trim());
+
+    // Build vocabularyWordsRu: same hints, Russian surface verified to exist
+    // in textRu. `words_ru` is matched to `wordsIn` by position (fallback to
+    // hint_index). A word whose surface can't be located in the Russian text
+    // is dropped for RU only (never invented) — the hint still stays in
+    // hintsRu.
+    const wordsRuRaw = Array.isArray(parsed.words_ru) ? parsed.words_ru : [];
+    const wordsRu = [];
+    const seen = new Set();
+    for (let i = 0; i < wordsIn.length; i++) {
+      const w = wordsRuRaw[i] || {};
+      let hi = Number.isInteger(w.hint_index) ? w.hint_index : hintsIn.indexOf(wordsIn[i].hint);
+      if (hi < 0 || hi >= hintsRu.length) hi = hintsIn.indexOf(wordsIn[i].hint);
+      if (hi < 0) continue;
+      const hintRu = hintsRu[hi];
+      const lemmaRu = parseHintLemma(hintRu).lemma;
+      const surface = locateRuSurface(textRu, String(w.surface_ru || "").trim(), lemmaRu);
+      if (!surface || seen.has(normRu(surface))) continue;
+      seen.add(normRu(surface));
+      wordsRu.push({ surface, hint: hintRu });
+    }
+    // Same ordering rule as the UK/DE builders: by first appearance in text.
+    const posOf = (sfc) => {
+      const esc = sfc.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const m = new RegExp(`(^|[^\\p{L}])(${esc})([^\\p{L}]|$)`, "iu").exec(textRu);
+      return m ? m.index + m[1].length : Number.MAX_SAFE_INTEGER;
+    };
+    wordsRu.sort((a, b) => posOf(a.surface) - posOf(b.surface));
+
+    // Retry if we lost a lot of highlights compared to the UK version —
+    // that's the exact symptom we're fixing (few/no underlined words in RU).
+    if (wordsIn.length > 0 && wordsRu.length < Math.ceil(wordsIn.length * 0.75) && attempt < 3) {
+      lastErr = new Error(`words_ru resolved only ${wordsRu.length}/${wordsIn.length}`);
+      console.warn(`  ⚠️  [RU][TSN] ${lastErr.message} — retrying (attempt ${attempt}/3)`);
+      continue;
+    }
+
     return {
       titleRu: typeof parsed.title_ru === "string" ? parsed.title_ru.trim() : "",
-      textRu: parsed.text_ru.trim(),
-      hintsRu: parsed.hints_ru,
+      textRu,
+      hintsRu,
+      wordsRu,
     };
   }
   throw lastErr;
