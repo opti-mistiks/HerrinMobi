@@ -174,12 +174,13 @@ async function processRuTranslation(db, deResults, tsnResults) {
     try {
       const { result, nextIdx } = await runWithRuFallback(
         RU_FALLBACK_CHAIN, keyIdx,
-        (key) => translateTsnToRussian(article.simplifiedText, article.vocabularyHints, key, article.originalTitle)
+        (key) => translateTsnToRussian(article.simplifiedText, article.vocabularyHints, key, article.originalTitle, article.vocabularyWords)
       );
       keyIdx = nextIdx;
       article.originalTitleRu   = result.titleRu;
       article.simplifiedTextRu  = result.textRu;
       article.vocabularyHintsRu = result.hintsRu;
+      article.vocabularyWordsRu = result.wordsRu;
       tsnEst = getLastUsage(RU_FALLBACK_CHAIN[keyIdx]) || tsnEst;
       processed++;
       console.log(`  🇷🇺 [RU ${n}/${total}][TSN ${level}] "${article.originalTitle.slice(0, 40)}..." ok (key #${keyIdx + 1}, waited ${Math.round(waited / 1000)}s)`);
