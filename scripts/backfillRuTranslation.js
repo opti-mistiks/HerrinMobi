@@ -93,7 +93,11 @@ async function main() {
   const tsnCandidates = [];
   for (const level of TSN_SECTIONS) {
     for (const article of db[level] || []) {
-      if (!article.simplifiedTextRu) tsnCandidates.push({ level, article });
+      // also re-do TSN articles that already have Russian text but no
+      // vocabularyWordsRu — those are the ones with missing underlines.
+      if (!article.simplifiedTextRu || (article.vocabularyWords?.length && !article.vocabularyWordsRu)) {
+        tsnCandidates.push({ level, article });
+      }
     }
   }
 
@@ -132,11 +136,13 @@ async function main() {
       } else {
         const { result, nextIdx } = await runWithRuFallback(
           RU_FALLBACK_CHAIN, keyIdx,
-          (key) => translateTsnToRussian(article.simplifiedText, article.vocabularyHints, key)
+          (key) => translateTsnToRussian(article.simplifiedText, article.vocabularyHints, key, article.originalTitle, article.vocabularyWords)
         );
         keyIdx = nextIdx;
+        article.originalTitleRu   = result.titleRu || article.originalTitleRu;
         article.simplifiedTextRu  = result.textRu;
         article.vocabularyHintsRu = result.hintsRu;
+        article.vocabularyWordsRu = result.wordsRu;
         console.log(`  ✅ [TSN ${level}] "${article.originalTitle.slice(0, 50)}..."`);
       }
       processed++;
